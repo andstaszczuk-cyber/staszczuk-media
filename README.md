@@ -1,2 +1,1 @@
-# staszczuk-media
-Grafiki postow - Sedzia z glowa, Sportowa Rodzina
+Grafiki postów do publikacji w Metricool.
