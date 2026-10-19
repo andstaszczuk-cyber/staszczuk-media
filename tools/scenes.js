@@ -5,7 +5,7 @@ function fig(j, o = {}) { // j: joints {head:[x,y], sh:[x,y], hip:[x,y], lA:[[x,
   const limb = (pts) => `<polyline points="${s(pts)}" fill="none" stroke="${c}" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round"/>`;
   const [sx, sy] = j.sh, [hx, hy] = j.hip;
   const torso = `<path d="M${sx - 42},${sy} L${sx + 42},${sy} L${hx + 30},${hy} L${hx - 30},${hy} Z" fill="${c}" stroke="${c}" stroke-width="22" stroke-linejoin="round"/>`;
-  return `<g opacity="${o.op || 1}">${limb(j.lL)}${limb(j.rL)}${torso}${limb(j.lA)}${limb(j.rA)}<circle cx="${j.head[0]}" cy="${j.head[1]}" r="${o.hr || 36}" fill="${c}"/><polyline points="${sx - 20},${sy - 4} ${sx},${sy + 60} ${sx + 20},${sy - 4}" fill="none" stroke="#2B1515" stroke-width="5"/><rect x="${sx - 13}" y="${sy + 56}" width="26" height="16" rx="6" fill="#2B1515"/>${o.extra || ''}</g>`;
+  return `<g opacity="${o.op || 1}">${limb(j.lL)}${limb(j.rL)}${torso}${limb(j.lA)}${limb(j.rA)}<circle cx="${j.head[0]}" cy="${j.head[1]}" r="${o.hr || 36}" fill="${c}"/>${o.ref === false ? "" : `<polyline points="${sx - 20},${sy - 4} ${sx},${sy + 60} ${sx + 20},${sy - 4}" fill="none" stroke="#2B1515" stroke-width="5"/><rect x="${sx - 13}" y="${sy + 56}" width="26" height="16" rx="6" fill="#2B1515"/>`}${o.extra || ''}</g>`;
 }
 const defs = `<defs>
  <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="${Y}" stop-opacity=".9"/><stop offset=".35" stop-color="${Y}" stop-opacity=".25"/><stop offset="1" stop-color="${Y}" stop-opacity="0"/></radialGradient>
@@ -16,7 +16,42 @@ const defs = `<defs>
 const wrap = (inner) => `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" style="position:absolute;inset:0">${defs}<rect width="1080" height="1350" fill="url(#night)"/>${inner}<rect y="560" width="1080" height="790" fill="url(#fade)"/></svg>`;
 const light = (x, y, r = 260) => `<circle cx="${x}" cy="${y}" r="${r}" fill="url(#glow)"/><rect x="${x - 46}" y="${y - 18}" width="92" height="36" rx="6" fill="${Y}"/>`;
 const stands = (y) => { let p = `M0,${y}`; for (let x = 0; x <= 1080; x += 40) p += ` L${x},${y - 30 - ((x * 7) % 23)} L${x + 20},${y - 18}`; return `<path d="${p} L1080,1350 L0,1350 Z" fill="#221A1C"/>`; };
+const STAND = { head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [148, 228], [150, 300]], rA: [[240, 155], [252, 228], [250, 300]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] };
+const SIT = { head: [200, 70], sh: [200, 145], hip: [200, 340], lA: [[160, 155], [140, 250], [175, 320]], rA: [[240, 155], [260, 250], [225, 320]], lL: [[180, 345], [90, 355], [90, 500]], rL: [[220, 345], [310, 355], [310, 500]] };
+const kid = (x, y, sc, pose, o = {}) => `<g transform="translate(${x},${y}) scale(${sc})">${fig(pose, Object.assign({ color: Y, ref: false }, o))}</g>`;
+const adult = (x, y, sc, pose, o = {}) => `<g transform="translate(${x},${y}) scale(${sc})">${fig(pose, Object.assign({ ref: false }, o))}</g>`;
 const S = {
+  // powrót autem po meczu: rodzic za kierownicą, dziecko z tyłu
+  car: () => wrap(`<rect width="1080" height="1350" fill="#171315"/>${light(160, 120, 220)}${light(940, 160, 200)}
+    <rect x="120" y="0" width="14" height="140" fill="#2A2124"/><rect x="900" y="0" width="14" height="180" fill="#2A2124"/>
+    <path d="M90,640 L120,470 Q140,380 260,360 L760,350 Q860,350 920,450 L990,560 L990,640 Z" fill="#5A2427"/>
+    <path d="M200,470 Q215,400 290,392 L500,388 L500,500 L200,500 Z" fill="#241C1F"/><path d="M530,388 L740,386 Q810,388 850,470 L860,500 L530,500 Z" fill="#241C1F"/>
+    <circle cx="270" cy="650" r="70" fill="#0F0D0F" stroke="#3A2C2F" stroke-width="16"/><circle cx="800" cy="650" r="70" fill="#0F0D0F" stroke="#3A2C2F" stroke-width="16"/>
+    <circle cx="680" cy="430" r="34" fill="${CR}"/><path d="M630,500 Q640,465 680,462 Q722,465 730,500 Z" fill="${CR}"/>
+    <circle cx="660" cy="470" r="40" fill="none" stroke="${CR}" stroke-width="10" stroke-opacity=".0"/>
+    <circle cx="360" cy="448" r="26" fill="${Y}"/><path d="M322,500 Q330,475 360,472 Q392,475 398,500 Z" fill="${Y}"/>
+    <rect x="760" y="440" width="40" height="40" rx="20" fill="none" stroke="${CR}" stroke-width="8" stroke-opacity=".5"/>`),
+  // rodzic i dziecko na ławce przy boisku, rozmowa
+  bench_talk: () => wrap(`${light(880, 90, 280)}${stands(420)}<rect y="440" width="1080" height="910" fill="#1B2A1F" opacity=".5"/>
+    <rect x="170" y="560" width="740" height="34" rx="10" fill="#4A3A3E"/><rect x="210" y="594" width="22" height="110" fill="#4A3A3E"/><rect x="848" y="594" width="22" height="110" fill="#4A3A3E"/>
+    ${adult(250, 220, 0.95, SIT)}${kid(560, 330, 0.7, { head: [200, 70], sh: [200, 145], hip: [200, 330], lA: [[160, 155], [120, 230], [60, 250]], rA: [[240, 155], [260, 250], [225, 320]], lL: [[180, 335], [90, 350], [90, 490]], rL: [[220, 335], [310, 350], [310, 490]] })}`),
+  // rodzinna kolacja przy stole
+  dinner: () => wrap(`<rect width="1080" height="1350" fill="#1A1517"/><circle cx="540" cy="80" r="300" fill="url(#glow)" opacity=".55"/><line x1="540" y1="0" x2="540" y2="70" stroke="#3A2C2F" stroke-width="6"/><path d="M470,70 L610,70 L580,120 L500,120 Z" fill="${Y}"/>
+    ${adult(80, 210, 0.9, SIT)}${kid(700, 330, 0.62, SIT)}
+    <rect x="200" y="520" width="680" height="34" rx="10" fill="#6E2C30"/><rect x="250" y="554" width="22" height="150" fill="#5A2427"/><rect x="808" y="554" width="22" height="150" fill="#5A2427"/>
+    <ellipse cx="420" cy="512" rx="60" ry="12" fill="${CR}" opacity=".9"/><ellipse cx="660" cy="512" rx="60" ry="12" fill="${CR}" opacity=".9"/><rect x="530" y="470" width="22" height="42" rx="6" fill="${CR}" opacity=".7"/>`),
+  // trójkąt: trener (z gwizdkiem), dziecko w środku, rodzic
+  triangle: () => wrap(`${light(180, 90, 240)}${light(900, 90, 240)}${stands(430)}<rect y="450" width="1080" height="900" fill="#1B2A1F" opacity=".5"/>
+    <path d="M200,690 L540,330 L880,690 Z" fill="none" stroke="${Y}" stroke-opacity=".35" stroke-width="6" stroke-dasharray="18 14"/>
+    ${adult(40, 200, 0.95, STAND, { ref: true })}${adult(660, 200, 0.95, STAND)}${kid(400, 320, 0.7, STAND)}
+    <rect x="236" y="380" width="56" height="74" rx="8" fill="${CR}" stroke="#2B1515" stroke-width="4"/>`),
+  // dziecko mierzy się przy ścianie z kreskami: punkt odniesienia to ono samo
+  growth: () => wrap(`<rect width="1080" height="1350" fill="#1A1517"/><circle cx="900" cy="120" r="260" fill="url(#glow)" opacity=".35"/>
+    <rect x="560" y="60" width="16" height="640" fill="#3A2C2F"/>
+    ${[600, 540, 480, 420, 360].map((y, i) => `<line x1="560" y1="${y}" x2="${i === 4 ? 660 : 620}" y2="${y}" stroke="${i === 4 ? Y : CR}" stroke-width="${i === 4 ? 8 : 5}" stroke-opacity="${i === 4 ? 1 : .55}"/>`).join('')}
+    <text x="680" y="370" font-family="Poppins,sans-serif" font-weight="800" font-size="44" fill="${Y}">dziś</text><text x="640" y="610" font-family="Poppins,sans-serif" font-weight="500" font-size="32" fill="${CR}" fill-opacity=".6">wrzesień</text>
+    ${kid(330, 300, 0.82, STAND)}${adult(40, 200, 0.95, { head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [148, 228], [150, 300]], rA: [[240, 155], [300, 190], [360, 170]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] })}
+    <rect y="700" width="1080" height="16" fill="#3A2C2F"/>`),
   // zejście z boiska pod światłami, samotnie
   walk: () => wrap(`${light(180, 110)}${light(900, 90, 300)}${stands(440)}
     <rect y="470" width="1080" height="880" fill="#1B2A1F" opacity=".55"/>
