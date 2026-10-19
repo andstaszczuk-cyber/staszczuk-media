@@ -41,6 +41,29 @@ const ICONS = {
   flag: c => `<path d="M20 180 L70 90 L100 130 L130 70 L180 180 Z" fill="none" stroke="${c}" stroke-width="10" stroke-linejoin="round"/><path d="M130 70 V20 L165 32 L130 44" fill="none" stroke="${c}" stroke-width="8" stroke-linejoin="round"/>`,
   head: c => `<path d="M70 190 V150 C40 140 28 112 30 84 C34 40 70 12 110 14 C150 16 176 46 174 84 L188 112 H172 V138 C172 150 162 156 150 156 H130 V190" fill="none" stroke="${c}" stroke-width="10" stroke-linejoin="round"/><path d="M98 86 a14 14 0 1 1 14 14 a28 28 0 1 1 -28 -28" fill="none" stroke="${c}" stroke-width="8" stroke-linecap="round"/>`,
 };
+
+Object.assign(ICONS, {
+  stairs: c => `<path d="M20 180 H60 V140 H100 V100 H140 V60 H180 V20" fill="none" stroke="${c}" stroke-width="10" stroke-linejoin="round"/><circle cx="62" cy="112" r="12" fill="${c}"/><path d="M62 124 V150 M50 136 L74 134" stroke="${c}" stroke-width="8" stroke-linecap="round"/>`,
+  foot: c => `<ellipse cx="70" cy="120" rx="26" ry="44" fill="none" stroke="${c}" stroke-width="10"/><ellipse cx="135" cy="70" rx="24" ry="40" fill="none" stroke="${c}" stroke-width="10"/><path d="M60 180 h20 M126 124 h18" stroke="${c}" stroke-width="10" stroke-linecap="round"/>`,
+  growth: c => `<path d="M20 180 H185 M20 180 V20" stroke="${c}" stroke-width="8" stroke-linecap="round" opacity=".6"/><path d="M35 150 L80 110 L110 130 L170 50" fill="none" stroke="${c}" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><path d="M140 48 H172 V80" fill="none" stroke="${c}" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>`,
+  trophy: c => `<path d="M60 25 H140 V80 a40 40 0 0 1 -80 0 Z" fill="none" stroke="${c}" stroke-width="10" stroke-linejoin="round"/><path d="M60 40 H30 a28 28 0 0 0 34 40 M140 40 H170 a28 28 0 0 1 -34 40 M100 120 V150 M68 178 H132 M80 150 H120 V178" fill="none" stroke="${c}" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>`,
+  person: c => `<circle cx="100" cy="60" r="32" fill="none" stroke="${c}" stroke-width="10"/><path d="M35 185 C40 130 70 108 100 108 C130 108 160 130 165 185" fill="none" stroke="${c}" stroke-width="10" stroke-linecap="round"/>`,
+  heart: c => `<path d="M100 178 C40 130 18 100 22 66 C26 36 52 22 74 26 C88 28 96 38 100 48 C104 38 112 28 126 26 C148 22 174 36 178 66 C182 100 160 130 100 178 Z" fill="none" stroke="${c}" stroke-width="10" stroke-linejoin="round"/>`,
+  coins: c => `<ellipse cx="100" cy="50" rx="60" ry="20" fill="none" stroke="${c}" stroke-width="10"/><path d="M40 50 V90 c0 11 27 20 60 20 s60-9 60-20 V50 M40 90 V130 c0 11 27 20 60 20 s60-9 60-20 V90" fill="none" stroke="${c}" stroke-width="10"/>`,
+  flags: c => `<path d="M40 185 V25 M40 30 H110 L95 55 L110 80 H40" fill="none" stroke="${c}" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/><path d="M120 185 V95 M120 100 H175 L162 120 L175 140 H120" fill="none" stroke="${c}" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" opacity=".65"/>`,
+  tag: c => `<path d="M100 20 H175 V95 L95 175 L20 100 Z" fill="none" stroke="${c}" stroke-width="10" stroke-linejoin="round"/><circle cx="145" cy="50" r="12" fill="${c}"/>`,
+  check: c => `<rect x="25" y="25" width="150" height="150" rx="20" fill="none" stroke="${c}" stroke-width="10"/><path d="M60 100 L90 130 L145 70" fill="none" stroke="${c}" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>`,
+  compare: c => `<circle cx="65" cy="70" r="24" fill="none" stroke="${c}" stroke-width="9" opacity=".55"/><path d="M25 175 C30 135 45 115 65 115 C85 115 100 135 105 175" fill="none" stroke="${c}" stroke-width="9" opacity=".55"/><circle cx="140" cy="55" r="26" fill="none" stroke="${c}" stroke-width="10"/><path d="M95 175 C100 125 118 100 140 100 C162 100 180 125 185 175" fill="none" stroke="${c}" stroke-width="10"/>`,
+  cloud: c => `<path d="M55 130 a32 32 0 0 1 4 -64 a44 44 0 0 1 84 10 a28 28 0 0 1 2 54 Z" fill="none" stroke="${c}" stroke-width="10" stroke-linejoin="round"/><path d="M70 155 L60 180 M105 155 L95 180 M140 155 L130 180" stroke="${c}" stroke-width="10" stroke-linecap="round"/>`,
+  scale: c => `<path d="M100 25 V175 M60 175 H140 M30 55 H170" stroke="${c}" stroke-width="10" stroke-linecap="round"/><path d="M30 55 L10 115 H50 Z M170 55 L150 115 H190 Z" fill="none" stroke="${c}" stroke-width="9" stroke-linejoin="round"/>`,
+  tools: c => `<path d="M45 155 L120 80 M120 80 a28 28 0 1 0 -6 -40 l-18 18 l10 22 l22 10 l18 -18" fill="none" stroke="${c}" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><circle cx="45" cy="155" r="14" fill="none" stroke="${c}" stroke-width="10"/>`,
+  gauge: c => `<path d="M25 140 a75 75 0 0 1 150 0" fill="none" stroke="${c}" stroke-width="12" stroke-linecap="round"/><path d="M100 140 L140 80" stroke="${c}" stroke-width="10" stroke-linecap="round"/><circle cx="100" cy="140" r="12" fill="${c}"/><path d="M40 170 H160" stroke="${c}" stroke-width="8" stroke-linecap="round" opacity=".5"/>`,
+  wind: c => `<path d="M20 70 H130 a22 22 0 1 0 -22 -22 M20 110 H160 a22 22 0 1 1 -22 22 M20 150 H90" fill="none" stroke="${c}" stroke-width="10" stroke-linecap="round"/>`,
+  people: c => `<circle cx="60" cy="70" r="22" fill="none" stroke="${c}" stroke-width="9"/><circle cx="140" cy="70" r="22" fill="none" stroke="${c}" stroke-width="9"/><circle cx="100" cy="55" r="26" fill="none" stroke="${c}" stroke-width="10"/><path d="M50 175 C55 125 75 100 100 100 C125 100 145 125 150 175 M15 165 C18 130 35 110 60 110 M185 165 C182 130 165 110 140 110" fill="none" stroke="${c}" stroke-width="9" stroke-linecap="round"/>`,
+  dumbbell: c => `<path d="M55 100 H145" stroke="${c}" stroke-width="12" stroke-linecap="round"/><rect x="30" y="60" width="25" height="80" rx="6" fill="none" stroke="${c}" stroke-width="10"/><rect x="145" y="60" width="25" height="80" rx="6" fill="none" stroke="${c}" stroke-width="10"/><path d="M15 80 V120 M185 80 V120" stroke="${c}" stroke-width="10" stroke-linecap="round"/>`,
+  bubble: c => `<path d="M30 40 H170 a14 14 0 0 1 14 14 V130 a14 14 0 0 1 -14 14 H90 L55 175 V144 H30 a14 14 0 0 1 -14 -14 V54 a14 14 0 0 1 14 -14 Z" fill="none" stroke="${c}" stroke-width="10" stroke-linejoin="round"/><path d="M85 75 a16 16 0 1 1 22 15 c-6 3 -7 6 -7 12" fill="none" stroke="${c}" stroke-width="9" stroke-linecap="round"/><circle cx="100" cy="120" r="6" fill="${c}"/>`,
+});
+
 const L = {
   quote: (s, T, cls) => `<div class="c" style="align-items:flex-start;text-align:left">
     <div style="font:600 30px P;letter-spacing:3px;color:${T.ft};margin-bottom:36px">CZĘSTO SŁYSZĘ W GABINECIE</div>
@@ -70,13 +93,18 @@ const L = {
     <text x="680" y="425" text-anchor="end" font-family="P" font-weight="600" font-size="28" fill="${f}" opacity=".7">pobudzenie →</text>
     <text x="40" y="40" text-anchor="end" font-family="P" font-weight="600" font-size="28" fill="${f}" opacity=".7" transform="rotate(-90 40 40)" dx="-10">wykonanie</text></svg></div>`; },
 };
-L.point = (s, T, cls) => `<div class="c" style="align-items:flex-start;text-align:left">
-    <div style="font:800 170px/1 P;color:${T.mark ? T.fg : Y};margin-bottom:30px">${s.n}.</div>
-    <div class="h" style="font-size:72px;color:${T.fg};margin-bottom:36px">${hl(s.title, cls)}</div>
-    <div style="font:500 46px/1.45 P;color:${T.fg};opacity:.92">${esc(s.body)}</div></div>`;
-L.end = (s, T, cls) => `<div class="c"><div class="h" style="font-size:${size(s.text)}px;color:${T.fg}">${hl(s.text, cls)}</div>
-    <div style="width:140px;height:10px;background:${T.mark ? T.fg : Y};border-radius:5px;margin:56px 0 44px"></div>
-    <div style="font:600 40px/1.4 P;color:${T.fg};opacity:.85">${esc(s.cta || 'Zapisz, żeby wrócić przed startem.')}</div></div>`;
+L.point = (s, T, cls) => { const c = T.mark ? T.fg : Y;
+  return `<div class="c" style="align-items:flex-start;text-align:left">
+    <div style="display:flex;align-items:center;gap:40px;margin-bottom:46px">
+      <svg viewBox="0 0 200 200" width="220">${ICONS[s.icon || 'target'](c)}</svg>
+      <div style="font:800 150px/1 P;color:${c}">${s.n}</div></div>
+    <div class="h" style="font-size:72px;color:${T.fg};margin-bottom:34px">${hl(s.title, cls)}</div>
+    <div style="font:500 46px/1.45 P;color:${T.fg};opacity:.92">${esc(s.body)}</div></div>`; };
+L.end = (s, T, cls) => { const c = T.mark ? T.fg : Y;
+  return `<div class="c"><svg viewBox="0 0 200 200" width="240" style="margin-bottom:56px">${ICONS[s.icon || 'bubble'](c)}</svg>
+    <div class="h" style="font-size:${size(s.text)}px;color:${T.fg}">${hl(s.text, cls)}</div>
+    <div style="width:140px;height:10px;background:${c};border-radius:5px;margin:56px 0 44px"></div>
+    <div style="font:600 40px/1.4 P;color:${T.fg};opacity:.85">${esc(s.cta || 'Zapisz, żeby wrócić przed startem.')}</div></div>`; };
 const layoutTile = (s) => {
   const T = TH[s.theme || 'grafit'];
   const cls = T.mark ? 'u' : T.hl ? 'mk' : 'y';
