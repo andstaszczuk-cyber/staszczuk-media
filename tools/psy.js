@@ -64,6 +64,12 @@ Object.assign(ICONS, {
   bubble: c => `<path d="M30 40 H170 a14 14 0 0 1 14 14 V130 a14 14 0 0 1 -14 14 H90 L55 175 V144 H30 a14 14 0 0 1 -14 -14 V54 a14 14 0 0 1 14 -14 Z" fill="none" stroke="${c}" stroke-width="10" stroke-linejoin="round"/><path d="M85 75 a16 16 0 1 1 22 15 c-6 3 -7 6 -7 12" fill="none" stroke="${c}" stroke-width="9" stroke-linecap="round"/><circle cx="100" cy="120" r="6" fill="${c}"/>`,
 });
 
+Object.assign(ICONS, {
+  step: c => `<path d="M30 160 H70 V125 H110 V90 H150 V55 H185" fill="none" stroke="${c}" stroke-width="8" stroke-linejoin="round" opacity=".45"/><path d="M58 108 c-14 -4 -20 -22 -16 -40 c4 -16 16 -26 28 -22 c12 4 14 20 10 36 c-4 18 -10 30 -22 26 Z M54 118 c8 2 14 8 12 16 c-2 8 -10 10 -18 8 c-8 -2 -10 -10 -8 -16 c2 -6 8 -10 14 -8 Z" fill="${c}"/>`,
+  tally: c => `<path d="M40 40 V160 M75 40 V160 M110 40 V160 M145 40 V160 M25 140 L165 60" stroke="${c}" stroke-width="12" stroke-linecap="round"/>`,
+  toolbox: c => `<rect x="20" y="70" width="160" height="100" rx="12" fill="none" stroke="${c}" stroke-width="10"/><path d="M70 70 V45 a10 10 0 0 1 10 -10 H120 a10 10 0 0 1 10 10 V70 M20 110 H180 M85 100 V122 H115 V100" fill="none" stroke="${c}" stroke-width="10" stroke-linejoin="round"/>`,
+});
+
 const L = {
   quote: (s, T, cls) => `<div class="c" style="align-items:flex-start;text-align:left">
     <div style="font:600 30px P;letter-spacing:3px;color:${T.ft};margin-bottom:36px">CZĘSTO SŁYSZĘ W GABINECIE</div>
