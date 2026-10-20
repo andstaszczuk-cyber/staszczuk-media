@@ -12,6 +12,8 @@ const fontCss = `
 @font-face{font-family:Pop;font-weight:800;src:url(${F('poppins/files/poppins-latin-800-normal.woff2')}) format('woff2')}
 @font-face{font-family:Pop;font-weight:500;src:url(${F('poppins/files/poppins-latin-ext-500-normal.woff2')}) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF}
 @font-face{font-family:Pop;font-weight:500;src:url(${F('poppins/files/poppins-latin-500-normal.woff2')}) format('woff2')}
+@font-face{font-family:Pop;font-weight:600;font-style:italic;src:url(${F('poppins/files/poppins-latin-ext-600-italic.woff2')}) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF}
+@font-face{font-family:Pop;font-weight:600;font-style:italic;src:url(${F('poppins/files/poppins-latin-600-italic.woff2')}) format('woff2')}
 `;
 
 // Shield badge in the SST style: flat top with chamfers, straight sides, pointed bottom, double outline.
@@ -45,6 +47,7 @@ function page(body, { w, h, bg = 'grad' } = {}) {
   html,body{margin:0;width:${w}px;height:${h}px;overflow:hidden}
   body{background:${background};color:#fff;font-family:Pop,Poppins,sans-serif}
   .wm{font-family:Raj,sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.04em;line-height:.92;text-align:center}
+  em.q{font-style:italic;font-weight:600}
   .y{color:${COLORS.yellow}}
   </style></head><body>${body}</body></html>`;
 }

@@ -9,11 +9,15 @@ const font = `
 @font-face{font-family:P;font-weight:600;src:url(${F('poppins/files/poppins-latin-ext-600-normal.woff2')});unicode-range:U+0100-024F,U+1E00-1EFF}
 @font-face{font-family:P;font-weight:600;src:url(${F('poppins/files/poppins-latin-600-normal.woff2')})}
 @font-face{font-family:P;font-weight:500;src:url(${F('poppins/files/poppins-latin-ext-500-normal.woff2')});unicode-range:U+0100-024F,U+1E00-1EFF}
-@font-face{font-family:P;font-weight:500;src:url(${F('poppins/files/poppins-latin-500-normal.woff2')})}`;
+@font-face{font-family:P;font-weight:500;src:url(${F('poppins/files/poppins-latin-500-normal.woff2')})}
+@font-face{font-family:P;font-weight:600;font-style:italic;src:url(${F('poppins/files/poppins-latin-ext-600-italic.woff2')});unicode-range:U+0100-024F,U+1E00-1EFF}
+@font-face{font-family:P;font-weight:600;font-style:italic;src:url(${F('poppins/files/poppins-latin-600-italic.woff2')})}`;
 const Y = '#FCE86A';
-const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
-const hl = (s, cls = 'y') => esc(s).split('\\n').join('\n').split('\n').map(l => l.replace(/\*(.+?)\*/g, `<span class="${cls}">$1</span>`)).join('<br>');
-const plain = s => String(s).replace(/\*/g, '');
+const qq = s => String(s).replace(/[„“"]([^„”“"]+)[”"]/g, '_$1_').replace(/[„”“"]/g, '');
+const em = s => s.replace(/_([^_]+)_/g, '<em class="q">$1</em>');
+const esc = s => em(qq(s).replace(/&/g, '&amp;').replace(/</g, '&lt;'));
+const hl = (s, cls = 'y') => esc(s).split('\\n').join('\n').split('\n').map(l => em(l.replace(/\*(.+?)\*/g, `<span class="${cls}">$1</span>`))).join('<br>');
+const plain = s => qq(s).replace(/[*_]/g, '');
 const size = s => { const n = plain(s).length; return n < 16 ? 104 : n < 26 ? 92 : n < 40 ? 82 : 74; };
 
 // person silhouette for reel placeholders (the real cover = frame from his daily video)
@@ -73,8 +77,8 @@ Object.assign(ICONS, {
 const L = {
   quote: (s, T, cls) => `<div class="c" style="align-items:flex-start;text-align:left">
     <div style="font:600 30px P;letter-spacing:3px;color:${T.ft};margin-bottom:36px">CZĘSTO SŁYSZĘ W GABINECIE</div>
-    <div style="font:800 260px/1 Georgia,serif;color:${T.mark ? T.fg : Y};height:130px;overflow:hidden;margin:0 0 30px -8px">“</div>
-    <div class="h" style="font-size:${size(s.text) - 6}px;color:${T.fg}">${hl(s.text, cls)}</div></div>`,
+    <div style="width:120px;height:10px;background:${T.mark ? T.fg : Y};margin:0 0 44px"></div>
+    <div class="h" style="font-size:${size(s.text) - 6}px;color:${T.fg};font-style:italic;font-weight:600">${hl(s.text, cls)}</div></div>`,
   number: (s, T, cls) => `<div class="c" style="align-items:flex-start;text-align:left">
     <div style="font:800 300px/0.9 P;color:${T.mark ? T.fg : Y};letter-spacing:-8px">${s.n || (s.items || []).length}</div>
     <div class="h" style="font-size:${size(s.text) - 14}px;color:${T.fg};margin:10px 0 40px">${hl(s.text, cls)}</div>
@@ -134,7 +138,7 @@ function doc(body) {
   html,body{margin:0;width:1080px;height:1350px;overflow:hidden;position:relative}
   .c{position:absolute;top:150px;bottom:190px;left:150px;right:150px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
   .h{font-family:P;font-weight:800;line-height:1.2;letter-spacing:-.5px}
-  .y{color:${Y}} .k{color:${Y};background:#111;padding:0 .14em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+  em.q{font-style:italic;font-weight:600} .y{color:${Y}} .k{color:${Y};background:#111;padding:0 .14em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
   .mk{background:linear-gradient(180deg,transparent 55%,${Y} 55%,${Y} 92%,transparent 92%);padding:0 .06em} .u{text-decoration:underline;text-decoration-thickness:.09em;text-underline-offset:.14em}
   .cap{color:#fff;text-shadow:0 4px 18px rgba(0,0,0,.55)} .yb{color:${Y}}
   </style></head>${body}</html>`;

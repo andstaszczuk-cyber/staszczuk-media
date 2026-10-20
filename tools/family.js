@@ -11,9 +11,11 @@ const F = p => 'file://' + path.join(__dirname, 'node_modules/@fontsource', p);
 const css = `@font-face{font-family:AD;src:url(${F('architects-daughter/files/architects-daughter-latin-ext-400-normal.woff2')});unicode-range:U+0100-024F,U+1E00-1EFF}
 @font-face{font-family:AD;src:url(${F('architects-daughter/files/architects-daughter-latin-400-normal.woff2')})}
 html,body{margin:0;width:1080px;height:1350px;overflow:hidden;background:${BG};color:${INK};font-family:AD,sans-serif}
-.a{color:${ACC}} .c{position:absolute;left:70px;right:70px;text-align:center}`;
-const hl = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').split('\n').map(l => l.replace(/\*(.+?)\*/g, '<span class="a">$1</span>')).join('<br>');
-const len = s => String(s).replace(/\*/g, '').length;
+.a{color:${ACC}} em.q{font-style:italic;font-weight:600} .c{position:absolute;left:70px;right:70px;text-align:center}`;
+const qq = s => String(s).replace(/[„“"]([^„”“"]+)[”"]/g, '_$1_').replace(/[„”“"]/g, '');
+const em = s => s.replace(/_([^_]+)_/g, '<em class="q">$1</em>');
+const hl = s => qq(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').split('\n').map(l => em(l.replace(/\*(.+?)\*/g, '<span class="a">$1</span>'))).join('<br>');
+const len = s => qq(s).replace(/[*_]/g, '').length;
 const total = spec.slides.length;
 const foot = i => `<div class="c" style="bottom:46px;font-size:26px;opacity:.7">@sportowarodzina${total > 1 ? ' · ' + (i + 1) + '/' + total : ''}</div>`;
 const R = (d, w = 7, c) => `<path d="${d}" fill="none" stroke="${c || INK}" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round"/>`;
@@ -53,7 +55,7 @@ function slide(s, i) {
       ${s.text ? `<div style="font-size:52px;line-height:1.3;opacity:.85">${hl(s.text)}</div>` : ''}</div>${swipe}${foot(i)}`;
   }
   if (s.kind === 'cover' && s.layout === 'marker') {
-    const mk = String(s.text).replace(/&/g, '&amp;').split('\n').map(l => l.replace(/\*(.+?)\*/g, `<span style="background:linear-gradient(transparent 55%, ${spec.bg === 'khaki' ? '#F4F1E6' : '#FCE86A'} 55%, ${spec.bg === 'khaki' ? '#F4F1E6' : '#FCE86A'} 92%, transparent 92%);padding:0 6px">$1</span>`)).join('<br>');
+    const mk = qq(s.text).replace(/&/g, '&amp;').split('\n').map(l => l.replace(/\*(.+?)\*/g, `<span style="background:linear-gradient(transparent 55%, ${spec.bg === 'khaki' ? '#F4F1E6' : '#FCE86A'} 55%, ${spec.bg === 'khaki' ? '#F4F1E6' : '#FCE86A'} 92%, transparent 92%);padding:0 6px">$1</span>`)).join('<br>');
     return `<div style="position:absolute;left:100px;right:100px;top:0;bottom:0;display:flex;align-items:center"><div style="font-size:${len(s.text) < 50 ? 96 : 82}px;line-height:1.35">${mk}</div></div>${swipe}${foot(i)}`;
   }
   if (s.kind === 'cover') {

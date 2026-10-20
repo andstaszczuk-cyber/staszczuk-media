@@ -13,9 +13,11 @@ const B = {
   rodzina: { l1: 'SPORTOWA', l2: 'RODZINA', handle: 'sportowarodzina' },
   sedzia: { l1: 'SĘDZIA', l2: 'Z GŁOWĄ', handle: 'sedziazglowa' },
 }[spec.brand];
-const hl = s => String(s).replace(/\\n/g, '\n').replace(/&/g, '&amp;').replace(/</g, '&lt;')
-  .split('\n').map(l => l.replace(/\*(.+?)\*/g, '<span class="y">$1</span>')).join('<br>');
-const len = s => String(s).replace(/\*/g, '').length;
+const qq = s => String(s).replace(/[„“"]([^„”“"]+)[”"]/g, '_$1_').replace(/[„”“"]/g, '');
+const em = s => s.replace(/_([^_]+)_/g, '<em class="q">$1</em>');
+const hl = s => qq(s).replace(/\\n/g, '\n').replace(/&/g, '&amp;').replace(/</g, '&lt;')
+  .split('\n').map(l => em(l.replace(/\*(.+?)\*/g, '<span class="y">$1</span>'))).join('<br>');
+const len = s => qq(s).replace(/[*_]/g, '').length;
 const shield = `file://${__dirname}/sst_shield.png`;
 const total = spec.slides.length;
 const THEMES = {
@@ -48,8 +50,8 @@ function slideHtml(s, i) {
   if (s.kind === 'cover' && s.style === 'quote') {
     const fsz = len(s.text) < 50 ? 84 : len(s.text) < 90 ? 70 : 60;
     return `<div style="position:absolute;left:100px;right:100px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center">
-      <div class="acc" style="font-family:Georgia,serif;font-weight:700;font-size:240px;line-height:1;height:150px;margin-bottom:10px;overflow:visible"><span style="position:relative;top:-70px">„</span></div>
-      <div style="font-weight:800;font-size:${fsz}px;line-height:1.2;text-wrap:balance">${hl(s.text)}</div>
+      <div style="width:110px;height:8px;margin-bottom:48px" class="acc-bg"></div>
+      <div style="font-weight:600;font-style:italic;font-size:${fsz}px;line-height:1.2;text-wrap:balance">${hl(s.text)}</div>
       <div style="width:110px;height:6px;margin-top:44px" class="acc-bg"></div></div>
       ${total > 1 ? `<div style="position:absolute;right:80px;bottom:170px;font-family:Pop;font-weight:500;font-size:30px" class="acc">przesuń →</div>` : ""}${footer(i)}`;
   }
