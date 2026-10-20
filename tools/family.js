@@ -29,12 +29,12 @@ const ICONS = {
   moon: () => R('M190,70 C130,80 100,140 120,195 C140,245 205,255 245,220 C190,225 150,180 160,130 C165,100 175,82 190,70 Z', 8, ACC) + `<text x="200" y="110" font-family="AD" font-size="54" fill="${INK}">z</text><text x="235" y="80" font-family="AD" font-size="40" fill="${INK}">z</text><text x="262" y="56" font-family="AD" font-size="30" fill="${INK}">z</text>`,
   triangle: () => R('M150,60 L255,240 L45,240 Z', 5) + ['M150,60', 'M255,240', 'M45,240'].map((p, k) => `<circle cx="${[150, 255, 45][k]}" cy="${[60, 240, 240][k]}" r="${k === 0 ? 34 : 30}" fill="${BG}" stroke="${k === 0 ? ACC : INK}" stroke-width="7"/>`).join('') + `<text x="150" y="18" text-anchor="middle" font-family="AD" font-size="30" fill="${ACC}">dziecko</text><text x="255" y="296" text-anchor="middle" font-family="AD" font-size="28" fill="${INK}">trener</text><text x="45" y="296" text-anchor="middle" font-family="AD" font-size="28" fill="${INK}">rodzic</text>`,
 };
-const doodle = (name, size = 330) => `<svg viewBox="-20 -10 340 320" overflow="visible" width="${size}" height="${size}">${ICONS[name]()}</svg>`;
+const doodle = (name, size = 330) => `<svg class="dd" viewBox="-20 -10 340 320" overflow="visible" width="${size}" height="${size}"><g>${ICONS[name]()}</g></svg>`;
 function slide(s, i) {
   const swipe = total > 1 ? `<div style="position:absolute;right:70px;bottom:44px;font-size:30px" class="a">przesuń →</div>` : '';
   if (s.kind === 'cover' && s.layout === 'doodle') {
-    return `<div class="c" style="top:0;bottom:110px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:40px">
-      <div style="font-size:${len(s.text) < 45 ? 84 : 72}px;line-height:1.25">${hl(s.text)}</div>${doodle(s.icon, 520)}</div>${swipe}${foot(i)}`;
+    return `<div class="c" style="top:0;bottom:110px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:56px">
+      <div style="font-size:${len(s.text) < 45 ? 84 : 72}px;line-height:1.25">${hl(s.text)}</div>${doodle(s.icon, 440)}</div>${swipe}${foot(i)}`;
   }
   if (s.kind === 'cover' && s.layout === 'bubble') {
     const b = s.bubbles.map((t, k) => `<div style="align-self:${k % 2 ? 'flex-end' : 'flex-start'};max-width:78%;border:6px solid ${k % 2 ? ACC : INK};border-radius:46px;padding:26px 44px;font-size:66px;line-height:1.2;background:${k % 2 ? 'transparent' : 'rgba(255,255,255,.35)'};transform:rotate(${k % 2 ? 1.5 : -1.5}deg)">${hl(t)}</div>`).join('');
@@ -90,6 +90,12 @@ function slide(s, i) {
   for (let i = 0; i < total; i++) {
     fs.writeFileSync(tmp, `<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head><body>${slide(spec.slides[i], i)}</body></html>`);
     await p.goto('file://' + tmp); await p.evaluate(() => document.fonts.ready);
+    // przytnij rysunek do faktycznych krawędzi, żeby odstęp od tekstu był równy
+    await p.evaluate(() => document.querySelectorAll('svg.dd').forEach(sv => {
+      const b = sv.querySelector('g').getBBox(), pad = 8, H = sv.height.baseVal.value;
+      sv.setAttribute('viewBox', `${b.x - pad} ${b.y - pad} ${b.width + 2 * pad} ${b.height + 2 * pad}`);
+      sv.setAttribute('height', H); sv.setAttribute('width', H * (b.width + 2 * pad) / (b.height + 2 * pad));
+    }));
     await p.screenshot({ path: path.join(outDir, `${i + 1}.png`) });
   }
   fs.unlinkSync(tmp); await b.close();
