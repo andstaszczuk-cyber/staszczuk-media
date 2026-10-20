@@ -72,10 +72,10 @@ function slide(s, i) {
   }
   if (s.kind === 'point') {
     const n = spec.slides.slice(0, i + 1).filter(x => x.kind === 'point').length;
-    return `<div style="position:absolute;left:90px;right:90px;top:150px">
+    return `<div style="position:absolute;left:90px;right:90px;top:0;bottom:110px;display:flex;flex-direction:column;justify-content:center"><div>
       <div class="a" style="font-size:120px;line-height:1">${n}.</div>
       <div style="font-size:74px;line-height:1.2;margin:30px 0 44px">${hl(s.title)}</div>
-      <div style="font-size:${len(s.body) < 160 ? 54 : 48}px;line-height:1.45">${hl(s.body)}</div></div>${foot(i)}`;
+      <div style="font-size:${len(s.body) < 160 ? 54 : 48}px;line-height:1.45">${hl(s.body)}</div></div></div>${foot(i)}`;
   }
   return `<div class="c" style="top:0;bottom:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:40px">
     <div style="font-size:${len(s.text) < 60 ? 78 : 64}px;line-height:1.25">${hl(s.text)}</div>
