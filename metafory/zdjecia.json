@@ -1,0 +1,114 @@
+[
+ {
+  "plik": "zdjecia/9260_kolor.jpg",
+  "opis": "koszykówka, piłka w dłoniach, ciemne tło",
+  "czb": false,
+  "orientacja": "pozioma",
+  "jasne_tlo": false
+ },
+ {
+  "plik": "zdjecia/9260_bw.jpg",
+  "opis": "koszykówka, piłka w dłoniach, ciemne tło",
+  "czb": true,
+  "orientacja": "pozioma",
+  "jasne_tlo": false
+ },
+ {
+  "plik": "zdjecia/9315_kolor.jpg",
+  "opis": "boks, czerwone rękawice w gardzie",
+  "czb": false,
+  "orientacja": "pionowa",
+  "jasne_tlo": false
+ },
+ {
+  "plik": "zdjecia/9315_bw.jpg",
+  "opis": "boks, czerwone rękawice w gardzie",
+  "czb": true,
+  "orientacja": "pionowa",
+  "jasne_tlo": false
+ },
+ {
+  "plik": "zdjecia/9371_kolor.jpg",
+  "opis": "MMA, rękawice w gardzie, żółto-czarna koszulka",
+  "czb": false,
+  "orientacja": "pionowa",
+  "jasne_tlo": false
+ },
+ {
+  "plik": "zdjecia/9371_bw.jpg",
+  "opis": "MMA, rękawice w gardzie, żółto-czarna koszulka",
+  "czb": true,
+  "orientacja": "pionowa",
+  "jasne_tlo": false
+ },
+ {
+  "plik": "zdjecia/9393_kolor.jpg",
+  "opis": "MMA, rękawica KSW, koszulka SST",
+  "czb": false,
+  "orientacja": "pionowa",
+  "jasne_tlo": false
+ },
+ {
+  "plik": "zdjecia/9393_bw.jpg",
+  "opis": "MMA, rękawica KSW, koszulka SST",
+  "czb": true,
+  "orientacja": "pionowa",
+  "jasne_tlo": false
+ },
+ {
+  "plik": "zdjecia/9412_kolor.jpg",
+  "opis": "piłka nożna, cała sylwetka, koszulka reprezentacji",
+  "czb": false,
+  "orientacja": "pionowa",
+  "jasne_tlo": false
+ },
+ {
+  "plik": "zdjecia/9412_bw.jpg",
+  "opis": "piłka nożna, cała sylwetka, koszulka reprezentacji",
+  "czb": true,
+  "orientacja": "pionowa",
+  "jasne_tlo": false
+ },
+ {
+  "plik": "zdjecia/9449_kolor.jpg",
+  "opis": "siedzi na podłodze, sprzęt sportowy i książka, jasne tło",
+  "czb": false,
+  "orientacja": "pozioma",
+  "jasne_tlo": true
+ },
+ {
+  "plik": "zdjecia/9449_bw.jpg",
+  "opis": "siedzi na podłodze, sprzęt sportowy i książka, jasne tło",
+  "czb": true,
+  "orientacja": "pozioma",
+  "jasne_tlo": true
+ },
+ {
+  "plik": "zdjecia/9466_kolor.jpg",
+  "opis": "portret, biała koszulka SST, jasne tło",
+  "czb": false,
+  "orientacja": "pionowa",
+  "jasne_tlo": true
+ },
+ {
+  "plik": "zdjecia/9466_bw.jpg",
+  "opis": "portret, biała koszulka SST, jasne tło",
+  "czb": true,
+  "orientacja": "pionowa",
+  "jasne_tlo": true
+ },
+ {
+  "plik": "zdjecia/9511_kolor.jpg",
+  "opis": "portret z książką, czarna koszulka SST",
+  "czb": false,
+  "orientacja": "pionowa",
+  "jasne_tlo": false
+ },
+ {
+  "plik": "zdjecia/9511_bw.jpg",
+  "opis": "portret z książką, czarna koszulka SST",
+  "czb": true,
+  "orientacja": "pionowa",
+  "jasne_tlo": false
+ }
+]

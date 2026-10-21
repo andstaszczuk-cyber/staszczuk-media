@@ -1,0 +1,1844 @@
+[
+ {
+  "id": 1,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Nowy sposób myślenia jest jak nauka jazdy na rowerze. Wsiadasz pierwszy raz, chwiejesz się, jest nienaturalnie i niefajnie. Ale wsiadasz kolejny raz, bo wierzysz, że jazda na rowerze ma sens. Na przykład zamiast nie mam talentu: mam swoje tempo uczenia się i będę się rozwijał w swoim tempie. I codziennie zbierasz na to dowody.",
+  "na_relacje": "Nowa myśl jest jak nowa jazda na rowerze. Na początku się chwiejesz. Wsiadasz znowu, bo wierzysz, że to ma sens.",
+  "warianty": [],
+  "uzyta": "2026-10-22"
+ },
+ {
+  "id": 2,
+  "temat": "stres i presja",
+  "rodzaj": "metafora",
+  "tekst": "Co powiesz na tolerowanie dyskomfortu, na wzięcie go ze sobą? Ja też bym chciał, wychodząc pobiegać, przestać się pocić i mieć lżejszy początek. Biegam od 25 lat i nigdy mi się to nie zdarzyło, pierwsze 3 km zawsze są dyskomfortem. Poza tolerowaniem tego nigdy nie znalazłem innego sposobu.",
+  "na_relacje": "Od 25 lat biegam i pierwsze 3 km zawsze bolą. Dyskomfortu nie przełamujesz. Bierzesz go ze sobą.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 3,
+  "temat": "koncentracja",
+  "rodzaj": "przypowieść",
+  "tekst": "Kiedyś na gali bokserskiej wygrałem rundy i usłyszałem w narożniku: tę jedną już sobie odpuść, bo i tak wygrałeś. Kompletnie odjęło mi motywację i sromotnie przegrałem tę rundę. Przeciwnik się zmobilizował, bo czuł zagrożenie i nie miał nic do stracenia. Gdyby trener powiedział: potrzebujemy tej rundy, zrobiłbym swoją robotę. Tak działa jedna informacja, którą puścisz sobie w głowie.",
+  "na_relacje": "Usłyszałem: tę rundę możesz odpuścić. I sromotnie ją przegrałem. Jedna myśl potrafi wyłączyć całą mobilizację.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 4,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "Umysł ma taką zdolność, że przyjemne rzeczy szybko zapomina, ulatują z głowy, a nieprzyjemne utrwala, jakby stukał i wykuwał je w kamieniu. A przecież możesz od siebie wymagać, chcieć więcej i skuteczniej, i jednocześnie siebie doceniać. To się w ogóle nie wyklucza.",
+  "na_relacje": "Mózg wykuwa porażki w kamieniu, a sukcesy zapomina. Możesz od siebie wymagać i jednocześnie się doceniać.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 5,
+  "temat": "cele i proces",
+  "rodzaj": "przypowieść",
+  "tekst": "Mam kota, któremu co jakiś czas trzeba czyścić uszy. Ani on tego nie lubi, ani ja. Ma wtedy tę samą minę co ja. Ale to jest użyteczne. Tak samo jest z niektórymi rzeczami w sporcie: wolałbym trenować więcej, ale zmniejszam objętość, bo to jest sensowne i poukładane.",
+  "na_relacje": "Nie wszystko, co sensowne, jest przyjemne. Czasem robisz coś, bo jest użyteczne. I tyle.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 6,
+  "temat": "rutyna i start",
+  "rodzaj": "metafora",
+  "tekst": "Do każdego meczu można podejść jak do premiery. Nie ma czegoś takiego jak faworyt i nie-faworyt. Nie wiesz, jak potoczy się ten spektakl, bo dopiero go piszesz. To, że ktoś kiedyś z tobą wygrał, nie znaczy, że wygra teraz. Trzeba wyjść i kolejny raz zaserwować.",
+  "na_relacje": "Każdy mecz to premiera. Scenariusz nie jest napisany z góry, piszesz go teraz.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 7,
+  "temat": "porażka i błąd",
+  "rodzaj": "metafora",
+  "tekst": "Można patrzeć tak: spłonął dom, straciłam dom. A można pomyśleć: dobra, wreszcie mogę zbudować ten salon tak, jak bym chciała. Albo definiujesz się przez deficyty, albo przez to, co z tym można zrobić. Możemy się taplać w tym, co nie działa, a możemy się taplać w rozwiązaniach. W którą stronę idziemy?",
+  "na_relacje": "Możesz się taplać w tym, co nie działa, albo w rozwiązaniach. W którą stronę idziesz?",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 8,
+  "temat": "emocje i złość",
+  "rodzaj": "metafora",
+  "tekst": "Nad tym się pracuje codziennie, tak samo jak trenujecie piłkę nożną. Nie trenujecie jej raz w tygodniu i nie oczekujecie, że coś fajnego z tego wyjdzie. Nie trenujecie rzutów wolnych raz na kwartał. Układ nerwowy musi po prostu codziennie dostawać bodźce.",
+  "na_relacje": "Nie trenujesz rzutów wolnych raz na kwartał. Z głową jest tak samo: układ nerwowy potrzebuje codziennych bodźców.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 9,
+  "temat": "inne",
+  "rodzaj": "metafora",
+  "tekst": "Najlepiej radzący sobie sportowcy i trenerzy to ci, którzy proszą o pomoc innych. Mamy różne specjalizacje, są fizjoterapeuci, są masażyści. Nie sposób robić wszystkiego samemu, tak jak nie naprawiasz sam rury, tylko wzywasz hydraulika.",
+  "na_relacje": "Najlepsi nie robią wszystkiego sami. Proszą o pomoc tych, którzy się na tym znają.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 10,
+  "temat": "motywacja",
+  "rodzaj": "metafora",
+  "tekst": "Człowiek ma taką zdolność: jedzie Ferrari, mija go ktoś w Maserati i myśli: kurde, to moje jakieś nie takie fajne. To niekończąca się historia. Zawsze może być więcej i przestajesz się cieszyć tym, co masz. Więc pytanie do ciebie: za co mógłbyś być wdzięczny?",
+  "na_relacje": "Jedziesz Ferrari i zazdrościsz Maserati? Zawsze może być więcej. Zapytaj, za co jesteś wdzięczny.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 11,
+  "temat": "kariera i decyzje",
+  "rodzaj": "metafora",
+  "tekst": "Jesteś w fazie przewartościowania swojego świata, budowania nowych celów i nowego sensu. Wszystko, co było do tej pory, możesz potraktować jako zasób, dzięki któremu lepiej rozumiesz siebie, albo jako kotwicę, którą ciągniesz. Wybór należy do ciebie. A to, że jest taki okres, nie znaczy, że jest gorszy. Nie znam ludzi, którzy cały czas mają wysoką motywację.",
+  "na_relacje": "Twoja przeszłość może być zasobem albo kotwicą, którą ciągniesz. Wybór należy do ciebie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 12,
+  "temat": "tożsamość i życie poza sportem",
+  "rodzaj": "przypowieść",
+  "tekst": "To jest jak z bogaczami: mają pieniądze, mogą kupić wszystko, a są nieszczęśliwi, bo szczęście daje poczucie spełnienia i satysfakcji. Można mieć cały worek medali i myśleć tylko o tym jednym, którego się nie zdobyło. Tak można się sabotować przez całe życie.",
+  "na_relacje": "Można mieć worek medali i myśleć tylko o tym jednym, którego brakuje. Tak można się sabotować całe życie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 13,
+  "temat": "regeneracja i sen",
+  "rodzaj": "metafora",
+  "tekst": "Mózg też ma swoją wydolność. Nie może jechać non stop na bardzo wysokich obrotach, to jest niemożliwe. Po prostu nie zostaliśmy do tego stworzeni.",
+  "na_relacje": "Mózg też ma swoją wydolność. Nie da się jechać non stop na najwyższych obrotach.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 14,
+  "temat": "trener i rodzice",
+  "rodzaj": "przypowieść",
+  "tekst": "Przychodzą rodzice, przyprowadzają dzieciaka i mówią: dzisiaj zaczynamy, a za tydzień chcemy, żeby był mistrzem świata. Tak to nie działa. Dam ci to, czego potrzebujesz, ale potrzebny jest proces.",
+  "na_relacje": "Dziś pierwszy trening, za tydzień mistrz świata? Nie. Na wszystko potrzebny jest proces.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 15,
+  "temat": "wyobraźnia i wizualizacja",
+  "rodzaj": "metafora",
+  "tekst": "Wyobraź sobie ten moment i cofnij go jak taśmę, jak na Netflixie: cofasz, cofasz, cofasz. A teraz zobacz, że robisz to poprawnie, i opisz mi, jak wygląda ten przejazd.",
+  "na_relacje": "Cofnij błąd jak film na Netflixie. I odtwórz go w głowie w wersji poprawnej.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 16,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Jeżeli twoje przekonanie nie powoduje, że czujesz się tak, jak chcesz, nie działasz tak, jak chcesz, i nie zbliża cię do celów, to jest do zmiany. To tak, jakbyś trzymał w mieszkaniu darmozjada. Nie płaci, a jak z nim mieszkasz, to idzie ci gorzej. Pytanie brzmi: czy chcesz utrzymywać takiego darmozjada?",
+  "na_relacje": "Przekonanie, które ci nie pomaga, to darmozjad w twojej głowie. Nie płaci, a ty go utrzymujesz.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 17,
+  "temat": "stres i presja",
+  "rodzaj": "metafora",
+  "tekst": "Wszystkie opinie i oczekiwania innych są jak wiatr. On po prostu jest dookoła i nie masz na niego wpływu. Nie dzwonisz do Boga z prośbą: wyłącz wiatr, bo mi przeszkadza. Akceptujesz, że jest, a uwagę kierujesz na zadanie do wykonania.",
+  "na_relacje": "Opinie innych są jak wiatr. Nie wyłączysz go. Zaakceptuj i skup się na swoim zadaniu.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 18,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "Myślom pozwalamy przepływać jak chmurom na niebie, jak samochodom na autostradzie. Siadasz i je oglądasz, nie przyklejasz się do nich, tylko obserwujesz. I wracasz do oddechu.",
+  "na_relacje": "Pozwól myślom przepływać jak samochodom na autostradzie. Obserwuj, nie wsiadaj do każdego.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 19,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "Oczekiwania są jak gumka. Kiedy jest napięta delikatnie, ciągnie cię do przodu i jest ci łatwiej. U ciebie jest napięta za mocno. Kierunek masz dobry, tylko poluzuj tę gumeczkę: niech cele będą ambitne, ale w zasięgu.",
+  "na_relacje": "Oczekiwania są jak gumka. Napięta lekko, ciągnie do przodu. Napięta za mocno, w końcu pęka.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 20,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "Jak przed maratonem myślisz o 42 kilometrach, to jest motywacyjne zabójstwo. Ale jak pomyślisz: przede mną 5 km, skupiam się na najbliższym kilometrze i stawiam dobrze stopy, to zupełnie inna strategia. Słonia je się po kawałku.",
+  "na_relacje": "42 km to motywacyjne zabójstwo. Najbliższy kilometr już nie. Słonia je się po kawałku.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 21,
+  "temat": "rutyna i start",
+  "rodzaj": "metafora",
+  "tekst": "Przed startem zakładasz plecak i wrzucasz do niego swoje mocne strony: techniczne, taktyczne, fizyczne i mentalne. To wszystko zabierasz na matę. Organizm i tak się mobilizuje, żeby wydatkować wszystkie te zasoby.",
+  "na_relacje": "Przed startem spakuj plecak. Wrzuć do niego swoje mocne strony i zabierz je na matę.",
+  "warianty": [
+   "Ludzie, którzy ci pomagają, i wszystko, co robisz dobrze, to twoje zasoby. Tak jakbyś do wirtualnego plecaka dokładała kolejne rzeczy, które cię wspierają. Trzeba je dostrzegać, wręcz wyolbrzymiać, bo jak się ich nie wyciąga, to tak, jakby ich nie było. A błędy rozkminiamy zawsze bardzo mocno.",
+   "Zapisz sobie: chcę być starszym mnichem. Zostaw tamtą sytuację w tamtym miejscu, tam, gdzie powinna zostać. Bo jeżeli każdą konfliktową sytuację będziesz nieść ze sobą, to tak, jakbyś wzięła plecak na plecy, władowała do niego kilkadziesiąt kilogramów kamieni i tak chodziła.",
+   "Każda niezałatwiona sprawa to ciężar w plecaku, który cały czas nosisz. Jak ją załatwisz, nawet nieumiejętnie, to i tak jest lżej, dosłownie wyciągasz to z plecaka. Wysokie oczekiwania wobec siebie to też ciężar. Zapytaj się: co wyrozumiałego powiedziałbym kumplowi w takiej sytuacji?",
+   "Spisz sukcesy i sukcesiki, nawet malutkie. To żmudna robota, ale budujemy zasoby. Jakbyś brał plecak na zawody i mówił: w przeszłości tyle rzeczy zrobiłem super, to i to zrobię, dam radę."
+  ],
+  "uzyta": null
+ },
+ {
+  "id": 22,
+  "temat": "porażka i błąd",
+  "rodzaj": "metafora",
+  "tekst": "To jest jak piłkarz, który wchodzi na boisko, ma pierwsze kiepskie zagranie i od razu mówi sobie: no to już po meczu. To kwestia nastawienia i tego, jak postrzegasz proces rozwoju i błędy. Można to zmienić, ale to wymaga zaangażowania.",
+  "na_relacje": "Jedno słabe zagranie to nie przegrany mecz. Chyba że sam sobie tak powiesz.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 23,
+  "temat": "emocje i złość",
+  "rodzaj": "przypowieść",
+  "tekst": "Zobacz, dziecko płacze i całe otoczenie od razu ma nawyk, żeby je pocieszyć. A powinniśmy pozwolić mu się wypłakać, pobyć w smutku i poczekać, aż przejdzie. Identycznie robimy ze sobą. A nie powinniśmy.",
+  "na_relacje": "Pozwól sobie się wypłakać i pobyć w smutku. Nie każdą emocję trzeba od razu pocieszać.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 24,
+  "temat": "inne",
+  "rodzaj": "metafora",
+  "tekst": "Mózg czyta coś i od razu mówi: przecież wiem. Ale szybko się zapomina. Ślad pamięciowy trzeba odświeżać jak zupkę, którą podgrzewasz, żeby cały czas była ciepła.",
+  "na_relacje": "Ślad pamięciowy trzeba odświeżać jak zupę, którą podgrzewasz, żeby była ciepła.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 25,
+  "temat": "motywacja",
+  "rodzaj": "metafora",
+  "tekst": "Wcale się nie dziwię, że ci się nudzi. Jakbyś codziennie jadł czekoladę, to w pewnym momencie i tak by ci obrzydła. To jest zdolność do powtarzalności w dyskomforcie. Można pewne rzeczy urozmaicić i uporządkować nastawienie, ale pewnej dozy dyskomfortu się nie ominie.",
+  "na_relacje": "Codzienna czekolada też by ci obrzydła. Pewnej dozy dyskomfortu w treningu się nie ominie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 26,
+  "temat": "kariera i decyzje",
+  "rodzaj": "metafora",
+  "tekst": "Nie wiem bywa bezpieczniejsze niż wiem. To jest jak z kropką na ręce: dobra, nie idę do lekarza, bez sensu. A potem rośnie. Ludzie, którzy w końcu poznają diagnozę, mają spokój. Mogli go mieć wcześniej. Więc kiedy pójdziesz i porozmawiasz?",
+  "na_relacje": "Nie wiem wydaje się bezpieczne. Ale spokój przychodzi dopiero wtedy, gdy sprawdzisz.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 27,
+  "temat": "tożsamość i życie poza sportem",
+  "rodzaj": "metafora",
+  "tekst": "Szukamy wszystkich zasobów, na których trzyma się twój stół. Bo jak pojawi się w życiu coś trudnego, rozstanie albo upadek, to masz inne rzeczy, na których możesz się oprzeć. Na przykład wiedza: tego nikt mi nie zabierze.",
+  "na_relacje": "Na ilu nogach stoi twój stół? Gdy jedna się złamie, musisz mieć na czym się oprzeć.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 28,
+  "temat": "regeneracja i sen",
+  "rodzaj": "metafora",
+  "tekst": "To jest odroczony koszt. Ludzie ujeżdżają się przez długi czas i mówią: jakoś daję radę, nie wiedząc, że bomba tyka. Jak biegniesz sprintem w maratonie, to wiadomo, że nie starczy sił. Biegnie się w tempie, w którym możesz przebiec 42 km.",
+  "na_relacje": "Jakoś daję radę? Bomba tyka. Nie biegnij sprintem w maratonie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 29,
+  "temat": "trener i rodzice",
+  "rodzaj": "metafora",
+  "tekst": "Rzeczywistość taka jest. Można się na nią obrażać jak dziecko, które rzuca zabawkami, a można zacząć się adaptować: zrekonfigurować się tak, żeby dalej maksymalizować szansę na własny rozwój. Trener jest jeden i choćby się dwoił i troił, swojej uwagi na wszystkich nie rozproszy.",
+  "na_relacje": "Możesz obrażać się na rzeczywistość jak dziecko rzucające zabawkami. Albo się do niej zaadaptować.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 30,
+  "temat": "wyobraźnia i wizualizacja",
+  "rodzaj": "metafora",
+  "tekst": "Zamartwianie się i wyobrażenie gór to jedno i to samo: obraz w twojej głowie. Różnica jest taka, że jedno daje lęk i napięcie, a drugie relaks. Niepokojące myśli będą pukać: hej, wpuść nas. A ty wracasz i włączasz film pod tytułem góry. Jak technika, która za pierwszym razem nie wychodzi, więc robisz ją kolejny raz.",
+  "na_relacje": "Zamartwianie się to też tylko film w głowie. Możesz przełączyć kanał na góry.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 31,
+  "temat": "pewność siebie",
+  "rodzaj": "przypowieść",
+  "tekst": "Przeczytałem kiedyś, przypisywane Meryl Streep, że kiedyś wchodziła do pomieszczenia i zastanawiała się, czy ci ludzie ją lubią. A teraz wchodzi i zastanawia się, czy ona lubi tych ludzi. Odwróciła to. I to odwrócenie wydaje mi się bardzo dobre.",
+  "na_relacje": "Zamiast pytać, czy oni mnie lubią, zapytaj: czy ja lubię ich? Odwróć to.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 32,
+  "temat": "stres i presja",
+  "rodzaj": "przypowieść",
+  "tekst": "Wyobraź sobie, że biegnie na ciebie rozpędzony niedźwiedź, a ty nie masz strachu. Myślisz: fajny kolor sierści, ciekawe, czy jest szczęśliwy, pewnie mu ciepło w tym futrze. Co by się stało? Strach mówi: uważaj, reaguj błyskawicznie. I po to jest.",
+  "na_relacje": "Biegnie na ciebie niedźwiedź, a ty podziwiasz jego sierść. Tak wyglądałoby życie bez strachu.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 33,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "Takie myślenie nigdzie cię nie prowadzi, nie sprawia, że lepiej coś wykonasz, tylko cię męczy. To tak, jakbyś utrzymywała darmozjada. Płacisz mu swoją uwagą, tu masz, tu masz, a on nic nie wnosi.",
+  "na_relacje": "Mielenie myśli to darmozjad. Płacisz mu uwagą, a on nic nie wnosi.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 34,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "Kibic ma tylko wycinek. Nie był na boisku w roli zawodnika, więc nie ma pojęcia, z czego wynikają wasze zagrania. A ty przy syndromie oszusta widzisz całą masę błędów, całą masę goryli, których nikt dookoła nie dostrzega. I jednocześnie nie widzisz goryla obfitości, bo ciągle patrzysz w deficyt.",
+  "na_relacje": "Widzisz u siebie goryle błędów, których nikt nie zauważa. A goryla swoich atutów przeoczasz.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 35,
+  "temat": "cele i proces",
+  "rodzaj": "przypowieść",
+  "tekst": "Tenisistka prowadzi w secie 5:2 i nagle myśli, że musi dowieźć wynik. Zmienia taktykę, zaczyna grać zachowawczo zamiast agresywnie i zaczyna się sypać, bo rywalka gra va banque, żeby odmienić losy meczu. Korzystaj z taktyki, która prowadzi cię do sukcesu. Zmieniaj ją dopiero wtedy, kiedy przestaje działać.",
+  "na_relacje": "Prowadzisz i zaczynasz grać zachowawczo? Trzymaj się taktyki, która dała ci przewagę, dopóki działa.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 36,
+  "temat": "rutyna i start",
+  "rodzaj": "przypowieść",
+  "tekst": "Był bokser, który przed pojedynkiem o wielką stawkę ustalał z żoną, co jutro kupią. Trochę tak to powinno wyglądać. Nie celebrujesz nie wiadomo jak, tylko przyjeżdżasz na halę i od tego momentu robisz swoją robotę, krok po kroku, aż do samego pojedynku.",
+  "na_relacje": "Przed wielką walką ustalał z żoną listę zakupów. Nie nadawaj startowi nadzwyczajnej rangi. Przyjeżdżasz i robisz swoją robotę.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 37,
+  "temat": "porażka i błąd",
+  "rodzaj": "metafora",
+  "tekst": "Każdy mecz to premiera. To nie jest tak, że ktoś wyżej w tabeli wygrywa z automatu. Musi wyjść i zagrać swoją piłkę. Nawet jak zagrasz mecz, w którym popełniasz błędy i nic nie idzie, następny wcale nie musi być identyczny. Każdy kolejny mecz może być nową premierą, nowym odcinkiem w tym serialu.",
+  "na_relacje": "Każdy mecz to premiera. Słaby występ nie przesądza o następnym odcinku.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 38,
+  "temat": "emocje i złość",
+  "rodzaj": "metafora",
+  "tekst": "Lubię metaforę kart. Dostajesz w pokerze dziesiątkę, siódemkę, szóstkę, waleta. Możesz się obrażać i denerwować, że nie dostałaś asa ani króla. Albo możesz powiedzieć: mam takie karty, jakie mam, i spróbuję zrobić z nich najlepszy użytek.",
+  "na_relacje": "Nie dostałeś asa? Masz takie karty, jakie masz. Zrób z nich najlepszy użytek.",
+  "warianty": [
+   "Grasz w pokera i masz dziesiątkę, siódemkę, waleta, króla i damę. Możesz się obrażać, że dostałaś takie karty, a możesz spróbować wyciągnąć z nich najlepsze, co się da. Czujesz się tak, jak się czujesz, nic już z tym nie zrobisz. Ale masz wpływ na to, jak wystartujesz."
+  ],
+  "uzyta": null
+ },
+ {
+  "id": 39,
+  "temat": "inne",
+  "rodzaj": "metafora",
+  "tekst": "Często ktoś przychodzi, kiedy się pali, i mówi: ratuj, zróbmy coś w dwa spotkania. A to bywa dłuższy proces. Mam wprawdzie różdżkę Harry'ego Pottera, ale chyba trefną mi sprzedali, bo czaruję i nic. Praca u podstaw bywa żmudna, nudna i trudna, ale tak jak w sporcie: sukces jest w regularności.",
+  "na_relacje": "Nie mam różdżki. Praca nad głową bywa żmudna, nudna i trudna, a sukces jest w regularności.",
+  "warianty": [
+   "Czasami ktoś przychodzi i mówi: Andrzej, zaczaruj to. A ja mówię: mam różdżkę Harry'ego Pottera, ale chyba sprzedali mi trefny towar, bo nie działa. Działa za to rzetelna robota. Czasem żmudna, trudna, nudna, ale prawdziwa."
+  ],
+  "uzyta": null
+ },
+ {
+  "id": 40,
+  "temat": "motywacja",
+  "rodzaj": "metafora",
+  "tekst": "Nikt nie da ci gwarancji. Wiemy tyle, że jak ktoś jest uparty, systematycznie i wytrwale trenuje i robi właściwe rzeczy we właściwy sposób, to prędzej czy później, raczej później, zaparkuje w okolicy miejsca docelowego. Umiejętności w pewnym momencie się kalibrują, tylko nie wiemy kiedy.",
+  "na_relacje": "Upór nie daje gwarancji, ale prędzej czy później parkujesz w okolicy celu.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 41,
+  "temat": "kariera i decyzje",
+  "rodzaj": "metafora",
+  "tekst": "Zmienianie techniki co chwilę to trochę jak mieć dwie dziewczyny i przeskakiwać: tu się fajnie zrobiło, to idę do tamtej. I ani tu nie jestem zaangażowany, ani tam. Wybór polega na tym, że znikają pozostałe opcje. Nie da się mieć ciastka i zjeść ciastka.",
+  "na_relacje": "Skakanie między technikami to jak skakanie między związkami. Nigdzie nie jesteś naprawdę zaangażowany.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 42,
+  "temat": "tożsamość i życie poza sportem",
+  "rodzaj": "przypowieść",
+  "tekst": "Kiedyś miałem archetyp wojownika. Każda okazja, żeby wyciągnąć miecz, i szedłem pierwszy. Aż stwierdziłem, że to strasznie męczące i dużo kosztuje. Nie w każdą potyczkę trzeba od razu wchodzić. Stworzyłem archetyp mądrego wojownika. Mądry wojownik wyciąga miecz tylko wtedy, kiedy to jest konieczne.",
+  "na_relacje": "Mądry wojownik wyciąga miecz tylko wtedy, kiedy to jest konieczne.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 43,
+  "temat": "regeneracja i sen",
+  "rodzaj": "przypowieść",
+  "tekst": "Mógłbym teraz biegać albo załatwiać sprawy, ale mówię: nie, idę na kawę, posiedzę i popatrzę na drzewo. Wybieram to teraz. Po godzinie idę załatwić sprawy i okazuje się, że nic się nie wydarzyło.",
+  "na_relacje": "Wybierasz kawę i patrzenie na drzewo zamiast kolejnych zadań. Po godzinie okazuje się, że nic się nie zawaliło.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 44,
+  "temat": "trener i rodzice",
+  "rodzaj": "metafora",
+  "tekst": "Jak ktoś się na ciebie irytuje, krzyczy i nie radzi sobie z sytuacją, wyobraź sobie, że rosną mu uszy jak u Myszki Miki. Naprawdę łapiesz wtedy dystans. Tylko nie wolno się śmiać, bo to rozjuszy tę osobę.",
+  "na_relacje": "Ktoś na ciebie krzyczy? Wyobraź sobie, że rosną mu uszy Myszki Miki. Tylko się nie śmiej.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 45,
+  "temat": "wyobraźnia i wizualizacja",
+  "rodzaj": "metafora",
+  "tekst": "Jak w wyobrażeniu popełnisz błąd, to przecież możesz zatrzymać taśmę. Jak w magnetofonie albo na Spotify. Cofasz ten fragment i wprowadzasz w to miejsce poprawne wykonanie. Na tym polega sztuka.",
+  "na_relacje": "Błąd w wizualizacji? Zatrzymaj taśmę, cofnij i nagraj poprawne wykonanie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 46,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Masz trochę dwa wilki w sobie. Jeden podpowiada, że wszystko jest okej. Drugi cały czas mówi: jesteś niepełna, ciągle musisz coś udowodnić, coś zapełnić.",
+  "na_relacje": "W każdym są dwa wilki. Jeden mówi: jest okej. Drugi: ciągle musisz coś udowodnić. Którego karmisz?",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 47,
+  "temat": "stres i presja",
+  "rodzaj": "metafora",
+  "tekst": "Lęk jest dla mnie czujnikiem dymu w domu. Czasem uruchamia się bez sensu, idziesz, sprawdzasz i nic się nie dzieje. Ale on mówi: w przyszłości jest coś, na czym ci zależy, i obawiasz się, że sprawy potoczą się niekorzystnie. Można mu za to podziękować.",
+  "na_relacje": "Lęk to czujnik dymu. Czasem piszczy bez powodu, ale mówi ci, że na czymś ci zależy.",
+  "warianty": [
+   "Mam w domu czujnik dymu, który czasem wariuje. Sprawdzam, nic się nie dzieje. Kiedyś się złościłem, a teraz myślę: dobrze, że daje znać, bo osiem razy się pomyli, ale za dziewiątym może być coś, na co trzeba zareagować. Tak jest z lękiem. Mówi: zauważ, zareaguj. Tylko bardzo często robi to nadmiernie.",
+   "Lubię lęk. Lęk jest jak czujnik dymu w domu. Czasami zadzwoni, schodzę, a nic się nie dzieje. Nie obrażam się na niego, tylko mówię: super, że mnie ostrzegasz. Teraz się pomyliłeś, ale generalnie możesz być bardzo pomocny.",
+   "Masz prawo się obawiać, to jest w porządku. Lęk jest jak czujnik w domu. Mówi ci: mobilizuj się, bądź czujny, bo to jest rzecz, na której ci zależy. W ten sposób trochę się przygotowujesz.",
+   "Lęk jest jak czujnik dymu w domu. Czasami piszczy, a nic się nie dzieje. Mówię: bez sensu, że zapiszczałeś, ale dzięki, że jesteś. Idę i sprawdzam, ale nie wierzę mu w stu procentach. Tak samo z lękiem przed walką: dobra, obawiam się tego, a co mam, żeby sobie z tym poradzić?"
+  ],
+  "uzyta": null
+ },
+ {
+  "id": 48,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "Myśl jest jak chmurka, którą mijasz w locie. Możesz ją zabrać ze sobą i analizować: a czy oni tam czasem nie polecieli, a skąd, a tamto. A możesz ją puścić: dobra, leć sobie, pomyślałam to. I wracasz do swojej roboty.",
+  "na_relacje": "Myśl to chmurka, którą mijasz. Nie musisz jej zabierać ze sobą. Puść i leć dalej.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 49,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "Jak ciągle potrzebujesz czuć się niewystarczający, żeby iść do przodu, to tworzy się ssąca dziura. Nie pozwalasz sobie na satysfakcję, radość, spełnienie ani docenienie siebie, bo obawiasz się, co się stanie, jak tylko to zrobisz.",
+  "na_relacje": "Ciągłe poczucie niewystarczalności to ssąca dziura. Nie zostawia miejsca na radość i docenienie siebie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 50,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "Kiedy Barcelona przyjeżdża do dużo słabszego zespołu, to nie odpuszcza. Wygrywa dziesięć zero, bez litości. Dlaczego? Bo wie, że to kolejny element procesu, który przygotowuje ją do wielkich meczów w Lidze Mistrzów. Mistrzostwa kraju to dla ciebie to samo: kolejna okazja, żeby zrobić swoją robotę.",
+  "na_relacje": "Barcelona nie odpuszcza słabszym. Każdy mecz to element procesu przed tym najważniejszym.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 51,
+  "temat": "rutyna i start",
+  "rodzaj": "metafora",
+  "tekst": "Jak myślisz o przeciwniczce, to jakbyś wyszła na matę i oddała jej pięć zero, zanim w ogóle weszłaś. Po co? Przełącz uwagę na siebie: jestem szybka, dynamiczna, silna i jutro to wszystko pokażę. Niech ona się martwi, jak zobaczy twoją dynamikę.",
+  "na_relacje": "Myślenie o rywalce to oddawanie jej punktów, zanim wejdziesz na matę. Przełącz się na siebie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 52,
+  "temat": "porażka i błąd",
+  "rodzaj": "metafora",
+  "tekst": "Możesz myśleć, że to wielka zagłada dla twojej kariery. Albo możesz pomyśleć: okej, to projekt. Fatalny, trudny, okropny do przetrawienia, ale rozwojowy. Szambo się wylało, muszę je posprzątać. Biorę to na klatę i zarządzam tym. Albo pozwalasz, żeby cię to przygniotło. To jest wybór.",
+  "na_relacje": "Szambo się wylało? Możesz dać się przygnieść albo wziąć to na klatę i posprzątać. To wybór.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 53,
+  "temat": "emocje i złość",
+  "rodzaj": "przypowieść",
+  "tekst": "Oglądasz czasem filmiki z małymi chłopcami w zapasach. Coś im nie wychodzi, ryczą z bezradności, ale idą i robią dalej. Uczą się działać pomimo emocji, bo liczy się każda następna akcja. Nigdy nie wiesz, która przyniesie rezultat.",
+  "na_relacje": "Możesz płakać i dalej walczyć. Liczy się każda następna akcja.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 54,
+  "temat": "inne",
+  "rodzaj": "przypowieść",
+  "tekst": "Mój tata zawsze był oszczędny, nie lubił wydawać pieniędzy, a mama dbała o dom. Znalazła sposób: tata wraca z pracy, a ona mówi, zobacz, jakie fajne firanki. On patrzy i mówi: ładne. To jest zarządzanie sytuacją. Nie ze wszystkim trzeba dyskutować, wyjaśniać i tłumaczyć.",
+  "na_relacje": "Nie wszystko trzeba tłumaczyć i wywalczać w dyskusji. Czasem wystarczy mądrze zarządzić sytuacją.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 55,
+  "temat": "motywacja",
+  "rodzaj": "metafora",
+  "tekst": "Przychodzisz do nowego sportu i musisz się go nauczyć. Najpierw jest entuzjazm, jesteś entuzjastycznym debiutantem, i nagle przechodzisz w rozczarowanego adepta. To normalny etap.",
+  "na_relacje": "Z entuzjastycznego debiutanta w rozczarowanego adepta. To normalny etap nauki sportu.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 56,
+  "temat": "kariera i decyzje",
+  "rodzaj": "metafora",
+  "tekst": "Formuła 1 wjeżdża do pit stopu, zmienia koła, poprawia różne rzeczy i jedzie dalej. Co by ta metafora wniosła do twojej sytuacji, gdybyś spojrzała na nią procesowo?",
+  "na_relacje": "Kontuzja to pit stop, nie koniec wyścigu. Zmieniasz koła i jedziesz dalej.",
+  "warianty": [
+   "Czym jest pit stop w Formule 1? Zmieniasz koła, dolewasz paliwa, coś szybko naprawiasz, ulepszasz. To są regeneracyjne, renowacyjne momenty. Czasem trwają bardzo krótko, czasem chwilę dłużej. Na ile ten okres może być twoim pit stopem, żebyś się ponownie rozpędziła?"
+  ],
+  "uzyta": null
+ },
+ {
+  "id": 57,
+  "temat": "tożsamość i życie poza sportem",
+  "rodzaj": "metafora",
+  "tekst": "Możesz chodzić swoimi ścieżkami jak kot. I masz do tego prawo. Mój kot się nie pyta, czy może iść. Idzie po prostu swoją ścieżką.",
+  "na_relacje": "Chodź swoimi ścieżkami jak kot. On nie pyta, czy może. Po prostu idzie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 58,
+  "temat": "regeneracja i sen",
+  "rodzaj": "metafora",
+  "tekst": "Z zegarkiem jest jak z nożem. Ma ci służyć do pewnych rzeczy, na przykład do krojenia chleba. Ale coś jest nie tak, kiedy pytasz kogoś, jak się wyspał, a on mówi: poczekaj, muszę sprawdzić.",
+  "na_relacje": "Zegarek jest jak nóż. Ma służyć. Gorzej, gdy pytasz, jak się wyspałeś, a ty musisz sprawdzić.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 59,
+  "temat": "trener i rodzice",
+  "rodzaj": "metafora",
+  "tekst": "Mój kot przychodzi o czwartej w nocy i się drze. Mogę się złościć, że tak głośno krzyczy, ale on mówi: chcę siku, wypuść mnie, proszę. Oddzielam się od formy i szukam, co jest w tym merytorycznego. Tak samo z krzykiem trenera: przetłumacz go na zadanie.",
+  "na_relacje": "Trener krzyczy? Oddziel formę od treści. Pod krzykiem zwykle jest konkretne zadanie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 60,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Do słów są przypisane wartości emocjonalne, a my się nimi posługujemy, nawet się nie zastanawiając. Gdybyś mi powiedziała dzień dobry, a ja bym odpowiedział dzień zły, od razu byś zwróciła uwagę, że coś jest nie tak. Dlatego warto słuchać tego, co mówisz do siebie w myślach.",
+  "na_relacje": "Gdybym na dzień dobry odpowiedział dzień zły, od razu byś to wyłapała. A jak mówisz do siebie w myślach?",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 61,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "Nie masz wpływu na to, z kim grasz, ale masz wpływ na to, jak grasz. Trzeba przełączyć umysł jak pilotem z jedynki na dwójkę: rywalka jak każda inna, zadania jak każde inne. Cała reszta to dodatkowy smaczek, jak dodatek na pizzy. Nic więcej.",
+  "na_relacje": "Nie wybierasz, z kim grasz. Wybierasz, jak grasz. Przełącz kanał z rywala na swoje zadanie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 62,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "Przypadek? To tak, jakby pobiec maraton w dwie trzydzieści i powiedzieć: o, ciekawe, przypadek.",
+  "na_relacje": "Rekord to nie przypadek. Nikt nie biegnie maratonu w 2:30 przez przypadek.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 63,
+  "temat": "cele i proces",
+  "rodzaj": "przypowieść",
+  "tekst": "Kiedyś na treningu boksu nie wychodziła mi kombinacja. Cały trening. Odpuściłem. Przez trzy tygodnie nie robiliśmy jej, tylko parę razy błysnęła mi w głowie. Przychodzę, próbujemy i nagle wychodzi: pach, pach, pach. Rzeczy utrwalają się w pamięci. Niektóre potrzebują czasu inkubacji, a nie większej liczby powtórzeń.",
+  "na_relacje": "Nie wychodzi? Czasem potrzebujesz nie więcej powtórzeń, tylko czasu, żeby to się w głowie ułożyło.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 64,
+  "temat": "rutyna i start",
+  "rodzaj": "metafora",
+  "tekst": "Mistrzostwa Europy są tylko w naszych umysłach. Wszyscy się umówiliśmy, że tak to nazywamy, ale żaba w jeziorku nie myśli o tym, że dziś są mistrzostwa Europy w zapasach. Błąd zawodników polega na tym, że nadają zawodom specjalną rangę i zaczynają robić coś inaczej niż na treningach. Zrób tak, jak zachowujesz się na co dzień.",
+  "na_relacje": "Żaba w jeziorku nie wie, że dziś są mistrzostwa. Zrób na zawodach to, co robisz na co dzień.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 65,
+  "temat": "porażka i błąd",
+  "rodzaj": "przypowieść",
+  "tekst": "Powiem ci na własnym przykładzie. Zawsze po maratonie, kiedy wieczorem siedziałem już wypoczęty, myślałem: kurczę, mogłem pobiec szybciej. Prawda jest taka, że nie mogłem. Gdybym mógł, to bym pobiegł. Tak myśli mnóstwo osób po zawodach, kiedy są już bezpieczne i wypoczęte.",
+  "na_relacje": "Mogłem dać więcej? Gdybyś mógł, to byś dał. To myśl wypoczętej głowy po zawodach.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 66,
+  "temat": "emocje i złość",
+  "rodzaj": "metafora",
+  "tekst": "Tłumienie w sobie jest bardzo napięciowe i zazwyczaj wybucha z potrójną siłą. To jak dziecko, które widzi, że mama płacze, a słyszy: wszystko dobrze, synku. Uczy się, że nie wolno mówić o swoim wnętrzu. Masz prawo mieć swoje reakcje i masz prawo wyrażać emocje.",
+  "na_relacje": "Stłumione emocje wybuchają z potrójną siłą. Masz prawo je czuć i wyrażać.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 67,
+  "temat": "inne",
+  "rodzaj": "metafora",
+  "tekst": "Jesteś w procesie zmiany i on cały czas się dzieje. Raz podpływasz do brzegu, potem odpływasz, znowu podpływasz. Ale jesteś coraz bliżej stabilności na brzegu.",
+  "na_relacje": "Zmiana to podpływanie do brzegu i odpływanie. Ale za każdym razem jesteś bliżej.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 68,
+  "temat": "motywacja",
+  "rodzaj": "metafora",
+  "tekst": "Warto chwytać moment i celebrować: jest dobrze tak, jak jest. Ale gumka musi być też czasem trochę napięta, czyli potrzebujesz celów i dążeń, bo wtedy jest mobilizacja. Jedno i drugie wymaga świadomej energii.",
+  "na_relacje": "Celebruj, że jest dobrze. Ale gumka musi być czasem napięta, bo cele dają mobilizację.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 69,
+  "temat": "kariera i decyzje",
+  "rodzaj": "metafora",
+  "tekst": "Masz teraz takie karty i nie ma co się obrażać na te karty. Jeżeli decydujesz się wystartować i podejmujesz to ryzyko, to zastanów się, jak zmaksymalizować karty, które masz. Plan działania sprawi, że twój mózg dostanie informację: ogarniam tę sytuację.",
+  "na_relacje": "Nie obrażaj się na karty, które dostałeś. Zastanów się, jak zagrać nimi najlepiej.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 70,
+  "temat": "tożsamość i życie poza sportem",
+  "rodzaj": "metafora",
+  "tekst": "Jeśli definiujesz się tylko przez jedną rolę, to wszystko postrzegasz przez tę rolę. To tak jak dyrektor sprzedaży, który przychodzi do domu i powinien zdjąć garnitur dyrektora, być ojcem, mężem i tysiącem innych rzeczy, a wciąż jest dyrektorem sprzedaży.",
+  "na_relacje": "Po pracy zdejmij garnitur. Nie jesteś tylko jedną rolą, choć łatwo o tym zapomnieć.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 71,
+  "temat": "trener i rodzice",
+  "rodzaj": "metafora",
+  "tekst": "Zawodnika, który naturalnie idzie do przodu, można poprawić w kontrze. Ale jak ustawisz go planem w stu procentach pod kontrę, to idziesz wbrew jego predyspozycjom. To jak robienie introwertyka z ekstrawertyka. Temperamentu nie zmienisz, możesz go wykorzystać maksymalnie.",
+  "na_relacje": "Temperamentu nie zmienisz. Możesz go za to wykorzystać maksymalnie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 72,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Z pewnością siebie jest jak w związku. Nie działa: powiedziałem ci 15 lat temu, że cię kocham, jak się coś zmieni, to cię poinformuję. Trzeba ponawiania. Cały czas potrzebujesz potwierdzeń, że zmierzasz w dobrym kierunku i jesteś przygotowany technicznie, taktycznie, fizycznie i mentalnie.",
+  "na_relacje": "Pewność siebie jest jak miłość. Nie wystarczy powiedzieć raz 15 lat temu. Trzeba ją ponawiać.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 73,
+  "temat": "stres i presja",
+  "rodzaj": "przypowieść",
+  "tekst": "Po latach wyszło, że jeden z najlepszych zawodników MMA w historii był przed pojedynkami przerażony. Płakał, nie chciał wyjść z szatni, wyciągali go na siłę. A potem wchodził i rozkładał rywala na łopatki. Ludzie mogą się śmiać, płakać, a potem iść i zrobić swoją robotę.",
+  "na_relacje": "Najlepsi też płakali w szatni przed walką. A potem wychodzili i robili swoją robotę.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 74,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "Wszyscy zawodnicy kminią i analizują, każdemu wpada do głowy tysiąc rzeczy. Mnie też. Nasz umysł jest jak maszyna do popcornu, która cały czas produkuje popcorn i nie pyta, czy zamawiałeś. Ale te myśli można obrabiać: kwestionować, zastępować i przygotowywać nowe.",
+  "na_relacje": "Umysł jest jak maszyna do popcornu. Produkuje myśli i nie pyta, czy zamawiałeś.",
+  "warianty": [
+   "Nasz mózg działa jak maszyna do popcornu. Produkuje popcorn non stop. Ty go nie chcesz, nie zamawiałeś, a ją to nie obchodzi. Ten popcorn to są myśli. Czy chcesz, czy nie, mózg będzie je produkował.",
+   "Obawy będą się pojawiały, będą wpadały do twojej głowy. Ja to nazywam tak, że mózg jest trochę jak maszyna do popcornu. A za tymi sformułowaniami idzie obciążenie: to muszę, tu muszę, tamto muszę.",
+   "Twój mózg to maszyna do popcornu. Nie zamawiałeś jej, ale masz ją wbudowaną i się jej nie pozbędziesz. Siedzisz, oglądasz film, a on ci wyrzuca myśl o błędzie z meczu. Na to nie masz wpływu. Ale masz wpływ na to, co zrobisz z tym popcornem. Możesz po prostu przełączyć uwagę.",
+   "Nasze myśli rzadko są prawdą, jeśli ich nie weryfikujesz. Mózg jest stworzony do tego, żeby myśleć, więc produkuje myśli, czy chcesz, czy nie. To jest jak maszyna do popcornu.",
+   "W głowie masz wbudowaną maszynę do popcornu. Ona się nie pyta, czy chcesz popcorn, tylko cały czas produkuje. Ten popcorn to najczęściej negatywne myśli. Możesz się na maszynę obrażać, walczyć z nią, próbować ją wyłączyć. Nie dasz rady. Sztuka polega na tym, żeby zaakceptować: o, pojawiły się, i przełączyć uwagę na to, co ci pomaga."
+  ],
+  "uzyta": null
+ },
+ {
+  "id": 75,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "Rozwój to są zachowania, działania. Nie to, że sobie poukładałeś myśli w głowie, a za tym nic nie poszło. To trochę jak gość na imprezie, który podpiera ścianę, jakby miała zaraz upaść, i widzi dziewczynę, która mu się podoba, ale wstydzi się podejść.",
+  "na_relacje": "Rozwój to działania, nie myśli. Inaczej jesteś gościem, który na imprezie podpiera ścianę.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 76,
+  "temat": "rutyna i start",
+  "rodzaj": "metafora",
+  "tekst": "Struktura daje ci oparcie, więc trzeba o nią dbać. Jak o ekspres do kawy: od czasu do czasu trzeba go naoliwić, odkamienić, coś wyczyścić. To bardzo zdrowe podejście.",
+  "na_relacje": "Struktura jest jak ekspres do kawy. Od czasu do czasu trzeba ją odkamienić.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 77,
+  "temat": "porażka i błąd",
+  "rodzaj": "przypowieść",
+  "tekst": "Kiedy uczyłem się jazdy, w pewnym momencie jeździłem jak rajdowiec. I nagle, dwudziesty któryś dzień, wsiadam, a auto co chwilę gaśnie, błąd za błędem, jakby mi ktoś odjął umiejętności. Instruktor mówi: czekałem na ten moment, każdy ma taki dzień. To nie znaczy, że nie umiesz, tylko że trzeba iść dalej. Następna jazda i znowu wszystko w porządku.",
+  "na_relacje": "Zły dzień nie znaczy, że nie umiesz. Znaczy, że trzeba iść dalej.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 78,
+  "temat": "emocje i złość",
+  "rodzaj": "metafora",
+  "tekst": "Mogłaś się czuć jak osaczone zwierzę. A osaczone zwierzę, mówiąc wprost, gryzie. Bo się boi. Próbuje się bronić i to jest normalne.",
+  "na_relacje": "Osaczone zwierzę gryzie, bo się boi. Twoja reakcja w trudnej sytuacji też była obroną.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 79,
+  "temat": "inne",
+  "rodzaj": "metafora",
+  "tekst": "Pójście na terapię to jest zadbanie o to, żeby czuć się dobrze ze sobą. To tak jak codziennie się myć i dbać o higienę. Higiena psychiczna.",
+  "na_relacje": "Dbanie o głowę to jak codzienne mycie się. Zwykła higiena, tylko psychiczna.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 80,
+  "temat": "motywacja",
+  "rodzaj": "metafora",
+  "tekst": "To jest jak bieg maratoński. Mówią, że dla pierwszej trójki są nagrody, ale jakie, dowiecie się na mecie. Wbiegasz, a tam: gratuluję, tu masz żel pod prysznic, a ty zniżkę na banany. Przerysowuję, ale tam, gdzie nie ma transparentności, od razu nie ma zaufania.",
+  "na_relacje": "Gdzie nie wiesz, o jaką nagrodę biegniesz, tam od razu nie ma zaufania.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 81,
+  "temat": "kariera i decyzje",
+  "rodzaj": "metafora",
+  "tekst": "Możesz to potraktować sportowo. Każda rekrutacja, każde takie spotkanie to dla ciebie trening. Z każdym razem będziesz coraz lepiej wiedziała, co trzeba zrobić, żeby zdobyć tę pracę.",
+  "na_relacje": "Każda rozmowa rekrutacyjna to trening. Z każdą wiesz lepiej, co zrobić następnym razem.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 82,
+  "temat": "tożsamość i życie poza sportem",
+  "rodzaj": "metafora",
+  "tekst": "Wychodzisz na boisko, robisz robotę, wracasz do domu, bierzesz prysznic i jesteś już człowiekiem, nie piłkarzem. Największym błędem zawodników jest to, że są zawodnikami cały czas. Przychodzisz do domu, wkładasz rolę piłkarza do szafy i bierzesz inną rolę.",
+  "na_relacje": "Po meczu włóż rolę zawodnika do szafy. Największy błąd to być sportowcem 24 godziny na dobę.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 83,
+  "temat": "regeneracja i sen",
+  "rodzaj": "przypowieść",
+  "tekst": "Przychodzi zawodnik i mówi: nie zrobiłem dwóch treningów w tym cyklu. A ja: chłopie, zrobiłeś wszystkie treningi, bo zrobiłeś dwa treningi regeneracji. Skąd wiesz, ile ich miało być? Guzik wiemy, czy potrzeba dziewięćdziesięciu, czy dziewięćdziesięciu pięciu.",
+  "na_relacje": "Nie opuściłeś treningu. Zrobiłeś trening regeneracji.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 84,
+  "temat": "trener i rodzice",
+  "rodzaj": "metafora",
+  "tekst": "Jest zawodnik i trener, który się drze i wyzywa. Nie zmienisz tego trenera. Ale zawodnik może oddzielić formę od treści. Dobra, powyzywał, pomarudził, ale o co mu chodziło? To wymaga wysiłku, bo te osoby mają często niedojrzałe strategie.",
+  "na_relacje": "Nie zmienisz krzyczącego trenera. Możesz oddzielić formę od treści: o co mu właściwie chodziło?",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 85,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Próbujesz wróżyć z pojedynczych treningów: dobrze, to będzie super, jeden drobny element nie tak i już przyszłość przesądzona. To jak piłkarz, który wchodzi na boisko i jak nie wyjdą mu pierwsze trzy podania, uznaje, że mecz będzie do niczego. Tak zaczyna się samospełniająca przepowiednia.",
+  "na_relacje": "Trzy nieudane podania nie przesądzają meczu. Nie wróż sobie z pojedynczego treningu.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 86,
+  "temat": "stres i presja",
+  "rodzaj": "przypowieść",
+  "tekst": "Mark Twain powiedział kiedyś: przeżyłem w życiu całą masę katastrof, historii, które mnie sponiewierały. Na szczęście żadna się nie wydarzyła. W głowie jest tysiąc rzeczy, a w rzeczywistości nie. A jak myślisz, że inni myślą o twoich błędach, to pomyślą sekundę, dwie i już myślą o sobie.",
+  "na_relacje": "Przeżyłem w życiu masę katastrof. Na szczęście żadna się nie wydarzyła.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 87,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "Każdy pojedynek to premiera. Za każdym razem musisz wpłacić do banku na nowo: bierzesz swoje umiejętności i treningi i idziesz z nimi do banku. I zakładaj, że rywalka będzie w życiowej formie. Wtedy zawsze będziesz czujna.",
+  "na_relacje": "Każdy pojedynek to premiera. Zakładaj, że rywal będzie w życiowej formie, a zawsze będziesz czujny.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 88,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "Mózg uwielbia tworzyć czarne scenariusze. Uruchamiasz katastrofę w głowie po raz pięćsetny i po raz pięćsetny potrzebujesz ją skorygować. To jak rozgrzewka przed meczem: tyle razy ją robiłeś, a jednak robisz ją znowu. I mało kto zapisuje sobie na kartce: dzisiaj miałem katastrofę w głowie, ale się nie sprawdziła.",
+  "na_relacje": "Mózg uwielbia czarne scenariusze. Zapisuj te, które się nie sprawdziły.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 89,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "Rozwój nie idzie prosto w górę. To są takie drgania, jak tętno: w górę, w dół, ale generalnie kierunek jest w górę. Organizm idzie w automatyzmy. Otwieram lodówkę i mój kot, który przed chwilą smacznie spał, już biegnie, zaspany, kompletnie nie wie, co się dzieje, ale jednak.",
+  "na_relacje": "Rozwój to drgania jak tętno. W górę, w dół, ale kierunek jest w górę.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 90,
+  "temat": "rutyna i start",
+  "rodzaj": "metafora",
+  "tekst": "Wszyscy oczekują, że wejdą w pojedynek i od razu będzie świetnie. A jak idziesz biegać, to pierwsze trzy kilometry są rozgrzewkowe. Nie wejdziesz od razu jak torpeda. Zaakceptuj, że często potrzebujesz chwili, żeby wejść.",
+  "na_relacje": "Pierwsze kilometry biegu są rozgrzewkowe. W walce też masz prawo potrzebować chwili.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 91,
+  "temat": "porażka i błąd",
+  "rodzaj": "metafora",
+  "tekst": "Ile razy muszą ci spaść piłeczki, żebyś w końcu żonglował? Jak nie podejmujesz prób, które mogą się nie udać, to nie ma okazji, żeby coś nie wyszło. Ale to droga donikąd. Nieudana próba to inwestycja.",
+  "na_relacje": "Ile razy muszą ci spaść piłeczki, żebyś zaczął żonglować? Nieudana próba to inwestycja.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 92,
+  "temat": "emocje i złość",
+  "rodzaj": "metafora",
+  "tekst": "Odcinanie się jest nieskuteczne. Jak nie chcesz o czymś myśleć, będziesz o tym myśleć trzy, cztery razy mocniej. Tłumienie działa jak trampolina: nacisk i powrót, nacisk i powrót. Akceptując i przełączając się, skracasz czas powrotu do równowagi.",
+  "na_relacje": "Tłumienie działa jak trampolina: naciskasz, a to wraca. Zauważ, zaakceptuj, przełącz się.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 93,
+  "temat": "inne",
+  "rodzaj": "metafora",
+  "tekst": "W telewizji widzi się tylko wierzchołek góry lodowej. A sport za kulisami to łzy, pot, wysiłek, problemy i rzeczy, które nie działają. Łatwo jest oceniać, patrząc tylko na wierzchołek.",
+  "na_relacje": "W telewizji widać tylko wierzchołek góry lodowej. Sport za kulisami to pot, łzy i rzeczy, które nie działają.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 94,
+  "temat": "motywacja",
+  "rodzaj": "metafora",
+  "tekst": "To, że przestałaś się bawić, można odwrócić. Zabawę uruchamia się ponownie, jak grę komputerową. Odchodzisz, robisz obowiązki, które nie są fajne, a potem uruchamiasz ją znowu i znowu jest przyjemnie.",
+  "na_relacje": "Radość ze sportu można zrestartować jak grę: odchodzisz na chwilę, a potem uruchamiasz ją znowu.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 95,
+  "temat": "kariera i decyzje",
+  "rodzaj": "metafora",
+  "tekst": "Ktoś robi fantastyczne garnki i wszyscy mówią: czemu nie założysz firmy i nie będziesz ich sprzedawał? A to bywa błąd, bo tej osobie świetnie idzie robienie garnków, ale niekoniecznie prowadzenie firmy, która je produkuje. To jest różnica, a rodzi presję.",
+  "na_relacje": "To, że robisz świetne garnki, nie znaczy, że musisz prowadzić fabrykę garnków.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 96,
+  "temat": "tożsamość i życie poza sportem",
+  "rodzaj": "metafora",
+  "tekst": "Jak będziesz się kręcił wyłącznie wokół piłki, nie zdziwię się, że zacznie cię nudzić. To jak słuchanie jednej piosenki w kółko. Na początku ekscytuje, jest super, ale za setnym razem już nie jest taka fajna. Różnorodność trzeba uruchamiać.",
+  "na_relacje": "Nawet ulubiona piosenka nudzi się za setnym razem. Sportowiec też potrzebuje życia poza sportem.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 97,
+  "temat": "stres i presja",
+  "rodzaj": "metafora",
+  "tekst": "Na zawodach robisz dokładnie to samo co na treningu. Zmienia się tylko sala i ludzie, którzy się umówili, że to są mistrzostwa świata. Gdyby przylecieli kosmici, nie wiedzieliby, że coś takiego istnieje. Zobaczyliby stworzonka, które czymś machają.",
+  "na_relacje": "Mistrzostwa świata to umowa ludzi. Kosmici zobaczyliby tylko stworzonka, które czymś machają.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 98,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "Te myśli będą się pojawiały. To są schematy, które wyskakują, jak nie przymierzając pizza z pieca. Chodzi o to, żeby złapać moment, w którym pomyślałaś o wyniku, i przełączyć uwagę na sekwencję i oddanie strzału. Pach, strzał, reset, następny.",
+  "na_relacje": "Myśl o wyniku przyjdzie. Złap ją i wróć do zadania. Strzał, reset, następny.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 99,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "Patrzę czasem na kota i myślę: czy jego obchodzi, że nie posprzątałem podłogi? Pewnie nie. To ja nadałem tej sprawie taką rangę i mam do tego prawo. Ale jeśli ona mnie męczy i jest nie do udźwignięcia, to może warto ją przemyśleć. Może więcej akceptacji.",
+  "na_relacje": "Kota nie obchodzi nieposprzątana podłoga. To ty nadajesz rzeczom rangę. Czasem warto ją obniżyć.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 100,
+  "temat": "cele i proces",
+  "rodzaj": "przypowieść",
+  "tekst": "Był piłkarz, który biegał skrzydłem i ścinał do środka na lewą nogę. Wszyscy wiedzieli, że to zrobi. I co z tego? Miał to tak wypracowane do perfekcji, że i tak ścinał i strzelał. Gdyby zaczął nadrabiać tym, co mu nie wychodzi, zamiast korzystać ze swoich atutów, byłoby to przeciwskuteczne.",
+  "na_relacje": "Wszyscy wiedzieli, że zetnie do środka. I co z tego? Doprowadź swój atut do perfekcji.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 101,
+  "temat": "rutyna i start",
+  "rodzaj": "metafora",
+  "tekst": "Zabranie członka swojego plemienia na obcą ziemię to naprawdę ważny czynnik. Swoja wataha. Nie uciekajmy od biologii. Dlatego zawodnicy mają wokół siebie grupkę swoich ludzi. Wystarczy jedno spojrzenie na kogoś, kto całym sercem w ciebie wierzy, i masz poczucie spokoju.",
+  "na_relacje": "Na obcą ziemię zabierz kogoś ze swojego plemienia. Jedno spojrzenie i wraca spokój.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 102,
+  "temat": "porażka i błąd",
+  "rodzaj": "przypowieść",
+  "tekst": "Instruktor mówił, że jeżdżę bardzo dobrze, byłem turbo pewny siebie, że zdam za pierwszym razem. Zdawałem sześć razy, dopiero za siódmym zdałem prawo jazdy. Od dwudziestu lat jeżdżę bez stłuczki. Tak jak w sporcie: czasem trzeba podjąć ileś prób, żeby coś się ziściło.",
+  "na_relacje": "Prawo jazdy zdałem za siódmym razem. Czasem trzeba ileś prób, żeby coś się ziściło.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 103,
+  "temat": "emocje i złość",
+  "rodzaj": "metafora",
+  "tekst": "Weź tę myśl, połóż ją na listku, takim brązowym albo żółtym, na strumyku i pozwól jej spłynąć. W ogóle się nie zastanawiasz, czy jest prawdziwa. Mam w sobie taką myśl, okej, biorę ją na listek i zostawiam. Nie przyklejam się.",
+  "na_relacje": "Połóż katastroficzną myśl na listku i puść ją z nurtem. Nie musisz z nią dyskutować.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 104,
+  "temat": "inne",
+  "rodzaj": "metafora",
+  "tekst": "Komunikacja to gra, która nigdy się nie kończy. Starasz się być coraz lepsza, ale nie jest tak, że jak posiądziesz całą wiedzę o komunikacji, to od teraz wszystko będzie git.",
+  "na_relacje": "Komunikacja to gra bez końca. Nie wygrywasz jej raz na zawsze, tylko grasz coraz lepiej.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 105,
+  "temat": "motywacja",
+  "rodzaj": "przypowieść",
+  "tekst": "Badania są jasne: jedne z najszczęśliwszych osób to te, które pomagają innym. W weekendy parkingi przy schroniskach dla psów są pełne najdroższych aut, bo ludzie z korporacji przyjeżdżają pomagać za darmo. W tygodniu czują, że robią bezsensowną robotę, i potrzebują sensu. Podjeżdża autem za kilkaset tysięcy, sprząta klatki i jest najszczęśliwszym człowiekiem.",
+  "na_relacje": "Brakuje ci satysfakcji? Pomóż komuś. Sens często leży tam, gdzie nikt za niego nie płaci.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 106,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Nie lekceważ małych rzeczy, bo to na nich budujesz wiarę w siebie. Duże mogą być rzadkie jak na lekarstwo i wtedy nie masz na czym budować. Jestem zwolennikiem metody skraplania: bądź bardziej kroplą, która drąży skałę, niż młotem pneumatycznym.",
+  "na_relacje": "Wiarę w siebie buduje się małymi rzeczami. Bądź kroplą, która drąży skałę.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 107,
+  "temat": "stres i presja",
+  "rodzaj": "metafora",
+  "tekst": "Gdzie człowiek czuł się kiedyś najlepiej? W swoim plemieniu. Wiedział, że plemię go obroni i dostarczy zasobów. Dlatego warto uświadamiać sobie: mam swoje plemię. I bardzo świadomie wybierać, kogo wpuszczasz do bliskiego środowiska. Przy presji to jest złoto.",
+  "na_relacje": "Przy presji najlepiej działa świadomość: mam swoje plemię. Wybieraj je świadomie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 108,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "Każdy kolejny punkt to nowa historia. Poprzednie piłki to już przeszłość. To jak serial: jesteście aktorami, ta sama scena, ale to nowy odcinek. Z każdym gemem możesz napisać go od nowa.",
+  "na_relacje": "Każdy punkt to nowy odcinek serialu. Poprzednie piłki to przeszłość.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 109,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "przypowieść",
+  "tekst": "Kłopot nie jest w braku wiedzy, tylko we wdrożeniu. Mnie też się zdarza. Jak mój tata mnie zdenerwuje, to w sześciu przypadkach na dziesięć jestem konstruktywny, a w czterech mówię mu coś, czego nie trzeba. Nie będę dziesięć na dziesięć mimo świetnego wyszkolenia, bo to nieludzkie. Zwiększamy prawdopodobieństwo. Dlatego odczep się od siebie.",
+  "na_relacje": "Nikt nie jest 10 na 10. Zwiększamy prawdopodobieństwo dobrych reakcji. Więc odczep się od siebie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 110,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "Wiele wskazówek zostaje tylko zapisanych i nic z nich nie wynika. To tak, jakbym wiedział, że przy bieganiu trzeba stawiać stopę na śródstopiu, ale nigdy tego świadomie nie trenował, aż się zautomatyzuje. Wtedy ta wiedza nie daje mi żadnego progresu. Zawsze pytaj: jak konkretnie będę to trenować?",
+  "na_relacje": "Wskazówka bez treningu to tylko notatka. Pytaj: jak konkretnie będę to ćwiczyć?",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 111,
+  "temat": "rutyna i start",
+  "rodzaj": "metafora",
+  "tekst": "Dobrze jest budować w życiu plany B i C. Możesz ich w ogóle nie wykorzystać, nie o to chodzi. To jest jak poduszka bezpieczeństwa finansowego. Daje spokój, a ty kierujesz się w stronę maksymalizowania swojego potencjału na miejscu.",
+  "na_relacje": "Plan B jest jak poduszka finansowa. Może się nie przydać, ale daje spokój.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 112,
+  "temat": "porażka i błąd",
+  "rodzaj": "metafora",
+  "tekst": "Na szczycie jest się przez jakiś czas. Można się nacieszyć, popatrzeć na widoki, ale zdecydowanie dłużej się na te szczyty wchodzi. I często się z nich nie schodzi, tylko się spada. Dlatego warto cieszyć się procesem, jak tylko się da.",
+  "na_relacje": "Na szczyt wchodzi się długo, a stoi na nim krótko. Dlatego ciesz się drogą.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 113,
+  "temat": "emocje i złość",
+  "rodzaj": "metafora",
+  "tekst": "Kiedy jest bardzo dużo emocji, chowasz się do jaskini, bo w naturalny sposób próbujesz się uchronić. To może być okej. Martwiłbym się dopiero wtedy, gdybyś schował się do jaskini i przestał podejmować jakiekolwiek działania, żeby zmienić sytuację.",
+  "na_relacje": "Możesz schować się do jaskini, gdy emocji jest za dużo. Byle nie zostać tam na stałe.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 114,
+  "temat": "inne",
+  "rodzaj": "metafora",
+  "tekst": "Wydaje się, że ktoś przychodzi i od razu jest super trafna, precyzyjna diagnoza, wszystko w punkt. Tak nie jest. Czasem rzuca się plasteliną w ścianę i sprawdza, co się przylepi. Trzeba testować i eksperymentować, a to niestety kosztuje porażki.",
+  "na_relacje": "Czasem trzeba rzucić plasteliną w ścianę i sprawdzić, co się przylepi. Eksperymenty kosztują porażki.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 115,
+  "temat": "motywacja",
+  "rodzaj": "metafora",
+  "tekst": "Dojrzałość zawodnicza polega na tym, że nie ma już nastoletniego zauroczenia sportem, tylko jest dojrzała miłość. Kochasz swój sport, ale trzeźwo na niego patrzysz. Wychodzisz i robisz swoje dobrze.",
+  "na_relacje": "Dojrzałość zawodnicza to nie zauroczenie sportem, tylko dojrzała miłość.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 116,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Jestem zwolennikiem tego, co w samolocie: najpierw załóż maskę tlenową sobie, potem innym. Jak nie dasz sobie najpierw, zemdlejesz i nikomu nie pomożesz. Więc najpierw szacunek dla siebie, i to za bardzo konkretne działania, na przykład że mimo braku minut nie rzuciłeś rękawicy i idziesz na kolejny trening.",
+  "na_relacje": "Najpierw maska tlenowa dla siebie, potem dla innych. Szacunek do siebie zaczyna się od konkretów.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 117,
+  "temat": "stres i presja",
+  "rodzaj": "przypowieść",
+  "tekst": "Jeżeli biegnie na ciebie tygrys, a ty patrzysz i myślisz: ciekawe, czy ma rodzinę, fajny tygrys, to ewolucja mówi: giń. Masz włączyć automatyczną reakcję: uciekać, walczyć albo zastygnąć. Stąd biorą się myśli automatyczne, obawy i lęki. Tego się nie da powstrzymać. Trzeba zrozumieć ten mechanizm i go zaakceptować.",
+  "na_relacje": "Twój mózg wciąż ucieka przed tygrysem. Lęku nie wyłączysz, ale możesz go zrozumieć i zaakceptować.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 118,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "Do siebie mówisz inaczej niż do innych. To są podwójne standardy, trochę jak hipokryzja: mówisz komuś, synu, nie pal, bo to szkodzi, a sam jesteś gościem, który w tym momencie pali.",
+  "na_relacje": "Mówisz do siebie tak, jak nigdy nie powiedziałbyś do przyjaciela? To podwójne standardy.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 119,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "Przeceniamy swoje możliwości. Dlatego wybieramy jeden, dwa, może trzy obszary do rozwoju, bo i tak nie da się pracować nad większą liczbą naraz. Jak pracujesz nad lewym prostym, to pracujesz nad lewym prostym i zajmie ci to kilka miesięcy. Resztę odłóż.",
+  "na_relacje": "Jak pracujesz nad lewym prostym, to pracujesz nad lewym prostym. Resztę odłóż.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 120,
+  "temat": "rutyna i start",
+  "rodzaj": "metafora",
+  "tekst": "Trzeba się restartować i za każdym razem robić swoją robotę od nowa. Wyczyścić sytuację, jakbyś odwracał klepsydrę. Dyskutować można w nieskończoność, to zdarta płyta.",
+  "na_relacje": "Po każdej akcji odwróć klepsydrę. Robisz swoją robotę od nowa.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 121,
+  "temat": "porażka i błąd",
+  "rodzaj": "metafora",
+  "tekst": "Nie musisz za każdym razem podchodzić do żelazka i się oparzyć, żeby wiedzieć, że to boli. Sprytni uczą się na błędach innych: ktoś się parzy, a ty mówisz, tak nie będę robić.",
+  "na_relacje": "Nie musisz dotykać każdego żelazka. Ucz się na oparzeniach innych.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 122,
+  "temat": "emocje i złość",
+  "rodzaj": "metafora",
+  "tekst": "Kup karty i kilka minut dziennie układaj z nich domek. Będzie się rozsypywał, to jest wkurzające na maksa, sam to robię. Twoim zadaniem jest budować od nowa, od nowa, od nowa. Chodzi nie o zbudowanie, tylko o budowanie.",
+  "na_relacje": "Domek z kart się rozsypie. Sztuka nie w tym, żeby go zbudować, tylko żeby budować od nowa.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 123,
+  "temat": "inne",
+  "rodzaj": "metafora",
+  "tekst": "W Polsce większość ludzi próbuje sobie poradzić w pojedynkę, a to jest szalenie trudne. Nie wszystko jesteśmy w stanie ogarnąć sami. Przecież to, że teraz rozmawiamy, to ktoś ogarnia: że jest internet, że jest prąd. Ja nie muszę jechać do elektrowni i kręcić na rowerku, żeby prąd dziś był.",
+  "na_relacje": "Nie musisz sam kręcić na rowerku, żeby był prąd. Nie wszystko trzeba ogarniać w pojedynkę.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 124,
+  "temat": "motywacja",
+  "rodzaj": "metafora",
+  "tekst": "To jest jak z piosenką. Wpada ci w ucho, słuchasz jej trzy dni bez przerwy, a potem już cię tak nie jara. To habituacja: przyzwyczajasz się i bodziec traci moc. Tak samo jest z meczem: jara cię, a po tygodniu opada. Dlatego warto trenować wdzięczność.",
+  "na_relacje": "Każdy bodziec powszednieje, jak ulubiona piosenka. Wdzięczność pomaga utrzymać satysfakcję.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 125,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Nie masz defektu, tylko potrzebujesz nauczyć się lepiej tym zarządzać. Defekt brzmi tak, jakbyś była zepsuta. A to jest jak ze śrubkami: tu przykręcimy, tu odkręcimy i działa. A przed dzisiejszym meczem znowu trochę tu, trochę tam.",
+  "na_relacje": "Nie jesteś zepsuta. To jak ze śrubkami: tu przykręcić, tu odkręcić i działa.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 126,
+  "temat": "stres i presja",
+  "rodzaj": "metafora",
+  "tekst": "Strach ma wielkie oczy. My tego potwora bardzo rysujemy, wręcz go przerysowujemy. Niektórzy wychodzą z szatni z przegraną w głowie. A skąd wiesz? Przekonasz się dopiero, jak wyjdziesz do pojedynku, i bardzo często okazuje się, że jesteś zaskoczony.",
+  "na_relacje": "Strach ma wielkie oczy i lubi przerysowywać potwora. Przekonasz się dopiero na macie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 127,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "Wejście w koncentrację chwilę trwa. To jak wejście zawodnika do oktagonu: czasem potrzebuje 30, 40, 50 sekund albo i całej rundy, żeby się oswoić z tym, co się dzieje. Pozwól sobie na te pięć minut rozpędówki i nie miej do siebie pretensji.",
+  "na_relacje": "Koncentracja potrzebuje rozpędówki, jak zawodnik w oktagonie. Daj sobie te pierwsze minuty.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 128,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "Akceptacja to powiedzenie: okej, pojawił się mój stary schemat, w porządku. Nie walczysz z nim. Tak jak przychodzi kotek i się drze, a ty go głaszczesz: w porządku, że krzyczysz. O, pan krytyk się odpalił. Dzięki, mózgu, że chcesz mnie chronić, ale nie będę się tym kierować. I przełączam się na kolejną przeszkodę.",
+  "na_relacje": "Pan krytyk się odpalił? Pogłaszcz go jak drącego się kota i wróć do zadania.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 129,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "Kiedy wydaje wam się, że nie robicie progresu, obejrzyjcie analogiczny mecz sprzed roku albo pół roku. Najczęściej okaże się: o w mordę, jednak robimy to lepiej. Na co dzień ciężko złapać postęp. Ale jak masz zdjęcie ze stycznia i z grudnia, to widzisz po sylwetce, że progres jest.",
+  "na_relacje": "Nie widzisz progresu? Porównaj się z tobą sprzed roku, nie z wczoraj. Jak zdjęcie ze stycznia i z grudnia.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 130,
+  "temat": "rutyna i start",
+  "rodzaj": "metafora",
+  "tekst": "Traktuj mecz jak pójście do pracy. Idziesz do biura, wchodzisz, robisz swoje zadania i wychodzisz. Pełna koncentracja jest potrzebna około 15 minut przed pierwszą połową, a nie od śniadania w hotelu. Koncentracja kosztuje, to nie jest bezpaliwowe. To nie jest msza święta.",
+  "na_relacje": "Mecz to wyjście do pracy, nie msza święta. Pełne skupienie wystarczy na 15 minut przed startem.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 131,
+  "temat": "porażka i błąd",
+  "rodzaj": "metafora",
+  "tekst": "Lubię metaforę przełączania się z TVP 1 na TVN. TVP 1 to jest błąd. Bierzesz pilota i przełączasz się na następny strzał. To wymaga wysiłku, ale musisz się przełączyć, na kolejny element techniczny, który masz do zrobienia.",
+  "na_relacje": "Błąd to kanał, na którym nie musisz zostawać. Weź pilota i przełącz się na następne zadanie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 132,
+  "temat": "inne",
+  "rodzaj": "metafora",
+  "tekst": "Zapisz sobie w zeszyciku, że będzie wychodziła cała masa rzeczy pod spodem. Ja na to patrzę jak na obieraną cebulę: są tam warstwy, które oddziałują na te warstwy zewnętrzne. Mniejsza moc czy jakaś nieregularność bierze się gdzieś głębiej.",
+  "na_relacje": "Głowa jest jak cebula. To, co widać na zewnątrz, bierze się z warstw ukrytych pod spodem.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 133,
+  "temat": "motywacja",
+  "rodzaj": "metafora",
+  "tekst": "Ten początek jest trudny do odtworzenia, bo to jest jak z pierwszym zakochaniem w relacji. Ale można uruchamiać trochę tej lekkości, może w mniejszym wymiarze. Tylko najpierw zapytaj, co ta lekkość w ogóle dla ciebie znaczy.",
+  "na_relacje": "Początek w sporcie jest jak pierwsze zakochanie. Nie odtworzysz go, ale możesz odzyskać trochę tej lekkości.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 134,
+  "temat": "pewność siebie",
+  "rodzaj": "przypowieść",
+  "tekst": "Arjen Robben grał lewą nogą. Wszyscy obrońcy wiedzieli, że zrobi zwód do środka i uderzy z lewej. Robił to tak sprawnie, że mimo tej wiedzy nie byli w stanie go zatrzymać. I walił gole. Wzmacnianie swoich mocnych stron może dać przewagę, której rywal nie zniweluje, nawet jeśli wie, co zrobisz.",
+  "na_relacje": "Wszyscy wiedzieli, co zrobi Robben. I nikt nie umiał go zatrzymać. Wzmacniaj swoje mocne strony.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 135,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "Mózg ma problem ze stresem szczególnie wtedy, kiedy mówi: jest problem, a ja się nim do końca nie zająłem. To wisi z tyłu głowy jak u kelnera, który ciągle nie wydał dania. Dlatego warto się tym zająć, nawet jeśli to był tylko incydent.",
+  "na_relacje": "Niezałatwiona sprawa wisi w głowie jak niewydane danie u kelnera. Zajmij się nią.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 136,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "przypowieść",
+  "tekst": "Haaland powiedział kiedyś dziennikarzom: ustalmy sobie przed sezonem i miejmy to z głowy, 30, może 35 procent moich meczów będzie przeciętnych albo słabych. Nie jestem robotem. Nie będę się zastanawiał, z jakiego powodu. Czasem będziesz w wysokiej dyspozycji i zagrasz poniżej oczekiwań, i nikt nie będzie wiedział dlaczego. To dyspozycja dnia.",
+  "na_relacje": "Co trzeci mecz może być przeciętny. Nie jesteś robotem. Ustal to z góry i miej z głowy.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 137,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "Wspinacze wchodzą na Everest i spada im motywacja. Schodzą ze spadkiem nastroju i energii, i wtedy popełniają błędy. A powinno być tak: mam dwa cele. Pierwszy to wejść bezpiecznie. I teraz uruchamia się drugi, jeszcze ważniejszy: zejść bezpiecznie. Tu też potrzebuję być bardzo skoncentrowany.",
+  "na_relacje": "Wejście na szczyt to dopiero połowa. Drugi, ważniejszy cel to bezpiecznie zejść.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 138,
+  "temat": "rutyna i start",
+  "rodzaj": "metafora",
+  "tekst": "Kup sobie kolorowe pudełko. Przed zawodami zapisuj obawy na karteczkach, składaj je i wkładaj do środka, mówiąc: zajmę się wami później. Wyciągasz je z głowy, trochę jak wspomnienia wyciągane do myślodsiewni w Harrym Potterze.",
+  "na_relacje": "Zapisz obawy na karteczce, wrzuć do pudełka i powiedz: zajmę się wami po starcie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 139,
+  "temat": "porażka i błąd",
+  "rodzaj": "metafora",
+  "tekst": "Komisja do spraw badania wypadków lotniczych patrzy, co się wydarzyło, i próbuje usprawnić. Nigdy nie szuka winnych. Zmienia procedury, drobne elementy, wszystko po to, żeby uniknąć takiej sytuacji w przyszłości. A ty możesz działać jak sąd i szukać winnego. Wybór należy do ciebie.",
+  "na_relacje": "Bądź jak komisja badania wypadków lotniczych: nie szukaj winnych, usprawniaj procedury.",
+  "warianty": [
+   "Sportowcy bardzo często są dla siebie sądem. Sąd szuka winnego i wymierza karę: pilot przeżył katastrofę, dostaje 20 lat. A komisja do spraw badania wypadków lotniczych nie ocenia, tylko przygląda się szczegółom i na tej podstawie buduje plan poprawy. Najczęściej korzystamy z sądu, a sensownie byłoby korzystać z komisji."
+  ],
+  "uzyta": null
+ },
+ {
+  "id": 140,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Nie potrzebujesz nikomu niczego udowadniać. Jak będziesz uzależniał samopoczucie od tego, będziesz jak chorągiewka na wietrze. A gwarantuję ci, że nigdy nie zaspokoisz wszystkich oczekiwań. To niemożliwe.",
+  "na_relacje": "Udowadnianie innym robi z ciebie chorągiewkę na wietrze. Wszystkich oczekiwań nie spełnisz.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 141,
+  "temat": "stres i presja",
+  "rodzaj": "przypowieść",
+  "tekst": "Kiedyś miałem wypadek samochodowy. Wróciłem do domu po czterech godzinach i dopiero wtedy zauważyłem rozcięte czoło i stłuczoną dłoń. Kolana w ogóle nie czułem, bo działała adrenalina. Gdyby nie ona, popełniałbym kolejne błędy. Dlatego stres jest w porządku: receptory bólowe muszą się stępić, żebyś przyjął ciosy.",
+  "na_relacje": "Adrenalina to nie wróg. Stępia ból i pozwala działać wtedy, kiedy najbardziej tego potrzebujesz.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 142,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "To jak piłkarz, który zamiast skupiać się na tym, żeby dobrze się ustawić, przyjąć i podać, myśli: co trener myśli o mnie, jak tak gram. Ocena obserwatora jest poza twoim wpływem. Potrzebujesz przełączyć uwagę na zadania.",
+  "na_relacje": "Myślisz o tym, co pomyśli trener? Uwaga ucieka od piłki. Przełącz ją na zadanie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 143,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "Praca nad sobą to nie jest powrót do ustawień fabrycznych. To bardziej taniec. Kroczek do tyłu, kroczek w bok, kroczek do przodu, znowu do przodu, w bok, do tyłu. Po co dokładać sobie presję, że musisz natychmiast wrócić do formy? Można się rozpędzić na nowo.",
+  "na_relacje": "Rozwój to taniec: krok w tył, w bok, do przodu. Nie musisz wracać do ustawień fabrycznych.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 144,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "Jak na starcie maratonu myślisz, że masz 42 kilometry, to dla psychiki jest zabójcze. Przebiegłeś cztery i: boże, jeszcze 38. Ale jak dzielisz słonia na kawałki, jeszcze pięć, jeszcze pięć, skupiam się na najbliższym kilometrze, to mózg sobie dużo lepiej radzi.",
+  "na_relacje": "Nie myśl o 42 kilometrach. Myśl o najbliższym. Słonia je się po kawałku.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 145,
+  "temat": "rutyna i start",
+  "rodzaj": "przypowieść",
+  "tekst": "Zawodnik w trakcie walki wraca do narożnika i pyta: wygrałem tę rundę? To był błąd, bo skupił się na wyniku, a nie na tym, co ma dalej robić. Narożnik powiedział mu, że wygrał, choć nie wygrał, i on się uspokoił. Ale jego uwaga była na wyniku, a wynik spina.",
+  "na_relacje": "W przerwie nie pytaj, czy wygrywasz. Pytaj, co masz dalej robić. Wynik spina.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 146,
+  "temat": "porażka i błąd",
+  "rodzaj": "metafora",
+  "tekst": "To, że drużyna w siatkówce przegrywa 12 do 20, nie znaczy, że ma oddać seta. Wtedy pilnuje każdego punktu z osobna. Nie wiadomo, jak to się skończy, ale ona trenuje charakter. Walka o trzynasty, czternasty, piętnasty punkt to jest ich zwycięstwo. Bo jak już nie ma sensu, to po co w ogóle wychodzić na boisko?",
+  "na_relacje": "Przegrywasz seta? Walcz o każdy kolejny punkt. To właśnie jest trening charakteru.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 147,
+  "temat": "emocje i złość",
+  "rodzaj": "metafora",
+  "tekst": "Na frustrację potrzeba zazwyczaj jednej z trzech energii: empatii, siły albo żartu. Jak w relacjach: kiedy idzie siła na siłę, jest starcie. Siła na empatię to zaopiekowanie się. A żart potrafi rozładować całą sytuację.",
+  "na_relacje": "Na frustrację odpowiedz empatią albo żartem. Siła na siłę to zawsze starcie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 148,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Świadome kierowanie uwagi jest jak zapalanie latarki. Mówisz: z tego mogę się cieszyć, i z tego. Przeceniamy spontaniczność. Mózg w naturalny sposób nie szuka tego, co działa, raczej szuka błędów i trudności. Jak nie zapalisz światła, to tego nie zobaczysz. Więc sorry, szukaj świadomie.",
+  "na_relacje": "Mózg sam szuka błędów. To, co działa, zobaczysz tylko, jeśli świadomie zapalisz latarkę.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 149,
+  "temat": "stres i presja",
+  "rodzaj": "metafora",
+  "tekst": "Trochę jakbyś miała dwie twarze. Na zewnątrz nie widać, jak toczą się w tobie emocje, a w środku organizm po prostu reaguje. To, że nie możesz jeść, to jasny objaw stresu. A stres nie jest niczym złym: jego energię wykorzystujemy do tego, żeby zrobić wszystko najlepiej, jak potrafisz.",
+  "na_relacje": "Spokojna twarz nie oznacza spokojnego ciała. Stres nie jest wrogiem, to energia do wykorzystania.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 150,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "Wyobraź sobie stację kolejową. Przyjeżdża pociąg i zaraz odjeżdża. To jest myśl. Pomyślałaś: czy dam radę? Dobra, ona jest na tym pociągu i sobie odjeżdża. Albo strumyk jesienią: bierzesz myśl z głowy, kładziesz ją na liściu i pozwalasz jej spłynąć.",
+  "na_relacje": "Myśl to pociąg: przyjeżdża i odjeżdża. Nie musisz do niego wsiadać.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 151,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "Stare przekonania to automatyzmy. Odpalają się jako pierwsze, ale to nie znaczy, że musisz się nimi kierować. Może odpalić ci się jeden kierunek, a ty świadomie wybierasz inny. To trudniejsze, bo wymaga świadomego wydatkowania energii, jak wtedy, gdy przechodzisz koło kebaba i mówisz: nie, wybieram teraz zdrowe jedzenie.",
+  "na_relacje": "Stare przekonanie odpala się pierwsze. Nie musisz za nim iść. Możesz świadomie wybrać inny kierunek.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 152,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "Taktyka jedzenia słonia po kawałku jest bardzo sensowna. W maratonie, jeżeli skupiasz się na tym, że masz przed sobą jeszcze 37 kilometrów, to momentalnie odbiera ci siły. Jeżeli skupiasz się na najbliższym kilometrze, stawiasz stopy równo, machasz rękami, pijesz wodę, to jest o wiele lepsza taktyka dla głowy.",
+  "na_relacje": "Nie myśl o 37 km do mety. Myśl o najbliższym kilometrze. Słonia je się po kawałku.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 153,
+  "temat": "rutyna i start",
+  "rodzaj": "metafora",
+  "tekst": "Potrzebujesz mieć zaufane osoby, bliskie, które dają poczucie bezpieczeństwa. Wbrew pozorom ten aspekt własnego plemienia jest ważny. Kiedyś, jak plemiona szły walczyć, szedłeś ze swoimi, z zaufanymi, i to było dużo bezpieczniejsze.",
+  "na_relacje": "Przed walką otocz się swoim plemieniem: ludźmi, przy których czujesz się bezpiecznie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 154,
+  "temat": "porażka i błąd",
+  "rodzaj": "metafora",
+  "tekst": "To jest jak ze strupem. Zostaje blizna, ale ta blizna cię czegoś nauczyła. Gdyby nie ona, nie rozumiałabyś pewnych rzeczy. Wyciągaj wnioski, zapisuj je, a pewnego dnia pomyślisz: jak mnie ten czas zbudował.",
+  "na_relacje": "Blizna zostaje, ale to ona cię uczy. Zapisuj wnioski, a kiedyś powiesz: jak mnie ten czas zbudował.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 155,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Jak umiejscawiasz punkt odniesienia w innych, to cały czas jesteś jak chorągiewka na wietrze. Co pomyślą koledzy, znajomi, kibice, tak o sobie sądzisz. W takim punkcie odniesienia w ogóle nie ma ciebie.",
+  "na_relacje": "Jeśli oceniasz się oczami innych, jesteś chorągiewką na wietrze. Przenieś punkt odniesienia do siebie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 156,
+  "temat": "stres i presja",
+  "rodzaj": "metafora",
+  "tekst": "To jak kupić samochód. W każdym samochodzie jest wbudowany mechanizm szukania obaw i rzeczy negatywnych. Nie możesz go wyłączyć, nie możesz się go pozbyć. I dobrze, bo dzięki temu przetrwali nasi przodkowie. Gdyby na sawannie biegł na ciebie niedźwiedź, a ty pomyślałabyś: jaki piękny, ciekawe, jak ma na imię, to co by się stało?",
+  "na_relacje": "Twój mózg ma wbudowany alarm na zagrożenia. Nie wyłączysz go. Ale nie musisz wierzyć każdemu sygnałowi.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 157,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "To jest efekt drużyny piłkarskiej, która strzeliła gola. Jest w siódmym niebie, a za chwilę dostaje na jeden do jednego, bo koncentracja spadła, bo nie trzymali systemu i szyku. Dlatego ciesz się, raduj się i jednocześnie pilnuj swojego planu.",
+  "na_relacje": "Po golu najłatwiej stracić bramkę. Ciesz się, ale trzymaj swój plan.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 158,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "Bieganie sprintem zawsze w końcu prowadzi do upadku. Jak chcesz wyniku długoterminowego, to potrzebujesz biec mądrym, maratońskim tempem. Równowaga, rozumienie, kiedy można przyspieszyć, a kiedy nie. Paradoksalnie mniej znaczy więcej.",
+  "na_relacje": "Sprint prowadzi do upadku. Wynik długoterminowy wymaga mądrego, maratońskiego tempa.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 159,
+  "temat": "rutyna i start",
+  "rodzaj": "metafora",
+  "tekst": "Jak przed pierwszą konkurencją czujesz komfort, nudę czy senność, to twoim zadaniem jest się podgrzać. To jest jak z samochodem zimą: silnik zimny, szron na szybie, więc go włączasz, żeby się rozgrzał. Organizm musi być zmobilizowany, bo za chwilę ma dźwignąć dużo kilogramów.",
+  "na_relacje": "Przed startem czujesz nudę i senność? Rozgrzej się jak silnik w zimowy poranek.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 160,
+  "temat": "pewność siebie",
+  "rodzaj": "przypowieść",
+  "tekst": "Idę z bratem pobiegać i widzę taki wieżowiec, w którym kiedyś chodziłem na siłownię. Mówię: kurczę, jak mi się podoba. A on: to dopiero w Dubaju byś zobaczył. I to jest właśnie odbieranie sobie przyjemności. A mnie cieszy ten budynek. Tak samo z czasami: zawsze znajdziesz kogoś szybszego, tylko czy o to chodzi?",
+  "na_relacje": "Zawsze znajdziesz kogoś lepszego. Tylko po co odbierać sobie radość z tego, co masz?",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 161,
+  "temat": "stres i presja",
+  "rodzaj": "przypowieść",
+  "tekst": "Wiesz, dlaczego zebry nie mają wrzodów? Bo jak widzą, że biegnie na nie drapieżnik, mają bardzo szybką reakcję układu nerwowego i uciekają tak długo, aż zniknie zagrożenie. Reakcja stresowa pojawia się wtedy, kiedy zagrożenie jest realne, i kończy się, kiedy ono znika. My potrafimy ją nakręcać w głowie, kiedy żadnego drapieżnika nie ma.",
+  "na_relacje": "Zebry nie mają wrzodów, bo ich stres kończy się razem z zagrożeniem. Ty swój często nakręcasz w głowie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 162,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "Myśli możesz potraktować jak piłki tenisowe. Myśl przylatuje na twoją stronę kortu, a ty ją odbijasz. Za każdym razem, kiedy przylatuje, odbijasz ją na drugą stronę. Nie musisz rozstrzygać, czy jest prawdziwa. Pozwalasz jej odejść.",
+  "na_relacje": "Myśl to piłka, która przylatuje na twoją stronę kortu. Nie analizuj jej. Odbij.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 163,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "przypowieść",
+  "tekst": "Jeden z najlepszych napastników świata powiedział dziennikarzom wprost: gram ponad siedemdziesiąt meczów w sezonie i od razu uprzedzam, że co najmniej dwadzieścia, trzydzieści procent z nich będzie w moim wykonaniu przeciętnych albo słabych. On wiedział, że nie da się mieć ani treningów, ani występów na sto procent za każdym razem.",
+  "na_relacje": "Nawet najlepsi zakładają, że co trzeci mecz będzie przeciętny. Siedemdziesiąt procent dobrych dni to świetny wynik.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 164,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "Wchodzisz na siłownię i robisz biceps. Po tygodniu nie urósł, po dwóch nie, po trzech też nie. Bez sensu? Nie. Robisz dalej, wierzysz i po trzech miesiącach patrzysz: centymetr więcej. Możesz być teraz w tej fazie, w której robisz rzeczy właściwe i potrzebujesz poczekać.",
+  "na_relacje": "Biceps nie rośnie po tygodniu. Robisz dalej i po trzech miesiącach widzisz centymetr. Z formą jest tak samo.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 165,
+  "temat": "rutyna i start",
+  "rodzaj": "metafora",
+  "tekst": "Błąd, który zawodnicy robią bardzo często: na treningu mają swoją rutynę, przychodzą, kładą torbę, rozgrzewają się. A na zawodach jakby ich raziło prądem, jakby wyciągnęli dyskietkę i włożyli nową. Zachowują się zupełnie inaczej. Rób na zawodach bardzo podobnie jak na treningach.",
+  "na_relacje": "Na zawodach nie wkładaj nowej dyskietki. Zrób to, co robisz na każdym treningu.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 166,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Pewność siebie to proces. Buduje się ją i stabilizuje przez dłuższy czas, bo cały czas trzeba ją podlewać.",
+  "na_relacje": "Pewność siebie to roślina. Nie wyrośnie raz na zawsze, trzeba ją ciągle podlewać.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 167,
+  "temat": "stres i presja",
+  "rodzaj": "przypowieść",
+  "tekst": "Na rozmowie rekrutacyjnej pytają kandydata, czy czuł lęk podczas ćwiczeń. On mówi: niczego się nie boję, wchodzę jak po swoje. Takich nie biorą. Lęk pozwala zbadać zagrożenie i być czujnym. Jak go nie czujesz, ręce opadają, dostajesz cios i padasz.",
+  "na_relacje": "Kto mówi, że niczego się nie boi, opuszcza gardę. Lęk trzyma cię czujnym do końca.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 168,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "Przełączanie się jest jak oglądanie telewizji. Chcesz przejść z Polsatu na TVN. Nie zamykasz oczu i nie powtarzasz: nie myślę o Polsacie. To nie działa. Mówisz: okej, widzę Polsat, i przełączasz się na TVN, i tam skupiasz uwagę.",
+  "na_relacje": "Nie walcz z myślą. Zauważ ją i przełącz kanał na zadanie, które masz do zrobienia.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 169,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "Możesz wykonać zadanie matematyczne dziewięćdziesiąt razy poprawnie, a i tak zwrócisz uwagę na ten jeden raz. Dlatego wyrabiamy nawyk zauważania rzeczy, które robisz dobrze. To żmudna robota, ale w przyszłości będziesz to widzieć o wiele częściej.",
+  "na_relacje": "Dziewięćdziesiąt razy dobrze, a pamiętasz ten jeden raz. Ucz się zauważać to, co robisz dobrze.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 170,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "Krok po kroku, tak. Tylko pamiętaj, że to nie jest taki liniowy proces, że już tylko przed siebie. To jest bardziej taniec. I to taki niepoukładany taniec.",
+  "na_relacje": "Rozwój to nie linia prosta. To niepoukładany taniec.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 171,
+  "temat": "rutyna i start",
+  "rodzaj": "metafora",
+  "tekst": "Nie ma potrzeby nadmiernie myśleć o pojedynku, który jest gdzieś przed tobą. Możesz podejść do tego normalnie: wchodzisz do biura, wykonujesz swoją pracę i wychodzisz.",
+  "na_relacje": "Do walki podejdź jak do pracy: wchodzisz do biura, robisz swoje, wychodzisz.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 172,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Adaptacja w nowym zespole to proces. Iluzją jest oczekiwanie, że wchodzisz i od razu jak gwiazda strzelasz osiem bramek w pierwszym meczu. Masz prawo na początku sobie nie radzić.",
+  "na_relacje": "Nowy zespół? Nie musisz od razu strzelać ośmiu bramek. Masz prawo do adaptacji.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 173,
+  "temat": "stres i presja",
+  "rodzaj": "przypowieść",
+  "tekst": "Nie doceniamy biologii. Kiedyś, gdy na spotkanie z innym plemieniem szedł przedstawiciel, najsilniejsza jednostka, z tyłu stało całe plemię. I on czuł się bezpieczniej. Dlatego twoi ludzie na trybunach mają tak duże znaczenie dla tego, jak czujesz się w oktagonie.",
+  "na_relacje": "Twoje plemię na trybunach to biologia. Z ludźmi za plecami czujesz się bezpieczniej.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 174,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "Uwaga jest jak różdżka Harry'ego Pottera: podążasz za nią wzrokiem i to ty świadomie ją kierujesz. Gdy robi się nudno i powtarzalnie, mózg odpływa, bo szuka innych bodźców. Ale możesz świadomie wywołać ponowne zainteresowanie pytaniem: czego się tu uczę, co jest w tym ciekawego?",
+  "na_relacje": "Gdy uwaga odpływa, zapytaj siebie: co jest w tym ciekawego? Ciekawość wraca razem z uwagą.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 175,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "Nasz umysł produkuje myśli i zawsze będzie produkował, czy chcesz, czy nie. Jak maszyna do frytek: ciągle wyrzuca frytki i nie masz sposobu, żeby przestała. To, że myśl się pojawiła, nie znaczy, że musisz z nią zostać.",
+  "na_relacje": "Umysł to maszyna do frytek: ciągle produkuje myśli. Nie musisz zostawać z każdą.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 176,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "Jednym z najlepszych elementów kariery sportowej jest doświadczanie. Jak oglądasz film, to nie chodzi o to, żeby go obejrzeć, tylko żeby oglądać: cieszyć się nim i zastanawiać, jak potoczą się losy bohatera. To jest różnica, czyli być w procesie.",
+  "na_relacje": "Filmu nie oglądasz po to, żeby go zaliczyć. Kariery też. Bądź w procesie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 177,
+  "temat": "pewność siebie",
+  "rodzaj": "przypowieść",
+  "tekst": "Gość na imprezie widzi fajną dziewczynę i mówi: nie podchodzę, bo ona mnie wyśmieje. I stoi. Jego myśl wywołuje stres i brak inicjatywy, a może stworzyliby fajną relację. A gdyby powiedział: sprawdzę, jaka ona jest? W jedną rękę bierzesz strach, w drugą lęk, i idziesz z odwagą sprawdzić, jak to działa.",
+  "na_relacje": "Zamiast: na pewno się nie uda, powiedz: sprawdzę. Bierzesz strach w rękę i idziesz.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 178,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "Trzymaj myśli w dystansie, jakbyś miał je wyświetlone z projektora. Przychodzisz do kina, a na ekranie lecą czyjeś negatywne myśli: że pójdzie na trening i będzie słabo. To nie mój film. Nie chcę go wyświetlać. Niech się pojawiają, a ja jestem skupiony na zadaniu.",
+  "na_relacje": "Twoje negatywne myśli to tylko film na ekranie. Nie musisz go oglądać do końca.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 179,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "To jest tak, jakbyś utrzymywał darmozjada w domu. W twojej głowie jest cała masa myśli, które są darmozjadami. Karmisz je, bo o nich myślisz, dajesz im uwagę. A one nic nie wnoszą. Nic. Co zrobisz z myślami, które są darmozjadami?",
+  "na_relacje": "Niektóre myśli to darmozjady. Karmisz je uwagą, a one nic nie wnoszą.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 180,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "Dla mnie świadomy zawodnik to taki, który robi coś, bo wie, jak to działa, i robi to częściej celowo. Jak w rzutkach: wiesz, jak trafić w pięćdziesiątkę, i po prostu to robisz.",
+  "na_relacje": "Wiedz, dlaczego coś ci wychodzi. Wtedy trafiasz celowo, a nie przypadkiem.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 181,
+  "temat": "pewność siebie",
+  "rodzaj": "przypowieść",
+  "tekst": "Nie trzeba mieć super stanu mentalnego, żeby robić swoją robotę. Jeden z wielkich mistrzów UFC trząsł się jak osika przed wyjściem, nie można go było wyciągnąć z szatni. Mimo to wychodził i wygrywał. Mityczna pewność siebie to jeden z mitów. Można działać pomimo.",
+  "na_relacje": "Mistrzowie też trzęsą się w szatni. I mimo to wychodzą. Nie potrzebujesz turbo pewności siebie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 182,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "To jest jak z bicepsem. Jak go robisz, to rośnie. Jak nie robisz, to nie rośnie albo wręcz spada. Zapominamy, że z głową jest identycznie jak z mięśniami. Koncentrację trzeba po prostu trenować.",
+  "na_relacje": "Koncentracja jest jak biceps. Trenujesz, rośnie. Odpuszczasz, spada.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 183,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "Tata dawał ci kartę pod tytułem: jestem zadowolony tylko z szóstki. A ty jako dorosła możesz powiedzieć: dobra, ale ja tej karty nie biorę. Biorę kartę, na której jestem zadowolona z samego wysiłku. Bo można zrobić wszystko tak, jak trzeba, i przegrać. To kolejny dzień w robocie.",
+  "na_relacje": "Nie musisz brać karty: dobrze jest tylko na szóstkę. Możesz wziąć kartę: doceniam swój wysiłek.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 184,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "Wyróżnienie się pomaga być zapamiętanym, ale fundamenty muszą być zabezpieczone w pierwszej kolejności: dobrze odbiera, dobrze gra głową, dobrze wyprowadza, dobrze się komunikuje. Efektowna akcja to wisienka. Czasem jedna taka akcja w meczu wystarczy.",
+  "na_relacje": "Efektowna akcja to wisienka. Najpierw musi być tort, czyli fundamenty.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 185,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Tęsknisz za tym, jak było na początku. To jak z pierwszą miłością: endorfiny, wszystko cudowne i pachnące. Wiele osób żyje w niedojrzałym przeświadczeniu, że chciałoby, żeby było jak na początku. Nie będzie. Organizm by tego nie utrzymał. Jesteś starszy, dojrzalszy.",
+  "na_relacje": "Tęsknota za tym, jak było na początku, jest jak tęsknota za pierwszą miłością. Tak już nie będzie, i dobrze.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 186,
+  "temat": "stres i presja",
+  "rodzaj": "przypowieść",
+  "tekst": "Każdy by chciał mieć turbo pewną głowę. Ale to bywa przereklamowane. Był znakomity zawodnik MMA, którego przed pojedynkiem wyciągano siłą z szatni, bo był tak przerażony, że nie chciał wyjść. A potem wychodził i demolował swoich przeciwników.",
+  "na_relacje": "Turbo pewna głowa jest przereklamowana. Mistrzów też czasem wyciąga się z szatni.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 187,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "Można zrobić mało i też czuć się w porządku. Jak prezes firmy, który czuje się niepotrzebny we własnej firmie i pyta, po co ja tu jestem. A on właśnie jest po to, żeby mieć wolną głowę i myśleć strategicznie. Do tego potrzebna jest przestrzeń, w której wydaje się, że nic nie robisz.",
+  "na_relacje": "Czujesz się w porządku dopiero, gdy zrobisz dużo? Czasem twoją robotą jest mieć wolną głowę.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 188,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "To jest jak po rozstaniu. Trzymasz się w 90 procentach tego, że nie piszesz i nie przeglądasz zdjęć, ale potrzebujesz zostawić sobie 10 procent na moment, kiedy coś cię emocjonalnie zegnie. To nie znaczy, że zszedłeś z głównej linii strategii. Te 10 procent trzeba wkalkulować i nie będą miały wpływu na pozostałe 90.",
+  "na_relacje": "Trzymaj się strategii w 90 procentach. Te 10 na odstępstwa po prostu wkalkuluj.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 189,
+  "temat": "stres i presja",
+  "rodzaj": "przypowieść",
+  "tekst": "To jest tak, jak alkoholik stawia przed sobą butelkę i mówi: teraz nie będę pił. To się nie powiedzie. Po prostu nie masz alkoholu w domu. Tak samo z komentarzami: nie czytasz ich, nie wchodzisz tam, gdzie wiesz, że są.",
+  "na_relacje": "Nie stawiaj przed sobą butelki, żeby ćwiczyć silną wolę. Po prostu nie czytaj komentarzy.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 190,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "To jest gotowość. Strażacy tak mają: nic się nie dzieje, nic się nie dzieje, a nagle muszą skorzystać ze swojej kompetencji. Żeby w odpowiednim momencie się skoncentrować i dać z siebie bardzo dużo, trzeba mieć charakter i wypracowaną siłę woli.",
+  "na_relacje": "Bądź jak strażak: nic się nie dzieje, a ty jesteś gotowy, gdy nagle trzeba działać.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 191,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "To tak, jakbyś kupiła samochód, który ma od razu wgrany program szukania problemów, kłopotów i rzeczy zrobionych źle. Nie można go wykasować ani zupgradować. Można go tylko obudować innymi programami. Mózg ma dobrą intencję, tylko robi to ponad miarę i ma w nosie twoje samopoczucie i pewność siebie.",
+  "na_relacje": "Twój mózg ma wgrany program szukania problemów. Nie skasujesz go, ale możesz dograć inne programy.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 192,
+  "temat": "cele i proces",
+  "rodzaj": "metafora",
+  "tekst": "To brzmi tak, jakbyś kupiła mieszkanie na kredyt i powiedziała: przez trzydzieści lat skupiam się tylko na spłacie, żadnych przyjemności, nic dodatkowego. A ludzie spłacają mieszkanie i jednocześnie jeżdżą na wakacje, kupują książki, realizują się w innych obszarach. Czy takie życie chcesz prowadzić?",
+  "na_relacje": "Spłacasz kredyt na swój cel? Nie musisz przez trzydzieści lat rezygnować z wakacji.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 193,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Jak mówisz: udało się, to jest tak, jakby skoczkowi narciarskiemu dobrze zawiało. A teraz nawet w skokach narciarskich odejmują punkty za wiatr. Twój wynik to nie szczęście, tylko efekt treningów i tego, że mierzysz się z trudnymi skokami. Inaczej łatwo o syndrom oszusta: jakoś tak wyszło, ale zaraz mi nie wyjdzie.",
+  "na_relacje": "Twój wynik to nie korzystny wiatr. To efekt twojej pracy. Inaczej łatwo o syndrom oszusta.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 194,
+  "temat": "stres i presja",
+  "rodzaj": "metafora",
+  "tekst": "Wyobraź sobie, że ta katastrofa to jest alpaka, która tańczy przed tobą. I opowiada ci tę katastrofę. Zobacz, teraz się śmiejesz. Mózg działa na asocjacjach, więc możesz to uruchamiać autentycznie.",
+  "na_relacje": "Następnym razem wyobraź sobie swoją katastrofę jako tańczącą alpakę. I zobacz, co zostanie ze strachu.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 195,
+  "temat": "koncentracja",
+  "rodzaj": "metafora",
+  "tekst": "Trudno się odciąć. Odcinanie to próba niemyślenia o czymś i jest nieskuteczne. Skuteczniejsze jest przełączanie, jak z jednego kanału telewizji na drugi: dobra, był tamten mecz, a teraz świadomie kieruję uwagę na najbliższe zadanie.",
+  "na_relacje": "Nie odcinaj się od złego meczu. Przełącz kanał na najbliższe zadanie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 196,
+  "temat": "perfekcjonizm i samokrytyka",
+  "rodzaj": "metafora",
+  "tekst": "Forma ma swoje drgania, trochę w górę, trochę w dół. Będą treningi poniżej oczekiwań i to jest część procesu. Cała masa osób tego nie akceptuje, tylko chłoszcze się po plecach za ten trening. A to, co cię wzmacnia, to wyrozumiałość dla siebie.",
+  "na_relacje": "Forma drga: trochę w górę, trochę w dół. Zamiast chłostać się za słabszy trening, bądź dla siebie wyrozumiały.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 197,
+  "temat": "pewność siebie",
+  "rodzaj": "przypowieść",
+  "tekst": "Masz kota i uważasz, że kotom nie wolno ufać. I zbierasz dowody: zżarł i nie posprzątał po sobie, miał się przytulać, a zjadł i poszedł bez przytulasa. Przerysowuję, ale tam, gdzie pada ocena, mózg zawsze szuka potwierdzenia. Nie ma takiej głupoty, której nie byłabyś w stanie sobie uzasadnić. Dlatego dowody na wspierające przekonania trzeba zbierać, a jak ich mało, to je tworzyć.",
+  "na_relacje": "Mózg zawsze szuka potwierdzenia tego, w co wierzysz. Zbieraj dowody na przekonania, które cię wspierają.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 198,
+  "temat": "stres i presja",
+  "rodzaj": "przypowieść",
+  "tekst": "Wyobraź sobie, że biegnie na ciebie dzik. A ty stajesz i myślisz: ciekawe, czy ten dzik jest szczęśliwy, jak ładnie stawia stópki, ciekawe, jak ma na imię. Bez sensu. Sensowniejsza reakcja to strach i ucieczka. Mózg jest zaprogramowany, żeby przeżyć, i to samo robi w piłce: najpierw pokazuje ci to, co nie wyszło.",
+  "na_relacje": "Gdy biegnie na ciebie dzik, strach jest sensowny. Problem zaczyna się, gdy mózg widzi dzika w każdym błędzie.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 199,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "To jest jedna z technik: powiększasz siebie, a pomniejszasz wyzwanie, które jest przed tobą. Niektórzy sędziowie wyobrażają sobie siebie jako wielkie stwory biegające po boisku, a piłkarzy jako małe robaczki. Albo jak zjeść słonia? Po kawałku.",
+  "na_relacje": "Powiększ siebie, pomniejsz wyzwanie. A słonia jedz po kawałku.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 200,
+  "temat": "stres i presja",
+  "rodzaj": "metafora",
+  "tekst": "Jak myślisz o tym jak o ścianie, to wiadomo, że o ścianę można się tylko rozbić przy pełnej prędkości. A jak myślisz o płotku, który można przejść, to jest zupełnie coś innego.",
+  "na_relacje": "O ścianę możesz się tylko rozbić. Płotek możesz przeskoczyć. Od nazwy przeszkody zależy, jak do niej biegniesz.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 201,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "To tak, jakbyś chciała budować dom. Obok masz cegłówki, zaprawę, młotki, a ty patrzysz na to, czego nie masz, i z tego próbujesz budować. Nie idzie. Budujesz z tego, co masz. A masz wspomnienia, które cię budują.",
+  "na_relacje": "Nie zbudujesz domu z tego, czego nie masz. Pewność siebie buduj z tego, co już masz.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 202,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Dzisiaj to jeszcze nie jest o tobie prawda, to jest deklaracja. I z tą deklaracją wchodzisz i tak długo ją powtarzasz, aż stanie się integralną częścią ciebie. Jakbyś codziennie wracała do banku. Stawiasz tezę, a potem szukasz dowodów: jakie mam dowody na to, że to prawda o mnie?",
+  "na_relacje": "Przekonanie o sobie zaczyna się od deklaracji. Potem codziennie szukasz na nie dowodów.",
+  "warianty": [],
+  "uzyta": null
+ }
+]
