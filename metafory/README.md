@@ -11,3 +11,9 @@ Jedna relacja dziennie, 19:30 Europe/Warsaw, przez Metricool (brand 7496128, ins
 - W headline/body `*słowa*` = wyróżnienie akcentem. Bez cudzysłowów i hashtagów.
 
 Zasada niepowtarzalności: kombinacja (layout, zdjęcie, paleta, font) nigdy się nie powtarza; layout inny niż w 5 ostatnich dniach, zdjęcie (numer) inne niż w 3 ostatnich, paleta inna niż wczoraj.
+
+## Druga seria: myśli Andrzeja (12:30)
+- `teksty_kolejka.json` – 1222 teksty z Bank_tekstow_Andrzej.xlsx (format relacja/oba, ocena ≥2, bez analogii, bez pozycji do sprawdzenia, bez pokrywających się z metaforami), plus nowe z Zoom (`zrodlo: zoom RRRR-MM-DD`).
+- `teksty/RRRR-MM-DD.json|png`, `teksty_log.json` – jak w serii metafor.
+- `zoom_rejestr.json` – przetworzone spotkania Zoom (uuid) i `ostatnio_do`.
+- Niepowtarzalność liczona łącznie z `log.json` (seria metafor): kombinacja nigdy dwa razy, w tym samym dniu obie relacje mają inny layout, zdjęcie i paletę.
