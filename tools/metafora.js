@@ -35,7 +35,7 @@ const hlen = (spec.headline || '').replace(/\*/g, '').length;
 // rozmiar nagłówka zależny od długości
 const hs = Math.round((hlen <= 12 ? 150 : hlen <= 20 ? 128 : hlen <= 30 ? 108 : 92) * FT.k);
 const blen = (spec.body || '').length;
-const bs = blen <= 90 ? 50 : blen <= 140 ? 45 : blen <= 190 ? 41 : 37;
+const bs = blen <= 90 ? 58 : blen <= 140 ? 50 : blen <= 190 ? 44 : 39;
 
 const fontCss = `
 @font-face{font-family:Raj;font-weight:700;src:url(${F('rajdhani/files/rajdhani-latin-ext-700-normal.woff2')});unicode-range:U+0100-024F}
