@@ -20,6 +20,56 @@
   "uzyta": null
  },
  {
+  "id": 1223,
+  "nr_banku": null,
+  "temat": "start i zawody",
+  "typ": "przewrotka",
+  "ocena": null,
+  "tekst": "Z doświadczenia wiem: raczej nie zaczepia się kogoś, kogo nie traktuje się jako zagrożenie.",
+  "zrodlo": "zoom 2026-10-22",
+  "uzyta": null
+ },
+ {
+  "id": 1224,
+  "nr_banku": null,
+  "temat": "stres i presja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Masz swoje schematy, które działają. Ale na dziesięć sytuacji będą dwie, trzy, w których nic nie zadziała. Wtedy akceptujesz to i robisz, co się da.",
+  "zrodlo": "zoom 2026-10-22",
+  "uzyta": null
+ },
+ {
+  "id": 1225,
+  "nr_banku": null,
+  "temat": "trening i regeneracja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Technologia poszła mocno do przodu, a nasz układ nerwowy od 180 tysięcy lat się nie zmienił. Nadal potrzebuje powtórzeń i czasu, żeby przyjąć nowy nawyk.",
+  "zrodlo": "zoom 2026-10-21",
+  "uzyta": null
+ },
+ {
+  "id": 1226,
+  "nr_banku": null,
+  "temat": "motywacja i nawyki",
+  "typ": "historia własna",
+  "ocena": null,
+  "tekst": "Maraton nie wybacza tego, że na treningach padało, a w Polsce przez osiem miesięcy jest zimno. Na trasie powie ci tylko: Andrzejku, nie chciało się biegać.",
+  "zrodlo": "zoom 2026-10-21",
+  "uzyta": null
+ },
+ {
+  "id": 1227,
+  "nr_banku": null,
+  "temat": "relacje i trener",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Do przyjaźni potrzeba pełnej zgody dwóch osób. Czasem potrzeba bliskości sprawia, że na siłę szukamy przyjaciela tam, gdzie go nie ma.",
+  "zrodlo": "zoom 2026-10-22",
+  "uzyta": null
+ },
+ {
   "id": 3,
   "nr_banku": 1094,
   "temat": "troska o siebie",

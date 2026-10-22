@@ -1,4 +1,29 @@
 {
- "ostatnio_do": "2026-10-21T00:00:00Z",
- "spotkania": []
+ "ostatnio_do": "2026-10-22T08:42:00Z",
+ "spotkania": [
+  {
+   "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
+   "data": "2026-10-21",
+   "temat": "spotkanie cykliczne (lista wykluczeń)",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "pominięte"
+  },
+  {
+   "uuid": "216DBF36-2E2A-4B44-BD41-F5011D7500DB",
+   "data": "2026-10-21",
+   "temat": "sesja z zawodniczką",
+   "dodano_mysli": 2,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "83EA1736-1E7B-4024-806F-8FBB5A0C9622",
+   "data": "2026-10-22",
+   "temat": "sesja z zawodniczką",
+   "dodano_mysli": 3,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  }
+ ]
 }
