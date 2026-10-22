@@ -1,12 +1,5 @@
-{
- "photo": "metafory/zdjecia/9449_kolor.jpg",
- "layout": "L2",
- "palette": "mono",
- "font": "anton",
- "focus": 30,
- "tilt": -3,
- "kicker": "nowy wpis na blogu",
- "headline": "Za wysoko albo *za nisko*",
- "body": "Pobudzenie to nie wróg do zgaszenia. *Szukasz swojego optimum*, nie maksimum.",
- "cta": "Cały tekst: andrzejstaszczuk.pl/blog"
-}
+{"layout":"G1","art":"gauge","palette":"black","font":"raj","tilt":-2,
+"kicker":"nowy wpis na blogu",
+"headline":"Za wysoko albo *za nisko*",
+"body":"Pobudzenie to nie wróg do zgaszenia. *Szukasz swojego optimum*, nie maksimum.",
+"cta":"Cały tekst: andrzejstaszczuk.pl/blog"}

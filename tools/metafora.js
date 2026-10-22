@@ -2,6 +2,7 @@
 // node metafora.js spec.json out.png
 // spec: {photo:"metafory/zdjecia/9315_kolor.jpg", layout:"L1".."L12", palette:"red|black|cream|mono",
 //        font:"raj|anton|bebas|playfair", focus:0-100 (pion. położenie kadru, %), headline:"...", body:"...", kicker:"...", tilt:-4..4,
+//        art:"gauge|target|waves|..." albo svg:"<własne wnętrze svg 1000x1000 z tokenami {acc}{ink}{soft}{dark}{bg2}>" – dla layoutów G1–G8 (bez zdjęcia),
 //        cta:"..." (opcjonalnie: pasek z odesłaniem, np. do bloga), ctaPos:"inline|top|bottom" (domyślnie inline: zaraz pod tekstem), ctaStyle:"pill|bar|tag"}
 // W headline/body *słowo* = wyróżnienie kolorem akcentu. \n = nowa linia.
 const fs = require('fs'), path = require('path');
@@ -11,7 +12,8 @@ const W = 1080, H = 1920;
 const spec = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
 const out = process.argv[3];
 const ROOT = path.join(__dirname, '..');
-const img = 'file://' + path.join(ROOT, spec.photo);
+const img = spec.photo ? 'file://' + path.join(ROOT, spec.photo) : '';
+const { motyw } = require('./motywy');
 const focus = spec.focus ?? 30;
 const tilt = spec.tilt ?? -3;
 
@@ -69,6 +71,7 @@ body{background:${P.bg};color:${P.ink};font-family:Pop,sans-serif;position:relat
 .handle{display:none;position:absolute;left:0;right:0;bottom:120px;text-align:center;font-family:Pop;font-weight:500;font-size:32px;opacity:.85}
 .ph{background-image:url('${img}');background-size:cover;background-position:50% ${focus}%}
 .bw{filter:grayscale(1) contrast(1.05)}
+.narrow .cta{white-space:normal!important;font-size:26px!important;line-height:1.3}
 .cta{position:absolute;z-index:20;font-family:Pop;font-weight:800;font-size:31px;letter-spacing:.04em;white-space:nowrap}
 `;
 const ctaHtml = () => {
@@ -132,7 +135,7 @@ const L = {
   // 11. Podział pionowy: wąskie zdjęcie po lewej, tekst po prawej (zdjęcie pionowe)
   L11: () => `<div class="ph" style="position:absolute;left:0;top:0;bottom:0;width:470px"></div>
     <div style="position:absolute;left:470px;top:0;bottom:0;width:10px;background:${P.acc}"></div>
-    <div style="position:absolute;left:530px;right:56px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center">${kick()}<div style="height:22px"></div>${H1('font-size:' + Math.round(hs * (FT.fam === 'Play' ? 1 : .8)) + 'px')}<div style="height:40px"></div>${B1('font-size:' + Math.round(bs * 1.0) + 'px')}</div>
+    <div class="narrow" style="position:absolute;left:530px;right:56px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center">${kick()}<div style="height:22px"></div>${H1('font-size:' + Math.round(hs * (FT.fam === 'Play' ? 1 : .8)) + 'px')}<div style="height:40px"></div>${B1('font-size:' + Math.round(bs * 1.0) + 'px')}</div>
     <div class="handle" style="left:480px;color:${P.ink}">@psychologsportu</div>`,
   // 12. Kartka z cytatem: zdjęcie w tle rozmyte, biała karta, kursywa Playfair
   L12: () => `<div class="ph" style="position:absolute;inset:-40px;filter:blur(14px) brightness(.55)"></div>
@@ -140,6 +143,43 @@ const L = {
     <div style="position:absolute;left:80px;right:80px;top:720px;background:${spec.palette === 'cream' ? '#fff' : P.solid};padding:70px 60px;border-radius:24px;box-shadow:0 30px 60px rgba(0,0,0,.45)">
       ${kick()}<div style="height:20px"></div>${H1()}<div style="height:30px"></div><div style="font-family:Play;font-style:italic;font-size:${bs + 6}px;line-height:1.35;color:${P.ink}">${fmt(spec.body)}</div></div>${handle('#fff')}`,
 };
+const C = { acc: P.acc, ink: P.ink, soft: P.ink, dark: P.dark, bg2: P.solid };
+const CI = { acc: P.dark, ink: P.dark, soft: P.dark, dark: P.acc, bg2: P.acc }; // na tle akcentu
+const ART = (c = C) => motyw(spec.art, c, spec.svg);
+Object.assign(L, {
+  // G1. Ilustracja w górnej części, tekst pod nią
+  G1: () => `<div style="position:absolute;left:150px;right:150px;top:210px;height:780px">${ART()}</div>
+    <div style="position:absolute;left:80px;right:80px;top:1060px">${kick()}<div style="height:22px"></div>${H1()}<div style="height:30px"></div>${B1()}</div>`,
+  // G2. Ogromna, przygaszona ilustracja w tle, tekst wyśrodkowany w pionie
+  G2: () => `<div style="position:absolute;left:-260px;top:300px;width:1600px;height:1600px;opacity:.16;transform:rotate(${tilt * 3}deg)">${ART()}</div>
+    <div style="position:absolute;left:90px;right:90px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center">${kick()}<div style="height:26px"></div>${H1('font-size:' + Math.round(hs * 1.1) + 'px')}<div style="width:160px;height:10px;background:${P.acc};margin:46px 0"></div>${B1()}</div>`,
+  // G3. Pełne tło w kolorze akcentu, ciemny tekst i ilustracja
+  G3: () => `<style>body{background:${P.acc}!important}.g3 .hl{color:${P.dark};text-decoration:underline;text-decoration-thickness:.12em;text-underline-offset:.12em}.g3 .cta{background:${P.dark}!important;color:${P.acc}!important}.g3 .kick{color:${P.dark}!important}</style>
+    <div class="g3" style="position:absolute;inset:0;color:${P.dark}">
+    <div style="position:absolute;left:80px;right:80px;top:210px">${kick(P.dark)}<div style="height:22px"></div>${H1('color:' + P.dark)}</div>
+    <div style="position:absolute;left:240px;right:240px;top:${hlen > 20 ? 640 : 560}px;height:600px">${ART(CI)}</div>
+    <div style="position:absolute;left:80px;right:80px;top:${hlen > 20 ? 1280 : 1200}px">${B1('color:' + P.dark)}</div></div>`,
+  // G4. Ukośny blok z ilustracją u góry, tekst na dole
+  G4: () => `<div style="position:absolute;left:0;right:0;top:0;height:1100px;background:${P.solid};filter:brightness(.8);clip-path:polygon(0 0,100% 0,100% 82%,0 100%)"></div>
+    <div style="position:absolute;left:${tilt > 0 ? 260 : 80}px;width:740px;top:190px;height:740px">${ART()}</div>
+    <div style="position:absolute;left:80px;right:80px;top:1140px">${kick()}<div style="height:22px"></div>${H1()}<div style="height:30px"></div>${B1()}</div>`,
+  // G5. Wzór z kropek, mała ilustracja i karta z tekstem
+  G5: () => `<div style="position:absolute;inset:0;background-image:radial-gradient(${P.ink}22 3px,transparent 4px);background-size:44px 44px"></div>
+    <div style="position:absolute;left:330px;right:330px;top:200px;height:420px">${ART()}</div>
+    <div style="position:absolute;left:80px;right:80px;top:690px;background:${spec.palette === 'cream' ? '#fff' : P.solid};padding:70px 60px;border-radius:28px;border-top:14px solid ${P.acc};box-shadow:0 30px 60px rgba(0,0,0,.35)">
+      ${kick()}<div style="height:20px"></div>${H1()}<div style="height:30px"></div>${B1()}</div>`,
+  // G6. Tekst u góry po lewej, wielka ilustracja wychodząca z prawego dolnego rogu
+  G6: () => `<div style="position:absolute;right:-240px;bottom:-200px;width:1150px;height:1150px;opacity:.9">${ART()}</div>
+    <div style="position:absolute;left:80px;right:110px;top:220px">${kick()}<div style="height:24px"></div>${H1('font-size:' + Math.round(hs * 1.05) + 'px')}<div style="height:36px"></div>${B1('max-width:820px')}</div>`,
+  // G7. Gruba ramka, ilustracja w środku, tekst wyśrodkowany pod nią
+  G7: () => `<div style="position:absolute;inset:200px 54px 230px;border:14px solid ${P.acc};border-radius:8px"></div>
+    <div style="position:absolute;left:260px;right:260px;top:290px;height:560px">${ART()}</div>
+    <div style="position:absolute;left:120px;right:120px;top:900px;text-align:center">${kick()}<div style="height:20px"></div>${H1()}<div style="height:30px"></div>${B1()}</div>`,
+  // G8. Podział pionowy: panel w kolorze akcentu z ilustracją po lewej, tekst po prawej
+  G8: () => `<div style="position:absolute;left:0;top:0;bottom:0;width:470px;background:${P.acc}"></div>
+    <div style="position:absolute;left:35px;width:400px;top:740px;height:440px">${ART(CI)}</div>
+    <div class="narrow" style="position:absolute;left:530px;right:56px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center">${kick()}<div style="height:22px"></div>${H1('font-size:' + Math.round(hs * (FT.fam === 'Play' ? 1 : .8)) + 'px')}<div style="height:40px"></div>${B1()}</div>`,
+});
 if (!L[spec.layout]) throw new Error('Nieznany layout ' + spec.layout);
 const html = `<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head><body>${L[spec.layout]()}${ctaHtml()}</body></html>`;
 render(html, out, W, H).then(() => console.log('ok', out));
