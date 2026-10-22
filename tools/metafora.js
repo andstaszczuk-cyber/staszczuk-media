@@ -1,7 +1,8 @@
 // Relacja IG 1080x1920 z metaforą Andrzeja + jego zdjęciem.
 // node metafora.js spec.json out.png
 // spec: {photo:"metafory/zdjecia/9315_kolor.jpg", layout:"L1".."L12", palette:"red|black|cream|mono",
-//        font:"raj|anton|bebas|playfair", focus:0-100 (pion. położenie kadru, %), headline:"...", body:"...", kicker:"...", tilt:-4..4}
+//        font:"raj|anton|bebas|playfair", focus:0-100 (pion. położenie kadru, %), headline:"...", body:"...", kicker:"...", tilt:-4..4,
+//        cta:"..." (opcjonalnie: pasek z odesłaniem, np. do bloga), ctaPos:"inline|top|bottom" (domyślnie inline: zaraz pod tekstem), ctaStyle:"pill|bar|tag"}
 // W headline/body *słowo* = wyróżnienie kolorem akcentu. \n = nowa linia.
 const fs = require('fs'), path = require('path');
 const { render } = require('./kit');
@@ -68,11 +69,23 @@ body{background:${P.bg};color:${P.ink};font-family:Pop,sans-serif;position:relat
 .handle{display:none;position:absolute;left:0;right:0;bottom:120px;text-align:center;font-family:Pop;font-weight:500;font-size:32px;opacity:.85}
 .ph{background-image:url('${img}');background-size:cover;background-position:50% ${focus}%}
 .bw{filter:grayscale(1) contrast(1.05)}
+.cta{position:absolute;z-index:20;font-family:Pop;font-weight:800;font-size:31px;letter-spacing:.04em;white-space:nowrap}
 `;
+const ctaHtml = () => {
+  if (!spec.cta || ctaUsed) return '';
+  const pos = spec.ctaPos === 'bottom' ? 'bottom:248px' : 'top:212px';
+  const st = spec.ctaStyle || 'pill';
+  const txt = esc(spec.cta).replace(/\*(.+?)\*/g, '<u>$1</u>');
+  if (st === 'bar') return `<div class="cta" style="${pos};left:0;right:0;text-align:center;padding:20px 0;background:${P.acc};color:${P.dark}">${txt} &rarr;</div>`;
+  if (st === 'tag') return `<div class="cta" style="${pos};left:0;padding:18px 40px 18px 70px;background:${P.dark};color:#fff;border-left:14px solid ${P.acc}">${txt} &rarr;</div>`;
+  return `<div style="position:absolute;${pos};left:0;right:0;display:flex;justify-content:center;z-index:20"><div class="cta" style="position:static;padding:18px 40px;border-radius:60px;background:${P.acc};color:${P.dark};box-shadow:0 10px 30px rgba(0,0,0,.35)">${txt} &rarr;</div></div>`;
+};
 const handle = (c = P.ink) => `<div class="handle" style="color:${c}">@psychologsportu</div>`;
 const kick = (c = P.acc, extra = '') => spec.kicker ? `<div class="kick" style="color:${c};${extra}">${esc(spec.kicker)}</div>` : '';
 const H1 = (style = '', cls = 'hl') => `<div class="h" style="${style}">${fmt(spec.headline, cls)}</div>`;
-const B1 = (style = '') => `<div class="b" style="${style}">${fmt(spec.body)}</div>`;
+const ctaInline = () => (spec.cta && (spec.ctaPos || 'inline') === 'inline') ? `<div style="margin-top:38px"><span class="cta" style="position:static;display:inline-block;padding:16px 34px;border-radius:60px;background:${P.acc};color:${P.dark};font-size:29px">${esc(spec.cta)} &rarr;</span></div>` : '';
+let ctaUsed = false;
+const B1 = (style = '') => { const c = ctaInline(); if (c) ctaUsed = true; return `<div class="b" style="${style}">${fmt(spec.body)}</div>${c}`; };
 
 const L = {
   // 1. Zdjęcie na całą wysokość, ciemny gradient od dołu, tekst na dole
@@ -128,5 +141,5 @@ const L = {
       ${kick()}<div style="height:20px"></div>${H1()}<div style="height:30px"></div><div style="font-family:Play;font-style:italic;font-size:${bs + 6}px;line-height:1.35;color:${P.ink}">${fmt(spec.body)}</div></div>${handle('#fff')}`,
 };
 if (!L[spec.layout]) throw new Error('Nieznany layout ' + spec.layout);
-const html = `<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head><body>${L[spec.layout]()}</body></html>`;
+const html = `<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head><body>${L[spec.layout]()}${ctaHtml()}</body></html>`;
 render(html, out, W, H).then(() => console.log('ok', out));

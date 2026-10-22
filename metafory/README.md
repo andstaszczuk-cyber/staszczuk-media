@@ -17,3 +17,9 @@ Zasada niepowtarzalności: kombinacja (layout, zdjęcie, paleta, font) nigdy si�
 - `teksty/RRRR-MM-DD.json|png`, `teksty_log.json` – jak w serii metafor.
 - `zoom_rejestr.json` – przetworzone spotkania Zoom (uuid) i `ostatnio_do`.
 - Niepowtarzalność liczona łącznie z `log.json` (seria metafor): kombinacja nigdy dwa razy, w tym samym dniu obie relacje mają inny layout, zdjęcie i paletę.
+
+## Trzecia seria: wpisy z bloga (17:00)
+- Jedna relacja dziennie o jednym wpisie z https://andrzejstaszczuk.pl/blog/ (najpierw najnowszy jeszcze niepromowany, potem po kolei starsze; po wyczerpaniu powtórka najdawniej promowanego, nie wcześniej niż 60 dni od poprzedniej, z nowym tekstem i projektem).
+- `blog/RRRR-MM-DD.json|png`, `blog_log.json` (data, url, tytul_wpisu, layout, photo, palette, font, ...).
+- Pole `cta` w spec (np. Cały tekst: andrzejstaszczuk.pl/blog) – renderer dokleja pigułkę pod tekstem (ctaPos inline; top/bottom + ctaStyle pill|bar|tag tylko gdy inline nie pasuje).
+- Niepowtarzalność liczona łącznie z log.json i teksty_log.json; w tym samym dniu trzy relacje mają różny layout, zdjęcie i paletę.
