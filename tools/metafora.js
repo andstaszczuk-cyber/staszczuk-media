@@ -106,7 +106,7 @@ const L = {
   // 4. Okładka magazynu: zdjęcie pełne, ogromny nagłówek u góry
   L4: () => `<div class="ph" style="position:absolute;inset:0"></div>
     <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.85) 0%,rgba(0,0,0,.2) 38%,rgba(0,0,0,.1) 55%,rgba(0,0,0,.88) 85%)"></div>
-    <div style="position:absolute;left:70px;right:70px;top:170px;color:#fff">${kick()}<div style="height:18px"></div>${H1()}</div>
+    <div style="position:absolute;left:70px;right:70px;top:240px;color:#fff">${kick()}<div style="height:18px"></div>${H1()}</div>
     <div style="position:absolute;left:70px;right:70px;bottom:330px;color:#fff">${B1('color:#fff')}</div>${handle('#fff')}`,
   // 5. Tekst na górze na tle marki, zdjęcie w dużym kole na dole
   L5: () => `<div style="position:absolute;left:80px;right:80px;top:200px">${kick()}<div style="height:26px"></div>${H1()}<div style="height:34px"></div>${B1()}</div>
@@ -181,5 +181,5 @@ Object.assign(L, {
     <div class="narrow" style="position:absolute;left:530px;right:56px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center">${kick()}<div style="height:22px"></div>${H1('font-size:' + Math.round(hs * (FT.fam === 'Play' ? 1 : .8)) + 'px')}<div style="height:40px"></div>${B1()}</div>`,
 });
 if (!L[spec.layout]) throw new Error('Nieznany layout ' + spec.layout);
-const html = `<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head><body>${L[spec.layout]()}${ctaHtml()}</body></html>`;
+const html = `<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head><body>${L[spec.layout]()}${ctaHtml()}${spec.palette === 'cream' ? '<div style="position:absolute;left:0;right:0;top:0;height:230px;background:linear-gradient(180deg,rgba(0,0,0,.28),rgba(0,0,0,0));z-index:30"></div>' : ''}</body></html>`;
 render(html, out, W, H).then(() => console.log('ok', out));
