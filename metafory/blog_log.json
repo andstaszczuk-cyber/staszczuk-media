@@ -12,5 +12,19 @@
   "png": "metafory/blog/2026-10-22.png",
   "metricool_id": 402856708,
   "metricool_uuid": "8669828097352486015"
+ },
+ {
+  "data": "2026-10-23",
+  "url": "https://andrzejstaszczuk.pl/2026/10/23/lek-po-kontuzji/",
+  "tytul_wpisu": "Boję się, że znowu coś pęknie. Lęk przed ponownym urazem",
+  "layout": "L5",
+  "photo": "metafory/zdjecia/9449_kolor.jpg",
+  "palette": "red",
+  "font": "bebas",
+  "focus": 45,
+  "spec": "metafory/blog/2026-10-23.json",
+  "png": "metafory/blog/2026-10-23.png",
+  "metricool_id": null,
+  "metricool_uuid": null
  }
 ]

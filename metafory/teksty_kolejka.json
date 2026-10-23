@@ -30,6 +30,46 @@
   "uzyta": null
  },
  {
+  "id": 1228,
+  "nr_banku": null,
+  "temat": "kariera i decyzje",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Pragmatyka życiowa: część decyzji, które podejmiesz, okaże się kiepska. Ale w danym momencie podejmujesz najlepszą, jaką potrafisz.",
+  "zrodlo": "zoom 2026-10-23",
+  "uzyta": null
+ },
+ {
+  "id": 1229,
+  "nr_banku": null,
+  "temat": "tożsamość i życie poza sportem",
+  "typ": "pytanie",
+  "ocena": null,
+  "tekst": "Działasz przez pryzmat czyjejś opinii, której nawet nie znasz. A jak ty chcesz działać? Idź w to niezależnie od tego, co myślą inni.",
+  "zrodlo": "zoom 2026-10-23",
+  "uzyta": null
+ },
+ {
+  "id": 1230,
+  "nr_banku": null,
+  "temat": "tożsamość i życie poza sportem",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Zasoby, które zbudował w tobie sport, da się przenieść w każde inne miejsce w życiu. Skoro je masz, korzystaj z nich także poza sportem.",
+  "zrodlo": "zoom 2026-10-23",
+  "uzyta": null
+ },
+ {
+  "id": 1231,
+  "nr_banku": null,
+  "temat": "inne",
+  "typ": "historia",
+  "ocena": null,
+  "tekst": "W biznesie słyszałem: jak ty jesteś zawsze taki opanowany? Odpowiadałem: moim zadaniem jest zachować spokój i prowadzić was. Spokój to część roboty.",
+  "zrodlo": "zoom 2026-10-23",
+  "uzyta": null
+ },
+ {
   "id": 1224,
   "nr_banku": null,
   "temat": "stres i presja",

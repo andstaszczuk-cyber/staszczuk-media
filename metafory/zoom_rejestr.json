@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-10-23T08:10:00Z",
+ "ostatnio_do": "2026-10-23T09:50:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -23,6 +23,14 @@
    "temat": "sesja z zawodniczką",
    "dodano_mysli": 3,
    "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "74D7230E-78DC-4CFD-B23A-3B02546A84B8",
+   "data": "2026-10-23",
+   "temat": "sesja z zawodniczką",
+   "dodano_mysli": 4,
+   "dodano_metafor": 1,
    "status": "przetworzone"
   }
  ]
