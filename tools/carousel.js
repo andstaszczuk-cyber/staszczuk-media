@@ -40,7 +40,53 @@ function footer(i) {
     <div style="font-family:Pop;font-weight:500;font-size:22px;opacity:.85">@${B.handle} · ${i + 1}/${total}</div></div>`;
 }
 
+const SICONS = {
+  gwizdek: '<circle cx="34" cy="50" r="22"/><path d="M48 32 L88 22 L92 40 L56 46"/><circle cx="34" cy="50" r="6" fill="currentColor"/>',
+  kartka: '<rect x="22" y="22" width="38" height="56" rx="5" transform="rotate(-12 41 50)"/><rect x="44" y="18" width="38" height="56" rx="5" transform="rotate(8 63 46)" fill="currentColor"/>',
+  zegar: '<circle cx="50" cy="50" r="36"/><path d="M50 26 V50 L66 60"/><path d="M40 8 H60"/>',
+  oko: '<path d="M8 50 Q50 10 92 50 Q50 90 8 50 Z"/><circle cx="50" cy="50" r="14"/><circle cx="50" cy="50" r="5" fill="currentColor"/>',
+  dymek: '<path d="M14 18 H86 V66 H44 L24 84 V66 H14 Z"/><path d="M30 36 H70 M30 50 H58"/>',
+  glowa: '<path d="M30 86 V70 Q14 62 16 42 Q18 14 50 12 Q82 14 84 40 L92 56 L82 58 V72 H64 V86"/><path d="M42 40 Q50 30 58 40 Q66 50 54 56"/>',
+  waga: '<path d="M50 14 V84 M30 84 H70 M18 30 H82"/><path d="M18 30 L8 54 H28 Z M82 30 L72 54 H92 Z"/>',
+};
+const icon = (n, size, cls) => `<svg viewBox="0 0 100 100" width="${size}" height="${size}" class="${cls || 'acc'}" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">${SICONS[n] || SICONS.gwizdek}</svg>`;
+const swipe = (b) => total > 1 ? `<div style="position:absolute;right:80px;bottom:${b || 170}px;font-family:Pop;font-weight:500;font-size:30px" class="acc">przesuń →</div>` : '';
+
 function slideHtml(s, i) {
+  // NOWE UKŁADY OKŁADEK (24.10.2026) dla różnorodności siatki
+  if (s.kind === 'cover' && s.style === 'split') {
+    // górna połowa w kolorze akcentu z pytaniem, dolna z dopowiedzeniem
+    return `<style>.split-top .y{color:#9E3236!important}</style><div style="position:absolute;left:0;right:0;top:0;height:640px;box-sizing:border-box;padding:0 90px 60px;display:flex;flex-direction:column;justify-content:flex-end" class="acc-bg split-top">
+        <div style="font-family:Pop;font-weight:600;font-size:26px;letter-spacing:6px;opacity:.75;margin-bottom:26px;color:#2B1515">${s.label || 'PYTANIE'}</div>
+        <div style="font-weight:800;font-size:${len(s.text) < 40 ? 84 : 70}px;line-height:1.12;color:#2B1515;text-wrap:balance">${hl(s.text)}</div></div>
+      <div style="position:absolute;left:90px;right:90px;top:720px;font-family:Pop;font-weight:500;font-size:44px;line-height:1.35;text-wrap:balance">${hl(s.sub || '')}</div>
+      ${swipe()}${footer(i)}`;
+  }
+  if (s.kind === 'cover' && s.style === 'left') {
+    // editorialowy: etykieta u góry, wielkie hasło przy lewej krawędzi, cienka linia
+    return `<div style="position:absolute;left:90px;right:90px;top:170px;display:flex;align-items:center;gap:22px">
+        <div style="width:70px;height:4px" class="acc-bg"></div>
+        <div style="font-family:Pop;font-weight:600;font-size:26px;letter-spacing:6px" class="acc">${s.label || 'Z BOISKA'}</div></div>
+      <div style="position:absolute;left:90px;right:120px;bottom:300px;font-weight:800;font-size:${len(s.text) < 30 ? 120 : len(s.text) < 55 ? 96 : 78}px;line-height:1.02;letter-spacing:-1px;text-wrap:balance">${hl(s.text)}</div>
+      ${swipe()}${footer(i)}`;
+  }
+  if (s.kind === 'cover' && s.style === 'icon') {
+    // duża ikona liniowa na środku, krótkie hasło pod nią
+    return `<div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 110px 80px;box-sizing:border-box;gap:56px">
+        <div style="width:300px;height:300px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:4px solid currentColor;opacity:.98">${icon(s.icon, 170)}</div>
+        <div style="font-weight:800;font-size:${len(s.text) < 40 ? 76 : 64}px;line-height:1.15;text-align:center;text-wrap:balance">${hl(s.text)}</div></div>
+      ${swipe()}${footer(i)}`;
+  }
+  if (s.kind === 'cover' && s.style === 'versus') {
+    // dwa pojęcia rozdzielone ukośną linią
+    return `<svg width="1080" height="1350" style="position:absolute;inset:0"><line x1="140" y1="1012" x2="940" y2="332" stroke="currentColor" stroke-width="4" opacity=".35"/></svg>
+      <div style="position:absolute;left:90px;top:230px;font-weight:800;font-size:112px;line-height:1">${hl(s.a)}</div>
+      <div style="position:absolute;left:90px;top:400px;font-family:Pop;font-weight:500;font-size:36px;opacity:.8">${hl(s.aSub || '')}</div>
+      <div style="position:absolute;right:90px;top:760px;font-weight:800;font-size:112px;line-height:1;text-align:right" class="acc">${hl(s.b)}</div>
+      <div style="position:absolute;right:90px;top:930px;font-family:Pop;font-weight:500;font-size:36px;opacity:.8;text-align:right">${hl(s.bSub || '')}</div>
+      <div style="position:absolute;left:470px;top:640px;width:140px;height:64px;border-radius:32px;background:#1A1719;border:2px solid rgba(255,255,255,.35);display:flex;align-items:center;justify-content:center;font-family:Pop;font-weight:600;font-size:28px;letter-spacing:4px">CZY</div>
+      ${swipe()}${footer(i)}`;
+  }
   if (s.kind === 'cover' && s.scene) {
     const fsz = len(s.text) < 40 ? 92 : len(s.text) < 70 ? 78 : 66;
     return `${scene(s.scene)}<div style="position:absolute;left:90px;right:90px;bottom:250px">
