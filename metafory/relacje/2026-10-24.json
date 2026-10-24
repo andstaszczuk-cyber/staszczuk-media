@@ -1,0 +1,10 @@
+{
+ "layout": "G6",
+ "svg": "<circle cx='440' cy='380' r='420' fill='{acc}' opacity='.12'/><rect x='190' y='270' width='500' height='290' rx='50' fill='{acc}'/><path d='M290 270 V170 a150 150 0 0 1 300 0 V270' fill='none' stroke='{ink}' stroke-width='56' stroke-linecap='round'/><circle cx='440' cy='390' r='46' fill='{dark}'/><rect x='418' y='410' width='44' height='104' rx='16' fill='{dark}'/>",
+ "palette": "mono",
+ "font": "playfair",
+ "tilt": -2,
+ "kicker": "o szczerości",
+ "headline": "Szczerość ma swoje *miejsce*",
+ "body": "Mówić wszystkim wszystko, co myślisz? Złodziejowi też nie mówisz, gdzie trzymasz klucze. Szczere, ale głupie. *Pełna szczerość potrzebuje bezpiecznego miejsca.*"
+}

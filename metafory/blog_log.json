@@ -26,5 +26,19 @@
   "png": "metafory/blog/2026-10-23.png",
   "metricool_id": 403994403,
   "metricool_uuid": "-8636784035562240522"
+ },
+ {
+  "data": "2026-10-24",
+  "url": "https://andrzejstaszczuk.pl/2026/10/22/myslenie-w-trakcie-gry/",
+  "tytul_wpisu": "Myślę za dużo w trakcie gry. Jak wyłączyć analizę i zacząć grać",
+  "layout": "G5",
+  "photo": "art:bubbles",
+  "palette": "cream",
+  "font": "raj",
+  "focus": null,
+  "spec": "metafory/blog/2026-10-24.json",
+  "png": "metafory/blog/2026-10-24.png",
+  "metricool_id": null,
+  "metricool_uuid": null
  }
 ]

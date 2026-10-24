@@ -27,6 +27,46 @@
   "ocena": null,
   "tekst": "Z doświadczenia wiem: raczej nie zaczepia się kogoś, kogo nie traktuje się jako zagrożenie.",
   "zrodlo": "zoom 2026-10-22",
+  "uzyta": "2026-10-24"
+ },
+ {
+  "id": 1232,
+  "nr_banku": null,
+  "temat": "start i zawody",
+  "typ": "przewrotka",
+  "ocena": null,
+  "tekst": "Wielu zawodników działa reaktywnie: co zrobi rywal i jak się do niego dopasować. Odwróć to. Najpierw: czym narzucę swoją grę? Rywala neutralizujesz w drugiej kolejności.",
+  "zrodlo": "zoom 2026-10-23",
+  "uzyta": null
+ },
+ {
+  "id": 1233,
+  "nr_banku": null,
+  "temat": "stres i presja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Nie potrzebujesz poradzić sobie ze wszystkim, żeby wyjść i zrobić swoją robotę. Rzeczy nieprzewidziane i tak się wydarzą. Zmniejszasz prawdopodobieństwo, nie dajesz gwarancji.",
+  "zrodlo": "zoom 2026-10-23",
+  "uzyta": null
+ },
+ {
+  "id": 1234,
+  "nr_banku": null,
+  "temat": "inne",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Gdyby ktoś zestawił przewidywania komentujących z rzeczywistością, tablica świeciłaby na czerwono. Zobaczyłbyś, jak często się mylą. I wytrzeźwiał.",
+  "zrodlo": "zoom 2026-10-23",
+  "uzyta": null
+ },
+ {
+  "id": 1235,
+  "nr_banku": null,
+  "temat": "trening i regeneracja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Schodzisz z wysokich obrotów i powstaje złudzenie, że mało robisz. To nieprawda. Zauważyć, że było za dużo, to już jest robota.",
+  "zrodlo": "zoom 2026-10-23",
   "uzyta": null
  },
  {
