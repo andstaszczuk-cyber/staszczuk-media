@@ -40,5 +40,19 @@
   "png": "metafory/blog/2026-10-24.png",
   "metricool_id": 404859329,
   "metricool_uuid": "3590787930240405364"
+ },
+ {
+  "data": "2026-10-25",
+  "url": "https://andrzejstaszczuk.pl/2026/10/24/motywacja-w-sporcie-udowadnianie-innym/",
+  "tytul_wpisu": "Motywacja na wkurzeniu. Dlaczego udowadnianie innym kiedyś się kończy",
+  "layout": "L1",
+  "photo": "metafory/zdjecia/9315_bw.jpg",
+  "palette": "black",
+  "font": "anton",
+  "focus": 25,
+  "spec": "metafory/blog/2026-10-25.json",
+  "png": "metafory/blog/2026-10-25.png",
+  "metricool_id": null,
+  "metricool_uuid": null
  }
 ]

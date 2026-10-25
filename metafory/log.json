@@ -37,5 +37,18 @@
   "png": "metafory/relacje/2026-10-24.png",
   "metricool_id": 404859369,
   "metricool_uuid": "9021606042621068019"
+ },
+ {
+  "data": "2026-10-25",
+  "id": 204,
+  "layout": "G8",
+  "photo": "svg:płot z furtką",
+  "palette": "cream",
+  "font": "playfair",
+  "focus": null,
+  "spec": "metafory/relacje/2026-10-25.json",
+  "png": "metafory/relacje/2026-10-25.png",
+  "metricool_id": null,
+  "metricool_uuid": null
  }
 ]

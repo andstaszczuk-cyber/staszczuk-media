@@ -37,6 +37,46 @@
   "ocena": null,
   "tekst": "Wielu zawodników działa reaktywnie: co zrobi rywal i jak się do niego dopasować. Odwróć to. Najpierw: czym narzucę swoją grę? Rywala neutralizujesz w drugiej kolejności.",
   "zrodlo": "zoom 2026-10-23",
+  "uzyta": "2026-10-25"
+ },
+ {
+  "id": 1236,
+  "nr_banku": null,
+  "temat": "motywacja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Nie kręć na siebie bicza z wiedzy. Każdy wie, co mu szkodzi, i robi dalej. Nawyk bywa silniejszy niż wiedza.",
+  "zrodlo": "zoom 2026-10-24",
+  "uzyta": null
+ },
+ {
+  "id": 1237,
+  "nr_banku": null,
+  "temat": "cele i proces",
+  "typ": "przewrotka",
+  "ocena": null,
+  "tekst": "Jednym kliknięciem masz siedemnaście rozwiązań. A naraz wdrożysz jedną, dwie zmiany w zachowaniu. Dostępne nie znaczy wdrożone.",
+  "zrodlo": "zoom 2026-10-24",
+  "uzyta": null
+ },
+ {
+  "id": 1238,
+  "nr_banku": null,
+  "temat": "kariera i decyzje",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Uznałeś, że kariera ma iść tylko w górę. A ona drga. To, że sprawy się pokomplikowały, nie znaczy, że masz czuć się ze sobą gorzej.",
+  "zrodlo": "zoom 2026-10-24",
+  "uzyta": null
+ },
+ {
+  "id": 1239,
+  "nr_banku": null,
+  "temat": "inne",
+  "typ": "historia",
+  "ocena": null,
+  "tekst": "Jestem psychologiem i chodzę na własną terapię. Zewnętrzny specjalista nie jest zaangażowany emocjonalnie w twoją sytuację: to jego siła.",
+  "zrodlo": "zoom 2026-10-24",
   "uzyta": null
  },
  {

@@ -1,0 +1,10 @@
+{
+ "layout": "G8",
+ "svg": "<rect x='0' y='700' width='1000' height='300' fill='{acc}' opacity='.18'/><g fill='{acc}'><rect x='60' y='380' width='70' height='420' rx='14'/><rect x='190' y='340' width='70' height='460' rx='14'/><rect x='320' y='380' width='70' height='420' rx='14'/><rect x='450' y='340' width='70' height='460' rx='14'/><rect x='580' y='380' width='70' height='420' rx='14'/><rect x='60' y='520' width='590' height='50' rx='12'/><rect x='60' y='680' width='590' height='50' rx='12'/></g><g transform='rotate(-28 860 800)' fill='{acc}'><rect x='820' y='340' width='70' height='460' rx='14'/><rect x='820' y='520' width='160' height='50' rx='12'/><rect x='820' y='680' width='160' height='50' rx='12'/></g><circle cx='680' cy='460' r='26' fill='{acc}'/><circle cx='720' cy='420' r='18' fill='{acc}'/><circle cx='760' cy='460' r='26' fill='{acc}'/><circle cx='700' cy='560' r='22' fill='{acc}'/><circle cx='740' cy='560' r='22' fill='{acc}'/>",
+ "palette": "cream",
+ "font": "playfair",
+ "tilt": -2,
+ "kicker": "o komentarzach",
+ "headline": "Podwórko, na którym *gryzie*",
+ "body": "Odpowiadać na każdy komentarz? To jak wejść na podwórko, na którym gryzie pies. Może wygrasz, ale wychodzisz pogryziony. *Nie gaś pożarów, które nie muszą płonąć.*"
+}
