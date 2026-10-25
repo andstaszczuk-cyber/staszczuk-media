@@ -30,8 +30,14 @@ const ICONS = {
   ball: () => R('M150,60 C210,62 245,110 243,155 C240,210 195,248 148,246 C95,244 57,200 58,152 C60,100 100,60 150,60 Z') + R('M150,110 L185,135 L172,178 L128,178 L115,135 Z', 6) + R('M150,110 L150,62 M185,135 L238,128 M172,178 L200,232 M128,178 L100,232 M115,135 L62,128', 5),
   moon: () => R('M190,70 C130,80 100,140 120,195 C140,245 205,255 245,220 C190,225 150,180 160,130 C165,100 175,82 190,70 Z', 8, ACC) + `<text x="200" y="110" font-family="AD" font-size="54" fill="${INK}">z</text><text x="235" y="80" font-family="AD" font-size="40" fill="${INK}">z</text><text x="262" y="56" font-family="AD" font-size="30" fill="${INK}">z</text>`,
   triangle: () => R('M150,60 L255,240 L45,240 Z', 5) + ['M150,60', 'M255,240', 'M45,240'].map((p, k) => `<circle cx="${[150, 255, 45][k]}" cy="${[60, 240, 240][k]}" r="${k === 0 ? 34 : 30}" fill="${BG}" stroke="${k === 0 ? ACC : INK}" stroke-width="7"/>`).join('') + `<text x="150" y="18" text-anchor="middle" font-family="AD" font-size="30" fill="${ACC}">dziecko</text><text x="255" y="296" text-anchor="middle" font-family="AD" font-size="28" fill="${INK}">trener</text><text x="45" y="296" text-anchor="middle" font-family="AD" font-size="28" fill="${INK}">rodzic</text>`,
+  wallet: () => R('M40,110 L250,105 L255,250 L45,255 Z') + R('M40,110 C60,80 90,70 120,72 L210,70 C225,72 235,85 240,106') + R('M255,150 L195,152 C180,153 175,165 176,178 C177,192 185,200 198,200 L255,198', 6) + `<circle cx="206" cy="176" r="8" fill="${ACC}"/>` +
+    `<circle cx="95" cy="40" r="26" fill="none" stroke="${ACC}" stroke-width="6"/><circle cx="150" cy="28" r="22" fill="none" stroke="${ACC}" stroke-width="6"/>`,
+  sprout: () => R('M150,270 L150,140', 7) + R('M150,190 C110,190 75,165 70,120 C115,118 148,145 150,190 Z', 7, ACC) + R('M150,150 C150,100 185,65 235,62 C238,110 200,148 150,150 Z', 7, ACC) +
+    R('M70,270 C110,258 190,258 230,270', 7),
+  compass: () => `<circle cx="150" cy="150" r="110" fill="none" stroke="${INK}" stroke-width="7"/>` + R('M150,60 L172,150 L150,240 L128,150 Z', 6) + `<path d="M150,60 L172,150 L128,150 Z" fill="${ACC}" stroke="${ACC}" stroke-width="6" stroke-linejoin="round"/>` +
+    `<text x="150" y="28" text-anchor="middle" font-family="AD" font-size="34" fill="${ACC}">po co?</text>`,
 };
-const doodle = (name, size = 330) => `<svg class="dd" viewBox="-20 -10 340 320" overflow="visible" width="${size}" height="${size}"><g>${ICONS[name]()}</g></svg>`;
+const doodle =(name, size = 330) => `<svg class="dd" viewBox="-20 -10 340 320" overflow="visible" width="${size}" height="${size}"><g>${ICONS[name]()}</g></svg>`;
 function slide(s, i) {
   const swipe = total > 1 ? `<div style="position:absolute;right:70px;bottom:44px;font-size:30px" class="a">przesuń →</div>` : '';
   if (s.kind === 'cover' && s.layout === 'doodle') {
@@ -49,7 +55,7 @@ function slide(s, i) {
   }
   if (s.kind === 'cover' && s.layout === 'versus') {
     return `<div class="c" style="top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;gap:50px">
-      <div style="font-size:70px;line-height:1.2;position:relative;opacity:.75;display:inline-block;align-self:center">${hl(s.old)}<svg style="position:absolute;left:-20px;top:30%;width:calc(100% + 40px);height:60px" viewBox="0 0 400 60" preserveAspectRatio="none">${R('M5,40 C100,20 220,45 395,15', 9, ACC)}</svg></div>
+      <div style="font-size:70px;line-height:1.2;position:relative;opacity:.75;display:inline-block;align-self:center">${hl(s.old)}<svg style="position:absolute;left:-20px;top:34%;width:calc(100% + 40px);height:60px" viewBox="0 0 400 60" preserveAspectRatio="none">${R('M5,40 C100,20 220,45 395,15', 6, ACC)}</svg></div>
       <svg width="60" height="80" style="align-self:center" viewBox="0 0 60 80">${R('M30,5 L30,70 M10,50 L30,72 L50,50', 7)}</svg>
       <div style="font-size:82px;line-height:1.2">${hl(s.new)}</div>
       ${s.text ? `<div style="font-size:52px;line-height:1.3;opacity:.85">${hl(s.text)}</div>` : ''}</div>${swipe}${foot(i)}`;
@@ -75,17 +81,18 @@ function slide(s, i) {
     return `<div style="position:absolute;left:90px;right:90px;top:0;bottom:110px;display:flex;flex-direction:column;justify-content:center"><div>
       <div class="a" style="font-size:120px;line-height:1">${n}.</div>
       <div style="font-size:74px;line-height:1.2;margin:30px 0 44px">${hl(s.title)}</div>
-      <div style="font-size:${len(s.body) < 160 ? 54 : 48}px;line-height:1.45">${hl(s.body)}</div></div></div>${foot(i)}`;
+      <div style="font-size:${len(s.body) < 160 ? 54 : 48}px;line-height:1.45">${hl(s.body)}</div></div>${s.icon ? `<div style="margin-top:60px;align-self:center">${doodle(s.icon, 260)}</div>` : ''}</div>${foot(i)}`;
   }
   return `<div class="c" style="top:0;bottom:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:40px">
-    <div style="font-size:${len(s.text) < 60 ? 78 : 64}px;line-height:1.25">${hl(s.text)}</div>
+    ${s.icon ? doodle(s.icon, 240) : ''}<div style="font-size:${len(s.text) < 60 ? 78 : 64}px;line-height:1.25">${hl(s.text)}</div>
     <svg width="200" height="26"><path d="M5,15 C50,4 100,24 150,10 S190,10 195,14" fill="none" stroke="${ACC}" stroke-width="6" stroke-linecap="round"/></svg>
     <div style="font-size:48px;line-height:1.45;opacity:.9">${hl(s.cta || 'Zapisz na później i wyślij innemu rodzicowi.')}</div></div>${foot(i)}`;
 }
 (async () => {
   const { chromium } = require('playwright');
   const d = fs.readdirSync('/opt/pw-browsers').filter(x => x.startsWith('chromium_headless_shell')).sort().reverse()[0];
-  const b = await chromium.launch({ executablePath: d ? `/opt/pw-browsers/${d}/chrome-linux/headless_shell` : undefined, args: ['--no-sandbox'] });
+  const ex = d && [`/opt/pw-browsers/${d}/chrome-linux/headless_shell`, `/opt/pw-browsers/${d}/chrome-headless-shell-linux64/chrome-headless-shell`].find(f => fs.existsSync(f));
+  const b = await chromium.launch({ executablePath: ex || undefined, args: ['--no-sandbox'] });
   const p = await b.newPage({ viewport: { width: 1080, height: 1350 } });
   fs.mkdirSync(outDir, { recursive: true });
   const tmp = path.join(__dirname, `.tmp-${process.pid}.html`);
