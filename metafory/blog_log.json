@@ -54,5 +54,19 @@
   "png": "metafory/blog/2026-10-25.png",
   "metricool_id": 405556503,
   "metricool_uuid": "7835394515799525191"
+ },
+ {
+  "data": "2026-10-26",
+  "url": "https://andrzejstaszczuk.pl/2026/10/26/opinia-innych-w-sporcie/",
+  "tytul_wpisu": "Co inni pomyślą? Jak przestać żyć pod radarem cudzych opinii",
+  "layout": "G2",
+  "photo": "svg:radar",
+  "palette": "red",
+  "font": "playfair",
+  "focus": null,
+  "spec": "metafory/blog/2026-10-26.json",
+  "png": "metafory/blog/2026-10-26.png",
+  "metricool_id": null,
+  "metricool_uuid": null
  }
 ]

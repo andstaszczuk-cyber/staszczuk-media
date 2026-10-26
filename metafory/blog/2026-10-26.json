@@ -1,0 +1,11 @@
+{
+ "layout": "G2",
+ "svg": "<circle cx='500' cy='500' r='440' fill='none' stroke='{acc}' stroke-width='14'/><circle cx='500' cy='500' r='330' fill='none' stroke='{acc}' stroke-width='10'/><circle cx='500' cy='500' r='220' fill='none' stroke='{acc}' stroke-width='10'/><circle cx='500' cy='500' r='110' fill='none' stroke='{acc}' stroke-width='10'/><line x1='60' y1='500' x2='940' y2='500' stroke='{acc}' stroke-width='8'/><line x1='500' y1='60' x2='500' y2='940' stroke='{acc}' stroke-width='8'/><path d='M500 500 L500 60 A440 440 0 0 1 880 280 Z' fill='{acc}' opacity='.45'/><line x1='500' y1='500' x2='880' y2='280' stroke='{acc}' stroke-width='16' stroke-linecap='round'/><circle cx='500' cy='500' r='34' fill='{acc}'/><circle cx='300' cy='330' r='22' fill='{acc}'/><circle cx='720' cy='690' r='22' fill='{acc}'/><circle cx='640' cy='250' r='16' fill='{acc}'/>",
+ "palette": "red",
+ "font": "playfair",
+ "tilt": -2,
+ "kicker": "przeczytaj",
+ "headline": "Nikt na ciebie *nie patrzy*",
+ "body": "Każdy jest zajęty sobą. *Radar cudzych opinii możesz ściszyć* i wrócić do swojej gry.",
+ "cta": "Cały tekst: andrzejstaszczuk.pl/blog"
+}
