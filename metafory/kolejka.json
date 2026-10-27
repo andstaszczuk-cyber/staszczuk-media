@@ -51,6 +51,24 @@
   "tekst": "Umysł ma taką zdolność, że przyjemne rzeczy szybko zapomina, ulatują z głowy, a nieprzyjemne utrwala, jakby stukał i wykuwał je w kamieniu. A przecież możesz od siebie wymagać, chcieć więcej i skuteczniej, i jednocześnie siebie doceniać. To się w ogóle nie wyklucza.",
   "na_relacje": "Mózg wykuwa porażki w kamieniu, a sukcesy zapomina. Możesz od siebie wymagać i jednocześnie się doceniać.",
   "warianty": [],
+  "uzyta": "2026-10-27"
+ },
+ {
+  "id": 205,
+  "temat": "trener i rodzice",
+  "rodzaj": "przypowieść",
+  "tekst": "W klasztorze jest kilka sekcji, a przeor od dawna nie zagląda do mojej. Na pewno chce mnie przenieść, dlatego ze mną nie rozmawia. A druga zakonnica mówi: a może u nas jest po prostu dobrze i on wie, że gdzie indziej ma więcej roboty? Cudze intencje najczęściej dopisujemy sami.",
+  "na_relacje": "Przeor nie zagląda do mojej sekcji: na pewno chce mnie przenieść. A może u nas jest po prostu dobrze? Cudze intencje najczęściej dopisujemy sami.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 206,
+  "temat": "motywacja",
+  "rodzaj": "metafora",
+  "tekst": "Boisz się, że jak przestaniesz udowadniać, to zniknie etyka pracy? Nikt po awansie nie siada z cygarem i nie mówi: już nic nie muszę. Tak się nie wydarzy. Etykę pracy już masz, ona nie zejdzie razem z potrzebą udowadniania.",
+  "na_relacje": "Nikt po awansie nie siada z cygarem i nie mówi: już nic nie muszę. Etyka pracy, którą zbudowałeś, nie znika razem z potrzebą udowadniania.",
+  "warianty": [],
   "uzyta": null
  },
  {

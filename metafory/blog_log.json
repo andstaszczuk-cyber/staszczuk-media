@@ -68,5 +68,19 @@
   "png": "metafory/blog/2026-10-26.png",
   "metricool_id": 406413459,
   "metricool_uuid": "-6064582815478494887"
+ },
+ {
+  "data": "2026-10-27",
+  "url": "https://andrzejstaszczuk.pl/2026/10/25/ruminacje-po-zawodach/",
+  "tytul_wpisu": "Po starcie analizuję w kółko. Jak przestać mielić porażkę w głowie",
+  "layout": "L12",
+  "photo": "metafory/zdjecia/9449_bw.jpg",
+  "palette": "black",
+  "font": "bebas",
+  "focus": 40,
+  "spec": "metafory/blog/2026-10-27.json",
+  "png": "metafory/blog/2026-10-27.png",
+  "metricool_id": null,
+  "metricool_uuid": null
  }
 ]

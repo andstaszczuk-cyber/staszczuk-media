@@ -57,6 +57,106 @@
   "ocena": null,
   "tekst": "Jednym kliknięciem masz siedemnaście rozwiązań. A naraz wdrożysz jedną, dwie zmiany w zachowaniu. Dostępne nie znaczy wdrożone.",
   "zrodlo": "zoom 2026-10-24",
+  "uzyta": "2026-10-27"
+ },
+ {
+  "id": 1240,
+  "nr_banku": null,
+  "temat": "start i zawody",
+  "typ": "przewrotka",
+  "ocena": null,
+  "tekst": "Czekasz na stan, w którym będziesz nakręcony i pewny siebie, bo tylko wtedy da się walczyć? Nie ma jednego stanu mistrza. Budujesz swój, spójny z twoim temperamentem.",
+  "zrodlo": "zoom 2026-10-26",
+  "uzyta": null
+ },
+ {
+  "id": 1241,
+  "nr_banku": null,
+  "temat": "stres i presja",
+  "typ": "pytanie",
+  "ocena": null,
+  "tekst": "Słyszysz w głowie: nie zawiedź nas. Tylko kto ci to powiedział? Często nikt. Sam rozszerzasz odpowiedzialność, a potem dźwigasz ciężar, którego nikt ci nie dał.",
+  "zrodlo": "zoom 2026-10-26",
+  "uzyta": null
+ },
+ {
+  "id": 1242,
+  "nr_banku": null,
+  "temat": "pewność siebie",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Pokora to rozumienie swojej siły i jednocześnie jej ograniczeń. Skromność mówi: a przestań. Pierwsza buduje, druga umniejsza.",
+  "zrodlo": "zoom 2026-10-26",
+  "uzyta": null
+ },
+ {
+  "id": 1243,
+  "nr_banku": null,
+  "temat": "emocje i myśli",
+  "typ": "przewrotka",
+  "ocena": null,
+  "tekst": "Nie potrzebujesz jednej spójnej narracji. Możesz czuć ekscytację i jednocześnie szykować się na to, że coś nie wyjdzie. Kilka narracji naraz to w porządku.",
+  "zrodlo": "zoom 2026-10-26",
+  "uzyta": null
+ },
+ {
+  "id": 1244,
+  "nr_banku": null,
+  "temat": "relacje i trener",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Informację zwrotną bierzesz narzędziowo: to, co merytoryczne, nawet jeśli trochę boli. To, co kompletnie nie pasuje, odsuwasz na bok i nie ładujesz w to emocji.",
+  "zrodlo": "zoom 2026-10-26",
+  "uzyta": null
+ },
+ {
+  "id": 1245,
+  "nr_banku": null,
+  "temat": "pewność siebie",
+  "typ": "przewrotka",
+  "ocena": null,
+  "tekst": "Wchodzisz na wyższy poziom i znów chcesz się pokazać, zasłużyć. Odwróć to: już się pokazałem, jestem tu. Teraz kontynuuję swoją jakość.",
+  "zrodlo": "zoom 2026-10-26",
+  "uzyta": null
+ },
+ {
+  "id": 1246,
+  "nr_banku": null,
+  "temat": "stres i presja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Okazja to nie powód, żeby nałożyć na siebie kolejną presję. To powód, żeby docenić siebie i zrobić robotę.",
+  "zrodlo": "zoom 2026-10-27",
+  "uzyta": null
+ },
+ {
+  "id": 1247,
+  "nr_banku": null,
+  "temat": "porażka i błędy",
+  "typ": "przewrotka",
+  "ocena": null,
+  "tekst": "Nie wybrali cię? To mówi tylko tyle, że ktoś w tym momencie miał lepszą dyspozycję. Czujesz się gorszy w całości? To już w ogóle nie ta kategoria.",
+  "zrodlo": "zoom 2026-10-27",
+  "uzyta": null
+ },
+ {
+  "id": 1248,
+  "nr_banku": null,
+  "temat": "stres i presja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Przygotowanie na czarny scenariusz ma sens do momentu, w którym pytasz: co robię, żeby go uniknąć? Jeśli myślisz o nim cały czas, jedziesz tam tylko po to, żeby czuć napięcie.",
+  "zrodlo": "zoom 2026-10-27",
+  "uzyta": null
+ },
+ {
+  "id": 1249,
+  "nr_banku": null,
+  "temat": "troska o siebie",
+  "typ": "historia własna",
+  "ocena": null,
+  "tekst": "Cieszyć się to umiejętność, nie stan, na który czekasz. Biorę do ręki książkę i mówię sobie: ale się cieszę, że ją mam. Świadomie, przy zwykłej czynności.",
+  "zrodlo": "zoom 2026-10-27",
   "uzyta": null
  },
  {

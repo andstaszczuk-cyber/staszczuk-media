@@ -1,0 +1,10 @@
+{
+ "layout": "G2",
+ "svg": "<circle cx='140' cy='200' r='62' fill='none' stroke='{ink}' stroke-width='9' opacity='.45'/><circle cx='320' cy='200' r='62' fill='none' stroke='{ink}' stroke-width='9' opacity='.45'/><circle cx='500' cy='200' r='62' fill='none' stroke='{ink}' stroke-width='9' opacity='.45'/><circle cx='680' cy='200' r='62' fill='none' stroke='{ink}' stroke-width='9' opacity='.45'/><circle cx='860' cy='200' r='62' fill='none' stroke='{ink}' stroke-width='9' opacity='.45'/><circle cx='140' cy='400' r='62' fill='none' stroke='{ink}' stroke-width='9' opacity='.45'/><circle cx='320' cy='400' r='62' fill='none' stroke='{ink}' stroke-width='9' opacity='.45'/><circle cx='500' cy='400' r='78' fill='{acc}'/><circle cx='500' cy='400' r='112' fill='none' stroke='{acc}' stroke-width='8' opacity='.5'/><circle cx='680' cy='400' r='62' fill='none' stroke='{ink}' stroke-width='9' opacity='.45'/><circle cx='860' cy='400' r='62' fill='none' stroke='{ink}' stroke-width='9' opacity='.45'/><circle cx='140' cy='600' r='62' fill='none' stroke='{ink}' stroke-width='9' opacity='.45'/><circle cx='320' cy='600' r='62' fill='none' stroke='{ink}' stroke-width='9' opacity='.45'/><circle cx='500' cy='600' r='62' fill='none' stroke='{ink}' stroke-width='9' opacity='.45'/><circle cx='680' cy='600' r='62' fill='none' stroke='{ink}' stroke-width='9' opacity='.45'/><circle cx='860' cy='600' r='62' fill='none' stroke='{ink}' stroke-width='9' opacity='.45'/><circle cx='140' cy='800' r='62' fill='none' stroke='{ink}' stroke-width='9' opacity='.45'/><circle cx='320' cy='800' r='62' fill='none' stroke='{ink}' stroke-width='9' opacity='.45'/>",
+ "palette": "cream",
+ "font": "raj",
+ "tilt": -2,
+ "kicker": "o wdrażaniu",
+ "headline": "Siedemnaście *rozwiązań*",
+ "body": "Jednym kliknięciem masz siedemnaście rozwiązań. A naraz wdrożysz jedną, dwie zmiany w zachowaniu. *Dostępne nie znaczy wdrożone.*"
+}

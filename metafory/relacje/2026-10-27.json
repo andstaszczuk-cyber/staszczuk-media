@@ -1,0 +1,10 @@
+{
+ "layout": "G4",
+ "svg": "<polygon points='150,330 420,210 840,250 900,560 820,860 420,900 170,760 110,520' fill='{dark}' opacity='.55' stroke='{ink}' stroke-width='10' stroke-linejoin='round'/><polygon points='150,330 420,210 840,250 900,560 820,860 420,900 170,760 110,520' fill='none' stroke='{acc}' stroke-width='4' opacity='.5' stroke-linejoin='round' transform='translate(0,18)'/><path d='M300 450 L690 420' stroke='{acc}' stroke-width='26' stroke-linecap='round'/><path d='M290 560 L720 530' stroke='{acc}' stroke-width='26' stroke-linecap='round'/><path d='M300 670 L650 650' stroke='{acc}' stroke-width='26' stroke-linecap='round'/><path d='M310 770 L560 760' stroke='{acc}' stroke-width='26' stroke-linecap='round'/><circle cx='760' cy='160' r='26' fill='{ink}' opacity='.75'/><circle cx='860' cy='90' r='18' fill='{ink}' opacity='.5'/><circle cx='930' cy='40' r='11' fill='{ink}' opacity='.3'/><circle cx='660' cy='110' r='14' fill='{ink}' opacity='.4'/>",
+ "palette": "red",
+ "font": "playfair",
+ "tilt": -2,
+ "kicker": "o docenianiu",
+ "headline": "Wykute *w kamieniu*",
+ "body": "Mózg wykuwa porażki w kamieniu, a sukcesy zapomina. Możesz od siebie wymagać *i jednocześnie się doceniać.*"
+}

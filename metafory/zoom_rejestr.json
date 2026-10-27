@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-10-26T09:45:00Z",
+ "ostatnio_do": "2026-10-27T09:45:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -45,6 +45,30 @@
    "uuid": "0D2D198A-60E5-48CF-AA18-46A05CE446EB",
    "data": "2026-10-24",
    "temat": "konsultacja wstępna (klient biznesowy, bez zawodnika)",
+   "dodano_mysli": 4,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "56151BA6-29AD-462B-8763-238CB5535EAE",
+   "data": "2026-10-26",
+   "temat": "konsultacja wstępna z zawodnikiem",
+   "dodano_mysli": 2,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "ED4524BA-7BE0-49E2-BFDA-DAD2685504A9",
+   "data": "2026-10-26",
+   "temat": "sesja (sędzia)",
+   "dodano_mysli": 4,
+   "dodano_metafor": 2,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "B4B4EA19-0509-4FB9-810E-548805DE1DCD",
+   "data": "2026-10-27",
+   "temat": "sesja z zawodniczką",
    "dodano_mysli": 4,
    "dodano_metafor": 0,
    "status": "przetworzone"
