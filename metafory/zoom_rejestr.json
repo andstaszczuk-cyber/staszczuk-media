@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-10-27T09:45:00Z",
+ "ostatnio_do": "2026-10-29T09:45:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -71,6 +71,62 @@
    "temat": "sesja z zawodniczką",
    "dodano_mysli": 4,
    "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "842BCD01-B828-4B28-9375-9CD71414DC5A",
+   "data": "2026-10-27",
+   "temat": "sesja z zawodnikiem",
+   "dodano_mysli": 3,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "E54938B0-94C9-4A83-96BC-F113C83DF144",
+   "data": "2026-10-27",
+   "temat": "sesja z zawodnikiem",
+   "dodano_mysli": 0,
+   "dodano_metafor": 1,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "A32E53BE-1C3D-4A72-9D47-0D2DF72C3031",
+   "data": "2026-10-27",
+   "temat": "sesja z zawodnikiem",
+   "dodano_mysli": 3,
+   "dodano_metafor": 1,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "E1FE6A6B-A32D-46B5-B710-93798C509C42",
+   "data": "2026-10-28",
+   "temat": "Aleksandra Mikulicz",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "pominięte"
+  },
+  {
+   "uuid": "2A329209-85FB-4E02-97D3-69AAF3945952",
+   "data": "2026-10-28",
+   "temat": "sesja z zawodnikiem",
+   "dodano_mysli": 1,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "58C8D6C8-6F8A-4989-89F1-505BD38246CE",
+   "data": "2026-10-29",
+   "temat": "konsultacja wstępna z zawodnikiem",
+   "dodano_mysli": 1,
+   "dodano_metafor": 1,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "FAB8C7C5-C506-47FC-AA92-0CC105C372CB",
+   "data": "2026-10-29",
+   "temat": "sesja z zawodniczką",
+   "dodano_mysli": 3,
+   "dodano_metafor": 1,
    "status": "przetworzone"
   }
  ]

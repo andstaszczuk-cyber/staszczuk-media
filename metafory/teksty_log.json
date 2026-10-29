@@ -76,5 +76,18 @@
   "png": "metafory/teksty/2026-10-27.png",
   "metricool_id": 407623814,
   "metricool_uuid": "3683285027170305395"
+ },
+ {
+  "data": "2026-10-29",
+  "id": 1240,
+  "layout": "L1",
+  "photo": "metafory/zdjecia/9412_kolor.jpg",
+  "palette": "mono",
+  "font": "bebas",
+  "focus": 45,
+  "spec": "metafory/teksty/2026-10-29.json",
+  "png": "metafory/teksty/2026-10-29.png",
+  "metricool_id": null,
+  "metricool_uuid": null
  }
 ]

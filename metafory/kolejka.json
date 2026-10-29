@@ -60,6 +60,42 @@
   "tekst": "W klasztorze jest kilka sekcji, a przeor od dawna nie zagląda do mojej. Na pewno chce mnie przenieść, dlatego ze mną nie rozmawia. A druga zakonnica mówi: a może u nas jest po prostu dobrze i on wie, że gdzie indziej ma więcej roboty? Cudze intencje najczęściej dopisujemy sami.",
   "na_relacje": "Przeor nie zagląda do mojej sekcji: na pewno chce mnie przenieść. A może u nas jest po prostu dobrze? Cudze intencje najczęściej dopisujemy sami.",
   "warianty": [],
+  "uzyta": "2026-10-29"
+ },
+ {
+  "id": 207,
+  "temat": "cele i proces",
+  "rodzaj": "przypowieść",
+  "tekst": "Jedni przez miesiąc lepili jeden idealny garnek, drudzy w tym czasie lepili ich jak najwięcej. Lepiej lepili ci drudzy, bo mieli więcej prób. Każdy garnek to okazja, żeby coś poprawić.",
+  "na_relacje": "Miesiąc na jeden idealny garnek albo miesiąc na jak najwięcej garnków? Lepiej lepili ci drudzy. Uczy liczba prób.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 208,
+  "temat": "pewność siebie",
+  "rodzaj": "metafora",
+  "tekst": "Zrób sobie rolkę dla siebie: urywki własnych dobrych akcji, zrobionych tak jak trzeba. Mózg sam przypomni te, które nie poszły. Dowody na to, co działa, musisz mu podać.",
+  "na_relacje": "Zrób sobie rolkę dla siebie z własnych dobrych akcji. Mózg sam przypomni te, które nie poszły. Dowody na to, co działa, musisz mu podać.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 209,
+  "temat": "stres i presja",
+  "rodzaj": "metafora",
+  "tekst": "Stres jest następczy: to reakcja, nie przyczyna. Przyczyną są twoje myśli i sposób czytania sytuacji. Zajmując się samym stresem, naklejasz plasterek na ranę, którą trzeba zszyć.",
+  "na_relacje": "Stres to reakcja, nie przyczyna. Walcząc z samym stresem, naklejasz plasterek tam, gdzie trzeba szyć.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 210,
+  "temat": "cele i proces",
+  "rodzaj": "historia własna",
+  "tekst": "W żadnym podręczniku biegania nie znajdziesz wskazówki: schowaj sznurówki pod sznurówki, żeby but nie rozwiązał się w trakcie. Mnie się rozwiązał i ktoś mi to podpowiedział. Część detali daje tylko doświadczenie.",
+  "na_relacje": "Żaden podręcznik nie napisze: schowaj sznurówki, żeby but nie rozwiązał się w biegu. Część detali daje tylko doświadczenie.",
+  "warianty": [],
   "uzyta": null
  },
  {

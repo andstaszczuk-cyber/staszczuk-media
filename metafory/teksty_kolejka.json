@@ -67,6 +67,116 @@
   "ocena": null,
   "tekst": "Czekasz na stan, w którym będziesz nakręcony i pewny siebie, bo tylko wtedy da się walczyć? Nie ma jednego stanu mistrza. Budujesz swój, spójny z twoim temperamentem.",
   "zrodlo": "zoom 2026-10-26",
+  "uzyta": "2026-10-29"
+ },
+ {
+  "id": 1250,
+  "nr_banku": null,
+  "temat": "trener i rodzice",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Trener w jednym momencie patrzy na jednego zawodnika, nie na dwunastu. Każda ocena opiera się na małym wycinku informacji, a jesteśmy jej tak pewni.",
+  "zrodlo": "zoom 2026-10-27",
+  "uzyta": null
+ },
+ {
+  "id": 1251,
+  "nr_banku": null,
+  "temat": "motywacja",
+  "typ": "przewrotka",
+  "ocena": null,
+  "tekst": "Czerpanie radości z gry to kompetencja. Póki nie nazwiesz precyzyjnie, co ci sprawia radość w sporcie, nie będziesz wiedział, jak ją rozpoznać.",
+  "zrodlo": "zoom 2026-10-27",
+  "uzyta": null
+ },
+ {
+  "id": 1252,
+  "nr_banku": null,
+  "temat": "start i zawody",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Dziś jest tak. Nie wiesz dlaczego, organizm bywa zagadką. W tym stanie też zrobisz swoje zadania, a za godzinę może być zupełnie inaczej.",
+  "zrodlo": "zoom 2026-10-27",
+  "uzyta": null
+ },
+ {
+  "id": 1253,
+  "nr_banku": null,
+  "temat": "inne",
+  "typ": "przewrotka",
+  "ocena": null,
+  "tekst": "Mówisz dzień dobry z automatu. Tak samo z automatu mówisz sobie: muszę. Część automatyzmów ci szkodzi, a można je zaprojektować inaczej.",
+  "zrodlo": "zoom 2026-10-27",
+  "uzyta": null
+ },
+ {
+  "id": 1254,
+  "nr_banku": null,
+  "temat": "pewność siebie",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Mało kto patrzy na to, ile zrobił dobrze. Większość twoich zagrań była prawidłowa, a w głowie zostały tylko błędy. Błędy są od tego, żeby je nazwać i poprawić.",
+  "zrodlo": "zoom 2026-10-27",
+  "uzyta": null
+ },
+ {
+  "id": 1255,
+  "nr_banku": null,
+  "temat": "perfekcjonizm i samokrytyka",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Oczekiwanie, że nie będziesz popełniać głupich błędów, jest szkodliwe. Nikt go nie spełnia. Tworzy tylko niepotrzebną presję.",
+  "zrodlo": "zoom 2026-10-27",
+  "uzyta": null
+ },
+ {
+  "id": 1256,
+  "nr_banku": null,
+  "temat": "stres i presja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Patrzyła na ciebie cała hala i zrobiłeś swoje. Następny raz będzie łatwiejszy, bo już się z tym zmierzyłeś.",
+  "zrodlo": "zoom 2026-10-28",
+  "uzyta": null
+ },
+ {
+  "id": 1257,
+  "nr_banku": null,
+  "temat": "start i zawody",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Trening to przestrzeń bez oceny. Zawody mają konsekwencje. Sama zmiana kontekstu sprawia, że inaczej traktujesz siebie i swoje zadania.",
+  "zrodlo": "zoom 2026-10-29",
+  "uzyta": null
+ },
+ {
+  "id": 1258,
+  "nr_banku": null,
+  "temat": "cele i proces",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Jeśli kompetencje mentalne idą do przodu, a wynik jeszcze nie, robota i tak jest zrobiona. Wynik zależy od masy rzeczy i nie jest jedynym parametrem oceny siebie.",
+  "zrodlo": "zoom 2026-10-29",
+  "uzyta": null
+ },
+ {
+  "id": 1259,
+  "nr_banku": null,
+  "temat": "emocje i złość",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Mam prawo czuć złość po starcie i jednocześnie wierzę, że zrobię robotę, która doprowadzi mnie do celu. Jedno nie wyklucza drugiego.",
+  "zrodlo": "zoom 2026-10-29",
+  "uzyta": null
+ },
+ {
+  "id": 1260,
+  "nr_banku": null,
+  "temat": "start i zawody",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Prawdziwa psychologia sportu dzieje się w trakcie startu: biegniesz, przychodzą myśli, a ty je korygujesz. Przygotowanie jest po to, żeby wtedy umieć.",
+  "zrodlo": "zoom 2026-10-29",
   "uzyta": null
  },
  {

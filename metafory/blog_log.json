@@ -82,5 +82,19 @@
   "png": "metafory/blog/2026-10-27.png",
   "metricool_id": 407623852,
   "metricool_uuid": "-809475156063335417"
+ },
+ {
+  "data": "2026-10-29",
+  "url": "https://andrzejstaszczuk.pl/2026/10/29/smutek-po-przegranej/",
+  "tytul_wpisu": "Przegrałem i nie mogę się pozbierać. Ile wolno przeżywać porażkę?",
+  "layout": "G7",
+  "photo": "art:hourglass",
+  "palette": "cream",
+  "font": "anton",
+  "focus": null,
+  "spec": "metafory/blog/2026-10-29.json",
+  "png": "metafory/blog/2026-10-29.png",
+  "metricool_id": null,
+  "metricool_uuid": null
  }
 ]
