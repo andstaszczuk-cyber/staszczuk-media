@@ -36,6 +36,7 @@ const ICONS = {
     R('M70,270 C110,258 190,258 230,270', 7),
   compass: () => `<circle cx="150" cy="150" r="110" fill="none" stroke="${INK}" stroke-width="7"/>` + R('M150,60 L172,150 L150,240 L128,150 Z', 6) + `<path d="M150,60 L172,150 L128,150 Z" fill="${ACC}" stroke="${ACC}" stroke-width="6" stroke-linejoin="round"/>` +
     `<text x="150" y="28" text-anchor="middle" font-family="AD" font-size="34" fill="${ACC}">po co?</text>`,
+  kompas: () => `<circle cx="150" cy="150" r="110" fill="none" stroke="${INK}" stroke-width="7"/>` + R('M150,60 L172,150 L150,240 L128,150 Z', 6) + `<path d="M150,60 L172,150 L128,150 Z" fill="${ACC}" stroke="${ACC}" stroke-width="6" stroke-linejoin="round"/>`,
   speech: () => R('M40,60 L260,55 L262,190 L130,195 L80,250 L90,195 L42,198 Z') + [100, 150, 200].map(x => `<circle cx="${x}" cy="126" r="13" fill="${ACC}"/>`).join(''),
   loop: () => R('M70,150 C70,90 115,62 160,64 C210,68 238,100 240,138') + R('M212,118 L240,145 L265,116') + R('M230,170 C228,222 185,248 140,246 C92,242 62,210 62,170', 7, ACC) + R('M88,192 L62,165 L38,194', 7, ACC),
   car: () => R('M30,200 L45,150 L90,145 L122,100 L200,98 L236,145 L270,152 L275,200 Z') + R('M132,112 L195,110 L216,142 L112,144 Z', 5) + R('M60,175 L80,175', 6, ACC) +
@@ -80,7 +81,7 @@ function slide(s, i) {
       ${s.text ? `<div style="font-size:52px;line-height:1.3;opacity:.85">${hl(s.text)}</div>` : ''}</div>${swipe}${foot(i)}`;
   }
   if (s.kind === 'cover' && s.layout === 'marker') {
-    const mk = qq(s.text).replace(/&/g, '&amp;').split('\n').map(l => l.replace(/\*(.+?)\*/g, `<span style="background:linear-gradient(transparent 55%, ${spec.bg === 'khaki' ? '#F4F1E6' : '#FCE86A'} 55%, ${spec.bg === 'khaki' ? '#F4F1E6' : '#FCE86A'} 92%, transparent 92%);padding:0 6px">$1</span>`)).join('<br>');
+    const mk = qq(s.text).replace(/\*([^*]+)\*/g, (m, x) => '*' + x.split('\n').join('*\n*') + '*').replace(/&/g, '&amp;').split('\n').map(l => l.replace(/\*(.+?)\*/g, `<span style="background:linear-gradient(transparent 55%, ${spec.bg === 'khaki' ? '#F4F1E6' : '#FCE86A'} 55%, ${spec.bg === 'khaki' ? '#F4F1E6' : '#FCE86A'} 92%, transparent 92%);padding:0 6px">$1</span>`)).join('<br>');
     return `<div style="position:absolute;left:100px;right:100px;top:0;bottom:0;display:flex;align-items:center"><div style="font-size:${len(s.text) < 50 ? 96 : 82}px;line-height:1.35">${mk}</div></div>${swipe}${foot(i)}`;
   }
   if (s.kind === 'cover') {
