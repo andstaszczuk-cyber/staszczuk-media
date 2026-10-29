@@ -82,6 +82,36 @@ const S = {
     <path d="M800,250 L800,150 A100,100 0 1 1 750,163 Z" fill="${R}" opacity=".55"/>
     <line x1="800" y1="250" x2="752" y2="166" stroke="${Y}" stroke-width="10" stroke-linecap="round"/><circle cx="800" cy="250" r="12" fill="${Y}"/>
     ${adult(200, 200, 1.0, { head: [250, 170], sh: [222, 205], hip: [170, 330], lA: [[185, 210], [168, 300], [160, 395]], rA: [[262, 212], [258, 300], [240, 395]], lL: [[155, 335], [140, 410], [150, 495]], rL: [[188, 335], [222, 410], [228, 495]] }, { ref: true })}`),
+  // rzut karny: sędzia wskazuje punkt, zawodnik łapie się za głowę, bramka w tle
+  penalty: () => wrap(`${light(180, 90, 240)}${light(900, 90, 240)}${stands(400)}<rect y="420" width="1080" height="930" fill="#1B2A1F" opacity=".5"/>
+    <rect x="600" y="330" width="380" height="190" fill="none" stroke="${CR}" stroke-width="12" opacity=".8"/>
+    <path d="M600,330 l30,30 h320 l30,-30 M630,360 v160 M950,360 v160" stroke="${CR}" stroke-width="3" opacity=".3" fill="none"/>
+    <ellipse cx="560" cy="690" rx="22" ry="9" fill="${CR}"/>
+    ${adult(60, 200, 1.0, { head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [148, 228], [150, 300]], rA: [[240, 155], [320, 230], [380, 300]], lL: [[185, 305], [175, 400], [165, 495]], rL: [[215, 305], [225, 400], [235, 495]] }, { ref: true })}
+    ${adult(700, 230, 0.85, { head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [130, 95], [175, 60]], rA: [[240, 155], [270, 95], [225, 60]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] }, { color: Y })}`),
+  // noc przed meczem: sędzia siedzi na łóżku, księżyc w oknie, budzik
+  night: () => wrap(`<rect width="1080" height="1350" fill="#151217"/>
+    <rect x="640" y="90" width="300" height="300" rx="10" fill="#1E2233" stroke="#3A2C2F" stroke-width="14"/><line x1="790" y1="90" x2="790" y2="390" stroke="#3A2C2F" stroke-width="10"/><line x1="640" y1="240" x2="940" y2="240" stroke="#3A2C2F" stroke-width="10"/>
+    <circle cx="870" cy="160" r="44" fill="${Y}"/><circle cx="890" cy="148" r="40" fill="#1E2233"/>
+    <rect x="80" y="560" width="620" height="90" rx="16" fill="#4A3A3E"/><rect x="80" y="470" width="60" height="180" rx="10" fill="#4A3A3E"/><rect x="130" y="530" width="140" height="40" rx="14" fill="${CR}" opacity=".85"/>
+    <rect x="770" y="560" width="160" height="110" rx="8" fill="#3A2C2F"/><rect x="800" y="500" width="100" height="60" rx="10" fill="#1A1517" stroke="${Y}" stroke-width="5"/><text x="850" y="542" font-family="Poppins,sans-serif" font-weight="700" font-size="30" fill="${Y}" text-anchor="middle">6:30</text>
+    ${adult(260, 160, 0.95, SIT, { ref: true })}`),
+  // deszcz: sędzia na mokrym boisku, krople i kałuża
+  rain: () => wrap(`${light(200, 100, 230)}${light(880, 90, 250)}${stands(430)}<rect y="450" width="1080" height="900" fill="#1B2A1F" opacity=".55"/>
+    ${Array.from({ length: 70 }, (_, i) => { const x = (i * 157) % 1100, y = (i * 89) % 700; return `<line x1="${x}" y1="${y}" x2="${x - 18}" y2="${y + 44}" stroke="${CR}" stroke-width="4" opacity=".35" stroke-linecap="round"/>`; }).join('')}
+    <ellipse cx="560" cy="712" rx="170" ry="22" fill="#2C3A44" opacity=".8"/><ellipse cx="860" cy="660" rx="90" ry="12" fill="#2C3A44" opacity=".6"/>
+    ${adult(355, 200, 1.0, { head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [140, 228], [150, 300]], rA: [[240, 155], [262, 228], [250, 300]], lL: [[185, 305], [178, 400], [170, 495]], rL: [[215, 305], [222, 400], [230, 495]] }, { ref: true })}`),
+  // kontuzja: zawodnik leży, sędzia unosi rękę i wzywa pomoc
+  injury: () => wrap(`${light(180, 90, 240)}${light(900, 90, 240)}${stands(420)}<rect y="440" width="1080" height="910" fill="#1B2A1F" opacity=".5"/>
+    <line x1="0" y1="715" x2="1080" y2="705" stroke="${CR}" stroke-opacity=".2" stroke-width="6"/>
+    ${adult(470, 120, 0.95, { head: [80, 520], sh: [150, 525], hip: [310, 530], lA: [[150, 515], [210, 470], [250, 455]], rA: [[150, 535], [220, 555], [260, 545]], lL: [[310, 525], [400, 500], [480, 520]], rL: [[310, 540], [405, 545], [495, 548]] }, { color: Y })}
+    ${adult(90, 190, 1.0, { head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [148, 228], [150, 300]], rA: [[240, 155], [270, 85], [290, 15]], lL: [[185, 305], [178, 400], [170, 495]], rL: [[215, 305], [235, 400], [250, 495]] }, { ref: true })}`),
+  // pierwsza ważna obsada: tunel, światło na końcu, sędzia idzie w stronę boiska
+  tunnel: () => wrap(`<rect width="1080" height="1350" fill="#120F11"/>
+    <path d="M0,0 L380,260 L380,600 L0,760 Z" fill="#221A1C"/><path d="M1080,0 L700,260 L700,600 L1080,760 Z" fill="#221A1C"/>
+    <rect x="380" y="260" width="320" height="340" fill="${Y}" opacity=".9"/><circle cx="540" cy="430" r="330" fill="url(#glow)" opacity=".8"/>
+    <path d="M380,600 L0,760 M700,600 L1080,760" stroke="#3A2C2F" stroke-width="6"/>
+    ${adult(380, 250, 0.85, { head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [140, 228], [130, 290]], rA: [[240, 155], [262, 228], [272, 290]], lL: [[185, 305], [170, 400], [160, 495]], rL: [[215, 305], [232, 400], [246, 490]] }, { ref: false, color: '#2B1515' })}`),
   // zejście z boiska pod światłami, samotnie
   walk: () => wrap(`${light(180, 110)}${light(900, 90, 300)}${stands(440)}
     <rect y="470" width="1080" height="880" fill="#1B2A1F" opacity=".55"/>
