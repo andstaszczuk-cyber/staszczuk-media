@@ -62,9 +62,9 @@ function slideHtml(s, i) {
   // NOWE UKŁADY OKŁADEK (24.10.2026) dla różnorodności siatki
   if (s.kind === 'cover' && s.style === 'split') {
     // górna połowa w kolorze akcentu z pytaniem, dolna z dopowiedzeniem
-    // na żółtym tle górna połowa ciemnoczerwona (żółty akcent na żółtym byłby niewidoczny)
+    // na żółtym tle górna połowa w ciemniejszym żółtym (okładka zostaje żółta w siatce), akcent czerwony
     const yl = themeOf(s) === THEMES.yellow;
-    const topBg = yl ? 'background:#7A2423!important' : '', topFg = yl ? '#FFFFFF' : '#2B1515', topY = yl ? '#FCE86A' : '#9E3236';
+    const topBg = yl ? 'background:#EFCF3C!important' : '', topFg = '#2B1515', topY = '#9E3236';
     return `<style>.split-top .y{color:${topY}!important}</style><div style="position:absolute;left:0;right:0;top:0;height:640px;box-sizing:border-box;padding:0 90px 60px;display:flex;flex-direction:column;justify-content:flex-end;${topBg}" class="acc-bg split-top">
         <div style="font-family:Pop;font-weight:600;font-size:26px;letter-spacing:6px;opacity:.75;margin-bottom:26px;color:${topFg}">${s.label || 'PYTANIE'}</div>
         <div style="font-weight:800;font-size:${len(s.text) < 40 ? 84 : 70}px;line-height:1.12;color:${topFg};text-wrap:balance">${hl(s.text)}</div></div>
@@ -134,7 +134,7 @@ function slideHtml(s, i) {
     const bsz = len(s.body) < 140 ? 52 : len(s.body) < 230 ? 46 : 40;
     return `<div style="position:absolute;left:90px;right:90px;top:190px">
       <div style="display:flex;align-items:center;gap:28px;margin-bottom:44px">
-        <div class="acc-bg" style="flex:none;width:96px;height:96px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:Raj;font-weight:700;font-size:56px;color:#2B1515">${n}</div>
+        <div class="acc-bg" style="flex:none;width:96px;height:96px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:Raj;font-weight:700;font-size:56px;color:${themeOf(s) === THEMES.yellow ? '#FFFFFF' : '#2B1515'}">${n}</div>
         <div style="font-weight:800;font-size:62px;line-height:1.12;text-wrap:balance">${hl(s.title)}</div></div>
       <div style="font-family:Pop;font-weight:500;font-size:${bsz}px;line-height:1.45;opacity:.95">${hl(s.body)}</div></div>
       ${s.icon ? `<div style="position:absolute;left:90px;bottom:170px;opacity:.9">${icon(s.icon, 110)}</div>` : ''}${footer(i)}`;
