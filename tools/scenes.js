@@ -52,6 +52,20 @@ const S = {
     <text x="680" y="370" font-family="Poppins,sans-serif" font-weight="800" font-size="44" fill="${Y}">dziś</text><text x="640" y="610" font-family="Poppins,sans-serif" font-weight="500" font-size="32" fill="${CR}" fill-opacity=".6">wrzesień</text>
     ${kid(330, 300, 0.82, STAND)}${adult(40, 200, 0.95, { head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [148, 228], [150, 300]], rA: [[240, 155], [300, 190], [360, 170]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] })}
     <rect y="700" width="1080" height="16" fill="#3A2C2F"/>`),
+  // trzech sędziów: główny w środku, asystenci z chorągiewkami po bokach, linie kontaktu
+  crew: () => wrap(`${light(170, 100, 240)}${light(910, 100, 240)}${stands(430)}<rect y="450" width="1080" height="900" fill="#1B2A1F" opacity=".5"/>
+    <line x1="0" y1="700" x2="1080" y2="700" stroke="${CR}" stroke-opacity=".2" stroke-width="6"/>
+    <path d="M190,330 Q365,250 540,300 Q715,250 890,330" fill="none" stroke="${Y}" stroke-opacity=".45" stroke-width="6" stroke-dasharray="16 14"/>
+    ${adult(20, 300, 0.78, { head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [148, 228], [150, 300]], rA: [[240, 155], [275, 90], [290, 20]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] }, { ref: true, op: .9, extra: `<line x1="290" y1="20" x2="290" y2="-60" stroke="${CR}" stroke-width="10"/><rect x="290" y="-62" width="80" height="56" fill="${Y}"/>` })}
+    ${adult(340, 190, 1.0, STAND, { ref: true })}
+    ${adult(740, 300, 0.78, { head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [130, 228], [110, 290]], rA: [[240, 155], [252, 228], [250, 300]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] }, { ref: true, op: .9, extra: `<line x1="110" y1="290" x2="60" y2="350" stroke="${CR}" stroke-width="10"/><rect x="0" y="330" width="64" height="46" fill="${Y}"/>` })}`),
+  // linia boczna: trener z rękami w górze, sędzia spokojnie pokazuje dłonią
+  touchline: () => wrap(`${light(900, 90, 280)}${stands(420)}<rect y="440" width="1080" height="910" fill="#1B2A1F" opacity=".5"/>
+    <rect x="600" y="520" width="440" height="200" fill="none" stroke="${CR}" stroke-opacity=".3" stroke-width="5" stroke-dasharray="20 14"/>
+    <line x1="0" y1="730" x2="1080" y2="730" stroke="${CR}" stroke-opacity=".25" stroke-width="6"/>
+    ${adult(560, 210, 0.92, { head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [115, 85], [95, 15]], rA: [[240, 155], [285, 85], [305, 15]], lL: [[185, 305], [175, 400], [165, 495]], rL: [[215, 305], [225, 400], [235, 495]] }, { color: Y })}
+    ${adult(110, 190, 1.0, { head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [148, 228], [150, 300]], rA: [[240, 155], [305, 195], [370, 200]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] }, { ref: true })}
+    <path d="M640,140 l30,-40 M700,120 l10,-50 M760,140 l-10,-48" stroke="${Y}" stroke-width="8" stroke-linecap="round" opacity=".7"/>`),
   // zejście z boiska pod światłami, samotnie
   walk: () => wrap(`${light(180, 110)}${light(900, 90, 300)}${stands(440)}
     <rect y="470" width="1080" height="880" fill="#1B2A1F" opacity=".55"/>
