@@ -19,7 +19,7 @@
 //     "size": 100, "artTop": 110, "artH": 600, "titleTop": 770,   // opcjonalne korekty układu (px)
 //     "art": { "type": "<nazwa z ART>", ...parametry },  // ilustracja okładki (obowiązkowa)
 //     "left": "TRENING", "right": "ZAWODY",  // tylko split
-//     "big": "3"                             // tylko big
+//     "big": "3", "bigSize": 300, "bigSub": "minut do startu", "vb": "0 0 900 420"             // tylko big (duża liczba/hasło + mały rysunek w prawym dolnym rogu)
 //   },
 //   "points": [                              // dokładnie 3 slajdy (2..4)
 //     { "title": "Najpierw to, co wyszło", "body": "1-2 zdania", "viz": { "type": "<nazwa z VIZ>", ...parametry } }
@@ -123,11 +123,11 @@ const ART = {
 const VIZ = {
   // najpierw karta z tym, co wyszło; lista błędów schowana z tyłu
   checklist: (t, v) => `<g>
-    <g transform="rotate(5 700 220)"><rect x="470" y="40" width="400" height="400" rx="28" fill="${t.faint}" stroke="${t.line}" stroke-width="3"/>
-      ${chip(700, 66, 'POTEM', t.soft, t.fg, 24)}
+    <g transform="rotate(5 700 220)" ${v.back === false ? 'display="none"' : ''}><rect x="470" y="40" width="400" height="400" rx="28" fill="${t.faint}" stroke="${t.line}" stroke-width="3"/>
+      ${chip(700, 66, v.backChip || 'POTEM', t.soft, t.fg, 24)}
       ${[0, 1, 2].map(i => `${cross(530, 168 + i * 80, 20, t.soft, t.fg)}<rect x="566" y="${158 + i * 80}" width="${220 - i * 40}" height="18" rx="9" fill="${t.soft}"/>`).join('')}</g>
     <g transform="rotate(-3 300 270)"><rect x="40" y="40" width="580" height="440" rx="32" fill="${t.paper}"/>
-      ${T(90, 112, 'CO WYSZŁO', { size: 30, w: 800, fill: INK, ls: 3 })}${chip(390, 76, 'NAJPIERW', INK, Y, 24)}
+      ${T(90, 112, v.title || 'CO WYSZŁO', { size: 30, w: 800, fill: INK, ls: 3 })}${chip(v.chipX || 390, 76, v.chip || 'NAJPIERW', INK, Y, 24)}
       ${(v.items || ['', '', '']).map((s, i) => `${check(114, 200 + i * 100, 32, INK, Y)}${T(170, 213 + i * 100, s, { size: 38, w: 600, fill: INK })}`).join('')}</g></g>`,
   // stoper: 15 minut zaznaczone, a obok wykres wnioski vs zmęczenie
   timer: (t, v) => { const cx = 200, cy = 290, r = 170, a = Math.PI / 2;
@@ -218,6 +218,200 @@ const END = {
   bubble: t => `<path d="M60 40 a30 30 0 0 1 30 -30 H330 a30 30 0 0 1 30 30 V190 a30 30 0 0 1 -30 30 H170 L110 280 V220 H90 a30 30 0 0 1 -30 -30 Z" fill="${t.A}"/>${T(210, 165, '?', { size: 150, w: 800, fill: t.onA, anchor: 'middle' })}`,
 };
 
+// ---------- ROZSZERZENIE: pozy, ikony, scena, wizualizacje sterowane etykietami ----------
+Object.assign(P, {
+  run: { head: [226, 82], sh: [212, 152], hip: [192, 300], lA: [[176, 160], [128, 214], [150, 270]], rA: [[248, 160], [296, 200], [336, 166]], lL: [[178, 305], [118, 372], [58, 430]], rL: [[206, 305], [262, 392], [244, 495]] },
+  walk: { head: [204, 80], sh: [200, 150], hip: [198, 300], lA: [[162, 156], [140, 228], [134, 292]], rA: [[238, 156], [262, 226], [280, 284]], lL: [[184, 305], [156, 400], [130, 495]], rL: [[212, 305], [236, 400], [268, 495]] },
+  sit: { head: [200, 70], sh: [200, 145], hip: [200, 340], lA: [[160, 155], [140, 250], [175, 320]], rA: [[240, 155], [260, 250], [225, 320]], lL: [[180, 345], [90, 355], [90, 500]], rL: [[220, 345], [310, 355], [310, 500]] },
+  point: { head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [148, 228], [150, 300]], rA: [[240, 155], [310, 150], [380, 130]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] },
+  hips: { head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [112, 214], [158, 262]], rA: [[240, 155], [288, 214], [242, 262]], lL: [[185, 305], [168, 400], [150, 495]], rL: [[215, 305], [232, 400], [250, 495]] },
+  wave: { head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [148, 228], [150, 300]], rA: [[240, 155], [290, 110], [300, 30]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] },
+  crouch: { head: [210, 150], sh: [200, 215], hip: [190, 350], lA: [[164, 220], [190, 300], [240, 330]], rA: [[236, 220], [262, 290], [290, 330]], lL: [[176, 355], [250, 420], [190, 495]], rL: [[206, 355], [290, 400], [270, 495]] },
+});
+const C = (t, c) => ({ fig: t.fig, fig2: t.fig2, A: t.A, onA: t.onA, paper: t.paper, soft: t.soft, mute: t.mute, fg: t.fg, card: t.card, cardS: t.cardS, faint: t.faint, line: t.line, ink: INK, Y: Y })[c] || c || t.fig;
+// ikony 100x100, wypełnione plamy + kreski
+const ICO = {
+  foot: c => `<ellipse cx="38" cy="58" rx="14" ry="24" fill="${c}"/><ellipse cx="66" cy="38" rx="13" ry="22" fill="${c}"/><circle cx="38" cy="90" r="8" fill="${c}"/><circle cx="66" cy="68" r="7" fill="${c}"/>`,
+  hand: c => `<rect x="28" y="44" width="46" height="44" rx="16" fill="${c}"/>${[30, 42, 54, 66].map((x, i) => `<rect x="${x - 4}" y="${12 + (i % 3) * 4}" width="11" height="40" rx="5.5" fill="${c}"/>`).join('')}<rect x="10" y="50" width="30" height="11" rx="5.5" transform="rotate(-35 25 55)" fill="${c}"/>`,
+  wind: c => `<path d="M10 36 H62 a12 12 0 1 0 -12 -12 M10 56 H78 a12 12 0 1 1 -12 12 M10 76 H46" fill="none" stroke="${c}" stroke-width="8" stroke-linecap="round"/>`,
+  eye: c => `<path d="M6 50 Q50 10 94 50 Q50 90 6 50 Z" fill="none" stroke="${c}" stroke-width="7"/><circle cx="50" cy="50" r="14" fill="${c}"/>`,
+  ruler: c => `<rect x="8" y="34" width="84" height="32" rx="5" fill="none" stroke="${c}" stroke-width="7"/>${[22, 36, 50, 64, 78].map((x, i) => `<line x1="${x}" y1="34" x2="${x}" y2="${i % 2 ? 46 : 52}" stroke="${c}" stroke-width="5"/>`).join('')}`,
+  heart: c => `<path d="M50 88 C18 64 8 48 10 32 C12 18 24 10 36 12 C43 13 47 18 50 24 C53 18 57 13 64 12 C76 10 88 18 90 32 C92 48 82 64 50 88 Z" fill="${c}"/>`,
+  moon: c => `<path d="M64 10 A40 40 0 1 0 90 66 A32 32 0 1 1 64 10 Z" fill="${c}"/>`,
+  clock: c => `<circle cx="50" cy="50" r="40" fill="none" stroke="${c}" stroke-width="8"/><path d="M50 26 V50 L66 60" fill="none" stroke="${c}" stroke-width="8" stroke-linecap="round"/>`,
+  flag: c => `<path d="M24 92 V10" stroke="${c}" stroke-width="8" stroke-linecap="round"/><path d="M26 12 H80 L68 30 L80 48 H26 Z" fill="${c}"/>`,
+  ball: c => `<circle cx="50" cy="50" r="40" fill="none" stroke="${c}" stroke-width="7"/><path d="M50 32 L66 44 L60 63 H40 L34 44 Z" fill="${c}"/><path d="M50 32 V12 M66 44 L86 38 M60 63 L72 82 M40 63 L28 82 M34 44 L14 38" stroke="${c}" stroke-width="5"/>`,
+  bolt: c => `<path d="M58 6 L22 56 H46 L38 94 L78 40 H54 Z" fill="${c}"/>`,
+  star: c => `<path d="M50 6 L62 38 L96 38 L68 58 L78 92 L50 72 L22 92 L32 58 L4 38 L38 38 Z" fill="${c}"/>`,
+  book: c => `<path d="M50 24 C38 14 20 14 8 18 V82 C20 78 38 78 50 88 C62 78 80 78 92 82 V18 C80 14 62 14 50 24 Z M50 24 V88" fill="none" stroke="${c}" stroke-width="7" stroke-linejoin="round"/>`,
+  check: c => `<circle cx="50" cy="50" r="40" fill="none" stroke="${c}" stroke-width="8"/><path d="M30 52 L44 66 L72 36" fill="none" stroke="${c}" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>`,
+  battery: c => `<rect x="8" y="28" width="76" height="44" rx="8" fill="none" stroke="${c}" stroke-width="7"/><rect x="86" y="40" width="8" height="20" rx="3" fill="${c}"/><rect x="18" y="38" width="20" height="24" rx="3" fill="${c}"/>`,
+  sun: c => `<circle cx="50" cy="50" r="20" fill="${c}"/>${[...Array(8)].map((_, i) => { const a = i * Math.PI / 4; return `<line x1="${50 + Math.cos(a) * 30}" y1="${50 + Math.sin(a) * 30}" x2="${50 + Math.cos(a) * 44}" y2="${50 + Math.sin(a) * 44}" stroke="${c}" stroke-width="7" stroke-linecap="round"/>`; }).join('')}`,
+  snow: c => `${[0, 60, 120].map(a => `<g transform="rotate(${a} 50 50)"><line x1="50" y1="8" x2="50" y2="92" stroke="${c}" stroke-width="7" stroke-linecap="round"/><path d="M38 18 L50 30 L62 18 M38 82 L50 70 L62 82" fill="none" stroke="${c}" stroke-width="6" stroke-linecap="round"/></g>`).join('')}`,
+  shield: c => `<path d="M50 8 L86 22 V48 C86 70 70 86 50 94 C30 86 14 70 14 48 V22 Z" fill="${c}"/>`,
+  pause: c => `<rect x="24" y="16" width="18" height="68" rx="6" fill="${c}"/><rect x="58" y="16" width="18" height="68" rx="6" fill="${c}"/>`,
+  play: c => `<path d="M30 14 L84 50 L30 86 Z" fill="${c}"/>`,
+  mountain: c => `<path d="M4 88 L38 30 L56 58 L70 40 L96 88 Z" fill="${c}"/><path d="M70 40 V12 L86 18 L70 24" fill="none" stroke="${c}" stroke-width="5"/>`,
+  note: c => `<rect x="18" y="8" width="64" height="84" rx="8" fill="none" stroke="${c}" stroke-width="7"/><path d="M32 32 H68 M32 50 H68 M32 68 H54" stroke="${c}" stroke-width="7" stroke-linecap="round"/>`,
+  mic: c => `<rect x="36" y="8" width="28" height="52" rx="14" fill="${c}"/><path d="M22 46 a28 28 0 0 0 56 0 M50 74 V92 M34 92 H66" fill="none" stroke="${c}" stroke-width="7" stroke-linecap="round"/>`,
+  whistle: c => `<circle cx="40" cy="60" r="28" fill="${c}"/><rect x="40" y="32" width="52" height="22" rx="6" fill="${c}"/><circle cx="40" cy="60" r="9" fill="#fff" opacity=".6"/>`,
+  bench: c => `<rect x="6" y="40" width="88" height="14" rx="6" fill="${c}"/><rect x="14" y="54" width="10" height="34" fill="${c}"/><rect x="76" y="54" width="10" height="34" fill="${c}"/><rect x="6" y="18" width="88" height="10" rx="5" fill="${c}" opacity=".6"/>`,
+  cloudRain: c => `<path d="M26 60 a18 18 0 0 1 2 -36 a26 26 0 0 1 48 6 a16 16 0 0 1 2 30 Z" fill="${c}"/><path d="M34 72 L28 90 M54 72 L48 90 M74 72 L68 90" stroke="${c}" stroke-width="7" stroke-linecap="round"/>`,
+  people: c => `<circle cx="30" cy="34" r="12" fill="${c}"/><circle cx="70" cy="34" r="12" fill="${c}"/><circle cx="50" cy="28" r="14" fill="${c}"/><path d="M14 84 C14 60 26 52 30 52 M86 84 C86 60 74 52 70 52 M28 88 C28 58 40 48 50 48 C60 48 72 58 72 88 Z" fill="${c}" stroke="${c}" stroke-width="4"/>`,
+  phone: c => `<rect x="28" y="6" width="44" height="88" rx="10" fill="none" stroke="${c}" stroke-width="7"/><circle cx="50" cy="80" r="5" fill="${c}"/>`,
+  trophy: c => `<path d="M30 10 H70 V40 a20 20 0 0 1 -40 0 Z" fill="${c}"/><path d="M30 18 H14 a16 16 0 0 0 18 26 M70 18 H86 a16 16 0 0 1 -18 26" fill="none" stroke="${c}" stroke-width="6"/><rect x="44" y="58" width="12" height="18" fill="${c}"/><rect x="30" y="76" width="40" height="12" rx="4" fill="${c}"/>`,
+  brain: c => `<path d="M50 14 C40 6 22 10 22 26 C10 30 8 48 18 54 C12 66 22 80 36 78 C40 88 56 88 60 78 C76 82 88 68 82 56 C92 48 88 30 76 28 C76 12 58 6 50 14 Z" fill="${c}"/><path d="M50 16 V82" stroke="#fff" stroke-opacity=".45" stroke-width="5"/>`,
+  dumbbell: c => `<rect x="30" y="44" width="40" height="12" fill="${c}"/><rect x="14" y="26" width="16" height="48" rx="5" fill="${c}"/><rect x="70" y="26" width="16" height="48" rx="5" fill="${c}"/><rect x="4" y="36" width="10" height="28" rx="4" fill="${c}"/><rect x="86" y="36" width="10" height="28" rx="4" fill="${c}"/>`,
+  bed: c => `<rect x="6" y="50" width="88" height="22" rx="6" fill="${c}"/><rect x="6" y="30" width="12" height="56" rx="4" fill="${c}"/><rect x="20" y="38" width="26" height="14" rx="6" fill="${c}" opacity=".6"/>`,
+};
+const icon = (name, x, y, s, c) => `<g transform="translate(${x},${y}) scale(${s / 100})">${(ICO[name] || ICO.star)(c)}</g>`;
+const wrapTxt = (s, n) => { const w = String(s).split(' '); const out = []; let cur = ''; for (const x of w) { if ((cur + ' ' + x).trim().length > n && cur) { out.push(cur); cur = x; } else cur = (cur + ' ' + x).trim(); } if (cur) out.push(cur); return out; };
+const lines = (x, y, arr, o) => arr.map((s, i) => T(x, y + i * (o.lh || o.size * 1.25), s, o)).join('');
+const arrowD = (x1, y1, x2, y2, c, w = 8) => { const a = Math.atan2(y2 - y1, x2 - x1), h = 26; return `<path d="M${x1} ${y1} L${x2} ${y2}" stroke="${c}" stroke-width="${w}" stroke-linecap="round"/><path d="M${x2 - h * Math.cos(a - .5)} ${y2 - h * Math.sin(a - .5)} L${x2} ${y2} L${x2 - h * Math.cos(a + .5)} ${y2 - h * Math.sin(a + .5)}" fill="none" stroke="${c}" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round"/>`; };
+const card = (x, y, w, h, t, hl) => `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="26" fill="${hl ? t.A : t.card}" ${hl ? '' : `stroke="${t.line}" stroke-width="3"`}/>`;
+// SCENA: swobodna kompozycja z elementów (okładki i slajdy)
+const EL = {
+  person: (t, e) => person(e.x, e.y, e.s || 1, e.pose || 'stand', C(t, e.c || 'fig'), { flip: e.flip, extra: e.extra }),
+  icon: (t, e) => icon(e.name, e.x, e.y, e.s || 100, C(t, e.c || 'A')),
+  cloud: (t, e) => `${cloud(e.x, e.y, e.s || 1, C(t, e.c || 'A'))}${e.text ? T(e.x + 10 * (e.s || 1), e.y + 34 * (e.s || 1), e.text, { size: e.size || 90, w: 800, fill: C(t, e.tc || 'onA'), anchor: 'middle' }) : ''}${(e.dots || []).map(([x, y, r]) => `<circle cx="${x}" cy="${y}" r="${r}" fill="${C(t, e.c || 'A')}"/>`).join('')}`,
+  bubble: (t, e) => { const { x, y, w, h } = e, f = C(t, e.c || 'A'), tc = C(t, e.tc || (e.c === 'paper' ? 'ink' : e.c === 'card' || e.c === 'soft' ? 'fg' : 'onA')); const tail = e.tail === 'right' ? `M${x + w - 70} ${y + h - 2} L${x + w - 20} ${y + h + 50} L${x + w - 120} ${y + h - 2} Z` : e.tail === 'none' ? '' : `M${x + 70} ${y + h - 2} L${x + 20} ${y + h + 50} L${x + 120} ${y + h - 2} Z`;
+    const ls = e.lines || []; const sz = e.size || 34; const y0 = y + h / 2 - (ls.length - 1) * sz * .62 + sz * .36;
+    return `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${e.r || 34}" fill="${f}" ${e.dash ? `fill-opacity="0" stroke="${C(t, 'soft')}" stroke-width="4" stroke-dasharray="12 10"` : ''}/>${tail ? `<path d="${tail}" fill="${f}" ${e.dash ? 'fill-opacity="0"' : ''}/>` : ''}${ls.map((s, i) => T(x + w / 2, y0 + i * sz * 1.24, s, { size: sz, w: e.fw || 800, fill: tc, anchor: 'middle', it: e.it })).join('')}`; },
+  chip: (t, e) => chip(e.x, e.y, e.text, C(t, e.c || 'A'), C(t, e.tc || 'onA'), e.size || 26),
+  text: (t, e) => lines(e.x, e.y, [].concat(e.t), { size: e.size || 32, w: e.w || 700, fill: C(t, e.c || 'fg'), anchor: e.anchor || 'start', it: e.it, ls: e.ls, lh: e.lh }),
+  rect: (t, e) => `<rect x="${e.x}" y="${e.y}" width="${e.w}" height="${e.h}" rx="${e.r ?? 20}" fill="${C(t, e.c || 'card')}" ${e.stroke ? `stroke="${C(t, e.stroke)}" stroke-width="${e.sw || 4}"` : ''} ${e.op ? `opacity="${e.op}"` : ''} ${e.rot ? `transform="rotate(${e.rot} ${e.x + e.w / 2} ${e.y + e.h / 2})"` : ''}/>`,
+  circle: (t, e) => `<circle cx="${e.x}" cy="${e.y}" r="${e.r}" fill="${e.fill === 'none' ? 'none' : C(t, e.c || 'A')}" ${e.stroke ? `stroke="${C(t, e.stroke)}" stroke-width="${e.sw || 6}"` : ''} ${e.op ? `opacity="${e.op}"` : ''} ${e.dash ? 'stroke-dasharray="10 10"' : ''}/>`,
+  line: (t, e) => `<path d="M${e.x1} ${e.y1} L${e.x2} ${e.y2}" stroke="${C(t, e.c || 'line')}" stroke-width="${e.w || 6}" stroke-linecap="round" ${e.dash ? `stroke-dasharray="${e.dash}"` : ''}/>`,
+  path: (t, e) => `<path d="${e.d}" fill="${e.fill ? C(t, e.fill) : 'none'}" stroke="${e.c ? C(t, e.c) : 'none'}" stroke-width="${e.w || 8}" stroke-linecap="round" stroke-linejoin="round" ${e.dash ? `stroke-dasharray="${e.dash}"` : ''} ${e.op ? `opacity="${e.op}"` : ''}/>`,
+  arrow: (t, e) => arrowD(e.x1, e.y1, e.x2, e.y2, C(t, e.c || 'A'), e.w || 8),
+  check: (t, e) => check(e.x, e.y, e.r || 30, C(t, e.c || 'A'), C(t, e.tc || 'onA')),
+  cross: (t, e) => cross(e.x, e.y, e.r || 30, C(t, e.c || 'soft'), C(t, e.tc || 'fg')),
+  floor: (t, e) => `<rect x="${e.x || 0}" y="${e.y}" width="${e.w || 900}" height="6" rx="3" fill="${t.line}"/>`,
+  spot: (t, e) => `<path d="M${e.x} ${e.y} L${e.x - e.w / 2} ${e.y2} L${e.x + e.w / 2} ${e.y2} Z" fill="${t.A}" opacity=".16"/>`,
+  eyes: (t, e) => e.pts.map(([x, y]) => `<g transform="translate(${x},${y})"><ellipse rx="26" ry="16" fill="none" stroke="${t.fig}" stroke-width="6" opacity=".75"/><circle r="8" fill="${t.fig}" opacity=".75"/></g>`).join(''),
+  bed: (t, e) => `<g transform="translate(${e.x},${e.y})"><rect x="0" y="120" width="${e.w || 520}" height="60" rx="16" fill="${C(t, e.c || 'fig2')}"/><rect x="0" y="40" width="30" height="200" rx="10" fill="${C(t, e.c || 'fig2')}"/><rect x="${(e.w || 520) - 30}" y="90" width="30" height="150" rx="10" fill="${C(t, e.c || 'fig2')}"/>
+    <circle cx="90" cy="88" r="40" fill="${t.fig}"/><path d="M130 120 Q${(e.w || 520) / 2} 50 ${(e.w || 520) - 40} 120 Z" fill="${C(t, e.blanket || 'A')}"/><rect x="40" y="98" width="100" height="26" rx="12" fill="${t.paper}" opacity=".7"/></g>`,
+  stairs: (t, e) => { const n = e.n || 4, sw = e.sw || 150, sh = e.sh || 90; let d = `M${e.x} ${e.y}`; for (let i = 0; i < n; i++) d += ` h${sw} v${-sh}`; d += ` h${sw}`;
+    return `<path d="${d} V${e.y + 20} H${e.x} Z" fill="${C(t, e.c || 'card')}"/><path d="${d}" fill="none" stroke="${C(t, e.stroke || 'A')}" stroke-width="10" stroke-linejoin="round"/>${(e.labels || []).map((s, i) => T(e.x + i * sw + sw / 2, e.y - i * sh + 50, s, { size: e.size || 26, w: 700, fill: t.fg, anchor: 'middle' })).join('')}`; },
+  backpack: (t, e) => `<g transform="translate(${e.x},${e.y})"><rect x="0" y="30" width="${e.w || 200}" height="${e.h || 240}" rx="40" fill="${C(t, e.c || 'fig2')}"/><path d="M50 30 a50 40 0 0 1 100 0" fill="none" stroke="${C(t, e.c || 'fig2')}" stroke-width="16"/>${(e.labels || []).map((s, i) => `<rect x="20" y="${60 + i * 62}" width="${(e.w || 200) - 40}" height="50" rx="12" fill="${t.A}"/>${T((e.w || 200) / 2, 95 + i * 62, s, { size: 26, w: 800, fill: t.onA, anchor: 'middle' })}`).join('')}</g>`,
+  gauge: (t, e) => { const { x, y, r } = e, v = e.v ?? .5, a = Math.PI * (1 - v); return `<path d="M${x - r} ${y} A${r} ${r} 0 0 1 ${x + r} ${y}" fill="none" stroke="${t.soft}" stroke-width="${r * .22}"/>
+    <path d="M${x - r} ${y} A${r} ${r} 0 0 1 ${x + r * Math.cos(Math.PI * (1 - (e.hi || 1)))} ${y - r * Math.sin(Math.PI * (1 - (e.hi || 1)))}" fill="none" stroke="${t.A}" stroke-width="${r * .22}" ${e.lo ? `stroke-dasharray="0 ${Math.PI * r * e.lo} ${Math.PI * r}"` : ''}/>
+    <path d="M${x} ${y} L${x + Math.cos(a) * r * .8} ${y - Math.sin(a) * r * .8}" stroke="${t.fg}" stroke-width="${r * .08}" stroke-linecap="round"/><circle cx="${x}" cy="${y}" r="${r * .1}" fill="${t.fg}"/>${(e.labels || []).map(([s, vv]) => { const aa = Math.PI * (1 - vv); return T(x + Math.cos(aa) * r * 1.32, y - Math.sin(aa) * r * 1.32 + 10, s, { size: 28, w: 700, fill: t.mute, anchor: 'middle' }); }).join('')}`; },
+  iceberg: (t, e) => `<rect x="0" y="${e.y}" width="900" height="${560 - e.y}" fill="${t.faint}"/><line x1="0" y1="${e.y}" x2="900" y2="${e.y}" stroke="${t.A}" stroke-width="5" stroke-dasharray="14 10"/>
+    <path d="M370 ${e.y} L430 ${e.y - 110} L470 ${e.y - 150} L520 ${e.y - 100} L560 ${e.y} Z" fill="${t.paper}"/><path d="M370 ${e.y} L560 ${e.y} L700 ${e.y + 90} L660 ${e.y + 200} L500 ${e.y + 250} L300 ${e.y + 220} L220 ${e.y + 110} Z" fill="${t.paper}" opacity=".35"/>`,
+  viz: (t, e) => `<g transform="translate(${e.x || 0},${e.y || 0}) scale(${e.s || 1})">${VIZ[e.type](t, e)}</g>`,
+};
+const scene = (t, v) => (v.items || []).map(e => (EL[e.k] || (() => ''))(t, e)).join('');
+ART.scene = scene;
+Object.assign(VIZ, {
+  scene,
+  // oś czasu z punktami
+  timeline: (t, v) => { const pts = v.points, n = pts.length, x0 = 90, x1 = 810, X = i => x0 + (x1 - x0) * i / (n - 1), y = v.y || 220;
+    return `<g>${v.caption ? T(450, 60, v.caption, { size: 30, w: 800, fill: t.mute, anchor: 'middle', ls: 2 }) : ''}<line x1="${x0}" y1="${y}" x2="${x1}" y2="${y}" stroke="${t.soft}" stroke-width="10" stroke-linecap="round"/>
+    ${v.dir === 'left' ? arrowD(x1 - 40, y + 190, x0 + 40, y + 190, t.A, 9) + T(450, y + 250, v.dirLabel || 'planujesz od końca', { size: 30, w: 700, fill: t.A, anchor: 'middle' }) : ''}
+    ${pts.map((p, i) => `<circle cx="${X(i)}" cy="${y}" r="${p.hl ? 62 : 52}" fill="${p.hl ? t.A : t.paper}" ${p.hl ? '' : `stroke="${t.soft}" stroke-width="6"`}/>${p.icon ? icon(p.icon, X(i) - 34, y - 34, 68, p.hl ? t.onA : INK) : ''}${lines(X(i), y - 96 - ([].concat(p.top || []).length - 1) * 40, [].concat(p.top || []), { size: 34, w: 800, fill: p.hl ? t.A : t.fg, anchor: 'middle', lh: 40 })}${lines(X(i), y + 104, [].concat(p.bottom || []), { size: 30, w: 600, fill: t.mute, anchor: 'middle', lh: 36 })}`).join('')}</g>`; },
+  // dwie karty: zła lista vs dobra lista
+  listCompare: (t, v) => { const L = v.left, R = v.right, rows = (o, x, good) => o.items.map((s, i) => `${good ? check(x + 50, 150 + i * 80, 24, t.A === INK ? INK : Y, t.A === INK ? Y : INK) : cross(x + 50, 150 + i * 80, 22, t.soft, t.fg)}${T(x + 90, 161 + i * 80, s, { size: 30, w: good ? 700 : 500, fill: good ? (t.A === INK ? INK : INK) : t.mute })}${good ? '' : `<line x1="${x + 88}" y1="${150 + i * 80}" x2="${x + 90 + s.length * 15}" y2="${150 + i * 80}" stroke="${t.mute}" stroke-width="3"/>`}`).join('');
+    return `<g>${card(0, 20, 420, 500, t)}${T(40, 86, L.title, { size: 28, w: 800, fill: t.mute, ls: 2 })}${rows(L, 0, false)}
+    <rect x="460" y="20" width="440" height="500" rx="26" fill="${t.paper}"/>${T(500, 86, R.title, { size: 28, w: 800, fill: INK, ls: 2 })}${rows(R, 460, true)}</g>`; },
+  // tydzień
+  week: (t, v) => { const d = v.days, w = 900 / d.length;
+    return `<g>${v.caption ? T(450, 50, v.caption, { size: 30, w: 800, fill: t.mute, anchor: 'middle', ls: 2 }) : ''}${d.map((o, i) => { const x = i * w + 8, hl = o.mark === 'hl';
+      const iw = Math.min(w - 36, 96); return `<rect x="${x}" y="90" width="${w - 16}" height="340" rx="22" fill="${hl ? t.A : t.card}" stroke="${o.mark === 'ring' ? t.A : t.line}" stroke-width="${o.mark === 'ring' ? 6 : 3}"/>${T(x + (w - 16) / 2, 146, o.d, { size: 30, w: 800, fill: hl ? t.onA : t.mute, anchor: 'middle' })}
+      ${o.icon ? icon(o.icon, x + (w - 16) / 2 - iw / 2, 200, iw, hl ? t.onA : (o.dim ? t.soft : t.fg)) : ''}${lines(x + (w - 16) / 2, 360, wrapTxt([].concat(o.label || []).join(' '), Math.max(6, Math.floor((w - 20) / 15))), { size: 26, w: 700, fill: hl ? t.onA : t.fg, anchor: 'middle', lh: 30 })}`; }).join('')}
+      ${v.note ? T(450, 500, v.note, { size: 32, w: 700, fill: t.A, anchor: 'middle' }) : ''}</g>`; },
+  // słupki poziome
+  bars: (t, v) => { const it = v.items, h = Math.min(150, 440 / it.length);
+    return `<g>${v.caption ? T(0, 40, v.caption, { size: 28, w: 800, fill: t.mute, ls: 2 }) : ''}${it.map((o, i) => { const y = 80 + i * h, W = 600 * o.v;
+      return `${T(0, y + h * .5 + 10, o.label, { size: 30, w: 700, fill: o.hl ? t.A : t.fg })}<rect x="230" y="${y + h * .18}" width="600" height="${h * .62}" rx="${h * .31}" fill="${t.faint}"/><rect x="230" y="${y + h * .18}" width="${Math.max(W, h * .62)}" height="${h * .62}" rx="${h * .31}" fill="${o.hl ? t.A : t.soft}"/>${o.note ? T(230 + Math.max(W, 60) + 20 > 760 ? 230 + W - 20 : 230 + W + 20, y + h * .5 + 10, o.note, { size: 26, w: 800, fill: o.hl && 230 + W + 20 > 760 ? t.onA : t.fg, anchor: 230 + W + 20 > 760 ? 'end' : 'start' }) : ''}`; }).join('')}</g>`; },
+  // schody
+  stairs: (t, v) => { const n = v.steps.length, sw = 740 / n, sh = 360 / n;
+    let d = `M50 470`; v.steps.forEach(() => d += ` h${sw * .35} v${-sh} h${sw * .65}`);
+    return `<g><path d="${d} V470 Z" fill="${t.card}"/><path d="${d}" fill="none" stroke="${t.A}" stroke-width="10" stroke-linejoin="round"/>
+    ${v.steps.map((s, i) => { const x = 50 + i * sw + sw * .35, y = 470 - (i + 1) * sh; return `${check(x + 40, y + 50, 26, i < (v.done ?? n) ? t.A : t.soft, i < (v.done ?? n) ? t.onA : t.fg)}${lines(x + 10, y - 26 - (wrapTxt(s, 13).length - 1) * 32, wrapTxt(s, 13), { size: 27, w: 700, fill: t.fg, lh: 32 })}`; }).join('')}
+    ${v.who ? person(50 + sw * .2 - 20, 470 - 300 * .5, .5, 'walk', t.fig) : ''}${v.top ? icon('flag', 800, 40, 70, t.A) : ''}</g>`; },
+  // wykres liniowy
+  chart: (t, v) => { const W = 760, H = 380, ox = 80, oy = 440, X = x => ox + x * W, Yv = y => oy - y * H;
+    const path = pts => pts.map((p, i) => `${i ? 'L' : 'M'}${X(p[0])} ${Yv(p[1])}`).join(' ');
+    return `<g><path d="M${ox} ${oy - H - 20} V${oy} H${ox + W + 20}" fill="none" stroke="${t.soft}" stroke-width="5"/>
+    ${(v.series || []).map(s => `<path d="${path(s.pts)}" fill="none" stroke="${s.hl ? t.A : t.fg}" stroke-width="${s.hl ? 12 : 7}" stroke-linecap="round" stroke-linejoin="round" ${s.dash ? 'stroke-dasharray="4 18"' : ''} opacity="${s.hl ? 1 : .7}"/>${s.label ? T(X(s.pts.at(-1)[0]) + (s.la === 'start' ? 16 : 0), Yv(s.pts.at(-1)[1]) - 24, s.label, { size: 28, w: 800, fill: s.hl ? t.A : t.mute, anchor: s.la || 'end' }) : ''}`).join('')}
+    ${(v.marks || []).map(m => `<circle cx="${X(m.x)}" cy="${Yv(m.y)}" r="${m.r || 18}" fill="${m.hl ? t.A : t.paper}" stroke="${t.fg}" stroke-width="${m.hl ? 0 : 5}"/>${lines(X(m.x) + (m.dx || 0), Yv(m.y) + (m.dy ?? -36), [].concat(m.label || []), { size: 27, w: 700, fill: m.hl ? t.A : t.fg, anchor: m.anchor || 'middle', lh: 32 })}`).join('')}
+    ${v.x ? T(ox + W + 20, oy + 46, v.x, { size: 26, w: 600, fill: t.mute, anchor: 'end' }) : ''}${v.y ? T(ox - 20, oy - H - 30, v.y, { size: 26, w: 600, fill: t.mute }) : ''}</g>`; },
+  // kropki narastające co tydzień
+  stack: (t, v) => { const cols = v.cols, w = 840 / cols.length;
+    return `<g>${cols.map((n, i) => `${[...Array(n)].map((_, j) => `<rect x="${40 + i * w + w * .18}" y="${400 - (j + 1) * 52}" width="${w * .64}" height="44" rx="10" fill="${j === n - 1 && i === cols.length - 1 ? t.A : (j === n - 1 ? t.fig : t.soft)}"/>`).join('')}${T(40 + i * w + w / 2, 450, (v.labels || [])[i] || `${i + 1}`, { size: 26, w: 700, fill: t.mute, anchor: 'middle' })}`).join('')}
+    ${v.caption ? T(450, 510, v.caption, { size: 30, w: 800, fill: t.A, anchor: 'middle' }) : ''}</g>`; },
+  // myśl stara -> nowa
+  bubbleSwap: (t, v) => `<g>${cloud(200, 170, 1.7, t.soft)}${lines(210, 200 - (wrapTxt(v.from, 12).length - 1) * 20, wrapTxt(v.from, 12), { size: 32, w: 700, fill: t.fg, anchor: 'middle', it: 1, lh: 40 })}
+    <path d="M70 70 L340 300" stroke="${t.fg}" stroke-width="10" stroke-linecap="round" opacity=".55"/>${v.fromSub ? T(210, 360, v.fromSub, { size: 28, w: 600, fill: t.mute, anchor: 'middle' }) : ''}
+    ${arrowD(400, 200, 500, 200, t.fg, 9)}
+    <path d="M540 70 a30 30 0 0 1 30 -30 H860 a30 30 0 0 1 30 30 V300 a30 30 0 0 1 -30 30 H660 L600 400 V330 H570 a30 30 0 0 1 -30 -30 Z" fill="${t.A}"/>
+    ${lines(715, 185 - (wrapTxt(v.to, 13).length - 1) * 22, wrapTxt(v.to, 13), { size: 36, w: 800, fill: t.onA, anchor: 'middle', lh: 44 })}${v.toSub ? T(715, 470, v.toSub, { size: 28, w: 700, fill: t.A, anchor: 'middle' }) : ''}</g>`,
+  // tabela dwóch kolumn
+  table: (t, v) => `<g>${T(210, 40, v.left, { size: 28, w: 800, fill: v.good ? t.mute : t.A, anchor: 'middle', ls: 2 })}${T(680, 40, v.right, { size: 28, w: 800, fill: v.good ? t.A : t.mute, anchor: 'middle', ls: 2 })}
+    ${v.rows.map(([a, b], i) => { const y = 70 + i * 150; return `<rect x="0" y="${y}" width="420" height="124" rx="24" fill="${t.paper}"/>${lines(210, y + 72 - (wrapTxt(a, 18).length - 1) * 18, wrapTxt(a, 18), { size: 30, w: 700, fill: INK, anchor: 'middle', lh: 36 })}
+      ${v.good ? `<rect x="470" y="${y}" width="430" height="124" rx="24" fill="${t.A}"/>${lines(685, y + 72 - (wrapTxt(b, 18).length - 1) * 18, wrapTxt(b, 18), { size: 30, w: 800, fill: t.onA, anchor: 'middle', lh: 36 })}${arrowD(428, y + 62, 462, y + 62, t.fg, 6)}` : `<rect x="470" y="${y}" width="430" height="124" rx="24" fill="none" stroke="${t.soft}" stroke-width="4" stroke-dasharray="12 10"/>${lines(685, y + 72 - (wrapTxt(b, 18).length - 1) * 18, wrapTxt(b, 18), { size: 30, w: 600, fill: t.mute, anchor: 'middle', it: 1, lh: 36 })}`}`; }).join('')}</g>`,
+  // przegródki
+  sortBins: (t, v) => { const n = v.bins.length, w = (900 - (n - 1) * 30) / n;
+    return `<g>${v.bins.map((b, i) => { const x = i * (w + 30); return `<rect x="${x}" y="20" width="${w}" height="500" rx="28" fill="${b.hl ? t.A : t.card}" ${b.hl ? '' : `stroke="${t.line}" stroke-width="3" ${b.dash ? 'stroke-dasharray="14 10"' : ''}`}/>${b.icon ? icon(b.icon, x + w / 2 - 36, 46, 72, b.hl ? t.onA : t.fg) : ''}${T(x + w / 2, b.icon ? 166 : 90, b.title, { size: 30, w: 800, fill: b.hl ? t.onA : t.mute, anchor: 'middle', ls: 2 })}
+      ${b.items.map((s, j) => `<rect x="${x + 30}" y="${(b.icon ? 196 : 130) + j * 84}" width="${w - 60}" height="66" rx="16" fill="${b.hl ? (t.A === INK ? Y : INK) : t.cardS}" ${b.dim ? 'opacity=".55"' : ''}/>${T(x + w / 2, (b.icon ? 240 : 174) + j * 84, s, { size: 28, w: 700, fill: b.hl ? (t.A === INK ? INK : Y) : t.fg, anchor: 'middle' })}`).join('')}
+      ${b.note ? T(x + w / 2, 490, b.note, { size: 27, w: 700, fill: b.hl ? t.onA : t.mute, anchor: 'middle', it: 1 }) : ''}`; }).join('')}</g>`; },
+  // jedna rzecz w świetle, reszta wygaszona
+  focus: (t, v) => { const ar = v.around || [], pos = [[120, 110], [780, 110], [110, 430], [790, 430], [450, 40], [450, 510]];
+    return `<g><path d="M450 -20 L250 520 L650 520 Z" fill="${t.A}" opacity=".13"/>${ar.map((s, i) => `<g opacity=".5">${T(pos[i][0], pos[i][1], s, { size: 30, w: 600, fill: t.mute, anchor: 'middle' })}</g>`).join('')}
+    <circle cx="450" cy="280" r="150" fill="${t.A}"/>${v.icon ? icon(v.icon, 390, 175, 120, t.onA) : ''}${lines(450, v.icon ? 340 : 280 - (wrapTxt(v.center, 10).length - 1) * 20 + 12, wrapTxt(v.center, 10), { size: 36, w: 800, fill: t.onA, anchor: 'middle', lh: 42 })}</g>`; },
+  // uwaga ucieka i wraca
+  wander: (t, v) => { const ys = [0, -.2, -.9, -.4, 0, .1, .85, .3, 0, -.1], X = i => 60 + i * 86, Yv = y => 270 + y * 170; let d = `M${X(0)} ${Yv(0)}`; for (let i = 1; i < ys.length; i++) d += ` Q${X(i) - 43} ${Yv(ys[i - 1])} ${X(i)} ${Yv(ys[i])}`;
+    return `<g><rect x="30" y="230" width="840" height="80" rx="40" fill="${t.A}" opacity=".2"/>${T(870, 220, v.zone || 'zadanie', { size: 28, w: 800, fill: t.A, anchor: 'end' })}
+    <path d="${d}" fill="none" stroke="${t.fg}" stroke-width="9" stroke-linecap="round"/>
+    ${[[2, -.9, v.out1 || 'odpłynąłem'], [6, .85, v.out2 || 'znowu']].map(([i, y, s]) => `<circle cx="${X(i)}" cy="${Yv(y)}" r="16" fill="${t.fg}"/>${T(X(i), Yv(y) + (y < 0 ? -34 : 56), s, { size: 28, w: 700, fill: t.mute, anchor: 'middle', it: 1 })}`).join('')}
+    ${[[4, 0], [8, 0]].map(([i]) => `<circle cx="${X(i)}" cy="${Yv(0)}" r="22" fill="${t.A}"/>`).join('')}${T(X(4), Yv(0) + 70, v.back || 'wracam', { size: 28, w: 800, fill: t.A, anchor: 'middle' })}${T(X(8), Yv(0) + 70, v.back || 'wracam', { size: 28, w: 800, fill: t.A, anchor: 'middle' })}</g>`; },
+  // rząd ikon z podpisami
+  iconRow: (t, v) => { const n = v.items.length, w = (900 - (n - 1) * 24) / n;
+    return `<g>${v.items.map((o, i) => { const x = i * (w + 24); return `<rect x="${x}" y="${v.y || 60}" width="${w}" height="${v.h || 400}" rx="28" fill="${o.hl ? t.A : t.card}" ${o.hl ? '' : `stroke="${t.line}" stroke-width="3"`}/>${icon(o.icon, x + w / 2 - 90, (v.y || 60) + 40, 180, o.hl ? t.onA : t.fg)}${lines(x + w / 2, (v.y || 60) + 290, wrapTxt(o.label, 12), { size: 32, w: 800, fill: o.hl ? t.onA : t.fg, anchor: 'middle', lh: 38 })}${o.sub ? T(x + w / 2, (v.y || 60) + (v.h || 400) - 30, o.sub, { size: 26, w: 600, fill: o.hl ? t.onA : t.mute, anchor: 'middle' }) : ''}`; }).join('')}
+    ${v.join ? v.items.slice(1).map((_, i) => T((i + 1) * (w + 24) - 12, (v.y || 60) + (v.h || 400) / 2 + 20, v.join, { size: 56, w: 800, fill: t.A, anchor: 'middle' })).join('') : ''}${v.note ? T(450, 520, v.note, { size: 30, w: 800, fill: t.A, anchor: 'middle' }) : ''}</g>`; },
+  // cegły
+  bricks: (t, v) => { let s = ''; const rows = 6, bw = 140, bh = 56; for (let r = 0; r < rows; r++) { const n = rows - r, off = 450 - n * (bw + 8) / 2; for (let i = 0; i < n; i++) s += `<rect x="${off + i * (bw + 8)}" y="${470 - (r + 1) * (bh + 8)}" width="${bw}" height="${bh}" rx="8" fill="${r === rows - 1 ? t.A : (r % 2 ? t.soft : t.cardS)}"/>`; }
+    return `<g>${s}${icon(v.topIcon || 'trophy', 410, 30, 80, t.A)}${T(450 - 3 * 148 - 20, 444, v.label || 'powtórzenie', { size: 26, w: 700, fill: t.mute })}${v.caption ? T(450, 520, v.caption, { size: 30, w: 800, fill: t.A, anchor: 'middle' }) : ''}</g>`; },
+  // centrum + satelity
+  hub: (t, v) => { const n = v.items.length;
+    return `<g><circle cx="450" cy="270" r="200" fill="none" stroke="${t.soft}" stroke-width="5" stroke-dasharray="14 12"/>${v.items.map((s, i) => { const a = -Math.PI / 2 + i * 2 * Math.PI / n, x = 450 + Math.cos(a) * 250, y = 270 + Math.sin(a) * 200; const w = s.length * 17 + 60;
+      return `<rect x="${x - w / 2}" y="${y - 36}" width="${w}" height="72" rx="36" fill="${i === (v.hl ?? 0) ? t.A : t.cardS}"/>${T(x, y + 11, s, { size: 30, w: 800, fill: i === (v.hl ?? 0) ? t.onA : t.fg, anchor: 'middle' })}`; }).join('')}
+    <circle cx="450" cy="270" r="130" fill="${t.paper}"/>${icon(v.icon || 'dumbbell', 405, 175, 90, INK)}${lines(450, 300, wrapTxt(v.center, 11), { size: 30, w: 800, fill: INK, anchor: 'middle', lh: 36 })}</g>`; },
+  // ciało z sygnałami
+  bodyMap: (t, v) => { const J = { head: [450, 86], jaw: [450, 118], face: [470, 76], chest: [450, 205], hands: [497, 296], lhand: [403, 296], stomach: [450, 260], shoulders: [490, 152], legs: [440, 430] };
+    return `<g>${person(260, 10, .95, 'stand', t.fig)}${v.points.map((p, i) => { const [x, y] = J[p.part] || [450, 200], side = p.side ?? (i % 2), lx = side ? 880 : 20, ly = p.ly ?? y; return `<path d="M${x} ${y} L${side ? x + 60 : x - 60} ${ly} H${side ? lx - p.label.length * 17 - 10 : lx + p.label.length * 17 + 10}" fill="none" stroke="${t.A === INK ? INK : Y}" stroke-width="4"/><circle cx="${x}" cy="${y}" r="18" fill="${t.A}" stroke="${t.fig === '#fff' ? '#2c2c30' : '#fff'}" stroke-width="5"/>${T(lx, ly + 10, p.label, { size: 30, w: 800, fill: t.fg, anchor: side ? 'end' : 'start' })}`; }).join('')}</g>`; },
+  // przepływ: chmura -> strzałka -> cel
+  arrowFlow: (t, v) => `<g>${cloud(170, 220, 1.5, t.soft)}${lines(180, 250 - (wrapTxt(v.from, 9).length - 1) * 18, wrapTxt(v.from, 9), { size: 32, w: 800, fill: t.fg, anchor: 'middle', lh: 38 })}${v.fromSub ? T(180, 400, v.fromSub, { size: 28, w: 600, fill: t.mute, anchor: 'middle' }) : ''}
+    <path d="M330 240 C420 140 520 140 590 230" fill="none" stroke="${t.A}" stroke-width="12" stroke-linecap="round"/><path d="M560 200 L594 236 L548 246" fill="none" stroke="${t.A}" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>${v.via ? T(460, 130, v.via, { size: 30, w: 800, fill: t.A, anchor: 'middle' }) : ''}
+    ${v.toIcon === 'paper' ? `<rect x="610" y="120" width="250" height="320" rx="20" fill="${t.paper}" transform="rotate(4 735 280)"/>${[0, 1, 2, 3].map(i => `<rect x="650" y="${190 + i * 56}" width="${170 - i * 26}" height="16" rx="8" fill="${INK}" opacity=".25" transform="rotate(4 735 280)"/>`).join('')}` : `<circle cx="735" cy="270" r="150" fill="none" stroke="${t.A}" stroke-width="12"/><circle cx="735" cy="270" r="95" fill="none" stroke="${t.A}" stroke-width="12"/><circle cx="735" cy="270" r="40" fill="${t.A}"/>`}
+    ${v.to ? T(735, 500, v.to, { size: 32, w: 800, fill: t.A, anchor: 'middle' }) : ''}</g>`,
+  // dwie karty z ikonami
+  twoCards: (t, v) => { const c = (o, x, hl) => `<rect x="${x}" y="20" width="430" height="500" rx="30" fill="${hl ? t.A : t.card}" ${hl ? '' : `stroke="${t.line}" stroke-width="3"`}/>${icon(o.icon, x + 135, 70, 160, hl ? t.onA : t.soft)}${o.cross ? `<path d="M${x + 120} 70 L${x + 310} 240" stroke="${t.fg}" stroke-width="10" stroke-linecap="round"/>` : ''}${lines(x + 215, 320, wrapTxt(o.label, 14), { size: 36, w: 800, fill: hl ? t.onA : t.mute, anchor: 'middle', lh: 44 })}${o.sub ? lines(x + 215, 440, wrapTxt(o.sub, 22), { size: 27, w: 600, fill: hl ? t.onA : t.mute, anchor: 'middle', lh: 34, it: 1 }) : ''}`;
+    return `<g>${c(v.left, 0, false)}${c(v.right, 470, true)}</g>`; },
+  // notatka
+  notes: (t, v) => `<g><g transform="rotate(-3 300 270)"><rect x="40" y="30" width="540" height="480" rx="24" fill="${t.paper}"/>${[...Array(7)].map((_, i) => `<line x1="80" y1="${150 + i * 54}" x2="540" y2="${150 + i * 54}" stroke="${INK}" stroke-opacity=".1" stroke-width="3"/>`).join('')}
+    ${T(80, 104, v.title || 'NOTATKA', { size: 28, w: 800, fill: INK, ls: 3 })}${v.lines.map((s, i) => T(80, 194 + i * 108, '– ' + s, { size: 34, w: 600, fill: INK, it: 1 })).join('')}</g>
+    ${(v.crossed || []).map((s, i) => { const w = s.length * 18 + 50; return `<g transform="translate(${640},${100 + i * 140}) rotate(${i % 2 ? 5 : -4})"><rect width="${w}" height="76" rx="38" fill="${t.soft}"/>${T(w / 2, 50, s, { size: 30, w: 700, fill: t.fg, anchor: 'middle' })}<line x1="10" y1="38" x2="${w - 10}" y2="38" stroke="${t.fg}" stroke-width="5"/></g>`; }).join('')}
+    ${v.side ? T(760, 480, v.side, { size: 28, w: 800, fill: t.A, anchor: 'middle' }) : ''}</g>`,
+  // siatka 2x2
+  grid4: (t, v) => `<g>${v.items.map((o, i) => { const x = (i % 2) * 460, y = Math.floor(i / 2) * 270; return `<rect x="${x}" y="${y}" width="440" height="250" rx="28" fill="${o.ok === false ? t.card : t.cardS}" stroke="${o.ok === false ? t.A : t.line}" stroke-width="${o.ok === false ? 6 : 3}"/>${icon(o.icon || 'star', x + 40, y + 40, 80, o.ok === false ? t.A : t.fg)}${T(x + 40, y + 190, o.label, { size: 36, w: 800, fill: t.fg })}${o.ok === false ? cross(x + 380, y + 70, 30, t.A, t.onA) : check(x + 380, y + 70, 30, t.soft, t.fg)}${o.sub ? T(x + 40, y + 228, o.sub, { size: 24, w: 600, fill: t.mute }) : ''}`; }).join('')}</g>`,
+  // skala z punktami
+  scale10: (t, v) => { const x0 = 60, x1 = 840, X = n => x0 + (x1 - x0) * (n - (v.min ?? 1)) / ((v.max ?? 10) - (v.min ?? 1));
+    return `<g>${v.caption ? T(x0, 40, v.caption, { size: 26, w: 800, fill: t.mute, ls: 3 }) : ''}<defs><linearGradient id="sg" x1="0" x2="1"><stop offset="0" stop-color="${t.fg}" stop-opacity=".15"/><stop offset="1" stop-color="${t.A}"/></linearGradient></defs>
+    <rect x="${x0}" y="${v.y || 220}" width="${x1 - x0}" height="40" rx="20" fill="url(#sg)"/>${[...Array((v.max ?? 10) - (v.min ?? 1) + 1)].map((_, i) => T(X(i + (v.min ?? 1)), (v.y || 220) + 90, String(i + (v.min ?? 1)), { size: 28, w: 700, fill: t.mute, anchor: 'middle' })).join('')}
+    ${v.points.map(p => `<circle cx="${X(p.n)}" cy="${(v.y || 220) + 20}" r="${p.hl ? 36 : 26}" fill="${p.hl ? t.A : t.paper}" stroke="${p.hl ? t.fg : 'none'}" stroke-width="6"/>${lines(X(p.n), (v.y || 220) - 40 - ([].concat(p.label).length - 1) * 34, [].concat(p.label), { size: p.hl ? 30 : 26, w: p.hl ? 800 : 600, fill: p.hl ? t.A : t.mute, anchor: 'middle', lh: 34 })}`).join('')}
+    ${v.arrow ? `<path d="M${X(v.arrow[0])} ${(v.y || 220) + 140} H${X(v.arrow[1]) + (v.arrow[1] > v.arrow[0] ? -14 : 14)}" stroke="${t.A}" stroke-width="8" stroke-linecap="round"/><path d="M${X(v.arrow[1]) + (v.arrow[1] > v.arrow[0] ? -30 : 30)} ${(v.y || 220) + 122} L${X(v.arrow[1])} ${(v.y || 220) + 140} L${X(v.arrow[1]) + (v.arrow[1] > v.arrow[0] ? -30 : 30)} ${(v.y || 220) + 158}" fill="none" stroke="${t.A}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>${T((X(v.arrow[0]) + X(v.arrow[1])) / 2, (v.y || 220) + 200, v.arrowLabel || '', { size: 30, w: 800, fill: t.A, anchor: 'middle' })}` : ''}
+    ${v.note ? T(450, 520, v.note, { size: 30, w: 700, fill: t.fg, anchor: 'middle' }) : ''}</g>`; },
+  // oddech: fala wdech / wydech
+  breath: (t, v) => { const a = v.inN || 4, b = v.outN || 6, tot = a + b, W = 800, xa = 50 + W * a / tot;
+    return `<g><path d="M50 420 C${50 + (xa - 50) * .5} 420 ${50 + (xa - 50) * .5} 120 ${xa} 120 C${xa + (850 - xa) * .5} 120 ${xa + (850 - xa) * .5} 420 850 420" fill="none" stroke="${t.A}" stroke-width="14" stroke-linecap="round"/>
+    ${T((50 + xa) / 2 + 30, 400, v.inL || 'wdech', { size: 34, w: 800, fill: t.fg, anchor: 'middle' })}${T((xa + 850) / 2 - 30, 400, v.outL || 'wydech', { size: 34, w: 800, fill: t.A, anchor: 'middle' })}
+    <rect x="50" y="470" width="${xa - 60}" height="20" rx="10" fill="${t.soft}"/><rect x="${xa + 10}" y="470" width="${850 - xa - 10}" height="20" rx="10" fill="${t.A}"/>${T((50 + xa) / 2, 530, v.inT || 'krócej', { size: 28, w: 700, fill: t.mute, anchor: 'middle' })}${T((xa + 850) / 2, 530, v.outT || 'dłużej', { size: 28, w: 800, fill: t.A, anchor: 'middle' })}</g>`; },
+});
+// END: nazwa albo {items:[...]} w viewBox 400x300
+Object.assign(END, { scene: (t, e) => scene(t, e) });
+
 // ---------- składanie slajdów ----------
 const PAD = 96;
 const foot = (t, i, swipe) => `<div class="ft" style="color:${t.mute}">@psychologsportowy · ${i}/5</div>${swipe ? `<div class="sw" style="color:${t.A}">przesuń <span>→</span></div>` : ''}`;
@@ -225,7 +419,7 @@ const titleSize = (s, base) => { const n = plainLen(s); return n <= 14 ? base : 
 const kick = (t, s) => s ? `<div class="kick" style="color:${t.A === INK ? INK : Y}"><span style="background:${t.A};color:${t.onA}">${escH(s)}</span></div>` : '';
 
 function cover(t, c) {
-  const art = ART[c.art.type](t, c.art);
+  const art = (ART[c.art.type] || VIZ[c.art.type])(t, c.art);
   const ts = c.size || titleSize(c.title, 104);
   const pre = c.pre ? `<div class="pre" style="color:${t.mute}">${rich(c.pre)}</div>` : '';
   const title = pre + `<div class="h" style="font-size:${ts}px;color:${t.fg}${c.italic ? ';font-style:italic' : ''}">${rich(c.title)}</div>`;
@@ -235,8 +429,8 @@ function cover(t, c) {
   if (c.layout === 'split') return `<div class="lab" style="left:${PAD}px;width:436px;color:${t.mute}">${escH(c.left || 'PRZED')}</div><div class="lab" style="left:${PAD + 464}px;width:436px;color:${t.A}">${escH(c.right || 'PO')}</div>
     <svg class="art" viewBox="0 0 900 620" style="top:170px;height:${c.artH || 580}px">${art}</svg>
     <div class="box" style="top:${c.titleTop || 840}px">${title}${sub}</div>`;
-  if (c.layout === 'big') return `<div class="box" style="top:120px"><div style="font:800 420px/0.9 P;color:${t.A};letter-spacing:-12px">${escH(c.big)}</div>${title}${sub}</div>
-    <svg class="art" viewBox="0 0 900 620" style="top:780px;height:380px;left:auto;right:${PAD}px;width:550px">${art}</svg>`;
+  if (c.layout === 'big') return `<div class="box" style="top:120px"><div style="font:800 ${c.bigSize || 420}px/0.9 P;color:${t.A};letter-spacing:-8px;margin-bottom:${c.bigSub ? 8 : 24}px">${escH(c.big)}</div>${c.bigSub ? `<div class="sub" style="color:${t.mute};margin:0 0 30px">${escH(c.bigSub)}</div>` : ''}${title}${sub}</div>
+    <svg class="art" viewBox="${c.vb || '0 0 900 620'}" style="top:${c.artTop || 790}px;height:${c.artH || 400}px">${art}</svg>`;
   // hero
   return `<svg class="art" viewBox="0 0 900 620" style="top:${c.artTop || 110}px;height:${c.artH || 600}px">${art}</svg>
     <div class="box" style="top:${c.titleTop || 770}px">${kick(t, c.kicker)}${title}${sub}</div>`;
@@ -249,7 +443,7 @@ function point(t, p, n) {
 }
 function end(t, e) {
   return `<div class="box" style="top:150px;align-items:center;text-align:center">
-    <svg viewBox="0 0 400 300" style="width:400px;height:300px;margin-bottom:60px">${END[e.art || 'think'](t)}</svg>
+    <svg viewBox="0 0 400 300" style="width:400px;height:300px;margin-bottom:60px">${typeof e.art === 'object' ? scene(t, e.art) : END[e.art || 'think'](t)}</svg>
     <div class="h" style="font-size:${e.size || 80}px;color:${t.fg}">${rich(e.question)}</div>
     <div style="width:150px;height:10px;border-radius:5px;background:${t.A};margin:60px 0 50px"></div>
     <div class="cta" style="color:${t.fg}"><svg viewBox="0 0 24 24" width="44" height="44" style="flex:none"><path d="M6 3h12v18l-6-4.5L6 21z" fill="${t.A}"/></svg><span>${rich(e.cta || 'Zapisz, żeby wrócić przed startem.')}</span></div></div>`;
