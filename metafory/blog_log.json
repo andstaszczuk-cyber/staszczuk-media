@@ -96,5 +96,18 @@
   "png": "metafory/blog/2026-10-29.png",
   "metricool_id": 409872635,
   "metricool_uuid": "8855352637064430025"
+ },
+ {
+  "data": "2026-10-30",
+  "url": "https://andrzejstaszczuk.pl/2026/10/30/samotnosc-po-porazce-w-sporcie/",
+  "tytul_wpisu": "Po wygranej tłum, po przegranej pustka. Dlaczego czuję się jak trędowaty?",
+  "layout": "custom",
+  "photo": "svg:tlum-pustka",
+  "palette": "red",
+  "font": "lato",
+  "png": "metafory/blog/2026-10-30-samotnosc.png",
+  "metricool_id": 411653732,
+  "metricool_uuid": "2055431589686362398",
+  "uwaga": "zrobione ręcznie na prośbę Andrzeja, 22:00"
  }
 ]
