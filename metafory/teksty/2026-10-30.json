@@ -1,0 +1,10 @@
+{
+ "layout": "G4",
+ "svg": "<circle cx='585' cy='760' r='150' fill='{acc}' opacity='.18'/><polygon points='585,50 700,740 470,740' fill='{acc}' opacity='.28'/><circle cx='230' cy='600' r='26' fill='{ink}' opacity='.4'/><circle cx='410' cy='600' r='26' fill='{ink}' opacity='.4'/><circle cx='585' cy='600' r='26' fill='{ink}' opacity='.4'/><circle cx='760' cy='600' r='26' fill='{ink}' opacity='.4'/><circle cx='230' cy='760' r='26' fill='{ink}' opacity='.4'/><circle cx='410' cy='760' r='26' fill='{ink}' opacity='.4'/><circle cx='585' cy='760' r='52' fill='{acc}' /><circle cx='760' cy='760' r='26' fill='{ink}' opacity='.4'/><circle cx='230' cy='920' r='26' fill='{ink}' opacity='.4'/><circle cx='410' cy='920' r='26' fill='{ink}' opacity='.4'/><circle cx='585' cy='920' r='26' fill='{ink}' opacity='.4'/><circle cx='760' cy='920' r='26' fill='{ink}' opacity='.4'/><circle cx='585' cy='760' r='84' fill='none' stroke='{acc}' stroke-width='8'/><circle cx='585' cy='50' r='34' fill='{ink}'/>",
+ "palette": "red",
+ "font": "anton",
+ "tilt": -2,
+ "kicker": "o ocenianiu",
+ "headline": "Mały *wycinek*",
+ "body": "Trener w jednym momencie patrzy na jednego zawodnika, nie na dwunastu. *Każda ocena opiera się na małym wycinku informacji*, a jesteśmy jej tak pewni."
+}

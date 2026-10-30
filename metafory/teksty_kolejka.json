@@ -77,6 +77,46 @@
   "ocena": null,
   "tekst": "Trener w jednym momencie patrzy na jednego zawodnika, nie na dwunastu. Każda ocena opiera się na małym wycinku informacji, a jesteśmy jej tak pewni.",
   "zrodlo": "zoom 2026-10-27",
+  "uzyta": "2026-10-30"
+ },
+ {
+  "id": 1261,
+  "nr_banku": null,
+  "temat": "start i zawody",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Każda kolejna akcja to reset. To, co było wcześniej, nie ma już znaczenia: liczy się tylko to, co masz zrobić teraz.",
+  "zrodlo": "zoom 2026-10-29",
+  "uzyta": null
+ },
+ {
+  "id": 1262,
+  "nr_banku": null,
+  "temat": "kontrola i wpływ",
+  "typ": "przewrotka",
+  "ocena": null,
+  "tekst": "Kowalem własnego losu w stu procentach? Nie. Są rzeczy, na które nie masz wpływu, a one i tak wpływają na ciebie. Zajmij się swoją stroną.",
+  "zrodlo": "zoom 2026-10-29",
+  "uzyta": null
+ },
+ {
+  "id": 1263,
+  "nr_banku": null,
+  "temat": "cele i proces",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Zacznij od tego, gdzie chcesz być za kilka lat, i cofaj się wstecz: co muszę zrobić już dziś, żeby tam dojść?",
+  "zrodlo": "zoom 2026-10-29",
+  "uzyta": null
+ },
+ {
+  "id": 1264,
+  "nr_banku": null,
+  "temat": "wyobraźnia i wizualizacja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Wyobrażaj sobie codziennie kilka minut, jak wykonujesz swoje zadanie. Mózg dostaje wtedy jasną informację, że to umiesz.",
+  "zrodlo": "zoom 2026-10-29",
   "uzyta": null
  },
  {
