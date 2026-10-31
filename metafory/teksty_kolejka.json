@@ -87,6 +87,56 @@
   "ocena": null,
   "tekst": "Każda kolejna akcja to reset. To, co było wcześniej, nie ma już znaczenia: liczy się tylko to, co masz zrobić teraz.",
   "zrodlo": "zoom 2026-10-29",
+  "uzyta": "2026-10-31"
+ },
+ {
+  "id": 1265,
+  "nr_banku": null,
+  "temat": "start i zawody",
+  "typ": "przewrotka",
+  "ocena": null,
+  "tekst": "Jeden słaby dzień nie jest wróżbą. Nie czytaj z niego prognostyki na kolejne. Dziś było tak, idę dalej robić swoje.",
+  "zrodlo": "zoom 2026-10-30",
+  "uzyta": null
+ },
+ {
+  "id": 1266,
+  "nr_banku": null,
+  "temat": "koncentracja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Mózg ma ograniczoną wydolność. Przewagę zrobią ci zawodnicy, którzy potrafią zmniejszyć liczbę bodźców wokół siebie.",
+  "zrodlo": "zoom 2026-10-30",
+  "uzyta": null
+ },
+ {
+  "id": 1267,
+  "nr_banku": null,
+  "temat": "start i zawody",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Nie musisz myśleć o zawodach bez przerwy. Wchodzisz, robisz swoją robotę, a poza tym zajmujesz się czymś zupełnie innym. Genialne rozmyślania i tak nie przyjdą.",
+  "zrodlo": "zoom 2026-10-30",
+  "uzyta": null
+ },
+ {
+  "id": 1268,
+  "nr_banku": null,
+  "temat": "stres i presja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Lęk rzadko maleje przed działaniem. Zwykle zaczyna maleć dopiero w trakcie, kiedy robisz to, czego się boisz.",
+  "zrodlo": "zoom 2026-10-30",
+  "uzyta": null
+ },
+ {
+  "id": 1269,
+  "nr_banku": null,
+  "temat": "motywacja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Można mieć satysfakcję i jednocześnie od siebie wymagać. Jedno drugiego nie wyklucza.",
+  "zrodlo": "zoom 2026-10-30",
   "uzyta": null
  },
  {

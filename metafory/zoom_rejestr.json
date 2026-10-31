@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-10-30T09:50:00Z",
+ "ostatnio_do": "2026-10-31T09:45:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -158,6 +158,30 @@
    "data": "2026-10-29",
    "temat": "konsultacja wstępna z zawodnikiem",
    "dodano_mysli": 1,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "505E4424-DA68-4D73-90BD-572C8D223911",
+   "data": "2026-10-30",
+   "temat": "psychoterapia",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "pominięte"
+  },
+  {
+   "uuid": "65D65D8A-B4C8-482D-9DA2-658845CA1F6F",
+   "data": "2026-10-30",
+   "temat": "sesja z zawodniczką",
+   "dodano_mysli": 2,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "22165F83-59BC-4F0D-BBD2-6A471E4C873C",
+   "data": "2026-10-30",
+   "temat": "sesja z zawodniczką",
+   "dodano_mysli": 3,
    "dodano_metafor": 0,
    "status": "przetworzone"
   }
