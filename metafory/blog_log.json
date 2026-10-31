@@ -109,5 +109,19 @@
   "metricool_id": 411653732,
   "metricool_uuid": "2055431589686362398",
   "uwaga": "zrobione ręcznie na prośbę Andrzeja, 22:00"
+ },
+ {
+  "data": "2026-10-31",
+  "url": "https://andrzejstaszczuk.pl/2026/10/31/analiza-startu-wnioski-po-zawodach/",
+  "tytul_wpisu": "Wnioski po zawodach zostają na kartce. Jak mądrze przeanalizować start",
+  "layout": "L5",
+  "photo": "metafory/zdjecia/9511_kolor.jpg",
+  "palette": "cream",
+  "font": "anton",
+  "focus": 30,
+  "spec": "metafory/blog/2026-10-31.json",
+  "png": "metafory/blog/2026-10-31.png",
+  "metricool_id": null,
+  "metricool_uuid": null
  }
 ]
