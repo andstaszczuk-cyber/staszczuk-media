@@ -115,5 +115,16 @@
   "png": "metafory/teksty/2026-10-31.png",
   "metricool_id": 412037492,
   "metricool_uuid": "8808971288001267051"
+ },
+ {
+  "data": "2026-11-01",
+  "id": 1265,
+  "layout": "G6",
+  "photo": "art:scale",
+  "palette": "red",
+  "font": "bebas",
+  "focus": null,
+  "spec": "metafory/teksty/2026-11-01.json",
+  "png": "metafory/teksty/2026-11-01.png"
  }
 ]

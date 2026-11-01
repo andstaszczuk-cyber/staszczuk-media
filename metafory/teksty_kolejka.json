@@ -97,6 +97,56 @@
   "ocena": null,
   "tekst": "Jeden słaby dzień nie jest wróżbą. Nie czytaj z niego prognostyki na kolejne. Dziś było tak, idę dalej robić swoje.",
   "zrodlo": "zoom 2026-10-30",
+  "uzyta": "2026-11-01"
+ },
+ {
+  "id": 1270,
+  "nr_banku": null,
+  "temat": "rozwój",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Nie masz robić najwięcej ze wszystkich. Masz robić tak, żeby to rosło.",
+  "zrodlo": "zoom 2026-10-31",
+  "uzyta": null
+ },
+ {
+  "id": 1271,
+  "nr_banku": null,
+  "temat": "rozwój",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Wielu zawodników robi tylko to, co na pewno im wyjdzie. Rozwój zaczyna się od rzeczy, której jeszcze nie robiłeś, nawet jeśli wyjdzie średnio.",
+  "zrodlo": "zoom 2026-10-31",
+  "uzyta": null
+ },
+ {
+  "id": 1272,
+  "nr_banku": null,
+  "temat": "upór i talent",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Na początku talent robi różnicę. Później to tylko powtarzalna robota. Sukcesy odnoszą ci, którzy trenują dłużej i systematycznie.",
+  "zrodlo": "zoom 2026-10-31",
+  "uzyta": null
+ },
+ {
+  "id": 1273,
+  "nr_banku": null,
+  "temat": "wiedza i wdrożenie",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Co innego wiedzieć, a co innego stosować. Gdyby ludzie wszystko wiedzieli i robili, nikt nie szukałby pomocy.",
+  "zrodlo": "zoom 2026-10-31",
+  "uzyta": null
+ },
+ {
+  "id": 1274,
+  "nr_banku": null,
+  "temat": "start i zawody",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Gdy dzień nie idzie, graj do końca. Po zawodach powiesz: dziś nie był mój dzień, ale dałem z siebie, ile się dało.",
+  "zrodlo": "zoom 2026-10-31",
   "uzyta": null
  },
  {
