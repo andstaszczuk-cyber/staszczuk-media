@@ -90,7 +90,7 @@ S[4]=t=>{
   for(let i=0;i<10;i++){
     const a=0.8+i*0.22, op=eo(seg(t,a,a+0.3)), x=140+i*88;
     if(i===6){
-      const cx=x+(540-x)*mv, cy=190+(350-190)*mv, r=30+55*mv+(t>5.8?5*Math.sin((t-5.8)*4):0);
+      const cx=x+(870-x)*mv, cy=190+(345-190)*mv, r=30+36*mv+(t>5.8?4*Math.sin((t-5.8)*4):0);
       o+='<circle cx="'+cx+'" cy="'+cy+'" r="'+(r+14)+'" fill="'+RED+'" opacity="'+(0.18*op*mv)+'"/><circle cx="'+cx+'" cy="'+cy+'" r="'+r+'" fill="'+RED+'" opacity="'+op+'"/>';
     } else {
       o+='<circle cx="'+x+'" cy="190" r="'+(30-12*dim)+'" fill="#EDEFF3" opacity="'+(op*(1-0.8*dim))+'"/>';
