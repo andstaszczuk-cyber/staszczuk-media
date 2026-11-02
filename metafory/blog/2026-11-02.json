@@ -1,0 +1,11 @@
+{
+ "layout": "G4",
+ "svg": "<defs><mask id='mn'><rect width='1000' height='1000' fill='#fff'/><circle cx='590' cy='360' r='190' fill='#000'/></mask></defs><circle cx='470' cy='420' r='230' fill='{acc}' mask='url(#mn)'/><polygon points='700,200 712,240 752,252 712,264 700,304 688,264 648,252 688,240' fill='{ink}' opacity='.85'/><polygon points='820,420 828,444 852,452 828,460 820,484 812,460 788,452 812,444' fill='{ink}' opacity='.6'/><circle cx='260' cy='170' r='9' fill='{ink}' opacity='.7'/><circle cx='880' cy='250' r='7' fill='{ink}' opacity='.5'/><circle cx='150' cy='330' r='7' fill='{ink}' opacity='.5'/><path d='M100 740 C220 660 300 820 420 740 S620 660 740 740 S880 800 920 730' fill='none' stroke='{ink}' stroke-width='14' stroke-linecap='round' opacity='.6'/><path d='M100 840 C220 770 300 900 420 840 S620 770 740 840 S880 890 920 830' fill='none' stroke='{ink}' stroke-width='14' stroke-linecap='round' opacity='.35'/>",
+ "palette": "mono",
+ "font": "raj",
+ "tilt": -2,
+ "kicker": "nowy wpis",
+ "headline": "Noc *przed* startem",
+ "body": "Nie wygrasz z bezsennością siłą. *Jedna noc nie przekreśla startu.*",
+ "cta": "Cały tekst: andrzejstaszczuk.pl/blog"
+}

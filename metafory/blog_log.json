@@ -123,5 +123,17 @@
   "png": "metafory/blog/2026-10-31.png",
   "metricool_id": 412089376,
   "metricool_uuid": "9120008083918375600"
+ },
+ {
+  "data": "2026-11-02",
+  "url": "https://andrzejstaszczuk.pl/2026/11/02/bezsennosc-przed-zawodami/",
+  "tytul_wpisu": "Nie mogę spać przed zawodami. Co robić z gonitwą myśli w nocy",
+  "layout": "G4",
+  "photo": "svg:księżyc i fale",
+  "palette": "mono",
+  "font": "raj",
+  "focus": null,
+  "spec": "metafory/blog/2026-11-02.json",
+  "png": "metafory/blog/2026-11-02.png"
  }
 ]
