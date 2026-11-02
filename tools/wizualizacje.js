@@ -1,5 +1,5 @@
 // Wizualizacje do rolek mówionych (Tryb 2: schemat u góry, Andrzej w kadrze pod spodem).
-// Klip ma 1080x600 px, 30 klatek na sekundę, nieprzezroczyste tło. W montażu kładziesz go na y=240 w kadrze 1080x1920.
+// Klip ma format rolki 1080x1920, 30 klatek na sekundę, nieprzezroczyste grafitowe tło. Schemat jest w górnym pasie (od 240 do 840 px), dolna część jest wolna na nagranie Andrzeja.
 // Użycie: node wizualizacje.js <numer sceny 1-5> <katalog wyjściowy>   (powstaje scena-N.mp4)
 const fs = require('fs');
 const path = require('path');
@@ -13,9 +13,9 @@ const html = `<!doctype html><html><head><meta charset="utf-8"><style>
 ${['600', '800'].map(w => `
 @font-face{font-family:Pop;font-weight:${w};src:url(${F(`poppins/files/poppins-latin-ext-${w}-normal.woff2`)}) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF}
 @font-face{font-family:Pop;font-weight:${w};src:url(${F(`poppins/files/poppins-latin-${w}-normal.woff2`)}) format('woff2')}`).join('')}
-html,body{margin:0;background:#11141A;width:1080px;height:600px;overflow:hidden;font-family:Pop,sans-serif}
+html,body{margin:0;background:#11141A;width:1080px;height:1920px;overflow:hidden;font-family:Pop,sans-serif}
 svg{display:block}
-</style></head><body><svg id="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 600" width="1080" height="600"></svg>
+</style></head><body><svg id="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920"></svg>
 <script>
 const Y='#F4B63A', RED='#C42332', INK='#11141A', CREAM='#FBF5F3', GREY='#2A303B';
 const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
@@ -24,7 +24,7 @@ const eo=x=>1-Math.pow(1-x,3);
 const eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
 const tx=(x,y,s,size,fill,w,anchor,op)=>'<text x="'+x+'" y="'+y+'" font-size="'+size+'" font-weight="'+(w||800)+'" fill="'+fill+'" text-anchor="'+(anchor||'middle')+'" opacity="'+(op==null?1:op)+'">'+s+'</text>';
 const title=(t,a,b)=>{const o=eo(seg(t,0.2,0.8));return '<text x="540" y="82" font-size="50" font-weight="800" fill="#fff" text-anchor="middle" opacity="'+o+'">'+a+'<tspan fill="'+Y+'">'+b+'</tspan></text>';};
-const bgGlow='<defs><radialGradient id="g" cx="50%" cy="0%" r="90%"><stop offset="0" stop-color="#1E242E"/><stop offset="1" stop-color="#11141A"/></radialGradient></defs><rect width="1080" height="600" fill="url(#g)"/>';
+const bgGlow='<defs><radialGradient id="g" cx="50%" cy="0%" r="90%"><stop offset="0" stop-color="#1E242E"/><stop offset="1" stop-color="#11141A"/></radialGradient></defs><rect width="1080" height="1920" fill="url(#g)"/>';
 
 const S={};
 S[1]=t=>{ // dziewięć dobrych akcji bez echa, jedna zła zostaje
@@ -108,7 +108,7 @@ S[5]=t=>{ // pewność się chwieje, przygotowanie zostaje
 };
 window.draw=(n,t,D)=>{
   const fade=1-seg(t,D-0.4,D);
-  document.getElementById('s').innerHTML=bgGlow+'<g opacity="'+fade+'">'+S[n](t)+'</g>';
+  document.getElementById('s').innerHTML=bgGlow+'<text x="540" y="150" font-size="34" font-weight="800" fill="#A9B0BC" text-anchor="middle" letter-spacing="2">@psychologsportu</text><g transform="translate(0 240)"><g opacity="'+fade+'">'+S[n](t)+'</g></g>';
 };
 </script></body></html>`;
 
@@ -129,7 +129,7 @@ async function main() {
     exe = cands.find(c => fs.existsSync(c));
   } catch (e) {}
   const b = await chromium.launch({ executablePath: exe, args: ['--no-sandbox'] });
-  const p = await b.newPage({ viewport: { width: 1080, height: 600 } });
+  const p = await b.newPage({ viewport: { width: 1080, height: 1920 } });
   await p.goto('file://' + tmp);
   await p.evaluate(() => document.fonts.ready);
   const fdir = path.join(out, 'frames-' + n);
@@ -137,11 +137,11 @@ async function main() {
   const total = D * FPS;
   for (let i = 0; i < total; i++) {
     await p.evaluate(([a, t, d]) => window.draw(a, t, d), [n, i / FPS, D]);
-    await p.screenshot({ path: path.join(fdir, String(i).padStart(4, '0') + '.png') });
+    await p.screenshot({ path: path.join(fdir, String(i).padStart(4, '0') + '.jpg'), type: 'jpeg', quality: 95 });
   }
   await b.close();
   fs.unlinkSync(tmp);
-  execSync(`ffmpeg -v error -y -framerate ${FPS} -i ${fdir}/%04d.png -c:v libx264 -pix_fmt yuv420p -crf 18 ${path.join(out, 'scena-' + n + '.mp4')}`);
+  execSync(`ffmpeg -v error -y -framerate ${FPS} -i ${fdir}/%04d.jpg -c:v libx264 -pix_fmt yuv420p -crf 18 ${path.join(out, 'scena-' + n + '.mp4')}`);
   console.log('ok scena', n);
 }
 main();
