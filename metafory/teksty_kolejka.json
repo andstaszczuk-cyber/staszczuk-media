@@ -117,6 +117,46 @@
   "ocena": null,
   "tekst": "Wielu zawodników robi tylko to, co na pewno im wyjdzie. Rozwój zaczyna się od rzeczy, której jeszcze nie robiłeś, nawet jeśli wyjdzie średnio.",
   "zrodlo": "zoom 2026-10-31",
+  "uzyta": "2026-11-03"
+ },
+ {
+  "id": 1275,
+  "nr_banku": null,
+  "temat": "skupienie",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Koncentrujesz się na następnej akcji. Jak zostanie oceniona, przyjdzie czas później. Wtedy ocenisz ją z głową, a nie w trakcie pojedynku.",
+  "zrodlo": "zoom 2026-11-02",
+  "uzyta": null
+ },
+ {
+  "id": 1276,
+  "nr_banku": null,
+  "temat": "wdrożenie",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Wiesz więcej, jesteś bardziej świadomy i poukładany. To nie znaczy, że w każdej sytuacji będziesz skuteczny. Wiedza to jeszcze nie wdrożenie.",
+  "zrodlo": "zoom 2026-11-03",
+  "uzyta": null
+ },
+ {
+  "id": 1277,
+  "nr_banku": null,
+  "temat": "stres",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Są dwie strategie radzenia sobie z trudną sytuacją. Pierwsza: robisz coś z tym, na co masz wpływ. To buduje spokój i zmniejsza lęk, bo coś zrobiłeś.",
+  "zrodlo": "zoom 2026-11-03",
+  "uzyta": null
+ },
+ {
+  "id": 1278,
+  "nr_banku": null,
+  "temat": "motywacja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Motywacja zewnętrzna też jest w porządku, jeśli realizuje twoje cele. Nagrody, medale i pochwały mogą pracować na ciebie.",
+  "zrodlo": "zoom 2026-11-03",
   "uzyta": null
  },
  {
