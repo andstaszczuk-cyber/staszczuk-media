@@ -137,5 +137,19 @@
   "png": "metafory/blog/2026-11-02.png",
   "metricool_id": 413752621,
   "metricool_uuid": "2832722558810867639"
+ },
+ {
+  "data": "2026-11-03",
+  "url": "https://andrzejstaszczuk.pl/2026/11/03/laczenie-sportu-ze-szkola/",
+  "tytul_wpisu": "Szkoła, trening, sen i od nowa. Jak pogodzić sport z resztą życia",
+  "layout": "G2",
+  "photo": "svg:tetris",
+  "palette": "cream",
+  "font": "raj",
+  "focus": null,
+  "spec": "metafory/blog/2026-11-03.json",
+  "png": "metafory/blog/2026-11-03.png",
+  "metricool_id": null,
+  "metricool_uuid": null
  }
 ]
