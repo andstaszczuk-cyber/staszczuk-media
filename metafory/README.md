@@ -50,3 +50,8 @@ Wzorce poprawione przez Andrzeja (przed → po):
 - Każdy wie, co mu szkodzi, i robi dalej. Nawyk bywa silniejszy niż wiedza. Nie kręć na siebie bicza z tego, co już wiesz. → Każdy dobrze wie, co mu szkodzi, a mimo to robi to dalej. To zasługa nawyków, które są silniejsze niż świadomość. Nie bądź dla siebie okrutny za to, po prostu krok po kroku zmieniaj zachowanie.
 - Nie masz robić najwięcej ze wszystkich. Masz robić tak, żeby to rosło. → Nie masz robić najwięcej ze wszystkich. Masz robić to, co jest sensowne, właściwe i naprawdę daje progres.
 - Jeden słaby dzień nie jest wróżbą. Nie czytaj z niego prognozy na kolejne. Dziś było tak, idę dalej robić swoje. → Jeden słaby dzień nie jest wróżbą na przyszłość. Nie czytaj z niego prognozy na kolejne dni. Dziś było tak, a jutro idę dalej robić swoje zadania.
+
+Kolejne poprawki Andrzeja (3.11.2026), reszta przerobionych tekstów zaakceptowana jako wzór:
+11. Czasowniki z życia zamiast abstrakcyjnych rzeczowników: nie trudności i efekt, tylko męczysz się i udaje się. Wzór: Wiesz, ile sam się męczysz, ale u innych widzisz tylko to, że im się udaje.
+12. Zamiast mądrych słów (intencje, dopisywać, interpretacja) mów jak w rozmowie: Często sami sobie wymyślamy, co ktoś miał na myśli. Forma my jest w porządku, gdy dotyczy wszystkich.
+13. Wskazówka na końcu krótka i prosta: Zamiast zgadywać, po prostu zapytaj.
