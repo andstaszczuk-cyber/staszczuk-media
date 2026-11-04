@@ -7,12 +7,13 @@ const ZNAK='data:image/png;base64,'+fs.readFileSync(path.join(__dirname,'../madr
 const html=(v,circle)=>`<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{font-family:M;font-weight:900;src:url(${F('mulish/files/mulish-latin-ext-900-normal.woff2')});unicode-range:U+0100-024F}
 @font-face{font-family:M;font-weight:900;src:url(${F('mulish/files/mulish-latin-900-normal.woff2')})}
+@font-face{font-family:M;font-weight:800;src:url(${F('mulish/files/mulish-latin-800-normal.woff2')})}
 html,body{margin:0;width:1080px;height:1080px;background:${circle?'#fff':v.bg};font-family:M}
-.c{position:absolute;inset:0;${circle?`border-radius:50%;background:${v.bg};`:''}display:flex;align-items:center;justify-content:center}
-.w{font-weight:900;color:${v.ink};font-size:196px;line-height:1.06;letter-spacing:-4px;position:relative;left:-44px}
-.z{display:inline-block;width:84px;height:198px;margin-left:36px;vertical-align:-12px;background:${v.znak};
-  -webkit-mask:url(${ZNAK}) center/contain no-repeat;mask:url(${ZNAK}) center/contain no-repeat}
-</style></head><body><div class="c"><div class="w">MĄDRY<br>SPORT<span class="z"></span></div></div></body></html>`;
+.c{position:absolute;inset:0;${circle?`border-radius:50%;background:${v.bg};`:''}display:flex;align-items:center;justify-content:center;gap:40px}
+.z{width:118px;height:278px;flex:none;background:${v.znak};-webkit-mask:url(${ZNAK}) center/contain no-repeat;mask:url(${ZNAK}) center/contain no-repeat}
+.w{font-weight:900;color:${v.ink};font-size:150px;line-height:1.04;letter-spacing:-3px;margin-top:6px}
+.pl{font-weight:800;font-size:56px;letter-spacing:0;margin-left:6px}
+</style></head><body><div class="c"><div class="z"></div><div class="w">MĄDRY<br>SPORT<span class="pl">.pl</span></div></div></body></html>`;
 (async()=>{const out=process.argv[2];const {chromium}=require('playwright');
 const g=fs.readdirSync('/opt/pw-browsers').filter(d=>d.startsWith('chromium_headless_shell')).sort().reverse();
 const b=await chromium.launch({executablePath:`/opt/pw-browsers/${g[0]}/chrome-linux/headless_shell`,args:['--no-sandbox']});
