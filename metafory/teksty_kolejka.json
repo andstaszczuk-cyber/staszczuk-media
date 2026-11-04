@@ -127,6 +127,26 @@
   "ocena": null,
   "tekst": "Koncentrujesz się na następnej akcji. Jak zostanie oceniona, przyjdzie czas później. Wtedy ocenisz ją z głową, a nie w trakcie pojedynku.",
   "zrodlo": "zoom 2026-11-02",
+  "uzyta": "2026-11-04"
+ },
+ {
+  "id": 1279,
+  "nr_banku": null,
+  "temat": "kontuzja i regeneracja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Gdy jesteś kontuzjowany, jedź na salę i patrz, jak trenują inni. Uczymy się przez naśladowanie, czasem więcej niż w samym treningu. Siedzenie w domu niczego ci nie da.",
+  "zrodlo": "zoom 2026-11-03",
+  "uzyta": null
+ },
+ {
+  "id": 1280,
+  "nr_banku": null,
+  "temat": "dziennik",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Zapisuj ręcznie albo w telefonie, jak ci wygodniej. Pisanie to trening dla mózgu, a to kolejna przewaga nad zawodnikami, którzy tego nie robią.",
+  "zrodlo": "zoom 2026-11-03",
   "uzyta": null
  },
  {

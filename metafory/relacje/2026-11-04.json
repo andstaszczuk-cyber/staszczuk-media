@@ -1,0 +1,10 @@
+{
+ "layout": "G3",
+ "svg": "<rect x='120' y='700' width='760' height='220' rx='26' fill='{ink}'/><rect x='120' y='700' width='760' height='44' rx='22' fill='{ink}' opacity='.65'/><rect x='200' y='780' width='140' height='80' rx='10' fill='{bg2}' opacity='.55'/><rect x='430' y='780' width='140' height='80' rx='10' fill='{bg2}' opacity='.55'/><rect x='660' y='780' width='140' height='80' rx='10' fill='{bg2}' opacity='.55'/><path d='M640 640 C 610 560, 700 520, 660 440 S 700 330, 720 290' stroke='{ink}' stroke-width='9' fill='none' stroke-linecap='round'/><ellipse cx='735' cy='170' rx='120' ry='140' fill='none' stroke='{ink}' stroke-width='16' stroke-dasharray='6 22' stroke-linecap='round'/><ellipse cx='735' cy='170' rx='104' ry='124' fill='{ink}' opacity='.18'/><path d='M720 296 l15 28 l15 -28 z' fill='{ink}'/>",
+ "palette": "cream",
+ "font": "bebas",
+ "tilt": -2,
+ "kicker": "metafora dnia",
+ "headline": "Cygaro po *awansie*?",
+ "body": "Nikt po awansie nie siada z cygarem i nie mówi: już nic nie muszę. *Robić swoje będziesz dalej, nawet gdy przestaniesz udowadniać, że jesteś dobry.*"
+}
