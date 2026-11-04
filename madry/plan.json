@@ -1,0 +1,242 @@
+[
+ {
+  "nr": 1,
+  "folder": "01-brzuch-przed-meczem",
+  "tytul": "Ścisk w brzuchu przed meczem",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": 10
+ },
+ {
+  "nr": 2,
+  "folder": "02-pierwsze-kilometry",
+  "tytul": "Pierwsze kilometry zawsze są najgorsze",
+  "filar": "ciało",
+  "theme": "czerwony",
+  "temat_id": 19
+ },
+ {
+  "nr": 3,
+  "folder": "03-kontuzja-strata-czasu",
+  "tytul": "Kontuzja i myśl, że wszyscy ci odjeżdżają",
+  "filar": "głowa i ciało",
+  "theme": "grafit",
+  "temat_id": 3
+ },
+ {
+  "nr": 4,
+  "folder": "04-za-duzo-bodzcow",
+  "tytul": "Pięć minut w galerii i jestem wykończona",
+  "filar": "głowa",
+  "theme": "cieply",
+  "temat_id": 27
+ },
+ {
+  "nr": 5,
+  "folder": "05-za-duzo-naraz",
+  "tytul": "Ruszam od pierwszej sekundy i brakuje mi tlenu",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 7
+ },
+ {
+  "nr": 6,
+  "folder": "06-nigdy-sie-nie-wysypiam",
+  "tytul": "Śpię długo, a i tak chodzę zmęczona",
+  "filar": "ciało",
+  "theme": "grafit",
+  "temat_id": 33
+ },
+ {
+  "nr": 7,
+  "folder": "07-mysli-przed-startem",
+  "tytul": "Przed startem wpadają mi myśli i nie wiem, co z nimi zrobić",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": 16
+ },
+ {
+  "nr": 8,
+  "folder": "08-tylko-ja-mam-kontuzje",
+  "tytul": "Mam wrażenie, że tylko ja mam tę kontuzję",
+  "filar": "głowa",
+  "theme": "czerwony",
+  "temat_id": 22
+ },
+ {
+  "nr": 9,
+  "folder": "09-tydzien-sprawdzianow",
+  "tytul": "Tydzień sprawdzianów i boję się, że straciłem formę",
+  "filar": "głowa i ciało",
+  "theme": "grafit",
+  "temat_id": 13
+ },
+ {
+  "nr": 10,
+  "folder": "10-spinam-sie",
+  "tytul": "Spinam się automatycznie i nie umiem tego zdjąć",
+  "filar": "ciało",
+  "theme": "cieply",
+  "temat_id": 9
+ },
+ {
+  "nr": 11,
+  "folder": "11-scrollowanie-bez-treningu",
+  "tytul": "Bez treningu scrolluję i chodzę cały dzień jak trup",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 4
+ },
+ {
+  "nr": 12,
+  "folder": "12-wielkie-rywalki",
+  "tytul": "Zobaczyłam rywalki i przeraziłam się, jakie są wielkie",
+  "filar": "głowa",
+  "theme": "grafit",
+  "temat_id": 12
+ },
+ {
+  "nr": 13,
+  "folder": "13-odpuscilam-trening",
+  "tytul": "Pierwszy raz odpuściłam trening, zamiast ciągnąć na siłę",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": 11
+ },
+ {
+  "nr": 14,
+  "folder": "14-neutralny-przed-meczem",
+  "tytul": "Gram słabiej, a przed meczem jestem jakby neutralny",
+  "filar": "ciało",
+  "theme": "czerwony",
+  "temat_id": 36
+ },
+ {
+  "nr": 15,
+  "folder": "15-czy-nie-przeciaze-nogi",
+  "tytul": "Cały czas się zastanawiam, czy nie przeciążę nogi",
+  "filar": "głowa i ciało",
+  "theme": "grafit",
+  "temat_id": 21
+ },
+ {
+  "nr": 16,
+  "folder": "16-odmowilam-wyjazdu",
+  "tytul": "Odmówiłam wyjazdu na urodziny i trochę głupio mi z tym",
+  "filar": "głowa",
+  "theme": "cieply",
+  "temat_id": 26
+ },
+ {
+  "nr": 17,
+  "folder": "17-zapominam-o-oddechu",
+  "tytul": "Chciałem ćwiczyć oddech, ale zawsze o tym zapominam",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 15
+ },
+ {
+  "nr": 18,
+  "folder": "18-nie-czuje-zmeczenia",
+  "tytul": "Trenuję prawie codziennie i w ogóle nie czuję zmęczenia",
+  "filar": "ciało",
+  "theme": "grafit",
+  "temat_id": 6
+ },
+ {
+  "nr": 19,
+  "folder": "19-trener-i-sylwetka",
+  "tytul": "Trener daje do zrozumienia, że chodzi o moją sylwetkę",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": 32
+ },
+ {
+  "nr": 20,
+  "folder": "20-mysli-przed-snem",
+  "tytul": "Kładę się spać i włączają mi się myśli",
+  "filar": "głowa",
+  "theme": "czerwony",
+  "temat_id": 35
+ },
+ {
+  "nr": 21,
+  "folder": "21-szczegoly-w-zmeczeniu",
+  "tytul": "Pod koniec treningu przestaję dbać o szczegóły",
+  "filar": "głowa i ciało",
+  "theme": "grafit",
+  "temat_id": 18
+ },
+ {
+  "nr": 22,
+  "folder": "22-kontuzja-na-rozgrzewce",
+  "tytul": "Kontuzja przyszła na rozgrzewce, zanim wyszedłem do walki",
+  "filar": "ciało",
+  "theme": "cieply",
+  "temat_id": 2
+ },
+ {
+  "nr": 23,
+  "folder": "23-gorszy-trening-fakty",
+  "tytul": "Ten sam trening poszedł gorzej i już nie mam siły",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 29
+ },
+ {
+  "nr": 24,
+  "folder": "24-tylko-sport-spalanie",
+  "tytul": "Był okres, że był tylko sport, i się spalałem",
+  "filar": "głowa",
+  "theme": "grafit",
+  "temat_id": 14
+ },
+ {
+  "nr": 25,
+  "folder": "25-oddech-na-lezaco",
+  "tytul": "Robię ćwiczenia oddechowe i od razu zasypiam",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": 20
+ },
+ {
+  "nr": 26,
+  "folder": "26-zmeczenie-obozem",
+  "tytul": "Jestem tak zmęczona obozem, że ledwo się mobilizuję",
+  "filar": "ciało",
+  "theme": "czerwony",
+  "temat_id": 25
+ },
+ {
+  "nr": 27,
+  "folder": "27-lek-po-kontuzjach",
+  "tytul": "Boję się wyjść do walki, bo znowu coś mi się stanie",
+  "filar": "głowa i ciało",
+  "theme": "grafit",
+  "temat_id": 1
+ },
+ {
+  "nr": 28,
+  "folder": "28-dzien-zmarnowany",
+  "tytul": "Nie zrobiłam treningu, czyli dzień zmarnowany",
+  "filar": "głowa",
+  "theme": "cieply",
+  "temat_id": 31
+ },
+ {
+  "nr": 29,
+  "folder": "29-tylko-nie-przegrac",
+  "tytul": "Tak bardzo nie chciałem przegrać, że ciało mi się zablokowało",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 8
+ },
+ {
+  "nr": 30,
+  "folder": "30-ekran-przed-snem",
+  "tytul": "Uwielbiam oglądać coś przed snem, ale ekran mi przeszkadza",
+  "filar": "głowa i ciało",
+  "theme": "grafit",
+  "temat_id": 34
+ }
+]

@@ -1,0 +1,66 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Cały czas się zastanawiam, *czy nie przeciążę nogi*",
+  "sub": "Kiedy pytania w głowie zabierają przyjemność z biegania",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 40,
+     "y": 60,
+     "s": 1
+    },
+    {
+     "k": "cloud",
+     "x": 600,
+     "y": 150,
+     "s": 1.7,
+     "text": "?",
+     "size": 120
+    },
+    {
+     "k": "icon",
+     "name": "foot",
+     "x": 560,
+     "y": 360,
+     "s": 160,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zadajesz sobie nie te pytania",
+   "body": "Czy wytrzyma, czy znowu się zacznie. Takie pytania tylko podnoszą napięcie i każą ciągle nasłuchiwać ciała."
+  },
+  {
+   "title": "Zapytaj o działanie",
+   "body": "Co zrobić, żeby noga była dalej zdrowa. Takie pytanie kieruje uwagę na technikę, plan i to, co robisz.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "czy wytrzyma",
+    "to": "co mogę zrobić",
+    "toIcon": "paper"
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Plan ustal z fizjoterapeutą",
+   "body": "Odpowiedzi szukaj z fizjoterapeutą i trenerem. Ty pilnujesz wykonania, a głowa nie musi kontrolować wszystkiego w biegu."
+  }
+ ],
+ "end": {
+  "text": "Zamiast pytać, czy się zepsuje, *zapytaj, co możesz zrobić*.",
+  "cta": "Zapisz na powrót po kontuzji"
+ }
+}

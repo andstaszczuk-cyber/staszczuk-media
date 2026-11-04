@@ -1,0 +1,71 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Boję się wyjść do walki, *bo znowu coś mi się stanie*",
+  "sub": "Lęk po kontuzjach i co z nim zrobić",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 20,
+     "y": 60,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 420,
+     "y": 30,
+     "s": 170,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 560,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Ten lęk jest zrozumiały",
+   "body": "Po kilku urazach z rzędu głowa zapamiętuje zagrożenie. Nawet oglądanie walk kolegów potrafi uruchomić czarne wyobrażenia."
+  },
+  {
+   "title": "Kontuzje są wpisane w sport",
+   "body": "Mniejsze lub większe będą się zdarzać. Twoim celem jest mądre przygotowanie ciała, żeby było ich jak najmniej."
+  },
+  {
+   "title": "Dobrze prowadzone ciało",
+   "body": "Rozgrzewka, regeneracja, sen i współpraca z fizjoterapeutą. Przed częścią kontuzji naprawdę można się zabezpieczyć.",
+   "art": {
+    "type": "hub",
+    "center": "przygotowane ciało",
+    "icon": "shield",
+    "items": [
+     "rozgrzewka",
+     "regeneracja",
+     "sen",
+     "fizjoterapeuta"
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  }
+ ],
+ "end": {
+  "text": "Na lęk działa przygotowanie, *a nie unikanie startów*.",
+  "cta": "Zapisz przed powrotem do walk"
+ }
+}

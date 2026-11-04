@@ -1,0 +1,74 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Ruszam od pierwszej sekundy i *brakuje mi tlenu*",
+  "sub": "Kiedy emocje prowadzą zamiast taktyki",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "gauge",
+     "x": 450,
+     "y": 480,
+     "r": 250,
+     "v": 0.95,
+     "labels": [
+      [
+       "spokój",
+       0.08
+      ],
+      [
+       "odcięcie",
+       0.92
+      ]
+     ]
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 395,
+     "y": 330,
+     "s": 110,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "To reakcja na zagrożenie",
+   "body": "Ciało uznaje pojedynek za zagrożenie i wrzuca wszystko naraz. Tak działa emocja, a plan ustalony z trenerem schodzi na bok."
+  },
+  {
+   "title": "Krótsze serie",
+   "body": "Pracuj z trenerem nad krótszymi seriami i chwilą na oddech między nimi. Wtedy siła zostaje ci jeszcze na końcówkę.",
+   "art": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "długa seria",
+      "v": 0.95,
+      "note": "brak tlenu"
+     },
+     {
+      "label": "krótkie serie",
+      "v": 0.5,
+      "hl": true,
+      "note": "siła do końca"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Pojedynek jako wyzwanie",
+   "body": "Na sparingach ćwicz spokojne wejście, z planem na pierwsze sekundy. Głowa uczy się, że to wyzwanie, a nie zagrożenie."
+  }
+ ],
+ "end": {
+  "text": "Idziesz zgodnie z planem, *a nie zgodnie z emocjami*.",
+  "cta": "Zapisz przed walką"
+ }
+}

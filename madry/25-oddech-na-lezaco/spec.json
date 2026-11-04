@@ -1,0 +1,75 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Robię ćwiczenia oddechowe i *od razu zasypiam*",
+  "sub": "Dlaczego oddechu nie ćwiczy się na leżąco",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 20,
+     "y": 60,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "wind",
+     "x": 480,
+     "y": 90,
+     "s": 230,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 540,
+     "y": 380,
+     "s": 160,
+     "c": "fig2"
+    },
+    {
+     "k": "cross",
+     "x": 720,
+     "y": 400,
+     "r": 36
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Mózg łączy bodziec z reakcją",
+   "body": "Jeśli robisz oddech w łóżku i zasypiasz, mózg zaczyna traktować to ćwiczenie jako sygnał, że idzie spać."
+  },
+  {
+   "title": "Ćwicz w ruchu albo na siedząco",
+   "body": "Chodzisz po domu, siedzisz na krześle albo stoisz przy oknie. Tak jak potem w szatni czy w kolejce na start.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "na siedząco",
+     "w ruchu",
+     "przed startem"
+    ],
+    "top": true
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Sypialnia zostaje do spania",
+   "body": "Ciemno i chłodno w sypialni, to jest prawidłowo. Łóżko niech kojarzy się ze snem, a ćwiczenia z innym miejscem."
+  }
+ ],
+ "end": {
+  "text": "Oddech ćwiczysz w ruchu, *łóżko zostaw do spania*.",
+  "cta": "Zapisz i spróbuj dziś"
+ }
+}

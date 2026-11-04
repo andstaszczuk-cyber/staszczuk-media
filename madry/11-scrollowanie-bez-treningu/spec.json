@@ -1,0 +1,91 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Bez treningu scrolluję i *chodzę cały dzień jak trup*",
+  "sub": "Co telefon robi ze snem i skupieniem",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 40,
+     "y": 60,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 440,
+     "y": 90,
+     "s": 280,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 720,
+     "y": 70,
+     "s": 120,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 700,
+     "y": 390,
+     "s": 140,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Rolki nie wnoszą nic",
+   "body": "Oglądasz godzinę, a potem nic z tego nie pamiętasz i nic nie wdrażasz. Głowa jest za to zmęczona, a sen krótszy."
+  },
+  {
+   "title": "Zamień scroll na trening uwagi",
+   "body": "Kiedy chce ci się scrollować, włącz kilka minut ćwiczenia koncentracji albo oddechu. Głowa dostaje coś, co jej służy.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "ZABIERA",
+      "icon": "phone",
+      "items": [
+       "rolki",
+       "scroll w łóżku"
+      ],
+      "dim": true
+     },
+     {
+      "title": "DAJE",
+      "icon": "brain",
+      "items": [
+       "trening uwagi",
+       "książka",
+       "sen"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Pilnuj snu także w przerwie",
+   "body": "Kiedy trenujesz, sam dbasz o długi sen. Trzymaj ten rytm również bez treningu, bo głowa potrzebuje go tak samo."
+  }
+ ],
+ "end": {
+  "text": "To ty decydujesz, *kiedy sięgasz po telefon*.",
+  "cta": "Zapisz na czas przerwy"
+ }
+}

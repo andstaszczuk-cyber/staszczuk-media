@@ -1,0 +1,126 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Trenuję prawie codziennie i *w ogóle nie czuję zmęczenia*",
+  "sub": "Czasem ciało mówi ciszej, niż myślisz",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 0,
+     "y": 60,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 400,
+     "y": 80,
+     "s": 110,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 530,
+     "y": 80,
+     "s": 110,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 660,
+     "y": 80,
+     "s": 110,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 790,
+     "y": 80,
+     "s": 110,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 465,
+     "y": 220,
+     "s": 110,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 595,
+     "y": 220,
+     "s": 110,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 725,
+     "y": 220,
+     "s": 110,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 560,
+     "y": 380,
+     "s": 170,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Rutyna zagłusza sygnały",
+   "body": "Kiedy trenujesz dużo i od dawna, zmęczenie staje się normą. Przestajesz je zauważać, choć ciało wciąż je zbiera."
+  },
+  {
+   "title": "Uraz mechaniczny a zmęczeniowy",
+   "body": "Uderzenia trudno przewidzieć. Urazy ze zmęczenia mają zwykle swoje sygnały, które da się wyłapać wcześniej.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "MECHANICZNY",
+     "items": [
+      "uderzenie",
+      "upadek"
+     ]
+    },
+    "right": {
+     "title": "ZE ZMĘCZENIA",
+     "items": [
+      "ciężkie nogi",
+      "gorszy sen",
+      "drobne bóle"
+     ]
+    }
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Zapisuj, jak się czujesz",
+   "body": "Codziennie krótko w skali od 1 do 10, czyli sen, nogi i nastrój. Pokaż to trenerowi, a z bólem idź do fizjoterapeuty."
+  }
+ ],
+ "end": {
+  "text": "Brak zmęczenia to czasem *brak uważności*.",
+  "cta": "Zapisz i zacznij obserwować"
+ }
+}

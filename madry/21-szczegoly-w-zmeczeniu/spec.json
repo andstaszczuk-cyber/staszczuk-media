@@ -1,0 +1,119 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Pod koniec treningu *przestaję dbać o szczegóły*",
+  "sub": "Jak ćwiczyć jakość, kiedy siły się kończą",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 0,
+     "y": 60,
+     "s": 1
+    },
+    {
+     "k": "circle",
+     "x": 640,
+     "y": 290,
+     "r": 210,
+     "fill": "none",
+     "stroke": "A",
+     "sw": 12
+    },
+    {
+     "k": "circle",
+     "x": 640,
+     "y": 290,
+     "r": 135,
+     "fill": "none",
+     "stroke": "A",
+     "sw": 12
+    },
+    {
+     "k": "circle",
+     "x": 640,
+     "y": 290,
+     "r": 55,
+     "c": "A"
+    },
+    {
+     "k": "circle",
+     "x": 500,
+     "y": 150,
+     "r": 14,
+     "c": "fig"
+    },
+    {
+     "k": "circle",
+     "x": 790,
+     "y": 200,
+     "r": 14,
+     "c": "fig"
+    },
+    {
+     "k": "circle",
+     "x": 540,
+     "y": 440,
+     "r": 14,
+     "c": "fig"
+    },
+    {
+     "k": "circle",
+     "x": 760,
+     "y": 430,
+     "r": 14,
+     "c": "fig"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Więcej powtórzeń, gorsza jakość",
+   "body": "Zmęczona robisz dużo, ale niedokładnie. Głowa i ciało uczą się wtedy właśnie takiego, niedokładnego wykonania."
+  },
+  {
+   "title": "Kilka świadomych prób w zmęczeniu",
+   "body": "Liczbę ustal z trenerem. Przed każdą próbą pauza, oddech i jeden szczegół techniczny, na którym się skupiasz.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "pause",
+      "top": "pauza"
+     },
+     {
+      "icon": "wind",
+      "top": "oddech"
+     },
+     {
+      "icon": "eye",
+      "top": "szczegół"
+     },
+     {
+      "icon": "check",
+      "top": "próba",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Wiedz, kiedy przerwać",
+   "body": "Jeśli jakość leci mimo skupienia, to sygnał, że na dziś wystarczy. Lepiej skończyć wcześniej niż utrwalać błąd."
+  }
+ ],
+ "end": {
+  "text": "Liczy się jakość prób, *a nie ich liczba*.",
+  "cta": "Zapisz przed treningiem"
+ }
+}

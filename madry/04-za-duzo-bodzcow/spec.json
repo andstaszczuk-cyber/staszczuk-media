@@ -1,0 +1,96 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Pięć minut w galerii i *jestem wykończona*",
+  "sub": "Bodźce też męczą, nie tylko trening",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 250,
+     "y": 60,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 60,
+     "y": 60,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 700,
+     "y": 40,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 90,
+     "y": 320,
+     "s": 110,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 690,
+     "y": 300,
+     "s": 130,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 560,
+     "y": 170,
+     "s": 90,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Mózg ma jedną wydolność",
+   "body": "Hałas, światła, ludzie i powiadomienia zużywają tę samą energię, której potrzebujesz na trening i regenerację."
+  },
+  {
+   "title": "Do bodźców się nie przyzwyczaisz",
+   "body": "Wydaje się, że to kwestia wprawy. Zwykle jest jedynie większe zmęczenie, którego po prostu już nie zauważasz.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "phone",
+     "label": "odpisuję od razu",
+     "cross": true
+    },
+    "right": {
+     "icon": "clock",
+     "label": "odpisuję o stałej porze"
+    }
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Wybieraj, gdzie wchodzisz",
+   "body": "W okresie przygotowań zakupy w spokojniejszej porze, wyciszony telefon i chwila ciszy po treningu bez ekranu."
+  }
+ ],
+ "end": {
+  "text": "Spokojniejsza głowa to *więcej siły na trening*.",
+  "cta": "Zapisz na okres przygotowań"
+ }
+}

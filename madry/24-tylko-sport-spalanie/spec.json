@@ -1,0 +1,135 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Był okres, że był tylko sport, *i się spalałem*",
+  "sub": "Dlaczego inne zainteresowania pomagają na starcie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "pose": "win",
+     "x": 250,
+     "y": 60,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 20,
+     "y": 60,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 30,
+     "y": 330,
+     "s": 130,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 730,
+     "y": 60,
+     "s": 130,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 720,
+     "y": 330,
+     "s": 140,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Paradoks cisnięcia",
+   "body": "Wszyscy cisną, żeby być lepszymi, a potem muszą to korygować, bo napięcie zaczyna ich blokować."
+  },
+  {
+   "title": "Jak z jednym mięśniem",
+   "body": "Sześć godzin robienia bicka i go zerwiesz. Myślenie tylko o sporcie przeciąża głowę bardzo podobnie.",
+   "art": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.2
+       ],
+       [
+        0.35,
+        0.75
+       ],
+       [
+        0.6,
+        0.85
+       ],
+       [
+        1,
+        0.3
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.2
+       ],
+       [
+        0.5,
+        0.55
+       ],
+       [
+        1,
+        0.8
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 1,
+      "y": 0.3,
+      "label": "tylko sport",
+      "dx": -90,
+      "dy": 50
+     },
+     {
+      "x": 1,
+      "y": 0.8,
+      "label": "z luzem",
+      "hl": true,
+      "dx": -60
+     }
+    ],
+    "x": "czas"
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Daj sobie trochę luzu",
+   "body": "Znajomi, hobby, nauka czegoś nowego. Kiedy sport nie jest jedyną rzeczą, jeden wynik nie waży wszystkiego."
+  }
+ ],
+ "end": {
+  "text": "Mniej obsesji, *więcej spokoju na starcie*.",
+  "cta": "Zapisz i wróć, kiedy jest za dużo"
+ }
+}

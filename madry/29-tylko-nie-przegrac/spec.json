@@ -1,0 +1,76 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Tak bardzo nie chciałem przegrać, że *ciało mi się zablokowało*",
+  "sub": "Spirala napięcia i jak z niej wyjść",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "path",
+     "d": "M450 300 m-20 0 a20 20 0 1 1 40 0 a40 40 0 1 1 -80 0 a60 60 0 1 1 120 0 a80 80 0 1 1 -160 0 a100 100 0 1 1 200 0 a120 120 0 1 1 -240 0",
+     "c": "A",
+     "w": 14
+    },
+    {
+     "k": "chip",
+     "x": 0,
+     "y": 30,
+     "text": "nie idzie",
+     "size": 30
+    },
+    {
+     "k": "chip",
+     "x": 650,
+     "y": 30,
+     "text": "napinam się",
+     "size": 30
+    },
+    {
+     "k": "chip",
+     "x": 300,
+     "y": 550,
+     "text": "jeszcze gorzej",
+     "size": 30
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Tylko nie przegrać",
+   "body": "Kiedy przed startem powtarzasz sobie tylko to, głowa skupia się na zagrożeniu. Ciało napina się, żeby się bronić."
+  },
+  {
+   "title": "Spirala napięcia",
+   "body": "Masz poczucie, że nie idzie, więc napinasz się jeszcze bardziej. Przez to idzie jeszcze gorzej i spirala się nakręca.",
+   "art": {
+    "type": "table",
+    "left": "MYŚLISZ",
+    "right": "FAKTY",
+    "good": true,
+    "rows": [
+     [
+      "nic mi nie idzie",
+      "dwie akcje wyszły"
+     ],
+     [
+      "jestem sztywny",
+      "mogę rozluźnić barki"
+     ]
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Zamień zakaz na zadanie",
+   "body": "Zamiast nie przegrać, jedno konkretne zadanie na pierwszą rundę. Do tego długi wydech i rozluźnione barki między akcjami."
+  }
+ ],
+ "end": {
+  "text": "Myślisz o zadaniu, *a nie o tym, czego się boisz*.",
+  "cta": "Zapisz przed ważnym startem"
+ }
+}

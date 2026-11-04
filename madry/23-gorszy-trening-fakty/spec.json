@@ -1,0 +1,46 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Ten sam trening poszedł gorzej i *już nie mam siły*",
+  "sub": "Zmęczenie czy nastawienie, sprawdź fakty",
+  "art": {
+   "type": "notes",
+   "title": "FAKTY",
+   "lines": [
+    "jak spałam",
+    "jakie było obciążenie",
+    "z czym weszłam"
+   ],
+   "crossed": [
+    "nie dam rady"
+   ],
+   "side": "teza do sprawdzenia"
+  }
+ },
+ "points": [
+  {
+   "title": "Postaw tezę",
+   "body": "Mówisz, że jesteś zmęczona. Potraktuj to jak tezę, którą sprawdzasz, a nie jak wyrok przed sprawdzianem."
+  },
+  {
+   "title": "Szukaj dowodów",
+   "body": "Jak spałaś, jakie było obciążenie, jak reagowały nogi, z jakim nastawieniem weszłaś na trening. Spisz same fakty.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "jestem bez sił",
+    "to": "sprawdzę fakty"
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Dobierz działanie do przyczyny",
+   "body": "Zmęczenie fizyczne to sygnał do odpoczynku i rozmowy z trenerem. Nastawienie to praca nad tym, z czym wchodzisz na trening."
+  }
+ ],
+ "end": {
+  "text": "Zanim uwierzysz w myśl, *sprawdź fakty*.",
+  "cta": "Zapisz przed sprawdzianem"
+ }
+}

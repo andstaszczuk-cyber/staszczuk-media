@@ -1,0 +1,71 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Śpię długo, a i tak *chodzę zmęczona*",
+  "sub": "Kiedy sen nie daje odpoczynku",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "bed",
+     "x": 100,
+     "y": 260,
+     "w": 520
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 690,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 680,
+     "y": 300,
+     "s": 160,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Sen jest szalenie istotny",
+   "body": "Od snu zależy regeneracja, koncentracja i nastrój. Senność w ciągu dnia mimo długiego snu to sygnał, którego nie warto lekceważyć."
+  },
+  {
+   "title": "Sprawdź to z lekarzem",
+   "body": "Przyczyn takiego zmęczenia może być wiele. Zanim cokolwiek założysz, porozmawiaj z lekarzem i zrób badania, które zaleci.",
+   "art": {
+    "type": "checklist",
+    "title": "NA TERAZ",
+    "chip": "SPOKOJNIE",
+    "chipX": 330,
+    "back": false,
+    "items": [
+     "zapisuję pory snu",
+     "notuję samopoczucie",
+     "idę z tym do lekarza"
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Nie dopisuj czarnych scenariuszy",
+   "body": "Czekanie na wyniki irytuje. Zajmij się tym, na co masz wpływ, czyli w miarę stałą porą snu i wyciszeniem wieczorem."
+  }
+ ],
+ "end": {
+  "text": "Zmęczenie mimo snu to sygnał, *żeby to spokojnie sprawdzić*.",
+  "cta": "Zapisz na później"
+ }
+}

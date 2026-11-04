@@ -1,0 +1,85 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Tydzień sprawdzianów i boję się, że *straciłem formę*",
+  "sub": "Odpoczynek też jest treningiem",
+  "art": {
+   "type": "week",
+   "days": [
+    {
+     "d": "pn",
+     "icon": "book"
+    },
+    {
+     "d": "wt",
+     "icon": "book"
+    },
+    {
+     "d": "śr",
+     "icon": "book"
+    },
+    {
+     "d": "cz",
+     "icon": "book"
+    },
+    {
+     "d": "pt",
+     "icon": "battery",
+     "dim": true
+    },
+    {
+     "d": "sb",
+     "icon": "bed",
+     "mark": "hl"
+    },
+    {
+     "d": "nd",
+     "icon": "play",
+     "mark": "ring"
+    }
+   ],
+   "note": "najpierw regeneracja, potem trening"
+  }
+ },
+ "points": [
+  {
+   "title": "Zmęczenie po takim tygodniu jest normalne",
+   "body": "Głowa i ciało korzystają z tej samej energii. Po tygodniu zaliczeń słabszy trening raczej nikogo nie powinien dziwić."
+  },
+  {
+   "title": "Formy nie gubi się w tydzień",
+   "body": "Żeby zgubić dyspozycję, trzeba się grubo postarać. Jeden słabszy trening to jeden trening, a nie trend.",
+   "art": {
+    "type": "stack",
+    "cols": [
+     3,
+     4,
+     5,
+     5,
+     3,
+     6
+    ],
+    "labels": [
+     " ",
+     " ",
+     " ",
+     " ",
+     "zaliczenia",
+     "potem"
+    ],
+    "caption": "jeden słabszy tydzień nie zabiera formy"
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Zaplanuj regenerację jak trening",
+   "body": "Sen, spokojniejszy wieczór i lżejsza jednostka ustalona z trenerem. Odpoczynek po ciężkim tygodniu jest częścią przygotowań."
+  }
+ ],
+ "end": {
+  "text": "Odpoczynek *też jest treningiem*.",
+  "cta": "Zapisz na tydzień zaliczeń"
+ }
+}

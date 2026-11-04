@@ -1,0 +1,73 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Kontuzja przyszła na rozgrzewce, *zanim wyszedłem do walki*",
+  "sub": "Kiedy jesteś naprawdę rozgrzany",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 20,
+     "y": 60,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 500,
+     "y": 70,
+     "s": 220,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 560,
+     "y": 340,
+     "s": 170,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Sprawdź, kiedy jesteś rozgrzany",
+   "body": "Rozgrzewka może być za krótka, za słaba albo za wczesna. Ciało ma być naprawdę gotowe w chwili wejścia."
+  },
+  {
+   "title": "Rozgrzane ciało to mniejsze ryzyko",
+   "body": "Jak ciało jest dobrze rozgrzane, prawdopodobieństwo urazu wyraźnie spada. Dlatego rozgrzewkę traktuj jak część startu.",
+   "artTop": 890,
+   "artH": 360,
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "snow",
+     "label": "zimne ciało",
+     "sub": "większe ryzyko"
+    },
+    "right": {
+     "icon": "sun",
+     "label": "rozgrzane ciało",
+     "sub": "mniejsze ryzyko"
+    }
+   }
+  },
+  {
+   "title": "Zaplanuj to z trenerem",
+   "body": "Ustal z trenerem i fizjoterapeutą, jak długo i kiedy się rozgrzewasz, i co robisz, gdy start się opóźnia."
+  }
+ ],
+ "end": {
+  "text": "Rozgrzewka to *pierwsza część startu*.",
+  "cta": "Zapisz przed następnym startem"
+ }
+}

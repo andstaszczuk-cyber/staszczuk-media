@@ -1,0 +1,93 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Odmówiłam wyjazdu na urodziny i *trochę głupio mi z tym*",
+  "sub": "Odpoczynek też jest decyzją zawodnika",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 40,
+     "y": 60,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 470,
+     "y": 170,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 760,
+     "y": 60,
+     "s": 100,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Każdy wyjazd kosztuje energię",
+   "body": "Droga, logistyka, ludzie i rozmowy. Nawet przyjemny wyjazd na kilka godzin to dla organizmu spory wydatek.",
+   "art": {
+    "type": "scene",
+    "items": [
+     {
+      "k": "backpack",
+      "x": 120,
+      "y": 60,
+      "w": 280,
+      "h": 340,
+      "labels": [
+       "droga",
+       "ludzie",
+       "hałas",
+       "późny powrót"
+      ]
+     },
+     {
+      "k": "arrow",
+      "x1": 450,
+      "y1": 250,
+      "x2": 580,
+      "y2": 250
+     },
+     {
+      "k": "icon",
+      "name": "battery",
+      "x": 610,
+      "y": 150,
+      "s": 220,
+      "c": "fig2"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Regeneracja dzieje się w bezruchu",
+   "body": "Organizm zaczyna się regenerować, kiedy dosłownie nic nie robi. Czasem trzeba się po prostu położyć na sofie."
+  },
+  {
+   "title": "Bez wyrzutów sumienia",
+   "body": "Powiedz bliskim wprost, że to okres przygotowań. Na spotkania przyjdzie czas po zawodach, a teraz wybierasz regenerację."
+  }
+ ],
+ "end": {
+  "text": "Najlepszym treningiem mentalnym *jest regeneracja*.",
+  "cta": "Zapisz na czas przygotowań"
+ }
+}

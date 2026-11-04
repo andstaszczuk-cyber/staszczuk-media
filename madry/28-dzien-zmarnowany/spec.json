@@ -1,0 +1,72 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Nie zrobiłam treningu, czyli *dzień zmarnowany*",
+  "sub": "Dlaczego to jest wartościowy dzień",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 20,
+     "y": 60,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 480,
+     "y": 80,
+     "s": 270,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 560,
+     "y": 400,
+     "s": 150,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "To jest wartościowy dzień",
+   "body": "Ciało dostaje czas na regenerację. Dzień bez treningu w okresie osłabienia jest po prostu częścią planu."
+  },
+  {
+   "title": "Zapisz, co jednak zrobiłaś",
+   "body": "Odpoczynek, dłuższy sen, rozmowa z trenerem albo badania. Głowa widzi wtedy fakty zamiast samego braku treningu.",
+   "art": {
+    "type": "checklist",
+    "title": "CO ZROBIŁAM",
+    "chip": "DZIŚ",
+    "chipX": 420,
+    "backChip": "TRENING",
+    "items": [
+     "odpoczynek",
+     "badania",
+     "dłuższy sen"
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Dobra informacja gasi niepokój",
+   "body": "Jeśli badania wyszły dobrze, to też ważna wiadomość. Kiedy i jak wracasz do biegania, ustal z trenerem i lekarzem."
+  }
+ ],
+ "end": {
+  "text": "Dzień odpoczynku *też jest dniem treningowym*.",
+  "cta": "Zapisz na dzień przerwy"
+ }
+}

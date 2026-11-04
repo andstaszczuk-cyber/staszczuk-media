@@ -1,0 +1,81 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Przed startem wpadają mi myśli i *nie wiem, co z nimi zrobić*",
+  "sub": "Wracasz do zadania pomimo nich",
+  "art": {
+   "type": "wander",
+   "zone": "rozgrzewka",
+   "out1": "a jak przegram",
+   "out2": "trybuny",
+   "back": "wracam"
+  }
+ },
+ "points": [
+  {
+   "title": "Myśli przyjdą i to jest w porządku",
+   "body": "Przed ważnym startem głowa podsuwa obawy i scenariusze. Nie musisz ich wyganiać ani się z nimi kłócić."
+  },
+  {
+   "title": "Wybierz miejsce powrotu",
+   "body": "Rozgrzewasz nadgarstki, przychodzi myśl, zauważasz ją i wracasz do nadgarstków albo do nóg. Tak za każdym razem.",
+   "art": {
+    "type": "scene",
+    "items": [
+     {
+      "k": "floor",
+      "y": 560
+     },
+     {
+      "k": "person",
+      "pose": "stand",
+      "x": 120,
+      "y": 60,
+      "s": 1
+     },
+     {
+      "k": "icon",
+      "name": "hand",
+      "x": 620,
+      "y": 120,
+      "s": 150,
+      "c": "A"
+     },
+     {
+      "k": "icon",
+      "name": "foot",
+      "x": 620,
+      "y": 360,
+      "s": 150,
+      "c": "A"
+     },
+     {
+      "k": "arrow",
+      "x1": 600,
+      "y1": 200,
+      "x2": 470,
+      "y2": 290
+     },
+     {
+      "k": "arrow",
+      "x1": 600,
+      "y1": 440,
+      "x2": 470,
+      "y2": 470
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Plan, a nie emocje",
+   "body": "Masz rozpisane z trenerem, co robisz po kolei przed wyjściem. Kiedy emocje rosną, przechodzisz do kolejnego punktu."
+  }
+ ],
+ "end": {
+  "text": "Myśl znowu przyjdzie. *W porządku, wracam do zadania.*",
+  "cta": "Zapisz przed startem"
+ }
+}

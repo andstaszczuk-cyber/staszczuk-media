@@ -1,0 +1,98 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Pierwsze kilometry *zawsze są najgorsze*",
+  "sub": "Skąd to się bierze i jak przez to spokojnie przejść",
+  "art": {
+   "type": "chart",
+   "series": [
+    {
+     "pts": [
+      [
+       0,
+       0.88
+      ],
+      [
+       0.15,
+       0.8
+      ],
+      [
+       0.35,
+       0.55
+      ],
+      [
+       0.55,
+       0.35
+      ],
+      [
+       0.8,
+       0.3
+      ],
+      [
+       1,
+       0.32
+      ]
+     ],
+     "hl": true
+    }
+   ],
+   "marks": [
+    {
+     "x": 0.04,
+     "y": 0.88,
+     "label": "ciężko",
+     "dx": 70,
+     "dy": 10
+    },
+    {
+     "x": 0.6,
+     "y": 0.34,
+     "label": "lekko",
+     "hl": true,
+     "dy": -40
+    }
+   ],
+   "x": "czas biegu",
+   "y": "jak ciężko"
+  }
+ },
+ "points": [
+  {
+   "title": "Ciało dopiero się rozkręca",
+   "body": "Mięśnie się rozgrzewają, krew zaczyna krążyć, rośnie temperatura ciała. Na początku organizm po prostu nie jest jeszcze gotowy.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "heart",
+      "label": "krew krąży"
+     },
+     {
+      "icon": "sun",
+      "label": "ciało się grzeje"
+     },
+     {
+      "icon": "bolt",
+      "label": "mięśnie gotowe",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Potem przychodzi ulga",
+   "body": "Po mniej więcej pół godzinie organizm wydziela endorfiny. To naturalne hormony, które poprawiają nastrój i łagodzą ból."
+  },
+  {
+   "title": "Nie oceniaj biegu po starcie",
+   "body": "Myśl o skończeniu wcześniej na pierwszych kilometrach jest normalna. Zauważ ją, zwolnij trochę i daj ciału czas."
+  }
+ ],
+ "end": {
+  "text": "Najgorsze kilometry są na początku. *Potem robi się spoko.*",
+  "cta": "Zapisz przed długim biegiem"
+ }
+}

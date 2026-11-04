@@ -1,0 +1,85 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Uwielbiam oglądać coś przed snem, ale *ekran mi przeszkadza*",
+  "sub": "Czym go zastąpić, żeby łatwiej zasnąć",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 40,
+     "y": 130,
+     "s": 260,
+     "c": "fig2"
+    },
+    {
+     "k": "cross",
+     "x": 170,
+     "y": 190,
+     "r": 46
+    },
+    {
+     "k": "arrow",
+     "x1": 330,
+     "y1": 280,
+     "x2": 470,
+     "y2": 280
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 510,
+     "y": 110,
+     "s": 340,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Książka zajmuje głowę inaczej",
+   "body": "Mózg jest zaangażowany w historię i nie zajmuje się wtedy rozmyślaniem ani przewijaniem kolejnych bodźców."
+  },
+  {
+   "title": "Odłóż ekran wcześniej",
+   "body": "Ustal porę, po której telefon i serial zostają poza łóżkiem. Ostatnia chwila dnia należy do książki albo rozmowy.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "WCZEŚNIEJ",
+      "icon": "phone",
+      "items": [
+       "serial",
+       "telefon"
+      ],
+      "dim": true
+     },
+     {
+      "title": "PRZED SNEM",
+      "icon": "book",
+      "items": [
+       "książka",
+       "rozmowa",
+       "oddech"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Jeden budzik zamiast kilku",
+   "body": "Kilka budzików z rzędu wybija z głębokiego snu raz po raz. Jeden, na realną godzinę wstania, sprawdza się raczej lepiej."
+  }
+ ],
+ "end": {
+  "text": "Mniej ekranu wieczorem, *spokojniejsza głowa w łóżku*.",
+  "cta": "Zapisz przed snem"
+ }
+}

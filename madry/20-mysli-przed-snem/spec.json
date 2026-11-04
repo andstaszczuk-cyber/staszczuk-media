@@ -1,0 +1,76 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Kładę się spać i *włączają mi się myśli*",
+  "sub": "Jak przestać się z nimi szarpać",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "bed",
+     "x": 190,
+     "y": 320,
+     "w": 520,
+     "blanket": "fig2"
+    },
+    {
+     "k": "cloud",
+     "x": 240,
+     "y": 150,
+     "s": 0.9,
+     "c": "fig2"
+    },
+    {
+     "k": "cloud",
+     "x": 470,
+     "y": 80,
+     "s": 1.2,
+     "c": "A"
+    },
+    {
+     "k": "cloud",
+     "x": 700,
+     "y": 170,
+     "s": 0.8,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Myśli przychodzą same",
+   "body": "Po długim dniu i słabszym meczu głowa w łóżku wraca do wszystkiego. W ciągu dnia nie było na to czasu, więc robi to w ciszy."
+  },
+  {
+   "title": "Obserwuj je jak chmurki",
+   "body": "Pozwalasz im wpadać i nie kłócisz się z nimi. Zauważasz, że przyszła myśl, i spokojnie wracasz do oddechu.",
+   "art": {
+    "type": "focus",
+    "center": "oddech",
+    "icon": "wind",
+    "around": [
+     "mecz",
+     "szkoła",
+     "błąd",
+     "jutro"
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Wpadły katastrofy, trudno",
+   "body": "Nie oceniasz się za to, że myśli wracają. Każdy powrót do oddechu to powtórzenie, które z czasem działa coraz lepiej."
+  }
+ ],
+ "end": {
+  "text": "Pozwalasz myślom przyjść *i wracasz do oddechu*.",
+  "cta": "Zapisz na wieczór"
+ }
+}

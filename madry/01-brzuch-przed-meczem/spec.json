@@ -1,0 +1,60 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Ścisk w brzuchu *przed meczem*",
+  "sub": "Co się wtedy dzieje w ciele i co możesz z tym zrobić",
+  "art": {
+   "type": "bodyMap",
+   "points": [
+    {
+     "part": "chest",
+     "label": "szybsze serce",
+     "side": 0
+    },
+    {
+     "part": "stomach",
+     "label": "ścisk w brzuchu",
+     "side": 1
+    },
+    {
+     "part": "head",
+     "label": "czarne myśli",
+     "side": 1,
+     "ly": 40
+    },
+    {
+     "part": "lhand",
+     "label": "drżące ręce",
+     "side": 0,
+     "ly": 330
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Nazwij, co czujesz",
+   "body": "Szybsze serce, płytki oddech, ścisk w brzuchu. Kiedy opiszesz to konkretnie, głowa przestaje traktować to jak wielki alarm."
+  },
+  {
+   "title": "Tak jest czy tak myślisz?",
+   "body": "Myśl, że sobie nie poradzisz, jest jedynie myślą. Zauważ ją i wróć do tego, co robisz w pierwszych minutach meczu.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "nie dam rady",
+    "to": "ciało szykuje się do gry"
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Nie zostawaj z tym sam",
+   "body": "Najtrudniej bywa w samotności przed wyjściem. Rozgrzej się z drużyną, zamień kilka słów z kolegą, zajmij czymś ręce."
+  }
+ ],
+ "end": {
+  "text": "Stres przed meczem to *ciało, które się szykuje*.",
+  "cta": "Zapisz przed meczem"
+ }
+}

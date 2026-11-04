@@ -1,0 +1,60 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Spinam się *automatycznie* i nie umiem tego zdjąć",
+  "sub": "Prosty sposób na rozluźnienie, który zrobisz na miejscu",
+  "art": {
+   "type": "twoCards",
+   "left": {
+    "icon": "bolt",
+    "label": "napięcie ze stresu"
+   },
+   "right": {
+    "icon": "pause",
+    "label": "świadome rozluźnienie"
+   }
+  }
+ },
+ "points": [
+  {
+   "title": "Spięcie to reakcja na stres",
+   "body": "Mięśnie napinają się same, bez twojej decyzji. Tak reaguje ciało, ale da się je świadomie rozluźnić."
+  },
+  {
+   "title": "Napnij i puść",
+   "body": "Napinasz wybraną partię mięśni na mniej więcej pięć sekund, a potem rozluźniasz powoli. Dłonie, barki, uda, łydki.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "dumbbell",
+      "top": "napnij",
+      "bottom": "5 sekund"
+     },
+     {
+      "icon": "pause",
+      "top": "puść",
+      "bottom": "powoli",
+      "hl": true
+     },
+     {
+      "icon": "check",
+      "top": "poczuj",
+      "bottom": "różnicę"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Ćwicz na treningu, użyj na starcie",
+   "body": "Kilka minut dziennie przez parę tygodni. Wtedy przed wyjściem wystarczy kilkanaście sekund, żeby wyluzować nogi czy ręce."
+  }
+ ],
+ "end": {
+  "text": "Napięcie przychodzi samo. *Rozluźnienie możesz wywołać ty.*",
+  "cta": "Zapisz przed zawodami"
+ }
+}

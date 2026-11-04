@@ -1,0 +1,87 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Mam wrażenie, że *tylko ja* mam tę kontuzję",
+  "sub": "Dlaczego samotność z urazem tak ciąży",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 0,
+     "y": 60,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 470,
+     "y": 90,
+     "s": 170,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 680,
+     "y": 90,
+     "s": 170,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 470,
+     "y": 330,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 680,
+     "y": 330,
+     "s": 170,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Sprawdź, ilu sportowców to miało",
+   "body": "Wpisz w wyszukiwarkę nazwę urazu i swój sport. Zobaczysz całą masę osób, które przez to przeszły i wróciły do startów."
+  },
+  {
+   "title": "Wspólne trudności łagodzą",
+   "body": "Kiedy wiesz, że innym jest równie ciężko, mózg wydziela oksytocynę, hormon więzi. Po prostu robi się trochę lżej.",
+   "art": {
+    "type": "hub",
+    "center": "nie jesteś sam",
+    "icon": "people",
+    "items": [
+     "drużyna",
+     "trener",
+     "rodzina",
+     "inni po urazie"
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Bądź blisko grupy",
+   "body": "Przychodź na treningi, choćby posiedzieć. W grupie łatwiej znieść trudny wysiłek, krytykę i czekanie na powrót."
+  }
+ ],
+ "end": {
+  "text": "Z kontuzją *nie musisz być sam*.",
+  "cta": "Zapisz i podeślij komuś po urazie"
+ }
+}

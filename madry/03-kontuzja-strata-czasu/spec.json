@@ -1,0 +1,78 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Kontuzja i myśl, że *wszyscy ci odjeżdżają*",
+  "sub": "Dlaczego przerwa nie musi być straconym czasem",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 40,
+     "y": 60,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 400,
+     "y": 140,
+     "s": 130,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 580,
+     "y": 250,
+     "s": 290,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "To jest złudzenie",
+   "body": "Wydaje się, że stoisz w miejscu, a inni robią progres. Tymczasem ciało się goi, a głowa może w tym czasie dalej pracować."
+  },
+  {
+   "title": "Jedź na salę i patrz",
+   "body": "Usiądź z boku na treningu, pooglądaj kolegów, wyłapuj technikę. Uczymy się przez naśladowanie, więc to jest normalna nauka.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "eye",
+      "label": "patrzysz"
+     },
+     {
+      "icon": "brain",
+      "label": "zapamiętujesz"
+     },
+     {
+      "icon": "play",
+      "label": "wracasz i robisz",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Trzymaj się planu leczenia",
+   "body": "O tym, co i kiedy możesz robić fizycznie, decyduje lekarz i fizjoterapeuta. Ty możesz dołożyć do tego pracę głowy."
+  }
+ ],
+ "end": {
+  "text": "Przerwa w treningu *nie jest przerwą w rozwoju*.",
+  "cta": "Zapisz na czas kontuzji"
+ }
+}

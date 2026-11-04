@@ -1,0 +1,84 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Pierwszy raz odpuściłam trening, *zamiast ciągnąć na siłę*",
+  "sub": "Dlaczego to była dobra decyzja",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 30,
+     "y": 60,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 470,
+     "y": 110,
+     "s": 200,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 690,
+     "y": 300,
+     "s": 170,
+     "c": "fig"
+    },
+    {
+     "k": "icon",
+     "name": "pause",
+     "x": 500,
+     "y": 360,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Ciało wysyłało sygnały",
+   "body": "Ból brzucha, ból głowy, kłopot z widzeniem i obolałe mięśnie. To wyraźna informacja, że organizm potrzebuje przerwy."
+  },
+  {
+   "title": "Wyjście ze starego schematu",
+   "body": "Wcześniej było tak, że źle się czujesz, a i tak idziesz. Tym razem wybór był inny i to jest naprawdę cenne.",
+   "art": {
+    "type": "table",
+    "left": "KIEDYŚ",
+    "right": "TERAZ",
+    "good": true,
+    "rows": [
+     [
+      "źle się czuję",
+      "zatrzymuję się"
+     ],
+     [
+      "i tak idę",
+      "mówię trenerowi"
+     ]
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Wybierasz wartość",
+   "body": "Zdrowie i samopoczucie zamiast udowadniania czegokolwiek. Jeśli objawy wracają, porozmawiaj o nich z trenerem i lekarzem."
+  }
+ ],
+ "end": {
+  "text": "Odpuszczenie w porę *to też decyzja zawodnika*.",
+  "cta": "Zapisz i wróć, kiedy ciało da znać"
+ }
+}

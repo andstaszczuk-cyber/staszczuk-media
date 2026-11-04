@@ -1,0 +1,61 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Trener daje do zrozumienia, że chodzi *o moją sylwetkę*",
+  "sub": "Jak wyjaśnić to, co boli, zamiast zgadywać",
+  "art": {
+   "type": "guessVsAsk",
+   "guesses": [
+    "coś ze mną nie tak?",
+    "skreśla mnie?",
+    "o co mu chodzi?"
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Niedopowiedzenie boli najbardziej",
+   "body": "Kiedy ktoś mówi półsłówkami, głowa dopisuje najgorszą wersję. Stąd nieprzespana noc i pytanie, po co to wszystko."
+  },
+  {
+   "title": "Idź to wyjaśnić",
+   "body": "Poproś trenera o rozmowę i zapytaj, co dokładnie ma na myśli. Nawet trudna odpowiedź daje ci jasność, na czym stoisz.",
+   "art": {
+    "type": "scene",
+    "items": [
+     {
+      "k": "floor",
+      "y": 560
+     },
+     {
+      "k": "person",
+      "pose": "coach",
+      "x": 60,
+      "y": 60,
+      "s": 1
+     },
+     {
+      "k": "person",
+      "pose": "stand",
+      "x": 440,
+      "y": 60,
+      "s": 1,
+      "flip": true,
+      "c": "A"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Zdrowie przede wszystkim",
+   "body": "Temat ciała i jedzenia omawiaj z trenerem i specjalistą, czyli lekarzem albo dietetykiem. Bez zmian na własną rękę."
+  }
+ ],
+ "end": {
+  "text": "Lepiej wiedzieć, na czym stoisz, *niż się domyślać*.",
+  "cta": "Zapisz przed trudną rozmową"
+ }
+}

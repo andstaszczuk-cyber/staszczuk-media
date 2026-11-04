@@ -1,0 +1,53 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Chciałem ćwiczyć oddech, ale *zawsze o tym zapominam*",
+  "sub": "Trening mentalny to normalna jednostka treningowa",
+  "art": {
+   "type": "breath",
+   "inN": 4,
+   "outN": 6,
+   "inT": "krócej",
+   "outT": "dłużej"
+  }
+ },
+ "points": [
+  {
+   "title": "Wiesz, że działa, a nie robisz",
+   "body": "To bardzo częste. Oddech nie boli, nie męczy i nikt go nie sprawdza, więc łatwo odłożyć go na później."
+  },
+  {
+   "title": "Przypnij oddech do czegoś stałego",
+   "body": "Kilka minut zawsze po treningu, w szatni albo w autobusie do domu. Stała pora i miejsce robią z tego nawyk.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "dumbbell",
+      "label": "po treningu"
+     },
+     {
+      "icon": "clock",
+      "label": "stała pora"
+     },
+     {
+      "icon": "check",
+      "label": "odhaczam",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Wpisz to do planu",
+   "body": "Trening mentalny to jednostka, która wchodzi każdego dnia. Zapisz ją w dzienniczku i odhaczaj jak każdy inny trening."
+  }
+ ],
+ "end": {
+  "text": "Oddech pomaga wtedy, *kiedy ćwiczysz go codziennie*.",
+  "cta": "Zapisz i zacznij dziś"
+ }
+}

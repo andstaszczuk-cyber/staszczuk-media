@@ -1,0 +1,70 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Gram słabiej, a przed meczem *jestem jakby neutralny*",
+  "sub": "Czasem pobudzenia jest po prostu za mało",
+  "art": {
+   "type": "scale10",
+   "caption": "POBUDZENIE",
+   "y": 240,
+   "points": [
+    {
+     "n": 2,
+     "label": "za nisko"
+    },
+    {
+     "n": 6,
+     "label": "w sam raz",
+     "hl": true
+    },
+    {
+     "n": 10,
+     "label": "za wysoko"
+    }
+   ],
+   "note": "każdy ma swój poziom"
+  }
+ },
+ "points": [
+  {
+   "title": "Porównaj dobre i słabe mecze",
+   "body": "Sprawdź tętno, oddech, nogi i gotowość mięśni. Często w słabszych meczach pobudzenia po prostu brakuje."
+  },
+  {
+   "title": "Za nisko, to podkręć",
+   "body": "Intensywniejsza rozgrzewka, energetyczna muzyka i krótkie okrzyki. Ciało dostaje sygnał, że zaraz zaczyna się gra.",
+   "art": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "bolt",
+      "label": "rozgrzewka"
+     },
+     {
+      "icon": "note",
+      "label": "muzyka"
+     },
+     {
+      "icon": "mic",
+      "label": "okrzyki"
+     },
+     {
+      "icon": "heart",
+      "label": "tętno w górę"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Za wysoko, to zwolnij",
+   "body": "Gdy przesadzisz z pobudzeniem, zmniejsz intensywność rozgrzewki i sięgnij po oddech albo rozluźnianie mięśni."
+  }
+ ],
+ "end": {
+  "text": "Każdy zawodnik ma *swój poziom pobudzenia*. Warto go znaleźć.",
+  "cta": "Zapisz przed meczem"
+ }
+}

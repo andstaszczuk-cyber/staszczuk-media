@@ -1,0 +1,55 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Jestem tak zmęczona obozem, że *ledwo się mobilizuję*",
+  "sub": "Mikroodpoczynki, które robią różnicę",
+  "art": {
+   "type": "bricks",
+   "topIcon": "battery",
+   "label": "runda",
+   "caption": "zmęczenie się nawarstwia"
+  }
+ },
+ "points": [
+  {
+   "title": "To kosztuje i ma prawo",
+   "body": "Ciężki obóz z dużą liczbą rund sparingowych nie przechodzi bez śladu. Nawarstwione zmęczenie to normalna cena takiej pracy."
+  },
+  {
+   "title": "Mikroodpoczynki w ciągu dnia",
+   "body": "Kilkanaście, dwadzieścia minut drzemki, poleżenia albo posiedzenia z kawką. Krótko, ale kilka razy dziennie.",
+   "art": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "bed",
+      "label": "drzemka"
+     },
+     {
+      "icon": "bench",
+      "label": "posiedzenie"
+     },
+     {
+      "icon": "pause",
+      "label": "cisza"
+     },
+     {
+      "icon": "moon",
+      "label": "długi sen"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Sen i jedzenie to podstawa",
+   "body": "Pilnuj snu i jedzenia dobrej jakości. Szczegóły ustal z trenerem i dietetykiem, bo oni znają twój plan i organizm."
+  }
+ ],
+ "end": {
+  "text": "Świeżość wraca, *kiedy dasz jej miejsce*.",
+  "cta": "Zapisz przed obozem"
+ }
+}

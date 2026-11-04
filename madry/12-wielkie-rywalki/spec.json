@@ -1,0 +1,91 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Zobaczyłam rywalki i *przeraziłam się, jakie są wielkie*",
+  "sub": "Jak głowa robi z jednego spojrzenia katastrofę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 570
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 40,
+     "y": 270,
+     "s": 0.6,
+     "c": "A"
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 300,
+     "y": 20,
+     "s": 1.1,
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 520,
+     "y": 20,
+     "s": 1.1,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Katastrofizacja się odpala",
+   "body": "Jedno spojrzenie i głowa już pisze cały scenariusz przegranej. Ciało reaguje na ten scenariusz tak, jakby był prawdą."
+  },
+  {
+   "title": "Za bardzo doceniasz rywalki",
+   "body": "Widzisz ich sylwetkę, a nie widzisz ich nerwów, słabszych dni i wątpliwości. Porównujesz swoje wnętrze z ich wyglądem.",
+   "art": {
+    "type": "scene",
+    "items": [
+     {
+      "k": "iceberg",
+      "y": 220
+     },
+     {
+      "k": "text",
+      "x": 640,
+      "y": 110,
+      "t": "to widzisz",
+      "size": 34,
+      "w": 800
+     },
+     {
+      "k": "text",
+      "x": 20,
+      "y": 300,
+      "t": [
+       "nerwy,",
+       "wątpliwości,",
+       "słabsze dni"
+      ],
+      "size": 32,
+      "w": 800,
+      "c": "A"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Wróć do swojego zadania",
+   "body": "Masz wpływ na swoją technikę, plan i przygotowanie. Na wzrost rywalek nie masz żadnego, więc szkoda na to uwagi."
+  }
+ ],
+ "end": {
+  "text": "Rywalki też mają nerwy, *tylko ich nie widać*.",
+  "cta": "Zapisz przed zawodami"
+ }
+}
