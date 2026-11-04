@@ -22,6 +22,17 @@ const PAL = {
   black: { bg: 'linear-gradient(180deg,#1C1B1F 0%,#0B0B0C 100%)', solid: '#141416', ink: '#FFFFFF', acc: '#FCE86A', soft: 'rgba(255,255,255,.78)', dark: '#000' },
   cream: { bg: 'linear-gradient(180deg,#F6F1E7 0%,#EDE4D3 100%)', solid: '#F3ECDF', ink: '#2A1414', acc: '#AE4549', soft: 'rgba(42,20,20,.78)', dark: '#2A1414' },
   mono:  { bg: 'linear-gradient(180deg,#2B2B2E 0%,#121214 100%)', solid: '#1E1E21', ink: '#FFFFFF', acc: '#E0565B', soft: 'rgba(255,255,255,.8)', dark: '#000' },
+  // Sędzia z głową
+  s_red:    { bg: 'linear-gradient(180deg,#AE4549 0%,#7A2423 100%)', solid: '#8E3236', ink: '#FFFFFF', acc: '#FCE86A', soft: 'rgba(255,255,255,.82)', dark: '#3A0D0E' },
+  s_yellow: { bg: '#FCE86A', solid: '#FFF6C4', ink: '#2B1515', acc: '#9E3236', soft: 'rgba(43,21,21,.8)', dark: '#2B1515' },
+  s_dark:   { bg: 'radial-gradient(120% 90% at 85% 0%,#4A1E21 0%,#1A1719 55%,#141215 100%)', solid: '#1A1719', ink: '#FFFFFF', acc: '#FCE86A', soft: 'rgba(255,255,255,.8)', dark: '#000' },
+  // Sportowa Rodzina
+  r_cream:  { bg: '#F4F1E6', solid: '#FFFFFF', ink: '#2A2622', acc: '#AE4549', soft: 'rgba(42,38,34,.8)', dark: '#2A2622' },
+  r_khaki:  { bg: '#C4C18E', solid: '#F4F1E6', ink: '#2A2622', acc: '#7A2423', soft: 'rgba(42,38,34,.82)', dark: '#2A2622' },
+  r_white:  { bg: '#FFFFFF', solid: '#F4F1E6', ink: '#7A2423', acc: '#AE4549', soft: 'rgba(122,36,35,.82)', dark: '#2A2622' },
+  // @psychologsportowy
+  p_grafit: { bg: 'radial-gradient(120% 85% at 50% 32%,#4a4a4f 0%,#2c2c30 42%,#1a1a1d 100%)', solid: '#2c2c30', ink: '#FFFFFF', acc: '#FCE86A', soft: 'rgba(255,255,255,.8)', dark: '#151515' },
+  p_zolty:  { bg: 'radial-gradient(120% 85% at 50% 30%,#fff1a0 0%,#FCE86A 45%,#f3d94c 100%)', solid: '#FFF6C4', ink: '#151515', acc: '#151515', soft: 'rgba(21,21,21,.8)', dark: '#FCE86A' },
 };
 const P = PAL[spec.palette] || PAL.red;
 const FONTS = {
@@ -83,7 +94,8 @@ const ctaHtml = () => {
   if (st === 'tag') return `<div class="cta" style="${pos};left:0;padding:18px 40px 18px 70px;background:${P.dark};color:#fff;border-left:14px solid ${P.acc}">${txt} &rarr;</div>`;
   return `<div style="position:absolute;${pos};left:0;right:0;display:flex;justify-content:center;z-index:20"><div class="cta" style="position:static;padding:18px 40px;border-radius:60px;background:${P.acc};color:${P.dark};box-shadow:0 10px 30px rgba(0,0,0,.35)">${txt} &rarr;</div></div>`;
 };
-const handle = (c = P.ink) => `<div class="handle" style="color:${c}">@psychologsportu</div>`;
+const HANDLE = esc(spec.handle || '@psychologsportu');
+const handle = (c = P.ink) => `<div class="handle" style="color:${c}">${HANDLE}</div>`;
 const kick = (c = P.acc, extra = '') => spec.kicker ? `<div class="kick" style="color:${c};${extra}">${esc(spec.kicker)}</div>` : '';
 const H1 = (style = '', cls = 'hl') => `<div class="h" style="${style}">${fmt(spec.headline, cls)}</div>`;
 const ctaInline = () => (spec.cta && (spec.ctaPos || 'inline') === 'inline') ? `<div style="margin-top:38px"><span class="cta" style="position:static;display:inline-block;padding:16px 34px;border-radius:60px;background:${P.acc};color:${P.dark};font-size:29px">${esc(spec.cta)} &rarr;</span></div>` : '';
@@ -136,11 +148,11 @@ const L = {
   L11: () => `<div class="ph" style="position:absolute;left:0;top:0;bottom:0;width:470px"></div>
     <div style="position:absolute;left:470px;top:0;bottom:0;width:10px;background:${P.acc}"></div>
     <div class="narrow" style="position:absolute;left:530px;right:56px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center">${kick()}<div style="height:22px"></div>${H1('font-size:' + Math.round(hs * (FT.fam === 'Play' ? 1 : .8)) + 'px')}<div style="height:40px"></div>${B1('font-size:' + Math.round(bs * 1.0) + 'px')}</div>
-    <div class="handle" style="left:480px;color:${P.ink}">@psychologsportu</div>`,
+    <div class="handle" style="left:480px;color:${P.ink}">${HANDLE}</div>`,
   // 12. Kartka z cytatem: zdjęcie w tle rozmyte, biała karta, kursywa Playfair
   L12: () => `<div class="ph" style="position:absolute;inset:-40px;filter:blur(14px) brightness(.55)"></div>
     <div class="ph" style="position:absolute;left:300px;right:300px;top:150px;height:480px;border-radius:24px;box-shadow:0 20px 40px rgba(0,0,0,.5)"></div>
-    <div style="position:absolute;left:80px;right:80px;top:720px;background:${spec.palette === 'cream' ? '#fff' : P.solid};padding:70px 60px;border-radius:24px;box-shadow:0 30px 60px rgba(0,0,0,.45)">
+    <div style="position:absolute;left:80px;right:80px;top:720px;background:${['cream','r_cream'].includes(spec.palette) ? '#fff' : P.solid};padding:70px 60px;border-radius:24px;box-shadow:0 30px 60px rgba(0,0,0,.45)">
       ${kick()}<div style="height:20px"></div>${H1()}<div style="height:30px"></div><div style="font-family:Play;font-style:italic;font-size:${bs + 6}px;line-height:1.35;color:${P.ink}">${fmt(spec.body)}</div></div>${handle('#fff')}`,
 };
 const C = { acc: P.acc, ink: P.ink, soft: P.ink, dark: P.dark, bg2: P.solid };
@@ -166,7 +178,7 @@ Object.assign(L, {
   // G5. Wzór z kropek, mała ilustracja i karta z tekstem
   G5: () => `<div style="position:absolute;inset:0;background-image:radial-gradient(${P.ink}22 3px,transparent 4px);background-size:44px 44px"></div>
     <div style="position:absolute;left:330px;right:330px;top:200px;height:420px">${ART()}</div>
-    <div style="position:absolute;left:80px;right:80px;top:690px;background:${spec.palette === 'cream' ? '#fff' : P.solid};padding:70px 60px;border-radius:28px;border-top:14px solid ${P.acc};box-shadow:0 30px 60px rgba(0,0,0,.35)">
+    <div style="position:absolute;left:80px;right:80px;top:690px;background:${['cream','r_cream'].includes(spec.palette) ? '#fff' : P.solid};padding:70px 60px;border-radius:28px;border-top:14px solid ${P.acc};box-shadow:0 30px 60px rgba(0,0,0,.35)">
       ${kick()}<div style="height:20px"></div>${H1()}<div style="height:30px"></div>${B1()}</div>`,
   // G6. Tekst u góry po lewej, wielka ilustracja wychodząca z prawego dolnego rogu
   G6: () => `<div style="position:absolute;right:-240px;bottom:-200px;width:1150px;height:1150px;opacity:.9">${ART()}</div>
