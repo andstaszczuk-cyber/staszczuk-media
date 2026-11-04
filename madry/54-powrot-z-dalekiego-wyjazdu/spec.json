@@ -1,0 +1,95 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Po powrocie z daleka *kilka dni nie mogłam się pozbierać*",
+  "sub": "Jak wrócić do rytmu po zmianie strefy czasowej",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 60,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 500,
+     "y": 30,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 720,
+     "y": 50,
+     "s": 120,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 600,
+     "y": 300,
+     "s": 160,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Daj sobie chwilę na adaptację",
+   "body": "Po dalekim wyjeździe organizm potrzebuje kilku dni, żeby wrócić do rytmu. Zmęczenie w tym czasie jest raczej normalne."
+  },
+  {
+   "title": "Zaplanuj lżejsze dni",
+   "body": "Zostaw kilka spokojniejszych dni na powrót i nie rzucaj się od razu na wszystkie zaległości.",
+   "art": {
+    "type": "week",
+    "caption": "PO POWROCIE",
+    "days": [
+     {
+      "d": "1",
+      "icon": "pause",
+      "label": "lżej"
+     },
+     {
+      "d": "2",
+      "icon": "pause",
+      "label": "lżej"
+     },
+     {
+      "d": "3",
+      "icon": "sun",
+      "label": "lżej"
+     },
+     {
+      "d": "4",
+      "icon": "dumbbell",
+      "label": "normalnie",
+      "mark": "hl"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Stałe pory i światło dzienne",
+   "body": "Wróć do swoich pór snu i wychodź na światło dzienne. Akceptujesz, że jesteś tu, a nie tam."
+  }
+ ],
+ "end": {
+  "text": "Po dalekim wyjeździe *rytm wraca stopniowo*.",
+  "cta": "Zapisz przed wyjazdem"
+ }
+}

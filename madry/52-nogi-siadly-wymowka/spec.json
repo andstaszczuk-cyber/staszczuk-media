@@ -1,0 +1,86 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Nogi mi siadły i *nie wiem, czy to nie wymówka*",
+  "sub": "Jak oddzielić fakty z ciała od oceny siebie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 60,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "bubble",
+     "x": 470,
+     "y": 50,
+     "w": 380,
+     "h": 160,
+     "lines": [
+      "wymówka?"
+     ],
+     "size": 46,
+     "dash": true,
+     "c": "card",
+     "tail": "left"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 590,
+     "y": 300,
+     "s": 160,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Słyszę, że chciałaś",
+   "body": "Chciałaś przyspieszyć, ale nogi nie pozwoliły. To jest informacja z ciała, którą warto zapisać."
+  },
+  {
+   "title": "Oddziel fakty od oceny",
+   "body": "Fakty to tempo, rozgrzewka, sen i samopoczucie. Ocena to myśl, że to wymówka. Zapisz najpierw fakty.",
+   "art": {
+    "type": "table",
+    "left": "FAKT",
+    "right": "CO SPRAWDZAM",
+    "good": true,
+    "rows": [
+     [
+      "nogi siadły",
+      "tempo na starcie"
+     ],
+     [
+      "słabszy test",
+      "rozgrzewkę"
+     ],
+     [
+      "zmęczenie",
+      "sen przed testem"
+     ]
+    ]
+   },
+   "artTop": 800,
+   "artH": 440
+  },
+  {
+   "title": "Zaplanujcie następny raz",
+   "body": "Weź to doświadczenie jako wnioski i razem z trenerem zaplanujcie, co zabezpieczyć przy kolejnym teście."
+  }
+ ],
+ "end": {
+  "text": "Słabszy test to *materiał na wnioski*.",
+  "cta": "Zapisz po teście"
+ }
+}

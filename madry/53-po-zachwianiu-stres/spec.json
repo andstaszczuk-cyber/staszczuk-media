@@ -1,0 +1,64 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po zachwianiu *mdliło mnie przed treningiem*",
+  "sub": "Jak oswajać strach małymi krokami",
+  "art": {
+   "type": "stairs",
+   "steps": [
+    "niska przeszkoda",
+    "trochę wyżej",
+    "jeszcze wyżej",
+    "jak na zawodach"
+   ],
+   "done": 1,
+   "top": true
+  }
+ },
+ "points": [
+  {
+   "title": "Ciało zapamiętało zachwianie",
+   "body": "Nie było upadku, a jedno zachwianie wystarczyło, żeby organizm zareagował strachem przed powtórką. To całkiem normalne."
+  },
+  {
+   "title": "Podnoś wysokość stopniowo",
+   "body": "Przez kilka dni pokonuj coraz wyższe przeszkody. Każdy dzień daje ciału dowód, że sobie radzisz.",
+   "art": {
+    "type": "scale10",
+    "caption": "STRACH PRZED TRENINGIEM",
+    "y": 200,
+    "points": [
+     {
+      "n": 8,
+      "label": "dzień 1"
+     },
+     {
+      "n": 5,
+      "label": "dzień 3"
+     },
+     {
+      "n": 3,
+      "label": "potem",
+      "hl": true
+     }
+    ],
+    "arrow": [
+     8,
+     3
+    ],
+    "arrowLabel": "krok po kroku"
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Doceń swoją robotę",
+   "body": "Sama wymyśliłaś rozwiązanie i je zrobiłaś. Warto to zauważyć, bo to buduje zaufanie do siebie."
+  }
+ ],
+ "end": {
+  "text": "Strach oswaja się *małymi krokami*.",
+  "cta": "Zapisz na później"
+ }
+}

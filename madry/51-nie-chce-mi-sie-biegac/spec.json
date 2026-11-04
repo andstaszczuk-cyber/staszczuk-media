@@ -1,0 +1,79 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Nie chce mi się *iść biegać*",
+  "sub": "Jak umówić się ze sobą na mały kawałek treningu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "play",
+     "x": 580,
+     "y": 110,
+     "s": 180,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 400,
+     "text": "tylko kawałek",
+     "size": 30
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Umów się na mały kawałek",
+   "body": "Wychodzisz na krótki odcinek, na przykład trzy kilometry, i masz prawo wrócić, jeśli dalej się nie chce."
+  },
+  {
+   "title": "Zobacz, co zrobi ciało",
+   "body": "Często po kilku minutach rozgrzane ciało zmienia zdanie. A jeśli nie, wracasz bez wyrzutów.",
+   "art": {
+    "type": "timeline",
+    "caption": "UMOWA ZE SOBĄ",
+    "points": [
+     {
+      "top": "wychodzę",
+      "icon": "play"
+     },
+     {
+      "top": "kawałek",
+      "icon": "foot"
+     },
+     {
+      "top": "decyduję",
+      "icon": "check",
+      "hl": true,
+      "bottom": "bez wyrzutów"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Długa niechęć to sygnał",
+   "body": "Jeśli niechęć trwa tygodniami, porozmawiaj z trenerem o obciążeniach i odpoczynku."
+  }
+ ],
+ "end": {
+  "text": "Wystarczy *zacząć od małego kawałka*.",
+  "cta": "Zapisz na gorszy dzień"
+ }
+}

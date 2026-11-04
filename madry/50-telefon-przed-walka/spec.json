@@ -1,0 +1,73 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Chcę pooddychać przed walką, *a ręka sięga po telefon*",
+  "sub": "Jak zostawić sobie kilka minut tylko na oddech",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 60,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 540,
+     "y": 60,
+     "s": 170,
+     "c": "fig2"
+    },
+    {
+     "k": "cross",
+     "x": 700,
+     "y": 90,
+     "r": 40
+    },
+    {
+     "k": "icon",
+     "name": "wind",
+     "x": 580,
+     "y": 320,
+     "s": 160,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Włącz tryb samolotowy",
+   "body": "Telefon wyciszony i schowany to o jedną rzecz mniej, która ciągnie uwagę. Zrób to, zanim usiądziesz do oddechu."
+  },
+  {
+   "title": "Dwie minuty na oddech",
+   "body": "Siadasz, uspokajasz się i oddychasz spokojnie z dłuższym wydechem. To może być stały punkt twojej rutyny."
+  },
+  {
+   "title": "Zauważ i wróć",
+   "body": "Kiedy coś wpada ci do głowy, zauważasz to i wracasz na oddech albo na rutynę, tak jak w medytacji.",
+   "art": {
+    "type": "wander",
+    "zone": "oddech",
+    "out1": "telefon",
+    "out2": "myśl",
+    "back": "wracam"
+   },
+   "artTop": 820,
+   "artH": 420
+  }
+ ],
+ "end": {
+  "text": "Przed walką *telefon może poczekać*.",
+  "cta": "Zapisz przed walką"
+ }
+}

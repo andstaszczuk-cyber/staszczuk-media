@@ -382,5 +382,53 @@
   "filar": "głowa i ciało",
   "theme": "grafit",
   "temat_id": 121
+ },
+ {
+  "nr": 49,
+  "folder": "49-wszystko-jest-dla-ludzi",
+  "tytul": "Od czasu do czasu się napiję, wszystko jest dla ludzi",
+  "filar": "ciało",
+  "theme": "cieply",
+  "temat_id": 111
+ },
+ {
+  "nr": 50,
+  "folder": "50-telefon-przed-walka",
+  "tytul": "Chcę pooddychać przed walką, a ręka sięga po telefon",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 117
+ },
+ {
+  "nr": 51,
+  "folder": "51-nie-chce-mi-sie-biegac",
+  "tytul": "Nie chce mi się iść biegać",
+  "filar": "głowa",
+  "theme": "grafit",
+  "temat_id": 130
+ },
+ {
+  "nr": 52,
+  "folder": "52-nogi-siadly-wymowka",
+  "tytul": "Nogi mi siadły i nie wiem, czy to nie wymówka",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": 118
+ },
+ {
+  "nr": 53,
+  "folder": "53-po-zachwianiu-stres",
+  "tytul": "Po zachwianiu mdliło mnie przed treningiem",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 127
+ },
+ {
+  "nr": 54,
+  "folder": "54-powrot-z-dalekiego-wyjazdu",
+  "tytul": "Po powrocie z daleka kilka dni nie mogłam się pozbierać",
+  "filar": "ciało",
+  "theme": "grafit",
+  "temat_id": 125
  }
 ]

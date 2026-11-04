@@ -1,0 +1,58 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Od czasu do czasu się napiję, *wszystko jest dla ludzi*",
+  "sub": "Jak sprawdzić, co impreza robi z twoim treningiem",
+  "art": {
+   "type": "iconRow",
+   "y": 40,
+   "h": 400,
+   "items": [
+    {
+     "icon": "people",
+     "label": "impreza"
+    },
+    {
+     "icon": "moon",
+     "label": "sen"
+    },
+    {
+     "icon": "dumbbell",
+     "label": "trening dzień po",
+     "hl": true
+    }
+   ],
+   "note": "sprawdź, co się dzieje u ciebie"
+  }
+ },
+ "points": [
+  {
+   "title": "Sprawdź uczciwie",
+   "body": "Zauważ, jak śpisz po imprezie, jak się czujesz rano i jak idzie trening dzień albo dwa później."
+  },
+  {
+   "title": "Ustal zasady przed wyjściem",
+   "body": "Decyzje podjęte spokojnie w domu są rozsądniejsze niż te w trakcie imprezy. Zapisz je sobie wcześniej.",
+   "art": {
+    "type": "notes",
+    "title": "MOJE ZASADY",
+    "lines": [
+     "ustalam przed wyjściem",
+     "sprawdzam sen",
+     "patrzę na trening po"
+    ]
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Pytania o zdrowie do specjalisty",
+   "body": "Jeśli chcesz wiedzieć więcej o tym, jak alkohol wpływa na twój organizm, porozmawiaj z lekarzem albo dietetykiem."
+  }
+ ],
+ "end": {
+  "text": "Swoje zasady *ustalasz przed wyjściem*.",
+  "cta": "Zapisz przed weekendem"
+ }
+}
