@@ -1,0 +1,100 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po kontuzji ciągle słyszę: *wracaj, wracaj*",
+  "sub": "Jak powiedzieć trenerowi, czego potrzebujesz w powrocie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 250,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "bubble",
+     "x": 0,
+     "y": 30,
+     "w": 280,
+     "h": 110,
+     "lines": [
+      "wracaj!"
+     ],
+     "size": 40,
+     "c": "soft",
+     "tail": "right"
+    },
+    {
+     "k": "bubble",
+     "x": 620,
+     "y": 60,
+     "w": 260,
+     "h": 110,
+     "lines": [
+      "termin"
+     ],
+     "size": 40,
+     "c": "soft"
+    },
+    {
+     "k": "bubble",
+     "x": 600,
+     "y": 290,
+     "w": 290,
+     "h": 110,
+     "lines": [
+      "już czas?"
+     ],
+     "size": 40,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "To wewnętrzna presja",
+   "body": "Ciągłe terminy po kontuzji to presja, która się zdarza. Często dokładasz ją sobie sama, patrząc na innych."
+  },
+  {
+   "title": "Powiedz trenerowi, czego potrzebujesz",
+   "body": "Co ma robić, jak działać, jakie zachowania ci pomagają. Dobrze wiedzieć też, czego nie chcesz."
+  },
+  {
+   "title": "Cele według ciągłości treningu",
+   "body": "Ustalcie starty według tego, ile przetrenowałaś bez przerwy, a nie według kalendarza. Powrót uzgadniaj z fizjoterapeutą.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "KALENDARZ",
+     "items": [
+      "termin startu",
+      "poziom innych",
+      "presja"
+     ]
+    },
+    "right": {
+     "title": "CIĄGŁOŚĆ",
+     "items": [
+      "przetrenowane",
+      "moje etapy",
+      "zgoda fizjo"
+     ]
+    }
+   },
+   "artTop": 840,
+   "artH": 400
+  }
+ ],
+ "end": {
+  "text": "Powrót ma swój rytm, *dobrze, żeby był twój*.",
+  "cta": "Zapisz przed rozmową z trenerem"
+ }
+}

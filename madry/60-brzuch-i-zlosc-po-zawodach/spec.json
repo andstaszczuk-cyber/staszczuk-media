@@ -1,0 +1,68 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po zawodach bolał mnie brzuch i *złościłam się na wszystkich*",
+  "sub": "Co zrobić w pierwszym momencie złości",
+  "art": {
+   "type": "bodyMap",
+   "points": [
+    {
+     "part": "head",
+     "label": "złość",
+     "side": 1,
+     "ly": 40
+    },
+    {
+     "part": "stomach",
+     "label": "ból brzucha",
+     "side": 0
+    },
+    {
+     "part": "chest",
+     "label": "napięcie",
+     "side": 1
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Źle się czujesz, łatwiej wybuchasz",
+   "body": "Kiedy coś cię boli i jest niekomfortowo, emocje szybciej wybuchają. To bardzo ludzkie, szczególnie po intensywnym wyjeździe."
+  },
+  {
+   "title": "Zimna woda na pierwszy moment",
+   "body": "Idziesz do łazienki i ochlapujesz twarz albo ręce zimną wodą. To proste i trochę trzeźwi głowę.",
+   "art": {
+    "type": "iconRow",
+    "h": 400,
+    "items": [
+     {
+      "icon": "snow",
+      "label": "zimna woda"
+     },
+     {
+      "icon": "wind",
+      "label": "kilka oddechów"
+     },
+     {
+      "icon": "pause",
+      "label": "chwila sama",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Brzuch skonsultuj z lekarzem",
+   "body": "Jeśli dolegliwości brzucha wracają po stresie i wyjazdach, porozmawiaj o nich z lekarzem."
+  }
+ ],
+ "end": {
+  "text": "Na pierwszy moment złości *masz proste sposoby*.",
+  "cta": "Zapisz po zawodach"
+ }
+}

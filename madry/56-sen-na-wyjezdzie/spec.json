@@ -1,0 +1,75 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Czy wyspanie się *w ogóle zależy ode mnie?*",
+  "sub": "Na co masz wpływ przed snem w obcym miejscu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 60,
+     "y": 250,
+     "s": 240,
+     "c": "fig"
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 120,
+     "y": 40,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "cloud",
+     "x": 660,
+     "y": 200,
+     "s": 1.3,
+     "c": "soft",
+     "text": "?",
+     "size": 90,
+     "tc": "fg"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wyspanie to efekt",
+   "body": "Na sam sen nie masz bezpośredniego wpływu. Masz wpływ na to, co robisz przed nim, i to zwiększa szansę na wyspanie."
+  },
+  {
+   "title": "Trzymaj stałą porę",
+   "body": "Kładź się i wstawaj zgodnie ze swoim rytmem, także na wyjeździe. Ciało szybciej rozpozna, że to pora snu.",
+   "art": {
+    "type": "hub",
+    "center": "wyspanie",
+    "icon": "moon",
+    "items": [
+     "stała pora",
+     "wyciszenie",
+     "oddech",
+     "telefon dalej"
+    ],
+    "hl": 0
+   },
+   "artTop": 800,
+   "artH": 440
+  },
+  {
+   "title": "Przypomnienie o oddechu",
+   "body": "Ustaw sobie przypomnienie o ćwiczeniach oddechowych przed snem. Kilka spokojnych minut w łóżku pomaga się wyciszyć."
+  }
+ ],
+ "end": {
+  "text": "Wyspanie to efekt, *a wieczór jest twój*.",
+  "cta": "Zapisz na wyjazd"
+ }
+}

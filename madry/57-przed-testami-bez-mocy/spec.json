@@ -1,0 +1,58 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Przed testami nie mam mocy i *nie wiem, czy to zmęczenie*",
+  "sub": "Kiedy apatia może być reakcją na stres",
+  "art": {
+   "type": "scale10",
+   "caption": "JAK BARDZO JESTEM ZMĘCZONA",
+   "y": 240,
+   "points": [
+    {
+     "n": 8,
+     "label": "w głowie",
+     "hl": true
+    },
+    {
+     "n": 3,
+     "label": "dane z treningu"
+    }
+   ],
+   "note": "najpierw sprawdź fakty"
+  }
+ },
+ "points": [
+  {
+   "title": "Apatia jako reakcja na stres",
+   "body": "Przed ważnym testem organizm może się bronić znużeniem i chęcią wycofania. To raczej reakcja na zagrożenie niż lenistwo."
+  },
+  {
+   "title": "Sprawdź dowody z ciała",
+   "body": "Zobacz z trenerem, czy są fakty, że ciało jest fizycznie zmęczone, na przykład wyniki, sen i regeneracja.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "battery",
+     "label": "zmęczone ciało",
+     "sub": "sprawdzam z trenerem"
+    },
+    "right": {
+     "icon": "brain",
+     "label": "lęk przed testem",
+     "sub": "tu może być robota"
+    }
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Pracuj z głową",
+   "body": "Jeśli ciało jest w porządku, zajmij się czarnymi scenariuszami w głowie zamiast dokładać kolejne treningi."
+  }
+ ],
+ "end": {
+  "text": "Brak mocy przed testem *bywa sygnałem stresu*.",
+  "cta": "Zapisz przed testami"
+ }
+}

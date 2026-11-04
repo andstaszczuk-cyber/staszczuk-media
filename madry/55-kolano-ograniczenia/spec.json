@@ -1,0 +1,112 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Mam uraz przy kolanie i *pogodziłam się z ograniczeniami*",
+  "sub": "Jak akceptacja pomaga w trakcie rehabilitacji",
+  "art": {
+   "type": "chart",
+   "series": [
+    {
+     "pts": [
+      [
+       0,
+       0.4
+      ],
+      [
+       0.12,
+       0.6
+      ],
+      [
+       0.24,
+       0.42
+      ],
+      [
+       0.36,
+       0.68
+      ],
+      [
+       0.48,
+       0.5
+      ],
+      [
+       0.6,
+       0.72
+      ],
+      [
+       0.72,
+       0.55
+      ],
+      [
+       0.84,
+       0.76
+      ],
+      [
+       1,
+       0.64
+      ]
+     ],
+     "hl": true
+    }
+   ],
+   "marks": [
+    {
+     "x": 0.24,
+     "y": 0.42,
+     "label": "gorzej",
+     "dy": 64
+    },
+    {
+     "x": 0.84,
+     "y": 0.76,
+     "label": "lepiej",
+     "hl": true
+    }
+   ],
+   "x": "dni rehabilitacji"
+  }
+ },
+ "points": [
+  {
+   "title": "Raz lepiej, raz gorzej",
+   "body": "W trakcie rehabilitacji dni bywają różne. Taka zmienność jest raczej częścią procesu niż oznaką, że coś idzie źle."
+  },
+  {
+   "title": "Akceptacja ułatwia",
+   "body": "Kiedy przyjmujesz, że są ograniczenia, przestajesz tracić energię na złość. Zostaje jej więcej na trening."
+  },
+  {
+   "title": "Skup się na tym, co dziś się da",
+   "body": "Zakres ruchu i obciążeń ustal z fizjoterapeutą. Ty wybierasz, co w tych granicach zrobisz najlepiej.",
+   "art": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "eye",
+      "label": "technika"
+     },
+     {
+      "icon": "brain",
+      "label": "taktyka"
+     },
+     {
+      "icon": "dumbbell",
+      "label": "to, co wolno"
+     },
+     {
+      "icon": "bolt",
+      "label": "pełne obciążenie",
+      "ok": false,
+      "sub": "jeszcze nie"
+     }
+    ]
+   },
+   "artTop": 840,
+   "artH": 400
+  }
+ ],
+ "end": {
+  "text": "Ograniczenia są, *a trening dalej trwa*.",
+  "cta": "Zapisz na czas rehabilitacji"
+ }
+}

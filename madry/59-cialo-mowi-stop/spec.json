@@ -1,0 +1,67 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Nie miałam siły truchtać, *jakby ciało mówiło stop*",
+  "sub": "Kiedy brak sił to sygnał, żeby iść do lekarza",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 60,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 600,
+     "y": 40,
+     "s": 160,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 560,
+     "y": 300,
+     "s": 200,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Nie trenuj na siłę",
+   "body": "Kiedy brak sił trwa kilka dni i pojawiają się nietypowe objawy, odpuść trening i daj znać trenerowi."
+  },
+  {
+   "title": "Idź to wyjaśnić",
+   "body": "Coś w tobie jest i trzeba to sprawdzić. Lekarz i badania dadzą ci lepszą odpowiedź niż zgadywanie.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "coś jest nie tak",
+    "via": "badania",
+    "to": "wiem, na czym stoję",
+    "toIcon": "paper"
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Wiedza uspokaja",
+   "body": "Nawet trudna informacja zwykle trochę gasi niepokój, bo już wiesz, na czym stoisz, i możesz planować."
+  }
+ ],
+ "end": {
+  "text": "Kiedy ciało mówi stop, *idź to wyjaśnić*.",
+  "cta": "Zapisz na później"
+ }
+}
