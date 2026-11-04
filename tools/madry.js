@@ -7,16 +7,16 @@
 const fs = require('fs'), path = require('path');
 const { VIZ } = require('./psy2');
 const F = p => 'file://' + path.join(__dirname, 'node_modules/@fontsource', p);
-// kolory z madrysport.pl (11.2026): ciemna zieleń #1F3A2E, zieleń #2F6B4F, jasna zieleń #EEF4EA, róż #F4D6D0, słońce #F2C14E, tło #F9F7F5
+// kolory z madrysport.pl (4.11.2026, turkus jak na landingu Zdrowie psychiczne w sporcie): petrol #0D262C, turkus #15625F, jasny turkus #E6F2F1, mięta #BCD6D2, róż #F6CFD2, słońce #F2C14E
 // nazwy motywów zostają (cieply = jasnozielony, czerwony = ciemnozielony, grafit = różowy), żeby stare spec.json dalej działały
-const DG = '#1F3A2E', GR = '#2F6B4F', LG = '#EEF4EA', PK = '#F4D6D0', SUN = '#F2C14E';
+const DG = '#0D262C', GR = '#15625F', LG = '#E6F2F1', PK = '#F6CFD2', SUN = '#F2C14E';
 const TH = {
-  cieply: { bg: LG, fg: DG, A: GR, onA: '#fff', mute: 'rgba(31,58,46,.72)', soft: 'rgba(31,58,46,.22)', faint: 'rgba(31,58,46,.07)', line: 'rgba(31,58,46,.16)',
-    card: 'rgba(255,255,255,.75)', cardS: '#fff', fig: DG, fig2: 'rgba(31,58,46,.35)', paper: '#fff', paperInk: DG, y: GR, chip: GR, chipInk: '#fff', btn: GR, btnInk: '#fff', num: GR },
+  cieply: { bg: LG, fg: DG, A: GR, onA: '#fff', mute: 'rgba(13,38,44,.72)', soft: 'rgba(13,38,44,.22)', faint: 'rgba(13,38,44,.07)', line: 'rgba(13,38,44,.16)',
+    card: 'rgba(255,255,255,.75)', cardS: '#fff', fig: DG, fig2: 'rgba(13,38,44,.35)', paper: '#fff', paperInk: DG, y: GR, chip: GR, chipInk: '#fff', btn: GR, btnInk: '#fff', num: GR },
   czerwony: { bg: DG, fg: '#fff', A: SUN, onA: DG, mute: 'rgba(255,255,255,.78)', soft: 'rgba(255,255,255,.26)', faint: 'rgba(255,255,255,.08)', line: 'rgba(255,255,255,.18)',
     card: 'rgba(255,255,255,.08)', cardS: 'rgba(255,255,255,.16)', fig: '#fff', fig2: 'rgba(255,255,255,.45)', paper: '#fff', paperInk: DG, y: PK, chip: PK, chipInk: DG, btn: PK, btnInk: DG, num: PK },
-  grafit: { bg: PK, fg: DG, A: GR, onA: '#fff', mute: 'rgba(31,58,46,.74)', soft: 'rgba(31,58,46,.24)', faint: 'rgba(31,58,46,.08)', line: 'rgba(31,58,46,.18)',
-    card: 'rgba(255,255,255,.55)', cardS: 'rgba(255,255,255,.85)', fig: DG, fig2: 'rgba(31,58,46,.35)', paper: '#fff', paperInk: DG, y: GR, chip: GR, chipInk: '#fff', btn: DG, btnInk: '#fff', num: GR },
+  grafit: { bg: PK, fg: DG, A: GR, onA: '#fff', mute: 'rgba(13,38,44,.74)', soft: 'rgba(13,38,44,.24)', faint: 'rgba(13,38,44,.08)', line: 'rgba(13,38,44,.18)',
+    card: 'rgba(255,255,255,.55)', cardS: 'rgba(255,255,255,.85)', fig: DG, fig2: 'rgba(13,38,44,.35)', paper: '#fff', paperInk: DG, y: GR, chip: GR, chipInk: '#fff', btn: DG, btnInk: '#fff', num: GR },
 };
 const esc = s => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/[„“”"]/g, '');
 const rich = s => esc(s).replace(/\*(.+?)\*/g, '<span class="hl">$1</span>').replace(/\n/g, '<br>');

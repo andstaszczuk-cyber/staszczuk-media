@@ -31,9 +31,9 @@ const PAL = {
   r_khaki:  { bg: '#C4C18E', solid: '#F4F1E6', ink: '#2A2622', acc: '#7A2423', soft: 'rgba(42,38,34,.82)', dark: '#2A2622' },
   r_white:  { bg: '#FFFFFF', solid: '#F4F1E6', ink: '#7A2423', acc: '#AE4549', soft: 'rgba(122,36,35,.82)', dark: '#2A2622' },
   // Mądry Sport (kolory madrysport.pl)
-  m_jasny:  { bg: '#EEF4EA', solid: '#FFFFFF', ink: '#1F3A2E', acc: '#2F6B4F', soft: 'rgba(31,58,46,.8)', dark: '#FFFFFF' },
-  m_ciemny: { bg: '#1F3A2E', solid: '#2F6B4F', ink: '#FFFFFF', acc: '#F4D6D0', soft: 'rgba(255,255,255,.82)', dark: '#1F3A2E' },
-  m_roz:    { bg: '#F4D6D0', solid: '#FFFFFF', ink: '#1F3A2E', acc: '#2F6B4F', soft: 'rgba(31,58,46,.82)', dark: '#FFFFFF' },
+  m_jasny:  { bg: '#E6F2F1', solid: '#FFFFFF', ink: '#0D262C', acc: '#15625F', soft: 'rgba(13,38,44,.8)', dark: '#FFFFFF' },
+  m_ciemny: { bg: '#0D262C', solid: '#15625F', ink: '#FFFFFF', acc: '#F6CFD2', soft: 'rgba(255,255,255,.82)', dark: '#0D262C' },
+  m_roz:    { bg: '#F6CFD2', solid: '#FFFFFF', ink: '#0D262C', acc: '#15625F', soft: 'rgba(13,38,44,.82)', dark: '#FFFFFF' },
   // @psychologsportowy
   p_grafit: { bg: 'radial-gradient(120% 85% at 50% 32%,#4a4a4f 0%,#2c2c30 42%,#1a1a1d 100%)', solid: '#2c2c30', ink: '#FFFFFF', acc: '#FCE86A', soft: 'rgba(255,255,255,.8)', dark: '#151515' },
   p_zolty:  { bg: 'radial-gradient(120% 85% at 50% 30%,#fff1a0 0%,#FCE86A 45%,#f3d94c 100%)', solid: '#FFF6C4', ink: '#151515', acc: '#151515', soft: 'rgba(21,21,21,.8)', dark: '#FCE86A' },
