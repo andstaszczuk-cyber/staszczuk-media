@@ -40,6 +40,8 @@ const FONTS = {
   anton: { fam: 'Anton', w: 400, tt: 'uppercase', ls: '.01em', lh: 1.02, k: .9 },
   bebas: { fam: 'Bebas', w: 400, tt: 'uppercase', ls: '.03em', lh: .95, k: 1.08 },
   playfair: { fam: 'Play', w: 400, tt: 'none', ls: '0', lh: 1.08, k: .78 },
+  pop: { fam: 'Pop', w: 800, tt: 'none', ls: '-.01em', lh: 1.08, k: .92 },
+  ad: { fam: 'AD', w: 400, tt: 'none', ls: '0', lh: 1.15, k: .95, body: 'AD' },
 };
 const FT = FONTS[spec.font] || FONTS.raj;
 
@@ -69,13 +71,15 @@ const fontCss = `
 @font-face{font-family:Play;font-style:italic;src:url(${F('playfair-display/files/playfair-display-latin-ext-400-italic.woff2')});unicode-range:U+0100-024F}
 @font-face{font-family:Play;font-style:italic;src:url(${F('playfair-display/files/playfair-display-latin-400-italic.woff2')})}
 @font-face{font-family:Hand;font-weight:500;src:url(${F('caveat/files/caveat-latin-ext-500-normal.woff2')});unicode-range:U+0100-024F}
-@font-face{font-family:Hand;font-weight:500;src:url(${F('caveat/files/caveat-latin-500-normal.woff2')})}`;
+@font-face{font-family:Hand;font-weight:500;src:url(${F('caveat/files/caveat-latin-500-normal.woff2')})}
+@font-face{font-family:AD;src:url(${F('architects-daughter/files/architects-daughter-latin-ext-400-normal.woff2')});unicode-range:U+0100-024F,U+1E00-1EFF}
+@font-face{font-family:AD;src:url(${F('architects-daughter/files/architects-daughter-latin-400-normal.woff2')})}`;
 
 const css = `${fontCss}
 html,body{margin:0;width:${W}px;height:${H}px;overflow:hidden}
 body{background:${P.bg};color:${P.ink};font-family:Pop,sans-serif;position:relative}
 .h{font-family:${FT.fam};font-weight:${FT.w};text-transform:${FT.tt};letter-spacing:${FT.ls};line-height:${FT.lh};font-size:${hs}px}
-.b{font-family:Pop;font-weight:500;font-size:${bs}px;line-height:1.42}
+.b{font-family:${FT.body || "Pop"},Pop;font-weight:${FT.body ? 400 : 500};font-size:${FT.body ? Math.round(bs*1.08) : bs}px;line-height:1.42}
 .hl{color:${P.acc}}
 .mark{background:${P.acc};color:${P.dark};padding:0 .12em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .kick{font-family:Pop;font-weight:800;font-size:30px;letter-spacing:.18em;text-transform:uppercase}
