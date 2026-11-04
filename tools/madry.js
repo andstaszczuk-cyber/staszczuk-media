@@ -1,4 +1,4 @@
-// Mądry Sport – karuzele IG 1080x1350 (kolory madrysport.pl: czerwień #CC4543, grafit #201F25, ciepłe tło; czcionka Mulish)
+// Mądry Sport – karuzele IG 1080x1350 (kolory i czcionka Mulish jak na madrysport.pl)
 // node madry.js spec.json outDir
 // spec: {"theme":"cieply|czerwony|grafit","filar":"głowa|ciało|głowa i ciało",
 //   "cover":{"title":"...*wyróżnienie*...","sub":"...","art":{"type":"<VIZ z psy2>", ...}},
@@ -7,14 +7,16 @@
 const fs = require('fs'), path = require('path');
 const { VIZ } = require('./psy2');
 const F = p => 'file://' + path.join(__dirname, 'node_modules/@fontsource', p);
-const R = '#CC4543', G = '#201F25', WARM = '#F6F0E8';
+// kolory z madrysport.pl (11.2026): ciemna zieleń #1F3A2E, zieleń #2F6B4F, jasna zieleń #EEF4EA, róż #F4D6D0, słońce #F2C14E, tło #F9F7F5
+// nazwy motywów zostają (cieply = jasnozielony, czerwony = ciemnozielony, grafit = różowy), żeby stare spec.json dalej działały
+const DG = '#1F3A2E', GR = '#2F6B4F', LG = '#EEF4EA', PK = '#F4D6D0', SUN = '#F2C14E';
 const TH = {
-  cieply: { bg: WARM, fg: G, A: R, onA: '#fff', mute: 'rgba(32,31,37,.64)', soft: 'rgba(32,31,37,.22)', faint: 'rgba(32,31,37,.07)', line: 'rgba(32,31,37,.16)',
-    card: 'rgba(255,255,255,.7)', cardS: '#fff', fig: G, fig2: 'rgba(32,31,37,.35)', paper: '#fff', paperInk: G, y: R, chip: R, chipInk: '#fff' },
-  czerwony: { bg: R, fg: '#fff', A: G, onA: '#fff', mute: 'rgba(255,255,255,.8)', soft: 'rgba(255,255,255,.32)', faint: 'rgba(255,255,255,.1)', line: 'rgba(255,255,255,.24)',
-    card: 'rgba(255,255,255,.12)', cardS: 'rgba(255,255,255,.22)', fig: '#fff', fig2: 'rgba(255,255,255,.5)', paper: '#fff', paperInk: G, y: '#fff', chip: G, chipInk: '#fff' },
-  grafit: { bg: G, fg: '#fff', A: R, onA: '#fff', mute: 'rgba(255,255,255,.64)', soft: 'rgba(255,255,255,.22)', faint: 'rgba(255,255,255,.08)', line: 'rgba(255,255,255,.16)',
-    card: 'rgba(255,255,255,.07)', cardS: 'rgba(255,255,255,.14)', fig: '#fff', fig2: '#8d8d94', paper: '#fff', paperInk: G, y: R, chip: R, chipInk: '#fff' },
+  cieply: { bg: LG, fg: DG, A: GR, onA: '#fff', mute: 'rgba(31,58,46,.72)', soft: 'rgba(31,58,46,.22)', faint: 'rgba(31,58,46,.07)', line: 'rgba(31,58,46,.16)',
+    card: 'rgba(255,255,255,.75)', cardS: '#fff', fig: DG, fig2: 'rgba(31,58,46,.35)', paper: '#fff', paperInk: DG, y: GR, chip: GR, chipInk: '#fff', btn: GR, btnInk: '#fff', num: GR },
+  czerwony: { bg: DG, fg: '#fff', A: SUN, onA: DG, mute: 'rgba(255,255,255,.78)', soft: 'rgba(255,255,255,.26)', faint: 'rgba(255,255,255,.08)', line: 'rgba(255,255,255,.18)',
+    card: 'rgba(255,255,255,.08)', cardS: 'rgba(255,255,255,.16)', fig: '#fff', fig2: 'rgba(255,255,255,.45)', paper: '#fff', paperInk: DG, y: PK, chip: PK, chipInk: DG, btn: PK, btnInk: DG, num: PK },
+  grafit: { bg: PK, fg: DG, A: GR, onA: '#fff', mute: 'rgba(31,58,46,.74)', soft: 'rgba(31,58,46,.24)', faint: 'rgba(31,58,46,.08)', line: 'rgba(31,58,46,.18)',
+    card: 'rgba(255,255,255,.55)', cardS: 'rgba(255,255,255,.85)', fig: DG, fig2: 'rgba(31,58,46,.35)', paper: '#fff', paperInk: DG, y: GR, chip: GR, chipInk: '#fff', btn: DG, btnInk: '#fff', num: GR },
 };
 const esc = s => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/[„“”"]/g, '');
 const rich = s => esc(s).replace(/\*(.+?)\*/g, '<span class="hl">$1</span>').replace(/\n/g, '<br>');
@@ -25,12 +27,12 @@ const PAD = 90;
 function chrome(t, spec, i, total) {
   const fil = esc((spec.filar || 'głowa i ciało').toUpperCase());
   return `<div style="position:absolute;left:${PAD}px;top:70px;display:flex;align-items:center;gap:14px">
-      <div style="width:22px;height:22px;background:${t.chip}"></div>
+      <div style="width:22px;height:22px;border-radius:50%;background:${t.chip}"></div>
       <div style="font-weight:800;font-size:26px;letter-spacing:5px;color:${t.fg}">${fil}</div></div>
     <div style="position:absolute;left:${PAD}px;right:${PAD}px;bottom:60px;display:flex;align-items:flex-end;justify-content:space-between;color:${t.fg}">
       <div style="font-weight:800;font-size:26px;letter-spacing:4px;line-height:1.05">MĄDRY<br>SPORT</div>
       <div style="font-weight:600;font-size:22px;opacity:.8">@madrysport · ${i}/${total}</div></div>
-    ${i < total ? `<div style="position:absolute;right:${PAD}px;top:70px;font-weight:600;font-size:24px;color:${t.y === '#fff' ? '#fff' : t.A}">przesuń →</div>` : ''}`;
+    ${i < total ? `<div style="position:absolute;right:${PAD}px;top:70px;font-weight:600;font-size:24px;color:${t.num}">przesuń →</div>` : ''}`;
 }
 function cover(t, c) {
   const n = len(c.title), fs_ = c.size || (n <= 30 ? 112 : n <= 50 ? 96 : 82);
@@ -41,8 +43,8 @@ function cover(t, c) {
 function point(t, p, k) {
   const top = p.art ? 'top:180px' : 'top:0;bottom:0;justify-content:center';
   return `<div class="box" style="${top}">
-    <div style="font-weight:800;font-size:140px;line-height:1;color:${t.y === '#fff' ? '#fff' : t.A}">${String(k).padStart(2, '0')}</div>
-    <div style="width:120px;height:8px;background:${t.y === '#fff' ? G : t.A};margin:26px 0 34px"></div>
+    <div style="font-weight:800;font-size:140px;line-height:1;color:${t.num}">${String(k).padStart(2, '0')}</div>
+    <div style="width:120px;height:8px;background:${t.num};border-radius:4px;margin:26px 0 34px"></div>
     <div class="h" style="font-size:${len(p.title) <= 34 ? 80 : 68}px;color:${t.fg}">${rich(p.title)}</div>
     <div style="margin-top:30px;font-weight:600;font-size:${len(p.body) <= 180 ? 44 : 38}px;line-height:1.45;color:${t.mute}">${rich(p.body)}</div></div>
     ${p.art ? `<svg class="art" viewBox="0 0 900 620" style="top:${p.artTop || 860}px;height:${p.artH || 360}px">${art(t, p.art)}</svg>` : ''}`;
@@ -50,7 +52,7 @@ function point(t, p, k) {
 function end(t, e) {
   return `<div class="box" style="top:0;bottom:0;justify-content:center">
     <div class="h" style="font-size:${len(e.text) <= 60 ? 92 : 76}px;color:${t.fg}">${rich(e.text)}</div>
-    ${e.cta ? `<div style="margin-top:50px;display:inline-block;background:${t.y === '#fff' ? G : t.A};color:#fff;font-weight:800;font-size:36px;padding:24px 38px">${esc(e.cta)}</div>` : ''}</div>`;
+    ${e.cta ? `<div style="margin-top:50px;display:inline-block;background:${t.btn};color:${t.btnInk};border-radius:999px;font-weight:800;font-size:36px;padding:24px 44px">${esc(e.cta)}</div>` : ''}</div>`;
 }
 function doc(t, inner) {
   return `<!doctype html><html><head><meta charset="utf-8"><style>
@@ -67,7 +69,7 @@ function doc(t, inner) {
   .art{position:absolute;left:${PAD}px;width:${1080 - 2 * PAD}px;overflow:visible}
   .box{position:absolute;left:${PAD}px;right:${PAD}px;display:flex;flex-direction:column;align-items:flex-start}
   .h{font-weight:800;line-height:1.1;letter-spacing:-1px;text-wrap:balance}
-  .hl{color:${t.y}${t.y === '#fff' ? ';text-decoration:underline;text-decoration-thickness:.08em;text-underline-offset:.14em' : ''}}
+  .hl{color:${t.y}}
   </style></head><body>${inner}</body></html>`;
 }
 async function main() {
