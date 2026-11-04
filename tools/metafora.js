@@ -30,6 +30,10 @@ const PAL = {
   r_cream:  { bg: '#F4F1E6', solid: '#FFFFFF', ink: '#2A2622', acc: '#AE4549', soft: 'rgba(42,38,34,.8)', dark: '#2A2622' },
   r_khaki:  { bg: '#C4C18E', solid: '#F4F1E6', ink: '#2A2622', acc: '#7A2423', soft: 'rgba(42,38,34,.82)', dark: '#2A2622' },
   r_white:  { bg: '#FFFFFF', solid: '#F4F1E6', ink: '#7A2423', acc: '#AE4549', soft: 'rgba(122,36,35,.82)', dark: '#2A2622' },
+  // Mądry Sport (kolory madrysport.pl)
+  m_jasny:  { bg: '#EEF4EA', solid: '#FFFFFF', ink: '#1F3A2E', acc: '#2F6B4F', soft: 'rgba(31,58,46,.8)', dark: '#FFFFFF' },
+  m_ciemny: { bg: '#1F3A2E', solid: '#2F6B4F', ink: '#FFFFFF', acc: '#F4D6D0', soft: 'rgba(255,255,255,.82)', dark: '#1F3A2E' },
+  m_roz:    { bg: '#F4D6D0', solid: '#FFFFFF', ink: '#1F3A2E', acc: '#2F6B4F', soft: 'rgba(31,58,46,.82)', dark: '#FFFFFF' },
   // @psychologsportowy
   p_grafit: { bg: 'radial-gradient(120% 85% at 50% 32%,#4a4a4f 0%,#2c2c30 42%,#1a1a1d 100%)', solid: '#2c2c30', ink: '#FFFFFF', acc: '#FCE86A', soft: 'rgba(255,255,255,.8)', dark: '#151515' },
   p_zolty:  { bg: 'radial-gradient(120% 85% at 50% 30%,#fff1a0 0%,#FCE86A 45%,#f3d94c 100%)', solid: '#FFF6C4', ink: '#151515', acc: '#151515', soft: 'rgba(21,21,21,.8)', dark: '#FCE86A' },
@@ -41,6 +45,7 @@ const FONTS = {
   bebas: { fam: 'Bebas', w: 400, tt: 'uppercase', ls: '.03em', lh: .95, k: 1.08 },
   playfair: { fam: 'Play', w: 400, tt: 'none', ls: '0', lh: 1.08, k: .78 },
   pop: { fam: 'Pop', w: 800, tt: 'none', ls: '-.01em', lh: 1.08, k: .92 },
+  mul: { fam: 'Mul', w: 800, tt: 'none', ls: '-.01em', lh: 1.08, k: .92, body: 'Mul' },
   ad: { fam: 'AD', w: 400, tt: 'none', ls: '0', lh: 1.15, k: .95, body: 'AD' },
 };
 const FT = FONTS[spec.font] || FONTS.raj;
@@ -72,6 +77,10 @@ const fontCss = `
 @font-face{font-family:Play;font-style:italic;src:url(${F('playfair-display/files/playfair-display-latin-400-italic.woff2')})}
 @font-face{font-family:Hand;font-weight:500;src:url(${F('caveat/files/caveat-latin-ext-500-normal.woff2')});unicode-range:U+0100-024F}
 @font-face{font-family:Hand;font-weight:500;src:url(${F('caveat/files/caveat-latin-500-normal.woff2')})}
+@font-face{font-family:Mul;font-weight:800;src:url(${F('mulish/files/mulish-latin-ext-800-normal.woff2')});unicode-range:U+0100-024F}
+@font-face{font-family:Mul;font-weight:800;src:url(${F('mulish/files/mulish-latin-800-normal.woff2')})}
+@font-face{font-family:Mul;font-weight:400;src:url(${F('mulish/files/mulish-latin-ext-600-normal.woff2')});unicode-range:U+0100-024F}
+@font-face{font-family:Mul;font-weight:400;src:url(${F('mulish/files/mulish-latin-600-normal.woff2')})}
 @font-face{font-family:AD;src:url(${F('architects-daughter/files/architects-daughter-latin-ext-400-normal.woff2')});unicode-range:U+0100-024F,U+1E00-1EFF}
 @font-face{font-family:AD;src:url(${F('architects-daughter/files/architects-daughter-latin-400-normal.woff2')})}`;
 
