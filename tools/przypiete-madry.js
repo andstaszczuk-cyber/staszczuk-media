@@ -5,12 +5,13 @@ const DG='#0D262C',TQ='#15625F',LT='#E6F2F1',PK='#F6CFD2',MI='#BCD6D2',T2='#1E7A
 const shield=(c,h,o=1)=>`<span style="display:inline-block;flex:none;width:${h*0.425}px;height:${h}px;opacity:${o};background:${c};-webkit-mask:url(${Z}) center/contain no-repeat"></span>`;
 const L=[['GŁOWA','psycholog sportowy, terapeuta'],['CIAŁO','dietetyk, trener, fizjoterapeuta'],['KARIERA','prawo, finanse, decyzje']];
 // v: {name, layer(html in 3240x1350 space), tiles:[{bg,ink,acc,sub}], over:[css per tile overlay]}
-const row=(v)=>{const tiles=[0,1,2].map(i=>{const t=v.tiles[i];return `<div class="t" style="background:${t.bg}">
+const BGS=["linear-gradient(90deg,#0D262C,#124A4B)","linear-gradient(90deg,#124A4B,#17605D)","linear-gradient(90deg,#17605D,#1E7A75)"];const LN="6px solid #4FBFB3";
+const row=(v)=>{const tiles=[0,1,2].map(i=>{const t=v.tiles[i];const fr=`<div style="position:absolute;top:40px;bottom:40px;left:${i==0?40:0}px;right:${i==2?40:0}px;border-top:${LN};border-bottom:${LN};${i==0?"border-left:"+LN+";":""}${i==2?"border-right:"+LN+";":""}"></div>`;return `<div class="t" style="background:${BGS[i]}">${fr}
  <div style="position:absolute;left:${-i*1080+(v.sh||[0,0,0])[i]}px;top:0;width:3240px;height:1350px">${v.layer}</div>
  <div class="b"><div class="k" style="color:${t.acc}">0${i+1}</div><div class="h" style="color:${t.ink}">${L[i][0]}</div><div class="s" style="color:${t.sub}">${L[i][1]}</div></div>
- <div class="f" style="color:${t.sub}">@madrysport.pl</div></div>`}).join('');return `<div class="lab"><b>${v.n}</b> ${v.name}</div><div class="row">${tiles}</div>`};
+ <div class="f" style="color:${t.sub}">@madrysport.pl · 1/5</div><div class="f" style="left:auto;right:96px;color:${t.sub}">przesuń →</div></div>`}).join('');return `<div class="lab"><b>${v.n}</b> ${v.name}</div><div class="row">${tiles}</div>`};
 const word=(c,fs,dot)=>`<div class="w" style="color:${c};font-size:${fs}px">MĄDRY<br>SPORT<span style="font-size:${fs*.36}px;color:${dot||c}">.pl</span></div>`;
-const G=`<div style="position:absolute;inset:40px;border:4px solid #BCD6D2;box-sizing:border-box;z-index:2"></div><div style="position:absolute;inset:0;background:linear-gradient(90deg,${DG} 0%,${DG} 12%,${TQ} 50%,${T2} 88%,${T2} 100%)"></div>`;
+const G=``;
 const tl=[{bg:'transparent',ink:'#fff',acc:PK,sub:MI},{bg:'transparent',ink:'#fff',acc:PK,sub:MI},{bg:'transparent',ink:'#fff',acc:PK,sub:LT}];
 const V=[{n:'1',sh:[0,-35,-47],name:'Ciasne litery, przerwy między Ą i D oraz P i O',tiles:tl,layer:G+`<div style="position:absolute;left:343px;top:330px;display:inline-flex;align-items:center;gap:56px">${shield('#fff',400)}<div class="w" style="color:#fff;font-size:300px;letter-spacing:-8px">M<span style="letter-spacing:55px">Ą</span><span style="letter-spacing:-19px">DRY</span><span style="letter-spacing:16px"> </span><span style="letter-spacing:-19px">S</span><span style="letter-spacing:22px">P</span>ORT<span style="font-size:110px;color:${PK};letter-spacing:0">.pl</span></div></div>`}];
 const html=`<!doctype html><meta charset=utf-8><style>
