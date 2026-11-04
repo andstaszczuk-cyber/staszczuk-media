@@ -1,0 +1,63 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Na rozgrzewce tyle hałasu, że *mnie to rozwala*",
+  "sub": "Jak znaleźć swoją rozgrzewkę w tłoku",
+  "art": {
+   "type": "focus",
+   "center": "moja rozgrzewka",
+   "around": [
+    "muzyka",
+    "tłok",
+    "krzyki",
+    "telefon"
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zauważ, co cię rozprasza",
+   "body": "Muzyka w słuchawkach, tłok na macie i głośne rozmowy działają na każdego inaczej. Na jednych nakręcająco, na innych wręcz przeciwnie."
+  },
+  {
+   "title": "Co jest nie twoje?",
+   "body": "Odpuść rzeczy, które działają na innych, a na ciebie nie. Nie musisz mieć muzyki tylko dlatego, że wszyscy ją mają.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "MOJE",
+      "icon": "check",
+      "items": [
+       "spokojny kąt",
+       "mój oddech",
+       "moje ćwiczenia"
+      ]
+     },
+     {
+      "title": "NIE MOJE",
+      "icon": "pause",
+      "dash": true,
+      "dim": true,
+      "items": [
+       "głośna muzyka",
+       "tłok",
+       "cudze rytuały"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Poszukaj spokojniejszego miejsca",
+   "body": "Kawałek korytarza albo róg sali często wystarczy. Uzgodnij z trenerem, gdzie możesz się rozgrzać po swojemu."
+  }
+ ],
+ "end": {
+  "text": "Rozgrzewka ma być *twoja, a nie wszystkich*.",
+  "cta": "Zapisz przed zawodami"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Bez treningu *wszystko mi się sypie*",
+  "sub": "Kiedy sport jest jedynym oparciem w ciągu dnia",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 140,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 560,
+     "y": 300,
+     "s": 170,
+     "c": "fig2"
+    },
+    {
+     "k": "cross",
+     "x": 760,
+     "y": 300,
+     "r": 42
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Sprawdź, ile stoi na treningu",
+   "body": "Kiedy trening jest jedynym odpoczynkiem po szkole, każda przerwa wywraca cały dzień. Wtedy całe samopoczucie opiera się na jednej rzeczy."
+  },
+  {
+   "title": "Zbuduj drugi filar",
+   "body": "Coś, co daje ci odpoczynek poza sportem, na przykład spacer, muzyka, znajomi albo spokojny wieczór.",
+   "art": {
+    "type": "hub",
+    "center": "twój dzień",
+    "icon": "sun",
+    "items": [
+     "trening",
+     "znajomi",
+     "sen",
+     "muzyka",
+     "spacer"
+    ],
+    "hl": 0
+   },
+   "artTop": 800,
+   "artH": 440
+  },
+  {
+   "title": "Zadbaj o rytm dnia",
+   "body": "Stała pora wstawania, nauki i snu porządkuje dzień także wtedy, gdy treningu akurat nie ma."
+  }
+ ],
+ "end": {
+  "text": "Sport może być ważny, *byle nie był jedyny*.",
+  "cta": "Zapisz na później"
+ }
+}

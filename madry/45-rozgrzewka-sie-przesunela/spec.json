@@ -1,0 +1,64 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Rozgrzewka się przesunęła i *od razu panika*",
+  "sub": "Jak przygotować plan na zmiany przed startem",
+  "art": {
+   "type": "timeline",
+   "y": 260,
+   "points": [
+    {
+     "top": "plan",
+     "icon": "clock"
+    },
+    {
+     "top": "opóźnienie",
+     "icon": "pause"
+    },
+    {
+     "top": "wersja B",
+     "icon": "check",
+     "hl": true
+    },
+    {
+     "top": "start",
+     "icon": "flag"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Start nie zależy od jednej rozgrzewki",
+   "body": "Forma jest zbudowana wcześniej, przez tygodnie treningów. Przesunięta rozgrzewka raczej jej nie zabierze."
+  },
+  {
+   "title": "Przygotuj wersję B",
+   "body": "Rozpisz krótszą rozgrzewkę na wypadek opóźnienia. Wtedy zmiana jest scenariuszem, który już znasz.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "clock",
+     "label": "pełna rozgrzewka",
+     "sub": "kiedy jest czas"
+    },
+    "right": {
+     "icon": "check",
+     "label": "krótsza wersja",
+     "sub": "kiedy coś się przesunie"
+    }
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Zaufaj sobie",
+   "body": "Idziesz przez zmianę i przypominasz sobie, że pozostałe rzeczy już masz. Wracasz do swoich kroków."
+  }
+ ],
+ "end": {
+  "text": "Zmiana przed startem to *po prostu taktyka numer dwa*.",
+  "cta": "Zapisz przed zawodami"
+ }
+}

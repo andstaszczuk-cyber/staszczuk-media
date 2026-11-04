@@ -1,0 +1,72 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Było tak gorąco, że *pomyślałam, że nie dam rady*",
+  "sub": "Jak grać, kiedy warunki są skrajne",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 600,
+     "y": 30,
+     "s": 220,
+     "c": "A"
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 120,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 520,
+     "y": 400,
+     "s": 90,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Nazwij to warunkiem",
+   "body": "Upał, wiatr albo zimno to warunki, które tego dnia dostaje każdy na korcie. Złość na pogodę zabiera raczej sporo energii."
+  },
+  {
+   "title": "Dopasuj plan gry",
+   "body": "Zapytaj siebie, co w tych warunkach mogę zrobić, żeby zwiększyć szansę na swój cel. Może krótsze wymiany, może więcej spokoju.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "sun",
+     "label": "złoszczę się na upał",
+     "cross": true
+    },
+    "right": {
+     "icon": "check",
+     "label": "gram pod warunki"
+    }
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Ciało w upale ustal ze sztabem",
+   "body": "Jak się chłodzić i co pić w takich warunkach, ustal z dietetykiem sportowym i sztabem przed wyjazdem, a nie dopiero na korcie."
+  }
+ ],
+ "end": {
+  "text": "Na pogodę nie masz wpływu, *na swój plan gry masz*.",
+  "cta": "Zapisz przed turniejem"
+ }
+}

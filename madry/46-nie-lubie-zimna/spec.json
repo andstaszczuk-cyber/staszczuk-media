@@ -1,0 +1,73 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Nie lubię zimna, a *wszyscy mówią o morsowaniu*",
+  "sub": "Czy trzeba robić to, co robi cała drużyna",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "snow",
+     "x": 560,
+     "y": 40,
+     "s": 200,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 590,
+     "y": 330,
+     "s": 150,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Ludzie opowiadają różne rzeczy",
+   "body": "Wokół morsowania krąży sporo opowieści o odporności i leczeniu kontuzji. Często to raczej sposób na wspólne spędzenie czasu."
+  },
+  {
+   "title": "Nie rób niczego wbrew sobie",
+   "body": "Jeśli zimno ci nie służy, nie musisz go znosić tylko dlatego, że robią to wszyscy wokół.",
+   "art": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "wszyscy morsują",
+     "może muszę?",
+     "odstanę od grupy?"
+    ],
+    "ask": [
+     "Co mi",
+     "naprawdę",
+     "pomoże?"
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Regenerację ustal z fizjoterapeutą",
+   "body": "O tym, co pomoże ci po urazie, decyduj z fizjoterapeutą, a nie na podstawie tego, co mówią w szatni."
+  }
+ ],
+ "end": {
+  "text": "Regeneracja ma *pasować do ciebie*.",
+  "cta": "Zapisz na później"
+ }
+}

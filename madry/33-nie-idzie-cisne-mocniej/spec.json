@@ -1,0 +1,54 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Nie idzie, więc *cisnę mocniej*",
+  "sub": "Jak przerwać spiralę napięcia w trakcie rywalizacji",
+  "art": {
+   "type": "iconRow",
+   "items": [
+    {
+     "icon": "cloudRain",
+     "label": "nie idzie"
+    },
+    {
+     "icon": "bolt",
+     "label": "spinam się"
+    },
+    {
+     "icon": "cloudRain",
+     "label": "idzie gorzej",
+     "hl": true
+    }
+   ],
+   "y": 40,
+   "h": 420,
+   "note": "i tak w kółko"
+  }
+ },
+ "points": [
+  {
+   "title": "Ciało się spina",
+   "body": "Kiedy czujesz, że nie wychodzi, ciało napina się jeszcze bardziej, bo chce się zmobilizować. Przez to ruch robi się sztywny."
+  },
+  {
+   "title": "Jedno zdanie o następnej akcji",
+   "body": "Przygotuj krótkie zdanie o tym, co robisz w następnej akcji. Mówisz je w głowie, gdy czujesz, że się zaczyna.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "muszę mocniej",
+    "to": "następna akcja"
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Najpierw wydech",
+   "body": "Jeden dłuższy wydech przed kolejną akcją pomaga zdjąć część napięcia z barków i rąk. Dopiero potem wracasz do zadania."
+  }
+ ],
+ "end": {
+  "text": "Kiedy nie idzie, *wracasz do następnej akcji*.",
+  "cta": "Zapisz przed zawodami"
+ }
+}

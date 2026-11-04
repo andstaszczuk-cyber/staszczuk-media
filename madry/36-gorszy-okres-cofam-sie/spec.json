@@ -1,0 +1,126 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Gorszy okres i *boję się, że się cofam*",
+  "sub": "Jak oceniać formę, żeby nie panikować po kilku dniach",
+  "art": {
+   "type": "chart",
+   "series": [
+    {
+     "pts": [
+      [
+       0,
+       0.22
+      ],
+      [
+       1,
+       0.62
+      ]
+     ],
+     "dash": true,
+     "label": "kierunek"
+    },
+    {
+     "pts": [
+      [
+       0,
+       0.25
+      ],
+      [
+       0.12,
+       0.4
+      ],
+      [
+       0.24,
+       0.33
+      ],
+      [
+       0.38,
+       0.52
+      ],
+      [
+       0.5,
+       0.46
+      ],
+      [
+       0.62,
+       0.64
+      ],
+      [
+       0.74,
+       0.58
+      ],
+      [
+       0.84,
+       0.45
+      ],
+      [
+       0.92,
+       0.47
+      ],
+      [
+       1,
+       0.56
+      ]
+     ],
+     "hl": true
+    }
+   ],
+   "marks": [
+    {
+     "x": 0.87,
+     "y": 0.45,
+     "r": 20,
+     "label": [
+      "dwa słabsze",
+      "tygodnie"
+     ],
+     "dy": 60,
+     "anchor": "middle"
+    }
+   ],
+   "x": "miesiące"
+  }
+ },
+ "points": [
+  {
+   "title": "Kilka dni to za mało",
+   "body": "Dwa słabsze tygodnie na sparingach raczej nie oznaczają regresu. Formę ocenia się z dłuższego okresu, a nie z ostatnich treningów."
+  },
+  {
+   "title": "Patrz na to, co zrobiłaś",
+   "body": "Sprawdź, ile założeń udało ci się zrealizować mimo zmęczenia. To mówi o formie więcej niż samo samopoczucie.",
+   "art": {
+    "type": "timeline",
+    "caption": "PATRZ SZERZEJ",
+    "points": [
+     {
+      "top": "tydzień",
+      "bottom": "samopoczucie"
+     },
+     {
+      "top": "miesiąc",
+      "bottom": "założenia"
+     },
+     {
+      "top": "sezon",
+      "bottom": "kierunek",
+      "hl": true,
+      "icon": "flag"
+     }
+    ]
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Ustal sygnał z trenerem",
+   "body": "Umówcie się, od kiedy spadek jest sygnałem do zmiany obciążenia, na przykład do wprowadzenia więcej odpoczynku."
+  }
+ ],
+ "end": {
+  "text": "Forma ma gorsze tygodnie, *a kierunek widać w miesiącach*.",
+  "cta": "Zapisz na gorszy tydzień"
+ }
+}

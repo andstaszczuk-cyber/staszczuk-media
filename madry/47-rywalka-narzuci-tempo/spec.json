@@ -1,0 +1,80 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Boję się, że rywalka *narzuci tempo i się zmęczę*",
+  "sub": "Jak przygotować się na kogoś, kto od początku idzie do przodu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 40,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 470,
+     "y": 0,
+     "s": 1,
+     "flip": true,
+     "c": "#7C9488"
+    },
+    {
+     "k": "arrow",
+     "x1": 820,
+     "y1": 60,
+     "x2": 560,
+     "y2": 60,
+     "c": "A",
+     "w": 10
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Odwróć pytanie",
+   "body": "Zamiast myśleć, jak przetrwać jej tempo, zastanów się, jak sprawić, żeby to ona zmęczyła się bardziej niż ty."
+  },
+  {
+   "title": "Taktyka z trenerem",
+   "body": "Ustalcie plan, w którym rywalka płaci za swoje tempo. Konkretne akcje dają głowie zadanie zamiast strachu.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "whistle",
+      "label": "plan z trenerem"
+     },
+     {
+      "icon": "people",
+      "label": "sparingi pod scenariusz"
+     },
+     {
+      "icon": "wind",
+      "label": "spokojny oddech"
+     }
+    ],
+    "h": 420
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Oswajaj ten scenariusz",
+   "body": "Każda próba na sparingu uczy organizm, czego się spodziewać. Z każdą kolejną lepiej sobie z tym radzisz."
+  }
+ ],
+ "end": {
+  "text": "Jej tempo może być *częścią twojego planu*.",
+  "cta": "Zapisz przed pojedynkiem"
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po chorobie *nie wiem, na co mnie stać*",
+  "sub": "Jak podejść do pierwszego sprawdzianu po przerwie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 60,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 560,
+     "y": 160,
+     "s": 220,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 420,
+     "text": "punkt startowy",
+     "size": 28
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Pierwszy sprawdzian to punkt startowy",
+   "body": "Po długiej chorobie nie masz punktu odniesienia. Pierwszy wynik pokazuje, skąd zaczynasz, i to wszystko.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "to będzie wyrok",
+    "to": "mój punkt startowy"
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Zauważ, co już zrobiłaś",
+   "body": "Skoro mimo chorób dostałaś się na konsultacje, to coś po drodze zrobiłaś. To też jest informacja o formie."
+  },
+  {
+   "title": "Powrót ustal z lekarzem i trenerem",
+   "body": "Tempo dokładania obciążeń po chorobie ustal z lekarzem i trenerem. Ty zadbaj o spokojniejszą głowę."
+  }
+ ],
+ "end": {
+  "text": "Po chorobie zaczynasz *od miejsca, w którym jesteś*.",
+  "cta": "Zapisz przed sprawdzianem"
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Podobna sytuacja i *od razu odpala się lęk*",
+  "sub": "Dlaczego ciało reaguje, zanim zdążysz pomyśleć",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 60,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "bubble",
+     "x": 440,
+     "y": 40,
+     "w": 420,
+     "h": 180,
+     "lines": [
+      "uważaj,",
+      "tu zaboli"
+     ],
+     "size": 44,
+     "tail": "left"
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 580,
+     "y": 300,
+     "s": 170,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Mózg pamięta zagrożenie",
+   "body": "Kiedy coś raz źle się skończyło, mózg mocno to zapisuje. W podobnej sytuacji od razu włącza reakcję stresową, żeby cię ochronić."
+  },
+  {
+   "title": "Traktuj to jako ochronę",
+   "body": "Lęk w takim momencie raczej nie oznacza słabości. To organizm, który mówi, żebyś uważał, bo kiedyś tu bolało."
+  },
+  {
+   "title": "Oswajaj krok po kroku",
+   "body": "Ćwicz podobne sytuacje regularnie, od łatwiejszych wersji. Każde dobre powtórzenie pokazuje ciału, że tym razem jest bezpiecznie.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "łatwa wersja",
+     "trochę trudniej",
+     "prawie jak wtedy",
+     "pełna sytuacja"
+    ],
+    "done": 2,
+    "top": true
+   },
+   "artTop": 840,
+   "artH": 400
+  }
+ ],
+ "end": {
+  "text": "Lęk po złym doświadczeniu to *ciało, które chce cię chronić*.",
+  "cta": "Zapisz na później"
+ }
+}

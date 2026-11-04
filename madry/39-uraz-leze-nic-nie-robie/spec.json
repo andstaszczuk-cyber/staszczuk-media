@@ -1,0 +1,49 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Mam uraz, leżę i *czuję, że nic nie robię*",
+  "sub": "Co się dzieje w organizmie, kiedy odpoczywasz po urazie",
+  "art": {
+   "type": "twoCards",
+   "left": {
+    "icon": "pause",
+    "label": "nic nie robię",
+    "cross": true
+   },
+   "right": {
+    "icon": "heart",
+    "label": "organizm się leczy"
+   }
+  }
+ },
+ "points": [
+  {
+   "title": "Przerwa to część leczenia",
+   "body": "Sztab daje ci wolne, żeby nic się nie pogorszyło. To dobra decyzja, choć głowa odbiera ją jak stratę czasu."
+  },
+  {
+   "title": "Organizm pracuje",
+   "body": "Na kanapie organizm leczy rzeczy, na które wcześniej nie miał energii, bo wydawał ją na trening."
+  },
+  {
+   "title": "Trzymaj się planu powrotu",
+   "body": "Ustalcie z lekarzem i fizjoterapeutą etapy powrotu. Wtedy każdy dzień ma swoje zadanie, nawet jeśli jest nim odpoczynek.",
+   "art": {
+    "type": "notes",
+    "title": "PLAN POWROTU",
+    "lines": [
+     "przerwa według sztabu",
+     "ćwiczenia z fizjo",
+     "powrót etapami"
+    ]
+   },
+   "artTop": 840,
+   "artH": 400
+  }
+ ],
+ "end": {
+  "text": "Odpoczynek po urazie *też jest pracą nad powrotem*.",
+  "cta": "Zapisz na czas przerwy"
+ }
+}

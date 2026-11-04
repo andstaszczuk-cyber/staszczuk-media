@@ -1,0 +1,105 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Po okresie startów *wydaje mi się, że robię za mało*",
+  "sub": "Skąd się bierze to złudzenie i jak sobie z nim radzić",
+  "art": {
+   "type": "chart",
+   "series": [
+    {
+     "pts": [
+      [
+       0,
+       0.3
+      ],
+      [
+       0.15,
+       0.62
+      ],
+      [
+       0.32,
+       0.84
+      ],
+      [
+       0.5,
+       0.9
+      ],
+      [
+       0.6,
+       0.88
+      ],
+      [
+       0.7,
+       0.36
+      ],
+      [
+       0.85,
+       0.3
+      ],
+      [
+       1,
+       0.32
+      ]
+     ],
+     "hl": true
+    }
+   ],
+   "marks": [
+    {
+     "x": 0.5,
+     "y": 0.9,
+     "label": "przygotowania",
+     "dy": -36
+    },
+    {
+     "x": 0.85,
+     "y": 0.3,
+     "label": "po starcie",
+     "dy": 64,
+     "hl": true
+    }
+   ],
+   "x": "czas"
+  }
+ },
+ "points": [
+  {
+   "title": "Po startach wszystko wydaje się mało",
+   "body": "Przez miesiące żyjesz w intensywnym rytmie. Kiedy z niego wychodzisz, powstaje złudzenie, że prawie nic nie robisz."
+  },
+  {
+   "title": "Nie zagłuszaj tego zadaniami",
+   "body": "Dokładanie kolejnych rzeczy tylko po to, żeby czuć się zajętą, kończy się raczej przebodźcowaniem.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "DOKŁADAM",
+     "items": [
+      "nowe zadania",
+      "kolejny kurs",
+      "ekstra trening"
+     ]
+    },
+    "right": {
+     "title": "PLANUJĘ",
+     "items": [
+      "odpoczynek",
+      "jedna rzecz",
+      "spokojny rytm"
+     ]
+    }
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Zaplanuj okres po starcie",
+   "body": "Rozpisz go tak samo jak przygotowania, z wpisanym odpoczynkiem. Mniej często znaczy więcej."
+  }
+ ],
+ "end": {
+  "text": "Po startach *mniej często znaczy więcej*.",
+  "cta": "Zapisz na okres po starcie"
+ }
+}

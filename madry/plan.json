@@ -238,5 +238,149 @@
   "filar": "głowa i ciało",
   "theme": "grafit",
   "temat_id": 34
+ },
+ {
+  "nr": 31,
+  "folder": "31-bez-treningu-sie-sypie",
+  "tytul": "Bez treningu wszystko mi się sypie",
+  "filar": "głowa",
+  "theme": "cieply",
+  "temat_id": 101
+ },
+ {
+  "nr": 32,
+  "folder": "32-podobna-sytuacja-lek",
+  "tytul": "Podobna sytuacja i od razu odpala się lęk",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 103
+ },
+ {
+  "nr": 33,
+  "folder": "33-nie-idzie-cisne-mocniej",
+  "tytul": "Nie idzie, więc cisnę mocniej",
+  "filar": "głowa i ciało",
+  "theme": "grafit",
+  "temat_id": 113
+ },
+ {
+  "nr": 34,
+  "folder": "34-upal-nie-dam-rady",
+  "tytul": "Było tak gorąco, że pomyślałam, że nie dam rady",
+  "filar": "ciało",
+  "theme": "cieply",
+  "temat_id": 109
+ },
+ {
+  "nr": 35,
+  "folder": "35-polezec-czy-lenistwo",
+  "tytul": "Wybrałam poleżeć i czuję, że to lenistwo",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 107
+ },
+ {
+  "nr": 36,
+  "folder": "36-gorszy-okres-cofam-sie",
+  "tytul": "Gorszy okres i boję się, że się cofam",
+  "filar": "głowa",
+  "theme": "grafit",
+  "temat_id": 104
+ },
+ {
+  "nr": 37,
+  "folder": "37-halas-na-rozgrzewce",
+  "tytul": "Na rozgrzewce tyle hałasu, że mnie to rozwala",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": 114
+ },
+ {
+  "nr": 38,
+  "folder": "38-reka-sztywnieje-w-finale",
+  "tytul": "W finale zaczęła mi sztywnieć ręka",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 112
+ },
+ {
+  "nr": 39,
+  "folder": "39-uraz-leze-nic-nie-robie",
+  "tytul": "Mam uraz, leżę i czuję, że nic nie robię",
+  "filar": "ciało",
+  "theme": "grafit",
+  "temat_id": 106
+ },
+ {
+  "nr": 40,
+  "folder": "40-lot-na-zawody",
+  "tytul": "Lot na zawody stresował mnie bardziej niż start",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": 124
+ },
+ {
+  "nr": 41,
+  "folder": "41-zgrupowanie-po-polnocy",
+  "tytul": "Na zgrupowaniu chodziłam spać po północy",
+  "filar": "ciało",
+  "theme": "czerwony",
+  "temat_id": 102
+ },
+ {
+  "nr": 42,
+  "folder": "42-boli-pieta-od-nowa",
+  "tytul": "Boli mnie pięta i wszystko buduję od nowa",
+  "filar": "głowa i ciało",
+  "theme": "grafit",
+  "temat_id": 116
+ },
+ {
+  "nr": 43,
+  "folder": "43-zmeczona-wyzywam-sie",
+  "tytul": "Zmęczona wyżywam się na bliskich",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": 123
+ },
+ {
+  "nr": 44,
+  "folder": "44-po-startach-robie-za-malo",
+  "tytul": "Po okresie startów wydaje mi się, że robię za mało",
+  "filar": "głowa",
+  "theme": "czerwony",
+  "temat_id": 105
+ },
+ {
+  "nr": 45,
+  "folder": "45-rozgrzewka-sie-przesunela",
+  "tytul": "Rozgrzewka się przesunęła i od razu panika",
+  "filar": "głowa i ciało",
+  "theme": "grafit",
+  "temat_id": 115
+ },
+ {
+  "nr": 46,
+  "folder": "46-nie-lubie-zimna",
+  "tytul": "Nie lubię zimna, a wszyscy mówią o morsowaniu",
+  "filar": "ciało",
+  "theme": "cieply",
+  "temat_id": 110
+ },
+ {
+  "nr": 47,
+  "folder": "47-rywalka-narzuci-tempo",
+  "tytul": "Boję się, że rywalka narzuci tempo i się zmęczę",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 108
+ },
+ {
+  "nr": 48,
+  "folder": "48-po-chorobie-sprawdzian",
+  "tytul": "Po chorobie nie wiem, na co mnie stać",
+  "filar": "głowa i ciało",
+  "theme": "grafit",
+  "temat_id": 121
  }
 ]

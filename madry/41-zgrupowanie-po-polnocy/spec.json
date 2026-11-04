@@ -1,0 +1,96 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Na zgrupowaniu *chodziłam spać po północy*",
+  "sub": "Dlaczego senność w dzień odbija się na treningu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 560,
+     "y": 40,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 620,
+     "y": 300,
+     "s": 170,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Niewyspana gubisz szczegóły",
+   "body": "Kiedy śpisz mało, pod koniec treningu trudniej pilnować techniki. Głowa szybciej się męczy i gubi drobiazgi."
+  },
+  {
+   "title": "Przesuń porę kładzenia się",
+   "body": "Kładź się trochę wcześniej każdego dnia zgrupowania, zamiast nadrabiać senność w ciągu dnia.",
+   "art": {
+    "type": "week",
+    "caption": "WIECZORY NA ZGRUPOWANIU",
+    "days": [
+     {
+      "d": "1",
+      "icon": "moon",
+      "label": "późno",
+      "dim": true
+     },
+     {
+      "d": "2",
+      "icon": "moon",
+      "label": "późno",
+      "dim": true
+     },
+     {
+      "d": "3",
+      "icon": "moon",
+      "label": "wcześniej",
+      "mark": "ring"
+     },
+     {
+      "d": "4",
+      "icon": "moon",
+      "label": "wcześniej",
+      "mark": "ring"
+     },
+     {
+      "d": "5",
+      "icon": "bed",
+      "label": "stała pora",
+      "mark": "hl"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Sen to część planu",
+   "body": "Dbanie o sen to praca nad formą tak samo jak trening. Jeśli kłopot się ciągnie, porozmawiaj o nim z lekarzem."
+  }
+ ],
+ "end": {
+  "text": "Na zgrupowaniu sen jest *częścią treningu*.",
+  "cta": "Zapisz przed zgrupowaniem"
+ }
+}

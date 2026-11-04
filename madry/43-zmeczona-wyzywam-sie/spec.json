@@ -1,0 +1,87 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Zmęczona *wyżywam się na bliskich*",
+  "sub": "Dlaczego zmęczenie tak łatwo zamienia się w złość",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 60,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "cloud",
+     "x": 700,
+     "y": 110,
+     "s": 1,
+     "c": "soft"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 660,
+     "y": 50,
+     "s": 110,
+     "c": "fg"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 520,
+     "y": 300,
+     "s": 200,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zmęczona szybciej wybuchasz",
+   "body": "Kiedy brakuje ci energii, trudniej panować nad emocjami. Drobiazg, który rano byś przemilczała, wieczorem potrafi wywołać wybuch."
+  },
+  {
+   "title": "Odłóż trudne sprawy",
+   "body": "Zmęczenie to sygnał, żeby przesunąć ważne rozmowy i decyzje. Wrócisz do nich, kiedy trochę odpoczniesz.",
+   "art": {
+    "type": "bars",
+    "caption": "ENERGIA W CIĄGU DNIA",
+    "items": [
+     {
+      "label": "rano",
+      "v": 0.85
+     },
+     {
+      "label": "po szkole",
+      "v": 0.55
+     },
+     {
+      "label": "wieczorem",
+      "v": 0.2,
+      "hl": true,
+      "note": "tu ostrożnie"
+     }
+    ]
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Najpierw odpocznij",
+   "body": "Chwila ciszy, sen i posiłek to pierwsza pomoc na złość ze zmęczenia. Dopiero potem rozmowa."
+  }
+ ],
+ "end": {
+  "text": "Zmęczenie to sygnał, *żeby najpierw odpocząć*.",
+  "cta": "Zapisz na trudny wieczór"
+ }
+}

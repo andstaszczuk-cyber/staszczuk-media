@@ -1,0 +1,56 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "W finale *zaczęła mi sztywnieć ręka*",
+  "sub": "Jak myślenie o wyniku przechodzi do ciała",
+  "art": {
+   "type": "bodyMap",
+   "points": [
+    {
+     "part": "head",
+     "label": "liczę, ile brakuje",
+     "side": 1,
+     "ly": 40
+    },
+    {
+     "part": "chest",
+     "label": "płytki oddech",
+     "side": 0
+    },
+    {
+     "part": "hands",
+     "label": "ręka sztywnieje",
+     "side": 1,
+     "ly": 330
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Myślenie wpływa na ciało",
+   "body": "Kiedy głowa ucieka do liczenia punktów i tego, ile brakuje, ciało dostaje sygnał stresu. Ręka sztywnieje, oddech się skraca."
+  },
+  {
+   "title": "Zauważ moment ucieczki",
+   "body": "Naucz się wyłapywać chwilę, w której zaczynasz liczyć. Samo zauważenie daje ci już wybór, co robisz dalej."
+  },
+  {
+   "title": "Wróć do swojej rutyny",
+   "body": "Oddech, czucie ręki i kolejne kroki rutyny. Wracasz do tego, co robisz teraz, a wynik zostaje na koniec.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "liczę punkty",
+    "via": "wracam",
+    "to": "moja rutyna"
+   },
+   "artTop": 820,
+   "artH": 420
+  }
+ ],
+ "end": {
+  "text": "Wynik policzysz po finale, *teraz jest rutyna*.",
+  "cta": "Zapisz przed finałem"
+ }
+}

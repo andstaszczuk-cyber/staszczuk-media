@@ -1,0 +1,70 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Boli mnie pięta i *wszystko buduję od nowa*",
+  "sub": "Jak wracać po urazie, kiedy ból zmienia ocenę szans",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 100,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "foot",
+     "x": 560,
+     "y": 220,
+     "s": 220,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Ból zmienia ocenę",
+   "body": "Kontuzja wpływa na ruch, ale też na to, jak postrzegasz, ile pracy trzeba włożyć. Wtedy wszystko wydaje się dalej."
+  },
+  {
+   "title": "Małe etapy",
+   "body": "Rozpisz powrót na małe kroki i notuj każdy. Zapisane etapy przywracają poczucie, że masz na coś wpływ.",
+   "art": {
+    "type": "stack",
+    "cols": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "labels": [
+     "etap 1",
+     "etap 2",
+     "etap 3",
+     "etap 4",
+     "etap 5"
+    ],
+    "caption": "każdy etap zapisany"
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Ból kontroluj z fizjoterapeutą",
+   "body": "O obciążeniach i o tym, co robić, gdy ból wraca, decyduj razem z fizjoterapeutą. Ty pilnujesz kroków i notatek."
+  }
+ ],
+ "end": {
+  "text": "Nową dyspozycję buduje się *krok po kroku*.",
+  "cta": "Zapisz na czas powrotu"
+ }
+}

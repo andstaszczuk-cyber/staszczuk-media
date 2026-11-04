@@ -1,0 +1,87 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Lot na zawody *stresował mnie bardziej niż start*",
+  "sub": "Jak przygotować się do podróży, która cię męczy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "cloud",
+     "x": 140,
+     "y": 110,
+     "s": 1.2,
+     "c": "soft"
+    },
+    {
+     "k": "cloud",
+     "x": 760,
+     "y": 150,
+     "s": 1,
+     "c": "soft"
+    },
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 230,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "wind",
+     "x": 640,
+     "y": 330,
+     "s": 140,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Plan na podróż",
+   "body": "Przygotuj wcześniej, co robisz w trakcie lotu. Oddech, zajęcie dla głowy i ktoś zaufany obok to już całkiem sporo.",
+   "art": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "wind",
+      "label": "oddech"
+     },
+     {
+      "icon": "book",
+      "label": "zajęcie"
+     },
+     {
+      "icon": "people",
+      "label": "rozmowa"
+     },
+     {
+      "icon": "note",
+      "label": "muzyka"
+     }
+    ]
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Dyskomfort można przejść",
+   "body": "Nie da się zabrać całego dyskomfortu. Uczysz się z nim lepiej obchodzić i każda podróż jest takim treningiem."
+  },
+  {
+   "title": "Silny lęk omów ze specjalistą",
+   "body": "Jeśli lęk przed lataniem jest bardzo silny, porozmawiaj o nim z lekarzem albo psychoterapeutą jeszcze przed wyjazdem."
+  }
+ ],
+ "end": {
+  "text": "Każda podróż to *mały trening spokoju*.",
+  "cta": "Zapisz przed wyjazdem"
+ }
+}

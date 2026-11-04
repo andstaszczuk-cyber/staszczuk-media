@@ -1,0 +1,89 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Wybrałam poleżeć i *czuję, że to lenistwo*",
+  "sub": "Dlaczego odpoczynek też jest częścią treningu",
+  "art": {
+   "type": "week",
+   "caption": "TWÓJ TYDZIEŃ",
+   "days": [
+    {
+     "d": "PN",
+     "icon": "dumbbell",
+     "label": "trening"
+    },
+    {
+     "d": "WT",
+     "icon": "clock",
+     "label": "praca"
+    },
+    {
+     "d": "ŚR",
+     "icon": "dumbbell",
+     "label": "trening"
+    },
+    {
+     "d": "CZ",
+     "icon": "foot",
+     "label": "wyjazd"
+    },
+    {
+     "d": "PT",
+     "icon": "clock",
+     "label": "praca"
+    },
+    {
+     "d": "SB",
+     "icon": "trophy",
+     "label": "start"
+    },
+    {
+     "d": "ND",
+     "icon": "bed",
+     "label": "sofa",
+     "mark": "hl"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Logistyka też męczy",
+   "body": "Każdy dojazd, załatwianie spraw i pakowanie zabierają energię. Przy pracy i treningu czasu na regenerację jest i tak mało.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "foot",
+      "label": "dojazdy"
+     },
+     {
+      "icon": "phone",
+      "label": "sprawy"
+     },
+     {
+      "icon": "clock",
+      "label": "praca"
+     }
+    ],
+    "h": 380,
+    "note": "to też jest wysiłek"
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Leżenie to regeneracja",
+   "body": "Organizm zaczyna się regenerować wtedy, kiedy dosłownie nic nie robisz. Sofa w wolny dzień to świadoma decyzja."
+  },
+  {
+   "title": "Wpisz to do tygodnia",
+   "body": "Zaplanuj czas, w którym naprawdę nic się nie robi, tak samo jak planujesz trening. Wtedy łatwiej odpuścić wyrzuty."
+  }
+ ],
+ "end": {
+  "text": "Odpoczynek w domu to też *praca nad formą*.",
+  "cta": "Zapisz na weekend"
+ }
+}
