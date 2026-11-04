@@ -1,0 +1,86 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Latem siedzę na tarasie, *zimą wszystko mi się włącza*",
+  "sub": "Jak przygotować głowę i ciało na chłodne miesiące",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "snow",
+     "x": 500,
+     "y": 90,
+     "s": 130,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 700,
+     "y": 230,
+     "s": 140,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zima zmienia nastrój",
+   "body": "Mniej światła, mniej ludzi wokół i więcej siedzenia w domu. U wielu osób to wpływa na samopoczucie."
+  },
+  {
+   "title": "Zaplanuj ruch i ludzi",
+   "body": "Stałe dni na trening, spacer i spotkania. Wtedy jest mniej czasu na myślenie o pogodzie.",
+   "art": {
+    "type": "week",
+    "days": [
+     {
+      "d": "Pn",
+      "icon": "dumbbell",
+      "label": "trening"
+     },
+     {
+      "d": "Śr",
+      "icon": "people",
+      "label": "znajomi",
+      "mark": "hl"
+     },
+     {
+      "d": "Pt",
+      "icon": "foot",
+      "label": "spacer"
+     },
+     {
+      "d": "Nd",
+      "icon": "people",
+      "label": "rodzina"
+     }
+    ]
+   },
+   "artTop": 860,
+   "artH": 380
+  },
+  {
+   "title": "Nie zostawaj z tym sam",
+   "body": "Jeśli obniżony nastrój trzyma się długo, porozmawiaj z lekarzem albo z psychoterapeutą."
+  }
+ ],
+ "end": {
+  "text": "Zima jest łatwiejsza, *kiedy masz plan*.",
+  "cta": "Zapisz na zimę"
+ }
+}

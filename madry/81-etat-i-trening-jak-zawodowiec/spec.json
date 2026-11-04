@@ -1,0 +1,80 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Trenuję jak zawodowiec, *a pracuję na etacie*",
+  "sub": "Skąd się bierze to ciągłe zmęczenie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "backpack",
+     "x": 520,
+     "y": 130,
+     "w": 240,
+     "h": 320,
+     "labels": [
+      "praca",
+      "dom",
+      "dojazdy",
+      "trening"
+     ]
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Policz cały tydzień",
+   "body": "Praca, dojazdy i dom to też obciążenie. Zawodowiec po treningu odpoczywa, a amator idzie do pracy.",
+   "art": {
+    "type": "bars",
+    "caption": "MÓJ TYDZIEŃ",
+    "items": [
+     {
+      "label": "praca",
+      "v": 0.8
+     },
+     {
+      "label": "dojazdy",
+      "v": 0.3
+     },
+     {
+      "label": "dom",
+      "v": 0.5
+     },
+     {
+      "label": "trening",
+      "v": 0.65,
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 860,
+   "artH": 400
+  },
+  {
+   "title": "Planuj pod czas na sen",
+   "body": "Najpierw sprawdź, ile realnie masz czasu na sen i odpoczynek. Dopiero potem dopasuj plan."
+  },
+  {
+   "title": "Czasem mniej znaczy więcej",
+   "body": "Jeden mocny trening mniej w tygodniu może dać więcej niż ciągłe trenowanie na zmęczeniu."
+  }
+ ],
+ "end": {
+  "text": "Amator też potrzebuje *czasu na regenerację*.",
+  "cta": "Zapisz na plan tygodnia"
+ }
+}

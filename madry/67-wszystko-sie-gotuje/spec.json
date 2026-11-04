@@ -1,0 +1,69 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Jak coś nie idzie, *wszystko się we mnie gotuje*",
+  "sub": "Co zrobić ze złością po frustrującym treningu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "gauge",
+     "x": 650,
+     "y": 400,
+     "r": 170,
+     "v": 0.92
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Złość wiąże się z frustracją",
+   "body": "Coś nie wychodzi, a tobie zależy. W ciele zbiera się energia, która szuka ujścia, i to jest całkiem normalne."
+  },
+  {
+   "title": "Rozładuj ją ruchem",
+   "body": "Spacer, rower albo kilka mocnych serii na siłowni. Energię wyrzucasz z siebie, zamiast ją tłumić.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "pause",
+      "label": "tłumię"
+     },
+     {
+      "icon": "bolt",
+      "label": "wybucham"
+     },
+     {
+      "icon": "dumbbell",
+      "label": "rozładowuję",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Daj sobie czas",
+   "body": "Organizm naturalnie reguluje większość emocji. Zajmuje to tylko trochę czasu."
+  }
+ ],
+ "end": {
+  "text": "Złość też potrzebuje *ujścia i czasu*.",
+  "cta": "Zapisz na trudny trening"
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Wstaję po kilku budzikach *i jestem rozdrażniona*",
+  "sub": "Co już działa w twoim śnie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 100,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 470,
+     "y": 130,
+     "s": 110,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 610,
+     "y": 230,
+     "s": 110,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 750,
+     "y": 130,
+     "s": 110,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Sprawdź, kiedy jest najlepiej",
+   "body": "Po latach wiesz już sporo o swoim śnie. Zapisz, po jakich porankach czujesz się lepiej."
+  },
+  {
+   "title": "Jeden budzik zamiast kilku",
+   "body": "Kolejne wybudzenia raczej dobijają, niż pomagają. Spróbuj wstać z pierwszym.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "clock",
+      "label": "jeden budzik",
+      "hl": true
+     },
+     {
+      "icon": "moon",
+      "label": "stała pora"
+     },
+     {
+      "icon": "phone",
+      "label": "telefon dalej"
+     }
+    ]
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Skonsultuj przewlekłe zmęczenie",
+   "body": "Jeśli od lat chodzisz zmęczona, porozmawiaj z lekarzem albo ze specjalistą od snu."
+  }
+ ],
+ "end": {
+  "text": "Lepszy poranek zaczyna się *od jednego budzika*.",
+  "cta": "Zapisz na wieczór"
+ }
+}

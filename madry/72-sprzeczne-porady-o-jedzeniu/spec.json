@@ -1,0 +1,72 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Czytam o jedzeniu *i już nic nie wiem*",
+  "sub": "Dlaczego porady z sieci rzadko pasują do sportowca",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 100,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 470,
+     "y": 290,
+     "s": 170,
+     "c": "fig2"
+    },
+    {
+     "k": "cloud",
+     "x": 680,
+     "y": 110,
+     "s": 1,
+     "c": "A",
+     "text": "?"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Porady piszą dla kogoś innego",
+   "body": "Każdy artykuł mówi co innego, bo jest dla przeciętnego człowieka. Ty masz swój sport i swoje obciążenia."
+  },
+  {
+   "title": "Idź do dietetyka sportowego",
+   "body": "Ktoś, kto zna twoją dyscyplinę i treningi, ułoży jedzenie pod ciebie. Przed wizytą zapisz kilka rzeczy.",
+   "art": {
+    "type": "notes",
+    "title": "DO DIETETYKA",
+    "lines": [
+     "mój tydzień treningów",
+     "kiedy mam starty",
+     "po czym czuję się gorzej"
+    ],
+    "crossed": [
+     "porady z sieci"
+    ]
+   },
+   "artTop": 860,
+   "artH": 400
+  },
+  {
+   "title": "Jedz spokojnie, przy stole",
+   "body": "Bez klawiatury i telefonu w ręce. To prosta rzecz, a pomaga zauważyć, co jesz."
+  }
+ ],
+ "end": {
+  "text": "Jedzenie warto ułożyć *pod siebie*.",
+  "cta": "Zapisz na później"
+ }
+}

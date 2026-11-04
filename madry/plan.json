@@ -478,5 +478,245 @@
   "filar": "głowa i ciało",
   "theme": "grafit",
   "temat_id": 122
+ },
+ {
+  "nr": 61,
+  "folder": "61-wyspalem-sie-a-zle",
+  "tytul": "Wyspałem się, wszystko zrobiłem, a czuję się źle",
+  "filar": "ciało",
+  "theme": "cieply",
+  "temat_id": 134
+ },
+ {
+  "nr": 62,
+  "folder": "62-serce-wali-nic-nie-slysze",
+  "tytul": "Przed meczem serce wali, a ja nic nie słyszę",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 141
+ },
+ {
+  "nr": 63,
+  "folder": "63-chce-robic-wiecej",
+  "tytul": "Wiem, że trzeba odpoczywać, ale chcę robić więcej",
+  "filar": "głowa",
+  "theme": "grafit",
+  "temat_id": 143
+ },
+ {
+  "nr": 64,
+  "folder": "64-po-szkole-nie-mam-sily",
+  "tytul": "Po ośmiu godzinach w szkole nie mam siły na nic",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": 131
+ },
+ {
+  "nr": 65,
+  "folder": "65-koniec-kariery-rytm-dnia",
+  "tytul": "Skończyłem karierę i nie wiem, co z dniem",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 153
+ },
+ {
+  "nr": 66,
+  "folder": "66-zwiedzanie-przed-biegiem",
+  "tytul": "Najpierw zwiedzałam, a potem nie miałam nóg",
+  "filar": "ciało",
+  "theme": "grafit",
+  "temat_id": 139
+ },
+ {
+  "nr": 67,
+  "folder": "67-wszystko-sie-gotuje",
+  "tytul": "Jak coś nie idzie, wszystko się we mnie gotuje",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": 135
+ },
+ {
+  "nr": 68,
+  "folder": "68-zle-spie-przed-zawodami",
+  "tytul": "Jak źle śpię przed zawodami, nic mi nie wychodzi",
+  "filar": "ciało",
+  "theme": "czerwony",
+  "temat_id": 137
+ },
+ {
+  "nr": 69,
+  "folder": "69-nie-czuje-ruchu-w-glowie",
+  "tytul": "W głowie nie czuję ruchu, który chcę zrobić w meczu",
+  "filar": "głowa i ciało",
+  "theme": "grafit",
+  "temat_id": 138
+ },
+ {
+  "nr": 70,
+  "folder": "70-przerwa-i-telefon",
+  "tytul": "Mam dziesięć minut przerwy i od razu telefon",
+  "filar": "głowa",
+  "theme": "cieply",
+  "temat_id": 146
+ },
+ {
+  "nr": 71,
+  "folder": "71-spaleni-przed-walka",
+  "tytul": "Przed walką widzę, kto już się spalił",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 133
+ },
+ {
+  "nr": 72,
+  "folder": "72-sprzeczne-porady-o-jedzeniu",
+  "tytul": "Czytam o jedzeniu i już nic nie wiem",
+  "filar": "ciało",
+  "theme": "grafit",
+  "temat_id": 150
+ },
+ {
+  "nr": 73,
+  "folder": "73-zima-sam-wszystko-sie-wlacza",
+  "tytul": "Latem siedzę na tarasie, zimą wszystko mi się włącza",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": 140
+ },
+ {
+  "nr": 74,
+  "folder": "74-zjazd-po-zawodach",
+  "tytul": "Po zawodach mam zjazd, a chcę być w formie codziennie",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 148
+ },
+ {
+  "nr": 75,
+  "folder": "75-rozgrzewka-po-co",
+  "tytul": "Rozgrzewka mnie męczy i nie wiem, po co ją robię",
+  "filar": "ciało",
+  "theme": "grafit",
+  "temat_id": 136
+ },
+ {
+  "nr": 76,
+  "folder": "76-odtwarzam-bledy-po-meczu",
+  "tytul": "Po meczu w kółko odtwarzam błędy",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": 159
+ },
+ {
+  "nr": 77,
+  "folder": "77-trenuje-dla-wszystkich",
+  "tytul": "Trenuję dla wszystkich, tylko nie dla siebie",
+  "filar": "głowa",
+  "theme": "czerwony",
+  "temat_id": 156
+ },
+ {
+  "nr": 78,
+  "folder": "78-rosne-i-nie-wychodzi",
+  "tytul": "Rosnę i to, co wychodziło, teraz nie wychodzi",
+  "filar": "głowa i ciało",
+  "theme": "grafit",
+  "temat_id": 152
+ },
+ {
+  "nr": 79,
+  "folder": "79-kilka-budzikow",
+  "tytul": "Wstaję po kilku budzikach i jestem rozdrażniona",
+  "filar": "ciało",
+  "theme": "cieply",
+  "temat_id": 147
+ },
+ {
+  "nr": 80,
+  "folder": "80-zamulony-w-pierwszej-rundzie",
+  "tytul": "Do pierwszej rundy wchodzę zamulony",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 144
+ },
+ {
+  "nr": 81,
+  "folder": "81-etat-i-trening-jak-zawodowiec",
+  "tytul": "Trenuję jak zawodowiec, a pracuję na etacie",
+  "filar": "głowa i ciało",
+  "theme": "grafit",
+  "temat_id": 158
+ },
+ {
+  "nr": 82,
+  "folder": "82-boje-sie-odpuscic-po-sezonie",
+  "tytul": "Sezon się skończył, a ja boję się odpuścić",
+  "filar": "ciało",
+  "theme": "cieply",
+  "temat_id": 154
+ },
+ {
+  "nr": 83,
+  "folder": "83-czekam-az-cos-strzeli",
+  "tytul": "Wróciłem po kontuzji i czekam, aż coś strzeli",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 157
+ },
+ {
+  "nr": 84,
+  "folder": "84-dzien-nie-wyszedl-zamartwiam-sie",
+  "tytul": "Jeden dzień nie wyszedł i już się zamartwiam",
+  "filar": "głowa",
+  "theme": "grafit",
+  "temat_id": 160
+ },
+ {
+  "nr": 85,
+  "folder": "85-w-ringu-mnie-odcina",
+  "tytul": "Kiedyś ciało robiło wszystko samo, a teraz w ringu myślę",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": 142
+ },
+ {
+  "nr": 86,
+  "folder": "86-cykl-i-trening",
+  "tytul": "W niektóre dni trenuje mi się gorzej i głupio mi o tym mówić",
+  "filar": "ciało",
+  "theme": "czerwony",
+  "temat_id": 151
+ },
+ {
+  "nr": 87,
+  "folder": "87-nudze-sie-w-polowie-zawodow",
+  "tytul": "W połowie zawodów zaczynam się nudzić",
+  "filar": "głowa i ciało",
+  "theme": "grafit",
+  "temat_id": 145
+ },
+ {
+  "nr": 88,
+  "folder": "88-dzien-startu-energia",
+  "tytul": "W dniu startu nie wiem, co ze sobą zrobić",
+  "filar": "ciało",
+  "theme": "cieply",
+  "temat_id": 155
+ },
+ {
+  "nr": 89,
+  "folder": "89-zmeczony-czarne-mysli",
+  "tytul": "Jestem tak zmęczony, że nie mam siły na własne myśli",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": 132
+ },
+ {
+  "nr": 90,
+  "folder": "90-zima-nie-chce-mi-sie-wychodzic",
+  "tytul": "W zimie w ogóle nie chce mi się wychodzić",
+  "filar": "głowa i ciało",
+  "theme": "grafit",
+  "temat_id": 149
  }
 ]

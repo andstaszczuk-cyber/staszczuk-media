@@ -1,0 +1,81 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Przed meczem serce wali, *a ja nic nie słyszę*",
+  "sub": "Co się dzieje, kiedy stres zamyka cię w głowie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 120,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 520,
+     "y": 140,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "wind",
+     "x": 690,
+     "y": 300,
+     "s": 140,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Nazwij sygnały z ciała",
+   "body": "Szybsze bicie serca, przyspieszony oddech, drżenie rąk. Kiedy je nazwiesz, łatwiej zauważyć je na czas.",
+   "art": {
+    "type": "bodyMap",
+    "points": [
+     {
+      "part": "chest",
+      "label": "serce",
+      "side": 1
+     },
+     {
+      "part": "stomach",
+      "label": "brzuch",
+      "side": 0
+     },
+     {
+      "part": "hands",
+      "label": "ręce",
+      "side": 1,
+      "ly": 330
+     }
+    ]
+   },
+   "artTop": 800,
+   "artH": 440
+  },
+  {
+   "title": "Sprawdź, co mówisz do siebie",
+   "body": "W takiej chwili uwaga ucieka do środka. Zapisz po meczu, jakie zdania krążyły ci wtedy w głowie."
+  },
+  {
+   "title": "Wróć na zewnątrz",
+   "body": "Dłuższy wydech, wzrok na osobę, która mówi, i jedno krótkie zdanie. Wtedy znowu słyszysz trenera."
+  }
+ ],
+ "end": {
+  "text": "Stres może pomagać, *jeśli cię nie odcina*.",
+  "cta": "Zapisz przed meczem"
+ }
+}

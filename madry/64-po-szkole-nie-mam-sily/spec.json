@@ -1,0 +1,83 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po ośmiu godzinach w szkole *nie mam siły na nic*",
+  "sub": "Długi dzień w ławce też jest obciążeniem",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 120,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 470,
+     "y": 300,
+     "s": 160,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 680,
+     "y": 180,
+     "s": 160,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Uznaj, że to realne zmęczenie",
+   "body": "Wiele godzin skupienia, hałas i siedzenie w jednej pozycji zmęczyłyby każdego. To całkiem normalne.",
+   "art": {
+    "type": "bars",
+    "caption": "CO MĘCZY W CIĄGU DNIA",
+    "items": [
+     {
+      "label": "szkoła",
+      "v": 0.85,
+      "hl": true
+     },
+     {
+      "label": "dojazdy",
+      "v": 0.25
+     },
+     {
+      "label": "nauka w domu",
+      "v": 0.45
+     },
+     {
+      "label": "trening",
+      "v": 0.6
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Porozmawiaj z trenerem",
+   "body": "Powiedz, które dni w szkole są najcięższe. Często da się wtedy zrobić lżejszą jednostkę."
+  },
+  {
+   "title": "Idź i zrób swoje",
+   "body": "Szkoły nie trzeba lubić. Czasem po prostu idziesz i robisz, tak jak na trudnym treningu."
+  }
+ ],
+ "end": {
+  "text": "Długi dzień w szkole *też się liczy*.",
+  "cta": "Zapisz na trudny tydzień"
+ }
+}

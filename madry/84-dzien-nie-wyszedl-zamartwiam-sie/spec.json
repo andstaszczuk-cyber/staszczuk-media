@@ -1,0 +1,66 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Jeden dzień nie wyszedł *i już się zamartwiam*",
+  "sub": "Forma faluje i nie da się przewidzieć każdego dnia",
+  "art": {
+   "type": "week",
+   "days": [
+    {
+     "d": "Pn",
+     "icon": "check",
+     "label": "dobrze"
+    },
+    {
+     "d": "Wt",
+     "icon": "check",
+     "label": "dobrze"
+    },
+    {
+     "d": "Śr",
+     "icon": "cloudRain",
+     "label": "gorzej",
+     "mark": "ring"
+    },
+    {
+     "d": "Czw",
+     "icon": "check",
+     "label": "dobrze"
+    },
+    {
+     "d": "Pt",
+     "icon": "check",
+     "label": "dobrze"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Forma faluje",
+   "body": "Każdy moment może być inny, do samego końca. Gorsze dni są częścią drogi.",
+   "art": {
+    "type": "wander",
+    "zone": "moje zadania",
+    "out1": "zła noc",
+    "out2": "słabszy trening",
+    "back": "wracam"
+   },
+   "artTop": 800,
+   "artH": 440
+  },
+  {
+   "title": "Oceniaj się po zadaniach",
+   "body": "Zamiast pytać, czy dzień był idealny, sprawdź wieczorem, czy zrobiłaś swoje zadania."
+  },
+  {
+   "title": "Pilnuj zadań spokojnie",
+   "body": "Zapisz, co nie wyszło i co jutro zrobisz inaczej. Potem zamknij temat na dziś."
+  }
+ ],
+ "end": {
+  "text": "Dobry tydzień *nie musi mieć idealnych dni*.",
+  "cta": "Zapisz i wróć"
+ }
+}

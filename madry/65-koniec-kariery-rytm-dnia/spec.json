@@ -1,0 +1,73 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Skończyłem karierę *i nie wiem, co z dniem*",
+  "sub": "Jak poukładać rytm, kiedy treningów już nie ma",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 120,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 520,
+     "y": 110,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 690,
+     "y": 300,
+     "s": 150,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zauważ, co dawał ci trening",
+   "body": "Stałe pobudki, posiłki, ruch i ludzie z drużyny. Kiedy treningi znikają, to wszystko trzeba poukładać od nowa."
+  },
+  {
+   "title": "Zaplanuj nowy rytm",
+   "body": "Stała pora wstawania, pracy i snu, a do tego ruch dla zdrowia i przyjemności.",
+   "art": {
+    "type": "hub",
+    "center": "nowy dzień",
+    "icon": "sun",
+    "items": [
+     "ruch",
+     "praca",
+     "ludzie",
+     "sen",
+     "pasja"
+    ],
+    "hl": 0
+   },
+   "artTop": 780,
+   "artH": 460
+  },
+  {
+   "title": "Poszukaj wsparcia",
+   "body": "Trener przygotowania motorycznego pomoże dobrać ruch, a psycholog poukładać to, co dzieje się w głowie."
+  }
+ ],
+ "end": {
+  "text": "Kariera się kończy, *rytm możesz zbudować od nowa*.",
+  "cta": "Zapisz na czas zmiany"
+ }
+}

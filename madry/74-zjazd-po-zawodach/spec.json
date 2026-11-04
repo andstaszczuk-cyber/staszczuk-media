@@ -1,0 +1,87 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po zawodach mam zjazd, *a chcę być w formie codziennie*",
+  "sub": "Dlaczego rozładowanie po starcie jest normalne",
+  "art": {
+   "type": "chart",
+   "series": [
+    {
+     "pts": [
+      [
+       0,
+       0.3
+      ],
+      [
+       0.25,
+       0.42
+      ],
+      [
+       0.5,
+       0.95
+      ],
+      [
+       0.75,
+       0.38
+      ],
+      [
+       1,
+       0.5
+      ]
+     ],
+     "hl": true
+    }
+   ],
+   "marks": [
+    {
+     "x": 0.5,
+     "y": 0.95,
+     "hl": true,
+     "label": "start"
+    },
+    {
+     "x": 0.75,
+     "y": 0.38,
+     "label": "zjazd",
+     "dy": 60
+    }
+   ],
+   "x": "czas"
+  }
+ },
+ "points": [
+  {
+   "title": "Rozładowanie to część cyklu",
+   "body": "Po dużym wysiłku i emocjach organizm potrzebuje odpocząć. Tak po prostu działa."
+  },
+  {
+   "title": "Zaplanuj kilka lżejszych dni",
+   "body": "Spokojny trening, więcej snu, spacer. Najlepiej ustalić je z trenerem jeszcze przed startem.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "bolt",
+     "label": "codziennie na maksa",
+     "sub": "organizm tego nie utrzyma",
+     "cross": true
+    },
+    "right": {
+     "icon": "battery",
+     "label": "start i odpoczynek",
+     "sub": "naturalny rytm"
+    }
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Nie oceniaj się po zjeździe",
+   "body": "Ciężkie nogi i gorszy nastrój po starcie raczej niewiele mówią o twojej formie."
+  }
+ ],
+ "end": {
+  "text": "Forma faluje *i to jest w porządku*.",
+  "cta": "Zapisz po zawodach"
+ }
+}

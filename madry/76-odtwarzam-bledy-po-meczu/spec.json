@@ -1,0 +1,69 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po meczu *w kółko odtwarzam błędy*",
+  "sub": "Jak zamknąć mecz w głowie i odpocząć",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "circle",
+     "x": 640,
+     "y": 250,
+     "r": 150,
+     "fill": "none",
+     "stroke": "A",
+     "sw": 10,
+     "dash": true
+    },
+    {
+     "k": "icon",
+     "name": "play",
+     "x": 580,
+     "y": 190,
+     "s": 130,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Krótka refleksja na piśmie",
+   "body": "Trzy, cztery minuty zaraz po meczu. Co wyszło, co poprawić, i zamykasz notes.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "błędy w głowie",
+    "via": "zapisuję",
+    "toIcon": "paper",
+    "to": "zamknięte na dziś"
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Przejdź do regeneracji",
+   "body": "Prysznic, jedzenie, spokojny wieczór i sen. Ciało potrzebuje zejść z napięcia."
+  },
+  {
+   "title": "Wróć do tego z trenerem",
+   "body": "Następnego dnia, na spokojnie. Wtedy błędy są materiałem do pracy."
+  }
+ ],
+ "end": {
+  "text": "Mecz możesz *zamknąć na kartce*.",
+  "cta": "Zapisz po meczu"
+ }
+}

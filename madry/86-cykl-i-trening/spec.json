@@ -1,0 +1,69 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "W niektóre dni trenuje mi się gorzej *i głupio mi o tym mówić*",
+  "sub": "Jak rozmawiać o tym, co dzieje się w ciele",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 120,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 500,
+     "y": 150,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 680,
+     "y": 290,
+     "s": 140,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Każdy organizm reaguje inaczej",
+   "body": "U jednych samopoczucie w ciągu miesiąca prawie się nie zmienia, u innych wyraźnie. Jedno i drugie jest w porządku."
+  },
+  {
+   "title": "Obserwuj i zapisuj",
+   "body": "Krótkie notatki o samopoczuciu i treningu pomagają zobaczyć, co się powtarza.",
+   "art": {
+    "type": "notes",
+    "title": "MOJE OBSERWACJE",
+    "lines": [
+     "jak się czuję",
+     "jak idzie trening",
+     "co mi pomaga"
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Powiedz tyle, ile chcesz",
+   "body": "Trenerowi często wystarczy krótka informacja. Szczegóły i niepokojące objawy omów z lekarzem."
+  }
+ ],
+ "end": {
+  "text": "O swoim ciele możesz mówić *na swoich zasadach*.",
+  "cta": "Zapisz na później"
+ }
+}

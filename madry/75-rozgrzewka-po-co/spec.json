@@ -1,0 +1,79 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Rozgrzewka mnie męczy *i nie wiem, po co ją robię*",
+  "sub": "Każde ćwiczenie ma swój cel",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 100,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 170,
+     "text": "po co?",
+     "size": 52
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 600,
+     "y": 330,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zapytaj trenera o cel",
+   "body": "Czemu służy każde ćwiczenie. Łatwiej robić coś, co ma dla ciebie sens.",
+   "art": {
+    "type": "table",
+    "good": true,
+    "left": "ĆWICZENIE",
+    "right": "PO CO",
+    "rows": [
+     [
+      "skoki",
+      "lądowanie na nogach"
+     ],
+     [
+      "stabilizacja",
+      "kontrola ciała"
+     ],
+     [
+      "przyspieszenia",
+      "gotowość do gry"
+     ]
+    ]
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Nie musisz tego lubić",
+   "body": "Wystarczy, że wiesz, po co to robisz. Wtedy ćwiczenie męczy mniej w głowie."
+  },
+  {
+   "title": "Sprawdź, ile wkładasz wysiłku",
+   "body": "Jeśli rozgrzewka wykańcza cię przed treningiem, powiedz trenerowi. Może coś warto dopasować."
+  }
+ ],
+ "end": {
+  "text": "Rozgrzewka z celem *męczy mniej w głowie*.",
+  "cta": "Zapisz przed treningiem"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Przed walką widzę, *kto już się spalił*",
+  "sub": "Jak stres zjada siły, zanim zaczniesz",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 40,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "wind",
+     "x": 400,
+     "y": 120,
+     "s": 130,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 600,
+     "y": 250,
+     "s": 230,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Sprawdź, ile kosztuje cię stres",
+   "body": "Napięte mięśnie i szybki oddech zużywają energię, zanim wejdziesz na matę. Spada wtedy wydolność."
+  },
+  {
+   "title": "Miej krótką rutynę oddechową",
+   "body": "Siadasz, oddychasz spokojnie i robisz trochę dłuższy wydech. Kilka minut przed wejściem.",
+   "art": {
+    "type": "breath"
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Przećwicz ją wcześniej",
+   "body": "Na treningu i na sparingach. Wtedy w dniu zawodów robisz coś, co już znasz."
+  }
+ ],
+ "end": {
+  "text": "Siły zostaw *na walkę*.",
+  "cta": "Zapisz przed zawodami"
+ }
+}

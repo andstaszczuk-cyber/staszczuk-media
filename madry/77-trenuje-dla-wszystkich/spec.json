@@ -1,0 +1,59 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Trenuję dla wszystkich, *tylko nie dla siebie*",
+  "sub": "Kiedy oczekiwania innych zabierają przyjemność ze sportu",
+  "art": {
+   "type": "hub",
+   "center": "ty",
+   "icon": "heart",
+   "items": [
+    "trener",
+    "rodzice",
+    "znajomi",
+    "wynik"
+   ],
+   "hl": 9
+  }
+ },
+ "points": [
+  {
+   "title": "To jest ludzkie",
+   "body": "Chcemy zadowolić trenera, rodziców i otoczenie. Tylko że wtedy łatwo zgubić swoje powody."
+  },
+  {
+   "title": "Zapisz, po co trenujesz",
+   "body": "Swoimi słowami, tylko dla siebie. Obok to, czego chcą inni. Wtedy widać, co jest twoje.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "DLA INNYCH",
+     "items": [
+      "bo trener chce",
+      "bo rodzice",
+      "bo wypada"
+     ]
+    },
+    "right": {
+     "title": "DLA SIEBIE",
+     "items": [
+      "lubię ten ruch",
+      "chcę się sprawdzić",
+      "moi ludzie"
+     ]
+    }
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Nie staraj się, działaj",
+   "body": "Skup się na swoich zadaniach. Przy długim spadku chęci porozmawiaj z psychologiem sportu."
+  }
+ ],
+ "end": {
+  "text": "Sport może być ważny dla wielu, *ale najpierw jest twój*.",
+  "cta": "Zapisz dla siebie"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Do pierwszej rundy *wchodzę zamulony*",
+  "sub": "Jak stres zmienia początek walki",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 100,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "pause",
+     "x": 520,
+     "y": 170,
+     "s": 140,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 700,
+     "y": 280,
+     "s": 150,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Rozpoznaj swój typ reakcji",
+   "body": "Jedni lecą do przodu bez kontroli, inni się wycofują i zamulają. Jedno i drugie to reakcja na stres.",
+   "art": {
+    "type": "scale10",
+    "caption": "POBUDZENIE",
+    "points": [
+     {
+      "n": 2,
+      "label": "zamulony"
+     },
+     {
+      "n": 6,
+      "label": "gotowy",
+      "hl": true
+     },
+     {
+      "n": 9,
+      "label": "nakręcony"
+     }
+    ]
+   },
+   "artTop": 880,
+   "artH": 380
+  },
+  {
+   "title": "Dopasuj rozgrzewkę",
+   "body": "Jeśli zamulasz, rozgrzewka może być bardziej dynamiczna i bliżej walki. Ustal to z trenerem."
+  },
+  {
+   "title": "Miej pierwsze zadanie",
+   "body": "Jedna prosta rzecz na start, na przykład praca nóg. Głowa wie, od czego zacząć."
+  }
+ ],
+ "end": {
+  "text": "Pierwsza runda zaczyna się *jeszcze na rozgrzewce*.",
+  "cta": "Zapisz przed walką"
+ }
+}

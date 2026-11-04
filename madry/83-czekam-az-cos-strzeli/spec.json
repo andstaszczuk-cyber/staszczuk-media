@@ -1,0 +1,70 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Wróciłem po kontuzji *i czekam, aż coś strzeli*",
+  "sub": "Ciało jest wyleczone, a głowa jeszcze nie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 120,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 520,
+     "y": 160,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 720,
+     "y": 320,
+     "s": 110,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wracaj według planu",
+   "body": "Etapy ustalone z fizjoterapeutą. Każdy zaliczony to dowód dla głowy, że ciało daje radę.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "lekki trening",
+     "więcej tempa",
+     "kontakt",
+     "pełny trening"
+    ],
+    "done": 2
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Nazwij lęk przed nawrotem",
+   "body": "Powiedz trenerowi albo zapisz, czego dokładnie się boisz, w jakim ruchu i w jakiej sytuacji."
+  },
+  {
+   "title": "Takie rzeczy mogą się zdarzyć",
+   "body": "Dbasz o to, co zależy od ciebie, a resztę przyjmujesz trochę spokojniej."
+  }
+ ],
+ "end": {
+  "text": "Głowa też wraca po kontuzji, *krok po kroku*.",
+  "cta": "Zapisz na powrót"
+ }
+}

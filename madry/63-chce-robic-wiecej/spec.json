@@ -1,0 +1,64 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wiem, że trzeba odpoczywać, *ale chcę robić więcej*",
+  "sub": "Kiedy dzień przerwy wygląda jak strata czasu",
+  "art": {
+   "type": "week",
+   "days": [
+    {
+     "d": "Pn",
+     "icon": "dumbbell",
+     "label": "trening"
+    },
+    {
+     "d": "Wt",
+     "icon": "dumbbell",
+     "label": "trening"
+    },
+    {
+     "d": "Śr",
+     "icon": "bed",
+     "label": "odpoczynek",
+     "mark": "hl"
+    },
+    {
+     "d": "Czw",
+     "icon": "dumbbell",
+     "label": "trening"
+    },
+    {
+     "d": "Pt",
+     "icon": "dumbbell",
+     "label": "trening"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wpisz odpoczynek do planu",
+   "body": "Tak samo jak trening, z konkretnym dniem. Wtedy przestaje być czymś, co wyrywasz sobie z poczuciem winy.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "odpoczynek to strata czasu",
+    "to": "odpoczynek to część planu"
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Oceniaj, czy tydzień był mądry",
+   "body": "Nie tylko czy był ciężki. Sprawdź, czy był czas na sen i czy na ważnym treningu miałaś siłę."
+  },
+  {
+   "title": "Poszukaj miar poza wynikiem",
+   "body": "Dokładność techniki, spokój na zawodach, samopoczucie po treningu. Wtedy dzień przerwy mniej niepokoi."
+  }
+ ],
+ "end": {
+  "text": "Mądry tydzień to też *tydzień z odpoczynkiem*.",
+  "cta": "Zapisz na później"
+ }
+}

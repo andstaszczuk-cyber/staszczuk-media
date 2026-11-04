@@ -1,0 +1,65 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Kiedyś ciało robiło wszystko samo, *a teraz w ringu myślę*",
+  "sub": "Kiedy pojedynek zaczyna wyglądać jak zagrożenie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 100,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 470,
+     "y": 140,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 670,
+     "y": 290,
+     "s": 150,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Odcięcie to reakcja stresowa",
+   "body": "Ciało traktuje pojedynek jak zagrożenie i włącza ucieczkę. Na treningu tej stawki nie ma."
+  },
+  {
+   "title": "Zmień opowieść o pojedynku",
+   "body": "To, jak mówisz sobie o walce, wpływa na reakcję ciała. Nową wersję warto ćwiczyć codziennie.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "muszę przetrwać tę walkę",
+    "to": "pokażę to, co robię na treningu"
+   },
+   "artTop": 860,
+   "artH": 400
+  },
+  {
+   "title": "Ucz się regulacji emocji",
+   "body": "Oddech, rutyna przed wejściem, praca z psychologiem sportu. Samo dokładanie treningu raczej tego nie zmieni."
+  }
+ ],
+ "end": {
+  "text": "Pojedynek może znowu *stać się wyzwaniem*.",
+  "cta": "Zapisz przed zawodami"
+ }
+}

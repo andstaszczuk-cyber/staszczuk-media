@@ -1,0 +1,82 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Wyspałem się, wszystko zrobiłem, *a czuję się źle*",
+  "sub": "Kiedy organizm ma gorszy dzień bez wyraźnego powodu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 140,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 520,
+     "y": 120,
+     "s": 120,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 650,
+     "y": 260,
+     "s": 170,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Rutyny nie dają gwarancji",
+   "body": "Sen i rozgrzewka bardzo pomagają, tylko że organizm bywa zagadką. Czasem coś jest nie tak bez powodu.",
+   "art": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "moon",
+      "label": "sen"
+     },
+     {
+      "icon": "dumbbell",
+      "label": "rozgrzewka"
+     },
+     {
+      "icon": "clock",
+      "label": "stałe pory"
+     },
+     {
+      "icon": "cloudRain",
+      "label": "samopoczucie",
+      "ok": false
+     }
+    ]
+   },
+   "artTop": 900,
+   "artH": 360
+  },
+  {
+   "title": "Nie dorabiaj teorii",
+   "body": "Zamiast szukać winy, powiedz sobie spokojnie: okej, dzisiaj jest tak. To zdejmuje sporo napięcia."
+  },
+  {
+   "title": "Zrób to, co dziś wyjdzie dobrze",
+   "body": "Wybierz jeden element treningu i zrób go porządnie. Reszta może być trochę spokojniejsza."
+  }
+ ],
+ "end": {
+  "text": "Gorszy dzień to *jeszcze nie gorsza forma*.",
+  "cta": "Zapisz na gorszy dzień"
+ }
+}

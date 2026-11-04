@@ -1,0 +1,91 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Najpierw zwiedzałam, *a potem nie miałam nóg*",
+  "sub": "Jak zaplanować wyjazd na zagraniczny bieg",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 100,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "foot",
+     "x": 470,
+     "y": 360,
+     "s": 110,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "foot",
+     "x": 590,
+     "y": 280,
+     "s": 110,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 720,
+     "y": 230,
+     "s": 170,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Najpierw bieg, potem miasto",
+   "body": "Zostaw zwiedzanie na dzień po starcie. Przed biegiem nogi potrzebują odpoczynku.",
+   "art": {
+    "type": "timeline",
+    "y": 300,
+    "points": [
+     {
+      "top": "przyjazd",
+      "icon": "play"
+     },
+     {
+      "top": "odpoczynek",
+      "icon": "bed"
+     },
+     {
+      "top": "bieg",
+      "icon": "flag",
+      "hl": true
+     },
+     {
+      "top": "zwiedzanie",
+      "icon": "foot"
+     }
+    ]
+   },
+   "artTop": 800,
+   "artH": 400
+  },
+  {
+   "title": "Rozpisz dni przed startem",
+   "body": "Krótki rozruch, spokojne posiłki, odbiór pakietu i dużo odpoczynku. Najlepiej jeszcze w domu."
+  },
+  {
+   "title": "Jedno krótkie wyjście",
+   "body": "Jeśli chcesz coś zobaczyć wcześniej, wybierz jedno miejsce blisko hotelu i wróć odpocząć."
+  }
+ ],
+ "end": {
+  "text": "Miasto poczeka, *nogi na start są potrzebne teraz*.",
+  "cta": "Zapisz przed wyjazdem"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Sezon się skończył, *a ja boję się odpuścić*",
+  "sub": "Roztrenowanie też jest częścią planu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 120,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "pause",
+     "x": 500,
+     "y": 150,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 670,
+     "y": 300,
+     "s": 170,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zrozum, po co jest przerwa",
+   "body": "Ciało i głowa potrzebują zejść z obciążeń po sezonie. Wtedy w kolejnym jest na czym budować.",
+   "art": {
+    "type": "timeline",
+    "y": 300,
+    "points": [
+     {
+      "top": "sezon",
+      "icon": "trophy"
+     },
+     {
+      "top": "przerwa",
+      "icon": "pause",
+      "hl": true
+     },
+     {
+      "top": "trening",
+      "icon": "dumbbell"
+     },
+     {
+      "top": "nowy sezon",
+      "icon": "flag"
+     }
+    ]
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Ustal plan z trenerem",
+   "body": "Jak długo, ile ruchu, co możesz robić dla przyjemności. Z planem łatwiej odpuścić bez lęku."
+  },
+  {
+   "title": "Popracuj na innych poziomach",
+   "body": "Kiedy ciało odpoczywa, jest czas na spokojną pracę nad głową i analizę sezonu."
+  }
+ ],
+ "end": {
+  "text": "Przerwa po sezonie *buduje kolejny sezon*.",
+  "cta": "Zapisz na koniec sezonu"
+ }
+}

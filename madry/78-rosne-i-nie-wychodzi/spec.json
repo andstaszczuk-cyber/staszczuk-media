@@ -1,0 +1,110 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Rosnę i to, co wychodziło, *teraz nie wychodzi*",
+  "sub": "Kiedy ciało się zmienia, a głowa nie nadąża",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 60,
+     "y": 120,
+     "s": 0.76,
+     "c": "fig2"
+    },
+    {
+     "k": "arrow",
+     "x1": 330,
+     "y1": 300,
+     "x2": 450,
+     "y2": 300
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 420,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 720,
+     "y": 120,
+     "s": 120,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "To może być normalne",
+   "body": "W okresie dojrzewania zmiany w ciele i w głowie na jakiś czas rozstrajają to, co było automatyczne."
+  },
+  {
+   "title": "Nie oceniaj się co tydzień",
+   "body": "Cierpliwość jest tu trudna, bo sprawdzasz się na bieżąco. Patrz na dłuższy czas.",
+   "art": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.45
+       ],
+       [
+        0.2,
+        0.58
+       ],
+       [
+        0.4,
+        0.32
+       ],
+       [
+        0.6,
+        0.5
+       ],
+       [
+        0.8,
+        0.62
+       ],
+       [
+        1,
+        0.85
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.4,
+      "y": 0.32,
+      "label": "teraz",
+      "dy": 60
+     }
+    ],
+    "x": "czas"
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Porozmawiaj z trenerem",
+   "body": "Powiedz, co czujesz w ciele i co przestało wychodzić. Trening można dopasować do tego okresu."
+  }
+ ],
+ "end": {
+  "text": "Zmieniające się ciało *potrzebuje trochę czasu*.",
+  "cta": "Zapisz na później"
+ }
+}

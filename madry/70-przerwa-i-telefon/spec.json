@@ -1,0 +1,52 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Mam dziesięć minut przerwy *i od razu telefon*",
+  "sub": "Dlaczego przewijanie męczy bardziej, niż się wydaje",
+  "art": {
+   "type": "twoCards",
+   "left": {
+    "icon": "phone",
+    "label": "przewijanie",
+    "sub": "więcej bodźców"
+   },
+   "right": {
+    "icon": "sun",
+    "label": "spokojna przerwa",
+    "sub": "chwila dla głowy"
+   }
+  }
+ },
+ "points": [
+  {
+   "title": "Zauważ, co cię męczy",
+   "body": "Powiadomienia, krótkie filmy, wiadomości. Każdy z tych bodźców wymaga uwagi, także w przerwie."
+  },
+  {
+   "title": "Wybierz spokojną przerwę",
+   "body": "Kilka minut bez powiadomień, czyli spacer, woda, oddech albo widok za oknem.",
+   "art": {
+    "type": "focus",
+    "center": "spokojna przerwa",
+    "icon": "sun",
+    "around": [
+     "powiadomienia",
+     "filmiki",
+     "wiadomości",
+     "czaty"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Sprawdź, po czym odpoczywasz",
+   "body": "Przez tydzień porównuj przerwy z telefonem i bez niego. Zapisz, po których masz więcej energii."
+  }
+ ],
+ "end": {
+  "text": "Przerwa bez telefonu *to też trening głowy*.",
+  "cta": "Zapisz na później"
+ }
+}

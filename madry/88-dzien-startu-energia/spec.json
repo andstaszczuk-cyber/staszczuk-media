@@ -1,0 +1,74 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "W dniu startu nie wiem, *co ze sobą zrobić*",
+  "sub": "Energia na zawodach to wynik całego przygotowania",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "win",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 530,
+     "y": 110,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 700,
+     "y": 280,
+     "s": 160,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Energia buduje się wcześniej",
+   "body": "Sen, jedzenie, regeneracja i dawki treningu przez całe tygodnie. Jeden trik w dniu startu tego nie zastąpi."
+  },
+  {
+   "title": "Miej sprawdzony plan dnia",
+   "body": "Pobudka, posiłki ustalone z dietetykiem, rozgrzewka. Wszystko przetestowane na treningach.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "star",
+     "label": "nowe pomysły",
+     "sub": "w dniu startu",
+     "cross": true
+    },
+    "right": {
+     "icon": "check",
+     "label": "sprawdzony plan",
+     "sub": "z treningów"
+    }
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Nie musisz być nakręcony",
+   "body": "Nie ma jednego stanu przed startem. Wystarczy, że jesteś gotowy zrobić swoją robotę."
+  }
+ ],
+ "end": {
+  "text": "W dniu startu *nic nowego*.",
+  "cta": "Zapisz przed startem"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Jestem tak zmęczony, *że nie mam siły na własne myśli*",
+  "sub": "Dlaczego wieczorem czarne myśli przychodzą łatwiej",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "bed",
+     "x": 60,
+     "y": 220,
+     "w": 520
+    },
+    {
+     "k": "cloud",
+     "x": 650,
+     "y": 110,
+     "s": 1.2,
+     "c": "fig2",
+     "dots": [
+      [
+       560,
+       250,
+       12
+      ],
+      [
+       590,
+       215,
+       17
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zmęczenie wzmacnia czarne myśli",
+   "body": "Kiedy brakuje sił, głowa łatwiej widzi katastrofy. To więcej mówi o zmęczeniu niż o twojej sytuacji."
+  },
+  {
+   "title": "Zauważ i odpuść",
+   "body": "Pomyślałem i trudno, okej. Bez wchodzenia w dyskusję z każdą myślą.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "WIECZOREM",
+      "icon": "moon",
+      "items": [
+       "zauważam",
+       "odpoczywam"
+      ]
+     },
+     {
+      "title": "RANO",
+      "icon": "sun",
+      "items": [
+       "przemyślę",
+       "zdecyduję"
+      ]
+     }
+    ]
+   },
+   "artTop": 800,
+   "artH": 440
+  },
+  {
+   "title": "Ważne sprawy przemyśl rano",
+   "body": "Wieczorem zapisz je jednym zdaniem. Po odpoczynku łatwiej spojrzeć na nie spokojnie."
+  }
+ ],
+ "end": {
+  "text": "Wieczorne myśli *mogą poczekać do rana*.",
+  "cta": "Zapisz na trudny wieczór"
+ }
+}

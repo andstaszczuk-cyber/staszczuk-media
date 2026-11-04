@@ -1,0 +1,81 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "W głowie *nie czuję ruchu*, który chcę zrobić w meczu",
+  "sub": "Jak ćwiczyć zagranie w wyobraźni",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "cloud",
+     "x": 560,
+     "y": 150,
+     "s": 1.5,
+     "c": "A",
+     "dots": [
+      [
+       450,
+       300,
+       14
+      ],
+      [
+       480,
+       260,
+       20
+      ]
+     ]
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 520,
+     "y": 110,
+     "s": 120,
+     "c": "onA"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Przejdź ruch krok po kroku",
+   "body": "Ustawienie, decyzja, ruch, zagranie. Powoli i z detalami, tak jakbyś był na boisku.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "ustawienie",
+     "decyzja",
+     "ruch",
+     "zagranie"
+    ],
+    "top": true
+   },
+   "artTop": 820,
+   "artH": 420
+  },
+  {
+   "title": "Kilka minut codziennie",
+   "body": "Krótko, ale regularnie. Ruch ciała się zapamiętuje, także ten przećwiczony w wyobraźni."
+  },
+  {
+   "title": "Ćwicz też w przerwie",
+   "body": "Kiedy nie możesz trenować, wyobraźnia pozwala dalej pracować nad zagraniem."
+  }
+ ],
+ "end": {
+  "text": "Odwagę na zagranie *możesz ćwiczyć w głowie*.",
+  "cta": "Zapisz i przećwicz"
+ }
+}

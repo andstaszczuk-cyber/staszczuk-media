@@ -1,0 +1,78 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "W zimie w ogóle *nie chce mi się wychodzić*",
+  "sub": "Jak przygotować się do treningu w chłodne miesiące",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 100,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "snow",
+     "x": 530,
+     "y": 110,
+     "s": 130,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 690,
+     "y": 260,
+     "s": 160,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Nie czekaj na ochotę",
+   "body": "Zimą ochota często przychodzi dopiero po kilku minutach ruchu. Decyzję podejmij dzień wcześniej."
+  },
+  {
+   "title": "Przygotuj się jak do warunków",
+   "body": "Ubranie przygotowane wieczorem, plan na tydzień i wersja pod dachem na najgorsze dni.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "shield",
+      "label": "ciepłe ubranie"
+     },
+     {
+      "icon": "note",
+      "label": "plan tygodnia"
+     },
+     {
+      "icon": "dumbbell",
+      "label": "wersja pod dachem",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 860,
+   "artH": 400
+  },
+  {
+   "title": "Zrób pierwszy krok",
+   "body": "Dobra, biorę się do roboty. Krótkie zdanie i wyjście za drzwi, zanim głowa zacznie negocjować."
+  }
+ ],
+ "end": {
+  "text": "Zimowe treningi *budują formę na wiosnę*.",
+  "cta": "Zapisz na zimowe poranki"
+ }
+}
