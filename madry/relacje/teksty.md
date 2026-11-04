@@ -32,3 +32,33 @@ NN | tekst relacji
 28 | Dzień bez treningu, kiedy ciało jest osłabione, to część planu, a nie strata. Cały post na profilu.
 29 | Kiedy myślisz tylko o tym, żeby nie przegrać, ciało napina się, żeby się bronić. Cały post na profilu.
 30 | Mniej ekranu wieczorem to zwykle spokojniejsza głowa w łóżku. Cały post na profilu.
+31 | Kiedy trening jest jedynym odpoczynkiem po szkole, każda przerwa wywraca cały dzień. Cały post na profilu.
+32 | Lęk w podobnej sytuacji to raczej nie słabość, tylko ciało, które chce cię chronić. Cały post na profilu.
+33 | Kiedy nie idzie, ciało spina się jeszcze bardziej. Najpierw wydech, potem następna akcja. Cały post na profilu.
+34 | Na pogodę nie masz wpływu, na swój plan gry masz. Cały post na profilu.
+35 | Sofa w wolny dzień to nie lenistwo, tylko świadoma decyzja o regeneracji. Cały post na profilu.
+36 | Formy nie ocenia się po kilku dniach. Kierunek widać w miesiącach. Cały post na profilu.
+37 | Nie musisz mieć muzyki w słuchawkach tylko dlatego, że wszyscy ją mają. Cały post na profilu.
+38 | Kiedy głowa zaczyna liczyć punkty, ręka sztywnieje, a oddech się skraca. Cały post na profilu.
+39 | Leżysz po urazie i czujesz, że nic nie robisz, a organizm w tym czasie się leczy. Cały post na profilu.
+40 | Lot na zawody bywa gorszy niż start. Każda podróż to mały trening spokoju. Cały post na profilu.
+41 | Kiedy śpisz mało, pod koniec treningu gubisz szczegóły techniki. Cały post na profilu.
+42 | Ból zmienia to, jak widzisz swoje szanse. Małe, zapisane kroki oddają ci wpływ. Cały post na profilu.
+43 | Drobiazg, który rano byś przemilczała, wieczorem ze zmęczenia potrafi wywołać wybuch. Cały post na profilu.
+44 | Po okresie startów łatwo o złudzenie, że prawie nic nie robisz. Cały post na profilu.
+45 | Przesunięta rozgrzewka raczej nie zabierze ci formy, którą budowałaś przez tygodnie. Cały post na profilu.
+46 | Jeśli zimno ci nie służy, nie musisz go znosić tylko dlatego, że robi to cała drużyna. Cały post na profilu.
+47 | Zamiast myśleć, jak przetrwać jej tempo, pomyśl, jak sprawić, żeby to ona zmęczyła się bardziej. Cały post na profilu.
+48 | Pierwszy sprawdzian po chorobie pokazuje, skąd zaczynasz, i na razie tyle. Cały post na profilu.
+49 | Decyzje podjęte spokojnie w domu są zwykle rozsądniejsze niż te w trakcie imprezy. Cały post na profilu.
+50 | Przed walką telefon może poczekać. Dwie minuty są dla oddechu. Cały post na profilu.
+51 | Umów się ze sobą na mały kawałek. Często po kilku minutach rozgrzane ciało zmienia zdanie. Cały post na profilu.
+52 | Nogi siadły to fakt z ciała. Myśl, że to wymówka, to dopiero ocena. Cały post na profilu.
+53 | Jedno zachwianie wystarczy, żeby ciało się bało. Oswajasz to małymi krokami. Cały post na profilu.
+54 | Po dalekim wyjeździe organizm potrzebuje kilku dni. Rytm wraca stopniowo. Cały post na profilu.
+55 | Kiedy przyjmujesz ograniczenia, zostaje ci więcej energii na trening. Cały post na profilu.
+56 | Na sam sen nie masz bezpośredniego wpływu. Na to, co robisz przed nim, masz. Cały post na profilu.
+57 | Brak mocy przed ważnym testem bywa raczej reakcją na stres niż lenistwem. Cały post na profilu.
+58 | Powrót po kontuzji ma swój rytm. Dobrze, żeby był twój, a nie kalendarza. Cały post na profilu.
+59 | Kiedy brak sił trwa kilka dni, nie trenuj na siłę. Idź to wyjaśnić. Cały post na profilu.
+60 | Kiedy coś cię boli, emocje wybuchają szybciej. Zimna woda na twarz trochę trzeźwi głowę. Cały post na profilu.
