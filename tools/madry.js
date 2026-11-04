@@ -31,7 +31,7 @@ function chrome(t, spec, i, total) {
       <div style="font-weight:800;font-size:26px;letter-spacing:5px;color:${t.fg}">${fil}</div></div>
     <div style="position:absolute;left:${PAD}px;right:${PAD}px;bottom:60px;display:flex;align-items:flex-end;justify-content:space-between;color:${t.fg}">
       <div style="font-weight:800;font-size:26px;letter-spacing:4px;line-height:1.05">MĄDRY<br>SPORT</div>
-      <div style="font-weight:600;font-size:22px;opacity:.8">@madrysport · ${i}/${total}</div></div>
+      <div style="font-weight:600;font-size:22px;opacity:.8">@madrysport.pl · ${i}/${total}</div></div>
     ${i < total ? `<div style="position:absolute;right:${PAD}px;top:70px;font-weight:600;font-size:24px;color:${t.num}">przesuń →</div>` : ''}`;
 }
 function cover(t, c) {
