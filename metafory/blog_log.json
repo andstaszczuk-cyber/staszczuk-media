@@ -151,5 +151,20 @@
   "png": "metafory/blog/2026-11-03.png",
   "metricool_id": 415094986,
   "metricool_uuid": "-1380269337072939856"
+ },
+ {
+  "data": "2026-11-04",
+  "url": "https://andrzejstaszczuk.pl/2026/11/04/rodzic-sportowca-rozmowa-po-zawodach/",
+  "tytul_wpisu": "„Dlaczego to zepsułeś?” Rozmowa rodzica ze sportowcem po zawodach",
+  "headline": "Po zawodach w aucie robi się *cicho*? Poczytaj.",
+  "layout": "L1",
+  "photo": "metafory/zdjecia/9511_kolor.jpg",
+  "palette": "red",
+  "font": "anton",
+  "focus": 45,
+  "spec": "metafory/blog/2026-11-04.json",
+  "png": "metafory/blog/2026-11-04.png",
+  "metricool_id": null,
+  "metricool_uuid": null
  }
 ]
