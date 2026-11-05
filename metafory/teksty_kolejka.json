@@ -137,6 +137,36 @@
   "ocena": null,
   "tekst": "Gdy jesteś kontuzjowany, jedź na salę i patrz, jak trenują inni. Uczymy się przez naśladowanie, czasem więcej niż w samym treningu. Siedzenie w domu niczego ci nie da.",
   "zrodlo": "zoom 2026-11-03",
+  "uzyta": "2026-11-05"
+ },
+ {
+  "id": 1281,
+  "nr_banku": null,
+  "temat": "koncentracja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Nie utrzymasz wysokiej koncentracji przez cały dzień zawodów. Po pojedynku pozwól sobie się rozproszyć: czapka, ulubiona muzyka. Skupienie przyda ci się dopiero na kolejny start.",
+  "zrodlo": "zoom 2026-11-04/05",
+  "uzyta": null
+ },
+ {
+  "id": 1282,
+  "nr_banku": null,
+  "temat": "zawody",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Jedź na zawody z założeniem, że coś cię zaskoczy albo wybije z równowagi. Wejdź z akceptacją: spodziewałem się, że tak może być. A potem zapytaj: co z tym zrobię?",
+  "zrodlo": "zoom 2026-11-04/05",
+  "uzyta": null
+ },
+ {
+  "id": 1283,
+  "nr_banku": null,
+  "temat": "otoczenie",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Duże znaczenie ma to, kim się otaczasz. Ludzie z podobnymi wyzwaniami często pchają cię do rozwoju mocniej niż książki i kursy.",
+  "zrodlo": "zoom 2026-11-04/05",
   "uzyta": null
  },
  {

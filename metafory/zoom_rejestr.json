@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-11-04T09:45:00Z",
+ "ostatnio_do": "2026-11-05T09:50:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -263,6 +263,22 @@
    "temat": "konsultacja wstępna z zawodnikiem",
    "dodano_mysli": 1,
    "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "E8F2D34C-EEE0-4597-BC63-E6E6E4A3D13E",
+   "data": "2026-11-04",
+   "temat": "sesja z zawodniczką",
+   "dodano_mysli": 2,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "BED223A1-17D3-4D8E-8695-BA5954654E23",
+   "data": "2026-11-05",
+   "temat": "sesja z zawodnikiem",
+   "dodano_mysli": 1,
+   "dodano_metafor": 1,
    "status": "przetworzone"
   }
  ]
