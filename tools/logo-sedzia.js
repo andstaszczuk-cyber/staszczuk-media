@@ -2,7 +2,7 @@
 // node logo-madry.js outDir   (znak: madry/logo/znak-sst.png, białe S na przezroczystym tle)
 const fs=require('fs'),path=require('path');
 const F=p=>'file://'+path.join(__dirname,'node_modules/@fontsource',p);
-const V={ciemne:{bg:'#1A1719',ink:'#FFFFFF',znak:'#FCE86A',f:'M'},czerwone:{bg:'linear-gradient(180deg,#AE4549,#7A2423)',ink:'#FFFFFF',znak:'#FCE86A',f:'M'},zolte:{bg:'#FCE86A',ink:'#2B1515',znak:'#9E3236',f:'M'}};
+const V={zlote:{bg:'#141215',ink:'#D4AF37',znak:'#D4AF37',f:'M'}};
 const ZNAK='data:image/png;base64,'+fs.readFileSync(path.join(__dirname,'../madry/logo/znak-sst.png')).toString('base64');
 const html=(v,circle)=>`<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{font-family:M;font-weight:900;src:url(${F('mulish/files/mulish-latin-ext-900-normal.woff2')});unicode-range:U+0100-024F}
