@@ -1,0 +1,11 @@
+{
+ "layout": "G6",
+ "svg": "<circle cx='500' cy='560' r='300' fill='{ink}'/><circle cx='500' cy='560' r='250' fill='{bg2}' opacity='.35'/><circle cx='500' cy='560' r='170' fill='none' stroke='{bg2}' stroke-width='14' opacity='.6'/><circle cx='500' cy='560' r='95' fill='none' stroke='{bg2}' stroke-width='14' opacity='.6'/><circle cx='500' cy='560' r='34' fill='{acc}'/><circle cx='500' cy='260' r='0' fill='none'/><path d='M330 190 C 290 140, 370 100, 330 50' stroke='{soft}' stroke-width='16' fill='none' stroke-linecap='round'/><path d='M500 170 C 460 120, 540 80, 500 30' stroke='{soft}' stroke-width='16' fill='none' stroke-linecap='round'/><path d='M670 190 C 630 140, 710 100, 670 50' stroke='{soft}' stroke-width='16' fill='none' stroke-linecap='round'/><rect x='440' y='840' width='120' height='50' rx='12' fill='{ink}' opacity='.5'/>",
+ "palette": "mono",
+ "font": "bebas",
+ "tilt": -2,
+ "kicker": "z bloga",
+ "headline": "Znowu *lęk* przed startem? Przeczytaj.",
+ "body": "Dowiesz się, czemu serce wali i jak zrobić z tego swoją *przewagę.*",
+ "cta": "Cały tekst: andrzejstaszczuk.pl/blog"
+}

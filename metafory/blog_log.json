@@ -166,5 +166,18 @@
   "png": "metafory/blog/2026-11-04.png",
   "metricool_id": 416460678,
   "metricool_uuid": "-1746431159888164832"
+ },
+ {
+  "data": "2026-11-05",
+  "url": "https://andrzejstaszczuk.pl/2026/11/05/lek-przed-startem/",
+  "tytul_wpisu": "Lęk przed startem to czujnik dymu, a nie pożar",
+  "headline": "Znowu *lęk* przed startem? Przeczytaj.",
+  "layout": "G6",
+  "photo": "svg:czujnik dymu",
+  "palette": "mono",
+  "font": "bebas",
+  "focus": null,
+  "spec": "metafory/blog/2026-11-05.json",
+  "png": "metafory/blog/2026-11-05.png"
  }
 ]
