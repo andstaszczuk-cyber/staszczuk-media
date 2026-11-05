@@ -120,7 +120,7 @@ S[8]=t=>{
   o+='<g opacity="'+c+'">';
   const gear=(cx,cy,r,rot,col)=>{let g='<g transform="rotate('+rot+' '+cx+' '+cy+')">';for(let i=0;i<8;i++)g+='<rect x="'+(cx-10)+'" y="'+(cy-r-16)+'" width="20" height="26" rx="4" fill="'+col+'" transform="rotate('+i*45+' '+cx+' '+cy+')"/>';return g+'<circle cx="'+cx+'" cy="'+cy+'" r="'+r+'" fill="'+col+'"/><circle cx="'+cx+'" cy="'+cy+'" r="'+r*0.35+'" fill="'+INK+'"/></g>';};
   o+=gear(470,320,62,t*40,Y)+gear(610,300,44,-t*57,'#EDEFF3');
-  o+='<rect x="'+(330)+'" y="'+(190-220*open)+'" width="420" height="250" rx="26" fill="'+GREY+'" stroke="'+MUTED+'" stroke-width="3"/>';
+  o+='<rect x="'+(330+520*open)+'" y="190" width="420" height="250" rx="26" fill="'+GREY+'" stroke="'+MUTED+'" stroke-width="3" opacity="'+(1-open)+'"/>';
   o+=tx(540,'335',open<0.3?'DZIAŁA':'',44,'#fff',800,'middle',1-seg(t,3.8,4.2));
   o+='</g>';
   o+=tx(540,500,'wdrażasz coś, co działa',32,'#fff',600,'middle',eo(seg(t,1.8,2.4)));
@@ -136,7 +136,7 @@ S[9]=t=>{
     o+='<rect x="'+(340+dx)+'" y="'+y+'" width="'+w+'" height="12" rx="6" fill="'+(mess>0.5&&i%2?LRED:'#5B6472')+'" transform="rotate('+r+' '+(340+w/2)+' '+y+')"/>';}
   o+='</g>';
   o+=tx(540,95+500,'',1,'#fff');
-  o+=tx(160,250,'na pierwszy rzut oka',26,MUTED,600,'middle',eo(seg(t,1.6,2.2)))+tx(160,290,'profesjonalnie',30,'#fff',800,'middle',eo(seg(t,2.0,2.6)));
+  o+=tx(160,250,'wygląda',26,MUTED,600,'middle',eo(seg(t,1.6,2.2)))+tx(160,290,'profesjonalnie',28,'#fff',800,'middle',eo(seg(t,2.0,2.6)));
   o+=tx(920,380,'po chwili',26,MUTED,600,'middle',eo(seg(t,5.4,6.0)))+tx(920,420,'bełkot',36,LRED,800,'middle',eo(seg(t,5.8,6.4)));
   o+=tx(540,580,'AI dokłada roboty: ciągle trzeba sprawdzać',30,Y,800,'middle',eo(seg(t,7.0,7.6)));
   return o;
@@ -180,7 +180,7 @@ S[12]=t=>{
 // 13. krok po kroku: w ten dzień robisz to, potem piszesz, jak poszło
 S[13]=t=>{
   let o=title(t,'Krok ','po kroku');
-  const st=[['ustalamy, co robisz','i kiedy'],['wdrażasz','na treningu'],['piszesz mi,','jak poszło'],['jeszcze raz','i jeszcze raz']];
+  const st=[['ustalamy','co i kiedy'],['wdrażasz','na treningu'],['piszesz mi,','jak poszło'],['jeszcze raz','i jeszcze raz']];
   st.forEach(([a,b],i)=>{const x=165+i*250,op=eo(seg(t,0.8+i*1.3,1.3+i*1.3)),y=380-i*50;
     o+='<g opacity="'+op+'"><rect x="'+(x-100)+'" y="'+y+'" width="200" height="'+(470-y)+'" rx="16" fill="'+(i===3?Y:GREY)+'"/>'+tx(x,y+55,String(i+1),44,i===3?INK:Y,800)+tx(x,500,a,24,'#fff',600)+tx(x,532,b,24,MUTED,600)+'</g>';});
   o+=tx(540,600,'czat Ci tego nie dopilnuje',32,LRED,800,'middle',eo(seg(t,6.6,7.2)));
@@ -190,7 +190,7 @@ S[13]=t=>{
 S[14]=t=>{
   let o=title(t,'Najpierw ','sam');
   const box=(x,lab,sub,c,op)=>'<g opacity="'+op+'"><rect x="'+(x-140)+'" y="190" width="280" height="150" rx="26" fill="'+c+'"/>'+tx(x,255,lab,34,c===Y?INK:'#fff',800)+tx(x,300,sub,24,c===Y?INK:MUTED,600)+'</g>';
-  o+=box(220,'Ty myślisz','co zadziałało, co wybiło',Y,eo(seg(t,0.6,1.2)));
+  o+=box(220,'Ty myślisz','co zadziałało?',Y,eo(seg(t,0.6,1.2)));
   o+='<g opacity="'+eo(seg(t,1.8,2.2))+'">'+poly([[380,265],[480,265]],eio(seg(t,1.8,2.6)),MUTED,6)+'</g>';
   o+=box(640,'AI','sparingpartner',GREY,eo(seg(t,2.6,3.2)));
   o+=tx(540,430,'Twoja głowa plus narzędzie to przewaga',34,Y,800,'middle',eo(seg(t,4.6,5.2)));
