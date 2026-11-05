@@ -17,6 +17,7 @@
 //     "sub": "Tak działa perfekcjonizm",     // opcjonalny podtytuł
 //     "pre": "Na treningu wychodzi.",        // opcjonalna przekreślona linia nad tytułem (stare przekonanie)
 //     "size": 100, "artTop": 110, "artH": 600, "titleTop": 770,   // opcjonalne korekty układu (px)
+//     "lh": 1.25,                            // opcjonalna interlinia tytułu (np. żeby czarne podświetlenie nie wchodziło na linię wyżej); end też przyjmuje "lh"
 //     "art": { "type": "<nazwa z ART>", ...parametry },  // ilustracja okładki (obowiązkowa)
 //     "left": "TRENING", "right": "ZAWODY",  // tylko split
 //     "big": "3", "bigSize": 300, "bigSub": "minut do startu", "vb": "0 0 900 420"             // tylko big (duża liczba/hasło + mały rysunek w prawym dolnym rogu)
@@ -422,7 +423,7 @@ function cover(t, c) {
   const art = (ART[c.art.type] || VIZ[c.art.type])(t, c.art);
   const ts = c.size || titleSize(c.title, 104);
   const pre = c.pre ? `<div class="pre" style="color:${t.mute}">${rich(c.pre)}</div>` : '';
-  const title = pre + `<div class="h" style="font-size:${ts}px;color:${t.fg}${c.italic ? ';font-style:italic' : ''}">${rich(c.title)}</div>`;
+  const title = pre + `<div class="h" style="font-size:${ts}px;color:${t.fg}${c.italic ? ';font-style:italic' : ''}${c.lh ? ';line-height:' + c.lh : ''}">${rich(c.title)}</div>`;
   const sub = c.sub ? `<div class="sub" style="color:${t.mute}">${rich(c.sub)}</div>` : '';
   if (c.layout === 'top') return `<div class="box" style="top:110px">${kick(t, c.kicker)}${title}${sub}</div>
     <svg class="art" viewBox="0 0 900 620" style="top:${c.artTop || 590}px;height:${c.artH || 560}px">${art}</svg>`;
@@ -444,7 +445,7 @@ function point(t, p, n) {
 function end(t, e) {
   return `<div class="box" style="top:150px;align-items:center;text-align:center">
     <svg viewBox="0 0 400 300" style="width:400px;height:300px;margin-bottom:60px">${typeof e.art === 'object' ? scene(t, e.art) : END[e.art || 'think'](t)}</svg>
-    <div class="h" style="font-size:${e.size || 80}px;color:${t.fg}">${rich(e.question)}</div>
+    <div class="h" style="font-size:${e.size || 80}px;color:${t.fg}${e.lh ? ';line-height:' + e.lh : ''}">${rich(e.question)}</div>
     <div style="width:150px;height:10px;border-radius:5px;background:${t.A};margin:60px 0 50px"></div>
     <div class="cta" style="color:${t.fg}"><svg viewBox="0 0 24 24" width="44" height="44" style="flex:none"><path d="M6 3h12v18l-6-4.5L6 21z" fill="${t.A}"/></svg><span>${rich(e.cta || 'Zapisz, żeby wrócić przed startem.')}</span></div></div>`;
 }
