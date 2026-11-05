@@ -144,8 +144,8 @@ function slideHtml(s, i) {
     const n = spec.slides.slice(0, i + 1).filter(x => x.kind === 'point').length;
     const bsz = len(s.body) < 140 ? 48 : len(s.body) < 230 ? 43 : 38;
     return `<div style="position:absolute;right:70px;top:90px;font-family:Raj;font-weight:700;font-size:300px;line-height:1;opacity:.13">${String(n).padStart(2, '0')}</div>
-      <div class="acc-bg" style="position:absolute;left:90px;top:300px;width:12px;height:${len(s.body) < 140 ? 520 : 620}px;border-radius:6px"></div>
-      <div style="position:absolute;left:144px;right:90px;top:300px">
+      <div class="acc-bg" style="position:absolute;left:90px;top:400px;width:12px;height:${len(s.body) < 140 ? 520 : 620}px;border-radius:6px"></div>
+      <div style="position:absolute;left:144px;right:90px;top:400px">
         <div style="display:flex;align-items:center;gap:22px;margin-bottom:38px">${s.icon ? `<div style="flex:none">${icon(s.icon, 84)}</div>` : ''}
           <div style="font-weight:800;font-size:64px;line-height:1.12;text-wrap:balance">${hl(s.title)}</div></div>
         <div style="font-family:Pop;font-weight:500;font-size:${bsz}px;line-height:1.45;opacity:.95">${hl(s.body)}</div></div>${footer(i)}`;
