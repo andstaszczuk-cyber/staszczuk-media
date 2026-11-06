@@ -1,26 +1,125 @@
 [
-{"id":"A-doskonalenie","slides":[
-{"label":"Z ROZMOWY Z KOLEGĄ PO FACHU","title":"Ciągle szukasz *nowych przewag*?","body":"Słuchaj, kolega psycholog rzucił ostatnio świetny przykład: jak wybierasz z trzech past do zębów, to po chwili masz. A jak masz przed sobą trzysta tysięcy past? No właśnie, stoisz i nie wiesz, co wziąć."},
-{"title":"Z rozwojem w sporcie jest *dokładnie tak samo*","body":"Wiedza jest dziś na wyciągnięcie ręki i łatwo pomyśleć, że trzeba brać wszystko. Dlatego z zawodnikami wybieramy kilka rzeczy, które naprawdę działają, i na nich się skupiamy. Im mniej naraz, tym więcej z tego zostaje w głowie."}]},
-{"id":"B-przeladowanie","slides":[
-{"title":"A może masz po prostu *za dużo na głowie*?","body":"Szkoła, trening, basen, angielski, a o 21:00 jeszcze psycholog sportu. Takie tygodnie widzę u wielu zawodników i u ich dzieciaków też."},
-{"title":"Zanim coś dołożysz, *sprawdź, co możesz wyciąć*","body":"Kiedy z zawodnikami wyrzucamy z tygodnia część zajęć, bardzo często łapią luz i nagle sprawy zaczynają się układać. Odpuszczenie czegoś też jest robotą na rzecz formy."}]},
-{"id":"C-paradoks-wiedzy","slides":[
-{"title":"Wiesz coraz więcej, a wdrażasz *coraz mniej*?","body":"Wiedzy mamy dziś więcej niż kiedykolwiek, a głowę ciągle tę samą co nasi przodkowie. Ona po prostu nie jest w stanie przyswoić wszystkiego naraz."},
-{"title":"Jedna rzecz wdrożona daje więcej niż *dziesięć przeczytanych*","body":"Do tego masz telefon, powiadomienia i tysiąc bodźców, które zabierają Ci koncentrację. Dlatego wybierz jedną rzecz i przećwicz ją porządnie na treningu, zanim sięgniesz po kolejną."}]},
-{"id":"D-relacja","slides":[
-{"title":"Co *naprawdę* pomaga w pracy z głową?","body":"W pomocy psychologicznej ciągle wraca jedna rzecz: bardzo dużo robi sama relacja z drugim człowiekiem. Często więcej niż to, jaką metodą ktoś pracuje."},
-{"title":"Zadbaj o ludzi, przy których *czujesz się wysłuchany*","body":"Trener, rodzic, ktoś z drużyny, z kim możesz normalnie pogadać. To bywa prostsze i ważniejsze niż kolejna technika z internetu."}]},
-{"id":"E-usamodzielnianie","slides":[
-{"title":"Dobre wsparcie ma Cię *usamodzielnić*","body":"Rozmawiałem ostatnio z kolegą po fachu o tym, jak łatwo pomoc zamienić w to, że ktoś bez psychologa nie potrafi zrobić kroku."},
-{"title":"Swoją robotę zrobiłem dobrze, kiedy *radzisz sobie beze mnie*","body":"Taki jest cel naszej współpracy. Masz wyjść z niej z narzędziami, które działają u Ciebie, i umieć sięgnąć po nie sam, w trakcie zawodów i po nich."}]},
-{"id":"F-opinie","slides":[
-{"title":"Ile w tej opinii jest Ciebie, a ile *tego, kto ją daje*?","body":"Takie pytanie zadaje sobie kolega psycholog, kiedy słyszy czyjąś ocenę. Mocno mi to zostało w głowie."},
-{"title":"Im lepiej znasz siebie, tym *mniej się do Ciebie przykleja*","body":"Kiedy słabo siebie rozumiesz, każda opinia robi się problemem: albo bierzesz ją do siebie w całości, albo wybuchasz. Kiedy dobrze się znasz, bierzesz to, co merytoryczne, a resztę spokojnie odkładasz."}]},
-{"id":"G-namaszczenie","slides":[
-{"title":"Kto w Ciebie wierzy *bardziej niż Ty*?","body":"Bardzo często najdalej idą ci, których ktoś popchnął. Trener albo autorytet, który powiedział wprost: słuchaj, coś w tobie jest."},
-{"title":"Znajdź swojego *mentalnego sponsora*","body":"Ja też miałem taką osobę i do dziś czuję, ile mi to dało. Poszukaj kogoś, kto będzie Cię ciągnął za uszy, kiedy sam w siebie zwątpisz. I bądź taką osobą dla innych."}]},
-{"id":"H-marzenia","slides":[
-{"title":"Pamiętasz, *o czym marzyłeś* na początku?","body":"Pędzimy, robimy projekty, poprawiamy kolejne rzeczy i łatwo zapomnieć, że jesteśmy dokładnie tam, gdzie kiedyś bardzo chcieliśmy być."},
-{"title":"Zatrzymaj się na chwilę i *zobacz, ile już masz*","body":"Zanim postawisz sobie kolejną poprzeczkę, doceń to, co już zrobiłeś. Docenianie wcale nie zabiera motywacji, ono daje paliwo na dalszą drogę."}]}
+ {
+  "id": "A-doskonalenie",
+  "slides": [
+   {
+    "label": "Z ROZMOWY Z KOLEGĄ PO FACHU",
+    "title": "Ciągle szukasz *nowych przewag*?",
+    "body": "Słuchaj, kolega psycholog rzucił ostatnio świetny przykład: jak wybierasz z trzech past do zębów, to po chwili masz. A jak masz przed sobą trzysta tysięcy past? No właśnie, stoisz i nie wiesz, co wziąć."
+   },
+   {
+    "title": "Z rozwojem w sporcie jest *dokładnie tak samo*",
+    "body": "Wiedza jest dziś na wyciągnięcie ręki i łatwo pomyśleć, że trzeba brać wszystko. Dlatego z zawodnikami wybieramy kilka rzeczy, które naprawdę działają, i na nich się skupiamy. Im mniej naraz, tym więcej z tego zostaje w głowie."
+   }
+  ]
+ },
+ {
+  "id": "B-przeladowanie",
+  "slides": [
+   {
+    "title": "A może masz po prostu *za dużo na głowie*?",
+    "body": "Szkoła, trening, basen, angielski, a o 21:00 jeszcze psycholog sportu. Takie tygodnie widzę u wielu zawodników i u ich dzieciaków też."
+   },
+   {
+    "title": "Zanim coś dołożysz, *sprawdź, co możesz wyciąć*",
+    "body": "Kiedy z zawodnikami wyrzucamy z tygodnia część zajęć, bardzo często łapią luz i nagle sprawy zaczynają się układać. Odpuszczenie czegoś też jest robotą na rzecz formy."
+   }
+  ]
+ },
+ {
+  "id": "C-paradoks-wiedzy",
+  "slides": [
+   {
+    "title": "Wiesz coraz więcej, a wdrażasz *coraz mniej*?",
+    "body": "Wiedzy mamy dziś więcej niż kiedykolwiek, a głowę ciągle tę samą co nasi przodkowie. Ona po prostu nie jest w stanie przyswoić wszystkiego naraz."
+   },
+   {
+    "title": "Jedna rzecz wdrożona daje więcej niż *dziesięć przeczytanych*",
+    "body": "Do tego masz telefon, powiadomienia i tysiąc bodźców, które zabierają Ci koncentrację. Dlatego wybierz jedną rzecz i przećwicz ją porządnie na treningu, zanim sięgniesz po kolejną."
+   }
+  ]
+ },
+ {
+  "id": "D-relacja",
+  "slides": [
+   {
+    "title": "Co *naprawdę* pomaga w pracy z głową?",
+    "body": "W pomocy psychologicznej ciągle wraca jedna rzecz: bardzo dużo robi sama relacja z drugim człowiekiem. Często więcej niż to, jaką metodą ktoś pracuje."
+   },
+   {
+    "title": "Zadbaj o ludzi, przy których *czujesz się wysłuchany*",
+    "body": "Trener, rodzic, ktoś z drużyny, z kim możesz normalnie pogadać. To bywa prostsze i ważniejsze niż kolejna technika z internetu."
+   }
+  ]
+ },
+ {
+  "id": "E-usamodzielnianie",
+  "slides": [
+   {
+    "title": "Dobre wsparcie ma Cię *usamodzielnić*",
+    "body": "Rozmawiałem ostatnio z kolegą po fachu o tym, jak łatwo pomoc zamienić w to, że ktoś bez psychologa nie potrafi zrobić kroku."
+   },
+   {
+    "title": "Swoją robotę zrobiłem dobrze, kiedy *radzisz sobie beze mnie*",
+    "body": "Taki jest cel naszej współpracy. Masz wyjść z niej z narzędziami, które działają u Ciebie, i umieć sięgnąć po nie sam, w trakcie zawodów i po nich."
+   }
+  ]
+ },
+ {
+  "id": "F-opinie",
+  "slides": [
+   {
+    "title": "Ile w tej opinii jest Ciebie, a ile *tego, kto ją daje*?",
+    "body": "Takie pytanie zadaje sobie kolega psycholog, kiedy słyszy czyjąś ocenę. Mocno mi to zostało w głowie."
+   },
+   {
+    "title": "Im lepiej znasz siebie, tym *mniej się do Ciebie przykleja*",
+    "body": "Kiedy słabo siebie rozumiesz, każda opinia robi się problemem: albo bierzesz ją do siebie w całości, albo wybuchasz. Kiedy dobrze się znasz, bierzesz to, co merytoryczne, a resztę spokojnie odkładasz."
+   }
+  ]
+ },
+ {
+  "id": "G-namaszczenie",
+  "slides": [
+   {
+    "title": "Kto w Ciebie wierzy *bardziej niż Ty*?",
+    "body": "Bardzo często najdalej idą ci, których ktoś popchnął. Trener albo autorytet, który powiedział wprost: słuchaj, coś w tobie jest."
+   },
+   {
+    "title": "Znajdź swojego *mentalnego sponsora*",
+    "body": "Ja też miałem taką osobę i do dziś czuję, ile mi to dało. Poszukaj kogoś, kto będzie Cię ciągnął za uszy, kiedy sam w siebie zwątpisz. I bądź taką osobą dla innych."
+   }
+  ]
+ },
+ {
+  "id": "H-marzenia",
+  "slides": [
+   {
+    "title": "Pamiętasz, *o czym marzyłeś* na początku?",
+    "body": "Pędzimy, robimy projekty, poprawiamy kolejne rzeczy i łatwo zapomnieć, że jesteśmy dokładnie tam, gdzie kiedyś bardzo chcieliśmy być."
+   },
+   {
+    "title": "Zatrzymaj się na chwilę i *zobacz, ile już masz*",
+    "body": "Zanim postawisz sobie kolejną poprzeczkę, doceń to, co już zrobiłeś. Docenianie wcale nie zabiera motywacji, ono daje paliwo na dalszą drogę."
+   }
+  ]
+ },
+ {
+  "id": "I-perfekcjonizm",
+  "slides": [
+   {
+    "label": "Z ROZMOWY Z KOLEGĄ PO FACHU",
+    "title": "Doskonalenie czy *perfekcjonizm*?",
+    "body": "Z kolegą psychologiem gadaliśmy o tym, że w sporcie ciągle szukamy rezerw. Z zewnątrz jedno i drugie wygląda podobnie: dużo pracy i wysoko postawiona poprzeczka."
+   },
+   {
+    "title": "Doskonalenie to *robota z kropką na końcu*",
+    "body": "Robisz najlepiej, jak potrafisz, robisz krótką analizę: co zadziałało, co poprawiam. I stawiasz kropkę. Idziesz dalej z jednym konkretem na następny trening."
+   },
+   {
+    "title": "Perfekcjonizm to *rozkmina bez końca*",
+    "body": "Godziny analizy, ciągle za mało, każdy błąd w wysokiej rozdzielczości. Zobacz, po której stronie częściej jesteś. Jeśli po treningu zamiast kropki masz kolejną listę zarzutów do siebie, zacznij od jednej rzeczy, która dziś wyszła."
+   }
+  ]
+ }
 ]
