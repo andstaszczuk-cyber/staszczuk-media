@@ -181,5 +181,18 @@
   "png": "metafory/blog/2026-11-05.png",
   "metricool_id": 417534156,
   "metricool_uuid": "4268285807741782455"
+ },
+ {
+  "data": "2026-11-07",
+  "url": "https://andrzejstaszczuk.pl/2026/11/07/zmeczenie-u-sportowca-zolte-i-czerwone-flagi/",
+  "tytul_wpisu": "Zmęczenie czy „nie chce mi się”? Żółte i czerwone flagi sportowca",
+  "headline": "Nie wiesz, czy to *zmęczenie*, czy lenistwo? Podpowiadam.",
+  "layout": "G1",
+  "photo": "svg:flagi",
+  "palette": "black",
+  "font": "anton",
+  "focus": null,
+  "spec": "metafory/blog/2026-11-07.json",
+  "png": "metafory/blog/2026-11-07.png"
  }
 ]

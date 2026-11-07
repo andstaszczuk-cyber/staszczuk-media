@@ -1,0 +1,10 @@
+{
+ "layout": "G4",
+ "svg": "<g transform='translate(40 0)'><rect x='80' y='800' width='840' height='30' rx='15' fill='{ink}' opacity='.4'/><path d='M170 700 L170 560 Q190 470 320 450 L400 340 Q430 310 480 310 L620 310 Q670 310 700 350 L770 450 Q860 470 860 560 L860 700 Z' fill='{soft}'/><path d='M420 355 L480 355 L480 450 L350 450 Z' fill='{bg2}'/><path d='M540 355 L620 355 L690 450 L540 450 Z' fill='{bg2}'/><rect x='455' y='520' width='150' height='24' rx='12' fill='{ink}'/><rect x='230' y='505' width='150' height='46' rx='6' fill='{acc}' opacity='.9' transform='rotate(-14 305 528)'/><rect x='640' y='560' width='170' height='46' rx='6' fill='{acc}' opacity='.9' transform='rotate(12 725 583)'/><circle cx='320' cy='720' r='86' fill='{ink}'/><circle cx='320' cy='720' r='36' fill='{bg2}'/><circle cx='710' cy='720' r='86' fill='{ink}'/><circle cx='710' cy='720' r='36' fill='{bg2}'/></g>",
+ "palette": "cream",
+ "font": "playfair",
+ "tilt": -2,
+ "kicker": "metafora dnia",
+ "headline": "Nie *Mercedes*, tylko maluch",
+ "body": "Wydaje nam się, że jesteśmy Mercedesem, a bliżej nam do malucha sklejonego taśmą. Czasem robisz wszystko jak trzeba i tak czujesz się słabo. *Ciało to nie matematyka.*"
+}

@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-11-05T09:50:00Z",
+ "ostatnio_do": "2026-11-07T09:45:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -280,6 +280,22 @@
    "dodano_mysli": 1,
    "dodano_metafor": 1,
    "status": "przetworzone"
+  },
+  {
+   "uuid": "B3195294-5DFC-42CC-A5FF-400554328020",
+   "data": "2026-11-05",
+   "temat": "rozmowa o sprawach zawodowych i życiowych bez zawodnika",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "pominięte"
+  },
+  {
+   "uuid": "285FB881-49EC-447F-8EC9-AC8259A758FE",
+   "data": "2026-11-06",
+   "temat": "Sabina Jarząbek (pominięta osoba)",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "pominięte"
   }
  ]
 }
