@@ -10,7 +10,7 @@ const page=(s,i,n)=>`<!doctype html><html><head><meta charset="utf-8"><style>${c
 html,body{margin:0;width:1080px;height:1920px;background:radial-gradient(120% 70% at 50% 0%,#1E242E,#11141A);font-family:Pop;color:#fff}
 .w{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:0 100px}
 .lab{align-self:flex-start;background:#C42332;font-weight:800;font-size:30px;padding:10px 26px;border-radius:40px;letter-spacing:1px;margin-bottom:60px}
-.t{font-size:${s.title.length>60?78:92}px;font-weight:800;line-height:1.1}
+.t{font-size:${s.title.length>140?66:(s.title.length>60?78:92)}px;font-weight:800;line-height:1.1}
 .l{width:150px;height:8px;background:#F4B63A;margin:60px 0}
 .b{font-size:44px;font-weight:500;line-height:1.45;color:#D7DBE2}
 .top{position:absolute;top:130px;left:0;right:0;text-align:center;font-size:32px;font-weight:800;color:#A9B0BC;letter-spacing:2px}
