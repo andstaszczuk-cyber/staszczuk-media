@@ -194,5 +194,16 @@
   "metricool_id": 419972157,
   "metricool_uuid": "250116519769295576",
   "godzina": "15:30"
+ },
+ {
+  "data": "2026-11-09",
+  "id": 1282,
+  "layout": "G6",
+  "photo": "svg:parasol",
+  "palette": "black",
+  "font": "raj",
+  "focus": null,
+  "spec": "metafory/teksty/2026-11-09.json",
+  "png": "metafory/teksty/2026-11-09.png"
  }
 ]

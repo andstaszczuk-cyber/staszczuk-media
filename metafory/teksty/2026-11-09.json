@@ -1,0 +1,10 @@
+{
+ "layout": "G6",
+ "svg": "<ellipse cx='500' cy='900' rx='330' ry='28' fill='{ink}' opacity='.3'/><path d='M500 200 v-60' stroke='{ink}' stroke-width='24' stroke-linecap='round'/><path d='M180 520 Q180 200 500 200 Q820 200 820 520 Q745 465 660 520 Q580 465 500 520 Q420 465 340 520 Q255 465 180 520 Z' fill='{acc}'/><path d='M500 520 L500 790 Q500 860 440 860 Q395 860 395 815' stroke='{ink}' stroke-width='28' fill='none' stroke-linecap='round'/><path d='M160 110 q-18 38 0 56 q18 -18 0 -56' fill='{soft}' opacity='.8'/><path d='M330 60 q-18 38 0 56 q18 -18 0 -56' fill='{soft}' opacity='.8'/><path d='M700 90 q-18 38 0 56 q18 -18 0 -56' fill='{soft}' opacity='.8'/><path d='M860 170 q-18 38 0 56 q18 -18 0 -56' fill='{soft}' opacity='.8'/><path d='M90 330 q-18 38 0 56 q18 -18 0 -56' fill='{soft}' opacity='.8'/><path d='M910 380 q-18 38 0 56 q18 -18 0 -56' fill='{soft}' opacity='.8'/><path d='M230 640 q-18 38 0 56 q18 -18 0 -56' fill='{soft}' opacity='.8'/><path d='M770 660 q-18 38 0 56 q18 -18 0 -56' fill='{soft}' opacity='.8'/><path d='M120 780 q-18 38 0 56 q18 -18 0 -56' fill='{soft}' opacity='.8'/><path d='M880 800 q-18 38 0 56 q18 -18 0 -56' fill='{soft}' opacity='.8'/>",
+ "palette": "black",
+ "font": "raj",
+ "tilt": -2,
+ "kicker": "przed zawodami",
+ "headline": "Zawody cię *zaskoczą*",
+ "body": "Jedź na zawody z założeniem, że coś cię zaskoczy. Powiedz sobie: spodziewałem się, że tak może być. *A potem zapytaj: co z tym zrobię?*"
+}
