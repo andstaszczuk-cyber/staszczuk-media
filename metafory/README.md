@@ -55,3 +55,6 @@ Kolejne poprawki Andrzeja (3.11.2026), reszta przerobionych tekstów zaakceptowa
 11. Czasowniki z życia zamiast abstrakcyjnych rzeczowników: nie trudności i efekt, tylko męczysz się i udaje się. Wzór: Wiesz, ile sam się męczysz, ale u innych widzisz tylko to, że im się udaje.
 12. Zamiast mądrych słów (intencje, dopisywać, interpretacja) mów jak w rozmowie: Często sami sobie wymyślamy, co ktoś miał na myśli. Forma my jest w porządku, gdy dotyczy wszystkich.
 13. Wskazówka na końcu krótka i prosta: Zamiast zgadywać, po prostu zapytaj.
+
+## Relacja: wolne terminy (od 10.11.2026)
+Przy każdym przebiegu zadania przygotuj też relacje z wolnymi terminami według metafory/wolne_terminy/README.md (generator render.py), obejrzyj i wyślij Andrzejowi przez SendUserFile. Nie planuj w Metricool.
