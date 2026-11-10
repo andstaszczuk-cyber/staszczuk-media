@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "rain",
+   "text": "Co mówisz do siebie,\\n*kiedy leje*?",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Głos w głowie zawsze gra",
+   "body": "W trudnych warunkach zaczyna komentować. Zwykle narzeka.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Trzy rodzaje zdań",
+   "body": "Skupiające, dodające energii, uspokajające. Każde na inny moment.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Przygotuj je wcześniej",
+   "body": "Krótkie, twoje, przećwiczone. W meczu nie będzie czasu ich wymyślać.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Deszcz pada na wszystkich.\\n*Słowa wybierasz ty*.",
+   "cta": "Zapisz swoje trzy zdania przed wiosną"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "left",
+   "label": "DOCENIANIE",
+   "text": "Ktoś cię chwali.\\nA ty: *to fart*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Umniejszanie to nawyk",
+   "body": "Dobra ocena? Łatwy mecz. Pochwała? Grzeczność. Tak podpowiada głowa.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "W głowie: to o mnie",
+   "body": "Przyjmujesz pochwałę bez tłumaczenia się i bez pomniejszania.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Zapisz dowód",
+   "body": "Konkretne pochwały na kartkę. Wrócisz do nich przed trudnym meczem.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Dobra decyzja\\nto *twoja robota*.",
+   "cta": "Zapisz i wróć, kiedy ktoś cię pochwali"
+  }
+ ]
+}

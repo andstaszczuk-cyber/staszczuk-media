@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Kim jesteś\\npo *końcowym gwizdku*?",
+   "sub": "Sędziowanie to *rola*. Ty jesteś kimś więcej.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Rola, którą zdejmujesz",
+   "body": "Po meczu strój ląduje w torbie. Rola sędziego może pójść razem z nim.",
+   "icon": "szafa"
+  },
+  {
+   "kind": "point",
+   "title": "Inne obszary życia",
+   "body": "Praca, bliscy, pasje. Dają dystans, kiedy na boisku jest trudno.",
+   "icon": "dom"
+  },
+  {
+   "kind": "point",
+   "title": "Ocena dotyczy decyzji",
+   "body": "Obserwator ocenia twoją pracę na boisku. Nie ciebie jako człowieka.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "Najpierw człowiek,\\n*potem sędzia*.",
+   "cta": "Zapisz i wróć po meczu, który ciągnie się za tobą"
+  }
+ ]
+}

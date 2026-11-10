@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "quote",
+   "text": "Pełna sprawiedliwość\\nw ocenach to *utopia*.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Oceniają ludzie",
+   "body": "Każdy obserwator ma swoje miejsce, swoją perspektywę i swoje akcenty.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Bierz to, co merytoryczne",
+   "body": "Konkretna uwaga do ustawienia czy decyzji to informacja do pracy.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Resztę odkładasz",
+   "body": "To, co nie zgadza się z twoją analizą, zapisujesz i idziesz dalej.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Ocena to *przybliżenie*.\\nWeź z niej to, co cenne.",
+   "cta": "Zapisz i wróć po kolejnej ocenie"
+  }
+ ]
+}

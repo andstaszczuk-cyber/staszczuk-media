@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "sofa",
+   "text": "Oglądasz mecz.\\n*Uczysz się* sędziowania.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Patrz jak sędzia",
+   "body": "Śledzisz ustawienie i decyzje sędziego, oprócz piłki i wyniku.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Bez recenzowania kolegi",
+   "body": "Szukasz, czego możesz się nauczyć. Krytykować łatwo z kanapy.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna rzecz do sprawdzenia",
+   "body": "Wybierasz jeden element i przenosisz go na swój trening.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Nie musisz się oparzyć,\\nżeby wiedzieć, że *parzy*.",
+   "cta": "Zapisz i sprawdź przy najbliższym meczu w telewizji"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "text": "Stres przed meczem\\njak *nowa piosenka*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Nowe mocniej działa",
+   "body": "Pierwsze mecze po przerwie stresują bardziej. To naturalne.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "point",
+   "title": "Powtórki oswajają",
+   "body": "Im częściej sędziujesz, tym mniej zaskakuje cię to samo napięcie.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Bierz mecze przed rundą",
+   "body": "Sparingi, turnieje, młodsze roczniki. Każdy to kolejne odsłuchanie.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Oswajasz stres,\\n*sędziując*.",
+   "cta": "Zapisz i wróć przed pierwszym meczem rundy"
+  }
+ ]
+}

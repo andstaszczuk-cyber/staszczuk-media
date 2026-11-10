@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "icon",
+   "icon": "lista",
+   "text": "Checklista\\nna *dzień meczowy*.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Sprzęt dzień wcześniej",
+   "body": "Strój, gwizdki, kartki, zegarek, ładowarka. Spakowane wieczorem.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Logistyka z zapasem",
+   "body": "Dojazd, parking, godzina przyjazdu. Spóźnienie to stres na starcie.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Punkt dla głowy",
+   "body": "Jedno zadanie na mecz i jedno zdanie, które ci pomaga.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Mniej niespodzianek,\\n*więcej spokoju*.",
+   "cta": "Zapisz i spisz swoją listę przed wiosną"
+  }
+ ]
+}
