@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "number",
+   "big": "1",
+   "text": "rzecz do zmiany w przerwie. *Nie pięć*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw wydech",
+   "body": "Pierwsze minuty przerwy są na ciało: woda, oddech, rozluźnienie. Analiza może chwilę poczekać.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna rzecz do poprawy",
+   "body": "Wybierasz jeden element na drugą część. Pięć postanowień w głowie to żadne.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Reset na start",
+   "body": "Wracasz na boisko tak, jakby mecz zaczynał się od nowa. Zero do zera.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Co robisz w *przerwie* meczu?",
+   "cta": "Zapisz i sprawdź w najbliższym meczu"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "quote",
+   "text": "Po gwizdku nie musisz\\nnic *tłumaczyć*.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsze sekundy są najgłośniejsze",
+   "body": "Zaraz po decyzji emocje zawodników są najwyższe. Słowa wtedy rzadko docierają, za to łatwo dolewają oliwy.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Cisza też jest komunikatem",
+   "body": "Jasny gest, spokojna postawa i krótka pauza mówią: decyzja zapadła. Bez dyskusji.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Wyjaśnienie na później",
+   "body": "Jeśli trzeba coś powiedzieć, mówisz jedno zdanie kapitanowi, kiedy emocje opadną.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "end",
+   "text": "Ile *mówisz* zaraz po trudnej decyzji?",
+   "cta": "Zapisz i sprawdź na nagraniu"
+  }
+ ]
+}

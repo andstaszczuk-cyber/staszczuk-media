@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "penalty",
+   "text": "Karny w końcówce.\\nTa sama decyzja, *większy ciężar*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Ranga nie zmienia przepisu",
+   "body": "Ten sam kontakt w pierwszej minucie i w ostatniej to ta sama decyzja. Zmienia się tylko ciężar, który czujesz.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Strach przed decyzją",
+   "body": "Pod presją kusi, żeby nie gwizdać. Brak decyzji też jest decyzją i też ma konsekwencje.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Oprzyj się na tym, co widzisz",
+   "body": "Ustawienie, kąt, kontakt. Decydujesz na podstawie obrazu, nie wyniku na tablicy.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Czy końcówka meczu *zmienia* twoje decyzje?",
+   "cta": "Zapisz i wróć przed ważnym meczem"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "icon",
+   "icon": "kartka",
+   "text": "Kartka dla kapitana.\\n*Ta sama* zasada.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Opaska nie chroni przed przepisami",
+   "body": "Kapitan ma więcej obowiązków, a nie więcej przywilejów. Gdy przekracza granicę, reagujesz jak przy każdym innym."
+  },
+  {
+   "kind": "point",
+   "title": "Twoja wiarygodność",
+   "body": "Jeśli pobłażasz kapitanowi, reszta drużyny to widzi. Od tej chwili każdy będzie testował twoje granice."
+  },
+  {
+   "kind": "point",
+   "title": "Spokojnie i bez zemsty",
+   "body": "Pokazujesz kartkę rzeczowo, bez emocji. Po chwili dalej możesz z nim normalnie rozmawiać."
+  },
+  {
+   "kind": "end",
+   "text": "Czy łatwiej ci ukarać *kapitana* czy zwykłego zawodnika?",
+   "cta": "Zapisz przed kolejnym meczem"
+  }
+ ]
+}

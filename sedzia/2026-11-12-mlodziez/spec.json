@@ -1,0 +1,33 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "triangle",
+   "text": "Na meczu dzieci\\nsędziujesz *też dorosłych*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Dzieci patrzą na ciebie",
+   "body": "Dla młodego zawodnika sędzia to często pierwszy dorosły, który mówi mu nie przy wszystkich. To, jak to robisz, zostaje w nim dłużej niż wynik."
+  },
+  {
+   "kind": "point",
+   "title": "Rodzice przeżywają podwójnie",
+   "body": "Za linią stoi ktoś, dla kogo ten mecz to cały świat. Ich emocje są głośne, ale twoje zadanie się nie zmienia."
+  },
+  {
+   "kind": "point",
+   "title": "Spokój zamiast wykładu",
+   "body": "Krótko tłumaczysz dziecku, co się stało, i grasz dalej. Do rodziców nie wchodzisz w dyskusję. Spokojny sędzia uspokaja całe boisko."
+  },
+  {
+   "kind": "end",
+   "text": "Co jest dla ciebie *najtrudniejsze* na meczach dzieci?",
+   "cta": "Wyślij komuś, kto zaczyna sędziować"
+  }
+ ]
+}

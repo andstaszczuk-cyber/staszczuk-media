@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "dinner",
+   "text": "Hejt czytasz ty.\\nPrzeżywa *cała rodzina*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Bliscy też to widzą",
+   "body": "Komentarze o sędzi trafiają też do partnera, rodziców, dzieci. Często przeżywają je mocniej niż ty.",
+   "icon": "dom"
+  },
+  {
+   "kind": "point",
+   "title": "Porozmawiajcie wcześniej",
+   "body": "Ustalcie, czy chcesz o tym rozmawiać, i jak bliscy mają reagować. Bez domysłów.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Dom jako bezpieczne miejsce",
+   "body": "Po trudnym meczu dom może być miejscem, gdzie jesteś po prostu sobą, a nie sędzią.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "Rozmawiasz z bliskimi o tym, *co czytacie* w sieci?",
+   "cta": "Wyślij to komuś, kto jest dla ciebie wsparciem"
+  }
+ ]
+}

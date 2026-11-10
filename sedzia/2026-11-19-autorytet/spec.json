@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "text": "Autorytet\\nbez *krzyku*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Krzyk mówi o tobie",
+   "body": "Podniesiony głos często pokazuje, że tracisz kontrolę. Zawodnicy to słyszą od razu.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Konsekwencja waży więcej",
+   "body": "Zawodnicy szanują sędziego, który dotrzymuje słowa. Ta sama reakcja na to samo zachowanie.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojny ton, jasne słowa",
+   "body": "Mówisz krótko, nisko i wyraźnie. Głos ma nieść, a nie atakować.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Po czym *zawodnicy* poznają, że masz mecz pod kontrolą?",
+   "cta": "Zapisz i sprawdź w najbliższym meczu"
+  }
+ ]
+}

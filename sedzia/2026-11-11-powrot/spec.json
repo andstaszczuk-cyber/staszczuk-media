@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "split",
+   "label": "PO PRZERWIE",
+   "text": "Wrócisz do *starej* formy?",
+   "sub": "Lepiej zbuduj nowy rytm, mecz po meczu.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Frycowe jest wliczone",
+   "body": "Pierwsze mecze po przerwie bywają nierówne. Tempo decyzji, kondycja, rytm meczu. To wraca z każdym kolejnym meczem.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Porównuj mecz do meczu",
+   "body": "Zestawianie się z najlepszym okresem tylko dokłada presji. Sprawdzaj, czy drugi mecz po powrocie był lepszy od pierwszego.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden cel na mecz",
+   "body": "Jedna rzecz do dopracowania, nie pięć. Krok po kroku zamiast oczekiwania, że wszystko wróci naraz.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Co pomogło ci *wrócić* po ostatniej przerwie?",
+   "cta": "Wyślij komuś, kto właśnie wraca"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "left",
+   "label": "PO SPORNEJ DECYZJI",
+   "text": "Nie wyrównuj. *Sędziuj dalej*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Pokusa jest naturalna",
+   "body": "Po decyzji, która mogła być błędna, głowa chce coś oddać drugiej stronie. To próba uspokojenia własnego sumienia.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Dwa błędy zamiast jednego",
+   "body": "Wyrównując, dokładasz drugą złą decyzję. A zawodnicy szybko wyczuwają, że sędzia zaczął rozdawać.",
+   "icon": "kartka"
+  },
+  {
+   "kind": "point",
+   "title": "Każda akcja od nowa",
+   "body": "Następną sytuację oceniasz tak, jakby poprzedniej nie było. Patrzysz na to, co widzisz teraz.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Złapałeś się kiedyś na *wyrównywaniu*?",
+   "cta": "Zapisz i przypomnij sobie w trudnym meczu"
+  }
+ ]
+}
