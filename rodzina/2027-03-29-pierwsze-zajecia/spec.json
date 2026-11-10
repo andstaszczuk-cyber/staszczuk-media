@@ -1,0 +1,40 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Pierwsze zajęcia\n*małego sportowca*:",
+   "items": [
+    "krótko i wesoło",
+    "rodzic blisko",
+    "bez oceny"
+   ],
+   "checked": 3
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsze *wrażenie*",
+   "body": "Dla małego dziecka nowa sala, obcy trener i grupa to dużo naraz.",
+   "icon": "door"
+  },
+  {
+   "kind": "point",
+   "title": "Może *tylko patrzeć*",
+   "body": "Czasem pierwsze zajęcia dziecko przegląda z boku. To też jest start.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Pytaj *o radość*",
+   "body": "Po zajęciach zapytaj, co było fajne, a nie, czy było najlepsze.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Pierwsze zajęcia mają *zachęcić*, a nie sprawdzić.",
+   "cta": "Zapisz i wyślij rodzicowi, który właśnie zapisał dziecko na sport.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "trophy",
+   "text": "Chcę grać w reprezentacji.\n*Nie gaś tego marzenia*."
+  },
+  {
+   "kind": "point",
+   "title": "Marzenie *napędza*",
+   "body": "Daje energię na zimne treningi i gorsze dni. Warto je szanować.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Od marzenia *do dziś*",
+   "body": "Co robi dziś ktoś, kto chce tam kiedyś być? Tu jest miejsce na konkret.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *rozliczania*",
+   "body": "Marzenie nie jest umową. Nie wypominaj go po słabszym meczu.",
+   "icon": "tear"
+  },
+  {
+   "kind": "end",
+   "text": "Marzenie jest dziecka. Ty możesz pomóc mu *zrobić dziś mały krok*.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko ma wielkie plany.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "clock",
+   "text": "Spóźnieni na zbiórkę.\n*Stres zaczyna się w aucie*."
+  },
+  {
+   "kind": "point",
+   "title": "Nerwy *przed meczem*",
+   "body": "Dziecko, które wpada na rozgrzewkę w ostatniej chwili, gra spięte jeszcze długo.",
+   "icon": "car"
+  },
+  {
+   "kind": "point",
+   "title": "Torba *dzień wcześniej*",
+   "body": "Spakowana wieczorem oszczędza porannej gonitwy i szukania getrów.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Zapas *kwadransa*",
+   "body": "Wyjazd chwilę wcześniej daje spokojny początek dnia meczowego.",
+   "icon": "clock"
+  },
+  {
+   "kind": "end",
+   "text": "Spokojny dojazd to *pierwsza część rozgrzewki*.",
+   "cta": "Zapisz i wróć do tego przed najbliższym wyjazdem na mecz.",
+   "icon": "heart"
+  }
+ ]
+}

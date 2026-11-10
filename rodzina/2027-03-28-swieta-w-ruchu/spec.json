@@ -1,0 +1,38 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "W święta też mam trening?",
+    "*Nie. Jedziemy razem na rower.*"
+   ],
+   "text": "Ruch w rodzinie, *bez wyniku*."
+  },
+  {
+   "kind": "point",
+   "title": "Przerwa *od rozkładu*",
+   "body": "Kilka dni bez treningu to dla dziecka zwykły odpoczynek, a nie strata.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Ruch *dla frajdy*",
+   "body": "Spacer, rower, piłka z kuzynami. Bez celu, czasu i liczenia.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Razem *z rodzicem*",
+   "body": "Dziecko widzi, że ruch to coś, co robi cała rodzina, i to dla przyjemności.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Najlepszy świąteczny trening to *wspólny czas*.",
+   "cta": "Zapisz i wyjdźcie razem na dwór w świąteczne popołudnie.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Nie tak, noga wyżej!",
+   "new": "*Pograjmy dla frajdy*.",
+   "text": "W ogrodzie nie trzeba trenować, wystarczy się bawić."
+  },
+  {
+   "kind": "point",
+   "title": "Trener *jest w klubie*",
+   "body": "W domu dziecko potrzebuje rodzica, nie drugiego szkoleniowca.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Poprawki *męczą*",
+   "body": "Każda uwaga o technice zamienia zabawę w kolejny trening z oceną.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Graj *z nim*",
+   "body": "Bramka z dwóch kurtek, wspólne kopanie i śmiech. To zostaje.",
+   "icon": "ball"
+  },
+  {
+   "kind": "end",
+   "text": "Najlepsze, co możesz dać w ogrodzie, to *wspólna zabawa*.",
+   "cta": "Zapisz i wyjdźcie z piłką przy najbliższej ładnej pogodzie.",
+   "icon": "heart"
+  }
+ ]
+}

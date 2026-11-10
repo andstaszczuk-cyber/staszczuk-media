@@ -1,0 +1,34 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Nagrywasz\ncały mecz\nczy *go oglądasz*?"
+  },
+  {
+   "kind": "point",
+   "title": "Ekran *zamiast meczu*",
+   "body": "Patrzysz przez telefon i widzisz mniej niż ci, którzy patrzą wprost.",
+   "icon": "phone"
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *szuka wzroku*",
+   "body": "Po golu odwraca się w twoją stronę, a widzi telefon.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Nagraj *kawałek*",
+   "body": "Jedna akcja na pamiątkę wystarczy. Resztę obejrzyj sam.",
+   "icon": "clock"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko pamięta, *że patrzyłeś*, a nie że nagrałeś.",
+   "cta": "Zapisz i schowaj telefon na najbliższym meczu.",
+   "icon": "heart"
+  }
+ ]
+}

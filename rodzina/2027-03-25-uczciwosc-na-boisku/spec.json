@@ -1,0 +1,34 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Przyznał się,\nże *piłka była jego*.\nTo też jest *wygrana*."
+  },
+  {
+   "kind": "point",
+   "title": "Uczciwość *kosztuje*",
+   "body": "Przyznanie się do autu czy faulu może zabrać punkt. Dlatego jest tak cenne.",
+   "icon": "podium"
+  },
+  {
+   "kind": "point",
+   "title": "Zauważ *to głośno*",
+   "body": "Pochwal dziecko za uczciwość tak samo jak za gola.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *drwin*",
+   "body": "Zdanie: po co się przyznawałeś, uczy, że wynik jest ważniejszy niż charakter.",
+   "icon": "tear"
+  },
+  {
+   "kind": "end",
+   "text": "Uczciwość na boisku *zostaje na dłużej* niż wynik.",
+   "cta": "Zapisz i wyślij rodzicowi, który chce wychować fair playera.",
+   "icon": "heart"
+  }
+ ]
+}
