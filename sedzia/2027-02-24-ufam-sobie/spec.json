@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Ufam sobie.\\n*Dwa najpiękniejsze słowa*."
+  },
+  {
+   "kind": "point",
+   "title": "Zaufanie to decyzja",
+   "body": "Najpierw je dajesz, potem zbierasz potwierdzenia. Jak w każdej relacji.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Dowody na kartce",
+   "body": "Zapisujesz sytuacje, w których dobrze zdecydowałeś. Głowa sama ich nie przypomni.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Wątpliwość to tylko myśl",
+   "body": "Przyjdzie przed decyzją. Możesz ją zauważyć i zdecydować mimo niej.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Decydujesz, bo masz\\n*na czym się oprzeć*.",
+   "cta": "Zapisz i dopisz dziś jeden dowód"
+  }
+ ]
+}

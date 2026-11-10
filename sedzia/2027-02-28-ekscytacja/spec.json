@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "text": "Ściska cię przed rundą?\\nNazwij to *ekscytacją*.",
+   "scene": "tunnel"
+  },
+  {
+   "kind": "point",
+   "title": "Ciało czuje podobnie",
+   "body": "Szybsze tętno, napięcie, ścisk w brzuchu. Stres i ekscytacja z bliska wyglądają podobnie.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Słowo zmienia odbiór",
+   "body": "Zamiast denerwuję się mówisz sobie: czekam na to. Ciało dostaje inny sygnał.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Za co to lubisz",
+   "body": "Rytm meczu, dobrze odczytana sytuacja, czysta decyzja. Przypomnij to sobie.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "end",
+   "text": "Czekasz na mecz,\\nbo *ci zależy*.",
+   "cta": "Zapisz i wróć tydzień przed pierwszym meczem"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "text": "Jesteś najmłodszy\\n*na boisku*.",
+   "scene": "young"
+  },
+  {
+   "kind": "point",
+   "title": "Liczy się sędziowanie",
+   "body": "Zawodnicy szybko przestają patrzeć na wiek. Patrzą na decyzje i spokój.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Testowanie granic",
+   "body": "Starsi sprawdzą, ile im wolno. Granica wcześnie, spokojnie i krótko.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Jesteś tu, bo umiesz",
+   "body": "Obsadę dostałeś za przygotowanie. Nie musisz niczego udowadniać.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Szacunek przychodzi\\nz *kolejnych decyzji*.",
+   "cta": "Zapisz i wyślij młodszemu koledze"
+  }
+ ]
+}

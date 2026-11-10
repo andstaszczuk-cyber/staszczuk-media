@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Stoisz w miejscu?\\n*Postęp nie idzie prosto*."
+  },
+  {
+   "kind": "point",
+   "title": "Rozwój idzie falami",
+   "body": "Są okresy szybkiego postępu i okresy, kiedy wszystko jakby stoi.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Pod spodem trwa praca",
+   "body": "W tym czasie układa się to, czego się nauczyłeś. Z zewnątrz tego nie widać.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Porównaj z dystansu",
+   "body": "Nagranie sprzed roku powie więcej niż trzy ostatnie mecze.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "end",
+   "text": "Kroczek w bok\\nto *też droga*.",
+   "cta": "Zapisz i wróć, kiedy poczujesz, że stoisz w miejscu"
+  }
+ ]
+}

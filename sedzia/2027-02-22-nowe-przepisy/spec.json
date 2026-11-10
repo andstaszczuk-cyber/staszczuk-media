@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "text": "Nowe zasady na wiosnę.\\n*Stary nawyk* wraca pod presją.",
+   "scene": "desk"
+  },
+  {
+   "kind": "point",
+   "title": "Wiedza to jeszcze nie nawyk",
+   "body": "Rozumiesz zmianę, a w meczu i tak może zadziałać stary odruch.",
+   "icon": "ksiazka"
+  },
+  {
+   "kind": "point",
+   "title": "Przećwicz na sucho",
+   "body": "Zatrzymujesz nagranie i na głos mówisz decyzję według nowych zasad.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "point",
+   "title": "Sparing jako poligon",
+   "body": "Pomyłka przy nowych zasadach w sparingu to informacja. Lepiej teraz niż w lidze.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Najpierw zrozumieć,\\npotem *wyćwiczyć*.",
+   "cta": "Zapisz i wróć, gdy będziesz uczyć się zmian"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "cel",
+   "text": "Gotowy na rundę?\\n*Cztery pytania*."
+  },
+  {
+   "kind": "point",
+   "title": "Przepisy i ciało",
+   "body": "Znam aktualne przepisy i zmiany? Jestem gotowy fizycznie na tempo meczu?",
+   "icon": "ksiazka"
+  },
+  {
+   "kind": "point",
+   "title": "Plan na mecz",
+   "body": "Wiem, jak się ustawiam, jak rozmawiam i co robię po trudnej decyzji?",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Zaufanie do przygotowania",
+   "body": "Ufam, że to, co przygotowałem, wykorzystam? Pomagają dowody z zimy.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "Pewność siebie\\nstoi na *przygotowaniu*.",
+   "cta": "Zapisz i odpowiedz sobie przed pierwszym meczem"
+  }
+ ]
+}

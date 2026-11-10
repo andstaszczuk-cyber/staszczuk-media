@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "ODPOWIEDZIALNOŚĆ",
+   "text": "Boisko, trener, pogoda.\\n*A ty?*"
+  },
+  {
+   "kind": "point",
+   "title": "Wszystko na zewnątrz",
+   "body": "Winni są inni, więc nie muszę nic zmieniać. Wygodne, ale niczego nie uczy.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Wszystko na siebie",
+   "body": "Każda kontrowersja to twoja wina. Boli, jest niesprawiedliwe i mało daje.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Uczciwy podział",
+   "body": "Co zależało od warunków, a co od ciebie. Z drugiej części bierzesz zadanie.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Uczciwie wobec siebie,\\n*w obie strony*.",
+   "cta": "Zapisz i wróć przy najbliższej analizie meczu"
+  }
+ ]
+}
