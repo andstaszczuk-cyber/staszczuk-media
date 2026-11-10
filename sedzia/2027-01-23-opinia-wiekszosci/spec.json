@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "decision",
+   "text": "Trybuny krzyczą.\\nGwiżdżesz *to, co widzisz*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Hałas działa na każdego",
+   "body": "Gdy trybuny krzyczą, głowa szuka zgody z tłumem. To naturalne.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "point",
+   "title": "Kryterium przed hałasem",
+   "body": "Pytasz siebie: co widziałem? Kontakt, miejsce, zamiar.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Test pustych trybun",
+   "body": "Czy ta sama decyzja zapadłaby w ciszy? Dobre pytanie do analizy.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Opinia większości\\nto jeszcze *nie fakt*.",
+   "cta": "Zapisz i wróć przed meczem przy pełnych trybunach"
+  }
+ ]
+}

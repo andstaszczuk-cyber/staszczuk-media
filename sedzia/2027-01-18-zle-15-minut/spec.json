@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "text": "Złe 15 minut.\\n*Mecz był dłuższy*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden fragment",
+   "body": "Kilka gorszych minut nie przekreśla tego, co robiłeś przez resztę meczu.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Reset w trakcie",
+   "body": "Wydech, krótkie słowo, jedno zadanie na najbliższe minuty. Mecz trwa dalej.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Ocena w proporcjach",
+   "body": "Po meczu patrzysz na całość, a gorszy fragment analizujesz osobno.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Policz, ile minut\\ntrwało *to wszystko*.",
+   "cta": "Zapisz i wróć po trudnym meczu"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "number",
+   "big": "6",
+   "text": "na 10 trudnych sytuacji.\\nTo już *postęp*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Zmiana idzie powoli",
+   "body": "Nowa reakcja na początku działa czasem. To normalny etap.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Pod presją wraca stary nawyk",
+   "body": "Zmęczenie i stres przywołują to, co znasz najdłużej.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Licz udane sytuacje",
+   "body": "Zapisuj te sześć, zamiast rozpamiętywać cztery.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Nawrót to część\\n*każdej zmiany*.",
+   "cta": "Zapisz i wróć, kiedy stary nawyk wróci"
+  }
+ ]
+}

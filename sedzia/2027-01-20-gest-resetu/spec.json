@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "penalty",
+   "text": "Pomyliłeś się.\\n*Następna akcja* już trwa.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Błąd już się wydarzył",
+   "body": "Nie cofniesz go. Decydujesz, co zrobisz w kolejnej akcji.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Gest resetu",
+   "body": "Wydech, dotknięcie gwizdka, krótkie słowo. Ten sam ruch za każdym razem.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Analiza po meczu",
+   "body": "W trakcie meczu nie rozkładasz błędu na części. Na to przyjdzie czas.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Błąd z puli.\\n*Idziemy dalej*.",
+   "cta": "Zapisz i przećwicz swój gest resetu"
+  }
+ ]
+}

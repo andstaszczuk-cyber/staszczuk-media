@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "left",
+   "label": "NOMINACJE",
+   "text": "Nie ma cię\\nna *liście*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Rozczarowanie jest w porządku",
+   "body": "Zależało ci, więc boli. Daj sobie na to chwilę.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Fakty i domysły",
+   "body": "Co naprawdę wiesz o decyzji? Zapytaj, zamiast dopisywać powody.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Co zależy od ciebie",
+   "body": "Informacja zwrotna, plan na rundę, jedna rzecz do poprawy.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Lista się zmienia.\\n*Twoja praca zostaje*.",
+   "cta": "Zapisz i wróć, kiedy przyjdą nominacje"
+  }
+ ]
+}

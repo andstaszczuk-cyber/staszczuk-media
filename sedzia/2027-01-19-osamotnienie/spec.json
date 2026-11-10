@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "quote",
+   "text": "Samotny na boisku\\nnie znaczy *osamotniony*.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja jest twoja",
+   "body": "Na boisku stoisz sam z każdą decyzją. Taka jest ta rola.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Wsparcie trzeba zorganizować",
+   "body": "Kolega z obsady, mentor, bliscy. Samo nie przyjdzie.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa po meczu",
+   "body": "Jedna osoba, z którą pogadasz o meczu bez oceniania.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Sędziujesz sam.\\n*Nie musisz być sam*.",
+   "cta": "Wyślij koledze, z którym rozmawiasz po meczach"
+  }
+ ]
+}

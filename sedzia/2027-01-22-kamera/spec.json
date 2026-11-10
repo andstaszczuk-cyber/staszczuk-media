@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "icon",
+   "icon": "kamera",
+   "text": "Każdy mecz\\nktoś *nagrywa*.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Kamera jest wszędzie",
+   "body": "Telefon na trybunach, transmisja, klip w sieci. Takie są dziś warunki.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "point",
+   "title": "Sędziujesz dla meczu",
+   "body": "Patrzysz na zawodników i kontakt. Kamera nie jest twoim widzem.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Nagranie jako materiał",
+   "body": "Ten sam klip, który cię stresuje, może cię czegoś nauczyć.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Kamera widzi mecz.\\n*Ty go prowadzisz*.",
+   "cta": "Zapisz i wróć przed nagrywanym meczem"
+  }
+ ]
+}
