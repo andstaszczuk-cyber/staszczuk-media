@@ -1,0 +1,40 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Medal za udział\n*też coś znaczy*:",
+   "items": [
+    "był do końca",
+    "grał z drużyną",
+    "chce wrócić"
+   ],
+   "checked": 3
+  },
+  {
+   "kind": "point",
+   "title": "Dla dziecka *to pamiątka*",
+   "body": "Medal przypomina dzień, w którym było częścią drużyny i dało z siebie, ile mogło.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "point",
+   "title": "Nie odbieraj *radości*",
+   "body": "Uwaga, że każdy dostał, gasi coś, co było dla dziecka ważne.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Doceń *wysiłek*",
+   "body": "Za co ty dałbyś mu ten medal? Powiedz mu to wprost.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Medal za udział to *nagroda za wysiłek*.",
+   "cta": "Zapisz i wyślij rodzicowi po wiosennym turnieju.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "phone",
+   "text": "Zanim wrzucisz zdjęcie z meczu,\n*zapytaj dziecko*."
+  },
+  {
+   "kind": "point",
+   "title": "Twoja duma, *jego wizerunek*",
+   "body": "Ty widzisz piękny moment. Dziecko może widzieć minę, której się wstydzi.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Komentarze *zostają*",
+   "body": "Pod zdjęciem piszą znajomi, ale czytają je też koledzy z drużyny.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj *wprost*",
+   "body": "Mogę to wrzucić? Taka prosta zgoda uczy dziecko, że ma prawo decydować.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Zgoda dziecka to *szacunek*, nie formalność.",
+   "cta": "Zapisz i przypomnij sobie przed kolejnym wpisem.",
+   "icon": "heart"
+  }
+ ]
+}

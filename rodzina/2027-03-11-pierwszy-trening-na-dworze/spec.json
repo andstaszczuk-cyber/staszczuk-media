@@ -1,0 +1,35 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "ball",
+   "text": "Pierwszy trening na dworze.\n*Wszystko jest inne*."
+  },
+  {
+   "kind": "point",
+   "title": "Inna *nawierzchnia*",
+   "body": "Piłka odbija się inaczej, boisko jest większe, wieje wiatr. Ciało musi się przestawić.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsze tygodnie *bywają słabsze*",
+   "body": "To nie spadek formy. Dziecko uczy się grać w nowych warunkach.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Ciepła *warstwa*",
+   "body": "Marcowa pogoda jest kapryśna. Wygodne, ciepłe ubranie pomaga skupić się na grze.",
+   "icon": "bag"
+  },
+  {
+   "kind": "end",
+   "text": "Po kilku tygodniach boisko *znów będzie swoje*.",
+   "cta": "Zapisz i przeczytaj po pierwszym treningu na dworze.",
+   "icon": "heart"
+  }
+ ]
+}

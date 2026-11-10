@@ -1,0 +1,40 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Kiedy dziecko\n*szybko rośnie*:",
+   "items": [
+    "gorzej panuje nad ciałem",
+    "szybciej się męczy",
+    "to minie"
+   ],
+   "checked": 3
+  },
+  {
+   "kind": "point",
+   "title": "Nogi *dłuższe niż wczoraj*",
+   "body": "Ciało urosło, a mózg jeszcze nie nauczył się nim sterować. Stąd potknięcia i pudła.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Wygląda *jak regres*",
+   "body": "Technika, która szła gładko, nagle się sypie. To przejściowe, a nie utrata talentu.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Więcej *cierpliwości*",
+   "body": "Mniej uwag o technice, więcej snu i spokoju. Ciało samo się ułoży.",
+   "icon": "moon"
+  },
+  {
+   "kind": "end",
+   "text": "Okres wzrostu *mija*, a umiejętności zostają.",
+   "cta": "Zapisz i wyślij rodzicowi nastolatka, który nagle wystrzelił w górę.",
+   "icon": "heart"
+  }
+ ]
+}

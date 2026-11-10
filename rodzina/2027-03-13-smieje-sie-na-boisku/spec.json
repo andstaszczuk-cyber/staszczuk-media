@@ -1,0 +1,38 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Czemu on się śmieje? Przecież przegrywają.",
+    "*Bo lubi grać.*"
+   ],
+   "text": "Uśmiech to nie brak *zaangażowania*."
+  },
+  {
+   "kind": "point",
+   "title": "Radość *pomaga grać*",
+   "body": "Rozluźnione dziecko rusza się swobodniej i łatwiej podejmuje decyzje.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Śmiech *po błędzie*",
+   "body": "Często to sposób, żeby rozładować napięcie i grać dalej.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Pytaj *o grę*",
+   "body": "Zamiast mówić, żeby było poważniej, zapytaj, co dziś sprawiło mu frajdę.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko, które *lubi grać*, gra dłużej.",
+   "cta": "Zapisz i wyślij rodzicowi, który chce więcej powagi.",
+   "icon": "heart"
+  }
+ ]
+}

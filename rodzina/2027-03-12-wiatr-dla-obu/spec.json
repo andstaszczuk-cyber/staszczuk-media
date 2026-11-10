@@ -1,0 +1,36 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Przegraliśmy przez wiatr.",
+   "new": "Wiało *obu drużynom*.",
+   "text": "Warunki są takie same dla wszystkich."
+  },
+  {
+   "kind": "point",
+   "title": "Wymówka *kusi*",
+   "body": "Wiatr, deszcz, krzywe boisko. Łatwo w tym znaleźć powód porażki.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Na co *był wpływ*",
+   "body": "Gdzie się ustawiłeś? Jak grałeś z wiatrem, a jak pod wiatr? To da się poprawić.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Rodzic *daje przykład*",
+   "body": "Jeśli sam narzekasz na warunki, dziecko szybko przejmie ten sposób myślenia.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Pogody nie wybierasz. *Masz wpływ na to, jak grasz*.",
+   "cta": "Zapisz przed najbliższym meczem w kiepską pogodę.",
+   "icon": "heart"
+  }
+ ]
+}

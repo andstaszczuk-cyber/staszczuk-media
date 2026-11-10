@@ -1,0 +1,34 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Powiedzieć\n*boli mnie*\nto też *odwaga*."
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *ukrywa ból*",
+   "body": "Boi się, że wypadnie ze składu albo że ktoś uzna je za słabe.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Słuchaj *bez oceniania*",
+   "body": "Zamiast pytać, czy na pewno, zapytaj, gdzie i kiedy boli.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Decyduje *specjalista*",
+   "body": "Ból, który wraca albo nie mija, to temat do lekarza lub fizjoterapeuty.",
+   "icon": "plaster"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko, które *mówi o bólu*, dba o swoją karierę.",
+   "cta": "Zapisz i wyślij rodzicowi młodego sportowca.",
+   "icon": "heart"
+  }
+ ]
+}
