@@ -1,0 +1,70 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Jak trener krzyczy, *przestaję słyszeć, co mówi*",
+  "sub": "Głośny ton zagłusza samą wskazówkę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 70,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "bubble",
+     "x": 470,
+     "y": 60,
+     "w": 380,
+     "h": 170,
+     "c": "A",
+     "lines": [
+      "NO RUSZ SIĘ!"
+     ],
+     "size": 46,
+     "tail": "right"
+    },
+    {
+     "k": "icon",
+     "name": "mic",
+     "x": 620,
+     "y": 320,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Przetłumacz krzyk na zadanie",
+   "body": "Rusz się może znaczyć wyjdź szybciej do piłki. Pytasz siebie, co mam teraz zrobić.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "no rusz się!",
+    "to": "szybciej wychodzę do piłki"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Złap jeden oddech",
+   "body": "Zanim zareagujesz, długi wydech. Ciało dostaje sygnał, że nic złego się nie dzieje."
+  },
+  {
+   "title": "Porozmawiaj po treningu",
+   "body": "Powiedz, że lepiej działasz przy spokojnej wskazówce. Prosisz o konkret, a decyzja zostaje po jego stronie."
+  }
+ ],
+ "end": {
+  "text": "W krzyku też jest *jakaś wskazówka*.",
+  "cta": "Zapisz na trudny trening"
+ }
+}

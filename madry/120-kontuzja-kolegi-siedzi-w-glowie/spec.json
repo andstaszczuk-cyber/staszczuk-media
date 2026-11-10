@@ -1,0 +1,82 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Kontuzja kolegi *siedzi mi w głowie*",
+  "sub": "Widziałem, jak upadł, i teraz sam się asekuruję",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "cloud",
+     "x": 620,
+     "y": 110,
+     "s": 1.05,
+     "c": "fig2",
+     "dots": [
+      [
+       480,
+       220,
+       12
+      ],
+      [
+       520,
+       185,
+       17
+      ]
+     ]
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 690,
+     "y": 320,
+     "s": 140,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Daj sobie prawo do emocji",
+   "body": "Strach po takiej sytuacji jest normalny. Pokazuje, że ci zależy na kolegach i na sobie."
+  },
+  {
+   "title": "Oddziel jego uraz od siebie",
+   "body": "To była konkretna sytuacja. Twoje ciało, twoje przygotowanie i twoja gra to osobna historia.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "cloudRain",
+     "label": "co mu się stało"
+    },
+    "right": {
+     "icon": "shield",
+     "label": "co ja mogę zrobić"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zadbaj o to, na co masz wpływ",
+   "body": "Rozgrzewka, technika, sen i uważność. To zmniejsza ryzyko i oddaje ci poczucie kontroli."
+  }
+ ],
+ "end": {
+  "text": "Wracasz do gry *z uwagą, a nie ze strachem*.",
+  "cta": "Zapisz po trudnym treningu"
+ }
+}

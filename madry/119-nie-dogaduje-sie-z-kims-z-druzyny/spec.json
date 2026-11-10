@@ -1,0 +1,84 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Nie dogaduję się *z kimś z drużyny*",
+  "sub": "Na treningu i w meczu i tak musimy grać razem",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 40,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 500,
+     "y": 0,
+     "s": 1,
+     "flip": true,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 380,
+     "y": 330,
+     "s": 130,
+     "c": "A"
+    },
+    {
+     "k": "line",
+     "x1": 330,
+     "y1": 160,
+     "x2": 560,
+     "y2": 160,
+     "w": 8,
+     "dash": "4 26",
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Oddziel zachowanie od człowieka",
+   "body": "Możesz nie lubić tego, jak ktoś się zachowuje, i dalej grać z nim fair. Na boisku liczy się zadanie."
+  },
+  {
+   "title": "Ustal, czego potrzebujesz",
+   "body": "Podanie na czas, informacja w obronie, brak docinków. Prosisz o konkretne zachowanie, a nie o sympatię.",
+   "art": {
+    "type": "notes",
+    "title": "POTRZEBUJĘ",
+    "lines": [
+     "podania na czas",
+     "informacji w obronie",
+     "spokojnego tonu"
+    ],
+    "crossed": [
+     "żebyśmy się lubili"
+    ],
+    "side": "konkretnie"
+   },
+   "artTop": 840,
+   "artH": 420
+  },
+  {
+   "title": "Powiedz o tym spokojnie",
+   "body": "Krótko, po treningu, bez świadków. Albo poproś trenera, żeby był przy tej rozmowie."
+  }
+ ],
+ "end": {
+  "text": "Nie musicie się lubić, *wartością jest drużyna*.",
+  "cta": "Zapisz przed treningiem"
+ }
+}

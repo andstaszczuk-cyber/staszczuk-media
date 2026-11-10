@@ -1,0 +1,76 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Po nowym treningu *ledwo chodzę następnego dnia*",
+  "sub": "Ból mięśni po nowym wysiłku to częsta sprawa",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 540,
+     "y": 110,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 710,
+     "y": 290,
+     "s": 140,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Odróżnij zmęczone mięśnie od urazu",
+   "body": "Rozlany ból, który mija po kilku dniach, to co innego niż ostry ból w jednym miejscu. Z takim idziesz do lekarza.",
+   "art": {
+    "type": "table",
+    "left": "ZMĘCZONE MIĘŚNIE",
+    "right": "DO LEKARZA",
+    "good": true,
+    "rows": [
+     [
+      "rozlany ból",
+      "ostry ból"
+     ],
+     [
+      "mija w kilka dni",
+      "jedno miejsce"
+     ]
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Wprowadzaj nowości stopniowo",
+   "body": "Nowe ćwiczenie zaczynasz od mniejszej liczby powtórzeń. Ciało przyzwyczaja się z tygodnia na tydzień."
+  },
+  {
+   "title": "Zaplanuj lżejszy dzień",
+   "body": "Spokojny ruch, sen, dzień bez ciężkiej jednostki. Postęp dzieje się w odpoczynku."
+  }
+ ],
+ "end": {
+  "text": "Ciało *uczy się nowego wysiłku* krok po kroku.",
+  "cta": "Zapisz po nowym treningu"
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Dwie dyscypliny, *a mam wybrać jedną*",
+  "sub": "Obie lubię i na obie brakuje sił",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "cloud",
+     "x": 620,
+     "y": 90,
+     "s": 0.95,
+     "c": "A",
+     "text": "?",
+     "dots": [
+      [
+       470,
+       200,
+       12
+      ],
+      [
+       510,
+       165,
+       17
+      ]
+     ]
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 470,
+     "y": 330,
+     "s": 120,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "foot",
+     "x": 700,
+     "y": 330,
+     "s": 120,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wypisz, co daje ci każda",
+   "body": "Ludzie, radość, rozwój, wyniki. Zobacz, czego by ci brakowało bez jednej, a czego bez drugiej.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "PIŁKA",
+      "icon": "ball",
+      "items": [
+       "drużyna",
+       "radość z gry"
+      ]
+     },
+     {
+      "title": "BIEGANIE",
+      "icon": "foot",
+      "items": [
+       "wyniki",
+       "spokój w głowie"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Daj sobie termin",
+   "body": "Nie decyduj w złości po słabym meczu. Ustal datę i do tego czasu zbieraj informacje."
+  },
+  {
+   "title": "Porozmawiaj z trenerami",
+   "body": "Każdy widzi cię z innej strony. Może da się połączyć obie dyscypliny jeszcze przez sezon."
+  }
+ ],
+ "end": {
+  "text": "Dobra decyzja może *dojrzewać kilka miesięcy*.",
+  "cta": "Zapisz przed decyzją"
+ }
+}

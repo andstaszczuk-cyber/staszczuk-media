@@ -1,0 +1,76 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Jak mam gorszy humor, *od razu trenuję gorzej*",
+  "sub": "Nastrój podpowiada, a trening i tak możesz zrobić",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 520,
+     "y": 70,
+     "s": 160,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 700,
+     "y": 300,
+     "s": 140,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Nazwij, co czujesz",
+   "body": "Zmęczenie, smutek, złość po szkole. Jak nazwiesz stan, łatwiej oddzielić go od zadania."
+  },
+  {
+   "title": "Ustal plan minimum",
+   "body": "Na gorszy dzień masz wersję treningu, którą zrobisz zawsze. Bez dyskusji ze sobą.",
+   "art": {
+    "type": "table",
+    "left": "DOBRY DZIEŃ",
+    "right": "GORSZY DZIEŃ",
+    "good": true,
+    "rows": [
+     [
+      "pełny plan",
+      "plan minimum"
+     ],
+     [
+      "dodatki",
+      "robię swoje"
+     ]
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Sprawdź po treningu",
+   "body": "Często okazuje się, że trening był całkiem w porządku. Humor podpowiadał ci co innego."
+  }
+ ],
+ "end": {
+  "text": "Gorszy dzień *też może być dobrym treningiem*.",
+  "cta": "Zapisz na gorszy dzień"
+ }
+}

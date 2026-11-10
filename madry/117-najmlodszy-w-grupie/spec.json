@@ -1,0 +1,86 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Jestem najmłodszy w grupie *i czuję, że nie pasuję*",
+  "sub": "Starsi są silniejsi, szybsi i pewniejsi siebie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 40,
+     "y": 0,
+     "s": 1,
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 250,
+     "y": 0,
+     "s": 1,
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 520,
+     "y": 140,
+     "s": 0.72
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 770,
+     "y": 90,
+     "s": 110,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Pamiętaj, że trafiłeś tu nieprzypadkowo",
+   "body": "Trener wziął cię do tej grupy, bo coś w tobie zobaczył. Już się pokazałeś, teraz robisz swoje."
+  },
+  {
+   "title": "Ucz się od starszych",
+   "body": "Patrz, jak się rozgrzewają, jak reagują na błąd, co robią po treningu. To darmowa lekcja.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "eye",
+      "label": "patrzę"
+     },
+     {
+      "icon": "note",
+      "label": "zapisuję"
+     },
+     {
+      "icon": "check",
+      "label": "próbuję",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Porównuj się ze sobą",
+   "body": "Twój punkt odniesienia to ty sprzed miesiąca. Starsi mieli na to kilka lat więcej."
+  }
+ ],
+ "end": {
+  "text": "Już się pokazałeś, *teraz robisz swoje*.",
+  "cta": "Zapisz na trening ze starszymi"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Nie lubię, jak trener *poprawia mnie przy wszystkich*",
+  "sub": "Wstyd potrafi zagłuszyć to, co on mówi",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 60,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "person",
+     "pose": "coach",
+     "x": 480,
+     "y": 0,
+     "s": 1,
+     "flip": true,
+     "c": "fig2"
+    },
+    {
+     "k": "eyes",
+     "pts": [
+      [
+       400,
+       60
+      ],
+      [
+       480,
+       30
+      ],
+      [
+       820,
+       60
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Oddziel ton od treści",
+   "body": "Zapytaj siebie, co konkretnie mam poprawić. Ta jedna informacja jest dla ciebie, reszta to tło.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "wszyscy patrzą",
+    "to": "co mam poprawić"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Pamiętaj, że inni patrzą na siebie",
+   "body": "Koledzy myślą głównie o swoich ćwiczeniach. Twoja poprawka znika im z głowy po minucie."
+  },
+  {
+   "title": "Porozmawiaj po treningu",
+   "body": "Możesz poprosić trenera o krótką rozmowę, jeśli jakaś uwaga cię mocno ruszyła."
+  }
+ ],
+ "end": {
+  "text": "Poprawka to *informacja, a nie ocena*.",
+  "cta": "Zapisz po trudnym treningu"
+ }
+}

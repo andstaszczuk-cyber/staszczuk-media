@@ -1,0 +1,85 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Trener przesunął mnie *na inną pozycję*",
+  "sub": "Nowe zadania i poczucie, że zaczynam od zera",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 60,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "arrow",
+     "x1": 330,
+     "y1": 260,
+     "x2": 560,
+     "y2": 260
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 600,
+     "y": 120,
+     "s": 160,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 760,
+     "y": 360,
+     "s": 110,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zapytaj o powód",
+   "body": "Po co ta zmiana i czego trener oczekuje. Często stoi za nią to, co robisz dobrze."
+  },
+  {
+   "title": "Wypisz, co zabierasz",
+   "body": "Szybkość, czytanie gry, praca w obronie. Twoje umiejętności idą z tobą na nowe miejsce.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "foot",
+      "label": "szybkość"
+     },
+     {
+      "icon": "eye",
+      "label": "czytanie gry"
+     },
+     {
+      "icon": "shield",
+      "label": "obrona",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Daj sobie czas na naukę",
+   "body": "Nowa pozycja to nowe nawyki. Przez kilka tygodni będzie niewygodnie i to jest zgodne z planem."
+  }
+ ],
+ "end": {
+  "text": "Na nowej pozycji *dalej jesteś sobą*.",
+  "cta": "Zapisz na zmianę pozycji"
+ }
+}

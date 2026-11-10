@@ -1,0 +1,71 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po feriach *nic mi się nie mieści* w tygodniu",
+  "sub": "Szkoła, treningi i zaległości naraz",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 540,
+     "y": 110,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 710,
+     "y": 290,
+     "s": 140,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Rozpisz tydzień na kartce",
+   "body": "Lekcje, treningi, dojazdy i sen. Dopiero jak widzisz całość, wiesz, gdzie naprawdę brakuje czasu.",
+   "art": {
+    "type": "hub",
+    "center": "mój tydzień",
+    "icon": "clock",
+    "items": [
+     "szkoła",
+     "treningi",
+     "dojazdy",
+     "sen"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Wybierz trzy rzeczy na dzień",
+   "body": "Trzy najważniejsze sprawy robisz na pewno. Reszta może przejść na jutro i nic się nie stanie."
+  },
+  {
+   "title": "Daj sobie tydzień na rozruch",
+   "body": "Pierwsze dni po przerwie zawsze są chaotyczne. Rytm wraca, kiedy powtarzasz go kilka dni z rzędu."
+  }
+ ],
+ "end": {
+  "text": "Rytm po feriach *wraca krok po kroku*.",
+  "cta": "Zapisz na tydzień po feriach"
+ }
+}

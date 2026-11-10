@@ -1,0 +1,69 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Mam nowego trenera *i nie wiem, czy mu ufać*",
+  "sub": "Inne zasady, inny styl i dużo niewiadomych",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 60,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "person",
+     "pose": "coach",
+     "x": 500,
+     "y": 0,
+     "s": 1,
+     "flip": true,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 370,
+     "y": 40,
+     "s": 120,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Daj sobie czas",
+   "body": "Zaufanie buduje się na kolejnych treningach. Po kilku tygodniach wiesz o trenerze dużo więcej niż po pierwszym dniu."
+  },
+  {
+   "title": "Pytaj, zamiast zgadywać",
+   "body": "Po co to ćwiczenie i czego trener od ciebie oczekuje. Jedno pytanie daje więcej niż tydzień domysłów.",
+   "art": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "nie lubi mnie?",
+     "po co to?",
+     "co robię źle?"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Patrz na zachowania",
+   "body": "Czy dotrzymuje słowa, czy tłumaczy, czy reaguje na to, co mówisz. Na tym oprzesz zaufanie."
+  }
+ ],
+ "end": {
+  "text": "Zaufanie *rośnie z każdym treningiem*.",
+  "cta": "Zapisz na pierwsze tygodnie"
+ }
+}

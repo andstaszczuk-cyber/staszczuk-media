@@ -1,0 +1,76 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Kiedy prowadzę, *zaczynam grać zachowawczo*",
+  "sub": "Chęć dowiezienia wyniku potrafi usztywnić",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "rect",
+     "x": 500,
+     "y": 70,
+     "w": 330,
+     "h": 170,
+     "r": 28,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 665,
+     "y": 185,
+     "t": "2:0",
+     "size": 96,
+     "w": 800,
+     "c": "onA",
+     "anchor": "middle"
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 610,
+     "y": 300,
+     "s": 140,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zauważ, co zmienia się w twojej grze",
+   "body": "Cofasz się, odgrywasz bezpiecznie, przestajesz atakować. Nazwij to, zanim zrobi się nerwowo."
+  },
+  {
+   "title": "Zrób reset po zdobytym punkcie",
+   "body": "Krótki sygnał dla siebie, jak wydech i zero do zera. Grasz dalej tak, jakby wynik był remisowy.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "byle nie stracić",
+    "to": "zero do zera, gram swoje"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Trzymaj się swojego planu",
+   "body": "To, co dało ci prowadzenie, dalej działa. Zmieniasz taktykę tylko wtedy, gdy wymaga tego gra."
+  }
+ ],
+ "end": {
+  "text": "To, co dało ci prowadzenie, *dalej działa*.",
+  "cta": "Zapisz przed meczem"
+ }
+}

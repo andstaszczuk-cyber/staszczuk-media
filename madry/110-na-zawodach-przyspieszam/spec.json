@@ -1,0 +1,81 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Na zawodach *robię wszystko szybciej* niż na treningu",
+  "sub": "Ciało pod napięciem przyspiesza samo",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 60,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 540,
+     "y": 110,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 710,
+     "y": 290,
+     "s": 140,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zauważ, kiedy przyspieszasz",
+   "body": "Najczęściej w pierwszych minutach i zaraz po błędzie. Jak wiesz kiedy, możesz się na to przygotować."
+  },
+  {
+   "title": "Zwolnij jeden element",
+   "body": "Wybierz jedną rzecz, na przykład długi wydech przed akcją. Ona trzyma resztę w rytmie.",
+   "art": {
+    "type": "scale10",
+    "caption": "TEMPO",
+    "y": 240,
+    "points": [
+     {
+      "n": 2,
+      "label": "za wolno"
+     },
+     {
+      "n": 6,
+      "label": "moje tempo",
+      "hl": true
+     },
+     {
+      "n": 10,
+      "label": "za szybko"
+     }
+    ],
+    "note": "wracam do swojego rytmu"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Ćwicz rytm na treningu",
+   "body": "Raz w tygodniu trening z presją, na czas albo przy kimś, kto patrzy. Tam sprawdzasz swoje tempo."
+  }
+ ],
+ "end": {
+  "text": "Twoje tempo z treningu *pasuje też na zawody*.",
+  "cta": "Zapisz przed zawodami"
+ }
+}

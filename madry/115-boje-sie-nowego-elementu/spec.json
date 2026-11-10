@@ -1,0 +1,69 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Boję się nowego elementu, *choć trener mówi, że jestem gotowa*",
+  "sub": "Ciało umie, a głowa jeszcze hamuje",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "stairs",
+     "x": 430,
+     "y": 470,
+     "n": 3,
+     "sw": 110,
+     "sh": 80
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 760,
+     "y": 90,
+     "s": 120,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Rozbij element na kawałki",
+   "body": "Najpierw z asekuracją, potem na miękkim podłożu, potem bez pomocy. Każdy krok to osobny sukces.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "z asekuracją",
+     "na miękkim",
+     "sama"
+    ],
+    "top": true
+   },
+   "artTop": 860,
+   "artH": 380
+  },
+  {
+   "title": "Zrób go najpierw w głowie",
+   "body": "Kilka minut dziennie wyobrażasz sobie cały ruch w zwolnionym tempie, od wejścia do lądowania."
+  },
+  {
+   "title": "Strach może iść z tobą",
+   "body": "Nie musisz czekać, aż zniknie. Bierzesz go ze sobą i robisz pierwszy mały krok."
+  }
+ ],
+ "end": {
+  "text": "Odwagę budujesz *małymi krokami*.",
+  "cta": "Zapisz przed nowym elementem"
+ }
+}
