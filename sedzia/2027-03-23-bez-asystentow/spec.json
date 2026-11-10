@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Sam na boisku?\\nRobisz *to, co możliwe*."
+  },
+  {
+   "kind": "point",
+   "title": "Uczciwe oczekiwania",
+   "body": "Bez asystentów nie zobaczysz każdej sytuacji przy linii. To normalne.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Ustawienie pod przekątną",
+   "body": "Więcej ruchu w poprzek boiska, żeby widzieć linię i pole karne.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Słowo przed meczem",
+   "body": "Powiedz kapitanom, jak to będzie wyglądać. Mniej pretensji potem.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Robisz *to, co możliwe*\\nw tych warunkach.",
+   "cta": "Zapisz i wróć przed meczem bez asystentów"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "night",
+   "text": "Dziś krótsza noc.\\n*Zaplanuj sen*."
+  },
+  {
+   "kind": "point",
+   "title": "Godzina mniej",
+   "body": "W nocy przestawiamy zegarki. Ciało potrzebuje kilku dni, żeby to nadrobić.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Wcześniej do łóżka",
+   "body": "Przez kilka wieczorów kładź się trochę wcześniej niż zwykle.",
+   "icon": "ksiezyc"
+  },
+  {
+   "kind": "point",
+   "title": "Światło i telefon",
+   "body": "Rano wyjdź na dzienne światło, wieczorem odłóż telefon wcześniej.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "end",
+   "text": "Sen to część\\n*przygotowania do meczu*.",
+   "cta": "Zapisz i wróć przed kolejnym weekendem"
+  }
+ ]
+}

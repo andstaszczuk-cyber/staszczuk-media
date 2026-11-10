@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Czasem trzeba\\n*odmówić obsady*."
+  },
+  {
+   "kind": "point",
+   "title": "Zmęczenie kosztuje",
+   "body": "Mecz prowadzony na rezerwie to większe ryzyko błędu i więcej frustracji.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja zawodowa",
+   "body": "Zgłoszenie niedyspozycji to dbanie o jakość sędziowania.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Wcześnie i krótko",
+   "body": "Informujesz z wyprzedzeniem, jasno, bez długiego tłumaczenia się.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "end",
+   "text": "Wybierasz\\n*jakość sędziowania*.",
+   "cta": "Zapisz i wróć, gdy kalendarz się przepełni"
+  }
+ ]
+}

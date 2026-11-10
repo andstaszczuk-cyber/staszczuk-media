@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "crew",
+   "text": "Kolega dostał\\n*lepszą obsadę*?"
+  },
+  {
+   "kind": "point",
+   "title": "Zazdrość to informacja",
+   "body": "Pokazuje, na czym ci zależy. Nie musisz się jej wstydzić.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja droga",
+   "body": "Porównujesz się z sobą sprzed roku, nie z jedną listą obsad.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Ucz się od niego",
+   "body": "Zapytaj, co mu pomogło. Z cudzej drogi możesz wziąć coś dla siebie.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Zależy ci.\\n*Zrób z tego plan*.",
+   "cta": "Zapisz i wróć, gdy pojawi się nowa lista obsad"
+  }
+ ]
+}

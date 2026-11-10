@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "rain",
+   "text": "Między meczami\\n*też się trenuje*."
+  },
+  {
+   "kind": "point",
+   "title": "Trening ciała",
+   "body": "Regularny trening w tygodniu trzyma formę, nawet gdy pogoda nie zachęca.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Krótka analiza",
+   "body": "Jedno nagranie, jedna rzecz do poprawy. Kwadrans wystarczy.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "point",
+   "title": "Kilka minut dla głowy",
+   "body": "Oddech albo wyobrażenie pierwszych minut najbliższego meczu.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "end",
+   "text": "Mecz w weekend\\n*zaczyna się w tygodniu*.",
+   "cta": "Zapisz i wróć w środku tygodnia"
+  }
+ ]
+}

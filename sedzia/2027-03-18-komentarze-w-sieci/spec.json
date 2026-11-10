@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "phone",
+   "text": "Czytasz komentarze\\n*po meczu*?"
+  },
+  {
+   "kind": "point",
+   "title": "Komentarz to opinia",
+   "body": "Pisze go ktoś z trybuny albo sprzed ekranu, często w emocjach i bez całego obrazu.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Pora i limit",
+   "body": "Jeśli czytasz, to nie w nocy i nie w kółko. Raz, krótko, z dystansem.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Informacja od ludzi, którzy się znają",
+   "body": "Ocenę bierzesz od obserwatora, mentora i kolegów z obsady.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Ocenę bierzesz od tych,\\nktórzy *naprawdę się znają*.",
+   "cta": "Zapisz i wróć po meczu, o którym piszą w sieci"
+  }
+ ]
+}

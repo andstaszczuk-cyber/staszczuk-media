@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Miesiąc rundy\\n*za tobą*."
+  },
+  {
+   "kind": "point",
+   "title": "Co zadziałało",
+   "body": "Zapisz trzy rzeczy, które wyszły ci w marcu najlepiej.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "point",
+   "title": "Co się powtarza",
+   "body": "Sytuacje, które wracały w kilku meczach, pokazują obszar do pracy.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna rzecz na kwiecień",
+   "body": "Wybierz jedno zadanie na kolejny miesiąc. Tylko jedno.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Krótki przegląd,\\n*jasny kierunek*.",
+   "cta": "Zapisz i zrób przegląd marca"
+  }
+ ]
+}

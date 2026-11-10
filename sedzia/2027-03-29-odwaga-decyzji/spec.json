@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "DECYZJA",
+   "text": "Wiesz, co widziałeś?\\n*Gwiżdżesz*.",
+   "sub": "Odwaga to decyzja *zgodna z tym, co widzisz*."
+  },
+  {
+   "kind": "point",
+   "title": "Wahanie kosztuje",
+   "body": "Spóźniony gwizdek budzi więcej protestów niż sama decyzja.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Ufasz obrazowi",
+   "body": "Widziałeś z dobrego miejsca. To jest twoja podstawa.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Protest będzie",
+   "body": "Przyjmujesz to z góry. Wiesz, po co jesteś na boisku.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "Gwiżdżesz to,\\n*co widzisz*.",
+   "cta": "Zapisz i wróć po meczu z trudną decyzją"
+  }
+ ]
+}

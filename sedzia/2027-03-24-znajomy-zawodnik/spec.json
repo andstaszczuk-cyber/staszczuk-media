@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "handshake",
+   "text": "Znasz go.\\n*Sędziujesz tak samo*."
+  },
+  {
+   "kind": "point",
+   "title": "Znajomość działa w obie strony",
+   "body": "Łatwo być łagodniejszym albo surowszym, żeby nikt nie pomyślał źle.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Te same kryteria",
+   "body": "Faul znajomego to ten sam faul co obcego. I tak samo z decyzją na jego korzyść.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa jak z każdym",
+   "body": "Na boisku ten sam ton i dystans. Pogadacie po meczu.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Na boisku\\n*każdy jest zawodnikiem*.",
+   "cta": "Zapisz i wróć przed meczem ze znajomymi twarzami"
+  }
+ ]
+}

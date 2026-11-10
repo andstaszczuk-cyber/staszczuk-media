@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "kalendarz",
+   "text": "Znów ta drużyna\\n*po jesiennym meczu*?"
+  },
+  {
+   "kind": "point",
+   "title": "Pamięć wraca",
+   "body": "Myśli o tamtym meczu przyjdą. Zauważasz je i wracasz do teraz.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Oni też pamiętają",
+   "body": "Spodziewaj się docinków. Miej na nie jedną krótką odpowiedź.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Nowy mecz",
+   "body": "Inne okoliczności, inna forma, inny wynik. Sędziujesz to, co dzieje się dziś.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Tamten mecz\\n*już się skończył*.",
+   "cta": "Zapisz i wróć przed meczem z drużyną z jesieni"
+  }
+ ]
+}

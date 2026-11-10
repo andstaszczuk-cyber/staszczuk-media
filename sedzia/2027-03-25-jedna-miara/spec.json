@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "KONSEKWENCJA",
+   "text": "Jedna miara\\n*przez cały mecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsze minuty ustawiają",
+   "body": "Pierwsze decyzje pokazują zawodnikom, gdzie jest granica.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Końcówka kusi",
+   "body": "Pod koniec łatwiej odpuścić albo zaostrzyć. Zawodnicy to od razu widzą.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdź po meczu",
+   "body": "Porównaj podobne sytuacje z początku i z końca meczu.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Przewidywalny sędzia\\nto *spokojniejszy mecz*.",
+   "cta": "Zapisz i wróć przy analizie meczu"
+  }
+ ]
+}

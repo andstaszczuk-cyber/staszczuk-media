@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "bateria",
+   "text": "Żółta flaga\\n*zmęczenia*."
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsze sygnały",
+   "body": "Gorszy sen, krótszy lont, mniej chęci na trening. Widzisz je, zanim spadnie forma.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Żółta to zwolnij",
+   "body": "Mniej obciążenia, więcej snu, jeden wolny wieczór w tygodniu.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Czerwona to stop",
+   "body": "Gdy sygnały się kumulują, rozmawiasz o przerwie w obsadach.",
+   "icon": "kartka"
+  },
+  {
+   "kind": "end",
+   "text": "Zmęczenie mówi\\n*coś ważnego*.",
+   "cta": "Zapisz i wróć, gdy poczujesz, że brakuje ci energii"
+  }
+ ]
+}

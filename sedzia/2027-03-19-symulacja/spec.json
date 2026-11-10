@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "3",
+   "text": "kroki, gdy zawodnik\\n*próbuje cię nabrać*."
+  },
+  {
+   "kind": "point",
+   "title": "Ustawienie i kąt",
+   "body": "Z dobrego miejsca widzisz kontakt albo jego brak. Ustawienie to twoja najlepsza ochrona.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Nie bierz tego do siebie",
+   "body": "Zawodnik próbuje coś ugrać dla drużyny. Osobiście cię to nie dotyczy.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojna reakcja",
+   "body": "Decyzja zgodna z przepisami, bez złości i bez kazań.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Gwiżdżesz to,\\nco *się wydarzyło*.",
+   "cta": "Zapisz i wróć po meczu z teatrem na boisku"
+  }
+ ]
+}

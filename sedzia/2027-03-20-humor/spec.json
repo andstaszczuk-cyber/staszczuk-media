@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Żart na boisku?\\n*Czasem pomaga*.",
+   "sub": "Lekkość rozładowuje, *gdy znasz granicę*."
+  },
+  {
+   "kind": "point",
+   "title": "Rozładowanie",
+   "body": "Krótki, życzliwy żart potrafi zdjąć napięcie szybciej niż długie tłumaczenie.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "point",
+   "title": "Kiedy lepiej nie",
+   "body": "Przy złości, po ostrym faulu albo w sporze żart bywa odebrany jako kpina.",
+   "icon": "kartka"
+  },
+  {
+   "kind": "point",
+   "title": "Twój styl",
+   "body": "Nie musisz żartować. Jeśli to twoje, używasz z umiarem.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "Uśmiech też\\n*bywa narzędziem*.",
+   "cta": "Zapisz i wróć przed meczem"
+  }
+ ]
+}

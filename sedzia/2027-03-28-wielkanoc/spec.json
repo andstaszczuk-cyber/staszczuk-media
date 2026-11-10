@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "2",
+   "text": "dni świąt.\\n*Odpocznij naprawdę*."
+  },
+  {
+   "kind": "point",
+   "title": "Przerwa w kolejkach",
+   "body": "Świąteczny weekend często oznacza wolne od meczów. Warto z niego skorzystać.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Analizy po świętach",
+   "body": "Nagrania i notatki odkładasz na wtorek. Nic nie ucieknie.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Czas z bliskimi",
+   "body": "Rozmowy przy stole i spacer to też regeneracja dla głowy.",
+   "icon": "dom"
+  },
+  {
+   "kind": "end",
+   "text": "Wracasz po świętach\\nz *naładowaną baterią*.",
+   "cta": "Zapisz i wróć po świętach"
+  }
+ ]
+}
