@@ -1,0 +1,36 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Przez zimę stracił, trzeba nadrobić.",
+   "new": "Nie nadrabiamy.\n*Budujemy dalej*.",
+   "text": "Wiosna nie jest egzaminem z zimy."
+  },
+  {
+   "kind": "point",
+   "title": "Zima *nie przepadła*",
+   "body": "Hala, basen, inne zajęcia. To też była praca, tylko mniej widoczna.",
+   "icon": "snowflake"
+  },
+  {
+   "kind": "point",
+   "title": "Dokładanie *męczy*",
+   "body": "Dodatkowe treningi od rodzica na start sezonu częściej przeciążają, niż pomagają.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Plan *ma trener*",
+   "body": "Zapytaj, co dziecko ma robić teraz, i trzymaj się tego.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "end",
+   "text": "Forma po zimie *wraca krok po kroku*.",
+   "cta": "Zapisz i wyślij rodzicowi, który chce nadrabiać.",
+   "icon": "sprout"
+  }
+ ]
+}

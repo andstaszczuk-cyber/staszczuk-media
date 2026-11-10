@@ -1,0 +1,35 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "siblings",
+   "text": "Trener przeniósł go\n*do starszej grupy*."
+  },
+  {
+   "kind": "point",
+   "title": "Mniej gra, *więcej się uczy*",
+   "body": "Na tle starszych jest wolniejszy i słabszy fizycznie. To normalne na początku.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Porównuje się *do starszych*",
+   "body": "Warto przypominać, że oni mają rok albo dwa lata treningu więcej.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Dobrze mieć *swoich*",
+   "body": "Kontakt z rówieśnikami daje mu oddech i poczucie, że gdzieś jest mocny.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Starsza grupa to *awans*, nawet gdy na początku boli.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko właśnie awansowało.",
+   "icon": "heart"
+  }
+ ]
+}

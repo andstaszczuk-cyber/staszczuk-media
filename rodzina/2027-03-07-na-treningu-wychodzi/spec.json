@@ -1,0 +1,36 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Na treningu umie, w meczu nie.",
+   "new": "Mecz to *inne warunki*.",
+   "text": "Umiejętność potrzebuje czasu, żeby się przenieść."
+  },
+  {
+   "kind": "point",
+   "title": "Trening *bez stawki*",
+   "body": "Na treningu błąd nic nie kosztuje, więc ciało działa swobodnie.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "W meczu *dochodzi presja*",
+   "body": "Ludzie patrzą, liczy się wynik, rywal przeszkadza. Głowa ma więcej do przerobienia.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Jedno *zadanie na mecz*",
+   "body": "Dwa razy spróbuję minąć rywala. Takie zadanie zamiast myślenia o wyniku.",
+   "icon": "ball"
+  },
+  {
+   "kind": "end",
+   "text": "Co wychodzi na treningu, *z czasem wyjdzie w meczu*.",
+   "cta": "Zapisz i wróć po kolejnym meczu poniżej oczekiwań.",
+   "icon": "heart"
+  }
+ ]
+}

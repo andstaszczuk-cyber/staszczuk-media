@@ -1,0 +1,38 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Mogę iść z kolegami na boisko?",
+    "*Jasne, idź.*"
+   ],
+   "text": "Podwórko *też jest treningiem*."
+  },
+  {
+   "kind": "point",
+   "title": "Gra *bez trenera*",
+   "body": "Sami ustalają zasady, składy i kto stoi na bramce. To uczy więcej, niż się wydaje.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *oceny*",
+   "body": "Nikt nie krzyczy z linii, więc dziecko próbuje rzeczy, których w meczu by nie spróbowało.",
+   "icon": "dice"
+  },
+  {
+   "kind": "point",
+   "title": "Radość *z ruchu*",
+   "body": "Dziecko pamięta, że gra jest po to, żeby było fajnie.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Na podwórku dziecko *uczy się grać po swojemu*.",
+   "cta": "Zapisz i wyślij rodzicowi, który boi się, że to strata czasu.",
+   "icon": "heart"
+  }
+ ]
+}

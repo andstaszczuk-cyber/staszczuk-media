@@ -1,0 +1,40 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Wyniki testów\n*czytaj spokojnie*:",
+   "items": [
+    "porównuj z nim samym",
+    "pamiętaj o wzroście",
+    "chwal pracę"
+   ],
+   "checked": 3
+  },
+  {
+   "kind": "point",
+   "title": "Porównuj *z nim samym*",
+   "body": "Ważne, ile dziecko poprawiło od jesieni. Miejsce w tabeli drużyny mówi dużo mniej.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Dzieci *rosną różnie*",
+   "body": "Wyższy o głowę kolega biega szybciej, bo jest dalej w rozwoju. Za kilka lat może być inaczej.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden dzień *to mało*",
+   "body": "Gorszy sen, katar albo stres przed sprawdzianem potrafią zepsuć wynik testu.",
+   "icon": "moon"
+  },
+  {
+   "kind": "end",
+   "text": "Test pokazuje jeden dzień, *nie całą przyszłość*.",
+   "cta": "Zapisz przed najbliższymi testami w klubie.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "calendar",
+   "text": "Mecz odwołany.\n*A czekał cały tydzień*."
+  },
+  {
+   "kind": "point",
+   "title": "Rozczarowanie *jest w porządku*",
+   "body": "Czekało, nastawiło się, spakowało torbę. Ma prawo być złe i smutne.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *zagadywania*",
+   "body": "Zamiast od razu pocieszać, powiedz po prostu, że też ci szkoda.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Plan B *na sobotę*",
+   "body": "Rower, piłka z kolegami albo spacer w kaloszach. Energia ma gdzie pójść.",
+   "icon": "ball"
+  },
+  {
+   "kind": "end",
+   "text": "Odwołany mecz to *lekcja elastyczności*.",
+   "cta": "Zapisz na najbliższy deszczowy weekend.",
+   "icon": "heart"
+  }
+ ]
+}

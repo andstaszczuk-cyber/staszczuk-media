@@ -1,0 +1,34 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Krzyk trenera\nto często *zadanie*\nw złym opakowaniu."
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *słyszy ton*",
+   "body": "Krzyk z linii odbiera jako złość na siebie, choć trener chciał tylko podpowiedzieć.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Przetłumacz *na zadanie*",
+   "body": "Co trener chciał, żebyś zrobił? Wracaj szybciej, graj szerzej. To da się zrobić.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Nie dokładaj *z trybun*",
+   "body": "Twoje komentarze o trenerze przy dziecku tylko utrudniają mu grę.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Kiedy dziecko rozumie, *o co chodzi*, krzyk mniej straszy.",
+   "cta": "Zapisz i wyślij rodzicowi po trudnym meczu.",
+   "icon": "heart"
+  }
+ ]
+}

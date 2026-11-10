@@ -1,0 +1,38 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Tato, nie przychodź jutro na mecz.",
+    "*Dobrze. Powiesz mi dlaczego?*"
+   ],
+   "text": "To prośba, *nie odrzucenie*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *bez urazy*",
+   "body": "Zabolało, wiem. Tylko że dziecko mówi tu przede wszystkim o sobie.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj *spokojnie*",
+   "body": "Może się stresuje, może coś usłyszało z trybun, a może chce grać tylko z drużyną.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Uszanuj *na próbę*",
+   "body": "Odpuść jeden, dwa mecze i porozmawiajcie, jak było.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko, które potrafi poprosić, *ufa ci*.",
+   "cta": "Zapisz i wyślij rodzicowi, który usłyszał to pierwszy raz.",
+   "icon": "heart"
+  }
+ ]
+}
