@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "1",
+   "text": "słowo, które zabierasz\\nna *każdy mecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Krótkie i twoje",
+   "body": "Jedno, dwa słowa, które od razu mówią ci, co robić. Na przykład: blisko albo spokój.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Mówi, co robić",
+   "body": "Nazwa zachowania działa lepiej niż zakaz. Głowa szybciej łapie, czego chcesz.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Ćwiczone wcześniej",
+   "body": "Powtarzasz je na treningu i w sparingach, żeby w meczu przyszło samo.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Jedno słowo.\\n*Mniej bałaganu* w głowie.",
+   "cta": "Zapisz i wybierz swoje słowo przed rundą"
+  }
+ ]
+}

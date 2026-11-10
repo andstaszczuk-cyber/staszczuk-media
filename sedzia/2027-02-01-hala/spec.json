@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "text": "Hala zimą.\\n*Kibic na wyciągnięcie ręki*.",
+   "scene": "hall"
+  },
+  {
+   "kind": "point",
+   "title": "Hałas to tło",
+   "body": "Krzyk odbija się od ścian. Słyszysz go głośniej, ale znaczy tyle samo co na boisku.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "point",
+   "title": "Uwaga na zadaniu",
+   "body": "Wybierasz, gdzie patrzysz: zawodnicy, piłka, ustawienie. Trybuny zostają z boku.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Bez rozmów za bandą",
+   "body": "Kibic jest blisko, ale nie wchodzisz z nim w wymianę zdań. Robisz swoje.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Głośniej\\nnie znaczy *ważniej*.",
+   "cta": "Zapisz i wróć przed turniejem w hali"
+  }
+ ]
+}

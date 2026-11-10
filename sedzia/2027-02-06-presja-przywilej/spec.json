@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Presja to *przywilej*.\\nKtoś ci zaufał."
+  },
+  {
+   "kind": "point",
+   "title": "Trudny mecz to sygnał",
+   "body": "Ważne obsady dostają ci, którym się ufa. To informacja o twojej pracy.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Ciało się mobilizuje",
+   "body": "Szybsze tętno i napięcie przygotowują cię do wysiłku. Organizm robi swoje.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Weź presję ze sobą",
+   "body": "Nie musisz się jej pozbywać przed meczem. Wchodzisz z nią i robisz swoją robotę.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Wchodzisz z presją\\ni *robisz swoje*.",
+   "cta": "Zapisz i wróć przed trudną obsadą"
+  }
+ ]
+}

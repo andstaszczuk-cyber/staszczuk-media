@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Pierwszy mecz\\n*po przerwie*?",
+   "sub": "Frycowe płaci *każdy*. Dobrze je zaplanować."
+  },
+  {
+   "kind": "point",
+   "title": "Rdza jest normalna",
+   "body": "Po kilku tygodniach bez meczów reakcje są wolniejsze. To schodzi po paru spotkaniach.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Jedno zadanie",
+   "body": "Na pierwszy mecz bierzesz jeden element. Kolejne dokładasz w następnych meczach.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Plan na pierwsze minuty",
+   "body": "Kontakt z kolegami, kilka spokojnych oddechów, wyraźny pierwszy gwizdek.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Pierwszy mecz *rozkręca*.\\nNie musi być idealny.",
+   "cta": "Zapisz i wróć przed pierwszym meczem po przerwie"
+  }
+ ]
+}

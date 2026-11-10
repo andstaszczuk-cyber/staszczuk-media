@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "text": "Mecz zaczyna się\\n*w samochodzie*.",
+   "scene": "car"
+  },
+  {
+   "kind": "point",
+   "title": "Wyjazd z zapasem",
+   "body": "Bez pośpiechu i zerkania na zegarek. Spokój zaczyna się od logistyki.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Dobierz poziom energii",
+   "body": "Spięty? Spokojna muzyka i dłuższy wydech. Senny? Coś żywszego i rozmowa.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Ostatnie minuty na zadanie",
+   "body": "Przed parkingiem wyłączasz muzykę i przypominasz sobie jedno zadanie.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Z auta wysiadasz\\n*już w meczu*.",
+   "cta": "Zapisz i sprawdź w drodze na najbliższy mecz"
+  }
+ ]
+}

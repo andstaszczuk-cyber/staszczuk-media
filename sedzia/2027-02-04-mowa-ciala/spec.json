@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "text": "Zanim coś powiesz,\\n*mówi twoja sylwetka*.",
+   "scene": "walk"
+  },
+  {
+   "kind": "point",
+   "title": "Ciało widać pierwsze",
+   "body": "Zawodnicy czytają twoją postawę szybciej niż słowa. Spuszczona głowa mówi swoje.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojny krok",
+   "body": "Po trudnej decyzji idziesz pewnie i bez pośpiechu. Nie odwracasz się plecami.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Wydech i barki w dół",
+   "body": "Rozluźnione ciało daje głowie sygnał, że sytuacja jest pod kontrolą.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "end",
+   "text": "Postawa\\nto *też decyzja*.",
+   "cta": "Zapisz i sprawdź na nagraniu ze swojego meczu"
+  }
+ ]
+}

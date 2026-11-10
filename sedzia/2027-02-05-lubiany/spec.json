@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Nie musisz być\\n*lubiany* na boisku."
+  },
+  {
+   "kind": "point",
+   "title": "Potrzeba aprobaty",
+   "body": "Każdy chce być lubiany. Na boisku ta potrzeba potrafi po cichu przesuwać decyzje.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Szacunek z przewidywalności",
+   "body": "Ta sama sytuacja, ta sama decyzja. Zawodnicy wiedzą, na czym stoją.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Życzliwie i stanowczo",
+   "body": "Miły w rozmowie, konsekwentny w decyzji. Jedno nie wyklucza drugiego.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Zbierasz *zaufanie*.\\nSympatia to dodatek.",
+   "cta": "Zapisz i wróć, gdy zechcesz się komuś przypodobać"
+  }
+ ]
+}
