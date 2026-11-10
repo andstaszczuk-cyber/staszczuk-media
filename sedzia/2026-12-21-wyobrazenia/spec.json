@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "replay",
+   "text": "Zimą sędziujesz\\n*w wyobraźni*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Głowa też trenuje",
+   "body": "Wyobrażenie uruchamia podobne obszary mózgu jak działanie. Decyzje ćwiczysz bez meczu.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Wszystkimi zmysłami",
+   "body": "Widzisz boisko, słyszysz trybuny, czujesz zmęczenie. Im bardziej realnie, tym lepiej.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Kilka minut dziennie",
+   "body": "Siedząc, na spokojnie. Jedna trudna sytuacja i twoja reakcja krok po kroku.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "end",
+   "text": "Trudną sytuację możesz\\n*przećwiczyć*, zanim się wydarzy.",
+   "cta": "Zapisz i spróbuj jeszcze dziś"
+  }
+ ]
+}

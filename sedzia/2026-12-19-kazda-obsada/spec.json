@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "text": "Nie musisz brać\\n*każdej* obsady.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Masz swoje granice",
+   "body": "Praca, rodzina, zdrowie. Sędziowanie jest ważne i dobrze, żeby miało swoje miejsce.",
+   "icon": "dom"
+  },
+  {
+   "kind": "point",
+   "title": "Bateria na zero",
+   "body": "Mecz wzięty bez sił to ryzyko dla ciebie i dla jakości twoich decyzji.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Odmawiaj wcześnie",
+   "body": "Szybka, jasna informacja jest lepsza niż zgoda i późniejsze kombinowanie.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Lepiej odmówić\\nniż *obiecać*\\n*i nie dowieźć*.",
+   "cta": "Wyślij komuś, kto bierze wszystko"
+  }
+ ]
+}

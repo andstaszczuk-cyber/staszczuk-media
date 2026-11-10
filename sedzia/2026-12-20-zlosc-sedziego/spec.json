@@ -1,0 +1,33 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "quote",
+   "text": "Masz prawo *do złości*.\\nNie do każdej reakcji.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Złość to informacja",
+   "body": "Pojawia się, gdy ktoś przekracza granice. Mówi ci, że coś jest dla ciebie ważne."
+  },
+  {
+   "kind": "point",
+   "title": "Pierwszy sygnał",
+   "body": "Zaciśnięte szczęki, szybszy oddech, ostrzejszy ton. Im wcześniej go złapiesz, tym łatwiej wyhamować."
+  },
+  {
+   "kind": "point",
+   "title": "Wydech przed decyzją",
+   "body": "Kilka sekund na spokojny wydech, zanim pokażesz kartkę albo coś powiesz."
+  },
+  {
+   "kind": "end",
+   "text": "Możesz poczuć złość\\ni *dalej prowadzić* mecz spokojnie.",
+   "cta": "Zapisz i przypomnij sobie w gorącym meczu"
+  }
+ ]
+}

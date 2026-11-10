@@ -1,0 +1,34 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "icon",
+   "icon": "dom",
+   "text": "Na święta zostaw\\n*sędziego* w szafie.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Sędziowanie to rola",
+   "body": "Wkładasz ją na mecz jak strój. Przy świątecznym stole jesteś synem, ojcem, partnerem, przyjacielem."
+  },
+  {
+   "kind": "point",
+   "title": "Telefon na bok",
+   "body": "Grupy sędziowskie, komentarze i nagrania spokojnie poczekają kilka dni."
+  },
+  {
+   "kind": "point",
+   "title": "Krótka odpowiedź",
+   "body": "Rodzina pyta o sporną decyzję? Wystarczy: było, przeanalizowałem, idę dalej."
+  },
+  {
+   "kind": "end",
+   "text": "Odpoczynek od roli\\nto *też przygotowanie*.",
+   "cta": "Wyślij komuś przed świętami"
+  }
+ ]
+}

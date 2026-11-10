@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "number",
+   "big": "1",
+   "text": "rzecz waży więcej\\nniż talent: *upór*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Talent kusi",
+   "body": "To wygodne wyjaśnienie cudzych sukcesów. Trudno go sprawdzić, łatwo nim zasłonić pracę.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Kropla po kropli",
+   "body": "Kolejny trening w deszczu, kolejne nagranie, kolejny mecz po słabej ocenie.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Widać z dystansu",
+   "body": "Z bliska rozwój wygląda niepozornie. Po roku widać go bardzo wyraźnie.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "end",
+   "text": "Działaj tak,\\njakby *talent* nie istniał.",
+   "cta": "Wyślij komuś, kto zwątpił w swój talent"
+  }
+ ]
+}

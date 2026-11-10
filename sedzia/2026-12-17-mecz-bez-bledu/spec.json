@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "split",
+   "label": "PERFEKCJONIZM",
+   "text": "Mecz *bez błędu*?",
+   "sub": "Zdarza się rzadko. Dobry mecz z błędem dużo częściej.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Błędy są w kosztorysie",
+   "body": "W meczu podejmujesz mnóstwo decyzji, często w ułamku sekundy. Część z nich będzie błędna, nawet u najlepszych."
+  },
+  {
+   "kind": "point",
+   "title": "Wysoka poprzeczka",
+   "body": "Im wyżej stawiasz warunek zadowolenia, tym częściej schodzisz z boiska niezadowolony. Nawet po dobrym meczu."
+  },
+  {
+   "kind": "point",
+   "title": "Wystarczająco dobrze",
+   "body": "Dobry mecz to taki, w którym błędy nie zmieniły jego przebiegu, a ty umiałeś po nich wrócić."
+  },
+  {
+   "kind": "end",
+   "text": "Dobry mecz\\nma prawo *mieć błąd*.",
+   "cta": "Wyślij komuś, kto nie wybacza sobie błędów"
+  }
+ ]
+}

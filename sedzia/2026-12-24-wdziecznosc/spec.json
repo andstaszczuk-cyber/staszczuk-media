@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "dinner",
+   "text": "Za tobą stoją\\n*twoi ludzie*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Ci, którzy czekają",
+   "body": "Rodzina, która oddaje ci weekendy. Bez niej sędziowanie byłoby dużo trudniejsze.",
+   "icon": "dom"
+  },
+  {
+   "kind": "point",
+   "title": "Ci, którzy biegają obok",
+   "body": "Asystenci i cały zespół. Wiele dobrych decyzji to także ich zasługa.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Ci, którzy pomagają rosnąć",
+   "body": "Starsi koledzy i obserwatorzy, którzy dali ci cenną uwagę.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Dziś dobry dzień,\\nżeby *powiedzieć dziękuję*.",
+   "cta": "Wyślij komuś, komu chcesz podziękować"
+  }
+ ]
+}

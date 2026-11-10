@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "left",
+   "label": "MOTYWACJA",
+   "text": "Po co *ty*\\nsędziujesz?",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Rok bez sędziowania",
+   "body": "Wyobraź sobie wolne weekendy przez cały rok. To, czego by ci brakowało, pokazuje twoje powody.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Twoje czy cudze?",
+   "body": "Cudze oczekiwania słabo niosą przez trudny sezon. Twoje powody wytrzymują więcej.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Zapisz i wracaj",
+   "body": "W gorszym momencie przypomnisz sobie, po co to robisz.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Twoje powody *niosą*\\nprzez trudne mecze.",
+   "cta": "Zapisz swoje powody i wróć do nich wiosną"
+  }
+ ]
+}

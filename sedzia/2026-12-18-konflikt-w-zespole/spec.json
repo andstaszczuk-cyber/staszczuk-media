@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "crew",
+   "text": "Różnica zdań\\n*w zespole*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Napięcie jest normalne",
+   "body": "Każdy widział mecz z innego miejsca. Różne zdania o tej samej sytuacji to nic dziwnego.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Problem, nie osoba",
+   "body": "Rozmawiacie o sytuacji i decyzji. Bez oceniania, kto jest gorszym sędzią.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Na spokojnie",
+   "body": "Kiedy emocje opadną, z nagraniem. Ustalacie, co zrobicie inaczej następnym razem.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Niewypowiedziane *wraca*\\nw następnym meczu.",
+   "cta": "Wyślij swojemu zespołowi"
+  }
+ ]
+}
