@@ -142,5 +142,18 @@ const S = {
     <circle cx="630" cy="190" r="16" fill="${CR}" opacity=".7"/><circle cx="680" cy="140" r="24" fill="${CR}" opacity=".7"/>
     <rect x="680" y="20" width="320" height="150" rx="75" fill="${CR}" opacity=".92"/>
     <rect x="740" y="55" width="200" height="80" rx="6" fill="#203226"/><line x1="840" y1="55" x2="840" y2="135" stroke="${CR}" stroke-width="4"/><circle cx="840" cy="95" r="18" fill="none" stroke="${CR}" stroke-width="4"/><circle cx="880" cy="80" r="7" fill="${Y}"/>`),
+  // zimowy bieg: sędzia biegnie w parku, padający śnieg, latarnia, zaspy
+  snow: () => wrap(`<rect width="1080" height="1350" fill="#16161C"/>${light(860, 120, 240)}<rect x="848" y="138" width="24" height="420" fill="#2A2124"/>
+    ${Array.from({ length: 70 }, (_, i) => `<circle cx="${(i * 7919 + (i * i * 31)) % 1080}" cy="${(i * 3571 + i * i * 17) % 640}" r="${4 + (i % 3) * 2}" fill="${CR}" opacity="${0.35 + (i % 4) * 0.15}"/>`).join('')}
+    <path d="M0,600 Q200,560 420,592 T820,580 T1080,596 L1080,1350 L0,1350 Z" fill="#E9E4DC" opacity=".18"/>
+    <path d="M110,640 Q170,580 230,640 Z" fill="#2B3A2E"/><path d="M90,560 L170,380 L250,560 Z" fill="#2B3A2E"/><path d="M110,470 L170,330 L230,470 Z" fill="#2F4233"/>
+    ${adult(330, 150, 0.95, { head: [215, 70], sh: [205, 145], hip: [190, 300], lA: [[165, 155], [120, 220], [160, 270]], rA: [[245, 155], [300, 205], [330, 150]], lL: [[175, 305], [110, 390], [40, 440]], rL: [[205, 305], [280, 380], [262, 495]] }, { ref: true })}`),
+  // biurko: sędzia przy stole z notatnikiem i lampką, analiza wieczorem
+  desk: () => wrap(`<rect width="1080" height="1350" fill="#191416"/>
+    <circle cx="760" cy="260" r="200" fill="url(#glow)" opacity=".55"/><path d="M700,250 L820,250 L790,190 L730,190 Z" fill="${Y}"/><rect x="752" y="250" width="16" height="250" fill="#3A2C2F"/><rect x="710" y="490" width="100" height="18" rx="6" fill="#3A2C2F"/>
+    <rect x="240" y="500" width="760" height="40" rx="10" fill="#5A2427"/><rect x="290" y="540" width="26" height="160" fill="#3A2C2F"/><rect x="930" y="540" width="26" height="160" fill="#3A2C2F"/>
+    <rect x="470" y="470" width="190" height="30" rx="4" fill="${CR}" transform="rotate(-4 565 485)"/><line x1="490" y1="484" x2="640" y2="474" stroke="#2B1515" stroke-width="3"/><line x1="492" y1="494" x2="610" y2="486" stroke="#2B1515" stroke-width="3"/>
+    <circle cx="880" cy="470" r="26" fill="none" stroke="${Y}" stroke-width="8"/><rect x="852" y="440" width="56" height="16" rx="4" fill="${Y}"/>
+    ${adult(150, 150, 0.95, { head: [215, 80], sh: [200, 150], hip: [190, 345], lA: [[165, 160], [250, 290], [330, 330]], rA: [[235, 160], [300, 260], [380, 330]], lL: [[175, 350], [270, 360], [270, 540]], rL: [[205, 350], [300, 360], [300, 540]] }, { ref: true })}`),
 };
 module.exports = { scene: (n) => S[n](), names: Object.keys(S) };
