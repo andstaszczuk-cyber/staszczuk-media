@@ -1,0 +1,34 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Złość po przegranej\n*ma prawo być*."
+  },
+  {
+   "kind": "point",
+   "title": "Złość *to informacja*",
+   "body": "Pokazuje, że dziecku zależy. Nie trzeba jej gasić na siłę.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Emocja tak, *zachowanie z granicą*",
+   "body": "Może być złe. Nie może niszczyć sprzętu ani obrażać innych.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Plan *na trudny moment*",
+   "body": "Trzy długie wydechy, łyk wody, ręcznik na głowę. Ustalcie to wcześniej.",
+   "icon": "clock"
+  },
+  {
+   "kind": "end",
+   "text": "Masz prawo do każdej emocji, *nie do każdej reakcji*.",
+   "cta": "Zapisz i porozmawiajcie przed kolejnym meczem.",
+   "icon": "hug"
+  }
+ ]
+}

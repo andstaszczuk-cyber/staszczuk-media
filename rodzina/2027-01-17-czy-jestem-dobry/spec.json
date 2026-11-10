@@ -1,0 +1,38 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Tato, czy ja jestem dobry?",
+    "A ty jak myślisz? *Co ci już wychodzi?*"
+   ],
+   "text": "Niech dziecko *samo zbiera dowody*."
+  },
+  {
+   "kind": "point",
+   "title": "Odbij *pytanie*",
+   "body": "Zapytaj, co samo o tym myśli. Odpowiedź dużo Ci powie.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Mów o *postępie*",
+   "body": "Porównaj z jesienią: co już umie, czego wtedy jeszcze nie umiało.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *rankingów*",
+   "body": "Najlepszy w drużynie to ocena, która dziś jest, a za pół roku może zniknąć.",
+   "icon": "podium"
+  },
+  {
+   "kind": "end",
+   "text": "Dla Ciebie jest ważne *niezależnie od wyniku*.",
+   "cta": "Zapisz i wróć do tego, gdy usłyszysz to pytanie.",
+   "icon": "heart"
+  }
+ ]
+}

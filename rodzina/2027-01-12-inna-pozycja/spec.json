@@ -1,0 +1,38 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Chcę grać w ataku, a trener stawia mnie w obronie.",
+    "Co możesz zrobić, *żeby trener to zobaczył?*"
+   ],
+   "text": "Pomóż mu *samemu porozmawiać z trenerem*."
+  },
+  {
+   "kind": "point",
+   "title": "Wysłuchaj *jego powodów*",
+   "body": "Dlaczego właśnie atak? Czasem chodzi o gole, czasem o kolegów, czasem o nudę.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Niech zapyta *trenera*",
+   "body": "Co mogę zrobić, żeby spróbować gry z przodu? Takie pytanie trener przyjmie dobrze.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Obrona też *uczy*",
+   "body": "Każda pozycja rozwija coś innego. Czas w obronie nie jest stracony.",
+   "icon": "ball"
+  },
+  {
+   "kind": "end",
+   "text": "Decyzja należy do trenera, *rozmowa do dziecka*.",
+   "cta": "Zapisz i wyślij rodzicowi, który słyszy to samo.",
+   "icon": "triangle"
+  }
+ ]
+}

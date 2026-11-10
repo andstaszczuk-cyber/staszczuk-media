@@ -1,0 +1,40 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Ferie to dobry czas\n*na trochę luzu*:",
+   "items": [
+    "wyspanie się",
+    "trochę nudy",
+    "kolegów spoza klubu",
+    "trening dla zabawy"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Sen *bez budzika*",
+   "body": "Kilka dni bez porannego pośpiechu to dla ciała prawdziwa regeneracja.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Nuda *też jest potrzebna*",
+   "body": "Z nudy rodzą się własne pomysły na zabawę i ruch.",
+   "icon": "tent"
+  },
+  {
+   "kind": "point",
+   "title": "Sport *dla przyjemności*",
+   "body": "Jeden trening bez ocen i wyniku, po prostu dla frajdy.",
+   "icon": "ball"
+  },
+  {
+   "kind": "end",
+   "text": "Odpoczynek *też jest częścią treningu*.",
+   "cta": "Zapisz przed feriami.",
+   "icon": "heart"
+  }
+ ]
+}

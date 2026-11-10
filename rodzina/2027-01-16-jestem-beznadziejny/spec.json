@@ -1,0 +1,36 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Jestem beznadziejny.",
+   "new": "Dziś nie wyszło mi *podanie*.",
+   "text": "Konkret zamiast wyroku."
+  },
+  {
+   "kind": "point",
+   "title": "Wyrok *odbiera siły*",
+   "body": "Beznadziejny to etykieta na całą osobę. Nie da się z nią nic zrobić.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Konkret *daje kierunek*",
+   "body": "Nie wyszło mi podanie to coś, co można poćwiczyć.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Pytaj o *jedno zachowanie*",
+   "body": "Co dokładnie nie wyszło? A co się dziś udało?",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "end",
+   "text": "Pomóż dziecku *mówić o sobie łagodniej*.",
+   "cta": "Zapisz na wieczór po trudnym meczu.",
+   "icon": "speech"
+  }
+ ]
+}

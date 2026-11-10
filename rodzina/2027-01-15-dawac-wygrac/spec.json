@@ -1,0 +1,35 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "dice",
+   "text": "Gracie z dzieckiem w domu?\n*Nie dawaj mu ciągle wygrywać.*"
+  },
+  {
+   "kind": "point",
+   "title": "Przegrana *w bezpiecznym miejscu*",
+   "body": "W domu łatwiej nauczyć się przegrywać niż na zawodach.",
+   "icon": "door"
+  },
+  {
+   "kind": "point",
+   "title": "Wygrana *wypracowana*",
+   "body": "Dziecko szybko wyczuwa, kiedy mu odpuszczasz. Taka wygrana mniej znaczy.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "point",
+   "title": "Pokaż, *jak przegrywasz*",
+   "body": "Pogratuluj, powiedz, co było trudne, i zaproponuj rewanż.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Rewanż *zawsze jest możliwy*.",
+   "cta": "Zapisz na najbliższy rodzinny wieczór z grami.",
+   "icon": "loop"
+  }
+ ]
+}
