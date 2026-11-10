@@ -178,5 +178,29 @@ const S = {
     <line x1="0" y1="720" x2="1080" y2="700" stroke="${CR}" stroke-opacity=".2" stroke-width="6"/>
     ${adult(-20, 120, 1.18, STAND, { color: Y })}${adult(620, 120, 1.18, STAND, { color: Y })}
     <g transform="translate(375,330) scale(0.78)">${fig({ head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [130, 210], [80, 200]], rA: [[240, 155], [270, 210], [320, 200]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] })}</g>`),
+  // wiosenna rozgrzewka: niskie słońce nad pustym boiskiem, sędzia w wykroku, para z ust, chorągiewka narożna
+  warmup: () => wrap(`<rect width="1080" height="1350" fill="#191418"/><circle cx="820" cy="330" r="330" fill="url(#glow)" opacity=".55"/><circle cx="820" cy="330" r="70" fill="${Y}" opacity=".9"/>
+    <path d="M0,420 Q270,380 540,410 T1080,400 L1080,470 L0,470 Z" fill="#241B1E"/>
+    <rect y="460" width="1080" height="890" fill="#1B2A1F" opacity=".6"/>
+    <line x1="0" y1="690" x2="1080" y2="660" stroke="${CR}" stroke-opacity=".22" stroke-width="6"/>
+    <line x1="120" y1="660" x2="120" y2="520" stroke="${CR}" stroke-width="6" opacity=".7"/><path d="M120,520 L180,538 L120,556 Z" fill="${R}"/>
+    <g transform="translate(330,170)">${fig({ head: [250, 110], sh: [235, 180], hip: [210, 330], lA: [[195, 190], [170, 260], [175, 330]], rA: [[275, 190], [300, 255], [290, 325]], lL: [[195, 335], [100, 420], [40, 500]], rL: [[225, 335], [320, 400], [330, 500]] })}</g>
+    <path d="M630,270 q30,-14 52,-4 q24,10 48,-6" fill="none" stroke="${CR}" stroke-width="7" stroke-linecap="round" opacity=".45"/><path d="M640,300 q34,-12 60,0" fill="none" stroke="${CR}" stroke-width="6" stroke-linecap="round" opacity=".3"/>`),
+  // derby: pełne trybuny z szalikami w dwóch kolorach, sędzia na środku z uniesioną ręką
+  derby: () => wrap(`${light(160, 90, 240)}${light(920, 90, 240)}
+    <rect y="170" width="1080" height="300" fill="#221A1C"/>
+    ${Array.from({ length: 22 }, (_, k) => `<circle cx="${25 + k * 50}" cy="${235 + (k % 2) * 14}" r="18" fill="#3A2F33"/><circle cx="${50 + k * 50}" cy="${330 + (k % 2) * 14}" r="18" fill="#3A2F33"/>`).join('')}
+    ${Array.from({ length: 11 }, (_, k) => `<rect x="${k * 50 - 4}" y="${262 + (k % 2) * 12}" width="54" height="16" rx="6" fill="${R}" transform="rotate(${k % 2 ? 8 : -8} ${k * 50 + 23} 270)"/>`).join('')}
+    ${Array.from({ length: 11 }, (_, k) => `<rect x="${560 + k * 50}" y="${262 + (k % 2) * 12}" width="54" height="16" rx="6" fill="${Y}" transform="rotate(${k % 2 ? -8 : 8} ${583 + k * 50} 270)"/>`).join('')}
+    <path d="M60,380 l0,-150 l70,30 l-70,30 M1010,380 l0,-150 l-70,30 l70,30" fill="none" stroke="${CR}" stroke-width="6" opacity=".55"/><path d="M60,230 l70,30 l-70,30 Z" fill="${R}"/><path d="M1010,230 l-70,30 l70,30 Z" fill="${Y}"/>
+    <rect y="450" width="1080" height="900" fill="#1B2A1F" opacity=".55"/>
+    <line x1="540" y1="470" x2="540" y2="1350" stroke="${CR}" stroke-opacity=".2" stroke-width="6"/><ellipse cx="540" cy="760" rx="260" ry="60" fill="none" stroke="${CR}" stroke-opacity=".2" stroke-width="6"/>
+    <g transform="translate(340,230) scale(1)">${fig({ head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [148, 228], [150, 300]], rA: [[240, 155], [262, 85], [270, 10]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] })}</g>`),
+  // przywitanie przed meczem: sędzia podaje rękę zawodnikowi przy linii środkowej
+  handshake: () => wrap(`${light(200, 100, 250)}${light(880, 90, 250)}${stands(420)}<rect y="440" width="1080" height="910" fill="#1B2A1F" opacity=".5"/>
+    <line x1="0" y1="720" x2="1080" y2="700" stroke="${CR}" stroke-opacity=".2" stroke-width="6"/><circle cx="560" cy="720" r="14" fill="${CR}" opacity=".5"/>
+    <g transform="translate(120,200)">${fig({ head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [148, 228], [150, 300]], rA: [[240, 155], [300, 210], [360, 230]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] })}</g>
+    <g transform="translate(500,200)">${fig({ head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [100, 210], [-10, 232]], rA: [[240, 155], [252, 228], [250, 300]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] }, { color: Y, ref: false })}</g>
+    <circle cx="487" cy="431" r="22" fill="${CR}"/>`),
 };
 module.exports = { scene: (n) => S[n](), names: Object.keys(S) };
