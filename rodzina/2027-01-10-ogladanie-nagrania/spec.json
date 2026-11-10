@@ -1,0 +1,35 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "eye",
+   "text": "Oglądacie nagranie z meczu?\n*Zacznijcie od tego, co wyszło.*"
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *dobre akcje*",
+   "body": "Trzy momenty, które dziecko zrobiło dobrze, zanim padnie słowo o błędach.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "point",
+   "title": "Niech mówi *dziecko*",
+   "body": "Zapytaj, co samo widzi. Twoje komentarze mogą poczekać.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden *wniosek*",
+   "body": "Na koniec jedna rzecz do potrenowania. Więcej i tak się nie zmieści.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "end",
+   "text": "Nagranie ma dziecku *pomagać się rozwijać*.",
+   "cta": "Zapisz przed następnym oglądaniem meczu.",
+   "icon": "heart"
+  }
+ ]
+}

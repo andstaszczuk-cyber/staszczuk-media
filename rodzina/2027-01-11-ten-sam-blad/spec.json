@@ -1,0 +1,36 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Ile razy mam ci powtarzać?",
+   "new": "Spróbujmy jeszcze raz, *powoli*.",
+   "text": "Nawyk zmienia się tygodniami."
+  },
+  {
+   "kind": "point",
+   "title": "Stary nawyk *wraca pod presją*",
+   "body": "Na treningu wychodzi, w meczu znowu po staremu. To normalny etap nauki.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna *poprawka naraz*",
+   "body": "Dziecko zmieni jeden element. Pięć uwag naraz to za dużo.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Zauważaj, *kiedy wychodzi*",
+   "body": "Raz na pięć prób to już postęp. Powiedz mu o tym.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Cierpliwość *też się ćwiczy*. Tobie i jemu.",
+   "cta": "Zapisz na chwilę, kiedy zabraknie Ci cierpliwości.",
+   "icon": "clock"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Cieszcie się z wygranej\n*tak długo,\njak przeżywacie porażki*."
+  },
+  {
+   "kind": "point",
+   "title": "Porażka *zostaje dłużej*",
+   "body": "Głowa sama wraca do przegranych. Do wygranych trzeba ją zaprosić.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Opowiedzcie, *jak to było*",
+   "body": "Wieczorem przypomnijcie sobie, co dziecko zrobiło, że się udało.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Zbierajcie *dowody*",
+   "body": "Zeszyt albo słoik z karteczkami o dobrych momentach z sezonu.",
+   "icon": "book"
+  },
+  {
+   "kind": "end",
+   "text": "Wygraną *też warto przeżyć*.",
+   "cta": "Zapisz na najbliższą wygraną.",
+   "icon": "trophy"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Nie bój się.",
+   "new": "Możesz się bać *i zrobić swoje*.",
+   "text": "Odwaga działa razem ze strachem."
+  },
+  {
+   "kind": "point",
+   "title": "Strach *jest normalny*",
+   "body": "Pokazuje, że dziecku zależy. Nie trzeba go wyganiać przed zawodami.",
+   "icon": "heart"
+  },
+  {
+   "kind": "point",
+   "title": "Nie bój się *raczej nie działa*",
+   "body": "Dziecko słyszy, że strach to coś złego, i zaczyna się wstydzić, że go czuje.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Daj *jedno zadanie*",
+   "body": "Na pierwszą akcję: patrzę na piłkę i wychodzę do niej.",
+   "icon": "ball"
+  },
+  {
+   "kind": "end",
+   "text": "Odwaga to *zrobić swoje razem ze strachem*.",
+   "cta": "Zapisz przed najbliższymi zawodami.",
+   "icon": "trophy"
+  }
+ ]
+}

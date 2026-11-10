@@ -1,0 +1,38 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Trener mnie nie lubi.",
+    "Co się wydarzyło, *że tak myślisz?*"
+   ],
+   "text": "Najpierw zapytaj, *potem oceniaj*."
+  },
+  {
+   "kind": "point",
+   "title": "Wysłuchaj *do końca*",
+   "body": "Bez bronienia trenera i bez przyznawania racji od pierwszego zdania.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Oddziel *fakty od domysłów*",
+   "body": "Trener krzyknął to fakt. Nie lubi mnie to już interpretacja.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Szukajcie *kroku dziecka*",
+   "body": "Może zapytać trenera, nad czym ma pracować, żeby grać więcej.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko uczy się rozmawiać, *zamiast zgadywać*.",
+   "cta": "Zapisz na trudniejszy wieczór po treningu.",
+   "icon": "triangle"
+  }
+ ]
+}

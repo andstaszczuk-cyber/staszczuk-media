@@ -1,0 +1,40 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Gdy dziecko trafia\n*do starszej grupy*:",
+   "items": [
+    "będzie najmłodsze",
+    "częściej przegra",
+    "szybciej się nauczy",
+    "potrzebuje czasu"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Przegrane *są wliczone*",
+   "body": "Starsi są silniejsi i szybsi. Częstsze przegrane to zwyczajny koszt awansu.",
+   "icon": "podium"
+  },
+  {
+   "kind": "point",
+   "title": "Patrz na *postępy*",
+   "body": "Rozmawiajcie o tym, czego dziecko uczy się na tle silniejszych.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Daj mu *czas*",
+   "body": "Pierwsze tygodnie w nowej grupie bywają trudne. Potem zwykle jest łatwiej.",
+   "icon": "clock"
+  },
+  {
+   "kind": "end",
+   "text": "Najmłodszy w grupie *uczy się najszybciej*.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko zmienia grupę.",
+   "icon": "sprout"
+  }
+ ]
+}
