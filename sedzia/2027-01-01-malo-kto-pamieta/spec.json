@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "quote",
+   "text": "Mało kto pamięta twój błąd\\n*tak długo jak ty*.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Ty pamiętasz najdłużej",
+   "body": "Zawodnicy i trenerzy po tygodniu żyją kolejnym meczem. Ty dalej odtwarzasz tę jedną sytuację.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Głowa przecenia uwagę innych",
+   "body": "Wydaje się, że wszyscy patrzą na ciebie. Większość patrzy na swoje sprawy.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Wnioski tak, wyrok nie",
+   "body": "Z błędu bierzesz informację. Kolejne odtwarzanie niczego nowego już nie wnosi.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Mało kto o tobie myśli.\\nTo *wyzwalające*.",
+   "cta": "Zapisz i wróć, kiedy jeden mecz nie da ci spać"
+  }
+ ]
+}

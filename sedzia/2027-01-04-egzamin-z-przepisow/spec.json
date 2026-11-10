@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "icon",
+   "icon": "ksiazka",
+   "text": "Test z przepisów\\n*bez paniki*.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Uczysz się po trochu",
+   "body": "Codziennie kwadrans daje więcej niż jedna długa noc przed testem.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Ćwiczysz jak na teście",
+   "body": "Pytania z limitem czasu, przy stole, bez telefonu. Wtedy egzamin jest znajomy.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Stres jest w planie",
+   "body": "Szybsze serce na sali to mobilizacja. Spodziewasz się go, więc cię nie zaskoczy.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "Wiesz więcej, niż pokazuje\\n*pierwsza panika*.",
+   "cta": "Wyślij koledze, który ma test w tym miesiącu"
+  }
+ ]
+}

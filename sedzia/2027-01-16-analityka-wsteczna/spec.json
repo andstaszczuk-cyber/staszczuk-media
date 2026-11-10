@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Zła decyzja\\nczy *zła powtórka*?",
+   "sub": "Oceniasz to, co *widziałeś* w tamtej sekundzie.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Po fakcie wiesz więcej",
+   "body": "Powtórka, zwolnione tempo, kilka kątów. W meczu miałeś jeden kąt i ułamek sekundy.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "point",
+   "title": "Oceniasz proces",
+   "body": "Gdzie stałeś, co mogłeś widzieć, jakie kryterium zastosowałeś.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Wniosek na przyszłość",
+   "body": "Co zmienisz w ustawieniu albo w czytaniu sytuacji. Bez wyroku na siebie.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Analityka wsteczna jest wygodna,\\nale *nieprawdziwa*.",
+   "cta": "Zapisz i wróć po następnej analizie wideo"
+  }
+ ]
+}

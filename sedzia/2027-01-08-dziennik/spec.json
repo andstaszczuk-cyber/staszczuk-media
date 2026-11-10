@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "desk",
+   "text": "Notatnik po meczu\\nto *twój trener*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Kilka minut, stałe pytania",
+   "body": "Co zadziałało? Co zrobię inaczej? Na czym skupię się w kolejnym meczu?",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw to, co działało",
+   "body": "Pamięć sama podsuwa błędy. Dobre rzeczy trzeba zapisać, bo uciekają.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Wzory widać po czasie",
+   "body": "Po kilku tygodniach widzisz, co się powtarza. Jeden mecz tego nie pokaże.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Niezapisana myśl\\n*przepada*.",
+   "cta": "Zapisz i zacznij od najbliższego meczu"
+  }
+ ]
+}

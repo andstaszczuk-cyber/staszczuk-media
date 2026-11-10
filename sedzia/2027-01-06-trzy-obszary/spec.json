@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "number",
+   "big": "3",
+   "text": "obszary, zanim zwalisz\\nwszystko *na głowę*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Ciało",
+   "body": "Byłeś blisko akcji? Część błędów to decyzje z daleka, bo zabrakło sił.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Przepisy i ustawienie",
+   "body": "Znałeś przepis na pamięć? Miałeś dobry kąt widzenia?",
+   "icon": "ksiazka"
+  },
+  {
+   "kind": "point",
+   "title": "Głowa",
+   "body": "Koncentracja, emocje, powrót po błędzie. Ważna, a sprawdzana na końcu.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Konkretna przyczyna\\nto *konkretny plan*.",
+   "cta": "Zapisz i przejrzyj tak jeden mecz z jesieni"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "night",
+   "text": "Mecz się skończył.\\nGłowa *dalej gra*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Pobudzenie potrzebuje czasu",
+   "body": "Po wieczornym meczu ciało jeszcze długo pracuje na wysokich obrotach.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Wyłącz powtórki",
+   "body": "Odtwarzanie sytuacji w łóżku nakręca. Wnioski zostaw na rano.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "point",
+   "title": "Zapisz i odłóż",
+   "body": "Dwie, trzy myśli na kartkę. Głowa wie, że nie zginą.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Analiza rano,\\nwieczorem *odpoczynek*.",
+   "cta": "Zapisz i wróć po najbliższym wieczornym meczu"
+  }
+ ]
+}

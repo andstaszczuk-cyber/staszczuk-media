@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "touchline",
+   "text": "Trener krzyczy.\\nMasz *trzy odpowiedzi*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Siła na siłę",
+   "body": "Podnosisz głos jak on. Szybko robi się starcie, które trudno zatrzymać.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojna empatia",
+   "body": "Widzę, że to dla pana ważne. Decyzja zapadła. Często to wystarcza.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "point",
+   "title": "Lekki żart",
+   "body": "Rozładowuje napięcie, gdy pasuje do sytuacji i do ciebie.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "end",
+   "text": "Wybierasz reakcję,\\nzanim *złość wybierze* za ciebie.",
+   "cta": "Zapisz i wróć przed meczem z gorącą ławką"
+  }
+ ]
+}

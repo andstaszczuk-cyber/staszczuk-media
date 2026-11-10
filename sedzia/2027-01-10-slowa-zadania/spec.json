@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "quote",
+   "text": "Nie mogę się pomylić\\nzamieniam na: *podejmuję decyzję*.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Słowa zmieniają ciało",
+   "body": "Nie mogę się pomylić mózg czyta jak alarm. Mięśnie się spinają.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Zamień zakaz na zadanie",
+   "body": "Podejmuję decyzję. Patrzę na kontakt. Stoję bokiem do akcji.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Krótko i po swojemu",
+   "body": "Dwa, trzy słowa, które powiesz sobie w myślach w trakcie meczu.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Mów do siebie\\n*zadaniami*.",
+   "cta": "Zapisz swoje hasło na kolejny mecz"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "icon",
+   "icon": "bateria",
+   "text": "Kilka meczów w jeden dzień.\\n*Ładuj między nimi*.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Każdy mecz osobno",
+   "body": "Zamykasz poprzedni mecz, zanim zaczniesz kolejny. Krótko i konkretnie.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Przerwa to też praca",
+   "body": "Jedzenie, picie, cisza, kilka minut bez telefonu i bez analiz.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Rozgrzewka od nowa",
+   "body": "Przed każdym meczem krótki rozruch ciała i głowy, nawet po długim dniu.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "end",
+   "text": "Ostatni mecz dnia\\nteż ma *swojego sędziego*.",
+   "cta": "Wyślij komuś, kto jedzie na turniej"
+  }
+ ]
+}

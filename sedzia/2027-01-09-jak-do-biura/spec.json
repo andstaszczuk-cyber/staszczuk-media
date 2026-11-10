@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "text": "Na mecz idziesz\\n*jak do biura*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Bez tańca wokół meczu",
+   "body": "Tydzień nakręcania się zabiera energię, zanim wyjdziesz na boisko.",
+   "icon": "dom"
+  },
+  {
+   "kind": "point",
+   "title": "Torba, droga, robota",
+   "body": "Stały plan dnia meczowego. Robisz swoje i nie dyskutujesz ze sobą.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Ciepły silnik",
+   "body": "Gotowość do pracy bez nadmiaru emocji przed pierwszym gwizdkiem.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "end",
+   "text": "Wchodzisz, robisz swoje,\\n*wychodzisz*.",
+   "cta": "Zapisz i wróć przed ważną obsadą"
+  }
+ ]
+}

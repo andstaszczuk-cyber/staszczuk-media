@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "left",
+   "label": "ZAWODNICY",
+   "text": "Granica\\n*przy pierwszej*\\nodzywce.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsza odzywka to test",
+   "body": "Zawodnicy sprawdzają, na ile mogą sobie pozwolić. Twoja reakcja to odpowiedź.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Krótko i spokojnie",
+   "body": "Rozumiem, decyzja zapadła. Bez dyskusji, bez podnoszenia głosu.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Konsekwentnie do końca",
+   "body": "Ta sama granica w pierwszej i w ostatniej minucie meczu.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Łatwiej postawić granicę,\\nniż ją *odbudować*.",
+   "cta": "Zapisz i wróć przed kolejnym meczem"
+  }
+ ]
+}

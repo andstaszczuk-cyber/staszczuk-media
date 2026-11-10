@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "text": "Jedna *zasada*\\nna cały nowy rok.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Zasada mówi, kim jesteś",
+   "body": "Postanowienie łatwo odłożyć. Zasada opisuje, jak zachowujesz się na każdym meczu.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Krótka i konkretna",
+   "body": "Jestem sędzią, który po błędzie wraca do gry od następnej akcji. Tyle wystarczy.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdzasz po meczu",
+   "body": "Po każdym meczu szukasz jednej sytuacji, w której było ją widać na boisku.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Mniej postanowień,\\n*więcej zasad*.",
+   "cta": "Zapisz swoją zasadę i wróć do niej w styczniu"
+  }
+ ]
+}

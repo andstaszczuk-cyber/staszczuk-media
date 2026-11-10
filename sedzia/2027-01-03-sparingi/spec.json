@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "left",
+   "label": "STYCZEŃ",
+   "text": "Sparing to też\\n*twój mecz*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Drużyny testują, ty też",
+   "body": "Trener sprawdza ustawienia. Ty możesz sprawdzić jedną rzecz u siebie.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Jedno zadanie na mecz",
+   "body": "Ustawienie, rozmowa z asystentem, spokojny ton. Wybierz jedno i sprawdź po meczu.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Frycowe po przerwie",
+   "body": "Pierwsze mecze po zimie bywają nierówne. To normalne, wchodzisz w rytm.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Każdy sparing to\\n*trening przed wiosną*.",
+   "cta": "Zapisz i wybierz zadanie na najbliższy sparing"
+  }
+ ]
+}

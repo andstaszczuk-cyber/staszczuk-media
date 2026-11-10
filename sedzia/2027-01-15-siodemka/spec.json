@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "number",
+   "big": "7",
+   "text": "na 10. Tyle napięcia\\nzwykle *potrzebujesz*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Skala od 1 do 10",
+   "body": "Jeden to senność, dziesięć to nerwy na krawędzi. Sprawdzasz przed meczem.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Za nisko? Podkręć",
+   "body": "Mocniejsza rozgrzewka, szybsze kroki, muzyka w drodze na mecz.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Za wysoko? Ostudź",
+   "body": "Dłuższy wydech, wolniejsze ruchy, uwaga na jedno proste zadanie.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "end",
+   "text": "Spokojny, czujny,\\n*gotowy*.",
+   "cta": "Zapisz i sprawdź swoją liczbę przed kolejnym meczem"
+  }
+ ]
+}

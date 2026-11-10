@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "snow",
+   "text": "Idę na pięć minut.\\n*Potem zdecyduję*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Najtrudniejsze jest wyjście",
+   "body": "Zimno, ciemno, kanapa. Opór jest największy, zanim zaczniesz.",
+   "icon": "platek"
+  },
+  {
+   "kind": "point",
+   "title": "Umowa na pięć minut",
+   "body": "Wychodzisz na krótko. Po pięciu minutach decydujesz, czy biegniesz dalej.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Zmęczenie czy niechęć?",
+   "body": "Jeśli po pięciu minutach dalej czujesz ciężar, odpuść bez wyrzutów. To sygnał z ciała.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "end",
+   "text": "Ochota zwykle\\n*przychodzi w trakcie*.",
+   "cta": "Zapisz i spróbuj przy najbliższym treningu"
+  }
+ ]
+}

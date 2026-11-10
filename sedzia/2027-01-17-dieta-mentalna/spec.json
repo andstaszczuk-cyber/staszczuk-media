@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "phone",
+   "text": "Co czytasz\\n*przed meczem*?",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Głowa je to, co jej podasz",
+   "body": "Komentarze, tabela, plotki o drużynach. Wszystko to idzie z tobą na boisko.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Telefon w torbie",
+   "body": "Na kilka godzin przed meczem odkładasz media. Szatnia bez przewijania.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "point",
+   "title": "Wybierz, czym się karmisz",
+   "body": "Notatka z zadaniem, rozgrzewka, muzyka. Rzeczy, które ustawiają cię do pracy.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Dieta mentalna\\nto też *przygotowanie*.",
+   "cta": "Zapisz i spróbuj przed najbliższym meczem"
+  }
+ ]
+}

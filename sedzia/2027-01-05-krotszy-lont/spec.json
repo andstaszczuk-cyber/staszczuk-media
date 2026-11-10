@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "tired",
+   "text": "Zmęczony sędzia\\nma *krótszy lont*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Bateria wpływa na spokój",
+   "body": "Na rozładowanej baterii trudniej o cierpliwość i spokojny ton.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Poznaj swoje sygnały",
+   "body": "Podniesiony głos, szybsze gesty, irytacja na drobiazgi. To pierwsze znaki.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Plan na końcówkę",
+   "body": "Dłuższy wydech, krótkie zdania, krok w tył od zawodnika.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "end",
+   "text": "Najpierw *ładujesz*,\\npotem wymagasz spokoju.",
+   "cta": "Zapisz i wróć przed meczem w środku tygodnia"
+  }
+ ]
+}

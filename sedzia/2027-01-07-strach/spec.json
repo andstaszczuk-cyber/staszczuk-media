@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Czy sędzia\\nmoże *się bać*?",
+   "sub": "Może. I dalej robić *swoje* na boisku.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Strach to wyposażenie",
+   "body": "Mózg ostrzega przed zagrożeniem. Tego się nie wymontuje.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Śmiałość to działanie pomimo",
+   "body": "Boisz się i mimo to podejmujesz decyzję. Taką odwagę znam ze sportu.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Nazwij i wróć do zadania",
+   "body": "Dobra, boję się. Gdzie stoję, co widzę, jaka jest następna akcja?",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Bać się i działać\\n*to normalne*.",
+   "cta": "Wyślij komuś, kto myśli, że boi się tylko on"
+  }
+ ]
+}
