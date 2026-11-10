@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Asystent się pomylił. *Co teraz*?",
+   "sub": "Mecz nadal jest wasz. Wspólny.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Nie w trakcie meczu",
+   "body": "Wyrzuty i gesty złości w stronę asystenta widzą wszyscy. Osłabiasz cały zespół, także siebie."
+  },
+  {
+   "kind": "point",
+   "title": "Wspieraj, żeby wrócił",
+   "body": "Asystent po błędzie też walczy z myślami. Krótki kontakt wzrokowy i skinienie głową pomagają mu wrócić do gry."
+  },
+  {
+   "kind": "point",
+   "title": "Analiza po meczu",
+   "body": "Rozmowa o faktach, bez szukania winnego. Co zrobicie inaczej, jaki sygnał doprecyzujecie."
+  },
+  {
+   "kind": "end",
+   "text": "Jak reagujesz, kiedy *ktoś z zespołu* się pomyli?",
+   "cta": "Wyślij to swojemu asystentowi"
+  }
+ ]
+}

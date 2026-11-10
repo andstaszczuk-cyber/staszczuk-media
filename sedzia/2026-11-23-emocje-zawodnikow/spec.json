@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "quote",
+   "text": "Konflikt widać,\\n*zanim* wybuchnie.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsze sygnały",
+   "body": "Dłuższe spojrzenia, słowne zaczepki, coraz ostrzejsze wejścia. To zapowiedź, a nie przypadek.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Reaguj wcześnie",
+   "body": "Krótkie słowo, bliższe ustawienie, rozmowa z kapitanem. Wcześniej to łatwiej niż po fakcie.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Pamiętaj, kto z kim",
+   "body": "Jeśli dwóch zawodników raz się starło, będziesz miał ich na oku do końca meczu.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Po czym *ty* poznajesz, że zaraz będzie gorąco?",
+   "cta": "Zapisz i obserwuj w następnym meczu"
+  }
+ ]
+}

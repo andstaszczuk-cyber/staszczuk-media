@@ -1,0 +1,34 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "number",
+   "big": "3",
+   "text": "sygnały, że potrzebujesz *odpoczynku*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Mecz przestaje cieszyć",
+   "body": "Wyjazd na mecz zaczyna przypominać obowiązek, którego wolałbyś uniknąć."
+  },
+  {
+   "kind": "point",
+   "title": "Krótszy lont",
+   "body": "Irytuje cię to, co wcześniej spływało. W meczu i poza nim."
+  },
+  {
+   "kind": "point",
+   "title": "Zmęczenie nie mija",
+   "body": "Odpoczywasz, a i tak czujesz się wyczerpany. To sygnał, żeby coś zmienić, zanim będzie gorzej."
+  },
+  {
+   "kind": "end",
+   "text": "Kiedy ostatnio miałeś *prawdziwą* przerwę od sędziowania?",
+   "cta": "Wyślij komuś, kto ciągnie sezon na rezerwie"
+  }
+ ]
+}

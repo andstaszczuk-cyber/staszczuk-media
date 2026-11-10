@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "icon",
+   "icon": "gwizdek",
+   "text": "Mały mecz.\\n*Ta sama* robota.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Każdy mecz to trening",
+   "body": "Mecz bez kamer i trybun to miejsce, gdzie możesz spokojnie ćwiczyć to, co potem wykorzystasz wyżej.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Zawodnicy grają na serio",
+   "body": "Dla nich to ich mecz. Zasługują na sędziego, który traktuje go poważnie.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Własny cel na mecz",
+   "body": "Jedna rzecz do dopracowania. Wtedy mecz ma sens, nawet bez publiczności.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Co ci daje *motywację* na najmniejszych meczach?",
+   "cta": "Zapisz i wróć przed kolejnym meczem"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "night",
+   "text": "Nie śpisz przed meczem?\\n*Mecz i tak* się odbędzie.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna noc to nie wyrok",
+   "body": "Gorsza noc przed meczem zdarza się prawie każdemu. Organizm potrafi zmobilizować się mimo niej.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Walka ze snem go odpędza",
+   "body": "Im mocniej próbujesz zasnąć, tym bardziej się napinasz. Lepiej spokojnie leżeć i oddychać.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Wieczór bez meczu w głowie",
+   "body": "Torba spakowana wcześniej, telefon poza sypialnią, ostatnia godzina bez nagrań i komentarzy.",
+   "icon": "dom"
+  },
+  {
+   "kind": "end",
+   "text": "Jak wygląda *twój* wieczór przed meczem?",
+   "cta": "Zapisz i spróbuj przed najbliższym meczem"
+  }
+ ]
+}

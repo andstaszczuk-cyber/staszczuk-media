@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "rain",
+   "text": "Pada dla wszystkich.\\n*Ty* masz swoje zadanie.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Warunki są te same dla wszystkich",
+   "body": "Deszcz, wiatr, ciężkie boisko. Narzekanie nie zmieni pogody, a zabiera energię.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Więcej ruchu, krótszy dystans",
+   "body": "Na mokrym boisku piłka i zawodnicy zachowują się inaczej. Bądź bliżej akcji niż zwykle.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Przygotuj się na niewygodę",
+   "body": "Zapasowy strój, rozgrzewka w deszczu, plan na zimne dłonie. Wtedy pogoda cię nie zaskakuje.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Jak się przygotowujesz na mecz w *trudnych warunkach*?",
+   "cta": "Zapisz przed jesiennymi meczami"
+  }
+ ]
+}

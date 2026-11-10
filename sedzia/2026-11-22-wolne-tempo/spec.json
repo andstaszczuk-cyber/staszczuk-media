@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "left",
+   "label": "WOLNY MECZ",
+   "text": "Nudny mecz też *trzeba* poprowadzić.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Spokój usypia",
+   "body": "Gdy gra jest wolna, mózg uznaje, że nic się nie dzieje, i odpuszcza czujność.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Małe zadania na każdy fragment",
+   "body": "Ustawienie, kontakt z asystentami, obserwacja zawodników. Głowa potrzebuje czegoś do roboty.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Gotowość na nagłą akcję",
+   "body": "W wolnym meczu jedna szybka akcja przychodzi niespodziewanie. Bądź blisko, zanim się zacznie.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "end",
+   "text": "Co robisz, kiedy mecz *zwalnia*?",
+   "cta": "Zapisz i sprawdź w najbliższym meczu"
+  }
+ ]
+}

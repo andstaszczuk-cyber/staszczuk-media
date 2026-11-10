@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "text": "Gdy na trybunach\\nrobi się *niebezpiecznie*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Bezpieczeństwo ponad wszystko",
+   "body": "Gdy pojawia się zagrożenie, mecz schodzi na drugi plan. Masz prawo przerwać grę.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Nie działasz sam",
+   "body": "Kierownik, organizator, służby porządkowe. Twoim zadaniem jest zgłosić i współpracować.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Emocje po takim meczu",
+   "body": "Strach i złość po groźnej sytuacji są normalne. Daj sobie czas i porozmawiaj z kimś.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "Czy wiesz, *do kogo* zgłaszasz zagrożenie na swoich meczach?",
+   "cta": "Zapisz i sprawdź przed najbliższym meczem"
+  }
+ ]
+}

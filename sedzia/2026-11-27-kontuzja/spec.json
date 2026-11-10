@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "injury",
+   "text": "Zawodnik leży.\\nNajpierw *człowiek*, potem mecz.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Zatrzymaj grę, gdy trzeba",
+   "body": "Zdrowie zawodnika jest ważniejsze niż płynność gry. Jeśli wygląda to poważnie, nie czekasz.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Twój spokój uspokaja innych",
+   "body": "Zawodnicy i ławki patrzą na sędziego. Jasne polecenia i spokojny ton porządkują sytuację.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Po wszystkim wróć do zadania",
+   "body": "Emocje po poważnej kontuzji zostają. Krótki moment dla siebie i wracasz do prowadzenia meczu.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Jak sobie radzisz z emocjami, gdy *ktoś zostaje na murawie*?",
+   "cta": "Zapisz i wróć do tego, gdy będzie potrzebne"
+  }
+ ]
+}
