@@ -1,0 +1,36 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Tylko nie zrób błędu.",
+   "new": "Spróbuj. *Błąd jest wliczony.*",
+   "text": "Odwaga rośnie, kiedy błąd nie straszy."
+  },
+  {
+   "kind": "point",
+   "title": "Strach przed błędem *usztywnia*",
+   "body": "Dziecko gra bezpiecznie, podaje do tyłu, nie próbuje dryblingu.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Błąd to *informacja*",
+   "body": "Pokazuje, co jeszcze poćwiczyć. Wyrokiem nie jest.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Chwal *próby*",
+   "body": "Spróbowałeś zwodu w meczu. Świetnie, nawet jeśli nie wyszedł.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "end",
+   "text": "Kto próbuje, *ten się uczy*.",
+   "cta": "Zapisz przed najbliższym meczem.",
+   "icon": "sprout"
+  }
+ ]
+}

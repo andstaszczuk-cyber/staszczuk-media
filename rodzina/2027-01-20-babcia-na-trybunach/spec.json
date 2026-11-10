@@ -1,0 +1,35 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "hug",
+   "text": "Jutro Dzień Babci.\n*Zaproś ją na trybuny.*"
+  },
+  {
+   "kind": "point",
+   "title": "Kibic *bez presji*",
+   "body": "Dziadkowie zwykle cieszą się po prostu tym, że wnuk gra.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Niech dziecko *pokaże*",
+   "body": "Może samo opowiedzieć dziadkom, czego się ostatnio nauczyło.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Wspólne *wspomnienie*",
+   "body": "Zdjęcie z babcią po meczu zostaje na dłużej niż wynik.",
+   "icon": "book"
+  },
+  {
+   "kind": "end",
+   "text": "Obecność bliskich *to też prezent*.",
+   "cta": "Zapisz i zadzwoń dziś do dziadków.",
+   "icon": "gift"
+  }
+ ]
+}

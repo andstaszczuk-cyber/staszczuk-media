@@ -1,0 +1,40 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Trening w głowie\n*przed zawodami*:",
+   "items": [
+    "usiądź spokojnie",
+    "zobacz pierwszą akcję",
+    "poczuj ruch w ciele",
+    "zobacz błąd i powrót"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Kilka *minut*",
+   "body": "Dzień przed startem, na siedząco, a nie w łóżku przed samym snem.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Wszystkimi *zmysłami*",
+   "body": "Hala, dźwięk piłki, strój, ruch rąk. Im więcej szczegółów, tym lepiej.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Też *trudny moment*",
+   "body": "Niech zobaczy błąd i to, jak spokojnie wraca do gry.",
+   "icon": "loop"
+  },
+  {
+   "kind": "end",
+   "text": "Pierwszy start *odbywa się w głowie*.",
+   "cta": "Zapisz przed najbliższymi zawodami.",
+   "icon": "trophy"
+  }
+ ]
+}

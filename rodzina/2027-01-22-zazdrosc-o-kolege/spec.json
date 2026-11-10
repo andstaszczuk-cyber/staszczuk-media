@@ -1,0 +1,38 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "On zawsze strzela więcej ode mnie.",
+    "Czego możesz się *od niego nauczyć?*"
+   ],
+   "text": "Zazdrość może *stać się inspiracją*."
+  },
+  {
+   "kind": "point",
+   "title": "Zazdrość *jest normalna*",
+   "body": "Pokazuje, na czym dziecku zależy. Nie trzeba go za nią zawstydzać.",
+   "icon": "heart"
+  },
+  {
+   "kind": "point",
+   "title": "Z porównania *w inspirację*",
+   "body": "Co on robi inaczej? Co możesz spróbować u siebie?",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Patrz *na swoją drogę*",
+   "body": "Każdy rozwija się w swoim tempie. Liczy się własny postęp.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "end",
+   "text": "Kolega z drużyny *to też nauczyciel*.",
+   "cta": "Zapisz i wróćcie do tego po treningu.",
+   "icon": "siblings"
+  }
+ ]
+}

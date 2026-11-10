@@ -1,0 +1,34 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Zaczyna sport\njako nastolatek?\n*Nie jest za późno*."
+  },
+  {
+   "kind": "point",
+   "title": "Inna *droga*",
+   "body": "Starsze dziecko szybciej rozumie zadania i często szybko nadrabia.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "point",
+   "title": "Porównuj *z jego startem*",
+   "body": "Patrz, gdzie było miesiąc temu. Koledzy trenujący od lat to zła miara.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Liczy się *chęć*",
+   "body": "Dziecko, które samo wybrało sport, ma paliwo na długo.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Na ruch i radość z niego *nigdy nie jest za późno*.",
+   "cta": "Zapisz i wyślij rodzicowi, który się waha.",
+   "icon": "heart"
+  }
+ ]
+}

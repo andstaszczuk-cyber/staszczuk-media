@@ -1,0 +1,40 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Zimowy weekend?\n*Ruch bez trenera*:",
+   "items": [
+    "sanki pod górkę",
+    "bitwa na śnieżki",
+    "łyżwy z rodziną",
+    "spacer po lesie"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Ruch *dla frajdy*",
+   "body": "Bez planu i bez oceniania. Dziecko rusza się, bo chce.",
+   "icon": "snowflake"
+  },
+  {
+   "kind": "point",
+   "title": "Nowe *ruchy*",
+   "body": "Lód, głęboki śnieg, hamowanie na sankach. Ciało uczy się czegoś nowego.",
+   "icon": "tent"
+  },
+  {
+   "kind": "point",
+   "title": "Czas *razem*",
+   "body": "Rodzic nie jest ani trenerem, ani kibicem. Po prostu się bawi.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Najlepszy ruch to ten, *który sprawia radość*.",
+   "cta": "Zapisz na najbliższy śnieżny weekend.",
+   "icon": "heart"
+  }
+ ]
+}
