@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "growth",
+   "text": "Kariera sędziego\\nma *swoje tempo*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Wyścig męczy",
+   "body": "Ciągłe pilnowanie, kto jest wyżej, zabiera energię, której potrzebujesz na boisku.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Każdy poziom uczy",
+   "body": "Doświadczenie z niższych lig zostaje z tobą i przydaje się wyżej bardziej, niż myślisz.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Gdzie byłeś rok temu?",
+   "body": "Postęp widać z dystansu. Z bliska wydaje się, że stoisz w miejscu.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Na wędrówce idziesz\\n*własnym rytmem*.",
+   "cta": "Zapisz i wróć, gdy zabraknie cierpliwości"
+  }
+ ]
+}

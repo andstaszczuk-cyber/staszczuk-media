@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "split",
+   "label": "PO MECZU",
+   "text": "Słuchasz\\nczy *się bronisz*?",
+   "sub": "Omówienie z obserwatorem to informacja dla ciebie.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Obrona to odruch",
+   "body": "Uwagi o błędach mózg odbiera jak zagrożenie. Chęć tłumaczenia się jest zupełnie normalna."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw wysłuchaj",
+   "body": "Notujesz, dopytujesz o konkrety. Swoje zdanie przedstawiasz, kiedy już wszystko usłyszysz."
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj o jedną rzecz",
+   "body": "Na koniec pytasz, co byłoby najważniejsze do poprawy. Wychodzisz z jednym kierunkiem pracy."
+  },
+  {
+   "kind": "end",
+   "text": "Na omówienie wchodzisz\\n*z notesem*.",
+   "cta": "Zapisz przed kolejnym omówieniem"
+  }
+ ]
+}

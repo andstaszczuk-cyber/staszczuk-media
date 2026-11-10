@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "left",
+   "label": "PO POMYŁCE",
+   "text": "Mogłem się pomylić.\\n*Gramy dalej*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Oni to widzą",
+   "body": "Zawodnicy często szybko wiedzą, że decyzja była błędna. Udawana pewność zabiera ci wiarygodność.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Krótko i spokojnie",
+   "body": "Jedno zdanie do kapitana. Bez długiego tłumaczenia i bez przepraszania przy każdej akcji.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja zostaje",
+   "body": "Przyznanie się zmienia atmosferę. Decyzji, której przepisy nie pozwalają cofnąć, nie zmienia.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Uczciwość\\n*buduje* autorytet.",
+   "cta": "Zapisz i przypomnij sobie po trudnej decyzji"
+  }
+ ]
+}

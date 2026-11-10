@@ -1,0 +1,34 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "icon",
+   "icon": "ucho",
+   "text": "Trener idzie\\ndo ciebie *po meczu*.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Emocje mówią pierwsze",
+   "body": "Tuż po meczu trener przeżywa wynik. Jego słowa mówią wtedy więcej o emocjach niż o twoim sędziowaniu."
+  },
+  {
+   "kind": "point",
+   "title": "Wysłuchaj krótko",
+   "body": "Kilka zdań, spokojny ton, kontakt wzrokowy. W dyskusję o każdej sytuacji nie musisz wchodzić."
+  },
+  {
+   "kind": "point",
+   "title": "Zamknij rozmowę",
+   "body": "Rozumiem, że się pan nie zgadza, decyzje zapadły. I spokojnie idziesz do szatni."
+  },
+  {
+   "kind": "end",
+   "text": "Możesz wysłuchać\\n*i zostać* przy swoim.",
+   "cta": "Wyślij koledze z zespołu"
+  }
+ ]
+}

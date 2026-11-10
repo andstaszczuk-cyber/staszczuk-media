@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "text": "Kolega awansował.\\nTy *jeszcze nie*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Ukłucie jest normalne",
+   "body": "Pokazuje, że ci zależy i że też chcesz iść wyżej.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Widzisz tylko efekt",
+   "body": "Jego całej drogi nie znasz. Porównujesz swoje kulisy z jego sceną.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Ty sprzed roku",
+   "body": "Punkt odniesienia ustawiasz u siebie. Tam widać twój postęp.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "end",
+   "text": "Czyjś awans\\n*niczego ci nie zabiera*.",
+   "cta": "Wyślij komuś, kto ciągle się porównuje"
+  }
+ ]
+}

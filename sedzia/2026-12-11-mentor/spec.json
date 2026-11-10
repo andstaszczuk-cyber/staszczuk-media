@@ -1,0 +1,33 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "quote",
+   "text": "Najlepsi sędziowie\\n*też pytają* o radę.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Prośba to kompetencja",
+   "body": "Pytając o radę, korzystasz z cudzego doświadczenia i nie musisz każdej lekcji odrabiać sam."
+  },
+  {
+   "kind": "point",
+   "title": "Znajdź swojego mentora",
+   "body": "Ktoś bardziej doświadczony, komu ufasz. Wcale nie musi sędziować w najwyższej lidze."
+  },
+  {
+   "kind": "point",
+   "title": "Pytaj konkretnie",
+   "body": "Jedna sytuacja, jedno pytanie. Konkretne pytanie dostaje odpowiedź, którą od razu wykorzystasz."
+  },
+  {
+   "kind": "end",
+   "text": "Sprytni uczą się\\n*na cudzych błędach*.",
+   "cta": "Wyślij komuś, kto pomógł ci na początku"
+  }
+ ]
+}

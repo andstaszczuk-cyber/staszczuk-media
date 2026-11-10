@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "number",
+   "big": "3",
+   "text": "objawy stresu,\\nktóre *ci pomagają*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Szybsze serce",
+   "body": "Mięśnie dostają więcej krwi i tlenu. Ciało szykuje się do biegania przez cały mecz.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Czujne zmysły",
+   "body": "Widzisz i słyszysz więcej. Łatwiej wyłapać szczegół, który przesądza o decyzji.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Napięte ciało",
+   "body": "Organizm jest w gotowości. Kilka spokojnych oddechów obniża napięcie do poziomu, który ci służy.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "end",
+   "text": "Stres *mobilizuje*.\\nTy go regulujesz.",
+   "cta": "Wyślij komuś, kto denerwuje się przed meczem"
+  }
+ ]
+}

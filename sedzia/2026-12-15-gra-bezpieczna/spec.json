@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "decision",
+   "text": "Gwiżdżesz, co widzisz,\\nczy to, co *bezpieczne*?",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Strach przed awanturą",
+   "body": "Głowa podsuwa decyzję, po której będzie najmniej krzyku. To odruch ochronny.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Bezpiecznie dla kogo?",
+   "body": "Niegwizdane przewinienie też ma konsekwencje. Zawodnicy szybko je wyczuwają.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Co widziałem?",
+   "body": "To pytanie ćwiczysz przy nagraniach, żeby na boisku przychodziło samo.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Gwiżdżesz\\n*to, co widzisz*.",
+   "cta": "Zapisz i przypomnij sobie przed trudnym meczem"
+  }
+ ]
+}

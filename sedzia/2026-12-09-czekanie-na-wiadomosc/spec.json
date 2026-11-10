@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "phone",
+   "text": "Sprawdzasz telefon\\n*kolejny raz*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Niepewność męczy",
+   "body": "Brak informacji mózg wypełnia czarnymi scenariuszami. Dlatego czekanie potrafi męczyć bardziej niż mecz.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Gotowość zależy od ciebie",
+   "body": "Na decyzję teraz nie masz wpływu. Na to, jak będziesz przygotowany, masz.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Pora na wiadomości",
+   "body": "Sprawdzasz je rano i wieczorem. Poza tym telefon odkładasz.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Na decyzję *nie masz wpływu*.\\nNa gotowość masz.",
+   "cta": "Wyślij komuś, kto czeka na wiadomość"
+  }
+ ]
+}
