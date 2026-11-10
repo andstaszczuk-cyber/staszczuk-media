@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "walk",
+   "text": "Mecz co weekend?\\n*Zaplanuj też odpoczynek*."
+  },
+  {
+   "kind": "point",
+   "title": "Kalendarz od odpoczynku",
+   "body": "Najpierw wpisz wolne wieczory i sen, dopiero potem resztę obowiązków.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Sygnały zmęczenia",
+   "body": "Gorszy sen, krótszy lont, mniej chęci na trening. To informacja, nie słabość.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Mniej dodatków",
+   "body": "W gęstym okresie odpuść to, co nie jest konieczne. Zostaw miejsce na regenerację.",
+   "icon": "lista"
+  },
+  {
+   "kind": "end",
+   "text": "Wiosna to *długi dystans*.",
+   "cta": "Zapisz i wróć, układając plan na kwiecień"
+  }
+ ]
+}

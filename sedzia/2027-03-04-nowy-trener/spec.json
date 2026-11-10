@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Nowy trener na ławce?\\n*Poznajesz go od zera*."
+  },
+  {
+   "kind": "point",
+   "title": "Bez gotowej łatki",
+   "body": "Nie wiesz, jak reaguje. Opinie kolegów to tylko czyjaś mapa jednego meczu.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwszy kontakt",
+   "body": "Krótko i spokojnie przy formalnościach przed meczem. Tym ustawiasz ton.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Granica od razu",
+   "body": "Gdy pierwszy raz przekroczy, reagujesz od razu, spokojnie i jasno.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "end",
+   "text": "Poznajesz go\\n*na boisku*.",
+   "cta": "Zapisz i wróć przed meczem z nową ławką"
+  }
+ ]
+}

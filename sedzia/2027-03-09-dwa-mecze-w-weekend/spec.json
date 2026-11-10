@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "sofa",
+   "text": "Dwa mecze w weekend?\\n*Zamknij pierwszy*."
+  },
+  {
+   "kind": "point",
+   "title": "Krótkie podsumowanie",
+   "body": "Po pierwszym meczu dwie rzeczy, które zadziałały, i jedna do poprawy. Kropka.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Wieczór na regenerację",
+   "body": "Sen, jedzenie, spokojny wieczór. Analizy zostawiasz na poniedziałek.",
+   "icon": "ksiezyc"
+  },
+  {
+   "kind": "point",
+   "title": "Nowy mecz, nowa historia",
+   "body": "Drugi mecz to inne drużyny i inne emocje. Wczorajszych nie przenosisz.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Każdy mecz\\n*zaczyna się od zera*.",
+   "cta": "Zapisz i wróć w weekend z dwiema obsadami"
+  }
+ ]
+}

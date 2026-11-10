@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Spokojny głos\\n*uspokaja mecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Głos niesie emocje",
+   "body": "Zawodnicy słyszą, czy jesteś spięty. Krzyk zwykle podnosi temperaturę.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "point",
+   "title": "Krótko i niżej",
+   "body": "Proste komunikaty, niższy ton, wolniejsze tempo mówienia.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Wydech przed słowem",
+   "body": "Zanim się odezwiesz, zrób dłuższy wydech. Głos od razu schodzi niżej.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "end",
+   "text": "Mówisz spokojnie,\\n*mecz to słyszy*.",
+   "cta": "Zapisz i wróć przed meczem"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "warmup",
+   "text": "Zimno na boisku?\\n*Rozgrzej też głowę*."
+  },
+  {
+   "kind": "point",
+   "title": "Ciało potrzebuje czasu",
+   "body": "W chłodzie mięśnie rozgrzewają się wolniej. Daj sobie kilka minut więcej niż jesienią.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Przełącznik na mecz",
+   "body": "Rozgrzewka to moment, w którym z codzienności wchodzisz w mecz. Telefon zostaje w szatni.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsze minuty w głowie",
+   "body": "W trakcie truchtu przejdź w myślach start meczu: ustawienie, pierwszy gwizdek, pierwszą rozmowę.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Wchodzisz na mecz\\n*już rozgrzany*.",
+   "cta": "Zapisz i wróć przed najbliższym meczem"
+  }
+ ]
+}

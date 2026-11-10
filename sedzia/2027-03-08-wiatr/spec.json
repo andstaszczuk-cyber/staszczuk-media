@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "flaga",
+   "text": "Wietrzny mecz?\\n*Spokój zostaje w tobie*."
+  },
+  {
+   "kind": "point",
+   "title": "Wiatr zmienia grę",
+   "body": "Długie piłki lądują dziwnie, zawodnicy się mylą. Więcej przypadkowych sytuacji.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Większy zapas",
+   "body": "Przewiduj, gdzie piłka może spaść, i dawaj sobie więcej miejsca w ustawieniu.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Wydech na irytację",
+   "body": "Złość na pogodę zabiera uwagę. Wydech i wracasz do akcji.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "end",
+   "text": "Pogoda jest *dla wszystkich*.\\nReakcja jest twoja.",
+   "cta": "Zapisz i wróć przed wietrznym meczem"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PUŁAPKA",
+   "text": "Łatwy mecz?\\n*Uwaga ucieka*.",
+   "sub": "Spokojne mecze też *wymagają skupienia*."
+  },
+  {
+   "kind": "point",
+   "title": "Spokój usypia",
+   "body": "Gdy nic się nie dzieje, uwaga odpływa. Trudna sytuacja przychodzi nagle.",
+   "icon": "ksiezyc"
+  },
+  {
+   "kind": "point",
+   "title": "Małe zadania",
+   "body": "Co kilka minut sprawdź ustawienie, linię i kontakt z asystentem.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Końcówka",
+   "body": "Wynik rozstrzygnięty, a emocje potrafią wybuchnąć w ostatnich minutach.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "end",
+   "text": "Każdy mecz\\n*zasługuje na uwagę*.",
+   "cta": "Zapisz i wróć przed meczem, który wygląda na łatwy"
+  }
+ ]
+}

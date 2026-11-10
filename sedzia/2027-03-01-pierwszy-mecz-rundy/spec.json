@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "1",
+   "text": "mecz rundy.\\nJeszcze *nic nie przesądza*."
+  },
+  {
+   "kind": "point",
+   "title": "Swoje prawa",
+   "body": "Rytm po zimie wraca stopniowo. Trochę wolniejsze reakcje w pierwszym meczu to normalna rzecz.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Jedno zadanie",
+   "body": "Wybierz jedną rzecz, na której oprzesz uwagę, na przykład ustawienie przy stałych fragmentach.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Wnioski później",
+   "body": "O formie mówisz po kilku kolejkach. Jeden mecz to za mały wycinek rundy.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Runda ma *kilkanaście meczów*.\\nTen jest pierwszy.",
+   "cta": "Zapisz i wróć po pierwszym meczu rundy"
+  }
+ ]
+}

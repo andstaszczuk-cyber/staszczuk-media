@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "VS",
+   "text": "jesień kontra wiosna.\\n*Porównuj mądrze*."
+  },
+  {
+   "kind": "point",
+   "title": "Jesienią byłeś w rytmie",
+   "body": "Pod koniec rundy miałeś za sobą kilkanaście meczów. Teraz dopiero je zbierasz.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Podobne momenty",
+   "body": "Pierwszy mecz wiosny zestaw z pierwszym meczem jesieni.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Patrz na kierunek",
+   "body": "Ważniejsze jest to, czy z meczu na mecz idzie lepiej.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Porównujesz\\n*start ze startem*.",
+   "cta": "Zapisz i wróć, gdy zaczniesz porównywać się z jesienią"
+  }
+ ]
+}

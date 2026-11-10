@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Dobry start rundy?\\n*Trzymaj się przepisu*."
+  },
+  {
+   "kind": "point",
+   "title": "Doceń konkretnie",
+   "body": "Rozpisz, co dokładnie zadziałało: ustawienie, rozmowy, spokój po decyzjach.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "point",
+   "title": "Pułapka luzu",
+   "body": "Po kilku udanych meczach łatwo odpuścić trening, analizę czy rozgrzewkę.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Ta sama robota",
+   "body": "Rób dalej to, co dało dobry start. To jest twój przepis.",
+   "icon": "lista"
+  },
+  {
+   "kind": "end",
+   "text": "Dobry start\\nto *dobry przepis*.",
+   "cta": "Zapisz i wróć po serii udanych meczów"
+  }
+ ]
+}

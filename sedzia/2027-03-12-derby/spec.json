@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "derby",
+   "text": "Derby to nadal\\n*ten sam mecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Więcej emocji wokół",
+   "body": "Trybuny, historia, lokalne ambicje. Zawodnicy grają z większym ładunkiem.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Wyraźny początek",
+   "body": "Pierwsze minuty bywają ostre. Jasna pierwsza decyzja ustawia mecz.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja miara",
+   "body": "Kryteria są takie same jak w każdym innym meczu. Atmosfera ich nie zmienia.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Atmosfera inna,\\n*przepisy te same*.",
+   "cta": "Zapisz i wróć przed meczem derbowym"
+  }
+ ]
+}

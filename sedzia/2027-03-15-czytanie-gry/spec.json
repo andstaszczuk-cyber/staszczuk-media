@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "decision",
+   "text": "Czytaj grę\\n*o krok wcześniej*."
+  },
+  {
+   "kind": "point",
+   "title": "Patrz szerzej",
+   "body": "Poza piłką widzisz, kto się zbliża i gdzie rośnie napięcie.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Styl drużyn",
+   "body": "Po kilku minutach widać, jak grają drużyny. To podpowiada, gdzie stanąć.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Trening na nagraniach",
+   "body": "Oglądając mecze, zatrzymuj obraz i zgaduj, co wydarzy się dalej.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "end",
+   "text": "Ustawiasz się\\n*o krok wcześniej*.",
+   "cta": "Zapisz i wróć przy oglądaniu najbliższego meczu"
+  }
+ ]
+}

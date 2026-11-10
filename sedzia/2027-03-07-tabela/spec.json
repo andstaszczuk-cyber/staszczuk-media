@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "STAWKA",
+   "text": "Tabela się *zagęszcza*.\\nTy sędziujesz *mecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Stawka należy do drużyn",
+   "body": "Awans czy utrzymanie to ich sprawa. Twoje zadanie zostaje takie samo.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Emocje rosną",
+   "body": "Przy wysokiej stawce jest więcej nerwów i protestów. Spodziewasz się tego.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Te same kryteria",
+   "body": "Faul w meczu o wszystko to ten sam faul, co w środku tabeli.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Stawka rośnie,\\n*kryteria zostają*.",
+   "cta": "Zapisz i wróć przed meczem o dużą stawkę"
+  }
+ ]
+}

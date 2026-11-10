@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "MARZEC",
+   "text": "Boisko po zimie\\n*ciężkie i nierówne*?",
+   "sub": "Dopasuj *ustawienie i oczekiwania*."
+  },
+  {
+   "kind": "point",
+   "title": "Warunki dla wszystkich",
+   "body": "Grząska murawa spowalnia zawodników i ciebie. Bierzesz to pod uwagę od pierwszej minuty.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Więcej zapasu",
+   "body": "Piłka częściej staje albo dziwnie skacze. Ustawiaj się z zapasem i patrz szerzej.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Raz ponarzekaj",
+   "body": "Złość na murawę zabiera uwagę. Nazwij to raz i wracaj do meczu.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Boiska nie zmienisz.\\n*Swoje ustawienie tak*.",
+   "cta": "Zapisz i wróć przed meczem na trudnym boisku"
+  }
+ ]
+}

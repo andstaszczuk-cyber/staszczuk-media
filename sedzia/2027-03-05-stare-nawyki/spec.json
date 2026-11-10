@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Pod presją\\nwracają *stare nawyki*."
+  },
+  {
+   "kind": "point",
+   "title": "To normalne",
+   "body": "Nawyk z zimy jest jeszcze świeży. W stresie głowa sięga po to, co zna najlepiej.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Zauważ moment",
+   "body": "Złap, kiedy wraca stary sposób: przy proteście, w końcówce, przy zmęczeniu.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Wróć do nowego",
+   "body": "Jedno słowo przypomnienia i kolejna akcja już po nowemu.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Nowy nawyk rośnie\\n*mecz po meczu*.",
+   "cta": "Zapisz i wróć po meczu, w którym stary nawyk wrócił"
+  }
+ ]
+}
