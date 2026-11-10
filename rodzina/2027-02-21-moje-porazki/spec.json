@@ -1,0 +1,38 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Tato, a ty jak byłeś mały, to przegrywałeś?",
+    "Mnóstwo razy. *Opowiem ci*."
+   ],
+   "text": "Twoje porażki *też uczą*."
+  },
+  {
+   "kind": "point",
+   "title": "Rodzic *nie jest bezbłędny*",
+   "body": "Dziecko często myśli, że dorośli zawsze sobie radzili. Warto to zmienić.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Krótka *historia*",
+   "body": "Jak przegrałeś, co wtedy czułeś i co zrobiłeś potem. Bez morałów.",
+   "icon": "book"
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *czuje się mniej samotne*",
+   "body": "Skoro rodzic też przegrywał, to porażka jest czymś normalnym.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Twoja przegrana sprzed lat *może dziś dodać dziecku odwagi*.",
+   "cta": "Zapisz i opowiedz dziś dziecku jedną historię.",
+   "icon": "heart"
+  }
+ ]
+}

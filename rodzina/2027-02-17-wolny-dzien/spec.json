@@ -1,0 +1,40 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Dzień bez treningu\n*też jest ważny*:",
+   "items": [
+    "ciało odpoczywa",
+    "głowa odpoczywa",
+    "nuda jest w porządku"
+   ],
+   "checked": 3
+  },
+  {
+   "kind": "point",
+   "title": "Postęp *dzieje się w odpoczynku*",
+   "body": "Na treningu ciało się męczy, a mocniejsze robi się wtedy, gdy odpoczywa.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *zastępczych zajęć*",
+   "body": "Wolny dzień to nie czas na dodatkowe bieganie z tatą po parku.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Nuda *nie szkodzi*",
+   "body": "Dziecko, które się nudzi, samo wymyśla, co robić. To też jest coś cennego.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Odpoczynek *to część treningu*.",
+   "cta": "Zapisz i pokaż dziecku w najbliższy wolny dzień.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "compass",
+   "text": "Zapytaj dziecko,\n*po co trenuje*."
+  },
+  {
+   "kind": "point",
+   "title": "Odpowiedź *bywa zaskakująca*",
+   "body": "Koledzy, zabawa, ruch, trener. Rzadko na pierwszym miejscu jest wynik.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Jego powody, *nie Twoje*",
+   "body": "Dziecko trenuje dla siebie. Rodzic może mieć swoje marzenia, ale osobno.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Wracajcie *do tego pytania*",
+   "body": "Powody się zmieniają i to jest normalne. Raz na jakiś czas zapytaj znowu.",
+   "icon": "loop"
+  },
+  {
+   "kind": "end",
+   "text": "Kiedy dziecko wie, po co trenuje, *łatwiej mu przejść gorszy czas*.",
+   "cta": "Zapisz i zapytaj dziś przy kolacji.",
+   "icon": "heart"
+  }
+ ]
+}

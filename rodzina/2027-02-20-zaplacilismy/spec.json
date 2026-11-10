@@ -1,0 +1,36 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Jedziesz, bo zapłaciliśmy.",
+   "new": "Jedziesz, *bo tego chcesz*.",
+   "text": "Pieniądze to sprawa dorosłych."
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *czuje dług*",
+   "body": "Słysząc o kosztach, zaczyna grać dla rodziców, żeby się odwdzięczyć.",
+   "icon": "wallet"
+  },
+  {
+   "kind": "point",
+   "title": "Presja *zamiast radości*",
+   "body": "Każdy błąd to strata pieniędzy. Trudno wtedy grać swobodnie.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzje *przy dorosłych*",
+   "body": "O kosztach rozmawiaj z partnerem, a z dzieckiem o jego chęciach.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko ma grać *dla siebie, a nie żeby spłacić rodziców*.",
+   "cta": "Zapisz i wyślij innemu rodzicowi.",
+   "icon": "heart"
+  }
+ ]
+}

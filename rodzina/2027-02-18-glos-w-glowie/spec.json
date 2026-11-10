@@ -1,0 +1,34 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Jak mówisz do dziecka po meczu,\ntak ono *będzie mówić\ndo siebie*."
+  },
+  {
+   "kind": "point",
+   "title": "Twój głos *zostaje*",
+   "body": "Słowa rodzica po latach stają się głosem w głowie dziecka.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Spokój *po błędzie*",
+   "body": "Zdarza się, co poprawisz, to Twoja nauka. Dziecko uczy się tak mówić do siebie.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Mniej *ocen*",
+   "body": "Zamiast fatalnie zagrałeś, zapytaj, co dziś było trudne.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "end",
+   "text": "Dziś budujesz *głos, który będzie mu kibicował*.",
+   "cta": "Zapisz i wróć po najbliższym meczu.",
+   "icon": "heart"
+  }
+ ]
+}

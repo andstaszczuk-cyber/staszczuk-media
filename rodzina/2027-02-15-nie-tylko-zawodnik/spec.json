@@ -1,0 +1,36 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Jesteś piłkarzem.",
+   "new": "Jesteś *dzieckiem, które gra w piłkę*.",
+   "text": "Sport to część życia, nie całość."
+  },
+  {
+   "kind": "point",
+   "title": "Gdy sport *jest wszystkim*",
+   "body": "Każda porażka uderza wtedy w całe dziecko, a nie tylko w jego grę.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Inne *ważne rzeczy*",
+   "body": "Przyjaciele, książki, muzyka, rysowanie. To też buduje dziecko.",
+   "icon": "book"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowy *nie tylko o sporcie*",
+   "body": "Zapytaj o szkołę, kolegów, marzenia. Pokaż, że interesuje Cię całe dziecko.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko z kilkoma pasjami *łatwiej znosi porażki*.",
+   "cta": "Zapisz i wyślij innemu rodzicowi.",
+   "icon": "heart"
+  }
+ ]
+}

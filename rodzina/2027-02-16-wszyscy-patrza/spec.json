@@ -1,0 +1,38 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Nie chcę grać, wszyscy będą patrzeć.",
+    "Większość patrzy *na swoje dzieci*."
+   ],
+   "text": "Trybuny *nie są sędzią*."
+  },
+  {
+   "kind": "point",
+   "title": "Wstyd *przed oceną*",
+   "body": "Dziecko boi się, że ktoś zobaczy błąd. To normalne, szczególnie na pierwszych zawodach.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Kto *naprawdę patrzy*",
+   "body": "Rodzice patrzą głównie na swoje dzieci, a koledzy myślą o swojej grze.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Uwaga *na zadanie*",
+   "body": "Jedna rzecz do zrobienia w grze pomaga przestać myśleć o trybunach.",
+   "icon": "ball"
+  },
+  {
+   "kind": "end",
+   "text": "Mało kto patrzy tylko na Ciebie. *Możesz po prostu grać*.",
+   "cta": "Zapisz przed pierwszymi zawodami dziecka.",
+   "icon": "heart"
+  }
+ ]
+}
