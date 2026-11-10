@@ -1,0 +1,38 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Mam ćwiczyć w domu, ale mi się nie chce.",
+    "Zróbmy *pięć minut* i zobaczymy."
+   ],
+   "text": "Najtrudniejszy jest *pierwszy krok*."
+  },
+  {
+   "kind": "point",
+   "title": "Małe *na start*",
+   "body": "Pięć minut łatwiej zacząć niż pół godziny. Często zostaje się dłużej.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Stała *pora*",
+   "body": "Zaraz po szkole albo przed kolacją. Bez codziennego negocjowania.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Krzyżyk *na kartce*",
+   "body": "Każdy odhaczony dzień daje małą satysfakcję i pokazuje postęp.",
+   "icon": "book"
+  },
+  {
+   "kind": "end",
+   "text": "Małe kroki *robią dużą robotę*.",
+   "cta": "Zapisz na najbliższe zadanie od trenera.",
+   "icon": "sprout"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Przegraliśmy przez bramkarza.",
+   "new": "Co ja mogłem *zrobić lepiej?*",
+   "text": "Patrz na swoją część meczu."
+  },
+  {
+   "kind": "point",
+   "title": "Szukanie winnego *daje ulgę*",
+   "body": "Łatwiej zrzucić porażkę na innych, niż spojrzeć na siebie.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Swoja *część*",
+   "body": "Co zrobiłem dobrze? Co mogę poprawić? Na to dziecko ma wpływ.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Drużyna *gra razem*",
+   "body": "Wygrywamy razem i przegrywamy razem. Nikt nie gra sam.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "end",
+   "text": "W drużynie *nikt nie przegrywa sam*.",
+   "cta": "Zapisz na rozmowę po przegranym meczu.",
+   "icon": "hug"
+  }
+ ]
+}

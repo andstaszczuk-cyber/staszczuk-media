@@ -1,0 +1,36 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Skup się!",
+   "new": "Patrz na *piłkę u rywala*.",
+   "text": "Konkret zamiast hasła."
+  },
+  {
+   "kind": "point",
+   "title": "Skup się *nic nie mówi*",
+   "body": "Dziecko nie wie, na czym ma się skupić. Słyszy tylko, że coś jest nie tak.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden *punkt uwagi*",
+   "body": "Piłka, pierwszy krok, ręce przy gardzie. Coś, co da się zobaczyć.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Słowo-klucz *przed meczem*",
+   "body": "Jedno słowo, które dziecko samo wybierze i do którego wraca.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Uwaga potrzebuje *konkretnego celu*.",
+   "cta": "Zapisz przed najbliższym meczem.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Dziecko chwali się wygraną?\n*Niech się cieszy\nna głos*."
+  },
+  {
+   "kind": "point",
+   "title": "Radość *ma prawo być*",
+   "body": "Cieszenie się z sukcesu jest zdrowe. Pychą jeszcze nie jest.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "point",
+   "title": "Granica: *szacunek*",
+   "body": "Może się cieszyć, ale nie wyśmiewa rywala ani kolegów.",
+   "icon": "heart"
+  },
+  {
+   "kind": "point",
+   "title": "Nazwij, *co zrobiło*",
+   "body": "Niech opowie, jak doszło do wygranej. To buduje pewność na lata.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Doceniać się *to też umiejętność*.",
+   "cta": "Zapisz na najbliższą wygraną.",
+   "icon": "podium"
+  }
+ ]
+}

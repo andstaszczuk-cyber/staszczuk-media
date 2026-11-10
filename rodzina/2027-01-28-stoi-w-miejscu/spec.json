@@ -1,0 +1,40 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Kiedy postępów\n*nie widać*:",
+   "items": [
+    "postęp idzie skokami",
+    "ciało poukłada to później",
+    "chwal wysiłek",
+    "daj temu tygodnie"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Postęp *idzie schodami*",
+   "body": "Są tygodnie, w których nic się nie zmienia, a potem przychodzi skok.",
+   "icon": "podium"
+  },
+  {
+   "kind": "point",
+   "title": "Czas *poukładania*",
+   "body": "Kiedy wyniki stoją, ciało i głowa porządkują to, czego się nauczyły.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Pytaj o *wysiłek*",
+   "body": "Czego dziś próbowałeś? Co jest łatwiejsze niż miesiąc temu?",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Zastój to często *cisza przed skokiem*.",
+   "cta": "Zapisz na gorszy miesiąc.",
+   "icon": "sprout"
+  }
+ ]
+}

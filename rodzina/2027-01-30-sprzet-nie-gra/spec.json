@@ -1,0 +1,35 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "bag",
+   "text": "Nowe buty, lepsza rakieta?\n*Gra dalej dziecko.*"
+  },
+  {
+   "kind": "point",
+   "title": "Sprzęt *pomaga, nie gra*",
+   "body": "Umiejętności dziecko buduje samo, powtórzenie po powtórzeniu.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Uwaga na *wymówki*",
+   "body": "Przegrałem przez stare buty to wygodne wyjaśnienie, które niczego nie uczy.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Dbanie o *swoje rzeczy*",
+   "body": "Niech samo czyści, pakuje i pilnuje sprzętu. To uczy odpowiedzialności.",
+   "icon": "loop"
+  },
+  {
+   "kind": "end",
+   "text": "Najlepszy sprzęt dziecka to *jego praca i chęć*.",
+   "cta": "Zapisz przed kolejnymi zakupami.",
+   "icon": "heart"
+  }
+ ]
+}

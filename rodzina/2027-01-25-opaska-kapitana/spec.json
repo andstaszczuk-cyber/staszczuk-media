@@ -1,0 +1,35 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "kompas",
+   "text": "Dziecko zostało kapitanem?\n*Opaska to też nauka.*"
+  },
+  {
+   "kind": "point",
+   "title": "Kapitan *to rola*",
+   "body": "Nie musi być najlepszy w drużynie. Ma dawać przykład i wspierać innych.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Wsparcie *po błędzie*",
+   "body": "Kapitan podchodzi do kolegi po pomyłce i mówi: gramy dalej.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *dźwigania wszystkiego*",
+   "body": "Wynik drużyny to wspólna sprawa, a nie tylko kapitana.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "end",
+   "text": "Najlepszy kapitan *dba o innych i o siebie*.",
+   "cta": "Zapisz i pokaż dziecku przed meczem.",
+   "icon": "heart"
+  }
+ ]
+}
