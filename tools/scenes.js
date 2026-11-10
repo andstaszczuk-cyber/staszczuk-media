@@ -155,5 +155,28 @@ const S = {
     <rect x="470" y="470" width="190" height="30" rx="4" fill="${CR}" transform="rotate(-4 565 485)"/><line x1="490" y1="484" x2="640" y2="474" stroke="#2B1515" stroke-width="3"/><line x1="492" y1="494" x2="610" y2="486" stroke="#2B1515" stroke-width="3"/>
     <circle cx="880" cy="470" r="26" fill="none" stroke="${Y}" stroke-width="8"/><rect x="852" y="440" width="56" height="16" rx="4" fill="${Y}"/>
     ${adult(150, 150, 0.95, { head: [215, 80], sh: [200, 150], hip: [190, 345], lA: [[165, 160], [250, 290], [330, 330]], rA: [[235, 160], [300, 260], [380, 330]], lL: [[175, 350], [270, 360], [270, 540]], rL: [[205, 350], [300, 360], [300, 540]] }, { ref: true })}`),
+  // hala zimą: rzędy lamp pod sufitem, kibice tuż za linią, sędzia z ręką w górze
+  hall: () => wrap(`<rect width="1080" height="1350" fill="#18141A"/>
+    <rect width="1080" height="150" fill="#100D10"/>${[120, 400, 680, 960].map(x => `<circle cx="${x}" cy="120" r="170" fill="url(#glow)" opacity=".45"/><rect x="${x - 70}" y="96" width="140" height="22" rx="6" fill="${Y}"/>`).join('')}
+    <rect y="300" width="1080" height="200" fill="#211A1D"/>
+    ${Array.from({ length: 14 }, (_, k) => `<circle cx="${40 + k * 78}" cy="${360 + (k % 2) * 16}" r="26" fill="#3A2F33"/><rect x="${14 + k * 78}" y="${386 + (k % 2) * 16}" width="52" height="90" rx="20" fill="#3A2F33"/>`).join('')}
+    <path d="M150,250 q-30,-30 0,-60 M190,250 q-45,-45 0,-90 M930,250 q30,-30 0,-60 M890,250 q45,-45 0,-90" fill="none" stroke="${Y}" stroke-width="7" stroke-linecap="round" opacity=".55"/>
+    <rect y="500" width="1080" height="850" fill="#3B2A24" opacity=".75"/>
+    <line x1="0" y1="540" x2="1080" y2="540" stroke="${CR}" stroke-opacity=".3" stroke-width="6"/>
+    <ellipse cx="540" cy="760" rx="300" ry="70" fill="none" stroke="${CR}" stroke-opacity=".22" stroke-width="6"/>
+    <g transform="translate(330,200) scale(1.05)">${fig({ head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [148, 228], [150, 300]], rA: [[240, 155], [262, 85], [270, 10]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] })}</g>`),
+  // szatnia przed meczem: sędzia sznuruje buty, obok torba z kartkami
+  locker: () => wrap(`<rect width="1080" height="1350" fill="#1A1517"/>
+    ${[90, 300, 510, 720, 930].map(x => `<rect x="${x}" y="40" width="170" height="420" rx="8" fill="#241D20" stroke="#2F2629" stroke-width="6"/><rect x="${x + 135}" y="220" width="14" height="60" rx="5" fill="#3A2F33"/>`).join('')}
+    <circle cx="880" cy="120" r="240" fill="url(#glow)" opacity=".5"/>
+    <rect x="120" y="560" width="840" height="40" rx="10" fill="#3A2C2F"/><rect x="160" y="600" width="24" height="110" fill="#3A2C2F"/><rect x="896" y="600" width="24" height="110" fill="#3A2C2F"/>
+    <rect x="700" y="470" width="200" height="92" rx="18" fill="${R}"/><path d="M740,470 q60,-60 120,0" fill="none" stroke="${R}" stroke-width="12"/>
+    <rect x="760" y="440" width="34" height="50" rx="5" fill="${Y}" transform="rotate(-10 777 465)"/>
+    <g transform="translate(250,170)">${fig({ head: [230, 150], sh: [215, 215], hip: [200, 380], lA: [[175, 225], [175, 330], [200, 470]], rA: [[255, 225], [275, 330], [262, 470]], lL: [[180, 385], [110, 395], [130, 520]], rL: [[220, 385], [275, 420], [240, 520]] })}</g>`),
+  // młody sędzia między dwoma wysokimi zawodnikami, spokojny gest ręką
+  young: () => wrap(`${light(180, 90, 240)}${light(900, 90, 240)}${stands(420)}<rect y="440" width="1080" height="910" fill="#1B2A1F" opacity=".5"/>
+    <line x1="0" y1="720" x2="1080" y2="700" stroke="${CR}" stroke-opacity=".2" stroke-width="6"/>
+    ${adult(-20, 120, 1.18, STAND, { color: Y })}${adult(620, 120, 1.18, STAND, { color: Y })}
+    <g transform="translate(375,330) scale(0.78)">${fig({ head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [130, 210], [80, 200]], rA: [[240, 155], [270, 210], [320, 200]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] })}</g>`),
 };
 module.exports = { scene: (n) => S[n](), names: Object.keys(S) };
