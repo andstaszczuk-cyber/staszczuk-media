@@ -1,0 +1,36 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Jesteś taki zdolny.",
+   "new": "Widziałem, *ile w to włożyłeś*.",
+   "text": "Chwal to, na co dziecko ma wpływ."
+  },
+  {
+   "kind": "point",
+   "title": "Talent to *etykieta*",
+   "body": "Dziecko nie ma na niego wpływu, więc zaczyna się bać, że go straci.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Wysiłek *da się powtórzyć*",
+   "body": "Jeśli dziecko wie, co zrobiło dobrze, może zrobić to znowu.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Mów *konkretnie*",
+   "body": "Widziałem, jak wracałeś do obrony po każdej stracie piłki.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Pochwal dziś *jedną konkretną rzecz*, którą dziecko zrobiło.",
+   "cta": "Zapisz na pierwszy mecz w nowym roku.",
+   "icon": "heart"
+  }
+ ]
+}

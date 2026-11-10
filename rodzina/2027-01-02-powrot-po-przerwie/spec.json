@@ -1,0 +1,38 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Nogi jak z waty, nic mi dziś nie wychodziło.",
+    "Pierwszy trening po przerwie. *Tak ma być.*"
+   ],
+   "text": "Forma wraca *po kilku treningach*."
+  },
+  {
+   "kind": "point",
+   "title": "Ciało się *rozkręca*",
+   "body": "Po świętach organizm potrzebuje kilku treningów, żeby wrócić do rytmu.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *nadrabiania*",
+   "body": "Nie dokładajcie dodatkowych treningów w pierwszym tygodniu po przerwie.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Wracają *nawyki*",
+   "body": "Torba spakowana wieczorem, stała pora snu, stała godzina wyjścia.",
+   "icon": "bag"
+  },
+  {
+   "kind": "end",
+   "text": "Pierwszy tydzień po przerwie *to po prostu rozruch*.",
+   "cta": "Zapisz i pokaż dziecku po pierwszym treningu.",
+   "icon": "sprout"
+  }
+ ]
+}

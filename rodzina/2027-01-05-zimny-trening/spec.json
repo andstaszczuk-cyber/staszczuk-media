@@ -1,0 +1,35 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "snowflake",
+   "text": "Mróz za oknem?\n*Trening i tak się odbędzie.*"
+  },
+  {
+   "kind": "point",
+   "title": "Ubrania *gotowe wieczorem*",
+   "body": "Czapka, rękawiczki, druga bluza. Mniej marudzenia, kiedy wszystko leży przygotowane.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Narzekanie *ma prawo być*",
+   "body": "Zimno jest wszystkim. Wysłuchaj, a potem zapytaj, co pomoże się rozgrzać.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Zimą rośnie *wytrwałość*",
+   "body": "Trening w trudnych warunkach to także trening głowy.",
+   "icon": "loop"
+  },
+  {
+   "kind": "end",
+   "text": "Zimą dziecko uczy się, że *da radę mimo dyskomfortu*.",
+   "cta": "Zapisz na najbliższy mroźny trening.",
+   "icon": "trophy"
+  }
+ ]
+}

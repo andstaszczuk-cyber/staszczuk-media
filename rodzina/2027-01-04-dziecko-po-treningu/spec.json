@@ -1,0 +1,34 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Po treningu\n*jest po prostu\ndzieckiem*."
+  },
+  {
+   "kind": "point",
+   "title": "Rola *do szafy*",
+   "body": "Po treningu strój ląduje w torbie, a razem z nim rola zawodnika.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Nie każda rozmowa *o sporcie*",
+   "body": "Przy kolacji pogadajcie o szkole, książce, kolegach albo planach na weekend.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Życie *poza sportem*",
+   "body": "Hobby i przyjaźnie spoza klubu dają dystans, kiedy w sporcie jest trudniej.",
+   "icon": "book"
+  },
+  {
+   "kind": "end",
+   "text": "Najpierw dziecko, *potem zawodnik*.",
+   "cta": "Zapisz i wyślij innemu rodzicowi.",
+   "icon": "hug"
+  }
+ ]
+}

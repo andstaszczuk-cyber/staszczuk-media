@@ -1,0 +1,35 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "book",
+   "text": "Postanowienie na nowy rok?\n*Niech wymyśli je dziecko.*"
+  },
+  {
+   "kind": "point",
+   "title": "Jego cel, *jego paliwo*",
+   "body": "Cel, który dziecko wymyśli samo, ciągnie je dużo mocniej niż cel od rodzica.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Mały i *konkretny*",
+   "body": "Zamiast być lepszym: dziesięć minut żonglerki po treningu dwa razy w tygodniu.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Wracajcie do niego *co miesiąc*",
+   "body": "Krótka rozmowa przy kolacji: co już się udało, co jeszcze poprawić.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "end",
+   "text": "Zapytaj dziś: *czego chcesz się nauczyć w nowym roku?*",
+   "cta": "Zapisz i wróćcie do tego w lutym.",
+   "icon": "speech"
+  }
+ ]
+}

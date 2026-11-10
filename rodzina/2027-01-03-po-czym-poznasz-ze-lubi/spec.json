@@ -1,0 +1,40 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Po czym poznasz, że dziecko\n*lubi swój sport*:",
+   "items": [
+    "samo pakuje torbę",
+    "opowiada o treningu",
+    "ćwiczy bez przypominania",
+    "pyta o kolejne zajęcia"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Patrz na *zachowania*",
+   "body": "Deklaracje są miłe, ale więcej mówi to, co dziecko robi samo z siebie.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden słabszy tydzień *niczego nie przesądza*",
+   "body": "Każde dziecko czasem nie chce iść na trening. Liczy się to, co widać przez wiele tygodni.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj, *co lubi najbardziej*",
+   "body": "Kolegów, rywalizację, samą grę? Ta odpowiedź podpowie, o co dbać.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko, które lubi swój sport, *zostaje w nim na dłużej*.",
+   "cta": "Zapisz i obserwuj przez najbliższy miesiąc.",
+   "icon": "heart"
+  }
+ ]
+}
