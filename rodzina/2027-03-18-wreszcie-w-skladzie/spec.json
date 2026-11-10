@@ -1,0 +1,38 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Gram jutro w pierwszym składzie!",
+    "*Super. Graj jak na treningu.*"
+   ],
+   "text": "Szansa nie musi być *egzaminem*."
+  },
+  {
+   "kind": "point",
+   "title": "Radość *i stres*",
+   "body": "Dziecko się cieszy, ale też boi, że jeden błąd wszystko zepsuje.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *podkręcania*",
+   "body": "Zdanie: teraz musisz pokazać, na co cię stać, dokłada ciężaru.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Graj *swoje*",
+   "body": "Robi to, co umie i co robił na treningach. To wystarczy.",
+   "icon": "ball"
+  },
+  {
+   "kind": "end",
+   "text": "Jeden mecz *nie decyduje* o całym sezonie.",
+   "cta": "Zapisz i przeczytaj wieczorem przed tym meczem.",
+   "icon": "heart"
+  }
+ ]
+}

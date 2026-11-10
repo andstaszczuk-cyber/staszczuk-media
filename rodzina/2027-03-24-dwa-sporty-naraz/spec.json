@@ -1,0 +1,40 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Dwa sporty na wiosnę\n*mogą się udać*, gdy:",
+   "items": [
+    "jest czas na odpoczynek",
+    "trenerzy wiedzą",
+    "dziecko chce obu"
+   ],
+   "checked": 3
+  },
+  {
+   "kind": "point",
+   "title": "Wszechstronność *pomaga*",
+   "body": "Różne ruchy i różne wyzwania budują sprawność, która przydaje się w każdym sporcie.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Kalendarz *się zderza*",
+   "body": "Wiosną sezony się nakładają. Mecz tu, turniej tam, a dziecko jest jedno.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Odpoczynek *w planie*",
+   "body": "Przynajmniej jeden dzień w tygodniu bez żadnego treningu.",
+   "icon": "moon"
+  },
+  {
+   "kind": "end",
+   "text": "Dwa sporty to *bogactwo*, jeśli zostaje miejsce na oddech.",
+   "cta": "Zapisz i wróć, kiedy będziecie układać wiosenny kalendarz.",
+   "icon": "heart"
+  }
+ ]
+}

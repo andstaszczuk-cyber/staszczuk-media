@@ -1,0 +1,36 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Od pierwszej minuty musi być w gazie.",
+   "new": "Ma prawo *rozkręcać się w meczu*.",
+   "text": "Jedni startują szybko, inni potrzebują chwili."
+  },
+  {
+   "kind": "point",
+   "title": "Wolny *start*",
+   "body": "Pierwsze minuty bywają sztywne. Ciało i głowa dopiero łapią rytm meczu.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Presja *spowalnia*",
+   "body": "Im bardziej dziecko czuje, że musi od razu błyszczeć, tym dłużej się spina.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Prosty *pierwszy krok*",
+   "body": "Jedno łatwe zadanie na początek, na przykład pierwsze podanie do najbliższego.",
+   "icon": "ball"
+  },
+  {
+   "kind": "end",
+   "text": "Kto *może się rozkręcić*, ten rozkręca się szybciej.",
+   "cta": "Zapisz i wyślij rodzicowi, który denerwuje się na pierwsze minuty.",
+   "icon": "heart"
+  }
+ ]
+}

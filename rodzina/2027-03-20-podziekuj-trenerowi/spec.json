@@ -1,0 +1,34 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Trener słyszy\n*dużo uwag*.\nRzadko słyszy\n*dziękuję*."
+  },
+  {
+   "kind": "point",
+   "title": "Trener *też jest człowiekiem*",
+   "body": "Prowadzi kilkanaście dzieci naraz i każde ma rodzica z oczekiwaniami.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Dziękuj *konkretnie*",
+   "body": "Za to, że zauważył postęp, że został po treningu, że rozmawiał z dzieckiem po porażce.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Przy *dziecku*",
+   "body": "Kiedy dziecko słyszy, jak dziękujesz trenerowi, samo zaczyna go bardziej szanować.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Dobre słowo dla trenera *wraca do dziecka*.",
+   "cta": "Zapisz i podziękuj trenerowi po najbliższym treningu.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "To tylko zawody szkolne.",
+   "new": "Dla niego to *prawdziwy start*.",
+   "text": "Każdy start uczy czegoś nowego."
+  },
+  {
+   "kind": "point",
+   "title": "Inna *dyscyplina*",
+   "body": "Biega przełaj albo gra w siatkówkę za szkołę. Może się w tym poczuć zupełnie inaczej.",
+   "icon": "podium"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *porównań*",
+   "body": "To nie jest jego główny sport, więc nie musi być w nim najlepsze.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Ciesz się *razem z nim*",
+   "body": "Przyjdź, jeśli możesz, i zapytaj potem, jak było.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Zawody szkolne to *też sport*, i to z klasą obok.",
+   "cta": "Zapisz i wyślij rodzicowi przed wiosennymi zawodami w szkole.",
+   "icon": "heart"
+  }
+ ]
+}

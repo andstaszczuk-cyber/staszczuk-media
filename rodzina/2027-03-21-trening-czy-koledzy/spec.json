@@ -1,0 +1,35 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "hug",
+   "text": "Pierwszy dzień wiosny.\nKlasa idzie na ognisko,\n*a on ma trening*."
+  },
+  {
+   "kind": "point",
+   "title": "Przyjaciele *są ważni*",
+   "body": "Dla dziecka czas z rówieśnikami to też potrzeba, a nie fanaberia.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden trening *to nie dramat*",
+   "body": "Opuszczony raz na jakiś czas trening nie zniszczy sezonu.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Niech *zdecyduje*",
+   "body": "Porozmawiajcie, co dla niego ważne, i pozwól mu wybrać.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "end",
+   "text": "Sport ma być *częścią życia*, a nie całym życiem.",
+   "cta": "Zapisz i wyślij rodzicowi, który ma podobny dylemat.",
+   "icon": "heart"
+  }
+ ]
+}

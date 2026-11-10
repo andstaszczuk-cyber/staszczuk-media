@@ -1,0 +1,38 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Mój najlepszy kolega rzucił treningi.",
+    "*Smutno ci?*"
+   ],
+   "text": "Strata kolegi z drużyny *też boli*."
+  },
+  {
+   "kind": "point",
+   "title": "To *prawdziwa strata*",
+   "body": "Razem jeździli, razem się śmiali w szatni. Teraz trening wygląda inaczej.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *bagatelizowania*",
+   "body": "Zamiast mówić, że znajdzie innych, zapytaj, czego mu najbardziej brakuje.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Przyjaźń *może zostać*",
+   "body": "Mogą się spotykać poza boiskiem. Drużyna to nie jedyne miejsce.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Kiedy dziecko może o tym pogadać, *łatwiej mu zostać w drużynie*.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko straciło kolegę z drużyny.",
+   "icon": "heart"
+  }
+ ]
+}

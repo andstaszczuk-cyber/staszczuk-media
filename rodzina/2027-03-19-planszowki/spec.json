@@ -1,0 +1,40 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Przegrywać\n*można ćwiczyć w domu*:",
+   "items": [
+    "planszówki",
+    "karty",
+    "wyścig do auta"
+   ],
+   "checked": 3
+  },
+  {
+   "kind": "point",
+   "title": "Mała *stawka*",
+   "body": "W grze planszowej przegrana kosztuje mało, więc łatwiej się jej uczyć.",
+   "icon": "dice"
+  },
+  {
+   "kind": "point",
+   "title": "Rodzic *pokazuje*",
+   "body": "Kiedy ty przegrywasz, dziecko widzi, że można się zezłościć i grać dalej.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Rewanż *zamiast rzucania*",
+   "body": "Przegrałem, gramy jeszcze raz. To zdanie warto ćwiczyć przy stole.",
+   "icon": "loop"
+  },
+  {
+   "kind": "end",
+   "text": "Przy stole dziecko uczy się tego, *co przyda się na boisku*.",
+   "cta": "Zapisz i zagrajcie w coś jeszcze dziś wieczorem.",
+   "icon": "heart"
+  }
+ ]
+}
