@@ -89,7 +89,7 @@ function slideHtml(s, i) {
     return `<div style="position:absolute;left:90px;right:90px;top:170px;display:flex;align-items:center;gap:22px">
         <div style="width:70px;height:4px" class="acc-bg"></div>
         <div style="font-family:Pop;font-weight:600;font-size:26px;letter-spacing:6px" class="acc">${s.label || 'Z BOISKA'}</div></div>
-      <div style="position:absolute;left:90px;right:120px;bottom:300px;font-weight:800;font-size:${len(s.text) < 30 ? 120 : len(s.text) < 55 ? 96 : 78}px;line-height:1.02;letter-spacing:-1px;text-wrap:balance">${hl(s.text)}</div>
+      <div style="position:absolute;left:90px;right:120px;top:50%;transform:translateY(-50%);font-weight:800;font-size:${len(s.text) < 30 ? 120 : len(s.text) < 55 ? 96 : 78}px;line-height:1.02;letter-spacing:-1px;text-wrap:balance">${hl(s.text)}</div>
       ${swipe()}${footer(i)}`;
   }
   if (s.kind === 'cover' && s.style === 'icon') {
@@ -145,28 +145,29 @@ function slideHtml(s, i) {
     // mały numer w kółku obok tytułu, większy tekst, ikona na dole
     const n = spec.slides.slice(0, i + 1).filter(x => x.kind === 'point').length;
     const bsz = len(s.body) < 140 ? 52 : len(s.body) < 230 ? 46 : 40;
-    return `<div style="position:absolute;left:90px;right:90px;top:190px">
+    return `<div style="position:absolute;left:90px;right:90px;top:110px;bottom:210px;display:flex;flex-direction:column;justify-content:center">
       <div style="display:flex;align-items:center;gap:28px;margin-bottom:44px">
         <div class="acc-bg" style="flex:none;width:96px;height:96px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:Raj;font-weight:700;font-size:56px;color:${themeOf(s) === THEMES.yellow ? '#FFFFFF' : '#2B1515'}">${n}</div>
         <div style="font-weight:800;font-size:62px;line-height:1.12;text-wrap:balance">${hl(s.title)}</div></div>
-      <div style="font-family:Pop;font-weight:500;font-size:${bsz}px;line-height:1.45;opacity:.95">${hl(s.body)}</div></div>
-      ${s.icon ? `<div style="position:absolute;left:90px;bottom:170px;opacity:.9">${icon(s.icon, 110)}</div>` : ''}${footer(i)}`;
+      <div style="font-family:Pop;font-weight:500;font-size:${bsz}px;line-height:1.45;opacity:.95">${hl(s.body)}</div>
+      ${s.icon ? `<div style="margin-top:44px;opacity:.9">${icon(s.icon, 96)}</div>` : ''}</div>${footer(i)}`;
   }
   if (s.kind === 'point' && (s.pstyle || spec.pointStyle) === 'bar') {
     // pionowy pasek akcentu po lewej, blady duży numer w prawym górnym rogu, ikona obok tytułu
     const n = spec.slides.slice(0, i + 1).filter(x => x.kind === 'point').length;
     const bsz = len(s.body) < 140 ? 48 : len(s.body) < 230 ? 43 : 38;
     return `<div style="position:absolute;right:70px;top:90px;font-family:Raj;font-weight:700;font-size:300px;line-height:1;opacity:.13">${String(n).padStart(2, '0')}</div>
-      <div class="acc-bg" style="position:absolute;left:90px;top:400px;width:12px;height:${len(s.body) < 140 ? 520 : 620}px;border-radius:6px"></div>
-      <div style="position:absolute;left:144px;right:90px;top:400px">
+      <div style="position:absolute;left:90px;right:90px;top:110px;bottom:210px;display:flex;flex-direction:column;justify-content:center"><div style="display:flex;gap:42px">
+      <div class="acc-bg" style="flex:none;width:12px;border-radius:6px"></div>
+      <div>
         <div style="display:flex;align-items:center;gap:22px;margin-bottom:38px">${s.icon ? `<div style="flex:none">${icon(s.icon, 84)}</div>` : ''}
           <div style="font-weight:800;font-size:64px;line-height:1.12;text-wrap:balance">${hl(s.title)}</div></div>
-        <div style="font-family:Pop;font-weight:500;font-size:${bsz}px;line-height:1.45;opacity:.95">${hl(s.body)}</div></div>${footer(i)}`;
+        <div style="font-family:Pop;font-weight:500;font-size:${bsz}px;line-height:1.45;opacity:.95">${hl(s.body)}</div></div></div></div>${footer(i)}`;
   }
   if (s.kind === 'point') {
     const n = spec.slides.slice(0, i + 1).filter(x => x.kind === 'point').length;
     const bsz = len(s.body) < 140 ? 48 : len(s.body) < 230 ? 42 : 37;
-    return `<div style="position:absolute;left:90px;right:90px;top:170px">
+    return `<div style="position:absolute;left:90px;right:90px;top:110px;bottom:210px;display:flex;flex-direction:column;justify-content:center">
       <div style="font-family:Raj;font-weight:700;font-size:150px;line-height:1" class="acc">${String(n).padStart(2, '0')}</div>
       <div style="width:110px;height:6px;margin:26px 0 40px" class="acc-bg"></div>
       <div style="font-weight:800;font-size:66px;line-height:1.15;margin-bottom:36px;text-wrap:balance">${hl(s.title)}</div>
