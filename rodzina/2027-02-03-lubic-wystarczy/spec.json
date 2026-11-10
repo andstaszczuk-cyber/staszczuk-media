@@ -1,0 +1,34 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Dziecko nie musi\n*kochać sportu*.\nWystarczy, że *lubi*."
+  },
+  {
+   "kind": "point",
+   "title": "Miłość *ma swoje wahania*",
+   "body": "Raz zapał, raz niechęć. Wieczne płonienie pasją to raczej mit.",
+   "icon": "heart"
+  },
+  {
+   "kind": "point",
+   "title": "Lubić *to dużo*",
+   "body": "Lubię to robić niesie przez gorsze tygodnie i przez porażki.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *pytań o pasję*",
+   "body": "Częste dopytywanie, czy dziecko to kocha, robi z hobby egzamin.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Lubię to robić *wystarczy na długo*.",
+   "cta": "Zapisz i wyślij innemu rodzicowi.",
+   "icon": "sprout"
+  }
+ ]
+}

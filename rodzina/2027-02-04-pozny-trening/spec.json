@@ -1,0 +1,35 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "moon",
+   "text": "Trening do 20:00,\n*a potem trzeba zasnąć*."
+  },
+  {
+   "kind": "point",
+   "title": "Głowa *jeszcze gra*",
+   "body": "Po wieczornym treningu dziecko jest pobudzone. To normalne i potrzebuje chwili.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa o treningu *wcześniej*",
+   "body": "Najlepiej w samochodzie albo przy kolacji, a nie tuż przed snem.",
+   "icon": "car"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojny *wieczór*",
+   "body": "Ciepły prysznic, przygaszone światło, książka zamiast ekranu.",
+   "icon": "book"
+  },
+  {
+   "kind": "end",
+   "text": "Po późnym treningu dziecko potrzebuje *czasu na wyciszenie*.",
+   "cta": "Zapisz i wróć po najbliższym wieczornym treningu.",
+   "icon": "heart"
+  }
+ ]
+}

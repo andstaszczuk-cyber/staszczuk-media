@@ -1,0 +1,40 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Turniej w hali,\n*godzina przerwy*:",
+   "items": [
+    "coś zjeść i popić",
+    "odpocząć bez telefonu",
+    "*krótko* o kolejnym meczu"
+   ],
+   "checked": 3
+  },
+  {
+   "kind": "point",
+   "title": "Przerwa to *też część turnieju*",
+   "body": "Dzieci tracą energię, biegając po hali i patrząc w ekran.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojny *kąt*",
+   "body": "Wybierzcie miejsce, gdzie dziecko może usiąść, przegryźć coś i chwilę pobyć w ciszy.",
+   "icon": "bench"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *analizy* poprzedniego meczu",
+   "body": "Na rozmowę o błędach przyjdzie czas w domu. Teraz liczy się następny mecz.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Dobrze spędzona przerwa *daje siłę na kolejny mecz*.",
+   "cta": "Zapisz przed najbliższym turniejem.",
+   "icon": "ball"
+  }
+ ]
+}

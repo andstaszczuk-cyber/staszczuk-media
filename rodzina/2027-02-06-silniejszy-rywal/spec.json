@@ -1,0 +1,38 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Gramy z pierwszymi w tabeli. I tak przegramy.",
+    "Co chcesz w tym meczu *spróbować*?"
+   ],
+   "text": "Silny rywal to *dobra lekcja*."
+  },
+  {
+   "kind": "point",
+   "title": "Strach przed silniejszym *jest normalny*",
+   "body": "Nie wyśmiewaj go i nie przekonuj na siłę, że na pewno wygracie.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Własne *zadanie*",
+   "body": "Jedna rzecz do zrobienia w meczu, niezależnie od wyniku.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Po meczu *o tym zadaniu*",
+   "body": "Zapytaj, jak poszło z tym, co sobie postanowiło, a nie tylko o wynik.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Z silniejszym rywalem *uczysz się najwięcej*.",
+   "cta": "Zapisz przed meczem z liderem.",
+   "icon": "trophy"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Po co mam chodzić, jak nie ma meczów?",
+    "Bo wiosną zagrasz tym, *co przećwiczysz teraz*."
+   ],
+   "text": "Zima to *czas budowania*."
+  },
+  {
+   "kind": "point",
+   "title": "Bez meczów *trudniej o cel*",
+   "body": "Dziecko nie widzi, po co się męczy. Spadek zapału zimą jest normalny.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna rzecz *do wiosny*",
+   "body": "Słabsza noga, szybszy start, lepsze odbicie. Dziecko wybiera razem z trenerem.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Pokaż *postęp*",
+   "body": "Raz w miesiącu krótki filmik albo rozmowa: co dziś wychodzi, a co w grudniu nie wychodziło.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Zimowy trening *też ma swój cel*.",
+   "cta": "Zapisz i wróć w najbliższy zimowy wieczór.",
+   "icon": "heart"
+  }
+ ]
+}

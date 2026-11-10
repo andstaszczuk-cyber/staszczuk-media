@@ -1,0 +1,36 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Ma talent, poradzi sobie.",
+   "new": "Ma *upór*, to go poniesie.",
+   "text": "Talent nie wystarcza."
+  },
+  {
+   "kind": "point",
+   "title": "Talent *usypia*",
+   "body": "Gdy wszystko przychodzi łatwo, dziecko nie uczy się pracy i znoszenia porażki.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Chwal *pracę*",
+   "body": "Zauważaj powtórzenia, cierpliwość i to, że wraca po błędzie.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Wolniejszy *też dojdzie*",
+   "body": "Dzieci rozwijają się w różnym tempie. Upór często wyprzedza wczesny talent.",
+   "icon": "growth"
+  },
+  {
+   "kind": "end",
+   "text": "Upór waży *więcej niż talent*.",
+   "cta": "Zapisz i wyślij innemu rodzicowi.",
+   "icon": "sprout"
+  }
+ ]
+}

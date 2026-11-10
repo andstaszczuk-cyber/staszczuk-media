@@ -1,0 +1,39 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Mamo, na treningu\n*jest nudno*:",
+   "items": [
+    "ciągle to samo",
+    "za łatwo albo za trudno",
+    "mało gry"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Nuda *to informacja*",
+   "body": "Zapytaj, co dokładnie jest nudne, zanim zaczniesz tłumaczyć albo się złościć.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Powtarzanie *jest częścią nauki*",
+   "body": "Każdy element trzeba zrobić wiele razy. Warto dziecku wyjaśnić, po co.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Mała *zabawa w ćwiczeniu*",
+   "body": "Własne wyzwanie: ile razy z rzędu, lepiej niż poprzednio.",
+   "icon": "dice"
+  },
+  {
+   "kind": "end",
+   "text": "Nudę da się *zamienić w wyzwanie*.",
+   "cta": "Zapisz i porozmawiaj po treningu.",
+   "icon": "heart"
+  }
+ ]
+}
