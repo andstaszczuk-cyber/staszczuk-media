@@ -1,0 +1,78 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Przed startem ziewam *i wszyscy myślą, że mi nie zależy*",
+  "sub": "Co ciało robi, kiedy szykuje się do wysiłku",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "cloud",
+     "x": 640,
+     "y": 140,
+     "s": 1.1,
+     "c": "A",
+     "text": "ziew",
+     "size": 64,
+     "dots": [
+      [
+       540,
+       270,
+       12
+      ],
+      [
+       575,
+       235,
+       17
+      ]
+     ]
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 720,
+     "y": 330,
+     "s": 120,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zmień tłumaczenie",
+   "body": "Aha, ciało się szykuje, wszystko w porządku. To zdejmuje stres dokładany do ziewania.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "nie zależy mi?",
+    "to": "ciało się szykuje"
+   },
+   "artTop": 840,
+   "artH": 420
+  },
+  {
+   "title": "Sprawdź, jak jest w środku",
+   "body": "Ospała, to żywsza rozgrzewka i muzyka. Wszystko buzuje, to spokojny oddech z dłuższym wydechem."
+  },
+  {
+   "title": "Powiedz trenerowi",
+   "body": "Jedno zdanie, że tak masz przed startem. Trener nie musi zgadywać, ty nie musisz się tłumaczyć."
+  }
+ ],
+ "end": {
+  "text": "Ciało ma swoje sposoby *na przygotowanie się do startu*.",
+  "cta": "Zapisz przed startem"
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po wieczornym meczu *do nocy nie mogę się uspokoić*",
+  "sub": "Wyciszenie po meczu też można zaplanować",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 540,
+     "y": 100,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 710,
+     "y": 300,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zaplanuj wyciszenie",
+   "body": "Spokojne rozciąganie, ciepły prysznic, przygaszone światło i chwila bez ekranu.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "ball",
+      "top": "mecz",
+      "bottom": "emocje"
+     },
+     {
+      "icon": "wind",
+      "top": "wyciszenie",
+      "bottom": "bez ekranu",
+      "hl": true
+     },
+     {
+      "icon": "bed",
+      "top": "sen",
+      "bottom": "przyjdzie"
+     }
+    ]
+   },
+   "artTop": 860,
+   "artH": 380
+  },
+  {
+   "title": "Analiza jutro",
+   "body": "Wieczorem zapisz dwie, trzy myśli o meczu. Pełną analizę zrób, kiedy emocje opadną."
+  },
+  {
+   "title": "Odpuść walkę o sen",
+   "body": "Ciało jeszcze odpoczywa po meczu, sen przyjdzie. Im bardziej się zmuszasz, tym trudniej."
+  }
+ ],
+ "end": {
+  "text": "Wieczór po meczu *to też część twojej pracy*.",
+  "cta": "Zapisz na wieczorny mecz"
+ }
+}

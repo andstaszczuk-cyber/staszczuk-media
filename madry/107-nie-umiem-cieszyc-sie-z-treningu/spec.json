@@ -1,0 +1,73 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Po dobrym treningu *od razu myślę o następnym*",
+  "sub": "Dlaczego warto zatrzymać się na minutę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "win",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 540,
+     "y": 110,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 710,
+     "y": 290,
+     "s": 140,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zatrzymaj się na minutę",
+   "body": "Zanim wyjmiesz telefon, odpowiedz sobie, co dziś zrobiłeś dobrze. Konkretnie."
+  },
+  {
+   "title": "Zapisz to",
+   "body": "Pamięć sama podsuwa to, co może pójść nie tak. Dobre rzeczy trzeba złapać na piśmie.",
+   "art": {
+    "type": "notes",
+    "title": "DZIŚ DOBRZE",
+    "lines": [
+     "tempo w ostatniej serii",
+     "ustawienie stopy",
+     "spokojny oddech"
+    ],
+    "crossed": [
+     "czego brakuje"
+    ],
+    "side": "lista dowodów"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Pozwól sobie na zadowolenie",
+   "body": "Wymagać od siebie i doceniać się spokojnie może iść w parze."
+  }
+ ],
+ "end": {
+  "text": "Dobre treningi zdarzają ci się *częściej, niż pamiętasz*.",
+  "cta": "Zapisz po dobrym treningu"
+ }
+}

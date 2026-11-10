@@ -1,0 +1,78 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Po całym dniu w ławce *na treningu jestem sztywny*",
+  "sub": "Jak przygotować ciało, zanim zacznie się rozgrzewka",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 540,
+     "y": 110,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 700,
+     "y": 290,
+     "s": 150,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Ruszaj się w ciągu dnia",
+   "body": "Na przerwie wstań, przejdź się, zrób kilka skłonów. Ciało dostaje sygnał, że będzie potrzebne."
+  },
+  {
+   "title": "Rozruch przed rozgrzewką",
+   "body": "Kilka minut ćwiczeń, które pokaże ci trener albo fizjoterapeuta. Rozgrzewka startuje wyżej.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "foot",
+      "label": "spacer na przerwie"
+     },
+     {
+      "icon": "dumbbell",
+      "label": "rozruch w szatni"
+     },
+     {
+      "icon": "check",
+      "label": "lżejsza rozgrzewka",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 860,
+   "artH": 400
+  },
+  {
+   "title": "Zauważ różnicę",
+   "body": "Przez tydzień zapisuj, jak się czujesz na treningu po dniu w ruchu, a jak po dniu w ławce."
+  }
+ ],
+ "end": {
+  "text": "Ciało trenujesz *przez cały dzień*.",
+  "cta": "Zapisz na długi dzień w szkole"
+ }
+}

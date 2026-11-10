@@ -1,0 +1,97 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Sam nie umiem *zmusić się do treningu*",
+  "sub": "Ferie, grupa się rozjechała, a plan został na kartce",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 540,
+     "y": 120,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 700,
+     "y": 300,
+     "s": 150,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Umów się z kimś",
+   "body": "Wspólny trening albo krótki meldunek po każdym treningu. Kiedy ktoś czeka, trudniej odpuścić."
+  },
+  {
+   "title": "Wpisz treningi w kalendarz",
+   "body": "Wtorek, dziesiąta, park. Rano zostaje wykonanie tego, co już ustaliłeś.",
+   "art": {
+    "type": "week",
+    "caption": "FERIE",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "dumbbell",
+      "mark": "hl"
+     },
+     {
+      "d": "wt",
+      "icon": "foot"
+     },
+     {
+      "d": "śr",
+      "icon": "dumbbell",
+      "mark": "hl"
+     },
+     {
+      "d": "cz",
+      "icon": "bed"
+     },
+     {
+      "d": "pt",
+      "icon": "dumbbell",
+      "mark": "hl"
+     },
+     {
+      "d": "sb",
+      "icon": "foot"
+     },
+     {
+      "d": "nd",
+      "icon": "bed"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Dodaj coś przyjemnego",
+   "body": "Ulubiona trasa, podcast na rozciąganie, gorąca herbata po powrocie."
+  }
+ ],
+ "end": {
+  "text": "Zarządzamy środowiskiem, *motywacja przychodzi potem*.",
+  "cta": "Zapisz na ferie"
+ }
+}

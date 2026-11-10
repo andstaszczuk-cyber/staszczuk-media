@@ -1,0 +1,73 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Mam wrażenie, *że tylko ja się męczę*",
+  "sub": "Swoje zmęczenie czujesz od środka, cudze widzisz z zewnątrz",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 40,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 420,
+     "y": 0,
+     "s": 0.8,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 720,
+     "y": 90,
+     "s": 120,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Swoje czujesz, cudze widzisz",
+   "body": "Porównujesz swoje wnętrze z czyimś wyglądem. Z takiego porównania prawie zawsze wychodzisz gorzej.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "eye",
+     "label": "cudza twarz",
+     "sub": "widzę z zewnątrz"
+    },
+    "right": {
+     "icon": "heart",
+     "label": "moje zmęczenie",
+     "sub": "czuję od środka"
+    }
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Wróć do swojego zadania",
+   "body": "Masz wpływ na swój oddech, tempo i technikę. Swoje tempo, następny odcinek."
+  },
+  {
+   "title": "Ciężko ma być",
+   "body": "Na mocnym treningu zmęczenie to zwykła część pracy. Tak ciało dostaje bodziec."
+  }
+ ],
+ "end": {
+  "text": "Swój wysiłek znasz najlepiej *i na nim się skup*.",
+  "cta": "Zapisz na ciężki trening"
+ }
+}

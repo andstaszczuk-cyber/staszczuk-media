@@ -1,0 +1,82 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Boję się wrócić na trening, *bo zobaczą, że odstaję*",
+  "sub": "Powrót po przerwie bez udowadniania czegokolwiek",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "eyes",
+     "pts": [
+      [
+       560,
+       160
+      ],
+      [
+       700,
+       210
+      ],
+      [
+       620,
+       300
+      ]
+     ]
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 680,
+     "y": 340,
+     "s": 140,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Umów powrót z trenerem",
+   "body": "Krótka rozmowa, że wracasz po przerwie i potrzebujesz kilku dni. Odstawanie staje się częścią planu.",
+   "art": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "wszyscy patrzą?",
+     "będę ostatni?",
+     "co pomyśli trener?"
+    ],
+    "ask": [
+     "Trenerze,",
+     "wracam",
+     "po przerwie"
+    ]
+   },
+   "artTop": 840,
+   "artH": 420
+  },
+  {
+   "title": "Zapłać frycowe świadomie",
+   "body": "Dziś będę wolniejszy i to jest w porządku. Moim zadaniem jest dokończyć trening."
+  },
+  {
+   "title": "Patrz na swoją drogę",
+   "body": "Po każdym treningu zapisz jedną rzecz, która poszła lepiej niż poprzednio."
+  }
+ ],
+ "end": {
+  "text": "Odstawanie przez kilka treningów *to zwykła część sportu*.",
+  "cta": "Zapisz na powrót po przerwie"
+ }
+}

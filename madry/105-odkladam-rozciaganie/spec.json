@@ -1,0 +1,69 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Ciągle odkładam rozciąganie *i ćwiczenia uzupełniające*",
+  "sub": "Nudne części treningu, które robią różnicę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 530,
+     "y": 120,
+     "s": 150,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "pause",
+     "x": 710,
+     "y": 300,
+     "s": 130,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Podepnij pod przyjemne",
+   "body": "Podcast w słuchawkach, muzyka, ulubiony serial wieczorem. Nudne idzie łatwiej."
+  },
+  {
+   "title": "Zrób od razu",
+   "body": "Ostatnia część treningu, przed zejściem z sali. Zostawione na później prawie zawsze przegrywa.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "5 minut",
+     "10 minut",
+     "cały plan"
+    ],
+    "top": true
+   },
+   "artTop": 860,
+   "artH": 380
+  },
+  {
+   "title": "Zacznij od małej wersji",
+   "body": "Pięć minut zamiast piętnastu. Ćwiczenia ustal z trenerem albo fizjoterapeutą."
+  }
+ ],
+ "end": {
+  "text": "Nudne części treningu *też są treningiem*.",
+  "cta": "Zapisz po treningu"
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Spokojne treningi *robię za szybko*",
+  "sub": "Dlaczego wolniej czasem daje więcej",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "wind",
+     "x": 540,
+     "y": 120,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 700,
+     "y": 290,
+     "s": 150,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zapytaj, po co jest",
+   "body": "Spokojny trening buduje bazę i pomaga się zregenerować. Kiedy to wiesz, łatwiej trzymać tempo."
+  },
+  {
+   "title": "Miej prosty wskaźnik",
+   "body": "Tętno ustalone z trenerem albo test rozmowy. Zaczynasz sapać, to zwalniasz.",
+   "art": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "spokojny",
+      "v": 0.42,
+      "hl": true,
+      "note": "mówisz pełnym zdaniem"
+     },
+     {
+      "label": "mocny",
+      "v": 0.95,
+      "note": "pełna moc"
+     }
+    ]
+   },
+   "artTop": 840,
+   "artH": 400
+  },
+  {
+   "title": "Sprawdź po kilku tygodniach",
+   "body": "Zapisuj, jak idą mocne treningi, kiedy spokojne są naprawdę spokojne."
+  }
+ ],
+ "end": {
+  "text": "Spokojny trening *też wymaga dyscypliny*.",
+  "cta": "Zapisz przed spokojnym treningiem"
+ }
+}

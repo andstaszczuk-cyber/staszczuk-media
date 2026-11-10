@@ -1,0 +1,92 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Przed zawodami panikuję *przy każdym kichnięciu*",
+  "sub": "Zima, infekcje dookoła, a start za tydzień",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "cloud",
+     "x": 640,
+     "y": 140,
+     "s": 1.1,
+     "c": "fig2",
+     "dots": [
+      [
+       540,
+       270,
+       12
+      ],
+      [
+       575,
+       235,
+       17
+      ]
+     ]
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 720,
+     "y": 320,
+     "s": 120,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Oddziel to, na co masz wpływ",
+   "body": "Sen, mycie rąk, ciepłe ubranie, mniej zbędnych wyjść w tłum. Na cudze kichnięcie wpływu nie masz.",
+   "art": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "bed",
+      "label": "sen"
+     },
+     {
+      "icon": "hand",
+      "label": "mycie rąk"
+     },
+     {
+      "icon": "shield",
+      "label": "ciepłe ubranie"
+     },
+     {
+      "icon": "clock",
+      "label": "stały rytm"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Przygotuj plan B",
+   "body": "Ustal z trenerem, co robicie, jeśli coś cię złapie. Decyzję o starcie podejmuje lekarz."
+  },
+  {
+   "title": "Wracaj do zadań",
+   "body": "Zrobiłam, co mogłam, teraz trening i sen. Po kilku dniach napięcie wyraźnie spada."
+  }
+ ],
+ "end": {
+  "text": "Zadbaj o siebie mądrze, *a resztę zostaw*.",
+  "cta": "Zapisz na tydzień przed startem"
+ }
+}

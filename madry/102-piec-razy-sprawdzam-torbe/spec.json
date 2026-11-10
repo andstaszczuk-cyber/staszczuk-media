@@ -1,0 +1,68 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Przed zawodami pięć razy sprawdzam torbę *i dalej się boję*",
+  "sub": "Jedna lista zamiast pięciu sprawdzeń",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "backpack",
+     "x": 560,
+     "y": 200,
+     "w": 220,
+     "h": 250,
+     "labels": [
+      "buty",
+      "bidon",
+      "strój"
+     ]
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zrób listę raz",
+   "body": "Kilka dni przed zawodami, na spokojnie. Trzymaj ją w telefonie i poprawiaj przy kolejnych startach.",
+   "art": {
+    "type": "checklist",
+    "title": "LISTA",
+    "chip": "RAZ",
+    "chipX": 300,
+    "back": false,
+    "items": [
+     "buty i strój",
+     "bidon i przekąska",
+     "dokumenty"
+    ]
+   },
+   "artTop": 840,
+   "artH": 420
+  },
+  {
+   "title": "Spakuj i odhacz",
+   "body": "Jedno pakowanie, jedno sprawdzenie. Zrobione, lista mówi, że wszystko jest."
+  },
+  {
+   "title": "Daj napięciu ujście",
+   "body": "Krótki spacer, rozmowa z kimś bliskim, spokojny oddech zamiast kolejnego sprawdzania."
+  }
+ ],
+ "end": {
+  "text": "Dobra lista *robi robotę za twoją głowę*.",
+  "cta": "Zapisz przed pakowaniem"
+ }
+}

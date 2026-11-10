@@ -1,0 +1,76 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Ciągle porównuję dane z zegarka *z innymi*",
+  "sub": "Kiedy liczby zaczynają cię oceniać",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 540,
+     "y": 110,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 700,
+     "y": 290,
+     "s": 150,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Porównuj się ze sobą",
+   "body": "Twoje dane z dzisiaj zestawiasz z twoimi sprzed miesiąca. Wtedy widzisz, czy idziesz do przodu.",
+   "art": {
+    "type": "table",
+    "left": "Z INNYMI",
+    "right": "ZE SOBĄ",
+    "good": true,
+    "rows": [
+     [
+      "tempo kolegi",
+      "ja w grudniu"
+     ],
+     [
+      "cudze tętno",
+      "jak się czuję"
+     ]
+    ]
+   },
+   "artTop": 840,
+   "artH": 420
+  },
+  {
+   "title": "Najpierw ciało, potem ekran",
+   "body": "Po treningu sprawdź, jak oddychałeś i jak niosły nogi. Dopiero potem spójrz na zegarek."
+  },
+  {
+   "title": "Wybierz, co ci potrzebne",
+   "body": "Ustal z trenerem, na które dane patrzeć. Resztę możesz sprawdzać raz w tygodniu."
+  }
+ ],
+ "end": {
+  "text": "Zegarek ma ci *pomagać w robocie*.",
+  "cta": "Zapisz po treningu"
+ }
+}

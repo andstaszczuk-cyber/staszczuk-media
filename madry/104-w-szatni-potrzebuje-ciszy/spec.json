@@ -1,0 +1,82 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "W szatni wszyscy gadają, *a ja potrzebuję ciszy*",
+  "sub": "Każdy przygotowuje się do meczu po swojemu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "mic",
+     "x": 530,
+     "y": 110,
+     "s": 140,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "pause",
+     "x": 710,
+     "y": 290,
+     "s": 140,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Poznaj swój sposób",
+   "body": "Przypomnij sobie najlepsze mecze. Co robiłeś przed nimi, rozmawiałeś czy byłeś sam?"
+  },
+  {
+   "title": "Znajdź swoje miejsce",
+   "body": "Dziesięć minut na korytarzu, słuchawki i oddech, a potem wspólne wyjście z drużyną.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "DRUŻYNA",
+      "icon": "people",
+      "items": [
+       "wspólne wyjście",
+       "okrzyk"
+      ]
+     },
+     {
+      "title": "MOJA CHWILA",
+      "icon": "pause",
+      "items": [
+       "korytarz",
+       "słuchawki",
+       "oddech"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Powiedz o tym",
+   "body": "Jedno zdanie do trenera i drużyny. Kiedy wiedzą, o co chodzi, zwykle nie mają z tym kłopotu."
+  }
+ ],
+ "end": {
+  "text": "Cichy zawodnik *też jest zaangażowany*.",
+  "cta": "Zapisz przed meczem"
+ }
+}

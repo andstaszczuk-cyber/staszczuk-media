@@ -1,0 +1,59 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Coś mnie boli *i nie wiem, czy mówić trenerowi*",
+  "sub": "Ból jest informacją, a informację warto przekazać",
+  "art": {
+   "type": "bodyMap",
+   "points": [
+    {
+     "part": "legs",
+     "label": "ciągnie w łydce",
+     "side": 1
+    },
+    {
+     "part": "head",
+     "label": "powiedzieć?",
+     "side": 0,
+     "ly": 40
+    }
+   ]
+  },
+  "artTop": 700,
+  "artH": 480
+ },
+ "points": [
+  {
+   "title": "Opisz to konkretnie",
+   "body": "Gdzie boli, od kiedy, przy jakim ruchu i jak mocno w skali od 1 do 10.",
+   "art": {
+    "type": "notes",
+    "title": "DLA TRENERA",
+    "lines": [
+     "gdzie i od kiedy",
+     "przy jakim ruchu",
+     "jak mocno 1-10"
+    ],
+    "crossed": [
+     "zaciskam zęby"
+    ],
+    "side": "konkretnie"
+   },
+   "artTop": 840,
+   "artH": 420
+  },
+  {
+   "title": "Powiedz przed treningiem",
+   "body": "Trenerze, od trzech dni coś mi ciągnie w łydce, chcę, żebyś wiedział."
+  },
+  {
+   "title": "Ocena u specjalisty",
+   "body": "Czy możesz trenować normalnie, oceni fizjoterapeuta albo lekarz."
+  }
+ ],
+ "end": {
+  "text": "Mówienie o swoim ciele *to część profesjonalizmu*.",
+  "cta": "Zapisz, zanim coś zacznie ciągnąć"
+ }
+}

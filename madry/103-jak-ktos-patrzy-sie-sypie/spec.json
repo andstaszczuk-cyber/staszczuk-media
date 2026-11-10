@@ -1,0 +1,72 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Na treningu wychodzi, *a jak ktoś patrzy, to się sypie*",
+  "sub": "Dlaczego ruch rwie się pod czyimś wzrokiem",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 100,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "eyes",
+     "pts": [
+      [
+       560,
+       150
+      ],
+      [
+       720,
+       200
+      ],
+      [
+       630,
+       300
+      ],
+      [
+       780,
+       330
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Jedno zadanie na ćwiczenie",
+   "body": "Rytm kroków albo miejsce, w które patrzysz. Głowa ma się czym zająć.",
+   "art": {
+    "type": "targets",
+    "left": "pilnuję wszystkiego",
+    "leftSub": "każdy szczegół",
+    "right": "jedno zadanie",
+    "rightSub": "rytm kroków"
+   },
+   "artTop": 840,
+   "artH": 420
+  },
+  {
+   "title": "Oswajaj patrzenie",
+   "body": "Poproś trenera albo koleżankę, żeby czasem celowo stali obok. Z każdym razem jest łatwiej."
+  },
+  {
+   "title": "Pamiętaj, po co patrzą",
+   "body": "Trener patrzy, żeby pomóc. Ludzie na trybunach najczęściej myślą o swoich sprawach."
+  }
+ ],
+ "end": {
+  "text": "Umiejętności z treningu *zabierasz ze sobą*.",
+  "cta": "Zapisz na trening z publicznością"
+ }
+}

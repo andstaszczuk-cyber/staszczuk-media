@@ -1,0 +1,71 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na zgrupowaniu tęsknię za domem *i nie mogę się skupić*",
+  "sub": "Co robić, kiedy wieczorem najchętniej byś wrócił",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 520,
+     "y": 120,
+     "s": 160,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 720,
+     "y": 300,
+     "s": 130,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Nazwij to po imieniu",
+   "body": "Tęsknię i to jest w porządku, a teraz mam trening. Tęsknota może iść z tobą na salę."
+  },
+  {
+   "title": "Ustal stały kontakt",
+   "body": "Jedna rozmowa z domem o umówionej porze zamiast pisania przez cały dzień.",
+   "art": {
+    "type": "hub",
+    "center": "zgrupowanie",
+    "icon": "heart",
+    "items": [
+     "telefon o 20:00",
+     "twoja muzyka",
+     "spacer",
+     "kolega z pokoju"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zabierz swój rytm",
+   "body": "Swój kubek, książka, muzyka przed snem. Drobne rzeczy, które dają kawałek domu."
+  }
+ ],
+ "end": {
+  "text": "Tęsknota pokazuje, *że masz do czego wracać*.",
+  "cta": "Zapisz przed wyjazdem"
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "W styczniu obiecałem sobie dużo, *a już mi się rozjeżdża*",
+  "sub": "Jak utrzymać jedną zmianę dłużej niż dwa tygodnie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 540,
+     "y": 110,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 700,
+     "y": 290,
+     "s": 150,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wybierz jedną rzecz",
+   "body": "Z całej noworocznej listy zostaw tę, która najbardziej pomoże ci w sporcie. Resztę odłóż na luty.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "1 STYCZNIA",
+     "items": [
+      "pięć zmian",
+      "od razu"
+     ]
+    },
+    "right": {
+     "title": "OD DZIŚ",
+     "items": [
+      "jedna rzecz",
+      "stała pora",
+      "do marca"
+     ]
+    }
+   },
+   "artTop": 860,
+   "artH": 400
+  },
+  {
+   "title": "Podepnij ją pod nawyk",
+   "body": "Rozciąganie zaraz po treningu, dziennik przy kolacji. Nowa rzecz idzie razem ze starą."
+  },
+  {
+   "title": "Licz realnie",
+   "body": "Pięć dni na siedem to całkiem dobry tydzień. Zmiana przychodzi falami, krok po kroku."
+  }
+ ],
+ "end": {
+  "text": "Jedna rzecz do marca *zrobi więcej niż pięć porzuconych*.",
+  "cta": "Zapisz na połowę stycznia"
+ }
+}
