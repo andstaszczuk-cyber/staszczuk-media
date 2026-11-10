@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "split",
+   "label": "PO AWANSIE",
+   "text": "Musisz *coś udowodnić*?",
+   "sub": "Już się pokazałeś. Teraz kontynuujesz swoją robotę.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Awans to nie egzamin",
+   "body": "Dostałeś go za to, jak sędziujesz. Nie musisz w pierwszym meczu udowadniać, że zasłużyłeś.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Nowy poziom, ten sam sędzia",
+   "body": "Szybsza gra, więcej presji. Ale fundamenty, które cię tu doprowadziły, dalej działają.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Daj sobie czas",
+   "body": "Pierwsze mecze na nowym poziomie to nauka. Porównuj się do siebie, a nie do najlepszych w lidze.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "end",
+   "text": "Co *pomogło* ci po ostatnim awansie?",
+   "cta": "Wyślij komuś, kto właśnie awansował"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "tunnel",
+   "text": "Pierwsza ważna obsada.\\n*Jesteś tu*, bo zapracowałeś.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Trema to dobry znak",
+   "body": "Szybsze bicie serca przed wyjściem z tunelu oznacza, że organizm szykuje się do wysiłku.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Rób to, co zawsze",
+   "body": "Ta sama rozgrzewka, ta sama odprawa, te same zadania. Znane czynności dają głowie spokój.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsza akcja, nie cały mecz",
+   "body": "Myślisz o pierwszym zadaniu po wyjściu na boisko. Reszta przyjdzie po kolei.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Co *pamiętasz* ze swojej pierwszej ważnej obsady?",
+   "cta": "Wyślij komuś, kto czeka na swoją"
+  }
+ ]
+}

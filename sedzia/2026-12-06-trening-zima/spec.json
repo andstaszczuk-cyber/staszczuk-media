@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "tired",
+   "text": "Zimno, ciemno,\\n*nie chce się* biegać.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Motywacja przychodzi w trakcie",
+   "body": "Rzadko masz ochotę przed wyjściem. Zwykle pojawia się po kilku minutach ruchu.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Umowa ze sobą",
+   "body": "Dni i godziny ustalasz raz na cały tydzień. Potem już nie dyskutujesz.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Trenuj z kimś",
+   "body": "Łatwiej odpuścić sobie niż komuś, kto czeka na ciebie pod blokiem.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "Wiosną *nogi* przypomną ci\\no grudniu.",
+   "cta": "Wyślij koledze do wspólnego biegania"
+  }
+ ]
+}

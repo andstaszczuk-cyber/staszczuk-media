@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "left",
+   "label": "KONIEC RUNDY",
+   "text": "Najpierw zapisz,\\n*co zadziałało*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Pamięć jest wybiórcza",
+   "body": "Po rundzie pamiętasz głównie sporne sytuacje. Dobre mecze zlewają się w jedno tło.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw to, co działa",
+   "body": "Zanim spiszesz błędy, zapisz rzeczy, które robiłeś dobrze. To twój fundament na wiosnę.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna rzecz do poprawy",
+   "body": "Z listy błędów wybierasz jedną. Tę, która da ci najwięcej w kolejnej rundzie.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "end",
+   "text": "Trzy rzeczy, które *zadziałały*.\\nZapisz je jeszcze dziś.",
+   "cta": "Zapisz i wróć przed rundą wiosenną"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "versus",
+   "a": "ZMIENIĆ",
+   "aSub": "bo asystent widział lepiej",
+   "b": "BRNĄĆ",
+   "bSub": "żeby nie stracić twarzy",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Uparcie w błędzie",
+   "body": "Trzymanie się złej decyzji, żeby nie wyjść na niepewnego, zwykle kosztuje więcej niż korekta.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Nowa informacja",
+   "body": "Asystent widział lepiej? Zmieniasz decyzję szybko, spokojnie i wyraźnie.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Sama presja",
+   "body": "Krzyk zawodników i ławki to emocje, bez nowej informacji. Tu decyzja zostaje.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "end",
+   "text": "W głupiej decyzji\\n*nie warto* być konsekwentnym.",
+   "cta": "Zapisz i przypomnij sobie w trudnym meczu"
+  }
+ ]
+}

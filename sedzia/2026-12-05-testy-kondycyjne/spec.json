@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "icon",
+   "icon": "bateria",
+   "text": "Test kondycyjny\\nstresuje *bardziej niż mecz*?",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Stres to mobilizacja",
+   "body": "Szybsze tętno przed startem oznacza, że organizm szykuje się do wysiłku. Ten stres pracuje dla ciebie.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Przygotowanie daje spokój",
+   "body": "Test przećwiczony kilka razy na treningu przestaje być niewiadomą. Wiesz, kiedy zaczyna być ciężko i ile masz zapasu.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Odcinek po odcinku",
+   "body": "W trakcie myślisz o odcinku, który właśnie biegniesz. O całym teście pomyślisz na mecie.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "end",
+   "text": "Najważniejszy jest\\n*następny odcinek*.",
+   "cta": "Wyślij komuś przed testami"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "sofa",
+   "text": "Bez meczu,\\n*dziwna pustka*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "To normalne",
+   "body": "Mecze wypełniały ci weekendy. Kiedy nagle znikają, głowa i ciało szukają znanego rytmu.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Kim jesteś poza boiskiem?",
+   "body": "Sędzia to jedna z twoich ról. Przerwa przypomina, że inne też potrzebują uwagi.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Zaplanuj weekendy",
+   "body": "Coś, na co w sezonie brakuje czasu. Pustka szybciej mija, gdy ma czym się wypełnić.",
+   "icon": "dom"
+  },
+  {
+   "kind": "end",
+   "text": "Sędziowanie to *ważna rola*.\\nJedna z kilku.",
+   "cta": "Wyślij komuś, kto tęskni za boiskiem"
+  }
+ ]
+}

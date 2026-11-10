@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "number",
+   "big": "3",
+   "text": "cele na wiosnę.\\n*Więcej nie trzeba*.",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden fizyczny",
+   "body": "Na przykład szybsze ustawienie przy kontrataku. Coś, co sprawdzisz na treningu i w meczu.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden przepisowy",
+   "body": "Sytuacje, przy których się wahasz. Oglądasz je i przerabiasz, aż decyzja przychodzi szybciej.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden mentalny",
+   "body": "Na przykład szybszy powrót do meczu po błędzie. Jedno konkretne zachowanie, które ćwiczysz.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Cel opisany *zachowaniem*\\nłatwiej wdrożyć.",
+   "cta": "Zapisz i wróć przed pierwszym meczem"
+  }
+ ]
+}

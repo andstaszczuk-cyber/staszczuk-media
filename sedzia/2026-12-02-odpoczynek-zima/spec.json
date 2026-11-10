@@ -1,0 +1,33 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "quote",
+   "text": "Na odpoczynek\\n*nie musisz* zasługiwać.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Ciało schodzi z obrotów",
+   "body": "Za tobą miesiące meczów, treningów i wyjazdów. Przerwa to czas, w którym organizm odbudowuje to, co zużył sezon."
+  },
+  {
+   "kind": "point",
+   "title": "Głowa też potrzebuje przerwy",
+   "body": "Kilka tygodni bez obsad, ocen i analiz daje dystans. Z dystansu lepiej widać, co w rundzie było naprawdę ważne."
+  },
+  {
+   "kind": "point",
+   "title": "Odpoczynek z planem",
+   "body": "Ustalasz, jak długo odpoczywasz i od kiedy wracasz do treningu. Wtedy wolne nie zamienia się w wyrzuty sumienia."
+  },
+  {
+   "kind": "end",
+   "text": "Odpoczynek to też\\n*część przygotowań* do wiosny.",
+   "cta": "Wyślij komuś, kto nie umie odpuścić"
+  }
+ ]
+}
