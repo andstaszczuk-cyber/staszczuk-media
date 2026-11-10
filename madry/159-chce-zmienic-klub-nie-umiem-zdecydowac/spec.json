@@ -1,0 +1,76 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Chcę zmienić klub *i nie umiem się zdecydować*",
+  "sub": "Od miesięcy myślę o tym codziennie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 520,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 720,
+     "y": 290,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Korzyści i koszty na kartce",
+   "body": "Dla każdej opcji osobno. Na papierze widać więcej niż w głowie.",
+   "art": {
+    "type": "table",
+    "left": "ZOSTAJĘ",
+    "right": "ZMIENIAM",
+    "good": true,
+    "rows": [
+     [
+      "znam ludzi",
+      "nowy trener"
+     ],
+     [
+      "pewne miejsce",
+      "więcej grania"
+     ]
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Ustal termin decyzji",
+   "body": "Kto ciągle wybiera, nie wybiera nic. Opcje z czasem znikają same."
+  },
+  {
+   "title": "Decyzja na spokojnie",
+   "body": "Po słabym treningu wszystko wygląda gorzej. W emocjach odkładasz decyzję."
+  }
+ ],
+ "end": {
+  "text": "Idealnej decyzji nie ma. *Kryteria są drogowskazem*.",
+  "cta": "Zapisz, zanim podejmiesz decyzję"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Idzie mi lepiej niż przyjacielowi *i głupio mi się cieszyć*",
+  "sub": "On ma słaby okres, a ja wygrywam",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "win",
+     "x": 70,
+     "y": 30,
+     "s": 0.9
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 450,
+     "y": 40,
+     "s": 0.8,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 740,
+     "y": 80,
+     "s": 120,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Masz prawo się cieszyć",
+   "body": "Twój dobry sezon nikomu nic nie zabiera. Możesz się cieszyć i wspierać.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "trophy",
+     "label": "moja radość"
+    },
+    "right": {
+     "icon": "heart",
+     "label": "wsparcie dla niego"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapytaj, czego potrzebuje",
+   "body": "Jedni chcą pogadać, inni spokoju. Zamiast zgadywać, pytasz."
+  },
+  {
+   "title": "Nie umniejszaj swojej pracy",
+   "body": "Mówienie, że to fart, nie pomoże ani tobie, ani jemu."
+  }
+ ],
+ "end": {
+  "text": "Radość i wsparcie *mogą iść razem*.",
+  "cta": "Zapisz i podeślij przyjacielowi"
+ }
+}

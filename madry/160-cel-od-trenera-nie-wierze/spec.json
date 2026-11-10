@@ -1,0 +1,73 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Trener ustawił mi cel, *a ja w niego nie wierzę*",
+  "sub": "Dla niego to realne, dla mnie kosmos",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 60,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "person",
+     "pose": "coach",
+     "x": 470,
+     "y": 40,
+     "s": 0.8,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 740,
+     "y": 70,
+     "s": 130,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zapytaj, skąd ten cel",
+   "body": "Na czym trener go opiera? Może widzi coś, czego ty jeszcze nie widzisz.",
+   "art": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "chyba przesadza",
+     "nie dam rady",
+     "będzie zawód"
+    ],
+    "ask": [
+     "Trenerze,",
+     "skąd",
+     "ten cel?"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Rozłóż cel na kroki",
+   "body": "Duży cel straszy. Kroki na najbliższy miesiąc da się zrobić i sprawdzić."
+  },
+  {
+   "title": "Załóż, że się da",
+   "body": "Pracujesz tak, jakby było realne, i po kilku tygodniach sprawdzasz."
+  }
+ ],
+ "end": {
+  "text": "Nie musisz wierzyć od razu. *Wystarczy zacząć*.",
+  "cta": "Zapisz przed rozmową z trenerem"
+ }
+}

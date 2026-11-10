@@ -1,0 +1,65 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Awansowaliśmy *i boję się, że to za wysoko*",
+  "sub": "Pierwszy mecz w nowej lidze, a czuję się jak gość",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 500,
+     "y": 80,
+     "s": 160,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 730,
+     "y": 300,
+     "s": 120,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Już się pokazałeś",
+   "body": "Jesteś tu, bo zapracowaliście na awans. Drugi raz nie musisz zasługiwać.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "muszę się pokazać",
+    "to": "już się pokazałem, jestem tu"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zbieraj dowody",
+   "body": "Po każdym meczu zapisz jedną akcję, która pokazała, że pasujesz do tego poziomu."
+  },
+  {
+   "title": "Mocniejsi rywale uczą szybciej",
+   "body": "Każdy mecz na wyższym poziomie podciąga cię do góry."
+  }
+ ],
+ "end": {
+  "text": "Jesteś tu. *Grasz swoją jakość*.",
+  "cta": "Zapisz przed meczem w nowej lidze"
+ }
+}

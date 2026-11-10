@@ -1,0 +1,96 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Po zmianie czasu *chodzę rozbity*",
+  "sub": "Godzina mniej snu, a czuję się jak po nocce",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 510,
+     "y": 70,
+     "s": 160,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 730,
+     "y": 300,
+     "s": 120,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "To przejściowe",
+   "body": "Ciało przestawia się kilka dni. Ten tydzień zaplanuj trochę lżej.",
+   "art": {
+    "type": "week",
+    "caption": "TYDZIEŃ PO ZMIANIE CZASU",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "foot",
+      "mark": "hl"
+     },
+     {
+      "d": "wt",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "śr",
+      "icon": "foot",
+      "mark": "hl"
+     },
+     {
+      "d": "cz",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "pt",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "sb",
+      "icon": "ball"
+     },
+     {
+      "d": "nd",
+      "icon": "bed"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Rano światło, wieczorem spokój",
+   "body": "Wyjdź rano na dwór. Wieczorem przyciemnij i wcześniej odłóż telefon."
+  },
+  {
+   "title": "Formę oceniasz za tydzień",
+   "body": "Gorsze samopoczucie przez kilka dni niewiele mówi o twojej formie."
+  }
+ ],
+ "end": {
+  "text": "Kilka dni i *ciało złapie nowy rytm*.",
+  "cta": "Zapisz na tydzień po zmianie czasu"
+ }
+}

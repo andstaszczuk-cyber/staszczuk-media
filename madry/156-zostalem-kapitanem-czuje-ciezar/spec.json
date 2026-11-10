@@ -1,0 +1,73 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Zostałem kapitanem *i czuję ciężar*",
+  "sub": "Teraz muszę być wzorem we wszystkim",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "point",
+     "x": 60,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 540,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 720,
+     "y": 300,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Kapitan to rola",
+   "body": "Wkładasz ją na trening i mecz. Po treningu odkładasz ją do szafy.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "shield",
+     "label": "rola kapitana",
+     "sub": "na boisku"
+    },
+    "right": {
+     "icon": "heart",
+     "label": "ja",
+     "sub": "poza boiskiem"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Kapitan też ma gorsze mecze",
+   "body": "Prowadzisz postawą: jak reagujesz po błędzie, jak rozmawiasz z innymi."
+  },
+  {
+   "title": "Zapytaj, czego oczekuje trener",
+   "body": "Konkretne zachowania zamiast domysłów. Wtedy wiesz, co robić."
+  }
+ ],
+ "end": {
+  "text": "Kapitanem jesteś, *bo ktoś ci zaufał*.",
+  "cta": "Zapisz i podeślij swojemu kapitanowi"
+ }
+}

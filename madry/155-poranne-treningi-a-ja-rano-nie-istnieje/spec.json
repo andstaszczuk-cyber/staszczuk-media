@@ -1,0 +1,78 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Doszły poranne treningi, *a ja rano nie istnieję*",
+  "sub": "Przez pierwszą godzinę jestem jak we mgle",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 510,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 720,
+     "y": 290,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zacznij od wieczora",
+   "body": "Wcześniejsza pobudka zaczyna się od wcześniejszego zaśnięcia. Przesuwaj po kwadransie.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "moon",
+      "label": "kwadrans wcześniej"
+     },
+     {
+      "icon": "note",
+      "label": "torba wieczorem"
+     },
+     {
+      "icon": "sun",
+      "label": "światło rano",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Wszystko gotowe dzień wcześniej",
+   "body": "Torba, ubranie, śniadanie. Rano nie podejmujesz żadnych decyzji."
+  },
+  {
+   "title": "Rano rozgrzewaj się dłużej",
+   "body": "Ciało po nocy jest sztywniejsze. Z każdą minutą będzie lżej."
+  }
+ ],
+ "end": {
+  "text": "Do porannych treningów *ciało też się przyzwyczaja*.",
+  "cta": "Zapisz przed porannym treningiem"
+ }
+}

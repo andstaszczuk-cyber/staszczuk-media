@@ -1,0 +1,76 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "W sezonie *nie mam czasu na trening mentalny*",
+  "sub": "Zimą ćwiczyłem codziennie, teraz wszystko leży",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 70,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 510,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 730,
+     "y": 300,
+     "s": 120,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wersja sezonowa",
+   "body": "Zamiast kwadransa trzy minuty. Krótko, ale codziennie.",
+   "art": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "zima",
+      "v": 0.9,
+      "note": "kwadrans"
+     },
+     {
+      "label": "sezon",
+      "v": 0.25,
+      "hl": true,
+      "note": "trzy minuty"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Przyklej do tego, co robisz",
+   "body": "Oddech w autobusie, zdanie po rozgrzewce, dwie linijki po treningu."
+  },
+  {
+   "title": "Mecz też jest treningiem",
+   "body": "Każdy powrót po błędzie to ćwiczenie dla głowy. Zauważ je i zapisz."
+  }
+ ],
+ "end": {
+  "text": "Głowę trenujesz *także w sezonie*.",
+  "cta": "Zapisz i wybierz swoje trzy minuty"
+ }
+}

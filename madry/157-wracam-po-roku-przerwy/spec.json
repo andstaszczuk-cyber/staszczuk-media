@@ -1,0 +1,70 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Wracam po roku przerwy *i wszystko mnie onieśmiela*",
+  "sub": "Nowi ludzie, wyższy poziom, a ja od zera",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 510,
+     "y": 90,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 720,
+     "y": 300,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Pierwsze tygodnie to frycowe",
+   "body": "Na początku jest trudniej. Płaci je każdy, kto wraca po przerwie.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "trening",
+     "pełny tydzień",
+     "sparing",
+     "start"
+    ],
+    "done": 1
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Twój punkt odniesienia",
+   "body": "Porównuj się z pierwszym treningiem po powrocie, a nie z tymi, którzy nie przerywali."
+  },
+  {
+   "title": "Powiedz trenerowi wprost",
+   "body": "Że wracasz po przerwie i czego potrzebujesz. Łatwiej wtedy dobrać obciążenia."
+  }
+ ],
+ "end": {
+  "text": "Wrócić *to już jest coś*.",
+  "cta": "Zapisz i podeślij komuś, kto wraca"
+ }
+}

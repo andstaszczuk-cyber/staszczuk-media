@@ -1,0 +1,79 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Na siłowni jestem silny, *a na boisku wolny*",
+  "sub": "Cała zima ciężarów i nie widzę efektu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 510,
+     "y": 90,
+     "s": 160,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 730,
+     "y": 300,
+     "s": 120,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Siła potrzebuje czasu",
+   "body": "Ciało musi nauczyć się używać nowej siły w szybkim ruchu. To trwa kilka tygodni.",
+   "art": {
+    "type": "timeline",
+    "y": 300,
+    "points": [
+     {
+      "top": "siłownia",
+      "icon": "dumbbell"
+     },
+     {
+      "top": "ruch",
+      "icon": "foot"
+     },
+     {
+      "top": "szybkość",
+      "icon": "bolt",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapytaj o przejście",
+   "body": "Więcej szybkości, skoczności, krótkich startów. Plan ustala trener."
+  },
+  {
+   "title": "Mierz z dystansu",
+   "body": "Krótki sprint teraz i za miesiąc. Progres widać po kilku tygodniach."
+  }
+ ],
+ "end": {
+  "text": "Siła jest. *Daj jej dojść do nóg*.",
+  "cta": "Zapisz i pogadaj o tym z trenerem"
+ }
+}

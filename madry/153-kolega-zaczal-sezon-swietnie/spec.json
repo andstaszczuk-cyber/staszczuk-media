@@ -1,0 +1,115 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Kolega zaczął sezon świetnie, *a ja słabo*",
+  "sub": "Trenujemy razem, a wyniki zupełnie inne",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 60,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "person",
+     "pose": "win",
+     "x": 470,
+     "y": 40,
+     "s": 0.8,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 760,
+     "y": 70,
+     "s": 120,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Każdy ma swój rytm",
+   "body": "Jedni łapią formę szybko, inni rozkręcają się dłużej. Kilka startów to jeszcze nie sezon.",
+   "art": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.3
+       ],
+       [
+        0.3,
+        0.38
+       ],
+       [
+        0.6,
+        0.6
+       ],
+       [
+        1,
+        0.85
+       ]
+      ],
+      "hl": true
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.55
+       ],
+       [
+        0.3,
+        0.75
+       ],
+       [
+        0.6,
+        0.72
+       ],
+       [
+        1,
+        0.74
+       ]
+      ]
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.3,
+      "y": 0.38,
+      "label": "teraz",
+      "dy": 60
+     }
+    ],
+    "x": "sezon"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Inspiracja zamiast porównania",
+   "body": "Zobacz, co on robi dobrze, i weź coś dla siebie."
+  },
+  {
+   "title": "Wasz trening działa",
+   "body": "Jego wynik to też informacja dla ciebie. Robicie tę samą robotę."
+  }
+ ],
+ "end": {
+  "text": "Cudzy dobry start *niczego ci nie zabiera*.",
+  "cta": "Zapisz na czas porównań"
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Przed zawodami *ciągle sprawdzam prognozę*",
+  "sub": "Co godzinę inna i co godzinę nowy stres",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 500,
+     "y": 90,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 710,
+     "y": 290,
+     "s": 140,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Sprawdź raz i spakuj się",
+   "body": "Dzień przed i rano. Potem torba na różne warunki i telefon do kieszeni.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "MAM WPŁYW",
+      "icon": "check",
+      "items": [
+       "ubranie",
+       "rozgrzewka",
+       "plan B"
+      ]
+     },
+     {
+      "title": "NIE MAM",
+      "icon": "cloudRain",
+      "items": [
+       "deszcz",
+       "wiatr"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Plan na dwie wersje",
+   "body": "Jeśli pada, robię to. Jeśli jest ładnie, tamto. Głowa ma gotową odpowiedź."
+  },
+  {
+   "title": "Uwaga zostaje przy tobie",
+   "body": "Każde zerknięcie w prognozę zabiera kawałek uwagi z przygotowań."
+  }
+ ],
+ "end": {
+  "text": "Prognozy nie zmienisz. *Plan możesz mieć gotowy*.",
+  "cta": "Zapisz przed weekendem startowym"
+ }
+}

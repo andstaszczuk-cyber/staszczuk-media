@@ -1,0 +1,68 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na wyjazdach *gram gorzej niż u siebie*",
+  "sub": "Obce miejsce i od razu jestem nieswój",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 520,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 720,
+     "y": 300,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zabierz swoją rutynę",
+   "body": "Rozgrzewka, muzyka, słowa w głowie. Wszystko tak samo jak u siebie.",
+   "art": {
+    "type": "same",
+    "items": [
+     "rozgrzewka",
+     "słowa w głowie",
+     "reset po błędzie"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Oswój miejsce wcześniej",
+   "body": "Przyjedź z zapasem i przejdź się po boisku. Obce szybko robi się znajome."
+  },
+  {
+   "title": "Zadania masz te same",
+   "body": "Linie i zasady się nie zmieniają. Reszta to tylko dekoracja."
+  }
+ ],
+ "end": {
+  "text": "Twoje zadania *jeżdżą razem z tobą*.",
+  "cta": "Zapisz przed meczem wyjazdowym"
+ }
+}

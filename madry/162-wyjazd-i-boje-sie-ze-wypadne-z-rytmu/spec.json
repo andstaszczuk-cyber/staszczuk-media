@@ -1,0 +1,102 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Wyjeżdżam na kilka dni *i boję się, że wypadnę z rytmu*",
+  "sub": "Kilka dni bez treningu i wszystko stracone?",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 70,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "backpack",
+     "x": 470,
+     "y": 230,
+     "w": 170,
+     "h": 210
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 730,
+     "y": 80,
+     "s": 130,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Kilka dni nie zabierze zimy",
+   "body": "Forma buduje się tygodniami. Krótka przerwa jej nie zniszczy.",
+   "art": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.3
+       ],
+       [
+        0.25,
+        0.45
+       ],
+       [
+        0.5,
+        0.6
+       ],
+       [
+        0.6,
+        0.57
+       ],
+       [
+        0.75,
+        0.68
+       ],
+       [
+        1,
+        0.82
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.6,
+      "y": 0.57,
+      "label": "wyjazd",
+      "dy": 60
+     }
+    ],
+    "x": "czas"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Ustal minimum z trenerem",
+   "body": "Spacer, rozruch, rozciąganie. Coś lekkiego, co trzyma rytm."
+  },
+  {
+   "title": "Trening odpoczynku",
+   "body": "Opuszczony trening to odpoczynek. Po powrocie nic nie nadrabiasz podwójnie."
+  }
+ ],
+ "end": {
+  "text": "Rytm wraca *szybciej, niż myślisz*.",
+  "cta": "Zapisz przed wyjazdem"
+ }
+}

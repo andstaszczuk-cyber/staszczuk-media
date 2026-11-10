@@ -1,0 +1,76 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Pierwszy mecz przegrany *i już myślę, że sezon stracony*",
+  "sub": "Skoro tak zaczęliśmy, to jak będzie dalej",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 520,
+     "y": 90,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 720,
+     "y": 290,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Jaki to procent sezonu?",
+   "body": "Jeden mecz z kilkunastu czy kilkudziesięciu. Za mały wycinek, żeby wyrokować.",
+   "art": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "pierwszy mecz",
+      "v": 0.08,
+      "note": "jeden z wielu"
+     },
+     {
+      "label": "cały sezon",
+      "v": 0.95,
+      "hl": true,
+      "note": "reszta przed tobą"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Rozłóż mecz na części",
+   "body": "Dzień później, na spokojnie. Wynik niekorzystny, przebieg bywa całkiem dobry."
+  },
+  {
+   "title": "Jeden wniosek na tydzień",
+   "body": "Bierzesz jedną rzecz do poprawy i zamykasz temat."
+  }
+ ],
+ "end": {
+  "text": "Jeden mecz *to jeszcze nie sezon*.",
+  "cta": "Zapisz po pierwszej porażce"
+ }
+}
