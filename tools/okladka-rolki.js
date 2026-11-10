@@ -24,6 +24,12 @@ const fontCss = ['400', '600', '700', '800'].map(w => `
 @font-face{font-family:Pop;font-weight:${w};src:url(${F(`poppins/files/poppins-latin-${w}-normal.woff2`)}) format('woff2')}`).join('\n');
 
 const FIG = {
+  4: `<rect x="20" y="40" width="110" height="120"/><line x1="20" y1="80" x2="130" y2="80"/><line x1="20" y1="120" x2="130" y2="120"/><rect x="28" y="56" width="18" height="24"/><rect x="52" y="62" width="22" height="18"/><rect x="82" y="94" width="20" height="26"/><rect x="34" y="132" width="26" height="28"/><rect x="146" y="76" width="22" height="16" stroke="${Y}" fill="${Y}"/>
+      <circle cx="160" cy="58" r="12"/><line x1="160" y1="70" x2="160" y2="122"/><line x1="160" y1="86" x2="148" y2="88"/><line x1="160" y1="86" x2="172" y2="88"/><line x1="160" y1="122" x2="150" y2="160"/><line x1="160" y1="122" x2="170" y2="160"/>`,
+  5: `<path d="M60 52 L100 30 L140 52"/><rect x="60" y="52" width="80" height="80"/><path d="M84 52 L84 64 L116 64 L116 52"/><rect x="62" y="132" width="76" height="12"/><line x1="70" y1="144" x2="70" y2="160"/><line x1="130" y1="144" x2="130" y2="152"/><circle cx="132" cy="156" r="5"/>
+      <g fill="${Y}" stroke="${Y}"><circle cx="76" cy="118" r="4"/><circle cx="88" cy="112" r="4"/><circle cx="98" cy="120" r="4"/><circle cx="110" cy="108" r="4"/><circle cx="122" cy="118" r="4"/><circle cx="104" cy="94" r="4"/><circle cx="84" cy="98" r="4"/><circle cx="118" cy="86" r="4"/></g>`,
+  6: `<path d="M56 50 l10 -10 l10 10 l10 -10 l10 10 l10 -10 l10 10 l10 -10 l10 10 l10 -10" stroke="${Y}"/><path d="M60 72 q-12 20 0 40 M140 72 q12 20 0 40" stroke="${Y}"/>
+      <circle cx="100" cy="76" r="14"/><line x1="100" y1="90" x2="100" y2="124"/><line x1="100" y1="100" x2="80" y2="116"/><line x1="100" y1="100" x2="120" y2="116"/><line x1="100" y1="124" x2="88" y2="160"/><line x1="100" y1="124" x2="112" y2="160"/>`,
   1: `<ellipse cx="100" cy="64" rx="52" ry="36" stroke="${Y}" stroke-dasharray="7 8"/><polygon points="146,46 158,60 140,62" fill="${Y}" stroke="${Y}"/>
       <circle cx="100" cy="64" r="14"/><line x1="100" y1="78" x2="100" y2="122"/><line x1="100" y1="92" x2="80" y2="110"/><line x1="100" y1="92" x2="120" y2="110"/><line x1="100" y1="122" x2="88" y2="160"/><line x1="100" y1="122" x2="112" y2="160"/>`,
   2: `<rect x="64" y="22" width="72" height="40" rx="3" stroke="${Y}"/><line x1="64" y1="42" x2="136" y2="42" stroke="${Y}"/>
