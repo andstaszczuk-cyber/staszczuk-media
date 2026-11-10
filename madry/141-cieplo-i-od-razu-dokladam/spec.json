@@ -1,0 +1,76 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Pierwsze ciepłe dni *i od razu dokładam*",
+  "sub": "Więcej, szybciej, częściej, a potem coś zaczyna boleć",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 70,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 520,
+     "y": 70,
+     "s": 160,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 720,
+     "y": 300,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Trzymaj się planu",
+   "body": "Pogoda poprawia się szybciej niż forma. Plan treningowy dalej obowiązuje.",
+   "art": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "według planu",
+      "v": 0.55,
+      "hl": true,
+      "note": "ciało nadąża"
+     },
+     {
+      "label": "bo ładnie",
+      "v": 0.95,
+      "note": "za dużo naraz"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jedno pokrętło naraz",
+   "body": "Albo trochę więcej kilometrów, albo trochę szybciej. Wszystkiego w jednym tygodniu ciało nie udźwignie."
+  },
+  {
+   "title": "Czytaj sygnały z ciała",
+   "body": "Ból i zmęczenie to informacja. Jeden odpuszczony trening kosztuje mniej niż kilka tygodni przerwy."
+  }
+ ],
+ "end": {
+  "text": "Lepiej niedotrenowany *niż przetrenowany*.",
+  "cta": "Zapisz przed pierwszym ciepłym weekendem"
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na pierwszy start sezonu *chcę od razu rekordu*",
+  "sub": "Przecież tyle zrobiłem przez zimę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 520,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 720,
+     "y": 290,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Pierwszy start to sprawdzian",
+   "body": "Dostajesz informację, gdzie jesteś po zimie. Po to jedziesz."
+  },
+  {
+   "title": "Widełki zamiast jednej liczby",
+   "body": "Cel minimalny, maksymalny i dwa, trzy zadania. Zadowolenie nie wisi wtedy na jednym wyniku.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "OCZEKIWANIA",
+     "items": [
+      "rekord",
+      "od razu"
+     ]
+    },
+    "right": {
+     "title": "ZADANIA",
+     "items": [
+      "dobry start",
+      "równe tempo",
+      "czysta technika"
+     ]
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zimowa praca nie przepada",
+   "body": "Nawet gdy pierwszy start pójdzie przeciętnie. Ona dalej w tobie jest."
+  }
+ ],
+ "end": {
+  "text": "Pierwszy start *otwiera sezon*. Reszta dopiero przed tobą.",
+  "cta": "Zapisz przed pierwszym startem"
+ }
+}

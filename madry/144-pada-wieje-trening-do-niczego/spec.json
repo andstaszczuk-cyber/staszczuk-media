@@ -1,0 +1,78 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Pada, wieje, zimno *i trening od razu do niczego*",
+  "sub": "W takich warunkach nie umiem się skupić",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 500,
+     "y": 60,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "wind",
+     "x": 720,
+     "y": 290,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Warunki są dla wszystkich",
+   "body": "Ten sam deszcz pada na rywali. Wpływ masz na ubranie, rozgrzewkę i nastawienie.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "cloudRain",
+      "label": "pogoda"
+     },
+     {
+      "icon": "note",
+      "label": "ubranie i plan"
+     },
+     {
+      "icon": "check",
+      "label": "moje zadanie",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zmień zadanie na dziś",
+   "body": "Technika w deszczu i na śliskiej nawierzchni to osobna umiejętność. Właśnie ją dziś ćwiczysz."
+  },
+  {
+   "title": "Trening charakteru",
+   "body": "Takie dni uczą robić swoje w dyskomforcie. Przyda się w meczu w ulewie."
+  }
+ ],
+ "end": {
+  "text": "Pogody nie wybierasz. *Zadanie na dziś tak*.",
+  "cta": "Zapisz na deszczowy trening"
+ }
+}

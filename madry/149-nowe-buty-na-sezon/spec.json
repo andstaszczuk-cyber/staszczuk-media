@@ -1,0 +1,70 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Nowe buty na sezon *i wszystko czuję inaczej*",
+  "sub": "Zamiast pomagać, tylko mnie rozpraszają",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "foot",
+     "x": 520,
+     "y": 90,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 720,
+     "y": 300,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Testuj na treningu",
+   "body": "Nowy sprzęt sprawdzasz krok po kroku, zanim zabierzesz go na mecz.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "rozruch",
+     "trening",
+     "sparing",
+     "mecz"
+    ],
+    "done": 2
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Daj ciału kilka tygodni",
+   "body": "Nowe ustawienie stopy na początku jest jak obca ręka. Z czasem robi się twoje."
+  },
+  {
+   "title": "Miej zapas",
+   "body": "Na pierwsze ważne starty możesz zabrać stary, sprawdzony sprzęt."
+  }
+ ],
+ "end": {
+  "text": "Sprzęt ma *ci służyć*.",
+  "cta": "Zapisz, zanim weźmiesz nowy sprzęt na mecz"
+ }
+}

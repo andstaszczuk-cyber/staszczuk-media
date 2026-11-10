@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Po zimie na hali *na dworze wszystko idzie ciężej*",
+  "sub": "Inna nawierzchnia, wiatr, zimno i nic nie wychodzi",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "wind",
+     "x": 500,
+     "y": 110,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "snow",
+     "x": 720,
+     "y": 280,
+     "s": 120,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Ciało potrzebuje kilku tygodni",
+   "body": "Inna nawierzchnia, inne buty, inna temperatura. Przestawienie się zwyczajnie trwa.",
+   "art": {
+    "type": "timeline",
+    "y": 300,
+    "points": [
+     {
+      "top": "hala",
+      "icon": "dumbbell"
+     },
+     {
+      "top": "dwór",
+      "icon": "wind",
+      "hl": true
+     },
+     {
+      "top": "oswojenie",
+      "icon": "check"
+     },
+     {
+      "top": "sezon",
+      "icon": "flag"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Porównuj dzień do dnia na dworze",
+   "body": "Pierwszy trening na trawie zestawiaj z drugim i trzecim, a nie z najlepszym na hali."
+  },
+  {
+   "title": "Dłużej się rozgrzewaj",
+   "body": "Na zimnie ciało potrzebuje więcej czasu, żeby się rozruszać. Te minuty naprawdę się opłacają."
+  }
+ ],
+ "end": {
+  "text": "Przestawienie się *to też przygotowanie do sezonu*.",
+  "cta": "Zapisz na pierwsze tygodnie na dworze"
+ }
+}

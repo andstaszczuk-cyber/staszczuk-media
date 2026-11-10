@@ -1,0 +1,70 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wszyscy mają cele, *a ja nie wiem, czego chcę*",
+  "sub": "Trener pyta o plan na sezon, a ja milczę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "cloud",
+     "x": 470,
+     "y": 60,
+     "s": 1,
+     "text": "?"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 720,
+     "y": 290,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zacznij od tego, co lubisz",
+   "body": "Co sprawia ci w sporcie radość? Z takich odpowiedzi wychodzi twój cel.",
+   "art": {
+    "type": "hub",
+    "center": "mój sezon",
+    "icon": "heart",
+    "items": [
+     "co lubię",
+     "co poprawić",
+     "co mnie cieszy",
+     "z kim trenuję"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jeden cel na początek",
+   "body": "Plan na cały rok nie jest potrzebny. Wystarczy jedna rzecz do końca kwietnia."
+  },
+  {
+   "title": "Cel może się zmienić",
+   "body": "Po kilku tygodniach sprawdzasz, jak idzie, i w razie potrzeby poprawiasz."
+  }
+ ],
+ "end": {
+  "text": "Cel ma *dawać kierunek*, a nie wisieć nad tobą.",
+  "cta": "Zapisz na rozmowę o planie na sezon"
+ }
+}

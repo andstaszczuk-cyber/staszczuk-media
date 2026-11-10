@@ -1,0 +1,69 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Pierwszy start po zimie *i nie pamiętam, jak to jest*",
+  "sub": "Jakbym startował pierwszy raz w życiu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 510,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "snow",
+     "x": 720,
+     "y": 290,
+     "s": 120,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Stres po przerwie jest większy",
+   "body": "Po miesiącach bez startów ciało reaguje mocniej. To przewidywalne."
+  },
+  {
+   "title": "Odtwórz swój dzień startu",
+   "body": "Rozpisz po kolei, co robisz od rana. Rutyna przypomni ciału, jak to jest.",
+   "art": {
+    "type": "notes",
+    "title": "MÓJ DZIEŃ STARTU",
+    "lines": [
+     "pobudka i śniadanie",
+     "wyjazd z zapasem",
+     "rozgrzewka jak zawsze"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Ciało pamięta więcej",
+   "body": "Setki treningów i startów nie znikają przez jedną zimę."
+  }
+ ],
+ "end": {
+  "text": "Ciało pamięta. *Daj mu chwilę*.",
+  "cta": "Zapisz przed pierwszym startem po zimie"
+ }
+}

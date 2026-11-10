@@ -1,0 +1,65 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na sparingach wszystko wychodzi *i boję się, że to złudzenie*",
+  "sub": "Czekam, aż się skończy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "win",
+     "x": 90,
+     "y": 40,
+     "s": 0.9
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 520,
+     "y": 80,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 720,
+     "y": 290,
+     "s": 120,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Forma ma swoje źródło",
+   "body": "Zima, praca, konkretne poprawki. To da się wytłumaczyć.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "to fart, zaraz minie",
+    "to": "zrobiłem na to zimą"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Spisz, co działa",
+   "body": "Przygotowanie, rozgrzewka, na czym skupiasz uwagę. Żeby umieć to powtórzyć."
+  },
+  {
+   "title": "Gorszy dzień też przyjdzie",
+   "body": "I będzie po prostu gorszym dniem. Dowodem na złudzenie nie będzie."
+  }
+ ],
+ "end": {
+  "text": "Dobrą formę *też możesz przyjąć*.",
+  "cta": "Zapisz, kiedy wszystko idzie dobrze"
+ }
+}

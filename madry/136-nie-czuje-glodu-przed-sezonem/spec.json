@@ -1,0 +1,65 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wszyscy czekają na sezon, *a ja nie czuję głodu*",
+  "sub": "I zastanawiam się, czy mi jeszcze zależy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 520,
+     "y": 90,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 700,
+     "y": 300,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Motywacja się zmienia",
+   "body": "Za pierwszym razem niesie entuzjazm. Przy kolejnych sezonach jest spokojniej i to jest normalne.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "chyba mi nie zależy",
+    "to": "jest spokojniej niż kiedyś"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Oceniaj po rozgrzewce",
+   "body": "Idziesz na trening i sprawdzasz dopiero w trakcie. Chęć często przychodzi później."
+  },
+  {
+   "title": "Jeden cel do końca marca",
+   "body": "Nie potrzebujesz wielkiego marzenia na cały rok. Jedna rzecz do poprawy daje kierunek."
+  }
+ ],
+ "end": {
+  "text": "Głód nie musi być wielki. *Wystarczy kierunek*.",
+  "cta": "Zapisz na początek sezonu"
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Wieczorem jest jasno *i kładę się coraz później*",
+  "sub": "A rano na treningu ledwo żyję",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 510,
+     "y": 70,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 730,
+     "y": 290,
+     "s": 120,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Stała pora końca dnia",
+   "body": "Ustal godzinę, o której gasisz światło, i trzymaj się jej także w weekend."
+  },
+  {
+   "title": "Zaplanuj ostatnią godzinę",
+   "body": "Ciszej, ciemniej, telefon poza sypialnią. Otoczenie robi więcej niż silna wola.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "moon",
+      "label": "stała pora"
+     },
+     {
+      "icon": "phone",
+      "label": "telefon za drzwiami"
+     },
+     {
+      "icon": "book",
+      "label": "kilka stron książki",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Korzystaj z jasnych popołudni",
+   "body": "Spacer czy rozruch po szkole albo pracy. Wieczór zostaw na wyciszenie."
+  }
+ ],
+ "end": {
+  "text": "Dłuższe dni to więcej czasu. *Sen dalej ma swoją porę*.",
+  "cta": "Zapisz i ustaw dziś godzinę snu"
+ }
+}

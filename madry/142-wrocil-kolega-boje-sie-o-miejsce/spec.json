@@ -1,0 +1,73 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wrócił kolega po kontuzji *i boję się o swoje miejsce*",
+  "sub": "Całą zimę grałem, a teraz nie wiem, co dalej",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 70,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 470,
+     "y": 40,
+     "s": 0.8,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "bench",
+     "x": 740,
+     "y": 300,
+     "s": 130,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Rozdziel, na co masz wpływ",
+   "body": "Decyzja trenera to wpływ pośredni. Bezpośredni masz na swoje treningi.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "people",
+     "label": "decyzja trenera",
+     "sub": "wpływ pośredni"
+    },
+    "right": {
+     "icon": "check",
+     "label": "mój trening",
+     "sub": "wpływ bezpośredni"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Odwróć pytanie",
+   "body": "Co będzie, jeśli dalej będę grać? O co wtedy zadbać, co utrzymać, co poprawić."
+  },
+  {
+   "title": "Rywalizacja podnosi poziom",
+   "body": "Ktoś dobry obok na treningu to obszar inspiracji. Korzysta na tym cała drużyna."
+  }
+ ],
+ "end": {
+  "text": "Miejsce w składzie *budujesz na każdym treningu*.",
+  "cta": "Zapisz przed kolejnym tygodniem treningów"
+ }
+}

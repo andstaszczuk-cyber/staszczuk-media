@@ -1,0 +1,69 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Zimą zrobiłem dużo, *a nikt tego nie widzi*",
+  "sub": "Trener chwali innych, a mnie nie zauważa",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "person",
+     "pose": "coach",
+     "x": 520,
+     "y": 40,
+     "s": 0.8,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 760,
+     "y": 80,
+     "s": 120,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zapisz swoje dowody",
+   "body": "Co konkretnie zrobiłeś przez zimę. Czarno na białym, a nie z pamięci.",
+   "art": {
+    "type": "notes",
+    "title": "MOJA ZIMA",
+    "lines": [
+     "treningi bez opuszczania",
+     "nowy element techniki",
+     "dłużej wytrzymuję tempo"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapytaj trenera",
+   "body": "Trener nie widzi wszystkiego. Możesz zapytać, jak ocenia twoją zimę."
+  },
+  {
+   "title": "Praca zostaje w tobie",
+   "body": "W nogach, w technice, w wydolności. Wyjdzie w meczu, nawet jeśli nikt jej nie pochwalił."
+  }
+ ],
+ "end": {
+  "text": "Twoja praca istnieje, *nawet gdy nikt nie klaszcze*.",
+  "cta": "Zapisz i zrób swoją listę"
+ }
+}

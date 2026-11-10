@@ -1,0 +1,96 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Dwa mecze w tygodniu *i nie wiem, kiedy odpocząć*",
+  "sub": "Mecz, trening, trening, mecz i od nowa",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 510,
+     "y": 80,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 700,
+     "y": 300,
+     "s": 150,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Najpierw wpisz odpoczynek",
+   "body": "Rozpisując tydzień, zaczynasz od snu i lżejszych dni. Potem cała reszta.",
+   "art": {
+    "type": "week",
+    "caption": "TYDZIEŃ Z DWOMA MECZAMI",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "wt",
+      "icon": "ball",
+      "mark": "hl"
+     },
+     {
+      "d": "śr",
+      "icon": "bed"
+     },
+     {
+      "d": "cz",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "pt",
+      "icon": "foot"
+     },
+     {
+      "d": "sb",
+      "icon": "ball",
+      "mark": "hl"
+     },
+     {
+      "d": "nd",
+      "icon": "bed"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Dzień po meczu jest lżejszy",
+   "body": "Rozruch, spacer, sen. Ciało dopiero wtedy przyjmuje to, co zrobiłeś."
+  },
+  {
+   "title": "Odpoczynek w głowie też",
+   "body": "Krótka analiza po meczu i zamykasz temat. Potem głowa ma wolne."
+  }
+ ],
+ "end": {
+  "text": "Progres dzieje się *w odpoczynku*.",
+  "cta": "Zapisz i rozpisz swój tydzień"
+ }
+}

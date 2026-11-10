@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Inni już startują, *a ja dalej buduję formę*",
+  "sub": "Patrzę na ich wyniki i robi mi się gorąco",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 520,
+     "y": 90,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 710,
+     "y": 290,
+     "s": 140,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Masz swój kalendarz",
+   "body": "Twój plan prowadzi do twoich najważniejszych startów. Inni mają inne.",
+   "art": {
+    "type": "timeline",
+    "y": 300,
+    "points": [
+     {
+      "top": "zima",
+      "icon": "snow"
+     },
+     {
+      "top": "budowa",
+      "icon": "dumbbell",
+      "hl": true
+     },
+     {
+      "top": "starty",
+      "icon": "flag"
+     },
+     {
+      "top": "cel",
+      "icon": "trophy"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Szczyt formy planujesz",
+   "body": "Formy przez cały rok nie ma. Ustawiasz ją na starty, które są dla ciebie ważne."
+  },
+  {
+   "title": "Mniej cudzych wyników",
+   "body": "Marcowe wyniki innych niewiele mówią o czerwcu. Porównaj się ze sobą sprzed roku."
+  }
+ ],
+ "end": {
+  "text": "Twój sezon *ma swój rytm*.",
+  "cta": "Zapisz na czas porównywania się"
+ }
+}

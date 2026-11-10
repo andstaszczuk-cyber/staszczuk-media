@@ -1,0 +1,65 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Pierwszy mecz sezonu, *a mnie nie ma w składzie*",
+  "sub": "Całą zimę pracowałem i to boli",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 520,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bench",
+     "x": 710,
+     "y": 300,
+     "s": 140,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Masz prawo to przeżyć",
+   "body": "Złość i smutek po takiej decyzji są normalne. Daj sobie na nie wieczór.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "wypadłem ze składu",
+    "to": "mam chwilową przerwę"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapytaj o konkret",
+   "body": "Co mam poprawić, żeby zagrać? Taka rozmowa daje ci zadania."
+  },
+  {
+   "title": "Ławka gotowych",
+   "body": "Szansa może przyjść w każdym meczu. Trenujesz tak, żeby być na nią gotowy."
+  }
+ ],
+ "end": {
+  "text": "To dopiero *pierwszy mecz*. Sezon jest długi.",
+  "cta": "Zapisz i wróć po rozmowie z trenerem"
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Matura i sezon *w tym samym czasie*",
+  "sub": "Robię wszystko na pół gwizdka",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 510,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 720,
+     "y": 290,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Priorytety na tygodnie",
+   "body": "Rozpisz marzec, kwiecień i maj. Kiedy nauka, kiedy trening.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "NAUKA",
+      "icon": "book",
+      "items": [
+       "rano",
+       "godzina po treningu"
+      ]
+     },
+     {
+      "title": "SPORT",
+      "icon": "ball",
+      "items": [
+       "treningi",
+       "mecze w weekend"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Porozmawiaj z trenerem",
+   "body": "Powiedz wprost, jak wygląda twój kalendarz. Razem łatwiej coś ułożyć."
+  },
+  {
+   "title": "Pilnuj snu",
+   "body": "Trening daje głowie odpocząć od książek. Byle ani nauka, ani sport nie zabierały snu."
+  }
+ ],
+ "end": {
+  "text": "Nie wybierasz raz na zawsze. *Wybierasz na najbliższe tygodnie*.",
+  "cta": "Zapisz i podeślij komuś przed maturą"
+ }
+}
