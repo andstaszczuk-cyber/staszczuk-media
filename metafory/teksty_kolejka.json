@@ -637,7 +637,7 @@
   "ocena": 3,
   "tekst": "Zamiast pytać *dlaczego tego nie umiem?*, zapytaj: *jak mogę być dla siebie przyjacielem w tej sytuacji?*.",
   "zrodlo": "bank",
-  "uzyta": null
+  "uzyta": "2026-11-10"
  },
  {
   "id": 4,
@@ -12827,6 +12827,30 @@
   "ocena": 2,
   "tekst": "Nie jesteś smutny. Masz w sobie smutek. Odczuwasz go, on ma charakter przejściowy, a ty nie jesteś tą emocją.",
   "zrodlo": "bank",
+  "uzyta": null
+ },
+ {
+  "id": 1284,
+  "temat": "stres i presja",
+  "typ": "zdanie",
+  "tekst": "Na zawodach międzynarodowych jest więcej luzu, bo nikt cię tam nie zna. Na swoim podwórku trzeba się pokazać własnemu plemieniu, więc presja jest większa.",
+  "zrodlo": "zoom 2026-11-10",
+  "uzyta": null
+ },
+ {
+  "id": 1285,
+  "temat": "motywacja",
+  "typ": "zdanie",
+  "tekst": "Praca nad głową bywa żmudna, trudna i nudna. Ale to jest ta prawdziwa praca, bez żadnych czarów.",
+  "zrodlo": "zoom 2026-11-10",
+  "uzyta": null
+ },
+ {
+  "id": 1286,
+  "temat": "pewność siebie",
+  "typ": "zdanie",
+  "tekst": "Pewność siebie to wiara, że masz dostępne zasoby, żeby zrobić zadanie na odpowiednim poziomie trudności.",
+  "zrodlo": "zoom 2026-11-09",
   "uzyta": null
  }
 ]

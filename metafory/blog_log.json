@@ -197,5 +197,18 @@
   "metricool_id": 419972256,
   "metricool_uuid": "1821215543124578177",
   "godzina": "17:30"
+ },
+ {
+  "data": "2026-11-10",
+  "url": "https://andrzejstaszczuk.pl/2026/11/10/blad-w-meczu-jak-zresetowac-glowe/",
+  "tytul_wpisu": "Jeden błąd ciągnie kolejne. Jak zresetować głowę w trakcie meczu",
+  "headline": "Po błędzie psujesz *kolejne*? Mam na to tekst.",
+  "layout": "G8",
+  "photo": "svg:reset",
+  "palette": "cream",
+  "font": "anton",
+  "focus": null,
+  "spec": "metafory/blog/2026-11-10.json",
+  "png": "metafory/blog/2026-11-10.png"
  }
 ]

@@ -206,5 +206,16 @@
   "png": "metafory/relacje/2026-11-09.png",
   "metricool_id": 421575045,
   "metricool_uuid": "-5600939025869485291"
+ },
+ {
+  "data": "2026-11-10",
+  "id": 7,
+  "layout": "G7",
+  "photo": "art:compass",
+  "palette": "black",
+  "font": "bebas",
+  "focus": null,
+  "spec": "metafory/relacje/2026-11-10.json",
+  "png": "metafory/relacje/2026-11-10.png"
  }
 ]
