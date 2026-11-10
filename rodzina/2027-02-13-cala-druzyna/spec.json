@@ -1,0 +1,34 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Kibicujesz *całej drużynie*,\nnie tylko\n*swojemu dziecku*."
+  },
+  {
+   "kind": "point",
+   "title": "Dzieci *to słyszą*",
+   "body": "Kiedy dorosły klaszcze tylko przy swoim dziecku, reszta drużyny też to zauważa.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Doping *dla wszystkich*",
+   "body": "Brawa za dobrą akcję, kto by jej nie zrobił, i wsparcie po błędzie.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Twoje dziecko *gra w drużynie*",
+   "body": "Jego sukces zależy od kolegów, a ich od niego.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "end",
+   "text": "Rodzic, który kibicuje wszystkim, *buduje drużynę*.",
+   "cta": "Zapisz przed najbliższym meczem.",
+   "icon": "heart"
+  }
+ ]
+}

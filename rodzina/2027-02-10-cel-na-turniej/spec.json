@@ -1,0 +1,36 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Jedziemy po medal.",
+   "new": "Jedziemy zagrać *trzy dobre mecze*.",
+   "text": "Cel, na który dziecko ma wpływ."
+  },
+  {
+   "kind": "point",
+   "title": "Medal *zależy od wielu rzeczy*",
+   "body": "Od rywali, losowania, sędziów. Dziecko nie ma na to wpływu.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "point",
+   "title": "Cel *w zasięgu ręki*",
+   "body": "Dokładne podania, odwaga w pojedynkach, powrót po błędzie.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "point",
+   "title": "Po turnieju *o tym celu*",
+   "body": "Rozmowa o tym, co się udało z planu, niezależnie od miejsca.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Cel, na który dziecko ma wpływ, *daje spokój i odwagę*.",
+   "cta": "Zapisz przed najbliższym turniejem.",
+   "icon": "heart"
+  }
+ ]
+}

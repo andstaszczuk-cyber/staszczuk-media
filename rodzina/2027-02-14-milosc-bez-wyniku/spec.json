@@ -1,0 +1,35 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "heart",
+   "text": "Kocham Cię tak samo\n*po wygranej i po przegranej*."
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *obserwuje Twoją twarz*",
+   "body": "Po meczu najpierw patrzy, czy jesteś zadowolony. To mówi mu więcej niż słowa.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Ta sama *kolacja*",
+   "body": "Po porażce bez ciszy i chłodu. Po wygranej bez specjalnych nagród.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Powiedz to *wprost*",
+   "body": "Lubię patrzeć, jak grasz. To zdanie działa niezależnie od wyniku.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Twoja miłość *nie zależy od tablicy wyników*.",
+   "cta": "Zapisz i powiedz to dziś dziecku.",
+   "icon": "heart"
+  }
+ ]
+}

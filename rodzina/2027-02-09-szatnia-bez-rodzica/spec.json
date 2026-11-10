@@ -1,0 +1,35 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "door",
+   "text": "Za drzwiami szatni\n*dziecko radzi sobie samo*."
+  },
+  {
+   "kind": "point",
+   "title": "Szatnia *to ich miejsce*",
+   "body": "Tam dziecko buduje relacje z drużyną, bez dorosłych za plecami.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Pożegnanie *przed drzwiami*",
+   "body": "Krótko i spokojnie. Bez ostatnich rad i poprawiania sznurówek.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Samodzielność *krok po kroku*",
+   "body": "Najpierw z pomocą przy torbie, potem dziecko pakuje i przebiera się samo.",
+   "icon": "bag"
+  },
+  {
+   "kind": "end",
+   "text": "Każde wyjście z szatni bez Ciebie to *mały krok w samodzielności*.",
+   "cta": "Zapisz i pokaż innym rodzicom z drużyny.",
+   "icon": "heart"
+  }
+ ]
+}

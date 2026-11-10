@@ -1,0 +1,40 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Piąta porażka z rzędu.\n*Co powiedzieć?*",
+   "items": [
+    "przegrywacie razem",
+    "co już działa",
+    "*jedna* rzecz do poprawy"
+   ],
+   "checked": 3
+  },
+  {
+   "kind": "point",
+   "title": "Bez *szukania winnych*",
+   "body": "Ani trener, ani bramkarz, ani sędzia. Drużyna przegrywa razem.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Szukajcie *tego, co działa*",
+   "body": "Nawet w przegranym meczu były dobre akcje. Warto je nazwać.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna rzecz *na kolejny mecz*",
+   "body": "Mały cel, który da się zrobić, a nie zapowiedź wielkiej zmiany.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Seria porażek *też kiedyś się kończy*.",
+   "cta": "Zapisz i wyślij rodzicom z drużyny.",
+   "icon": "heart"
+  }
+ ]
+}

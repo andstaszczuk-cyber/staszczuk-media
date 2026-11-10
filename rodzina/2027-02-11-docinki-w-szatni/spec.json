@@ -1,0 +1,38 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Kolega się ze mnie śmieje, że nie umiem strzelać.",
+    "Opowiedz mi, *co dokładnie mówi*."
+   ],
+   "text": "Najpierw *posłuchaj*."
+  },
+  {
+   "kind": "point",
+   "title": "Docinki *bolą*",
+   "body": "Nie zbywaj ich zdaniem nie przejmuj się. Dziecko potrzebuje, żeby ktoś to usłyszał.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Żart *a dokuczanie*",
+   "body": "Raz na jakiś czas to zwykła szatnia. Codziennie i od wielu osób to sprawa dla trenera.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Co dziecko *może powiedzieć*",
+   "body": "Ćwiczcie razem jedno spokojne zdanie, którym może odpowiedzieć.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko, które ktoś wysłuchał, *łatwiej znosi docinki*.",
+   "cta": "Zapisz i wróć, gdy dziecko o tym wspomni.",
+   "icon": "hug"
+  }
+ ]
+}
