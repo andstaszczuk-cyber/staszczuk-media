@@ -1,0 +1,97 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Przed startem *chcę jeszcze wszystko poprawić*",
+  "sub": "Ostatnie dni i nagle wszystko wydaje się do zmiany",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 520,
+     "y": 90,
+     "s": 140,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "pause",
+     "x": 710,
+     "y": 290,
+     "s": 140,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Ustal datę zamknięcia",
+   "body": "Kilka dni przed startem kończysz zmiany. Od tej chwili tylko powtarzasz to, co umiesz.",
+   "art": {
+    "type": "week",
+    "caption": "TYDZIEŃ STARTOWY",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "wt",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "śr",
+      "icon": "check",
+      "mark": "hl"
+     },
+     {
+      "d": "cz",
+      "icon": "play"
+     },
+     {
+      "d": "pt",
+      "icon": "bed"
+     },
+     {
+      "d": "sb",
+      "icon": "flag",
+      "mark": "ring"
+     },
+     {
+      "d": "nd",
+      "icon": "bed"
+     }
+    ],
+    "note": "od środy nic nie zmieniam"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Gram tym, co mam",
+   "body": "Teraz nie poprawiam, tylko wykorzystuję. Forma jest taka, jaka jest, i to wystarczy do roboty."
+  },
+  {
+   "title": "Wątpliwości zapisz na po zawodach",
+   "body": "Pomysł na zmianę trafia na kartkę. Wrócisz do niego w analizie po starcie."
+  }
+ ],
+ "end": {
+  "text": "Teraz nie poprawiam, *gram tym, co mam*.",
+  "cta": "Zapisz na tydzień przed startem"
+ }
+}

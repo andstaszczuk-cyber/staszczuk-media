@@ -1,0 +1,72 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Trening z kimś lepszym *mnie stresuje*",
+  "sub": "Boję się, że wyjdzie, jak bardzo odstaję",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 40,
+     "y": 60,
+     "s": 0.88
+    },
+    {
+     "k": "person",
+     "pose": "win",
+     "x": 470,
+     "y": 0,
+     "s": 1,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 380,
+     "y": 60,
+     "s": 110,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zmień cel treningu",
+   "body": "Nie idziesz wygrać, idziesz się nauczyć. Jedno zadanie, które sprawdzasz w tej parze.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "trophy",
+     "label": "muszę wygrać",
+     "cross": true
+    },
+    "right": {
+     "icon": "eye",
+     "label": "czego się uczę"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Patrz, co robi inaczej",
+   "body": "Ustawienie, tempo, reakcja na błąd. Lepszy partner to darmowa lekcja."
+  },
+  {
+   "title": "Doceń, że cię testuje",
+   "body": "Przy lepszym szybciej widać, nad czym pracować. To informacja, a nie wyrok."
+  }
+ ],
+ "end": {
+  "text": "Lepszy partner *to darmowa lekcja*.",
+  "cta": "Zapisz przed sparingiem"
+ }
+}

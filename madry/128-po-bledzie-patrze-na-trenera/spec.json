@@ -1,0 +1,93 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po każdym błędzie *patrzę na trenera*",
+  "sub": "Zanim wrócę do gry, sprawdzam jego minę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 60,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "eyes",
+     "pts": [
+      [
+       380,
+       120
+      ]
+     ]
+    },
+    {
+     "k": "line",
+     "x1": 420,
+     "y1": 120,
+     "x2": 560,
+     "y2": 120,
+     "w": 8,
+     "dash": "4 22",
+     "c": "A"
+    },
+    {
+     "k": "person",
+     "pose": "coach",
+     "x": 520,
+     "y": 40,
+     "s": 0.85,
+     "flip": true,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zauważ ten odruch",
+   "body": "Ile razy w meczu odwracasz głowę w stronę ławki. Samo zauważenie już dużo zmienia."
+  },
+  {
+   "title": "Ustal gest resetu",
+   "body": "Błąd, krótki gest, na przykład klaśnięcie, i wzrok od razu na następną akcję.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "cloudRain",
+      "top": "błąd",
+      "bottom": "zdarza się"
+     },
+     {
+      "icon": "hand",
+      "top": "gest",
+      "bottom": "klaśnięcie",
+      "hl": true
+     },
+     {
+      "icon": "ball",
+      "top": "akcja",
+      "bottom": "następna"
+     }
+    ]
+   },
+   "artTop": 860,
+   "artH": 380
+  },
+  {
+   "title": "Uwagi zbieraj w przerwie",
+   "body": "Z trenerem rozmawiasz w przerwie i po meczu. W trakcie akcji uwaga jest na boisku."
+  }
+ ],
+ "end": {
+  "text": "Po błędzie *patrzysz na następną akcję*.",
+  "cta": "Zapisz przed meczem"
+ }
+}

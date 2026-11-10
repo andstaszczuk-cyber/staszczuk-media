@@ -1,0 +1,66 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Kiedy rywal mnie prowokuje, *wchodzę w jego grę*",
+  "sub": "Jedna zaczepka i zapominam o planie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 40,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "person",
+     "pose": "coach",
+     "x": 500,
+     "y": 0,
+     "s": 1,
+     "flip": true,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 370,
+     "y": 60,
+     "s": 130,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Nazwij, co robi rywal",
+   "body": "Zaczepka to zaproszenie do jego gry. Jak to widzisz, łatwiej grzecznie odmówić.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "zaczepka",
+    "to": "mój plan"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Miej gotową reakcję",
+   "body": "Jeśli zaczepi, to robię wydech i patrzę na swoje zadanie. Ustalone wcześniej, a nie w nerwach."
+  },
+  {
+   "title": "Odpowiedz grą",
+   "body": "Najlepsza odpowiedź to dobra akcja. Zaczepiającego najbardziej irytuje spokój."
+  }
+ ],
+ "end": {
+  "text": "Odpowiadasz *swoją grą*.",
+  "cta": "Zapisz przed meczem z trudnym rywalem"
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Po dobrym meczu *w następnym gram gorzej*",
+  "sub": "Oczekiwania rosną szybciej niż forma",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 520,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "backpack",
+     "x": 650,
+     "y": 230,
+     "w": 180,
+     "h": 220
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zostaw tamten mecz za sobą",
+   "body": "Ciesz się nim, zapisz, co zadziałało, i zamknij temat. Każdy mecz zaczyna się od zera."
+  },
+  {
+   "title": "Wróć do zadań, a nie do wyniku",
+   "body": "Przed meczem przypominasz sobie, co robiłeś dobrze. To są twoje zadania na dziś.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "OCZEKIWANIA",
+     "items": [
+      "znowu gol",
+      "znowu wyróżnienie"
+     ]
+    },
+    "right": {
+     "title": "ZADANIA",
+     "items": [
+      "szybkie decyzje",
+      "praca w obronie",
+      "odwaga w ataku"
+     ]
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Medal to nie zobowiązanie",
+   "body": "Dobry mecz to efekt twojej pracy. Nie musisz go od razu przebijać."
+  }
+ ],
+ "end": {
+  "text": "Dobry mecz to efekt pracy, *a nie dług*.",
+  "cta": "Zapisz po dobrym meczu"
+ }
+}

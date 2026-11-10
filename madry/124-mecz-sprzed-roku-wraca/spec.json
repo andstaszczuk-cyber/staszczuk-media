@@ -1,0 +1,80 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Ciągle wraca do mnie *mecz sprzed roku*",
+  "sub": "Stara porażka ciągnie się za mną jak kotwica",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "path",
+     "d": "M300 300 Q 420 420 560 430",
+     "c": "fig2",
+     "w": 8,
+     "dash": "4 22"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 560,
+     "y": 330,
+     "s": 130,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 720,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wyciągnij z niego wnioski",
+   "body": "Raz, na spokojnie, na kartce: co wtedy się stało i co dziś robisz inaczej. Potem zamykasz temat.",
+   "art": {
+    "type": "notes",
+    "title": "TAMTEN MECZ",
+    "lines": [
+     "co się stało",
+     "czego się nauczyłem",
+     "co robię inaczej"
+    ],
+    "crossed": [
+     "jestem słaby"
+    ],
+    "side": "wnioski"
+   },
+   "artTop": 840,
+   "artH": 420
+  },
+  {
+   "title": "Zbierz nowsze dowody",
+   "body": "Wypisz mecze, które od tamtej pory poszły dobrze. Masz ich więcej, niż pamiętasz."
+  },
+  {
+   "title": "Kiedy wraca, wróć do teraz",
+   "body": "Zauważasz tę myśl i pytasz siebie, co mam dziś do zrobienia. Tamten mecz już się rozegrał."
+  }
+ ],
+ "end": {
+  "text": "Tamten mecz już się rozegrał. *Dziś grasz nowy*.",
+  "cta": "Zapisz na trudne wspomnienie"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Do zawodów trzy tygodnie *i wydaje mi się, że to za mało*",
+  "sub": "W głowie lista wszystkiego, czego jeszcze nie umiem",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 520,
+     "y": 80,
+     "s": 160,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 720,
+     "y": 300,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Przygotowujesz się dłużej, niż myślisz",
+   "body": "Do tego startu idziesz z całą pracą z ostatnich miesięcy i lat. Trzy tygodnie to tylko końcówka.",
+   "art": {
+    "type": "bricks",
+    "topIcon": "flag",
+    "label": "trening",
+    "caption": "każda cegła to wcześniejsza praca"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Wybierz dwie, trzy rzeczy",
+   "body": "Z trenerem ustalasz, co dopracować teraz. Resztę zabierasz taką, jaka jest."
+  },
+  {
+   "title": "Zapisz, co już umiesz",
+   "body": "Lista mocnych stron na zawody. Głowa sama podsunie braki, dowody trzeba spisać."
+  }
+ ],
+ "end": {
+  "text": "Do startu przygotowujesz się *całą karierę*.",
+  "cta": "Zapisz trzy tygodnie przed startem"
+ }
+}

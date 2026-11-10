@@ -1,0 +1,119 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Co tydzień zmieniam plan, *bo czytam nowe porady*",
+  "sub": "Każdy filmik mówi co innego",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 520,
+     "y": 90,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 700,
+     "y": 280,
+     "s": 130,
+     "c": "fig2"
+    },
+    {
+     "k": "cross",
+     "x": 820,
+     "y": 270,
+     "r": 34
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Jeden plan na kilka tygodni",
+   "body": "Ustal go z trenerem i trzymaj się go. Ciało potrzebuje czasu, żeby zareagować na trening.",
+   "art": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.3
+       ],
+       [
+        0.2,
+        0.32
+       ],
+       [
+        0.4,
+        0.42
+       ],
+       [
+        0.6,
+        0.55
+       ],
+       [
+        0.8,
+        0.66
+       ],
+       [
+        1,
+        0.78
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.05,
+      "y": 0.3,
+      "label": "start",
+      "dx": 60,
+      "dy": -30
+     },
+     {
+      "x": 0.95,
+      "y": 0.78,
+      "label": "efekt",
+      "hl": true,
+      "dx": -40,
+      "dy": -40
+     }
+    ],
+    "x": "tygodnie",
+    "y": "forma"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Nowości zapisuj na później",
+   "body": "Ciekawy pomysł trafia na listę. Wracasz do niej przy następnym planie, razem z trenerem."
+  },
+  {
+   "title": "Oceniaj po czasie",
+   "body": "Po czterech, sześciu tygodniach sprawdzasz, co działa. Po jednym treningu tego nie zobaczysz."
+  }
+ ],
+ "end": {
+  "text": "Plan działa, *kiedy dajesz mu czas*.",
+  "cta": "Zapisz przed nowym planem"
+ }
+}

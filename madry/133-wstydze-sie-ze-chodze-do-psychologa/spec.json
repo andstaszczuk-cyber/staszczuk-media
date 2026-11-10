@@ -1,0 +1,71 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wstydzę się, *że chodzę do psychologa*",
+  "sub": "Boję się, co powiedzą w drużynie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 520,
+     "y": 80,
+     "s": 160,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 710,
+     "y": 300,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Głowę też się trenuje",
+   "body": "Z bolącym kolanem idziesz do fizjoterapeuty. Z głową do psychologa. To ta sama logika.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "foot",
+     "label": "ciało: fizjoterapeuta"
+    },
+    "right": {
+     "icon": "brain",
+     "label": "głowa: psycholog"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Sam decydujesz, komu mówisz",
+   "body": "Nie musisz się z tego tłumaczyć. Mówisz tyle, ile chcesz, i tym, którym ufasz."
+  },
+  {
+   "title": "Zobacz, kto korzysta",
+   "body": "Coraz więcej zawodników na każdym poziomie pracuje z psychologiem. To część przygotowania."
+  }
+ ],
+ "end": {
+  "text": "Dbanie o głowę *to część profesjonalizmu*.",
+  "cta": "Zapisz i podeślij komuś, komu się przyda"
+ }
+}

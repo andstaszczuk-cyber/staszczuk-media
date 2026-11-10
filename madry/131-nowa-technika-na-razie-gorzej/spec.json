@@ -1,0 +1,112 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Trener zmienił mi technikę *i teraz jest gorzej*",
+  "sub": "Stary ruch był pewny, nowy jest obcy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "hand",
+     "x": 520,
+     "y": 90,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "ruler",
+     "x": 710,
+     "y": 300,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Spodziewaj się spadku",
+   "body": "Przy zmianie techniki na początku jest gorzej. To normalna część nauki, a nie znak, że to zły pomysł.",
+   "art": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.6
+       ],
+       [
+        0.2,
+        0.62
+       ],
+       [
+        0.35,
+        0.38
+       ],
+       [
+        0.55,
+        0.45
+       ],
+       [
+        0.75,
+        0.66
+       ],
+       [
+        1,
+        0.82
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.35,
+      "y": 0.38,
+      "label": "nowa technika",
+      "dy": 50
+     },
+     {
+      "x": 0.95,
+      "y": 0.82,
+      "label": "lepiej",
+      "hl": true,
+      "dx": -40,
+      "dy": -40
+     }
+    ],
+    "x": "tygodnie",
+    "y": "wynik"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Ćwicz wolno i często",
+   "body": "Nowy ruch najpierw w zwolnionym tempie, wiele powtórzeń. Szybkość przyjdzie sama."
+  },
+  {
+   "title": "Pod presją może wracać stary nawyk",
+   "body": "Na zawodach dawny ruch może wyskoczyć. Spokojnie, to drgania, a nie cofnięcie."
+  }
+ ],
+ "end": {
+  "text": "Nowy ruch *najpierw jest obcy*, potem jest twój.",
+  "cta": "Zapisz na naukę nowej techniki"
+ }
+}

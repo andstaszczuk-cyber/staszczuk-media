@@ -1,0 +1,65 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Porównuję się *ze sobą z najlepszego sezonu*",
+  "sub": "Wtedy wszystko szło samo, a teraz nie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 60,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "person",
+     "pose": "win",
+     "x": 470,
+     "y": 40,
+     "s": 0.8,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 760,
+     "y": 60,
+     "s": 120,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Tamten sezon był wyjątkiem",
+   "body": "Najlepsze okresy zdarzają się rzadko. Oczekiwanie, że wrócą na zawołanie, tylko przygniata."
+  },
+  {
+   "title": "Buduj nową formę",
+   "body": "Nie wracasz do tamtej wersji siebie. Jesteś starszy, masz inne ciało i inne doświadczenie.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "muszę wrócić do tamtej formy",
+    "to": "buduję nową formę"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Porównuj tydzień do tygodnia",
+   "body": "Patrz, co poprawiło się od miesiąca. Tam widać, czy idziesz do przodu."
+  }
+ ],
+ "end": {
+  "text": "Nie gonisz tamtej formy. *Budujesz nową*.",
+  "cta": "Zapisz na gorszy okres"
+ }
+}

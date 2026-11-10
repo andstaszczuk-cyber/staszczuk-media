@@ -1,0 +1,71 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Kibice rywala gwiżdżą *i to mnie rozwala*",
+  "sub": "Cała hala przeciwko mnie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 110,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 520,
+     "y": 60,
+     "s": 160,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 720,
+     "y": 290,
+     "s": 130,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Spodziewaj się hałasu",
+   "body": "Na wyjeździe gwizdy są w planie. Jak wiesz, że przyjdą, mniej cię zaskakują."
+  },
+  {
+   "title": "Zawęź uwagę",
+   "body": "Ty, sprzęt i najbliższa akcja. Reszta hali to szare tło, które może sobie grać.",
+   "art": {
+    "type": "focus",
+    "center": "moja akcja",
+    "icon": "ball",
+    "around": [
+     "gwizdy",
+     "trybuny",
+     "wynik",
+     "komentarze"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Oswajaj hałas na treningu",
+   "body": "Głośna muzyka, krzyki kolegów, nagrania kibiców. Układ nerwowy przyzwyczaja się do tego, co zna."
+  }
+ ],
+ "end": {
+  "text": "Gwizdy pokazują, *że się ciebie boją*.",
+  "cta": "Zapisz przed meczem na wyjeździe"
+ }
+}

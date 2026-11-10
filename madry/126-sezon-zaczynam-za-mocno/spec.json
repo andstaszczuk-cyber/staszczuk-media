@@ -1,0 +1,81 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Co roku zaczynam mocno, *a wiosną brakuje mi sił*",
+  "sub": "Zimą cisnę na sto procent, w kwietniu jestem pusty",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 40,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "snow",
+     "x": 520,
+     "y": 90,
+     "s": 130,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 700,
+     "y": 290,
+     "s": 150,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Rozpisz sezon z trenerem",
+   "body": "Kiedy budujesz, kiedy szlifujesz, kiedy masz być w formie. Każdy okres ma inne zadanie.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "snow",
+      "top": "zima",
+      "bottom": "budowanie"
+     },
+     {
+      "icon": "sun",
+      "top": "wiosna",
+      "bottom": "szlifowanie"
+     },
+     {
+      "icon": "trophy",
+      "top": "starty",
+      "bottom": "forma",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 860,
+   "artH": 380
+  },
+  {
+   "title": "Zostaw zapas",
+   "body": "Zimą nie musisz być w formie startowej. Kończysz trening z poczuciem, że dałbyś radę jeszcze trochę."
+  },
+  {
+   "title": "Sprawdzaj sygnały zmęczenia",
+   "body": "Gorszy sen, ciężkie nogi, brak chęci. To znak, żeby odpuścić, zanim przyjdzie przeciążenie."
+  }
+ ],
+ "end": {
+  "text": "Sezon to *wędrówka, a nie sprint*.",
+  "cta": "Zapisz na okres przygotowawczy"
+ }
+}

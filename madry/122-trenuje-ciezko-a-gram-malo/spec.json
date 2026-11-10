@@ -1,0 +1,78 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Trenuję ciężko, *a w meczu gram mało*",
+  "sub": "Ławka potrafi boleć bardziej niż przegrana",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 90,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "bench",
+     "x": 470,
+     "y": 300,
+     "s": 190,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 700,
+     "y": 80,
+     "s": 140,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zapytaj trenera, czego brakuje",
+   "body": "Konkretnie: co mam robić inaczej, żeby grać więcej. Z odpowiedzi robisz plan na kolejne tygodnie."
+  },
+  {
+   "title": "Ławka rezerwowych to ławka gotowych",
+   "body": "Na ławce oglądasz grę, szukasz miejsca dla siebie i trzymasz ciało w gotowości do wejścia.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "eye",
+      "label": "oglądam grę"
+     },
+     {
+      "icon": "bolt",
+      "label": "jestem rozgrzany"
+     },
+     {
+      "icon": "play",
+      "label": "wchodzę gotowy",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Liczy się, co robisz w swoich minutach",
+   "body": "Pięć minut zagranych na sto procent mówi trenerowi więcej niż żal po meczu."
+  }
+ ],
+ "end": {
+  "text": "Ławka rezerwowych *to ławka gotowych*.",
+  "cta": "Zapisz przed meczem"
+ }
+}
