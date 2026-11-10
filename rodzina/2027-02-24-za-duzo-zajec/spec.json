@@ -1,0 +1,35 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "calendar",
+   "text": "Trening, basen, angielski, pianino.\n*A kiedy odpoczynek?*"
+  },
+  {
+   "kind": "point",
+   "title": "Pełny kalendarz *męczy*",
+   "body": "Dziecko przechodzi z zajęć na zajęcia i nie ma kiedy odsapnąć.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Sygnały *zmęczenia*",
+   "body": "Rozdrażnienie, niechęć, gorszy sen, płacz o drobiazgi.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Wybierzcie *razem*",
+   "body": "Zapytaj dziecko, co lubi najbardziej, a z czego mogłoby zrezygnować.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Mniej zajęć często znaczy *więcej radości z każdych*.",
+   "cta": "Zapisz i przejrzyjcie razem tydzień dziecka.",
+   "icon": "heart"
+  }
+ ]
+}

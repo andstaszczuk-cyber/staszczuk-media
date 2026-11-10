@@ -1,0 +1,40 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Etykiety, które\n*przyklejamy dzieciom*:",
+   "items": [
+    "leniwy",
+    "nerwus",
+    "bramkarz z przypadku",
+    "*ten słabszy*"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Etykieta *zostaje*",
+   "body": "Dziecko zaczyna się zachowywać tak, jak o nim mówią.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Opisz *zachowanie*",
+   "body": "Dziś wolniej wracałeś do obrony mówi więcej niż jesteś leniwy.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Szukaj *wyjątków*",
+   "body": "Kiedy dziecko zrobiło coś inaczej, niż mówi etykieta? Nazwij to głośno.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko jest *czymś więcej niż jedno słowo*.",
+   "cta": "Zapisz i wyślij innemu rodzicowi.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Uważaj, bo się nie uda.",
+   "new": "Spróbuj, *najwyżej się nie uda*.",
+   "text": "Odwaga rośnie z prób."
+  },
+  {
+   "kind": "point",
+   "title": "Ostrożne rady *usztywniają*",
+   "body": "Dziecko, które słyszy uważaj, gra tak, żeby tylko nie popełnić błędu.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Błąd *z próby*",
+   "body": "Nieudany drybling to dowód odwagi. Brak próby nie uczy niczego.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Doceń *samo spróbowanie*",
+   "body": "Fajnie, że poszedłeś na tego zawodnika. To mówi więcej niż wynik akcji.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko, które może się mylić, *odważniej próbuje nowych rzeczy*.",
+   "cta": "Zapisz przed najbliższym meczem.",
+   "icon": "heart"
+  }
+ ]
+}

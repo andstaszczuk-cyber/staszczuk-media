@@ -1,0 +1,34 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Dziecko *słyszy*,\njak mówisz o nim\n*innym*."
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowy *przy dziecku*",
+   "body": "Przez telefon, z innymi rodzicami, z babcią. Dziecko słucha uważniej, niż myślisz.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Narzekanie *zostaje*",
+   "body": "On ostatnio gra słabo, powiedziane przy nim, staje się jego zdaniem o sobie.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Mów o *wysiłku*",
+   "body": "Ostatnio dużo pracuje na treningach. Takie zdanie dziecko też zapamięta.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "To, co dziecko usłyszy przypadkiem, *waży czasem najwięcej*.",
+   "cta": "Zapisz i wyślij innemu rodzicowi.",
+   "icon": "heart"
+  }
+ ]
+}

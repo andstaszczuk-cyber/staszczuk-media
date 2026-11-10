@@ -1,0 +1,38 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Nie umiem tego zrobić.",
+    "Jeszcze *nie umiesz*."
+   ],
+   "text": "Jedno słowo *zmienia sporo*."
+  },
+  {
+   "kind": "point",
+   "title": "Nie umiem *zamyka*",
+   "body": "Brzmi jak wyrok. Dziecko przestaje próbować, bo po co.",
+   "icon": "door"
+  },
+  {
+   "kind": "point",
+   "title": "Jeszcze *otwiera*",
+   "body": "Pokazuje, że umiejętność jest w drodze i przyjdzie z ćwiczeniem.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Przypomnij *stare sukcesy*",
+   "body": "Kiedyś nie umiało jeździć na rowerze ani pływać. A dziś umie.",
+   "icon": "growth"
+  },
+  {
+   "kind": "end",
+   "text": "Nie umiem to często tylko *jeszcze nie umiem*.",
+   "cta": "Zapisz i powtórz dziecku przy najbliższej okazji.",
+   "icon": "heart"
+  }
+ ]
+}

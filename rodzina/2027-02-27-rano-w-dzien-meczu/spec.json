@@ -1,0 +1,40 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Rano w dzień meczu\n*mniej znaczy więcej*:",
+   "items": [
+    "spokojne śniadanie",
+    "bez wielkich przemów",
+    "zwykły poranek"
+   ],
+   "checked": 3
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *już wie*",
+   "body": "Że dziś jest mecz. Nie trzeba mu tego przypominać co pięć minut.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Torba *dzień wcześniej*",
+   "body": "Spakowana wieczorem, bez nerwowego szukania getrów rano.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa *o czymkolwiek*",
+   "body": "Śniadanie może być o filmie, psie albo szkole, a nie o taktyce.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Spokojny poranek *daje dobry początek dnia meczowego*.",
+   "cta": "Zapisz przed najbliższym meczowym porankiem.",
+   "icon": "heart"
+  }
+ ]
+}
