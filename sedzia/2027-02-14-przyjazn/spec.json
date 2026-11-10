@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Z sędziowaniem\\nlepiej się *przyjaźnić*."
+  },
+  {
+   "kind": "point",
+   "title": "Zakochany nie widzi zmęczenia",
+   "body": "Bierze każdą obsadę i nie słyszy sygnałów z ciała.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Przyjaciel mówi wprost",
+   "body": "Czasem powie: dziś odpuść. To też jest dbanie o sędziowanie.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Relacja na lata",
+   "body": "Lubisz to, co robisz, i masz życie obok. Wtedy starcza na dłużej.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Przyjaźń wytrzymuje\\n*gorsze sezony*.",
+   "cta": "Zapisz i wróć, kiedy sędziowanie zacznie cię męczyć"
+  }
+ ]
+}

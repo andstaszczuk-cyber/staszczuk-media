@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Gorszy dzień\\n*przed meczem*?",
+   "sub": "Ustal, co jest dziś twoim *sto procent*."
+  },
+  {
+   "kind": "point",
+   "title": "Forma dnia bywa różna",
+   "body": "Sen, praca, zmęczenie. Nie każdy dzień daje te same zasoby.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Robisz z tego, co masz",
+   "body": "Ustalasz, co dziś jest realne, i robisz to najlepiej, jak się da.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Bez dyskusji ze sobą",
+   "body": "Nie czekasz na lepszy nastrój. Wchodzisz i robisz swoją robotę.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Sto procent tego,\\n*co masz dziś*.",
+   "cta": "Zapisz i wróć w gorszy dzień"
+  }
+ ]
+}

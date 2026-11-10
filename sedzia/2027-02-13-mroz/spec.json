@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "text": "Mróz i sztuczna trawa.\\n*Ciało rusza wolniej*.",
+   "scene": "snow"
+  },
+  {
+   "kind": "point",
+   "title": "Zimne ciało, wolniejszy start",
+   "body": "W chłodzie mięśnie potrzebują więcej czasu, żeby się rozruszać.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Dłuższa rozgrzewka",
+   "body": "Jak samochód w mroźny poranek: najpierw grzejesz, potem ruszasz.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Ruch w przerwach",
+   "body": "Przy dłuższej przerwie w grze lekko truchtasz zamiast stać w miejscu.",
+   "icon": "platek"
+  },
+  {
+   "kind": "end",
+   "text": "Najpierw ciało,\\n*potem decyzje*.",
+   "cta": "Zapisz i wróć przed zimowym sparingiem"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "2",
+   "text": "rodzaje krytyki.\\n*Jedną* bierzesz, drugą odkładasz."
+  },
+  {
+   "kind": "point",
+   "title": "Merytoryczna",
+   "body": "Konkret od kogoś, kto zna niuanse. Może boleć, ale daje coś do poprawy.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Niemerytoryczna",
+   "body": "Ogólnik, złość, zaczepka. Odkładasz ją bez ładowania w to emocji.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw ochłoń",
+   "body": "Dajesz sobie chwilę, a dopiero potem spokojnie rozkładasz uwagi na części.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "Bierzesz to, co *pomaga*.\\nResztę zostawiasz.",
+   "cta": "Zapisz i wróć po kolejnej uwadze o twoim meczu"
+  }
+ ]
+}

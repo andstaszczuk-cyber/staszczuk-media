@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "oddech",
+   "text": "Oddech masz\\n*zawsze przy sobie*."
+  },
+  {
+   "kind": "point",
+   "title": "Dłuższy wydech",
+   "body": "Spokojny wdech nosem, dłuższy wydech ustami. Dwa, trzy razy wystarczy.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "point",
+   "title": "W krótkich przerwach",
+   "body": "Aut, zmiana, zawodnik na murawie, chwila po trudnej decyzji.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Ćwiczony na spokojnie",
+   "body": "Kilka minut dziennie w domu. W meczu przychodzi wtedy prawie sam.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Najprostsze narzędzie\\njest *najbliżej*.",
+   "cta": "Zapisz i przećwicz dziś wieczorem"
+  }
+ ]
+}

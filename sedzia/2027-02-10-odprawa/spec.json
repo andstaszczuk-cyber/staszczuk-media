@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "text": "Odprawa przed meczem.\\n*Kilka minut*, które dużo dają.",
+   "scene": "crew"
+  },
+  {
+   "kind": "point",
+   "title": "Kto na co patrzy",
+   "body": "Podział uwagi: strefy, ławki, sytuacje za plecami sędziego głównego.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Znaki i komunikaty",
+   "body": "Proste gesty, które wszyscy rozumiecie tak samo, także w hałasie.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Plan na trudny moment",
+   "body": "Kto podchodzi przy zbiegowisku, kto zostaje na pozycji, kto patrzy na ławki.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Zespół zaczyna mecz\\n*w szatni*.",
+   "cta": "Zapisz i pokaż kolegom z obsady"
+  }
+ ]
+}
