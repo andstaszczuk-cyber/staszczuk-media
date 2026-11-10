@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "split",
+   "label": "PRZED RUNDĄ",
+   "text": "A co, jeśli\\n*nie dam rady*?",
+   "sub": "Zamień to pytanie na: co zrobię, żeby się przygotować?",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Głowa pisze katastrofy",
+   "body": "Brak informacji mózg wypełnia czarnymi scenariuszami. Woli fałszywy alarm niż przeoczenie."
+  },
+  {
+   "kind": "point",
+   "title": "Obawa plus zadanie",
+   "body": "Do każdej obawy dopisujesz jedno działanie. Czarny scenariusz zamienia się w listę profilaktyki."
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdź trafność",
+   "body": "Przypomnij sobie, ile obaw sprzed rundy jesiennej naprawdę się spełniło."
+  },
+  {
+   "kind": "end",
+   "text": "Obawy zamieniasz\\n*w zadania*.",
+   "cta": "Zapisz i wróć, gdy wrócą obawy"
+  }
+ ]
+}

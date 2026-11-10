@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "tunnel",
+   "text": "Wiosna zaczyna\\nsię *w styczniu*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Planuj od tyłu",
+   "body": "Zaczynasz od daty pierwszego meczu i cofasz się do dziś. Widzisz, ile masz czasu.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojny początek",
+   "body": "Najpierw baza, potem tempo. Zbyt mocny start po przerwie często kończy się przeciążeniem.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Przegląd po drodze",
+   "body": "Co kilka tygodni sprawdzasz, co działa, co poprawić i co odpuścić.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Plan to szkielet.\\n*Dopasujesz go* po drodze.",
+   "cta": "Zapisz i wróć na początku stycznia"
+  }
+ ]
+}

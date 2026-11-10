@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "scene": "walk",
+   "text": "Zamknij rok.\\n*Stawiamy kropkę*.",
+   "theme": "photo"
+  },
+  {
+   "kind": "point",
+   "title": "Co zabierasz",
+   "body": "Kilka rzeczy z tego roku, z których jesteś zadowolony. Zapisane nie znikną.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Z czym się żegnasz",
+   "body": "Mecz, który ciągle wraca. Wnioski już masz, możesz go zostawić.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwszy krok",
+   "body": "Jedna mała, konkretna rzecz, od której zaczniesz styczeń.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Nowa runda,\\n*nowa szansa*.",
+   "cta": "Wyślij komuś z zespołu na koniec roku"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "icon",
+   "icon": "oko",
+   "text": "Koncentrację\\n*trenujesz* też zimą.",
+   "theme": "yellow"
+  },
+  {
+   "kind": "point",
+   "title": "Uwaga jak mięsień",
+   "body": "Nieużywana słabnie. W przerwie łatwo ją rozleniwić ciągłym przewijaniem telefonu."
+  },
+  {
+   "kind": "point",
+   "title": "Ćwiczenia bez ekranu",
+   "body": "Puzzle, kilka stron książki ze zrozumieniem, spacer bez słuchawek. Proste i skuteczne."
+  },
+  {
+   "kind": "point",
+   "title": "Sztuka wracania",
+   "body": "Zauważasz rozproszenie bez złości i wracasz. Na boisku robisz potem dokładnie to samo."
+  },
+  {
+   "kind": "end",
+   "text": "Koncentracja\\nto *sztuka wracania*.",
+   "cta": "Zapisz i spróbuj jutro"
+  }
+ ]
+}

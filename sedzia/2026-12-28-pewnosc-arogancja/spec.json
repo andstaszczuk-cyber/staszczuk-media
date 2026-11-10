@@ -1,0 +1,39 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "style": "versus",
+   "a": "PEWNOŚĆ",
+   "aSub": "znam swoją robotę",
+   "b": "AROGANCJA",
+   "bSub": "muszę wszystkim pokazać",
+   "theme": "red"
+  },
+  {
+   "kind": "point",
+   "title": "Pewny może się mylić",
+   "body": "Kto czuje się pewnie, spokojnie przyjmuje uwagę i przyznaje się do pomyłki.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Arogancja się broni",
+   "body": "Za wyniosłym tonem często stoi niepewność. Zagrożony człowiek zaczyna udowadniać.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Siła i pokora",
+   "body": "Znasz swoją wartość i swoje ograniczenia. Jedno i drugie naraz.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Z pewnością siebie\\n*nie musisz* niczego udowadniać.",
+   "cta": "Wyślij koledze z zespołu"
+  }
+ ]
+}
