@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "text": "Cały dzień w pracy,\\n*wieczorem mecz*.",
+   "scene": "tired"
+  },
+  {
+   "kind": "point",
+   "title": "Zmęczona głowa",
+   "body": "Po dniu pracy łatwiej o irytację i wolniejsze przełączanie uwagi. To normalne.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Przełącz rolę",
+   "body": "Krótki rytuał między pracą a meczem: przebranie, spacer, kilka oddechów.",
+   "icon": "szafa"
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw doładuj",
+   "body": "Coś do jedzenia, woda, kilka minut ciszy. Dopiero potem rozgrzewka.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "end",
+   "text": "Pracę zostawiasz\\n*w samochodzie*.",
+   "cta": "Zapisz i wróć przed meczem po pracy"
+  }
+ ]
+}

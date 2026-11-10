@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "WPŁYW",
+   "text": "Na co *naprawdę*\\nmasz wpływ w dniu meczu?"
+  },
+  {
+   "kind": "point",
+   "title": "Bez wpływu",
+   "body": "Pogoda, boisko, składy, nastroje na trybunach. Przyjmujesz je jako warunki.",
+   "icon": "platek"
+  },
+  {
+   "kind": "point",
+   "title": "Wpływ pośredni",
+   "body": "Atmosfera, zachowanie ławek. Twoje zachowanie coś zmienia, ale nie sterujesz tym.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Wpływ bezpośredni",
+   "body": "Przygotowanie, ustawienie, ton głosu, reakcja na protesty. Tu wkładasz energię.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Energię wkładasz tam,\\n*gdzie coś zmienia*.",
+   "cta": "Zapisz i rozpisz tak swój następny mecz"
+  }
+ ]
+}

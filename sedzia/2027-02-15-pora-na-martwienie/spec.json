@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Martwić się możesz.\\n*O ustalonej porze*."
+  },
+  {
+   "kind": "point",
+   "title": "Martwienie udaje działanie",
+   "body": "Kręcisz się w kółko i wydaje ci się, że się przygotowujesz. A to tylko zabiera energię.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Wyznacz porę",
+   "body": "Kwadrans w ciągu dnia na obawy. Wcześniej tylko je zapisujesz i odkładasz.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Obawa zamieniona w zadanie",
+   "body": "Merytoryczną zamieniasz w krok do zrobienia. Resztę zostawiasz.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Obawy poczekają.\\n*Ty robisz swoje*.",
+   "cta": "Zapisz i wróć, gdy głowa zacznie pisać katastrofy"
+  }
+ ]
+}

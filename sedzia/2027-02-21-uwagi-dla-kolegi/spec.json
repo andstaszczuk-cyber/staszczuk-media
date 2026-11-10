@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Jak powiedzieć koledze,\\nże coś *nie zagrało*?",
+   "sub": "Najpierw *co działało*. Potem jedna, dwie rzeczy."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw konkret na plus",
+   "body": "Kilka rzeczy, które naprawdę zadziałały. Bez zmyślania na rozgrzewkę.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "point",
+   "title": "Potem jedna, dwie uwagi",
+   "body": "Co inaczej, czego więcej, czego mniej. Bez listy wszystkich grzechów.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Sytuacja i pytanie",
+   "body": "Mówisz o konkretnym momencie meczu i pytasz, jak on to widział.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Mówisz tak,\\njak *chciałbyś usłyszeć*.",
+   "cta": "Zapisz i wróć po meczu z obsadą"
+  }
+ ]
+}

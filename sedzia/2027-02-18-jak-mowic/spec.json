@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "dymek",
+   "text": "Mów do zawodnika\\ntak, żeby *usłyszał*."
+  },
+  {
+   "kind": "point",
+   "title": "Krótko",
+   "body": "W emocjach człowiek słyszy niewiele. Jedno, dwa zdania wystarczą.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Co ma zrobić",
+   "body": "Prosisz o konkretne zachowanie: odejdź, wracamy do gry, kapitan do mnie.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojny ton",
+   "body": "Ciszej i wolniej niż zawodnik. Twój głos ustawia temperaturę rozmowy.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "end",
+   "text": "Mniej słów,\\n*więcej spokoju*.",
+   "cta": "Zapisz i przećwicz swoje zdania przed rundą"
+  }
+ ]
+}

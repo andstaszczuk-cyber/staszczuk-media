@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "text": "Ta sama rutyna.\\n*Spokojniejsza głowa*.",
+   "scene": "locker"
+  },
+  {
+   "kind": "point",
+   "title": "Planujesz od tyłu",
+   "body": "Od pierwszego gwizdka cofasz się: rozgrzewka, przebranie, odprawa, przyjazd.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Stałe kroki",
+   "body": "Te same czynności w tej samej kolejności dają głowie poczucie bezpieczeństwa.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Bez szantażu",
+   "body": "Gdy coś wypadnie, skracasz rutynę do najważniejszego i dalej sędziujesz dobrze.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "Rutyna prowadzi\\n*prosto do zadania*.",
+   "cta": "Zapisz i spisz swoją rutynę przed rundą"
+  }
+ ]
+}

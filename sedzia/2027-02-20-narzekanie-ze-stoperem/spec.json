@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "10",
+   "text": "minut na narzekanie.\\nPotem *wniosek*."
+  },
+  {
+   "kind": "point",
+   "title": "Emocje mają swój czas",
+   "body": "Po słabym meczu masz prawo być zły i rozczarowany. Nie musisz udawać.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Stoper w telefonie",
+   "body": "Dziesięć minut na wyrzucenie z siebie wszystkiego. Do sygnału.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Potem jeden wniosek",
+   "body": "Co zabieram na następny mecz? Zapisujesz i na dziś zamykasz temat.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Ponarzekasz,\\na potem *idziesz dalej*.",
+   "cta": "Zapisz i wróć po słabszym meczu"
+  }
+ ]
+}
