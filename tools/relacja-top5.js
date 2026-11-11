@@ -14,6 +14,6 @@ const html=`<!doctype html><html><head><meta charset=utf-8><style>${css}body{mar
 <div style="align-self:flex-start;background:#FCE86A;color:#2a0d0e;font-weight:800;font-size:30px;letter-spacing:.06em;padding:12px 26px;border-radius:40px">${e(s.kicker)}</div>
 <div style="margin-top:34px;font-weight:800;font-size:76px;line-height:1.08;color:#fff">${e(s.title)}</div>
 <div style="height:64px"></div>${items}
-<div style="margin-top:64px;align-self:flex-start;border:3px solid #FCE86A;color:#FCE86A;font-weight:700;font-size:32px;padding:14px 30px;border-radius:40px">${e(s.cta)}</div>
+<div style="margin-top:64px;align-self:flex-start;border:3px solid #FCE86A;color:#FCE86A;font-weight:700;font-size:32px;padding:14px 30px;border-radius:40px">${e(s.cta).replace(/\n/g,"<br>")}</div>
 </div></body></html>`;
 render(html,process.argv[3],1080,1920).then(()=>console.log('ok'));
