@@ -110,5 +110,19 @@
   "czb": true,
   "orientacja": "pionowa",
   "jasne_tlo": false
+ },
+ {
+  "plik": "zdjecia/sst01_kolor.jpg",
+  "opis": "portret w koszulce Staszczuk Sport Team, siedzi, białe tło",
+  "czb": false,
+  "orientacja": "pionowa",
+  "jasne_tlo": true
+ },
+ {
+  "plik": "zdjecia/sst01_bw.jpg",
+  "opis": "portret w koszulce Staszczuk Sport Team, siedzi, białe tło",
+  "czb": true,
+  "orientacja": "pionowa",
+  "jasne_tlo": true
  }
 ]
