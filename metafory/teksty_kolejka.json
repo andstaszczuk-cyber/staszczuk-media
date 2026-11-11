@@ -217,7 +217,7 @@
   "ocena": null,
   "tekst": "Na początku talent robi różnicę. Później to tylko powtarzalna robota. Sukcesy odnoszą ci, którzy trenują dłużej i systematycznie.",
   "zrodlo": "zoom 2026-10-31",
-  "uzyta": null
+  "uzyta": "2026-11-11"
  },
  {
   "id": 1273,
@@ -12851,6 +12851,14 @@
   "typ": "zdanie",
   "tekst": "Pewność siebie to wiara, że masz dostępne zasoby, żeby zrobić zadanie na odpowiednim poziomie trudności.",
   "zrodlo": "zoom 2026-11-09",
+  "uzyta": null
+ },
+ {
+  "id": 1287,
+  "temat": "postęp",
+  "typ": "zdanie",
+  "tekst": "Postęp często wygląda mniej spektakularnie, niż się spodziewasz. Nie musisz się nigdzie spieszyć.",
+  "zrodlo": "zoom 2026-11-10",
   "uzyta": null
  }
 ]

@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-11-10T09:45:00Z",
+ "ostatnio_do": "2026-11-11T09:45:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -328,6 +328,30 @@
    "dodano_mysli": 1,
    "dodano_metafor": 0,
    "status": "przetworzone"
+  },
+  {
+   "uuid": "718CA17E-D9E1-4FBE-B3D4-DB728BD61760",
+   "data": "2026-11-10",
+   "temat": "konsultacja wstępna",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "C2B20C0B-D8DA-44EC-BFF2-0BA2915A144C",
+   "data": "2026-11-10",
+   "temat": "sesja z zawodnikiem",
+   "dodano_mysli": 1,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "9AB45283-76D6-44D8-A9A2-C35D6C15952E",
+   "data": "2026-11-11",
+   "temat": "spotkanie cykliczne (lista wykluczeń)",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "pominięte"
   }
  ]
 }
