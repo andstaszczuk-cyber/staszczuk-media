@@ -1,6 +1,6 @@
 // Relacja IG 1080x1920 z opinią z Google (@psychologsportu), wersja 2: 3 warianty (red, grafit, krem).
-// node opinia-relacja2.js '{"tekst":"… *wyróżnienie* …","autor":"Imię N.","wariant":"red"}' out.png
-// Tekst opinii bez zmiany sensu, autor tylko imię i inicjał, bez cudzysłowów.
+// node opinia-relacja2.js '{"tekst":"… *wyróżnienie* …","autor":"Imię Nazwisko","wariant":"red","foto":"psychologsportu/opinie/awatary/01.png"}' out.png
+// Tekst opinii bez zmiany sensu, autor pełne imię i nazwisko jak w Google (decyzja 12.11.2026), foto = zdjęcie profilowe z Google, bez cudzysłowów.
 const fs=require('fs'),path=require('path');const {render}=require('./kit');
 const o=JSON.parse(process.argv[2]),out=process.argv[3];
 const F=p=>'file://'+path.join(__dirname,'node_modules/@fontsource',p);
@@ -13,6 +13,7 @@ const e=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/[„”
 const L=o.tekst.replace(/\*/g,'').length, fz=L<90?66:L<150?58:L<210?52:L<260?47:44;
 const star=`<svg width="58" height="58" viewBox="0 0 24 24"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z" fill="#F4B63A"/></svg>`;
 const ini=o.autor.trim()[0].toUpperCase();
+const foto=o.foto?'file://'+path.join(__dirname,'..',o.foto):'';
 const html=`<!doctype html><html><head><meta charset=utf-8><style>${css}body{margin:0;width:1080px;height:1920px;overflow:hidden;font-family:Pop;background:${V.bg};color:${V.ink}}</style></head><body>
 <div style="position:absolute;right:-200px;top:-200px;width:700px;height:700px;border-radius:50%;border:2px solid ${V.ring}"></div>
 <div style="position:absolute;right:-110px;top:-110px;width:520px;height:520px;border-radius:50%;border:2px solid ${V.ring}"></div>
@@ -25,7 +26,7 @@ const html=`<!doctype html><html><head><meta charset=utf-8><style>${css}body{mar
  <div style="font-weight:800;font-size:330px;line-height:.62;height:150px;margin-top:70px;color:${V.q};font-family:Georgia,serif">&#8220;</div>
  <div style="font-size:${fz}px;font-weight:500;line-height:1.38;letter-spacing:-.005em">${e(o.tekst)}</div>
  <div style="margin-top:64px;display:flex;align-items:center;gap:26px">
-  <div style="width:96px;height:96px;border-radius:50%;background:${V.av};color:${V.avInk};font-weight:800;font-size:46px;display:flex;align-items:center;justify-content:center">${ini}</div>
+  ${foto?`<div style="width:124px;height:124px;border-radius:50%;padding:6px;background:${V.av};flex:none"><img src="${foto}" style="width:124px;height:124px;border-radius:50%;display:block;object-fit:cover"></div>`:`<div style="width:136px;height:136px;border-radius:50%;background:${V.av};color:${V.avInk};font-weight:800;font-size:60px;display:flex;align-items:center;justify-content:center;flex:none">${ini}</div>`}
   <div><div style="font-weight:700;font-size:40px;line-height:1.1">${e(o.autor)}</div><div style="font-size:28px;color:${V.soft};margin-top:4px">opinia z wizytówki Google</div></div>
  </div>
 </div>
