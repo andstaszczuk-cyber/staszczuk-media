@@ -1,1 +1,330 @@
-[]
+[
+ {
+  "nr": 1,
+  "autor": "Patrycja K.",
+  "tekst": "Współpraca z Panem Andrzejem bardzo mi pomogła, szczególnie w radzeniu sobie ze stresem przed startami. Dzięki naszym spotkaniom nauczyłam się lepiej panować nad emocjami, uspokajać głowę i *nie pozwalać, żeby stres przejmował kontrolę* w najważniejszych momentach. (…) Naprawdę warto!",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "red"
+ },
+ {
+  "nr": 2,
+  "autor": "Łukasz D.",
+  "tekst": "Andrzej nie próbował motywować mnie pustymi hasłami. Przedstawił mi konkretne argumenty. W pewnym momencie powiedziałem mu: masz rację, od dziś tej myśli już nie będzie. I rzeczywiście, wykasowałem ją. Do dziś nie wróciła. (…) *Potrzebujemy kogoś, kto pomoże nam zobaczyć, jak daleko możemy jeszcze zajść.*",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "grafit"
+ },
+ {
+  "nr": 3,
+  "autor": "Zosia K.",
+  "tekst": "Współpraca z Andrzejem pozwoliła mi nie tylko zapanować nad stresem, głową czy emocjami, ale tak naprawdę *zwyczajnie zrozumieć siebie samą*. Po naszych rozmowach zawsze miałam pozytywne emocje. (…) Podczas spotkań dostajesz wsparcie, przyjaciela, kolegę, kogoś, komu można powiedzieć wszystko bez obaw.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "krem"
+ },
+ {
+  "nr": 4,
+  "autor": "Krystian R.",
+  "tekst": "Profesjonalne podejście, duże zaangażowanie i indywidualne podejście do zawodnika sprawiają, że każde spotkanie wnosi dużo wartości. Współpraca pomaga rozwijać pewność siebie, *lepiej radzić sobie z presją* i wzmacniać mentalną stronę sportu.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "red"
+ },
+ {
+  "nr": 5,
+  "autor": "Maciej D.",
+  "tekst": "Współpraca z Andrzejem pomogła mi lepiej zrozumieć siebie jako sportowca, radzić sobie z presją i świadomie podchodzić do wyzwań. Dzięki naszym rozmowom *nauczyłem się skupiać na tym, na co mam wpływ*, i lepiej radzić sobie z trudnymi momentami.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "grafit"
+ },
+ {
+  "nr": 6,
+  "autor": "Marta W.",
+  "tekst": "Z Andrzejem współpracuję od ponad dwóch lat. (…) Jego wsparcie okazało się dla mnie bardzo ważne również w okresie kontuzji, rehabilitacji i powrotu do treningów. (…) *Na pierwszym miejscu widzi człowieka*, uwzględnia to, co dzieje się również poza sportem, i dostosowuje metody pracy do konkretnej osoby.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "krem"
+ },
+ {
+  "nr": 7,
+  "autor": "dzejAn",
+  "tekst": "Trafiłem do Andrzeja po wcześniejszych, niezbyt udanych doświadczeniach z innymi psychologami. Dopiero dzięki naszej współpracy *udało mi się wrócić na właściwe tory*. Praca, którą wtedy wspólnie wykonaliśmy, procentuje do dziś.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "red"
+ },
+ {
+  "nr": 8,
+  "autor": "J.M.",
+  "tekst": "Współpraca z Andrzejem pomogła mi lepiej radzić sobie ze stresem, pracować nad koncentracją, a także zwracać większą uwagę na regenerację. Andrzej jest niezwykle zaangażowany w swoją pracę, *pełen profesjonalizm!* Zdecydowanie polecam każdemu!",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "grafit"
+ },
+ {
+  "nr": 9,
+  "autor": "Natalia W.",
+  "tekst": "Współpraca z Andrzejem pomogła mi uwierzyć w siebie i lepiej radzić sobie ze stresem przed startem. Nauczyłam się słuchać własnego ciała. Zrozumiałam, że gorszy czas to nie mój przeciwnik, tylko jest to normalne. (…) *Najpierw widzi człowieka, a dopiero potem sportowca.*",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "krem"
+ },
+ {
+  "nr": 10,
+  "autor": "Kuba M.",
+  "tekst": "Współpraca z Andrzejem pomogła mi lepiej siebie zrozumieć i o siebie zadbać. Dzięki tej współpracy *przestałem marnować czas na niepotrzebne rzeczy* i sprofesjonalizowałem się w swojej komunikacji.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "red"
+ },
+ {
+  "nr": 11,
+  "autor": "Krzysiek",
+  "tekst": "Współpraca z Andrzejem pomogła mi *wejść na wyższy poziom umiejętności*, nauczyłem się, jak radzić sobie z presją i nie przejmować się negatywnymi opiniami kolegów z drużyny. Polecam każdemu, kto chce być jeszcze lepszym sportowcem.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "grafit"
+ },
+ {
+  "nr": 12,
+  "autor": "Maciej",
+  "tekst": "Po roku współpracy z Andrzejem mogę stwierdzić, że jest on *profesjonalistą z ludzkim i wyrozumiałym podejściem*. Andrzej pomógł mi zrozumieć, jak podejść do życia prywatnego i sportu w zbalansowany sposób. Pomaga rozwiązywać problemy, nawet jeżeli wiąże się to z wyjściem ze strefy komfortu.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "krem"
+ },
+ {
+  "nr": 13,
+  "autor": "Adrian B.",
+  "tekst": "Współpraca z Andrzejem pomogła mi lepiej radzić sobie z presją i budować pewność siebie. Doceniam jego *szczerość, konkretne wskazówki i indywidualne podejście*. Polecam każdemu, kto chce rozwijać się mentalnie i wejść na wyższy poziom!",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "red"
+ },
+ {
+  "nr": 14,
+  "autor": "Kasia S.",
+  "tekst": "Wyjątkowy psycholog, oprócz zrozumienia *daje narzędzia do pracy oraz uczy*. Wrażliwy i umiejący zrozumieć potrzeby. Pokazuje, jak doceniać siebie i swoje wybory. Gorąco polecam tym, którzy cenią swój mental i nie chcą powierzać go byle komu.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "grafit"
+ },
+ {
+  "nr": 15,
+  "autor": "Stas W.",
+  "tekst": "Współpraca z Andrzejem pozwoliła mi *zupełnie inaczej spojrzeć na sport i zawody*. Andrzej nie ocenia, tylko stara się znaleźć rozwiązanie problemu.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "krem"
+ },
+ {
+  "nr": 16,
+  "autor": "Mikołaj F.",
+  "tekst": "Pracowałem nad swoją głową z Andrzejem podczas najtrudniejszego momentu w mojej karierze sportowej. Podejście do zawodnika i to, jak potrafi *zmienić stare nawyki i myślenie*, od prostych i niezauważalnych gołym okiem rzeczy po te bardziej złożone, jest niewyobrażalnie pomocne.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "red"
+ },
+ {
+  "nr": 17,
+  "autor": "Paulina P.",
+  "tekst": "Współpraca z Andrzejem była bardzo wartościowa. Dzięki jego wsparciu poprawiłam radzenie sobie ze stresem i zwiększyłam pewność siebie. (…) Sesje były motywujące i skuteczne, co *przełożyło się na lepszą mentalność w trakcie rywalizacji*.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "grafit"
+ },
+ {
+  "nr": 18,
+  "autor": "Dorota B.",
+  "tekst": "Praca z Andrzejem pomogła mi jeszcze lepiej przygotować się mentalnie do najważniejszych imprez sportowych w mojej karierze. Dzięki pracy, którą wspólnie wykonaliśmy, *jestem dużo silniejszą osobą znającą swoją wartość*. (…) Andrzej wnosi zrozumienie specyfiki sportu na najwyższym poziomie.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "krem"
+ },
+ {
+  "nr": 19,
+  "autor": "Sebastian O.",
+  "tekst": "Nauczyłem się lepiej rozumieć swoje ciało i głowę w trakcie przygotowań. Wcześniej często cisnąłem mimo zmęczenia, teraz *potrafię słuchać organizmu* i dzięki temu czuję większą kontrolę nad formą. Sesje były konkretne, mądre i dające realne efekty.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "red"
+ },
+ {
+  "nr": 20,
+  "autor": "Ania W.",
+  "tekst": "Dzięki pracy z Andrzejem nauczyłam się *zachować spokój przy stole i skupić się na grze*, nawet gdy presja jest ogromna. Sesje pomogły mi na nowo odnaleźć radość w sporcie, nawet w trudnych momentach. (…) To zmieniło nie tylko moje nastawienie do sportu, ale również do życia.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "grafit"
+ },
+ {
+  "nr": 21,
+  "autor": "Gniewomir P.",
+  "tekst": "Dzięki naszym sesjom *nauczyłem się opanowywać emocje w walce*, co miało bezpośredni wpływ na moje wyniki w sporcie. (…) Szczególnie ważne było dla mnie zrozumienie moich obaw, ich źródeł i skuteczne przełamanie tych barier, które wcześniej mnie blokowały.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "krem"
+ },
+ {
+  "nr": 22,
+  "autor": "Przemysław M.",
+  "tekst": "Praca z Andrzejem to krok milowy w rozwoju sportowym (jak i osobistym) już od pierwszej sesji. Spotkania przebiegają w bardzo przyjaznej atmosferze i w poczuciu bezpieczeństwa. Praca z Andrzejem to *nie puste hasła motywacyjne*, a praktyczne i zindywidualizowane metody.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "red"
+ },
+ {
+  "nr": 23,
+  "autor": "Michał S.",
+  "tekst": "Współpraca z Andrzejem pomogła mi *podejść do meczów z nową pewnością siebie* i innym spojrzeniem na stres przed ważnymi występami. (…) Jest to świetny psycholog z potężną wiedzą, potrafiący w prosty sposób ją przekazywać.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "grafit"
+ },
+ {
+  "nr": 24,
+  "autor": "Zuzanna P.",
+  "tekst": "Świetna współpraca. Wspaniałe podejście do zawodnika. Przeszłam z panem sezon startowy, przygotowawczy, czas kontuzji, *zawsze pomógł*. Dzięki ćwiczeniom mentalnym oraz szczerej rozmowie mogłam się rozwijać.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "krem"
+ },
+ {
+  "nr": 25,
+  "autor": "Aleks N.",
+  "tekst": "Współpraca z Andrzejem bardzo pozytywnie wpłynęła na moją karierę sportową, jak i na codzienne życie. *Wyciągnąłem z zajęć wiele cennych lekcji* i informacji, które pomogły mi w walce z różnymi problemami. Gorąco polecam.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "red"
+ },
+ {
+  "nr": 26,
+  "autor": "Beata",
+  "tekst": "Z całego serca polecam współpracę z Andrzejem! Dzięki jego wsparciu *mam narzędzia do radzenia sobie ze stresem, presją* i innymi wyzwaniami na macie i poza nią. Andrzej to osoba o dużym doświadczeniu, empatii i zrozumieniu dla potrzeb sportowca.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "grafit"
+ },
+ {
+  "nr": 27,
+  "autor": "Igor",
+  "tekst": "Świetny psycholog i bardzo pomocny człowiek. *Nie owija w bawełnę, mówi, jak jest* i pomaga ustalić realne cele. Pomógł mi rozwinąć się nie tylko w obszarach sportowych, ale również w obszarach życia codziennego.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "krem"
+ },
+ {
+  "nr": 28,
+  "autor": "Iwona K.",
+  "tekst": "Podczas spotkań z panem Andrzejem można powiedzieć wszystko o swoich uczuciach, o swoich planach, o swoich relacjach z innymi ludźmi. W każdej sytuacji zostanie się wysłuchanym w atmosferze pełnej zrozumienia i akceptacji. *Dowiesz się, co robić, aby opanować swoje emocje.*",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "red"
+ },
+ {
+  "nr": 29,
+  "autor": "Jakub N.",
+  "tekst": "Współpracuję z Andrzejem od kilku dobrych miesięcy i *już po pierwszych spotkaniach czułem się lepiej*. Pracowaliśmy nad pewnością siebie i nad wieloma innymi elementami, co później miało dobry skutek w startach na zawodach.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "grafit"
+ },
+ {
+  "nr": 30,
+  "autor": "Jaco T.",
+  "tekst": "*Udana współpraca zaowocowała wygraną walką.* Andrzej to psycholog z wyjątkowym podejściem do zawodnika, ogromną wiedzą i umiejętnością dobrania odpowiednich środków do każdego zawodnika. Polecam!",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "krem"
+ },
+ {
+  "nr": 31,
+  "autor": "Kasia H.",
+  "tekst": "Nie potrafiłam poradzić sobie z przełamaniem psychicznym podczas walki. Do każdej walki podchodziłam z paraliżem i strachem. Pan Andrzej bardzo pomógł mi *uwierzyć w siebie* i otworzyć się na nowe wyzwania, a przede wszystkim pokazał mi, jak mam się przygotować mentalnie do każdego wyzwania.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "red"
+ },
+ {
+  "nr": 32,
+  "autor": "Daniel K.",
+  "tekst": "Andrzej to psycholog sportu z *dużą energią i zaangażowaniem* w swoją pracę! Nieustannie zdobywa nową wiedzę, żeby lepiej pomagać swoim zawodnikom. Polecam!",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "grafit"
+ },
+ {
+  "nr": 33,
+  "autor": "Marek Z.",
+  "tekst": "Współpracę z Panem Andrzejem rozpocząłem, ponieważ zauważyłem u siebie poważne problemy z pewnością siebie. Jako że całkiem często występuję publicznie, postanowiłem coś z tym zrobić. To *profesjonalne podejście do klienta i świetna atmosfera*. Polecam serdecznie!",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "krem"
+ },
+ {
+  "nr": 34,
+  "autor": "Michał C.",
+  "tekst": "Współpraca z Andrzejem to czas spędzony w atmosferze profesjonalizmu, skuteczności, empatii, wnikliwości i *celności proponowanych rozwiązań*. Bez wahania polecam!",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "red"
+ },
+ {
+  "nr": 35,
+  "autor": "Filip L.",
+  "tekst": "Świetny psycholog sportowy. Konkretne podejście, bardzo dobra komunikacja i duże zrozumienie realiów sportu. Rozmowy są praktyczne i *dają narzędzia, które faktycznie można wykorzystać* w treningu i podczas startów.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "grafit"
+ },
+ {
+  "nr": 36,
+  "autor": "Łukasz K.",
+  "tekst": "Pełen profesjonalizm, zaangażowanie w pracę, specjalista skupiony na budowaniu relacji z klientem. Widać, że całe zaangażowanie wynika prosto z serca. Ogólnie *to zmienia życie na lepsze*. Mocne polecanko.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "krem"
+ },
+ {
+  "nr": 37,
+  "autor": "Aron S.",
+  "tekst": "Bardzo profesjonalne podejście. Super kontakt w trakcie sesji, jak i *regularna pomoc pomiędzy sesjami*. Duża wiedza, która pomaga w życiu sportowca, jak i w życiu rodzinnym. Szczerze polecam!",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "red"
+ },
+ {
+  "nr": 38,
+  "autor": "Milla K.",
+  "tekst": "Bardzo serdecznie polecam! *Mega ciepła osoba*, z którą bardzo dobrze się współpracuje i rozmawia na wszystkie tematy.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "grafit"
+ },
+ {
+  "nr": 39,
+  "autor": "Michał K.",
+  "tekst": "Pomógł mi zmienić mentalność oraz podejście do różnych sytuacji. Mega sympatyczny gość. *Psycholog sportu z krwi i kości.*",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "krem"
+ },
+ {
+  "nr": 40,
+  "autor": "Krystian W.",
+  "tekst": "Polecam! *Fachowe podejście do każdej sesji* i przygotowanie.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "red"
+ },
+ {
+  "nr": 41,
+  "autor": "Konrad I.",
+  "tekst": "Dzięki sesjom nad moim stanem psychicznym osiągnęliśmy wiele sukcesów sportowych, jak i życiowych. *Nauczyłem się panować nad swoimi myślami, emocjami* i jak nimi pokierować. Taka inwestycja zwróci się każdemu po stokroć.",
+  "gwiazdki": 5,
+  "uzyta": false,
+  "wariant": "grafit"
+ }
+]
