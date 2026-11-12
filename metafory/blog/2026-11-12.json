@@ -1,0 +1,11 @@
+{
+ "layout": "G3",
+ "svg": "<rect x='80' y='860' width='840' height='30' rx='15' fill='{ink}' opacity='.55'/><path d='M120 860 L330 420 L420 560 L520 330 L700 860 Z' fill='{ink}'/><rect x='514' y='170' width='20' height='170' rx='10' fill='{ink}'/><path d='M534 175 L650 215 L534 255 Z' fill='{ink}'/><g fill='{ink}' opacity='.8'><circle cx='770' cy='830' r='14'/><circle cx='820' cy='830' r='14'/><circle cx='870' cy='830' r='14'/></g><circle cx='880' cy='700' r='52' fill='none' stroke='{ink}' stroke-width='14' stroke-dasharray='20 18'/>",
+ "palette": "black",
+ "font": "raj",
+ "tilt": -2,
+ "kicker": "nowy wpis",
+ "headline": "Po sukcesie tylko *pustka* i ulga? Zobacz, co z tym zrobić.",
+ "body": "Dowiesz się, skąd ta pustka i jak zamienić ją w nowy cel.",
+ "cta": "Cały tekst: andrzejstaszczuk.pl/blog"
+}

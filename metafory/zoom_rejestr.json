@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-11-11T09:45:00Z",
+ "ostatnio_do": "2026-11-12T09:45:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -352,6 +352,30 @@
    "dodano_mysli": 0,
    "dodano_metafor": 0,
    "status": "pominięte"
+  },
+  {
+   "uuid": "39D6652E-CC5D-4FB1-8353-2E0AC37F34E1",
+   "data": "2026-11-11",
+   "temat": "sesja z zawodniczką (negocjacje, bez wątków do publikacji)",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "CED949E6-40D5-4E8E-BB40-6B95FC77E6AE",
+   "data": "2026-11-11",
+   "temat": "sesja z zawodniczką",
+   "dodano_mysli": 1,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "26C6B468-EFDC-4902-89AD-3A480E3B6726",
+   "data": "2026-11-12",
+   "temat": "sesja z zawodniczką",
+   "dodano_mysli": 2,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
   }
  ]
 }

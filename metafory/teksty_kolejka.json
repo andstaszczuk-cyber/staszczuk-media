@@ -647,7 +647,7 @@
   "ocena": 3,
   "tekst": "Jeżeli dasz sobie na zadanie trzy godziny, to jakimś dziwnym cudem zajmie ci ono trzy godziny. Dasz sobie tydzień, to zajmie tydzień.",
   "zrodlo": "bank",
-  "uzyta": null
+  "uzyta": "2026-11-12"
  },
  {
   "id": 5,
@@ -12859,6 +12859,30 @@
   "typ": "zdanie",
   "tekst": "Postęp często wygląda mniej spektakularnie, niż się spodziewasz. Nie musisz się nigdzie spieszyć.",
   "zrodlo": "zoom 2026-11-10",
+  "uzyta": null
+ },
+ {
+  "id": 1288,
+  "temat": "regeneracja",
+  "typ": "zdanie",
+  "tekst": "Gdy jesteś zmęczony, nie rezygnuj z rzeczy, które cię ładują. Zostaw tylko te, w które musisz wkładać energię.",
+  "zrodlo": "zoom 2026-11-11",
+  "uzyta": null
+ },
+ {
+  "id": 1289,
+  "temat": "inne",
+  "typ": "zdanie",
+  "tekst": "Często robię rzeczy, których nie lubię. Są nieprzyjemne, ale pożyteczne.",
+  "zrodlo": "zoom 2026-11-12",
+  "uzyta": null
+ },
+ {
+  "id": 1290,
+  "temat": "wpływ",
+  "typ": "zdanie",
+  "tekst": "Są sprawy, które irytują i na które nie masz wpływu. Możesz się w nich pogrążać albo skupić na tym, co sam możesz zrobić.",
+  "zrodlo": "zoom 2026-11-12",
   "uzyta": null
  }
 ]

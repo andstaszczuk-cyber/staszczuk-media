@@ -1,0 +1,10 @@
+{
+ "layout": "G1",
+ "svg": "<path d='M120 760 H480 V380 H880' fill='none' stroke='{ink}' stroke-width='70' stroke-linejoin='round'/><rect x='80' y='715' width='60' height='90' rx='10' fill='{soft}'/><rect x='850' y='335' width='60' height='90' rx='10' fill='{soft}'/><circle cx='480' cy='580' r='34' fill='{acc}'/><g transform='translate(640 640) rotate(-35)'><rect x='-24' y='-20' width='48' height='330' rx='20' fill='{acc}'/><path d='M-70 -20 V-130 A70 70 0 0 1 70 -130 V-20 H30 V-110 H-30 V-20 Z' fill='{acc}'/></g><ellipse cx='500' cy='880' rx='200' ry='24' fill='{ink}' opacity='.35'/>",
+ "palette": "mono",
+ "font": "anton",
+ "tilt": -2,
+ "kicker": "metafora dnia",
+ "headline": "Rury naprawia *hydraulik*",
+ "body": "Najlepsi nie robią wszystkiego sami. Przecież nie naprawiasz sam rury, tylko wzywasz hydraulika. Tak samo *proś o pomoc tych, którzy się na tym znają*."
+}

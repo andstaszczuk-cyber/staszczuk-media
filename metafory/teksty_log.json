@@ -236,5 +236,18 @@
   "png": "metafory/teksty/2026-11-11.png",
   "metricool_id": 424200949,
   "metricool_uuid": "-5735547660777143544"
+ },
+ {
+  "data": "2026-11-12",
+  "id": 4,
+  "zrodlo": "bank",
+  "layout": "L4",
+  "photo": "metafory/zdjecia/9371_kolor.jpg",
+  "palette": "red",
+  "font": "bebas",
+  "focus": 15,
+  "tilt": -2,
+  "spec": "metafory/teksty/2026-11-12.json",
+  "png": "metafory/teksty/2026-11-12.png"
  }
 ]
