@@ -167,7 +167,7 @@
   "ocena": null,
   "tekst": "Duże znaczenie ma to, kim się otaczasz. Ludzie z podobnymi wyzwaniami często pchają cię do rozwoju mocniej niż książki i kursy.",
   "zrodlo": "zoom 2026-11-04/05",
-  "uzyta": null
+  "uzyta": "2026-11-13"
  },
  {
   "id": 1280,
@@ -12883,6 +12883,46 @@
   "typ": "zdanie",
   "tekst": "Są sprawy, które irytują i na które nie masz wpływu. Możesz się w nich pogrążać albo skupić na tym, co sam możesz zrobić.",
   "zrodlo": "zoom 2026-11-12",
+  "uzyta": null
+ },
+ {
+  "id": 1291,
+  "temat": "pozytywny stan",
+  "typ": "zdanie",
+  "tekst": "Nie da się być cały czas w dobrym nastroju i pełnej energii. Taki stan jest nie do utrzymania, więc gorszy dzień nie jest porażką. To normalne.",
+  "zrodlo": "zoom 2026-11-13",
+  "uzyta": null
+ },
+ {
+  "id": 1292,
+  "temat": "przygotowanie",
+  "typ": "zdanie",
+  "tekst": "Psychika jest wisienką na torcie. Bez przygotowania fizycznego, technicznego i taktycznego samo mówienie sobie *dam radę* niewiele da.",
+  "zrodlo": "zoom 2026-11-13",
+  "uzyta": null
+ },
+ {
+  "id": 1293,
+  "temat": "pobudzenie",
+  "typ": "zdanie",
+  "tekst": "Nie każdy potrzebuje się mocno nakręcać przed startem. Czasem *lepiej działa chłodna głowa*, bo za duże napięcie męczy i zabiera energię.",
+  "zrodlo": "zoom 2026-11-13",
+  "uzyta": null
+ },
+ {
+  "id": 1294,
+  "temat": "samodzielność",
+  "typ": "zdanie",
+  "tekst": "Samodzielność nie rodzi się wtedy, gdy ktoś mówi ci, co masz robić. Wtedy oddajesz odpowiedzialność. *Pytaj, dlaczego tak robisz*, i zrozum to.",
+  "zrodlo": "zoom 2026-11-13",
+  "uzyta": null
+ },
+ {
+  "id": 1295,
+  "temat": "energia",
+  "typ": "zdanie",
+  "tekst": "Każda niezałatwiona sprawa zabiera ci trochę energii. Rozpisz w kalendarzu, co i kiedy zrobisz. *To jest ulga dla głowy.*",
+  "zrodlo": "zoom 2026-11-13",
   "uzyta": null
  }
 ]

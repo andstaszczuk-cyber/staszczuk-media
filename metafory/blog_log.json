@@ -242,5 +242,19 @@
   "png": "metafory/blog/2026-11-12.png",
   "metricool_id": 425465088,
   "metricool_uuid": "364758602597157816"
+ },
+ {
+  "data": "2026-11-13",
+  "url": "https://andrzejstaszczuk.pl/2026/11/13/natretne-mysli-w-sporcie/",
+  "tytul_wpisu": "Im bardziej nie chcę o tym myśleć, tym bardziej myślę. Natrętne myśli w sporcie",
+  "headline": "Nie możesz wyrzucić *błędu* z głowy? To dla ciebie.",
+  "layout": "L1",
+  "photo": "metafory/zdjecia/9466_kolor.jpg",
+  "palette": "red",
+  "font": "raj",
+  "focus": 40,
+  "tilt": -2,
+  "spec": "metafory/blog/2026-11-13.json",
+  "png": "metafory/blog/2026-11-13.png"
  }
 ]
