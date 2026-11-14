@@ -258,5 +258,19 @@
   "png": "metafory/blog/2026-11-13.png",
   "metricool_id": 426741905,
   "metricool_uuid": "7815221021484729777"
+ },
+ {
+  "data": "2026-11-14",
+  "url": "https://andrzejstaszczuk.pl/2026/11/14/presja-otoczenia-znajomi-na-trybunach/",
+  "tytul_wpisu": "Najgorzej startuje mi się przy swoich. Presja znajomych na trybunach",
+  "headline": "Przy *znajomych* startujesz gorzej? Sprawdź.",
+  "layout": "G4",
+  "photo": "svg:trybuny",
+  "palette": "cream",
+  "font": "raj",
+  "focus": null,
+  "tilt": -2,
+  "spec": "metafory/blog/2026-11-14.json",
+  "png": "metafory/blog/2026-11-14.png"
  }
 ]

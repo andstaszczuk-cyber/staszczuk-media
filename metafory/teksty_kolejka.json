@@ -657,7 +657,7 @@
   "ocena": 3,
   "tekst": "Nie oczekuj perfekcyjnego zeszytu. Oczekuj użytecznego.",
   "zrodlo": "bank",
-  "uzyta": null
+  "uzyta": "2026-11-14"
  },
  {
   "id": 6,
@@ -12923,6 +12923,22 @@
   "typ": "zdanie",
   "tekst": "Każda niezałatwiona sprawa zabiera ci trochę energii. Rozpisz w kalendarzu, co i kiedy zrobisz. *To jest ulga dla głowy.*",
   "zrodlo": "zoom 2026-11-13",
+  "uzyta": null
+ },
+ {
+  "id": 1296,
+  "temat": "pytania",
+  "typ": "pytanie",
+  "tekst": "Jakość pytania, które sobie zadajesz, jest ważniejsza niż odpowiedzi. *Dobre pytanie otwiera, a nie zamyka temat.*",
+  "zrodlo": "zoom 2026-11-13/14",
+  "uzyta": null
+ },
+ {
+  "id": 1297,
+  "temat": "przytłoczenie",
+  "typ": "zdanie",
+  "tekst": "Gdy dostajesz za dużo uwag naraz, łatwo się przytłoczyć. Usiądź z kartką i zapisz: *co biorę, a co odrzucam.*",
+  "zrodlo": "zoom 2026-11-13/14",
   "uzyta": null
  }
 ]

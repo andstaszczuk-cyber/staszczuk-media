@@ -186,7 +186,7 @@
   "tekst": "Jesteś w fazie przewartościowania swojego świata, budowania nowych celów i nowego sensu. Wszystko, co było do tej pory, możesz potraktować jako zasób, dzięki któremu lepiej rozumiesz siebie, albo jako kotwicę, którą ciągniesz. Wybór należy do ciebie. A to, że jest taki okres, nie znaczy, że jest gorszy. Nie znam ludzi, którzy cały czas mają wysoką motywację.",
   "na_relacje": "Twoja przeszłość może być zasobem albo kotwicą, którą ciągniesz. Wybór należy do ciebie.",
   "warianty": [],
-  "uzyta": null
+  "uzyta": "2026-11-14"
  },
  {
   "id": 12,
@@ -1928,6 +1928,24 @@
   "rodzaj": "metafora",
   "tekst": "Dzisiaj to jeszcze nie jest o tobie prawda, to jest deklaracja. I z tą deklaracją wchodzisz i tak długo ją powtarzasz, aż stanie się integralną częścią ciebie. Jakbyś codziennie wracała do banku. Stawiasz tezę, a potem szukasz dowodów: jakie mam dowody na to, że to prawda o mnie?",
   "na_relacje": "Przekonanie o sobie zaczyna się od deklaracji. Potem codziennie szukasz na nie dowodów.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 213,
+  "temat": "wyobraźnia umysłu",
+  "rodzaj": "metafora",
+  "tekst": "Umysł działa jak maszyna do popcornu. Nie zamawiasz popcornu, a ona ci go wyrzuca, czy chcesz, czy nie. Tak samo wyrzuca negatywne myśli i wspomnienia, bo nie pyta, tylko mówi: masz.",
+  "na_relacje": "Umysł jest jak maszyna do popcornu: wyrzuca ci negatywne myśli, choć o nie nie prosiłeś.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 214,
+  "temat": "praca z psychiką",
+  "rodzaj": "metafora",
+  "tekst": "Pracujemy nad psychiką. Wchodzimy do stajni Augiasza, porządkujemy ją, zmieniamy, ulepszamy.",
+  "na_relacje": "Praca nad głową to jak sprzątanie stajni Augiasza: wchodzisz, porządkujesz i ulepszasz.",
   "warianty": [],
   "uzyta": null
  }

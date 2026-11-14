@@ -1,0 +1,11 @@
+{
+ "layout": "G4",
+ "svg": "<g transform='translate(-190 -330) scale(1.38)'><g fill='{ink}'><rect x='90' y='760' width='820' height='56' rx='8'/><rect x='150' y='680' width='700' height='56' rx='8' opacity='.8'/><rect x='210' y='600' width='580' height='56' rx='8' opacity='.6'/><rect x='270' y='520' width='460' height='56' rx='8' opacity='.45'/></g><g fill='{soft}' opacity='.9'><circle cx='200' cy='720' r='16'/><circle cx='260' cy='720' r='16'/><circle cx='320' cy='720' r='16'/><circle cx='680' cy='720' r='16'/><circle cx='740' cy='720' r='16'/><circle cx='800' cy='720' r='16'/><circle cx='320' cy='640' r='16'/><circle cx='380' cy='640' r='16'/><circle cx='620' cy='640' r='16'/><circle cx='680' cy='640' r='16'/></g><path d='M420 400 L580 400 L760 860 L240 860 Z' fill='{acc}' opacity='.25'/><circle cx='500' cy='820' r='46' fill='{acc}'/><rect x='80' y='880' width='840' height='20' rx='10' fill='{ink}' opacity='.5'/></g>",
+ "palette": "cream",
+ "font": "raj",
+ "tilt": -2,
+ "kicker": "z bloga",
+ "headline": "Przy *znajomych* startujesz gorzej? Sprawdź.",
+ "body": "Dostaniesz plan uwagi na dzień startu i rozmowę z bliskimi przed zawodami.",
+ "cta": "Cały tekst: andrzejstaszczuk.pl/blog"
+}

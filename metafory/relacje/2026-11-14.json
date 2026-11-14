@@ -1,0 +1,10 @@
+{
+ "layout": "G6",
+ "svg": "<g transform='translate(0 -60) scale(.78)'><circle cx='500' cy='230' r='70' fill='none' stroke='{ink}' stroke-width='42'/><rect x='470' y='290' width='60' height='470' rx='20' fill='{ink}'/><rect x='340' y='360' width='320' height='54' rx='27' fill='{ink}'/><path d='M180 560 Q220 860 500 860 Q780 860 820 560' fill='none' stroke='{ink}' stroke-width='60' stroke-linecap='round'/><path d='M120 590 L190 480 L250 610 Z M880 590 L810 480 L750 610 Z' fill='{ink}'/><path d='M60 930 Q160 890 260 930 T460 930 T660 930 T860 930 T960 930' fill='none' stroke='{acc}' stroke-width='26' stroke-linecap='round'/></g>",
+ "palette": "mono",
+ "font": "bebas",
+ "tilt": 2,
+ "kicker": "metafora dnia",
+ "headline": "Zasób albo *kotwica*",
+ "body": "Twoja przeszłość może być zasobem, czyli tym, z czego korzystasz, albo kotwicą, którą ciągniesz. *Wybór należy do ciebie.*"
+}
