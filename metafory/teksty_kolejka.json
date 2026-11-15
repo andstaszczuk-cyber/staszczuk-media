@@ -177,7 +177,7 @@
   "ocena": null,
   "tekst": "Zapisuj ręcznie albo w telefonie, jak ci wygodniej. Pisanie to trening dla mózgu, a to kolejna przewaga nad zawodnikami, którzy tego nie robią.",
   "zrodlo": "zoom 2026-11-03",
-  "uzyta": null
+  "uzyta": "2026-11-15"
  },
  {
   "id": 1276,
@@ -12939,6 +12939,14 @@
   "typ": "zdanie",
   "tekst": "Gdy dostajesz za dużo uwag naraz, łatwo się przytłoczyć. Usiądź z kartką i zapisz: *co biorę, a co odrzucam.*",
   "zrodlo": "zoom 2026-11-13/14",
+  "uzyta": null
+ },
+ {
+  "id": 1298,
+  "temat": "pewność siebie",
+  "typ": "zdanie",
+  "tekst": "Nie czekaj, aż poczujesz pewność siebie, żeby pójść na trening. *Idź i rób swoje, a pewność może przyjść po drodze.*",
+  "zrodlo": "zoom 2026-11-14",
   "uzyta": null
  }
 ]

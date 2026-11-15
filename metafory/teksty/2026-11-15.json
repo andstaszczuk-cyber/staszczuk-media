@@ -1,0 +1,10 @@
+{
+ "layout": "G6",
+ "svg": "<g transform='translate(0 -40) scale(.85)'><rect x='250' y='170' width='500' height='680' rx='34' fill='{ink}'/><g fill='{bg2}'><rect x='310' y='290' width='380' height='26' rx='13'/><rect x='310' y='370' width='380' height='26' rx='13'/><rect x='310' y='450' width='300' height='26' rx='13'/><rect x='310' y='530' width='380' height='26' rx='13'/><rect x='310' y='610' width='250' height='26' rx='13'/></g><g fill='{acc}'><circle cx='250' cy='260' r='26'/><circle cx='250' cy='370' r='26'/><circle cx='250' cy='480' r='26'/><circle cx='250' cy='590' r='26'/><circle cx='250' cy='700' r='26'/></g><g transform='rotate(35 760 700)'><rect x='735' y='520' width='56' height='330' rx='14' fill='{acc}'/><path d='M735 850 L763 930 L791 850 Z' fill='{ink}'/></g></g>",
+ "palette": "black",
+ "font": "bebas",
+ "tilt": -2,
+ "kicker": "zapisuj",
+ "headline": "Pisz *ręcznie*",
+ "body": "Zapisuj ręcznie albo w telefonie, jak ci wygodniej. *Pisanie to trening dla mózgu*, a to przewaga nad zawodnikami, którzy tego nie robią."
+}
