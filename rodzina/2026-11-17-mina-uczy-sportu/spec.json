@@ -1,0 +1,36 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Moja mina na meczu to moja sprawa.",
+   "new": "Z Twojej twarzy dziecko *uczy się sportu*.",
+   "text": "Przejmuje emocje, a razem z nimi Twoje oceny."
+  },
+  {
+   "kind": "point",
+   "title": "Mózg *odbija* minę",
+   "body": "Dziecko automatycznie przejmuje stan, który widzi na Twojej twarzy. Szybciej niż słowa.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Przejmuje *Twoje oceny*",
+   "body": "Grymas na sędziego, rywala czy trenera uczy, co myśleć o sporcie.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsze *spojrzenie*",
+   "body": "Po meczu Twoja twarz mówi więcej niż słowa. Sprawdź ją, zanim zareagujesz.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Spokojna mina mówi: *jestem z Tobą niezależnie od wyniku*.",
+   "cta": "Wyślij rodzicowi, z którym siedzisz na trybunach.",
+   "icon": "heart"
+  }
+ ]
+}

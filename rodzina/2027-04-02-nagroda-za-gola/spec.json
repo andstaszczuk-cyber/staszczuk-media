@@ -1,0 +1,36 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Za każdego gola dostaniesz dychę.",
+   "new": "Co dziś *zrobiłeś dobrze*?",
+   "text": "Nagroda za wynik szybko zmienia, po co dziecko gra."
+  },
+  {
+   "kind": "point",
+   "title": "Kiedy gra się *dla nagrody*",
+   "body": "Radość z gry przesuwa się na drugi plan. Liczy się to, co dostanę.",
+   "icon": "gift"
+  },
+  {
+   "kind": "point",
+   "title": "Wynik nie zawsze zależy od dziecka",
+   "body": "Można zagrać świetnie i nie strzelić. Nagroda za gola nie widzi podania ani obrony.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Doceniaj wysiłek i zachowanie",
+   "body": "Nazwij konkretnie, co zrobiło dobrze. To buduje więcej niż pieniądze.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Zamiast nagrody za wynik *zapytaj, z czego jest dumne*.",
+   "cta": "Wyślij to rodzicowi, który płaci za gole.",
+   "icon": "heart"
+  }
+ ]
+}
