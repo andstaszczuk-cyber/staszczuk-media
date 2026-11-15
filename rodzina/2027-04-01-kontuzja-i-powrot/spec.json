@@ -1,0 +1,35 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "plaster",
+   "text": "Kontuzja zabiera\nnie tylko trening.\n*Głowa też potrzebuje czasu*."
+  },
+  {
+   "kind": "point",
+   "title": "Smutek i złość są normalne",
+   "body": "Dziecko traci treningi, drużynę, swoje miejsce. Ma prawo to przeżywać.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "O powrocie decydują *specjaliści*",
+   "body": "Lekarz i fizjoterapeuta mówią kiedy. Ty pomagasz przetrwać czekanie.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Zostań przy drużynie",
+   "body": "Niech przychodzi na treningi i mecze, jeśli może. Kontakt z drużyną bardzo pomaga.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Zapytaj: *czego najbardziej Ci brakuje?*",
+   "cta": "Zapisz na trudniejsze tygodnie przerwy.",
+   "icon": "heart"
+  }
+ ]
+}

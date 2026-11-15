@@ -1,0 +1,35 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "moon",
+   "text": "Położony o 22\ni tak nie zaśnie.\n*Jego zegar chodzi później*."
+  },
+  {
+   "kind": "point",
+   "title": "Zegar *przesunięty*",
+   "body": "U nastolatka senność przychodzi zwykle o 2–3 godziny później niż u dorosłego. Tak działa ten wiek.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Światło *wybudza*",
+   "body": "Jasny ekran wieczorem i w nocy utrudnia zasypianie. Telefon niech nocuje poza sypialnią.",
+   "icon": "phone"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa *zamiast kazania*",
+   "body": "Zamiast wykładu o lenistwie usiądźcie razem do planu wieczoru i poranków z treningiem.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Poranne ziewanie *nie zawsze znaczy lenistwo*.",
+   "cta": "Zapisz i wyślij rodzicowi nastolatka, który trenuje.",
+   "icon": "heart"
+  }
+ ]
+}
