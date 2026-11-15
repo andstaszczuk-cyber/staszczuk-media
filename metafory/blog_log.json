@@ -274,5 +274,19 @@
   "png": "metafory/blog/2026-11-14.png",
   "metricool_id": 427872645,
   "metricool_uuid": "1530929074964677816"
+ },
+ {
+  "data": "2026-11-15",
+  "url": "https://andrzejstaszczuk.pl/2026/11/15/mity-i-prawdy-o-adhd/",
+  "tytul_wpisu": "Mity i prawdy o ADHD. Co powinien wiedzieć zawodnik, rodzic i trener",
+  "headline": "Nie wiesz, czy to *ADHD*, czy brak dyscypliny? Zajrzyj na bloga.",
+  "layout": "L6",
+  "photo": "metafory/zdjecia/9393_bw.jpg",
+  "palette": "mono",
+  "font": "raj",
+  "focus": 40,
+  "tilt": -2,
+  "spec": "metafory/blog/2026-11-15.json",
+  "png": "metafory/blog/2026-11-15.png"
  }
 ]
