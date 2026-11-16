@@ -667,7 +667,7 @@
   "ocena": 3,
   "tekst": "Wyobraź sobie, że już nikomu nic nie musisz udowadniać. Ani sobie, ani innym. Jak będziesz się dziś traktować na treningu?",
   "zrodlo": "bank",
-  "uzyta": null
+  "uzyta": "2026-11-16"
  },
  {
   "id": 7,
@@ -12947,6 +12947,26 @@
   "typ": "zdanie",
   "tekst": "Nie czekaj, aż poczujesz pewność siebie, żeby pójść na trening. *Idź i rób swoje, a pewność może przyjść po drodze.*",
   "zrodlo": "zoom 2026-11-14",
+  "uzyta": null
+ },
+ {
+  "id": 1299,
+  "nr_banku": null,
+  "temat": "myśli",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Gdy pojawia się niekorzystna myśl, od razu się od niej zdystansuj. To tylko myśl. Możesz powiedzieć sobie: mam taką myśl, że…",
+  "zrodlo": "zoom 2026-11-16",
+  "uzyta": null
+ },
+ {
+  "id": 1300,
+  "nr_banku": null,
+  "temat": "decyzje",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Decyzje podejmujesz codziennie. Tę umiejętność już masz i możesz ją przenieść na trudniejsze sprawy.",
+  "zrodlo": "zoom 2026-11-16",
   "uzyta": null
  }
 ]

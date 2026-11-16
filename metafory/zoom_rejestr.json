@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-11-15T12:00:00Z",
+ "ostatnio_do": "2026-11-16T09:45:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -478,6 +478,14 @@
    "data": "2026-11-14",
    "temat": "konsultacja wstępna",
    "dodano_mysli": 1,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "EDDEF292-3FE9-461A-937A-72FF76FB88D1",
+   "data": "2026-11-16",
+   "temat": "rozmowa o pracy i decyzjach (sprawy osobiste klientki)",
+   "dodano_mysli": 2,
    "dodano_metafor": 0,
    "status": "przetworzone"
   }
