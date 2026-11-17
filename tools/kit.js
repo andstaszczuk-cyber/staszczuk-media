@@ -55,7 +55,7 @@ function page(body, { w, h, bg = 'grad' } = {}) {
 async function render(html, out, w, h) {
   const { chromium } = require('playwright');
   const glob = fs.readdirSync('/opt/pw-browsers').filter(d => d.startsWith('chromium_headless_shell')).sort().reverse();
-  const exe = glob.length ? `/opt/pw-browsers/${glob[0]}/chrome-linux/headless_shell` : undefined;
+  let exe; for (const g of glob) for (const c of [`/opt/pw-browsers/${g}/chrome-linux/headless_shell`, `/opt/pw-browsers/${g}/chrome-headless-shell-linux64/chrome-headless-shell`]) if (!exe && fs.existsSync(c)) exe = c;
   const b = await chromium.launch({ executablePath: exe, args: ['--no-sandbox'] });
   const p = await b.newPage({ viewport: { width: w, height: h } });
   const tmp = path.join(__dirname, '.tmp.html');
