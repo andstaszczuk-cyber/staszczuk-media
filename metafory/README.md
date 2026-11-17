@@ -65,4 +65,6 @@ Andrzej ma panel (artefakt claude.ai "Panel Relacji", baza db, kolekcja `zmiany`
 - Każdą poprawkę Andrzeja porównaj z oryginałem i dopisz poniżej wniosek ogólny (czego unikać, co robić), w stylu zasad z sekcji Jak pisać. Te wnioski obowiązują we wszystkich następnych relacjach.
 
 ### Wnioski z poprawek w panelu
-(na razie brak, uzupełniaj po każdej zastosowanej poprawce)
+- 17.11 (blog): Andrzej dodał do nagłówka słowo dlaczego (Poczytaj dlaczego) i rozwinął body do pełnej nazwy: psychologiem sportowym, nie samo psychologiem. Wniosek: nagłówek ma wprost obiecywać odpowiedź na pytanie z problemu (dlaczego, jak), a nazwy zawodu podawaj pełne.
+- 17.11 (metafora): zamiast Rodzic przychodzi: napisał Rodzic przychodzi i mówi: oraz mistrzem świata zamiast mistrz świata. Wniosek: pisz pełnymi, płynnymi zdaniami w mowie potocznej (mówi, ma być mistrzem), bez skrótów typu dwukropek zamiast czasownika.
+- Uwaga: nagłówek blogowy w 3 liniach zasłania twarz w układzie L4; przy dłuższym nagłówku wybieraj układ z tekstem poza twarzą albo grafikę.
