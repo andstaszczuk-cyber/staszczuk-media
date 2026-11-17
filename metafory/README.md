@@ -58,3 +58,11 @@ Kolejne poprawki Andrzeja (3.11.2026), reszta przerobionych tekstów zaakceptowa
 
 ## Relacja: wolne terminy (od 10.11.2026)
 Przy każdym przebiegu zadania przygotuj też relacje z wolnymi terminami według metafory/wolne_terminy/README.md (generator render.py), obejrzyj i wyślij Andrzejowi przez SendUserFile. Nie planuj w Metricool.
+
+## Panel relacji i uczenie się z poprawek (od 17.11.2026)
+Andrzej ma panel (artefakt claude.ai "Panel Relacji", baza db, kolekcja `zmiany`), w którym poprawia tekst, układ, paletę, font i zdjęcie relacji oraz teksty w kolejkach. Zapisane poprawki ma status `oczekuje`.
+- Na początku każdego przebiegu, jeśli dostępne jest narzędzie ArtifactData (url https://claude.ai/artifact/NTzMragYwaaEToUnmHypp4), odczytaj kolekcję `zmiany`. Poprawki relacji z dzisiejszą datą zastosuj w specu i przerenderuj. Poprawki tekstów i metafor (pola `tekst`, `wyrzuc`) wprowadź do teksty_kolejka.json / kolejka.json (wyrzuc = uzyta "odrzucona"). Po zastosowaniu ustaw status na `zastosowano`.
+- Każdą poprawkę Andrzeja porównaj z oryginałem i dopisz poniżej wniosek ogólny (czego unikać, co robić), w stylu zasad z sekcji Jak pisać. Te wnioski obowiązują we wszystkich następnych relacjach.
+
+### Wnioski z poprawek w panelu
+(na razie brak, uzupełniaj po każdej zastosowanej poprawce)
