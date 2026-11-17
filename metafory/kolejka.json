@@ -213,7 +213,7 @@
   "tekst": "Przychodzą rodzice, przyprowadzają dzieciaka i mówią: dzisiaj zaczynamy, a za tydzień chcemy, żeby był mistrzem świata. Tak to nie działa. Dam ci to, czego potrzebujesz, ale potrzebny jest proces.",
   "na_relacje": "Dziś pierwszy trening, za tydzień mistrz świata? Nie. Na wszystko potrzebny jest proces.",
   "warianty": [],
-  "uzyta": null
+  "uzyta": "2026-11-17"
  },
  {
   "id": 15,
@@ -1946,6 +1946,15 @@
   "rodzaj": "metafora",
   "tekst": "Pracujemy nad psychiką. Wchodzimy do stajni Augiasza, porządkujemy ją, zmieniamy, ulepszamy.",
   "na_relacje": "Praca nad głową to jak sprzątanie stajni Augiasza: wchodzisz, porządkujesz i ulepszasz.",
+  "warianty": [],
+  "uzyta": null
+ },
+ {
+  "id": 215,
+  "temat": "stres",
+  "rodzaj": "metafora",
+  "tekst": "Podwyższony stres to tak, jakbyś jechała, gazując prawie do deski.",
+  "na_relacje": "Stres to jak gaz wciśnięty prawie do deski: silnik pracuje na wysokich obrotach i szybko się męczy.",
   "warianty": [],
   "uzyta": null
  }

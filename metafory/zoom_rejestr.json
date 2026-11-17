@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-11-16T09:45:00Z",
+ "ostatnio_do": "2026-11-17T09:50:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -486,6 +486,30 @@
    "data": "2026-11-16",
    "temat": "rozmowa o pracy i decyzjach (sprawy osobiste klientki)",
    "dodano_mysli": 2,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "66F78836-7673-43F9-9CDE-B7735590F08C",
+   "data": "2026-11-16",
+   "temat": "sesja z zawodniczką",
+   "dodano_mysli": 2,
+   "dodano_metafor": 1,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "7D1545F7-039F-4E9E-B536-1775D26FE53E",
+   "data": "2026-11-16",
+   "temat": "sesja (sprawy osobiste klienta)",
+   "dodano_mysli": 1,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "4E812822-1A67-448B-B141-AEE08D156AB9",
+   "data": "2026-11-16",
+   "temat": "sesja z klientem",
+   "dodano_mysli": 1,
    "dodano_metafor": 0,
    "status": "przetworzone"
   }

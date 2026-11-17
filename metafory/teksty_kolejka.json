@@ -187,7 +187,7 @@
   "ocena": null,
   "tekst": "Wiesz więcej, jesteś bardziej świadomy i poukładany. To nie znaczy, że w każdej sytuacji będziesz skuteczny. Wiedza to jeszcze nie wdrożenie.",
   "zrodlo": "zoom 2026-11-03",
-  "uzyta": null
+  "uzyta": "duplikat"
  },
  {
   "id": 1277,
@@ -197,7 +197,7 @@
   "ocena": null,
   "tekst": "Są dwie strategie radzenia sobie z trudną sytuacją. Pierwsza: robisz coś z tym, na co masz wpływ. To buduje spokój i zmniejsza lęk, bo coś zrobiłeś.",
   "zrodlo": "zoom 2026-11-03",
-  "uzyta": null
+  "uzyta": "2026-11-17"
  },
  {
   "id": 1278,
@@ -227,7 +227,7 @@
   "ocena": null,
   "tekst": "Co innego wiedzieć, a co innego stosować. Gdyby ludzie wszystko wiedzieli i robili, nikt nie szukałby pomocy.",
   "zrodlo": "zoom 2026-10-31",
-  "uzyta": null
+  "uzyta": "duplikat"
  },
  {
   "id": 1274,
@@ -12966,6 +12966,46 @@
   "typ": "zdanie",
   "ocena": null,
   "tekst": "Decyzje podejmujesz codziennie. Tę umiejętność już masz i możesz ją przenieść na trudniejsze sprawy.",
+  "zrodlo": "zoom 2026-11-16",
+  "uzyta": null
+ },
+ {
+  "id": 1301,
+  "nr_banku": null,
+  "temat": "regeneracja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Jak nie będzie pary w mięśniach i w głowie, i tak nic nie zrobisz, a kryzys będzie tylko silniejszy. Odpocząć można nawet we własnym mieszkaniu.",
+  "zrodlo": "zoom 2026-11-16",
+  "uzyta": null
+ },
+ {
+  "id": 1302,
+  "nr_banku": null,
+  "temat": "plan i wdrożenie",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Łatwiej trzymać się planu, gdy wiesz, że ktoś cię o niego zapyta. Zobowiązanie wobec drugiego człowieka naprawdę pomaga.",
+  "zrodlo": "zoom 2026-11-16",
+  "uzyta": null
+ },
+ {
+  "id": 1303,
+  "nr_banku": null,
+  "temat": "relacje",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Czasem bliska osoba nie potrzebuje rozwiązań ani narzędzi. Potrzebuje emocjonalnego zapewnienia: dobrego słowa albo przytulenia.",
+  "zrodlo": "zoom 2026-11-16",
+  "uzyta": null
+ },
+ {
+  "id": 1304,
+  "nr_banku": null,
+  "temat": "ćwiczenie umiejętności",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Niećwiczone umiejętności zanikają. Kto zawsze dostaje gotową odpowiedź, przestaje myśleć sam, a na zawodach musi skorzystać z własnej głowy.",
   "zrodlo": "zoom 2026-11-16",
   "uzyta": null
  }
