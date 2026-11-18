@@ -1,0 +1,159 @@
+{
+ "cover": {
+  "layout": "split",
+  "left": "NA SOBIE",
+  "right": "NA INNYCH",
+  "title": "Nie musisz dotykać\n*gorącego żelazka*",
+  "size": 78,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "iron",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "sprawdzam",
+      "i parzę się"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 622,
+     "y": 50,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "patrzę",
+      "i wyciągam wnioski"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "think"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Starsi już to przeszli",
+   "body": "Na obozie trenujesz obok ludzi z większym doświadczeniem. To kopalnia wiedzy.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "people",
+      "label": "starsi koledzy"
+     },
+     {
+      "icon": "whistle",
+      "label": "trener"
+     },
+     {
+      "icon": "eye",
+      "label": "obserwacja",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Pytaj o ich błędy",
+   "body": "Jedna szczera rozmowa potrafi oszczędzić ci roku błądzenia.",
+   "viz": {
+    "type": "notes",
+    "title": "PYTANIA",
+    "lines": [
+     "czego żałujesz?",
+     "co byś zmienił?",
+     "co ci pomogło?"
+    ]
+   }
+  },
+  {
+   "title": "Bierz to, co pasuje",
+   "body": "Z cudzej historii wybierasz postawy. Całości nie kopiujesz.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "BIORĘ",
+      "items": [
+       "rutyna",
+       "cierpliwość"
+      ],
+      "hl": true
+     },
+     {
+      "title": "SPRAWDZAM",
+      "items": [
+       "wczesny trening"
+      ]
+     },
+     {
+      "title": "ODKŁADAM",
+      "items": [
+       "zajeżdżanie"
+      ],
+      "dash": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Kogo *zapytasz* o jego błędy?",
+  "cta": "Zadaj jedno pytanie komuś starszemu w drużynie jeszcze w tym tygodniu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

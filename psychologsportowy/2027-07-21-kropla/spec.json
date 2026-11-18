@@ -1,0 +1,118 @@
+{
+ "cover": {
+  "layout": "big",
+  "big": "KROPLA",
+  "bigSize": 220,
+  "bigSub": "drąży skałę, bo kapie codziennie",
+  "title": "Małe rzeczy\n*każdego dnia*",
+  "size": 90,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 460,
+     "y": 260,
+     "w": 380,
+     "h": 140,
+     "r": 24,
+     "c": "fig2"
+    },
+    {
+     "k": "circle",
+     "x": 650,
+     "y": 262,
+     "r": 34,
+     "c": "soft"
+    },
+    {
+     "k": "icon",
+     "name": "drop",
+     "x": 610,
+     "y": 20,
+     "s": 80,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "drop",
+     "x": 625,
+     "y": 130,
+     "s": 50,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zryw raz w tygodniu męczy",
+   "body": "Heroiczny dzień daje zakwasy i zniechęcenie.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "bolt",
+     "label": "wielki zryw",
+     "sub": "raz na tydzień"
+    },
+    "right": {
+     "icon": "drop",
+     "label": "mała kropla",
+     "sub": "każdego dnia"
+    }
+   }
+  },
+  {
+   "title": "Kropla po kropli",
+   "body": "Kilka minut dziennie przez całe lato robi więcej niż jeden wielki dzień.",
+   "viz": {
+    "type": "stack",
+    "cols": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "labels": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "caption": "tygodnie małych kroków"
+   }
+  },
+  {
+   "title": "Pewność rośnie tak samo",
+   "body": "Każde dowiezione małe zadanie to dowód, że dotrzymujesz słowa sobie.",
+   "viz": {
+    "type": "checklist",
+    "title": "DZIŚ",
+    "items": [
+     "10 minut techniki",
+     "zapis po treningu",
+     "sen o stałej porze"
+    ],
+    "chip": "ZROBIONE",
+    "chipX": 400
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaka jest *twoja kropla* na dziś?",
+  "cta": "Wybierz jedną małą rzecz i rób ją codziennie do końca lipca.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

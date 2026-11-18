@@ -1,0 +1,135 @@
+{
+ "cover": {
+  "layout": "big",
+  "big": "PAUZA?",
+  "bigSize": 220,
+  "bigSub": "wakacje od pracy nad głową",
+  "title": "Głowę też\n*trzeba odświeżać*",
+  "size": 90,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 470,
+     "y": 90,
+     "w": 260,
+     "h": 260,
+     "r": 30,
+     "c": "card"
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 530,
+     "y": 150,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "pause",
+     "x": 760,
+     "y": 40,
+     "s": 100,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Umiejętności się odświeża",
+   "body": "Narzędzie, którego nie używasz, słabnie. To mentalne też.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "biceps zrobiony, więcej nie przychodzę",
+    "to": "ćwiczę regularnie"
+   }
+  },
+  {
+   "title": "Latem może być lżej",
+   "body": "Mniej czasu na głowę jest w porządku. Wystarczy podtrzymanie.",
+   "viz": {
+    "type": "bars",
+    "caption": "PRACA MENTALNA",
+    "items": [
+     {
+      "label": "sezon",
+      "v": 0.8
+     },
+     {
+      "label": "lipiec",
+      "v": 0.35,
+      "hl": true
+     },
+     {
+      "label": "zero",
+      "v": 0.02
+     }
+    ]
+   }
+  },
+  {
+   "title": "Minimum na lato",
+   "body": "Trzy krótkie sesje w tygodniu po kilka minut.",
+   "viz": {
+    "type": "week",
+    "days": [
+     {
+      "d": "PN",
+      "icon": "wind",
+      "label": "oddech",
+      "mark": "hl"
+     },
+     {
+      "d": "WT",
+      "icon": "sun",
+      "label": "luz",
+      "dim": true
+     },
+     {
+      "d": "ŚR",
+      "icon": "note",
+      "label": "zapis",
+      "mark": "hl"
+     },
+     {
+      "d": "CZ",
+      "icon": "sun",
+      "label": "luz",
+      "dim": true
+     },
+     {
+      "d": "PT",
+      "icon": "eye",
+      "label": "obraz",
+      "mark": "hl"
+     },
+     {
+      "d": "SB",
+      "icon": "sun",
+      "label": "luz",
+      "dim": true
+     },
+     {
+      "d": "ND",
+      "icon": "sun",
+      "label": "luz",
+      "dim": true
+     }
+    ],
+    "note": "kilka minut, trzy razy"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co jest twoim *minimum* na lato?",
+  "cta": "Wpisz w kalendarz trzy krótkie sesje w tygodniu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

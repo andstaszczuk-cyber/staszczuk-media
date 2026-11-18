@@ -1,0 +1,99 @@
+{
+ "cover": {
+  "layout": "top",
+  "kicker": "NOWY SEZON",
+  "title": "Jakim problemem\n*będziesz dla rywala?*",
+  "size": 86,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 80,
+     "y": 160,
+     "s": 0.85,
+     "pose": "hips"
+    },
+    {
+     "k": "person",
+     "x": 520,
+     "y": 190,
+     "s": 0.8,
+     "pose": "think",
+     "flip": true,
+     "c": "fig2"
+    },
+    {
+     "k": "bubble",
+     "x": 560,
+     "y": 20,
+     "w": 320,
+     "h": 110,
+     "lines": [
+      "jak go zatrzymać?"
+     ],
+     "size": 30,
+     "tail": "left"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Odwróć pytanie",
+   "body": "Zamiast martwić się rywalem, pomyśl, co on będzie musiał zrobić z tobą.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "jak ja sobie z nim poradzę?",
+    "to": "co on zrobi ze mną?"
+   }
+  },
+  {
+   "title": "Twoje atuty to jego kłopot",
+   "body": "Spisz, czego rywale najbardziej nie lubią w grze przeciwko tobie.",
+   "viz": {
+    "type": "notes",
+    "title": "MÓJ KŁOPOT DLA RYWALA",
+    "lines": [
+     "szybki start",
+     "nie odpuszczam piłki",
+     "mocna końcówka"
+    ]
+   }
+  },
+  {
+   "title": "Pytanie od pierwszej minuty",
+   "body": "Zaplanuj, jak od początku stawiasz rywalowi zadanie.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "start",
+      "icon": "flag",
+      "hl": true
+     },
+     {
+      "top": "środek",
+      "icon": "ball"
+     },
+     {
+      "top": "końcówka",
+      "icon": "star"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co rywal *musi* zrobić z tobą?",
+  "cta": "Zapisz trzy rzeczy, które sprawiają rywalom najwięcej kłopotu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

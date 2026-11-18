@@ -1,0 +1,142 @@
+{
+ "cover": {
+  "layout": "top",
+  "kicker": "PO CO TRENUJESZ",
+  "title": "Trzy paliwa\n*motywacji*",
+  "size": 104,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 20,
+     "y": 120,
+     "w": 260,
+     "h": 420,
+     "r": 28,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 320,
+     "y": 60,
+     "w": 260,
+     "h": 480,
+     "r": 28,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 620,
+     "y": 160,
+     "w": 260,
+     "h": 380,
+     "r": 28,
+     "c": "card"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 90,
+     "y": 200,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 390,
+     "y": 150,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 690,
+     "y": 240,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 150,
+     "y": 420,
+     "t": "wybór",
+     "size": 40,
+     "w": 800,
+     "c": "fg",
+     "anchor": "middle"
+    },
+    {
+     "k": "text",
+     "x": 450,
+     "y": 420,
+     "t": "rozwój",
+     "size": 40,
+     "w": 800,
+     "c": "fg",
+     "anchor": "middle"
+    },
+    {
+     "k": "text",
+     "x": 750,
+     "y": 450,
+     "t": "ludzie",
+     "size": 40,
+     "w": 800,
+     "c": "fg",
+     "anchor": "middle"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wybór",
+   "body": "Kiedy trenujesz, bo sam tak zdecydowałeś, łatwiej przetrwać gorsze dni.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "muszę iść na trening",
+    "to": "wybieram trening"
+   }
+  },
+  {
+   "title": "Rozwój",
+   "body": "Poczucie, że jesteś lepszy niż miesiąc temu, ciągnie dalej.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "czerwiec",
+     "lipiec",
+     "sierpień"
+    ],
+    "done": 2,
+    "who": true
+   }
+  },
+  {
+   "title": "Ludzie",
+   "body": "Grupa, z którą trenujesz, potrafi pociągnąć cię w gorszy dzień.",
+   "viz": {
+    "type": "hub",
+    "center": "moja motywacja",
+    "icon": "people",
+    "items": [
+     "wybór",
+     "rozwój",
+     "ludzie"
+    ],
+    "hl": 2
+   }
+  }
+ ],
+ "end": {
+  "question": "Którego paliwa *brakuje* ci tego lata?",
+  "cta": "Dolej dziś trochę tego, którego masz najmniej.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

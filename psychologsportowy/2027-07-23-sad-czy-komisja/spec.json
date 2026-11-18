@@ -1,0 +1,120 @@
+{
+ "cover": {
+  "layout": "hero",
+  "kicker": "PO BŁĘDZIE",
+  "title": "Sąd czy\n*komisja?*",
+  "size": 104,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 300,
+     "y": 90,
+     "s": 1.0,
+     "pose": "think"
+    },
+    {
+     "k": "bubble",
+     "x": 20,
+     "y": 60,
+     "w": 300,
+     "h": 110,
+     "lines": [
+      "kto winny?"
+     ],
+     "c": "soft",
+     "tc": "fg",
+     "size": 34,
+     "tail": "right"
+    },
+    {
+     "k": "bubble",
+     "x": 590,
+     "y": 60,
+     "w": 300,
+     "h": 110,
+     "lines": [
+      "co się stało?"
+     ],
+     "size": 34,
+     "tail": "left"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 680,
+     "y": 320,
+     "s": 150,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Sąd szuka winnego",
+   "body": "Wyrok w kilka sekund, kara na kilka dni. Wniosków brak.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "cloudRain",
+     "label": "sąd",
+     "sub": "kto winny?"
+    },
+    "right": {
+     "icon": "note",
+     "label": "komisja",
+     "sub": "co się stało?"
+    }
+   }
+  },
+  {
+   "title": "Komisja szuka przyczyn",
+   "body": "Co działo się przed błędem? Co było w twoich rękach?",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "zmęczenie",
+      "icon": "battery"
+     },
+     {
+      "top": "pośpiech",
+      "icon": "clock"
+     },
+     {
+      "top": "błąd",
+      "icon": "bolt",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Raport kończy się zaleceniem",
+   "body": "Jedna rzecz do zmiany na kolejny trening.",
+   "viz": {
+    "type": "notes",
+    "title": "RAPORT",
+    "lines": [
+     "co się stało",
+     "dlaczego",
+     "co zmieniam"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak brzmi twój *raport* z ostatniego błędu?",
+  "cta": "Opisz ostatni błąd jak komisja i dopisz jedno zalecenie.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

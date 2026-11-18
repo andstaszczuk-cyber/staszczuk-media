@@ -1,0 +1,136 @@
+{
+ "cover": {
+  "layout": "hero",
+  "kicker": "CEL NA SEZON",
+  "title": "Szanse zamieniasz\n*w zadania*",
+  "size": 92,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "circle",
+     "x": 300,
+     "y": 300,
+     "r": 220,
+     "fill": "none",
+     "stroke": "soft",
+     "sw": 60
+    },
+    {
+     "k": "path",
+     "d": "M300 80 A220 220 0 1 1 90 368",
+     "c": "A",
+     "w": 60
+    },
+    {
+     "k": "text",
+     "x": 300,
+     "y": 330,
+     "t": "60%",
+     "size": 110,
+     "w": 800,
+     "c": "fg",
+     "anchor": "middle"
+    },
+    {
+     "k": "chip",
+     "x": 600,
+     "y": 120,
+     "text": "to już mam",
+     "size": 32
+    },
+    {
+     "k": "chip",
+     "x": 600,
+     "y": 420,
+     "text": "do zrobienia",
+     "c": "soft",
+     "tc": "fg",
+     "size": 32
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zrób uczciwą ocenę",
+   "body": "Ile dziś masz szans na cel? Bez czarowania i bez katastrofy.",
+   "viz": {
+    "type": "scale10",
+    "caption": "SZANSE NA CEL",
+    "points": [
+     {
+      "n": 6,
+      "label": "dziś",
+      "hl": true
+     },
+     {
+      "n": 8,
+      "label": "po sierpniu"
+     }
+    ],
+    "arrow": [
+     6,
+     8
+    ]
+   }
+  },
+  {
+   "title": "Każdy brak to zadanie",
+   "body": "Rozpisz, czego brakuje, i nadaj temu termin.",
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "dumbbell",
+      "label": "siła",
+      "ok": false,
+      "sub": "do zrobienia"
+     },
+     {
+      "icon": "brain",
+      "label": "rutyna",
+      "ok": false,
+      "sub": "do zrobienia"
+     },
+     {
+      "icon": "ball",
+      "label": "technika",
+      "sub": "jest dobrze"
+     },
+     {
+      "icon": "moon",
+      "label": "sen",
+      "sub": "jest dobrze"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Gwarancji nie ma",
+   "body": "Zwiększasz prawdopodobieństwo. To bardzo dużo.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "trophy",
+     "label": "gwarancja",
+     "sub": "nie istnieje",
+     "cross": true
+    },
+    "right": {
+     "icon": "check",
+     "label": "większa szansa",
+     "sub": "zadania co tydzień"
+    }
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *dołożysz*, żeby szansa wzrosła?",
+  "cta": "Rozpisz brakującą część celu na trzy zadania na sierpień.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

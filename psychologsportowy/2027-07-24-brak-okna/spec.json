@@ -1,0 +1,133 @@
+{
+ "cover": {
+  "layout": "split",
+  "left": "BRAK OKNA",
+  "right": "CAŁY DOM",
+  "title": "Patrzysz na brak okna,\n*a dom już stoi*",
+  "size": 74,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "jednego",
+      "brakuje"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "drzwi, dach,",
+      "ściany są"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "point"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Uwaga lubi braki",
+   "body": "Widzisz to, czego jeszcze nie ma. Reszta znika z pola widzenia.",
+   "viz": {
+    "type": "focus",
+    "center": "brak okna",
+    "around": [
+     "dach",
+     "ściany",
+     "drzwi",
+     "fundament"
+    ]
+   }
+  },
+  {
+   "title": "Policz, co już stoi",
+   "body": "Wypisz, co masz gotowe przed sezonem.",
+   "viz": {
+    "type": "checklist",
+    "title": "MÓJ DOM",
+    "items": [
+     "kondycja",
+     "technika",
+     "drużyna"
+    ],
+    "chip": "STOI",
+    "chipX": 400
+   }
+  },
+  {
+   "title": "Okno wstawisz w sierpniu",
+   "body": "Brakujący element to zadanie. Dom nadal jest twój.",
+   "viz": {
+    "type": "bricks",
+    "topIcon": "house",
+    "label": " ",
+    "caption": "dokładasz po kawałku"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co w twoim domu *już stoi*?",
+  "cta": "Wypisz pięć gotowych elementów, zanim pomyślisz o brakach.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
