@@ -71,8 +71,9 @@ const s2 = wrap(`${scene}
     <span style="background:#fff;color:#14061F;padding:12px 34px;border-radius:8px">▶ SPRÓBUJ PONOWNIE</span><span style="padding:12px 34px;opacity:.6">WYJDŹ</span></div>
 </div>
 <div class="box" style="top:880px;background:rgba(0,0,0,.6);border-radius:10px;padding:26px 32px"><div class="p" style="font-size:40px">Nikt po przegranej misji nie mówi sobie, że jest beznadziejny i nie nadaje się do grania.</div></div>
-<div class="box" style="top:1140px;background:rgba(0,0,0,.62);border-radius:10px;padding:24px 32px"><div style="font:400 88px/1.08 Ant;text-transform:uppercase;transform:skewX(-6deg);text-shadow:4px 4px 0 #000">A po słabym meczu<br>albo starcie <span class="pk">też tak</span><br>do siebie podchodzisz?</div></div>
-<div style="position:absolute;left:60px;bottom:60px;width:300px">${minimap}${bar('', 34, PINK).replace('margin-top:22px','margin-top:6px')}${bar('', 12, TEAL).replace('margin-top:22px','margin-top:-14px')}</div>`, true);
+<img src="file://${path.join(__dirname,'../psychologsportu/relacje/2026-11-19-gta6/andrzej-wyciety.png')}" style="position:absolute;right:10px;bottom:0;height:820px;filter:saturate(1.15) contrast(1.05) drop-shadow(0 0 0 #fff) drop-shadow(6px 0 0 #14061F) drop-shadow(-6px 0 0 #14061F) drop-shadow(0 -6px 0 #14061F) drop-shadow(0 0 40px rgba(255,61,139,.6))">
+<div style="position:absolute;left:60px;top:1140px;width:540px;background:rgba(0,0,0,.62);border-radius:10px;padding:24px 30px 24px 44px"><div style="font:400 62px/1.08 Ant;text-transform:uppercase;transform:skewX(-6deg);text-shadow:4px 4px 0 #000">A po słabym<br>meczu albo<br>starcie <span class="pk">też tak</span><br>do siebie<br>podchodzisz?</div></div>
+<div style="position:absolute;left:60px;bottom:60px;width:240px">${minimap.replace('width="300" height="300"','width="240" height="240"')}${bar('', 34, PINK).replace('margin-top:22px','margin-top:6px')}${bar('', 12, TEAL).replace('margin-top:22px','margin-top:-14px')}</div>`);
 
 const s3 = wrap(`
 <div class="box" style="top:170px"><span class="tag" style="background:${TEAL};color:#14061F">TWOJA MISJA</span></div>
