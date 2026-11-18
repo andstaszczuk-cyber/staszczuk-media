@@ -1,0 +1,38 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Ile razy mam Ci tłumaczyć?",
+    "*Spróbujmy jeszcze raz, wolniej*."
+   ],
+   "text": "Uczysz dziecko *nowej umiejętności*."
+  },
+  {
+   "kind": "point",
+   "title": "Jedna *wskazówka*",
+   "body": "Pięć poprawek naraz to za dużo. Wybierz jedną.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Błąd *jest w planie*",
+   "body": "Upadki na rolkach i woda w nosie to część nauki.",
+   "icon": "plaster"
+  },
+  {
+   "kind": "point",
+   "title": "Krótko *i z przerwą*",
+   "body": "Kwadrans nauki i zabawa. Lepiej wrócić jutro.",
+   "icon": "clock"
+  },
+  {
+   "kind": "end",
+   "text": "Cierpliwość *też się trenuje*.",
+   "cta": "Zapisz przed wakacyjną nauką.",
+   "icon": "heart"
+  }
+ ]
+}

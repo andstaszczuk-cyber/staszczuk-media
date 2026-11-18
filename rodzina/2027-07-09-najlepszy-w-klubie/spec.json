@@ -1,0 +1,34 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "W klubie najlepszy.\nNa obozie *jeden z wielu*."
+  },
+  {
+   "kind": "point",
+   "title": "To *nowa skala*",
+   "body": "Na obozie są dzieci z wielu miejsc. Poziom jest inny.",
+   "icon": "podium"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj, *czego się uczy*",
+   "body": "Lepsi obok to najlepsza lekcja tego lata.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Wartość *bez miejsca w grupie*",
+   "body": "Kochasz dziecko tak samo, gdy jest piąte.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Lepsi obok *pokazują drogę*.",
+   "cta": "Zapisz i wyślij rodzicowi przed obozem.",
+   "icon": "heart"
+  }
+ ]
+}

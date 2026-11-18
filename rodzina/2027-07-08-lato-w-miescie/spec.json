@@ -1,0 +1,41 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Lato w mieście\n*też może być w ruchu*:",
+   "items": [
+    "basen",
+    "rower po okolicy",
+    "boisko pod blokiem",
+    "park z kolegami"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Mapa *okolicy*",
+   "body": "Spiszcie razem miejsca do ruchu w promieniu kilku kilometrów.",
+   "icon": "compass"
+  },
+  {
+   "kind": "point",
+   "title": "Dzień *z planem*",
+   "body": "Jedna aktywność dziennie wystarczy, żeby dzień miał rytm.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Cudze *wyjazdy*",
+   "body": "W sieci wyglądają lepiej niż w rzeczywistości.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Ciekawe lato *zaczyna się za drzwiami*.",
+   "cta": "Zapisz na lato w mieście.",
+   "icon": "heart"
+  }
+ ]
+}

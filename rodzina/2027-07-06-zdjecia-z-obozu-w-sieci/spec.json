@@ -1,0 +1,36 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Na zdjęciu ma smutną minę. Coś się stało.",
+   "new": "Jedno zdjęcie to *jedna sekunda dnia*.",
+   "text": "Relacje z obozu w sieci."
+  },
+  {
+   "kind": "point",
+   "title": "Sekunda *z całego dnia*",
+   "body": "Zdjęcie łapie chwilę. Minutę później dziecko mogło się śmiać.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Mniej *sprawdzania*",
+   "body": "Raz dziennie wystarczy. Częstsze zaglądanie nakręca niepokój.",
+   "icon": "phone"
+  },
+  {
+   "kind": "point",
+   "title": "Pytaj *dziecko*",
+   "body": "Rozmowa o stałej porze powie więcej niż sto zdjęć.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Spokojny rodzic *daje dziecku spokój*.",
+   "cta": "Zapisz i wyślij rodzicowi, który przegląda zdjęcia z obozu.",
+   "icon": "heart"
+  }
+ ]
+}

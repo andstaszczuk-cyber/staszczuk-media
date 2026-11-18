@@ -1,0 +1,41 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Dzień odwiedzin na obozie.\n*Zabierz ze sobą*:",
+   "items": [
+    "ciekawość",
+    "cierpliwość",
+    "luz przy trenerze",
+    "krótkie pożegnanie"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *prowadzi*",
+   "body": "Niech pokaże pokój, boisko, kolegów. To jego miejsce.",
+   "icon": "tent"
+  },
+  {
+   "kind": "point",
+   "title": "Trener *ma dziś luz*",
+   "body": "O postępy zapytasz po obozie. Dziś wystarczy dzień dobry.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Krótkie *pożegnanie*",
+   "body": "Długie pożegnania rozbudzają tęsknotę.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Odwiedzasz dziecko *w jego świecie*.",
+   "cta": "Zapisz przed wyjazdem na odwiedziny.",
+   "icon": "heart"
+  }
+ ]
+}

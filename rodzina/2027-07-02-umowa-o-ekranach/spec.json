@@ -1,0 +1,38 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Mamo, jeszcze jeden filmik.",
+    "*Ustalmy razem, ile ekranu dziennie*."
+   ],
+   "text": "Wakacyjna umowa *o ekranach*."
+  },
+  {
+   "kind": "point",
+   "title": "Ustalcie *razem*",
+   "body": "Dziecko, które współtworzy zasady, chętniej ich pilnuje.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Konkretne *pory*",
+   "body": "Ekran po obiedzie. Telefon poza stołem i poza sypialnią.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Ty też *w umowie*",
+   "body": "Dziecko patrzy, co Ty robisz ze swoim telefonem.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Umowa działa, gdy *wszyscy jej pilnują*.",
+   "cta": "Zapisz i usiądźcie do tego razem.",
+   "icon": "heart"
+  }
+ ]
+}

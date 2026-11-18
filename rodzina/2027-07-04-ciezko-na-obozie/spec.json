@@ -1,0 +1,34 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Na obozie jest ciężko.\n*Najpierw posłuchaj*."
+  },
+  {
+   "kind": "point",
+   "title": "Trud *jest częścią obozu*",
+   "body": "Dwa treningi dziennie męczą. Zakwasy i marudzenie są normalne.",
+   "icon": "tent"
+  },
+  {
+   "kind": "point",
+   "title": "Czerwone *flagi*",
+   "body": "Upokarzanie, ból, który narasta, brak snu albo jedzenia. Wtedy reagujesz.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj *o sens*",
+   "body": "Po co te ćwiczenia? Dziecko, które rozumie, łatwiej znosi wysiłek.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Trudny obóz też *może uczyć*.",
+   "cta": "Zapisz na telefon z obozu.",
+   "icon": "heart"
+  }
+ ]
+}

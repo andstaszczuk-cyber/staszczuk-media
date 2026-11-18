@@ -1,0 +1,36 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Jak było? Dobrze.",
+   "new": "Co dziś *Cię rozśmieszyło*?",
+   "text": "Rozmowa po dniu na półkoloniach."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *kolacja*",
+   "body": "Zmęczone dziecko potrzebuje jedzenia i chwili ciszy. Pytania mogą poczekać.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Pytaj *o ludzi*",
+   "body": "Z kim grał, kto go zaskoczył, z kim siedział przy obiedzie.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Zmęczenie *jest w porządku*",
+   "body": "Cały dzień na słońcu i w ruchu. Wcześniejszy sen wystarczy.",
+   "icon": "moon"
+  },
+  {
+   "kind": "end",
+   "text": "Dzień na półkoloniach *kończy się w domu*.",
+   "cta": "Zapisz na wieczór po półkoloniach.",
+   "icon": "heart"
+  }
+ ]
+}

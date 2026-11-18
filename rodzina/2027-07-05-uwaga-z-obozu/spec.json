@@ -1,0 +1,35 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "whistle",
+   "text": "Telefon od wychowawcy z obozu.\n*Najpierw wysłuchaj obu stron*."
+  },
+  {
+   "kind": "point",
+   "title": "Wysłuchaj *kadry*",
+   "body": "Spokojnie i do końca. Twoje dziecko też potrafi przesadzić.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj *dziecko*",
+   "body": "Jak ono to widzi? Bez przesłuchania, z ciekawością.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna *konsekwencja*",
+   "body": "Jeśli kadra już zareagowała, druga kara w domu jest zbędna.",
+   "icon": "triangle"
+  },
+  {
+   "kind": "end",
+   "text": "Wsparcie dla dziecka i *szacunek do zasad*.",
+   "cta": "Zapisz, zanim zadzwoni telefon.",
+   "icon": "heart"
+  }
+ ]
+}

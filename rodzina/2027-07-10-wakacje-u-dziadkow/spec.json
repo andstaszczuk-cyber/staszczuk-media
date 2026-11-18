@@ -1,0 +1,35 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "hug",
+   "text": "Dwa tygodnie u dziadków.\n*Ich dom, ich zasady*."
+  },
+  {
+   "kind": "point",
+   "title": "Inny *rytm*",
+   "body": "Późniejsze chodzenie spać i więcej luzu. To też jest odpoczynek.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Ruch *dla zabawy*",
+   "body": "Bieganie po łące, piłka z kuzynami. Rozpiska może poczekać.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Czas *z innymi dorosłymi*",
+   "body": "Dziadek opowie, jak sam kiedyś grał. To też coś daje.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Dziadkowie dają to, *czego rodzic nie zdąży*.",
+   "cta": "Zapisz i wyślij przed wyjazdem do dziadków.",
+   "icon": "heart"
+  }
+ ]
+}

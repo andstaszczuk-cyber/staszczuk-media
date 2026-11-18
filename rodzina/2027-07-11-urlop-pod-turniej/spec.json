@@ -1,0 +1,36 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Cały urlop pod turniej dziecka.",
+   "new": "Urlop *dla całej rodziny*.",
+   "text": "Planujecie letni wyjazd."
+  },
+  {
+   "kind": "point",
+   "title": "Każdy *ma swoje potrzeby*",
+   "body": "Rodzeństwo, partner, Ty. Wakacje są dla wszystkich.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Turniej *jako część*",
+   "body": "Kilka dni gry, reszta dla rodziny.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj *zawodnika*",
+   "body": "Czasem samo woli odpocząć od sportu.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Rodzina też potrzebuje *wakacji od sportu*.",
+   "cta": "Zapisz przed planowaniem urlopu.",
+   "icon": "heart"
+  }
+ ]
+}
