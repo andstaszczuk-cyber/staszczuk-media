@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "dinner",
+   "text": "Ile weekendów\\n*oddasz sędziowaniu?*"
+  },
+  {
+   "kind": "point",
+   "title": "Dyspozycyjność",
+   "body": "Przed rundą deklarujesz terminy. To decyzja na całą jesień.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Twoje wartości",
+   "body": "Co jeszcze jest dla ciebie ważne? Widać to w kalendarzu.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa w domu",
+   "body": "Usiądźcie razem nad terminami, zanim je wyślesz.",
+   "icon": "dom"
+  },
+  {
+   "kind": "end",
+   "text": "Wartości widać\\n*w kalendarzu*.",
+   "cta": "Zapisz i usiądź z kalendarzem"
+  }
+ ]
+}

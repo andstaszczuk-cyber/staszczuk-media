@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Martwisz się sierpniem\\n*już w lipcu?*"
+  },
+  {
+   "kind": "point",
+   "title": "Zebra i lew",
+   "body": "Zebra stresuje się, kiedy widzi lwa. Kilka tygodni wcześniej śpi spokojnie.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Przygotowanie czy zamartwianie?",
+   "body": "Przygotowanie kończy się krokiem. Zamartwianie kręci się w kółko.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden krok",
+   "body": "Z każdej obawy wyciągnij jedną rzecz, którą możesz zrobić teraz.",
+   "icon": "lista"
+  },
+  {
+   "kind": "end",
+   "text": "Sierpień przyjdzie.\\n*Teraz jest lipiec*.",
+   "cta": "Zapisz i wróć, gdy głowa ucieknie"
+  }
+ ]
+}

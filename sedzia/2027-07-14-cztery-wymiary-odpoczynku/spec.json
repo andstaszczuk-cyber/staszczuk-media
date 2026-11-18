@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "4",
+   "text": "wymiary odpoczynku.\\n*Sprawdź wszystkie*."
+  },
+  {
+   "kind": "point",
+   "title": "Fizyczny",
+   "body": "Sen, ruch dla przyjemności, ciało bez obciążeń.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Społeczny i emocjonalny",
+   "body": "Ludzie, przy których odpoczywasz, i czas na to, co czujesz.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Duchowy",
+   "body": "To, co daje ci sens poza boiskiem. Natura, cisza, wartości.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "Odpoczynek to też\\n*część przygotowania*.",
+   "cta": "Zapisz i sprawdź swój lipiec"
+  }
+ ]
+}

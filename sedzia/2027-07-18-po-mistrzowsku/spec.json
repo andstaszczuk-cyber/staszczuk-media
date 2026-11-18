@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Po mistrzowsku trenujesz.\\n*Po mistrzowsku odpoczywasz*."
+  },
+  {
+   "kind": "point",
+   "title": "Moja mantra",
+   "body": "Po mistrzowsku, kiedy robię jeszcze jedną serię.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Ta sama mantra",
+   "body": "Po mistrzowsku, kiedy odpuszczam i idę spać.",
+   "icon": "ksiezyc"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja wersja",
+   "body": "Krótkie słowa na trening, odpoczynek i mecz.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Mistrz\\n*też się regeneruje*.",
+   "cta": "Zapisz i wróć, gdy zechcesz dołożyć"
+  }
+ ]
+}

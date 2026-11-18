@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "warmup",
+   "text": "Trenujesz sam?\\n*Umów się z kimś*."
+  },
+  {
+   "kind": "point",
+   "title": "Ktoś czeka",
+   "body": "Trudniej odwołać trening, gdy kolega stoi pod blokiem.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Inny sędzia",
+   "body": "Ten sam test, ten sam cel. Łatwiej się wspierać.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Meldunek",
+   "body": "Różne godziny? Po treningu wysyłacie sobie krótką wiadomość.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "end",
+   "text": "Razem łatwiej\\n*dowieźć plan*.",
+   "cta": "Zapisz i napisz do kolegi z okręgu"
+  }
+ ]
+}

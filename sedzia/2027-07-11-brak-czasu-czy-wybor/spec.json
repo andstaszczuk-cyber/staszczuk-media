@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "BEZ ŚCIEMY",
+   "text": "Brak czasu\\n*czy wybór?*"
+  },
+  {
+   "kind": "point",
+   "title": "Policz tydzień",
+   "body": "Zapisz przez kilka dni, na co naprawdę idzie twój czas.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Nazwij wybór",
+   "body": "Wybieram serial. Wybieram trening. Oba mogą być w porządku.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Mały blok",
+   "body": "Trzydzieści minut trzy razy w tygodniu to już plan.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Wybierasz\\n*świadomie*.",
+   "cta": "Zapisz i policz swój tydzień"
+  }
+ ]
+}

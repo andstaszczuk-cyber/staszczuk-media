@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "MOTYWACJA",
+   "text": "Czego nie chcesz\\n*żałować za 10 lat?*"
+  },
+  {
+   "kind": "point",
+   "title": "Gdy się nie chce",
+   "body": "To pytanie zadajesz wtedy, kiedy trudno wyjść na trening.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Odpowiedz konkretnie",
+   "body": "Odpuszczony test? Niewykorzystana szansa na awans? Zapisz swoje.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Zrób dziś krok",
+   "body": "Jeden trening, jedna godzina z przepisami.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Motywacja\\n*z dwóch stron*.",
+   "cta": "Zapisz i odpowiedz sobie szczerze"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Czego nie znosisz\\n*w sędziowaniu?*",
+   "sub": "Raporty, dojazdy, testy. *Nieprzyjemne, ale pożyteczne*."
+  },
+  {
+   "kind": "point",
+   "title": "Nazwij to",
+   "body": "Każdy ma w tej roli coś, czego nie lubi. To normalne.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Zobacz, po co to jest",
+   "body": "Kiedy widzisz sens, łatwiej to znieść.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Połącz z przyjemnym",
+   "body": "Raport z kawą, dojazd z podcastem, test z kolegą.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "end",
+   "text": "Możesz tego nie lubić\\n*i dalej to robić*.",
+   "cta": "Zapisz i nazwij swoją nielubianą rzecz"
+  }
+ ]
+}

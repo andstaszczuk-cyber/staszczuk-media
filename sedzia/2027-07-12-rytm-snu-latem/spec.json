@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "ksiezyc",
+   "text": "Lato rozjeżdża sen.\\n*Pilnuj rytmu*."
+  },
+  {
+   "kind": "point",
+   "title": "Długie wieczory",
+   "body": "Jasno do późna, grill, mecze w telewizji. Zasypiasz coraz później.",
+   "icon": "ksiezyc"
+  },
+  {
+   "kind": "point",
+   "title": "Stała pobudka",
+   "body": "Nawet w wakacje trzymaj porę wstawania w miarę stałą.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Wyciszenie",
+   "body": "Ostatnia godzina przed snem bez telefonu i bez analiz.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "end",
+   "text": "Sen to podstawa\\n*całego przygotowania*.",
+   "cta": "Zapisz i ustaw stałą pobudkę"
+  }
+ ]
+}

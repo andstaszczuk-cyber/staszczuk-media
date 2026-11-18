@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "sofa",
+   "text": "Uraz w wakacje?\\n*Budujesz nową formę*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw specjalista",
+   "body": "O leczeniu i powrocie decyduje lekarz i fizjoterapeuta.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Pożegnaj starą formę",
+   "body": "Wracasz do formy, którą zbudujesz od dziś.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Trenuj, co możesz",
+   "body": "Przepisy, nagrania, wyobrażenia, plan sezonu.",
+   "icon": "ksiazka"
+  },
+  {
+   "kind": "end",
+   "text": "Przerwa też może\\n*być zasobem*.",
+   "cta": "Zapisz i wyślij koledze po urazie"
+  }
+ ]
+}
