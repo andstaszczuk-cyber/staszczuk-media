@@ -1,0 +1,68 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Najlepszy sezon w życiu, *a ja myślę, że to fart*",
+  "sub": "Czekam, aż wszyscy zobaczą, że to przypadek",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Rozłóż sukces",
+   "body": "Co robiłeś na treningach, przed startami i w ich trakcie?",
+   "art": {
+    "type": "bricks",
+    "topIcon": "trophy",
+    "label": "mój sezon",
+    "caption": "każda cegła to twoja praca"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Szukaj powtarzalności",
+   "body": "Szczęście zdarza się raz. Seria dobrych startów to umiejętność."
+  },
+  {
+   "title": "Powiedz zrobiłem",
+   "body": "Udało się zamień na zrobiłem. Słowa zmieniają odbiór."
+  }
+ ],
+ "end": {
+  "text": "To *twoja robota*.",
+  "cta": "Zapisz i rozłóż swój sezon na cegły"
+ }
+}

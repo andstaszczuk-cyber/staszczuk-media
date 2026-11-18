@@ -1,0 +1,75 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Obóz czy wyjazd z rodziną? *Nie umiem wybrać*",
+  "sub": "Terminy się pokrywają, a każdy czegoś ode mnie chce",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Więcej opcji",
+   "body": "Zanim wybierzesz z dwóch, poszukaj trzeciej i czwartej.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "flag",
+     "label": "obóz",
+     "sub": "rozwój sportowy"
+    },
+    "right": {
+     "icon": "heart",
+     "label": "rodzina",
+     "sub": "czas z bliskimi"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Twoje wartości",
+   "body": "Co jest dla ciebie teraz najważniejsze? Zapisz kolejność."
+  },
+  {
+   "title": "Rozmowa z obiema stronami",
+   "body": "Trener i rodzice. Fakty, potrzeby, propozycja."
+  }
+ ],
+ "end": {
+  "text": "Decyzja *z twoich wartości*.",
+  "cta": "Zapisz i rozpisz swoje opcje"
+ }
+}

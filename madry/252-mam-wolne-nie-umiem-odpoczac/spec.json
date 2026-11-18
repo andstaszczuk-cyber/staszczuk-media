@@ -1,0 +1,83 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Mam wolne *i nie umiem odpocząć*",
+  "sub": "Leżę cały dzień i dalej czuję się zmęczony",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Cztery rodzaje odpoczynku",
+   "body": "Ciało, ludzie, emocje i coś, co daje ci sens.",
+   "art": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "bed",
+      "label": "ciało"
+     },
+     {
+      "icon": "people",
+      "label": "ludzie"
+     },
+     {
+      "icon": "heart",
+      "label": "emocje"
+     },
+     {
+      "icon": "star",
+      "label": "sens"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Scrollowanie to nie odpoczynek",
+   "body": "Ekran zajmuje głowę. Sprawdź, jak się czujesz po godzinie."
+  },
+  {
+   "title": "Zaplanuj wolne",
+   "body": "Konkretne rzeczy na konkretne dni. Odpoczynek też ma plan."
+  }
+ ],
+ "end": {
+  "text": "Odpoczynek *to umiejętność*.",
+  "cta": "Zapisz i zaplanuj swój tydzień wolnego"
+ }
+}

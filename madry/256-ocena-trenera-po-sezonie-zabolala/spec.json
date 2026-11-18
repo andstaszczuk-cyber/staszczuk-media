@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Trener ocenił mój sezon *i bardzo mnie to zabolało*",
+  "sub": "Spodziewałem się zupełnie innej rozmowy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Najpierw ochłoń",
+   "body": "Na gorąco słyszysz głównie ton. Wróć do tego za kilka dni.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "BIORĘ",
+      "icon": "check",
+      "items": [
+       "konkret",
+       "do poprawy"
+      ]
+     },
+     {
+      "title": "ODKŁADAM",
+      "icon": "pause",
+      "items": [
+       "ton",
+       "emocje"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Oddziel treść od formy",
+   "body": "Co jest merytoryczne, bierzesz do pracy. Resztę odkładasz."
+  },
+  {
+   "title": "Dopytaj",
+   "body": "Co konkretnie? Jak to ćwiczyć? Co zrobiłem dobrze?"
+  }
+ ],
+ "end": {
+  "text": "Ocena to *informacja*.",
+  "cta": "Zapisz i przygotuj pytania do trenera"
+ }
+}

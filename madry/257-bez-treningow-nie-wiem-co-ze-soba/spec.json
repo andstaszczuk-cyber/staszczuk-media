@@ -1,0 +1,73 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Bez treningów *nie wiem, co ze sobą zrobić*",
+  "sub": "Wakacje dopiero się zaczęły, a ja już się nudzę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Jesteś kimś więcej",
+   "body": "Zawodnik to jedna z twoich ról. Masz też inne.",
+   "art": {
+    "type": "hub",
+    "center": "ja",
+    "icon": "heart",
+    "items": [
+     "zawodnik",
+     "przyjaciel",
+     "uczeń",
+     "pasje"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Nowy rytm dnia",
+   "body": "Stała pora wstawania, ruch, coś nowego, ludzie."
+  },
+  {
+   "title": "Coś spoza sportu",
+   "body": "Wybierz jedną rzecz, której zawsze chciałeś spróbować."
+  }
+ ],
+ "end": {
+  "text": "Wakacje to *też twój czas*.",
+  "cta": "Zapisz i wybierz coś spoza sportu"
+ }
+}

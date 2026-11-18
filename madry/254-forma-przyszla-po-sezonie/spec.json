@@ -1,0 +1,105 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Forma przyszła *dopiero po sezonie*",
+  "sub": "Na treningach latam, a startów już nie ma",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Praca zostaje",
+   "body": "To, co zbudowałeś, zostaje w tobie na kolejny sezon.",
+   "art": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.3
+       ],
+       [
+        0.2,
+        0.4
+       ],
+       [
+        0.4,
+        0.45
+       ],
+       [
+        0.6,
+        0.55
+       ],
+       [
+        0.8,
+        0.72
+       ],
+       [
+        0.95,
+        0.85
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.8,
+      "y": 0.72,
+      "label": "koniec sezonu",
+      "dy": 60
+     }
+    ],
+    "x": "czas"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Co zadziałało?",
+   "body": "Co zmieniło się w ostatnich tygodniach? To twoja wskazówka."
+  },
+  {
+   "title": "Plan z trenerem",
+   "body": "Jak rozłożyć obciążenia, żeby szczyt wypadł na starty."
+  }
+ ],
+ "end": {
+  "text": "Forma *zostaje w tobie*.",
+  "cta": "Zapisz, co dało ci formę"
+ }
+}
