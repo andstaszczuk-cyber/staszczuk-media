@@ -1,0 +1,110 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "W górach na obozie *wszystko idzie mi ciężej*",
+  "sub": "Na podbiegu brakuje mi tchu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "wind",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Ciało się dostosowuje",
+   "body": "Nowe warunki to nowy wysiłek. Pierwsze dni bywają najtrudniejsze.",
+   "art": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.85
+       ],
+       [
+        0.2,
+        0.8
+       ],
+       [
+        0.45,
+        0.6
+       ],
+       [
+        0.7,
+        0.46
+       ],
+       [
+        1,
+        0.4
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.04,
+      "y": 0.85,
+      "label": "pierwsze dni",
+      "dx": 80,
+      "dy": 10
+     },
+     {
+      "x": 0.8,
+      "y": 0.44,
+      "label": "przyzwyczajenie",
+      "hl": true,
+      "dy": -40
+     }
+    ],
+    "x": "dni obozu",
+    "y": "jak ciężko"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Dzień do dnia",
+   "body": "Porównuj wtorek w górach ze środą w górach."
+  },
+  {
+   "title": "Mów trenerowi",
+   "body": "Zawroty, silny ból głowy, kłopot z oddechem: zgłaszasz od razu."
+  }
+ ],
+ "end": {
+  "text": "Góry uczą *cierpliwości*.",
+  "cta": "Zapisz i notuj samopoczucie co rano"
+ }
+}

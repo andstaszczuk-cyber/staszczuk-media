@@ -1,0 +1,83 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Na obozie dwa treningi dziennie *i po południu jestem pusty*",
+  "sub": "Rano daję wszystko, po południu nie mam nic",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Przerwa to część planu",
+   "body": "Regenerację między treningami planujesz tak jak sam trening.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "dumbbell",
+      "top": "rano",
+      "bottom": "trening"
+     },
+     {
+      "icon": "bed",
+      "top": "południe",
+      "bottom": "regeneracja",
+      "hl": true
+     },
+     {
+      "icon": "dumbbell",
+      "top": "popołudnie",
+      "bottom": "trening"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jedzenie i woda",
+   "body": "Po treningu jesz i pijesz. Szczegóły ustalasz z trenerem."
+  },
+  {
+   "title": "Odpoczynek bez ekranu",
+   "body": "Leżenie z zamkniętymi oczami, cisza, spokojny oddech."
+  }
+ ],
+ "end": {
+  "text": "Mistrz *też regeneruje*.",
+  "cta": "Zapisz i zaplanuj swoją przerwę"
+ }
+}

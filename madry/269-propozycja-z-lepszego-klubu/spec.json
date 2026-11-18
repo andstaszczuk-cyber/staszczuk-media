@@ -1,0 +1,80 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Dostałem propozycję z lepszego klubu *i boję się, że nie dam rady*",
+  "sub": "A jeśli tam będę najsłabszy?",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "point",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Ktoś cię wybrał",
+   "body": "Klub oglądał twoją grę i zobaczył w niej coś konkretnego.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "OBAWY",
+     "items": [
+      "nie dam rady",
+      "będę najsłabszy"
+     ]
+    },
+    "right": {
+     "title": "DOWODY",
+     "items": [
+      "moje mecze",
+      "moje treningi",
+      "ich wybór"
+     ]
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Korzyści i koszty",
+   "body": "Rozpisz obie opcje i przegadaj je z zaufaną osobą."
+  },
+  {
+   "title": "Pytania do klubu",
+   "body": "Jaka rola, ile realnie gry, jaki plan rozwoju?"
+  }
+ ],
+ "end": {
+  "text": "Decyzja *z faktów i wartości*.",
+  "cta": "Zapisz i rozpisz obie opcje"
+ }
+}

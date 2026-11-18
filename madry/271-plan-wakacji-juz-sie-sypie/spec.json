@@ -1,0 +1,83 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Rozpisałem wakacje co do godziny *i plan już się sypie*",
+  "sub": "Minął tydzień i z planu niewiele zostało",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Plan to szkielet",
+   "body": "Trzymasz stałe punkty dnia, resztę dopasowujesz.",
+   "art": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "dumbbell",
+      "label": "ruch"
+     },
+     {
+      "icon": "bed",
+      "label": "sen"
+     },
+     {
+      "icon": "people",
+      "label": "ludzie"
+     },
+     {
+      "icon": "sun",
+      "label": "wolne"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Trzy rzeczy na dzień",
+   "body": "Wieczorem wybierasz trzy zadania na jutro. Reszta jest bonusem."
+  },
+  {
+   "title": "Zapas w tygodniu",
+   "body": "Puste okienka na deszcz, zmęczenie i spontaniczne wyjścia."
+  }
+ ],
+ "end": {
+  "text": "Plan ma *ci służyć*.",
+  "cta": "Zapisz i wybierz trzy rzeczy na jutro"
+ }
+}

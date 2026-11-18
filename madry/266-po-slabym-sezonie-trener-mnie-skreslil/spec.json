@@ -1,0 +1,70 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Po słabym sezonie czuję, *że trener mnie skreślił*",
+  "sub": "Każde jego spojrzenie czytam po swojemu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Fakty czy domysły?",
+   "body": "Co trener powiedział, a co sobie dopowiadasz?",
+   "art": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "skreślił mnie?",
+     "nie widzi mnie?",
+     "już po mnie?"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Nowy start",
+   "body": "Przygotowania to czysta kartka dla całej drużyny."
+  },
+  {
+   "title": "Zapytaj wprost",
+   "body": "Czego trener oczekuje ode mnie w tym sezonie?"
+  }
+ ],
+ "end": {
+  "text": "Pozycję *wywalczasz na nowo*.",
+  "cta": "Zapisz i umów się na rozmowę"
+ }
+}
