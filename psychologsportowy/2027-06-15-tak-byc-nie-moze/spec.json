@@ -1,0 +1,106 @@
+{
+ "cover": {
+  "layout": "big",
+  "big": "DOŚĆ",
+  "bigSize": 260,
+  "bigSub": "tak dalej być nie może",
+  "title": "Zmiana zaczyna się\n*od tego zdania*",
+  "size": 76,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 460,
+     "y": 120,
+     "s": 170,
+     "c": "soft"
+    },
+    {
+     "k": "arrow",
+     "x1": 650,
+     "y1": 205,
+     "x2": 730,
+     "y2": 205
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 750,
+     "y": 120,
+     "s": 150,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Ból musi wystarczyć",
+   "body": "Dopóki da się wytrzymać, zostajesz przy starym. To bardzo ludzkie.",
+   "viz": {
+    "type": "scale10",
+    "caption": "JAK BARDZO MI TO PRZESZKADZA",
+    "points": [
+     {
+      "n": 4,
+      "label": "jakoś to będzie"
+     },
+     {
+      "n": 9,
+      "label": "dość",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Koniec sezonu to dobra chwila",
+   "body": "Masz świeże wspomnienia i czas, żeby coś zmienić.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "sezon",
+      "icon": "cloudRain"
+     },
+     {
+      "top": "czerwiec",
+      "icon": "note",
+      "hl": true,
+      "bottom": [
+       "decyzja"
+      ]
+     },
+     {
+      "top": "sierpień",
+      "icon": "flag",
+      "bottom": [
+       "nowy nawyk"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Jeden pierwszy krok",
+   "body": "Wybierasz jedną rzecz i zaczynasz od małego kroku.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "tak być nie może",
+    "via": "pierwszy krok",
+    "to": "nowy nawyk"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co w tym sezonie *przelało czarę*?",
+  "cta": "Zapisz to zdanie i jeden pierwszy krok.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

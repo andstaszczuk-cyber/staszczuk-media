@@ -1,0 +1,156 @@
+{
+ "cover": {
+  "layout": "split",
+  "left": "CZEKAM",
+  "right": "DZIAŁAM",
+  "title": "Czekasz na\n*listę powołań?*",
+  "size": 88,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 168,
+     "y": 40,
+     "s": 100,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 210,
+     "t": [
+      "sprawdzam",
+      "co godzinę"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 632,
+     "y": 40,
+     "s": 100,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 210,
+     "t": [
+      "robię",
+      "swoje"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 110,
+     "y": 320,
+     "s": 0.5,
+     "pose": "slump",
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "x": 572,
+     "y": 320,
+     "s": 0.5,
+     "pose": "walk"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Decyzja zapada gdzie indziej",
+   "body": "Sprawdzanie telefonu jej nie przyspieszy. Zabiera ci tylko energię.",
+   "viz": {
+    "type": "bars",
+    "caption": "CO ZAJMUJE GŁOWĘ",
+    "items": [
+     {
+      "label": "lista",
+      "v": 0.9
+     },
+     {
+      "label": "trening",
+      "v": 0.2
+     },
+     {
+      "label": "sen",
+      "v": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zamartwianie udaje wpływ",
+   "body": "Wydaje się, że coś robisz. W praktyce męczysz się i gorzej śpisz.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "brain",
+     "label": "martwię się",
+     "sub": "pozór kontroli"
+    },
+    "right": {
+     "icon": "check",
+     "label": "robię swoje",
+     "sub": "realny wpływ"
+    }
+   }
+  },
+  {
+   "title": "Na co masz wpływ dziś",
+   "body": "Trening, sen, plan na lato. To się liczy przy każdej decyzji.",
+   "viz": {
+    "type": "checklist",
+    "title": "MAM WPŁYW",
+    "items": [
+     "trening",
+     "sen",
+     "plan na lato"
+    ],
+    "chip": "DZIŚ",
+    "chipX": 420
+   }
+  }
+ ],
+ "end": {
+  "question": "Na co masz *dziś* wpływ?",
+  "cta": "Zapisz trzy rzeczy i odłóż telefon na wieczór.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

@@ -1,0 +1,104 @@
+{
+ "cover": {
+  "layout": "hero",
+  "kicker": "LETNI PORANEK",
+  "title": "Idę na pięć.\n*Potem zdecyduję*",
+  "size": 90,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 90,
+     "s": 1.0,
+     "pose": "walk"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 470,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 600,
+     "y": 400,
+     "t": [
+      "pięć",
+      "powtórzeń"
+     ],
+     "size": 48,
+     "w": 800,
+     "c": "fg",
+     "anchor": "middle",
+     "lh": 58
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Start jest najtrudniejszy",
+   "body": "Głowa negocjuje: dziś za gorąco, jutro zrobię więcej.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "dziś mi się nie chce",
+    "to": "idę na pięć"
+   }
+  },
+  {
+   "title": "Małe zobowiązanie",
+   "body": "Pięć powtórzeń, dziesięć minut, jeden kilometr. Tyle, żeby ruszyć.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "buty",
+     "pięć",
+     "rozgrzany",
+     "cały trening"
+    ],
+    "done": 2
+   }
+  },
+  {
+   "title": "Potem decydujesz uczciwie",
+   "body": "Jeśli ciało wyraźnie mówi stop, kończysz. To też decyzja zawodnika.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "ROZKRĘCAM SIĘ",
+      "items": [
+       "idę dalej",
+       "jeszcze seria"
+      ],
+      "hl": true
+     },
+     {
+      "title": "CIAŁO MÓWI STOP",
+      "items": [
+       "kończę",
+       "odpoczywam"
+      ],
+      "dash": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakie jest *twoje pięć* na jutro?",
+  "cta": "Zapisz najmniejszy krok, od którego zaczniesz.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

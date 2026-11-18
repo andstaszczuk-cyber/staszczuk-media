@@ -1,0 +1,171 @@
+{
+ "cover": {
+  "layout": "split",
+  "left": "ZAJECHANY",
+  "right": "ŚWIEŻY",
+  "title": "Lepiej\n*niedotrenowany*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 168,
+     "y": 40,
+     "s": 100,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 210,
+     "t": [
+      "dokładam",
+      "bo mogę"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 632,
+     "y": 40,
+     "s": 100,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 210,
+     "t": [
+      "głodny",
+      "pracy"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 110,
+     "y": 320,
+     "s": 0.5,
+     "pose": "slump",
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "x": 572,
+     "y": 320,
+     "s": 0.5,
+     "pose": "win"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Lato kusi nadrabianiem",
+   "body": "Bez startów łatwo dokładać. Koszty widać dopiero po czasie.",
+   "viz": {
+    "type": "bars",
+    "caption": "LIPIEC",
+    "items": [
+     {
+      "label": "plan",
+      "v": 0.55
+     },
+     {
+      "label": "nadgorliwość",
+      "v": 0.9
+     },
+     {
+      "label": "regeneracja",
+      "v": 0.25,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Progres w odpoczynku",
+   "body": "Ciało wzmacnia się wtedy, kiedy ma czas, żeby się odbudować.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "dumbbell",
+      "label": "obciążenie"
+     },
+     {
+      "icon": "bed",
+      "label": "regeneracja",
+      "hl": true
+     }
+    ],
+    "join": "+",
+    "note": "dopiero razem dają progres"
+   }
+  },
+  {
+   "title": "Ciało czy ambicja",
+   "body": "Jeśli rano wstajesz zmęczony, ambicja może poczekać.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "AMBICJA",
+      "items": [
+       "jeszcze seria",
+       "nadrobię"
+      ],
+      "dim": true,
+      "dash": true
+     },
+     {
+      "title": "CIAŁO",
+      "items": [
+       "dziś lżej",
+       "śpię dłużej"
+      ],
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Słuchasz *ciała* czy ambicji?",
+  "cta": "Zapisuj przez tydzień, jak się czujesz rano.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

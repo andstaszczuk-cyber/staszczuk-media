@@ -1,0 +1,150 @@
+{
+ "cover": {
+  "layout": "top",
+  "kicker": "PO MATURZE",
+  "title": "Plan B nie\n*odbiera ambicji*",
+  "size": 88,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 330,
+     "y": 250,
+     "s": 0.75,
+     "pose": "walk"
+    },
+    {
+     "k": "arrow",
+     "x1": 380,
+     "y1": 240,
+     "x2": 220,
+     "y2": 130
+    },
+    {
+     "k": "arrow",
+     "x1": 520,
+     "y1": 240,
+     "x2": 680,
+     "y2": 130
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 90,
+     "y": 0,
+     "s": 130,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 680,
+     "y": 0,
+     "s": 130,
+     "c": "fig"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Czas wyborów",
+   "body": "Studia, praca, sport. Czerwiec to czas decyzji na kolejne lata.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "ball",
+      "label": "sport",
+      "hl": true
+     },
+     {
+      "icon": "book",
+      "label": "studia"
+     },
+     {
+      "icon": "note",
+      "label": "praca"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Drugie źródło spokoju",
+   "body": "Kiedy masz coś poza sportem, porażka mniej cię przygniata.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "cloudRain",
+     "label": "tylko sport",
+     "sub": "każdy mecz waży wszystko"
+    },
+    "right": {
+     "icon": "shield",
+     "label": "sport i plan B",
+     "sub": "mecz to mecz"
+    }
+   }
+  },
+  {
+   "title": "Budujesz w trakcie",
+   "body": "Plan B rośnie powoli, obok treningów. Dwa wieczory w tygodniu wystarczą.",
+   "viz": {
+    "type": "week",
+    "caption": "TYDZIEŃ",
+    "days": [
+     {
+      "d": "PN",
+      "icon": "dumbbell",
+      "label": "trening"
+     },
+     {
+      "d": "WT",
+      "icon": "book",
+      "label": "nauka",
+      "mark": "hl"
+     },
+     {
+      "d": "ŚR",
+      "icon": "dumbbell",
+      "label": "trening"
+     },
+     {
+      "d": "CZ",
+      "icon": "dumbbell",
+      "label": "trening"
+     },
+     {
+      "d": "PT",
+      "icon": "book",
+      "label": "nauka",
+      "mark": "hl"
+     },
+     {
+      "d": "SB",
+      "icon": "ball",
+      "label": "mecz"
+     },
+     {
+      "d": "ND",
+      "icon": "sun",
+      "label": "wolne"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaki jest *twój plan B*?",
+  "cta": "Zapisz jedną rzecz poza sportem, którą chcesz rozwijać.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

@@ -1,0 +1,114 @@
+{
+ "cover": {
+  "layout": "hero",
+  "kicker": "KONIEC SEZONU",
+  "title": "Ile minut\n*naprawdę się cieszyłeś?*",
+  "size": 80,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 90,
+     "s": 1.0,
+     "pose": "win"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 500,
+     "y": 60,
+     "s": 320,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 660,
+     "y": 500,
+     "t": "trzy minuty?",
+     "size": 40,
+     "w": 800,
+     "c": "fg",
+     "anchor": "middle"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wynik przelatuje szybko",
+   "body": "Medal cieszy chwilę. Potem jest kolejny cel i kolejna presja.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "medal",
+      "icon": "trophy",
+      "hl": true
+     },
+     {
+      "top": "wieczór",
+      "icon": "bed"
+     },
+     {
+      "top": "poniedziałek",
+      "icon": "dumbbell",
+      "bottom": [
+       "następny cel"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Radość jest po drodze",
+   "body": "Dobry trening, akcja, która wyszła, śmiech w szatni.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "dumbbell",
+      "label": "trening"
+     },
+     {
+      "icon": "star",
+      "label": "akcja"
+     },
+     {
+      "icon": "people",
+      "label": "szatnia",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Łapiesz te momenty",
+   "body": "Zauważasz je od razu i dajesz im kilka sekund więcej.",
+   "viz": {
+    "type": "checklist",
+    "title": "CIESZYŁO MNIE",
+    "items": [
+     "pierwsze podanie",
+     "rozmowa z trenerem",
+     "ostatni sprint"
+    ],
+    "chip": "ZAPISZ",
+    "chipX": 420
+   }
+  }
+ ],
+ "end": {
+  "question": "Co cię dziś *ucieszyło*?",
+  "cta": "Zapisuj jedną taką rzecz codziennie przez tydzień.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
