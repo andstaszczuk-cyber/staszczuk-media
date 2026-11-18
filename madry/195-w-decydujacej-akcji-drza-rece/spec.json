@@ -1,0 +1,82 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "W decydującej akcji *ręce zaczynają mi drżeć*",
+  "sub": "Jedna próba na wagę wyniku i ciało przestaje słuchać",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "hand",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Drżenie to mobilizacja",
+   "body": "Ciało szykuje się do wysiłku. To znak gotowości.",
+   "art": {
+    "type": "bodyMap",
+    "points": [
+     {
+      "part": "chest",
+      "label": "szybsze serce",
+      "side": 1
+     },
+     {
+      "part": "head",
+      "label": "ostre zmysły",
+      "side": 1,
+      "ly": 40
+     },
+     {
+      "part": "lhand",
+      "label": "drżące ręce",
+      "side": 0,
+      "ly": 330
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Długi wydech przed akcją",
+   "body": "Dwa, trzy oddechy z dłuższym wydechem. Ciało dostaje sygnał, że może zwolnić."
+  },
+  {
+   "title": "Rutyna przed akcją",
+   "body": "Wydech, jedno słowo, jeden punkt uwagi. Ćwiczona na treningu."
+  }
+ ],
+ "end": {
+  "text": "Drżysz *i dalej wykonujesz*.",
+  "cta": "Zapisz i trenuj swoją rutynę"
+ }
+}

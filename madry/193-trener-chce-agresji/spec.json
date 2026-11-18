@@ -1,0 +1,81 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Trener chce agresji, *a to nie ja*",
+  "sub": "Mam się nakręcać, a wtedy gram gorzej",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Każdy ma swój poziom",
+   "body": "Jednemu pomaga ogień, drugiemu spokój. Szukasz swojego stanu.",
+   "art": {
+    "type": "scale10",
+    "caption": "POBUDZENIE",
+    "y": 240,
+    "points": [
+     {
+      "n": 3,
+      "label": "za spokojnie"
+     },
+     {
+      "n": 7,
+      "label": "mój poziom",
+      "hl": true
+     },
+     {
+      "n": 10,
+      "label": "nakręcony"
+     }
+    ],
+    "note": "każdy ma swój poziom"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapytaj o zachowanie",
+   "body": "Co konkretnie ma wyglądać inaczej? Pierwszy krok, odważne wejście, szybsza decyzja."
+  },
+  {
+   "title": "Zdecydowanie po swojemu",
+   "body": "Możesz grać stanowczo i spokojnie jednocześnie."
+  }
+ ],
+ "end": {
+  "text": "Grasz *zdecydowanie po swojemu*.",
+  "cta": "Zapisz i porozmawiaj z trenerem"
+ }
+}

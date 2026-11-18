@@ -1,0 +1,72 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Po meczu od razu *czytam komentarze w sieci*",
+  "sub": "Jedna złośliwa opinia i cały wieczór zepsuty",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Najpierw twoja ocena",
+   "body": "Wieczór po meczu bez komentarzy. Cudze zdanie poczeka do jutra.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "phone",
+     "label": "czytam od razu",
+     "cross": true
+    },
+    "right": {
+     "icon": "moon",
+     "label": "czytam następnego dnia"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Informacja czy opinia",
+   "body": "Ktoś, kto zna niuanse, daje informację. Anonim w sieci daje opinię."
+  },
+  {
+   "title": "Hejt mówi o autorze",
+   "body": "Częściej o cudzej frustracji niż o twojej grze."
+  }
+ ],
+ "end": {
+  "text": "Twoja ocena *jest pierwsza*.",
+  "cta": "Zapisz przed kolejnym meczem"
+ }
+}

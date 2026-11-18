@@ -1,0 +1,71 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na meczu *każdy krzyczy co innego*",
+  "sub": "Trener, rodzice, koledzy, a ja nie wiem, kogo słuchać",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "wind",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Jeden głos z zewnątrz",
+   "body": "Ustalasz z trenerem, że w meczu słuchasz jego. Reszta to tło.",
+   "art": {
+    "type": "focus",
+    "center": "głos trenera",
+    "icon": "whistle",
+    "around": [
+     "trybuny",
+     "rodzice",
+     "koledzy",
+     "rywal"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jedno hasło do siebie",
+   "body": "Krótkie słowo, które przywraca zadanie, kiedy robi się zamieszanie."
+  },
+  {
+   "title": "Porozmawiaj z bliskimi",
+   "body": "Przed meczem powiedz, jakie wsparcie ci służy. Doping bez instrukcji."
+  }
+ ],
+ "end": {
+  "text": "Słuchasz *jednego głosu*.",
+  "cta": "Zapisz i ustal to przed meczem"
+ }
+}

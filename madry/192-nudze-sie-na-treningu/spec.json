@@ -1,0 +1,78 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Na treningu się nudzę, *bo ciągle to samo*",
+  "sub": "Te same ćwiczenia od miesięcy i głowa odpływa",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "pause",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Nuda to sygnał",
+   "body": "Głowa prosi o nowy bodziec. Da się go dodać bez zmiany planu.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "eye",
+      "label": "jeden detal"
+     },
+     {
+      "icon": "star",
+      "label": "mini cel",
+      "hl": true
+     },
+     {
+      "icon": "people",
+      "label": "zmiana pary"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jeden detal na trening",
+   "body": "To samo ćwiczenie, inny punkt uwagi. Dziś stopa, jutro ręce."
+  },
+  {
+   "title": "Powtarzalność to umiejętność",
+   "body": "Robić to samo dobrze, także w nudzie. W meczu to przewaga."
+  }
+ ],
+ "end": {
+  "text": "Powtarzalność *też się trenuje*.",
+  "cta": "Zapisz i wybierz detal na jutro"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "W trakcie meczu *mówię do siebie same złe rzeczy*",
+  "sub": "Po błędzie w głowie leci lista wyzwisk",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Usłysz, co mówisz",
+   "body": "Po meczu zapisz zdania, które padły w głowie. Bez oceniania.",
+   "art": {
+    "type": "notes",
+    "title": "W GŁOWIE",
+    "lines": [
+     "następna piłka",
+     "nogi pracują",
+     "spokojnie, dalej"
+    ],
+    "crossed": [
+     "znowu ty"
+    ],
+    "side": "zamiana"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jak do przyjaciela",
+   "body": "Koledze po błędzie powiedziałbyś coś innego. Powiedz to sobie."
+  },
+  {
+   "title": "Trzy rodzaje zdań",
+   "body": "Skupiające, motywujące, uspokajające. Po jednym na mecz."
+  }
+ ],
+ "end": {
+  "text": "Bądź *swoim kibicem*.",
+  "cta": "Zapisz i przygotuj swoje trzy zdania"
+ }
+}

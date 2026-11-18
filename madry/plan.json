@@ -1591,5 +1591,86 @@
   "theme": "cieply",
   "temat_id": null,
   "data": "2027-04-21"
+ },
+ {
+  "nr": 188,
+  "folder": "188-ciagle-sprawdzam-ranking",
+  "tytul": "Ciągle sprawdzam tabelę i ranking",
+  "filar": "głowa",
+  "theme": "czerwony",
+  "temat_id": null,
+  "data": "2027-04-22"
+ },
+ {
+  "nr": 189,
+  "folder": "189-kazdy-krzyczy-co-innego",
+  "tytul": "Na meczu każdy krzyczy co innego",
+  "filar": "głowa",
+  "theme": "grafit",
+  "temat_id": null,
+  "data": "2027-04-23"
+ },
+ {
+  "nr": 190,
+  "folder": "190-dzien-po-porazce",
+  "tytul": "Dzień po porażce nie chcę iść na trening",
+  "filar": "głowa",
+  "theme": "cieply",
+  "temat_id": null,
+  "data": "2027-04-24"
+ },
+ {
+  "nr": 191,
+  "folder": "191-bez-rutyny-nie-zagram",
+  "tytul": "Bez swojej rutyny czuję, że nie zagram",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": null,
+  "data": "2027-04-25"
+ },
+ {
+  "nr": 192,
+  "folder": "192-nudze-sie-na-treningu",
+  "tytul": "Na treningu się nudzę, bo ciągle to samo",
+  "filar": "głowa i ciało",
+  "theme": "grafit",
+  "temat_id": null,
+  "data": "2027-04-26"
+ },
+ {
+  "nr": 193,
+  "folder": "193-trener-chce-agresji",
+  "tytul": "Trener chce, żebym grał agresywniej, a to nie ja",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": null,
+  "data": "2027-04-27"
+ },
+ {
+  "nr": 194,
+  "folder": "194-czytam-komentarze-po-meczu",
+  "tytul": "Po meczu od razu czytam komentarze w sieci",
+  "filar": "głowa",
+  "theme": "czerwony",
+  "temat_id": null,
+  "data": "2027-04-28"
+ },
+ {
+  "nr": 195,
+  "folder": "195-w-decydujacej-akcji-drza-rece",
+  "tytul": "W decydującej akcji ręce zaczynają mi drżeć",
+  "filar": "ciało",
+  "theme": "grafit",
+  "temat_id": null,
+  "data": "2027-04-29"
+ },
+ {
+  "nr": 196,
+  "folder": "196-mowie-do-siebie-zle-rzeczy",
+  "tytul": "W trakcie meczu mówię do siebie same złe rzeczy",
+  "filar": "głowa",
+  "theme": "cieply",
+  "temat_id": null,
+  "data": "2027-04-30"
  }
 ]

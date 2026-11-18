@@ -1,0 +1,81 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Dzień po porażce *nie chcę iść na trening*",
+  "sub": "Wstyd, złość i zero ochoty na halę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wieczór na emocje",
+   "body": "Złość i smutek mają prawo być. Rano stawiasz kropkę.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "cloudRain",
+      "top": "wieczór",
+      "bottom": "emocje"
+     },
+     {
+      "icon": "play",
+      "top": "rano",
+      "bottom": "idę",
+      "hl": true
+     },
+     {
+      "icon": "note",
+      "top": "za kilka dni",
+      "bottom": "analiza"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Idziesz na trening",
+   "body": "Ochota nie jest potrzebna. Wchodzisz na halę i robisz rozgrzewkę."
+  },
+  {
+   "title": "Analiza z dystansu",
+   "body": "Na gorąco kilka zdań. Pełna analiza za kilka dni, z trenerem."
+  }
+ ],
+ "end": {
+  "text": "Porażka *jest częścią drogi*.",
+  "cta": "Zapisz na dzień po porażce"
+ }
+}

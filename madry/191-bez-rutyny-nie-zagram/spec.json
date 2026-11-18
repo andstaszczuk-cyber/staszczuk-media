@@ -1,0 +1,76 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Bez swojej rutyny *czuję, że nie zagram*",
+  "sub": "Inna szatnia, brak ulubionej muzyki i już po meczu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "play",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Rutyna to pomoc",
+   "body": "Daje bezpieczeństwo. Dobre mecze grałeś też bez idealnego przygotowania.",
+   "art": {
+    "type": "table",
+    "left": "SZTYWNA",
+    "right": "ELASTYCZNA",
+    "good": true,
+    "rows": [
+     [
+      "wszystko po kolei",
+      "trzy stałe punkty"
+     ],
+     [
+      "brak to panika",
+      "wersja skrócona"
+     ]
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Wersja skrócona",
+   "body": "Trzy najważniejsze elementy, które zrobisz wszędzie i w kilka minut."
+  },
+  {
+   "title": "Trenuj zmianę",
+   "body": "Czasem celowo coś zmień na treningu. Sprawdzisz, że dalej grasz."
+  }
+ ],
+ "end": {
+  "text": "Rutyna jest *dla ciebie*.",
+  "cta": "Zapisz i rozpisz swoją wersję skróconą"
+ }
+}
