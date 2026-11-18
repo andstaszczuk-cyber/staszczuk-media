@@ -24,7 +24,7 @@ ${[0, 1, 2, 3, 4, 5].map(i => `<rect x="300" y="${350 + i * 26}" width="480" hei
 <rect x="0" y="470" width="1080" height="50" fill="#0D0416"/></svg>`;
 
 const foot = `<div style="position:absolute;left:0;right:0;bottom:70px;text-align:center;font:700 30px Pop;letter-spacing:6px;color:#fff;opacity:.9">@PSYCHOLOGSPORTU</div>`;
-const wrap = inner => `<!doctype html><html><head><meta charset="utf-8"><style>${font}
+const wrap = (inner, rightFoot) => `<!doctype html><html><head><meta charset="utf-8"><style>${font}
 *{margin:0;padding:0;box-sizing:border-box}body{width:1080px;height:1920px;overflow:hidden;background:${bg};font-family:Pop;color:#fff;position:relative}
 .hl{color:${ORANGE}}.pk{color:${PINK}}
 .box{position:absolute;left:80px;right:80px}
@@ -32,7 +32,7 @@ const wrap = inner => `<!doctype html><html><head><meta charset="utf-8"><style>$
 .h{font:400 118px/1.04 Ant;text-transform:uppercase;letter-spacing:1px;text-shadow:0 6px 0 rgba(0,0,0,.25)}
 .p{font:600 44px/1.42 Pop}
 .card{background:rgba(20,6,31,.72);border:3px solid ${TEAL};border-radius:28px;padding:44px 48px}
-</style></head><body>${inner}${foot}</body></html>`;
+</style></head><body>${inner}${rightFoot ? foot.replace('left:0;right:0;bottom:70px;text-align:center','right:60px;bottom:70px;text-align:right') : foot}</body></html>`;
 
 // HUD: pasek misji, gwiazdki, minimapa (własne rysunki)
 const stars = n => `<div style="display:flex;gap:14px">${[0, 1, 2, 3, 4].map(i => `<svg width="54" height="54" viewBox="0 0 24 24"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21.1l1.4-7L2 9.3l7-.8z" fill="${i < n ? ORANGE : 'none'}" stroke="${ORANGE}" stroke-width="1.6"/></svg>`).join('')}</div>`;
@@ -48,15 +48,31 @@ const s1 = wrap(`
 <div class="box" style="top:790px"><div class="p">Zanim odpalisz grę, jedno pytanie od psychologa sportu: co robisz, kiedy misja ci nie wyjdzie?</div></div>
 ${city}`);
 
-const s2 = wrap(`
-<div class="box" style="top:160px;display:flex;justify-content:space-between;align-items:flex-start">
-  <div style="width:520px">${stars(4)}${bar('ZDROWIE', 34, PINK)}${bar('PANCERZ', 12, TEAL)}</div>${minimap}</div>
-<div class="box card" style="top:560px">
-  <div style="font:400 92px/1.05 Ant;text-transform:uppercase;color:${PINK}">Misja nieudana</div>
-  <div class="p" style="margin-top:26px">I co robisz? Patrzysz, w którym miejscu poszło źle, poprawiasz jedną rzecz i <span class="hl">wchodzisz jeszcze raz</span>.</div>
-  <div class="p" style="margin-top:26px">Nikt po przegranej misji nie mówi sobie, że jest beznadziejny i nie nadaje się do grania.</div>
+const scene = `<svg viewBox="0 0 1080 1920" width="1080" height="1920" style="position:absolute;left:0;top:0">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2B1055"/><stop offset=".45" stop-color="#C2376E"/><stop offset=".62" stop-color="#FF8A5B"/><stop offset=".7" stop-color="#FFC56E"/></linearGradient>
+<linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5B2A7A"/><stop offset="1" stop-color="#140A2A"/></linearGradient>
+<radialGradient id="vig" cx=".5" cy=".5" r=".75"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".7"/></radialGradient></defs>
+<rect width="1080" height="1600" fill="url(#sky)"/><g transform="translate(0,260)"><circle cx="700" cy="1250" r="190" fill="#FFE08A" opacity=".9"/>
+<rect y="1300" width="1080" height="620" fill="url(#sea)"/>
+${[0,1,2,3,4,5,6].map(i=>`<rect x="${560-i*10}" y="${1320+i*34}" width="${280+i*20}" height="6" fill="#FFC56E" opacity="${.55-i*.06}"/>`).join('')}
+<path d="M0 1310 L0 1130 L60 1130 L60 1010 L120 1010 L120 1090 L180 1090 L180 930 L250 930 L250 1060 L320 1060 L320 1180 L400 1180 L400 1240 L470 1240 L470 1310 Z" fill="#1A0A2E"/>
+<g fill="#FF3D8B" opacity=".9">${[0,1,2,3,4,5].map(i=>`<rect x="${200+(i%2)*24}" y="${960+i*40}" width="12" height="18"/>`).join('')}${[0,1,2].map(i=>`<rect x="${80+i*18}" y="${1040+i*30}" width="10" height="14"/>`).join('')}</g>
+<g stroke="#120622" stroke-width="16" fill="none" stroke-linecap="round"><path d="M930 1920 Q940 1500 880 1120"/><path d="M1040 1920 Q1030 1600 1060 1300"/></g>
+<g fill="#120622"><path d="M880 1120 q-150 -20 -230 70 q120 -50 230 -56 z"/><path d="M880 1120 q130 -90 250 -20 q-130 -10 -248 36 z"/><path d="M880 1120 q-40 -130 -170 -170 q110 80 166 176 z"/><path d="M880 1120 q70 -130 190 -130 q-120 40 -186 136 z"/><path d="M880 1120 q-120 30 -190 160 q90 -100 192 -150 z"/>
+<path d="M1060 1300 q-120 -30 -200 40 q100 -30 200 -30 z"/><path d="M1060 1300 q-40 -100 -150 -130 q90 60 148 140 z"/></g>
+</g><rect width="1080" height="1920" fill="url(#vig)"/></svg>`;
+const s2 = wrap(`${scene}
+<div style="position:absolute;left:60px;top:90px;width:560px;background:rgba(0,0,0,.72);border-radius:10px;padding:26px 30px;font:600 34px/1.35 Pop">Cel: <span style="color:${TEAL}">wróć do gry po błędzie</span>.</div>
+<div style="position:absolute;right:60px;top:96px;text-align:right">${stars(2)}<div style="font:400 64px Ant;margin-top:6px;letter-spacing:2px;text-shadow:3px 3px 0 #000">23:41</div></div>
+<div style="position:absolute;left:0;right:0;top:330px;background:linear-gradient(90deg,rgba(0,0,0,0),rgba(0,0,0,.82) 15%,rgba(0,0,0,.82) 85%,rgba(0,0,0,0));padding:40px 0 46px;text-align:center">
+  <div style="font:400 150px/1 Ant;text-transform:uppercase;color:${PINK};transform:skewX(-8deg);text-shadow:5px 5px 0 #000,0 0 30px rgba(255,61,139,.55)">Misja nieudana</div>
+  <div class="p" style="margin:26px auto 0;width:860px;font-size:40px">Patrzysz, w którym miejscu poszło źle, poprawiasz jedną rzecz i <span class="hl">wchodzisz jeszcze raz</span>.</div>
+  <div style="margin-top:34px;display:flex;justify-content:center;gap:24px;font:800 36px Pop;letter-spacing:2px">
+    <span style="background:#fff;color:#14061F;padding:12px 34px;border-radius:8px">▶ SPRÓBUJ PONOWNIE</span><span style="padding:12px 34px;opacity:.6">WYJDŹ</span></div>
 </div>
-<div class="box" style="top:1290px"><div style="font:400 96px/1.08 Ant;text-transform:uppercase">A po słabym meczu<br>albo starcie <span class="hl">też tak</span><br>do siebie podchodzisz?</div></div>`);
+<div class="box" style="top:880px;background:rgba(0,0,0,.6);border-radius:10px;padding:26px 32px"><div class="p" style="font-size:40px">Nikt po przegranej misji nie mówi sobie, że jest beznadziejny i nie nadaje się do grania.</div></div>
+<div class="box" style="top:1140px;background:rgba(0,0,0,.62);border-radius:10px;padding:24px 32px"><div style="font:400 88px/1.08 Ant;text-transform:uppercase;transform:skewX(-6deg);text-shadow:4px 4px 0 #000">A po słabym meczu<br>albo starcie <span class="pk">też tak</span><br>do siebie podchodzisz?</div></div>
+<div style="position:absolute;left:60px;bottom:60px;width:300px">${minimap}${bar('', 34, PINK).replace('margin-top:22px','margin-top:6px')}${bar('', 12, TEAL).replace('margin-top:22px','margin-top:-14px')}</div>`, true);
 
 const s3 = wrap(`
 <div class="box" style="top:170px"><span class="tag" style="background:${TEAL};color:#14061F">TWOJA MISJA</span></div>
