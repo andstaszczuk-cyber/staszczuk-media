@@ -1,0 +1,83 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Robię podsumowanie sezonu *i widzę same błędy*",
+  "sub": "Dobre rzeczy jakoś mi umykają",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Najpierw to, co działa",
+   "body": "Zacznij od rzeczy, które ci wyszły. Poprawki dopisujesz potem.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "DZIAŁA",
+      "icon": "check",
+      "items": [
+       "końcówki meczów",
+       "spokój po błędzie"
+      ]
+     },
+     {
+      "title": "POPRAWIAM",
+      "icon": "ruler",
+      "items": [
+       "jedna rzecz",
+       "z terminem"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Pilnuj proporcji",
+   "body": "Na każdą poprawkę kilka rzeczy, które zrobiłeś dobrze."
+  },
+  {
+   "title": "Jak to zrobiłem?",
+   "body": "Co robiłeś, kiedy szło dobrze? To chcesz powtórzyć."
+  }
+ ],
+ "end": {
+  "text": "Dobre rzeczy *też są danymi*.",
+  "cta": "Zapisz i zacznij podsumowanie od plusów"
+ }
+}

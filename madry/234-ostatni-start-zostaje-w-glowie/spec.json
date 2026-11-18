@@ -1,0 +1,105 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Ostatni start poszedł słabo *i tylko on siedzi mi w głowie*",
+  "sub": "Jeden występ przykrył cały sezon",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Ostatni jest najgłośniejszy",
+   "body": "Głowa najmocniej pamięta to, co najświeższe. To jeszcze nie cały sezon.",
+   "art": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.4
+       ],
+       [
+        0.2,
+        0.55
+       ],
+       [
+        0.4,
+        0.6
+       ],
+       [
+        0.6,
+        0.7
+       ],
+       [
+        0.8,
+        0.75
+       ],
+       [
+        0.9,
+        0.42
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.9,
+      "y": 0.42,
+      "label": "ostatni start",
+      "dy": 60
+     }
+    ],
+    "x": "sezon"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Cały sezon na kartce",
+   "body": "Wypisz wszystkie starty i zaznacz te, z których jesteś zadowolony."
+  },
+  {
+   "title": "Jedna lekcja i kropka",
+   "body": "Z ostatniego startu bierzesz jeden wniosek. Potem zamykasz temat."
+  }
+ ],
+ "end": {
+  "text": "Sezon to *więcej niż finał*.",
+  "cta": "Zapisz i wypisz swoje dobre starty"
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Latem nie mam celu *i trening traci sens*",
+  "sub": "Bez startów na horyzoncie trudno mi się ruszyć",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Cel na lato",
+   "body": "Jedna umiejętność do zbudowania. Coś, co sam możesz zmierzyć.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "wybieram element",
+     "ćwiczę",
+     "sprawdzam",
+     "nagrywam"
+    ],
+    "done": 1
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Mały sprawdzian",
+   "body": "Na koniec lata test, nagranie albo start dla zabawy."
+  },
+  {
+   "title": "Miejsce na frajdę",
+   "body": "Przypomnij sobie, co w ogóle lubisz w swoim sporcie."
+  }
+ ],
+ "end": {
+  "text": "Cel *nadaje kierunek*.",
+  "cta": "Zapisz i wybierz jeden cel na lato"
+ }
+}

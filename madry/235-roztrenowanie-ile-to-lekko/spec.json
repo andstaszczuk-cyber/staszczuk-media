@@ -1,0 +1,80 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Na roztrenowaniu *nie wiem, ile to jest lekko*",
+  "sub": "Raz robię za dużo, raz leżę cały dzień",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Ruch dla przyjemności",
+   "body": "Spacer, rower, inny sport. Bez zegarka i bez planu na wynik.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "foot",
+      "label": "spacer"
+     },
+     {
+      "icon": "ball",
+      "label": "inny sport"
+     },
+     {
+      "icon": "heart",
+      "label": "dla frajdy",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Sprawdzian rozmowy",
+   "body": "Jeśli swobodnie mówisz pełnymi zdaniami, tempo jest w porządku."
+  },
+  {
+   "title": "Plan od trenera",
+   "body": "Długość i formę przerwy ustalasz z trenerem. On zna twój sezon."
+  }
+ ],
+ "end": {
+  "text": "Odpoczynek to *też trening*.",
+  "cta": "Zapisz i ustal z trenerem plan na przerwę"
+ }
+}

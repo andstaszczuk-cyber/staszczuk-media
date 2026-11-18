@@ -1,0 +1,69 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Chcę zrobić przerwę, *a trener mówi, że nie*",
+  "sub": "Nie wiem, jak mu powiedzieć, że jestem zmęczony",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Powiedz konkretnie",
+   "body": "Jak śpisz, jak się czujesz, czego potrzebujesz. Bez oskarżeń.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "jestem zmęczony",
+    "via": "mówię konkretnie",
+    "toIcon": "check",
+    "to": "wspólny plan"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapytaj o powód",
+   "body": "Trener może mieć plan, którego nie znasz. Zapytaj, z czego wynika decyzja."
+  },
+  {
+   "title": "Szukajcie trzeciej opcji",
+   "body": "Krótsza przerwa, lżejszy tydzień, wolne dni w innym terminie."
+  }
+ ],
+ "end": {
+  "text": "Rozmowa *daje opcje*.",
+  "cta": "Zapisz i przygotuj się do rozmowy z trenerem"
+ }
+}

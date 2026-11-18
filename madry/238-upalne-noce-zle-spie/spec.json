@@ -1,0 +1,83 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "W upalne noce *śpię źle i rano się sypię*",
+  "sub": "Kręcę się do drugiej, a o siódmej trening",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Gorsza noc to jeszcze nie wyrok",
+   "body": "Jedna czy dwie słabsze noce zwykle nie przekreślają treningu.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "WIECZOREM",
+      "icon": "moon",
+      "items": [
+       "chłodny pokój",
+       "ekran odłożony"
+      ]
+     },
+     {
+      "title": "RANO",
+      "icon": "sun",
+      "items": [
+       "bez paniki",
+       "plan dnia"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Spokojny wieczór",
+   "body": "Ostatnia godzina bez ekranu i bez analizowania treningu."
+  },
+  {
+   "title": "Powiedz trenerowi",
+   "body": "Kilka złych nocy z rzędu to informacja dla trenera."
+  }
+ ],
+ "end": {
+  "text": "Wieczór *układasz sam*.",
+  "cta": "Zapisz i ustaw swój wieczór na upalne dni"
+ }
+}
