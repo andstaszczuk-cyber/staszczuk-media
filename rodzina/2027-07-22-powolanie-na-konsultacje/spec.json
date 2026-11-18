@@ -1,0 +1,38 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Dostałem powołanie na konsultację kadry!",
+    "*Cieszymy się, że możesz się sprawdzić*."
+   ],
+   "text": "Letnie konsultacje *kadry*."
+  },
+  {
+   "kind": "point",
+   "title": "Radość *bez wyroku*",
+   "body": "Powołanie to szansa na naukę. Decyzja trenerów to osobna sprawa.",
+   "icon": "gift"
+  },
+  {
+   "kind": "point",
+   "title": "Cel *na kilka dni*",
+   "body": "Nauczyć się czegoś od trenerów kadry. Na to dziecko ma wpływ.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Ten sam *dom*",
+   "body": "Po powrocie czeka to samo, bez względu na decyzję.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Powołanie to *przygoda i nauka*.",
+   "cta": "Zapisz przed wyjazdem na konsultację.",
+   "icon": "heart"
+  }
+ ]
+}

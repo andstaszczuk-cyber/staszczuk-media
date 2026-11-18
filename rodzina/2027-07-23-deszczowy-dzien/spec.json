@@ -1,0 +1,41 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Deszcz zepsuł plan?\n*Plan B na dziś*:",
+   "items": [
+    "tor przeszkód w domu",
+    "kalambury",
+    "spacer w kaloszach",
+    "wspólne gotowanie"
+   ],
+   "checked": 2
+  },
+  {
+   "kind": "point",
+   "title": "Elastyczność *to umiejętność*",
+   "body": "Zmiana planu uczy, jak reagować, gdy mecz idzie inaczej.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Deszcz *też jest pogodą*",
+   "body": "Spacer w kaloszach i kałuże. Dzieci to kochają.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja *reakcja*",
+   "body": "Dziecko patrzy, jak Ty przyjmujesz zmianę planów.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Deszczowy dzień *też może być przygodą*.",
+   "cta": "Zapisz na deszczowy dzień wakacji.",
+   "icon": "heart"
+  }
+ ]
+}

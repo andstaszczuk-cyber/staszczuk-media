@@ -1,0 +1,36 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Na zebraniu zapytam, czemu nie gra.",
+   "new": "Zapytam, *jak się komunikujemy*.",
+   "text": "Zebranie rodziców przed sezonem."
+  },
+  {
+   "kind": "point",
+   "title": "Pytaj *o zasady*",
+   "body": "Kontakt z trenerem, grafik, wyjazdy, obowiązki.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Sprawy dziecka *w cztery oczy*",
+   "body": "Skład i pozycję omawia się po zebraniu, na osobności.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Zaufanie *na start*",
+   "body": "Pierwsze spotkanie buduje relację na cały rok.",
+   "icon": "triangle"
+  },
+  {
+   "kind": "end",
+   "text": "Dobry sezon zaczyna się *od jasnych zasad*.",
+   "cta": "Zapisz przed zebraniem w klubie.",
+   "icon": "heart"
+  }
+ ]
+}

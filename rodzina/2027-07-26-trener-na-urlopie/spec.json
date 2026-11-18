@@ -1,0 +1,36 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Napiszę do trenera, jest lipiec, ma czas.",
+   "new": "Trener *też ma wakacje*.",
+   "text": "Wiadomości w czasie urlopu."
+  },
+  {
+   "kind": "point",
+   "title": "Pilne *czy może poczekać*",
+   "body": "Większość pytań spokojnie poczeka do sierpnia.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Zapisz *pytania*",
+   "body": "Lista na pierwsze spotkanie po przerwie.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Szacunek *dla odpoczynku*",
+   "body": "Wypoczęty trener lepiej pracuje z dziećmi.",
+   "icon": "moon"
+  },
+  {
+   "kind": "end",
+   "text": "Dobra relacja *szanuje granice*.",
+   "cta": "Zapisz, zanim wyślesz wiadomość.",
+   "icon": "heart"
+  }
+ ]
+}

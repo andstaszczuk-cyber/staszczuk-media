@@ -1,0 +1,35 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "bag",
+   "text": "Czego nauczyło go lato?\n*Weźcie to do sezonu*."
+  },
+  {
+   "kind": "point",
+   "title": "Nowa *samodzielność*",
+   "body": "Obóz, dziadkowie, nowe miejsca. Dziecko radziło sobie samo.",
+   "icon": "tent"
+  },
+  {
+   "kind": "point",
+   "title": "Nowe *umiejętności*",
+   "body": "Kajak, ścianka, nowi koledzy. Każda daje coś na boisko.",
+   "icon": "compass"
+  },
+  {
+   "kind": "point",
+   "title": "Nazwijcie *to razem*",
+   "body": "Zapisane wnioski łatwiej zabrać we wrzesień.",
+   "icon": "book"
+  },
+  {
+   "kind": "end",
+   "text": "Lato *też jest częścią przygotowań*.",
+   "cta": "Zapisz i porozmawiajcie przy kolacji.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Poproś dziecko:\n*naucz mnie swojego sportu*."
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *jest ekspertem*",
+   "body": "Tłumacząc, porządkuje to, co wie. To świetny trening.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Twoje *błędy*",
+   "body": "Rodzic, który się myli i śmieje, zdejmuje z dziecka presję.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Słuchaj *uważnie*",
+   "body": "Usłyszysz, jak dziecko myśli o swoim sporcie.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Uczy się ten, *kto tłumaczy*.",
+   "cta": "Zapisz i spróbujcie jeszcze w te wakacje.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Spotkajmy się całą drużyną nad jeziorem.",
+    "*Z rodzinami i bez trenowania*."
+   ],
+   "text": "Letni *piknik drużyny*."
+  },
+  {
+   "kind": "point",
+   "title": "Bez *tabeli*",
+   "body": "Nikt nie rozmawia o wynikach. Liczy się wspólny czas.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Rodzice *się poznają*",
+   "body": "Łatwiej się dogadać na trybunach, gdy znacie się z imienia.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Drużyna *z rodzinami*",
+   "body": "Rodzeństwo, dziadkowie, psy. Wszyscy są mile widziani.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Drużyna rośnie *także poza boiskiem*.",
+   "cta": "Zapisz i zaproponuj piknik w grupie rodziców.",
+   "icon": "heart"
+  }
+ ]
+}

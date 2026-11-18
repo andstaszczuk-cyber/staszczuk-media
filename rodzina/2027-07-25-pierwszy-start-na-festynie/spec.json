@@ -1,0 +1,35 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "trophy",
+   "text": "Pierwszy bieg na festynie.\n*Ważne, że wystartował*."
+  },
+  {
+   "kind": "point",
+   "title": "Przed *startem*",
+   "body": "Powiedz, że wystarczy dobiec. Tempo jest jego sprawą.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Na *mecie*",
+   "body": "Zapytaj, jak się czuło. Miejsce może poczekać.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwszy *krok*",
+   "body": "Pierwszy start oswaja z emocjami zawodów.",
+   "icon": "growth"
+  },
+  {
+   "kind": "end",
+   "text": "Każdy zawodnik *kiedyś startował pierwszy raz*.",
+   "cta": "Zapisz przed letnim festynem.",
+   "icon": "heart"
+  }
+ ]
+}

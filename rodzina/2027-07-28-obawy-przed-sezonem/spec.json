@@ -1,0 +1,41 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Przed nowym sezonem\n*dziecko się martwi*:",
+   "items": [
+    "nowa kategoria",
+    "starsi rywale",
+    "nowy trener",
+    "miejsce w składzie"
+   ],
+   "checked": 0
+  },
+  {
+   "kind": "point",
+   "title": "Nazwij *obawy*",
+   "body": "Wypisane na kartce przestają być wielką chmurą.",
+   "icon": "book"
+  },
+  {
+   "kind": "point",
+   "title": "Na co *ma wpływ*",
+   "body": "Przy każdej obawie jedno pytanie: co mogę zrobić?",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Dowody *z przeszłości*",
+   "body": "Przypomnij, jak poradziło sobie rok temu.",
+   "icon": "growth"
+  },
+  {
+   "kind": "end",
+   "text": "Obawy mówią, że *mu zależy*.",
+   "cta": "Zapisz na ostatnie dni lipca.",
+   "icon": "heart"
+  }
+ ]
+}
