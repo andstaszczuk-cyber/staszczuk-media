@@ -1,0 +1,34 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Pierwszy turniej za granicą.\n*Przygoda waży więcej od tabeli*."
+  },
+  {
+   "kind": "point",
+   "title": "Cel *to doświadczenie*",
+   "body": "Inny styl gry, nowi rywale, nowe miejsce. To zostaje na dłużej.",
+   "icon": "compass"
+  },
+  {
+   "kind": "point",
+   "title": "Będzie *inaczej*",
+   "body": "Godziny meczów, sędziowie, jedzenie. Wiedza wcześniej daje spokój.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Ty *w tle*",
+   "body": "Dziecko jest tam z drużyną. Ciesz się razem z nim.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Przygoda na lata, *wynik na chwilę*.",
+   "cta": "Zapisz przed wyjazdem na turniej.",
+   "icon": "heart"
+  }
+ ]
+}

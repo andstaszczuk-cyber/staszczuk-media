@@ -1,0 +1,41 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Po powrocie z obozu\n*zapytaj*:",
+   "items": [
+    "co było najfajniejsze",
+    "kogo poznałeś",
+    "czego się nauczyłeś",
+    "co było trudne"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *odpoczynek*",
+   "body": "Sen, domowy obiad, własny pokój. Opowieści przyjdą po dniu albo dwóch.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Pytaj *konkretnie*",
+   "body": "Najfajniejsze chwile, nowi koledzy, trudne momenty. To otwiera rozmowę.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Zdjęcia *razem*",
+   "body": "Dziecko opowiada przy każdym, Ty słuchasz.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Opowieści z obozu *zostają w rodzinie*.",
+   "cta": "Zapisz na dzień powrotu z obozu.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Przez wakacje masz nadrobić technikę.",
+   "new": "Jedna rzecz *na lato, dla frajdy*.",
+   "text": "Wakacyjne wyzwanie bez presji."
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *wybiera*",
+   "body": "Żonglerka, trik na rowerze, rzut z połowy. Cel, który kojarzy się z zabawą.",
+   "icon": "dice"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *kontroli*",
+   "body": "Ćwiczy, kiedy ma ochotę. Ty pytasz czasem i cieszysz się z postępu.",
+   "icon": "heart"
+  },
+  {
+   "kind": "point",
+   "title": "Punkt *startowy*",
+   "body": "Krótki film w czerwcu i w sierpniu. Postęp widać z dystansu.",
+   "icon": "growth"
+  },
+  {
+   "kind": "end",
+   "text": "Dla frajdy *uczy się najszybciej*.",
+   "cta": "Zapisz i wybierzcie wyzwanie na lato.",
+   "icon": "heart"
+  }
+ ]
+}

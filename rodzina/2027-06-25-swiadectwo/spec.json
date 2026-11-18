@@ -1,0 +1,35 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "heart",
+   "text": "Świadectwo i sport.\n*Pochwal za cały rok*."
+  },
+  {
+   "kind": "point",
+   "title": "Dwa *światy*",
+   "body": "Lekcje, treningi, mecze i sprawdziany. To ogromna praca organizacyjna.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Pochwała *za wysiłek*",
+   "body": "Za poprawione oceny i przedmiot, z którym walczyło cały rok.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Dziś *świętujecie*",
+   "body": "Rozmowa o słabszych ocenach może poczekać. Dziś jest docenianie.",
+   "icon": "gift"
+  },
+  {
+   "kind": "end",
+   "text": "Świadectwo to *jedna kartka z całego roku*.",
+   "cta": "Zapisz i wyślij rodzicowi młodego sportowca.",
+   "icon": "heart"
+  }
+ ]
+}

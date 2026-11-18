@@ -1,0 +1,38 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Chcę z nimi zagrać, ale ich nie znam.",
+    "*Podejdź i zapytaj, czy brakuje gracza*."
+   ],
+   "text": "Wakacyjne boisko *uczy odwagi*."
+  },
+  {
+   "kind": "point",
+   "title": "Inna *odwaga*",
+   "body": "Pewność w klubie nie przenosi się sama na obce boisko.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Gotowe *zdanie*",
+   "body": "Cześć, mogę zagrać? Przygotowane wcześniej zdejmuje sporo stresu.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Mały *krok*",
+   "body": "Odrzucić piłkę, pokibicować z bliska. To często kończy się zaproszeniem.",
+   "icon": "ball"
+  },
+  {
+   "kind": "end",
+   "text": "Odwaga to *podejść, cokolwiek usłyszysz*.",
+   "cta": "Zapisz na wakacyjny wyjazd.",
+   "icon": "heart"
+  }
+ ]
+}

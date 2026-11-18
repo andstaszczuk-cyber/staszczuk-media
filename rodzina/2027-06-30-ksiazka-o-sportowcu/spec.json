@@ -1,0 +1,35 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "book",
+   "text": "Książka o sportowcu na wakacje.\n*Weź postawy, resztę zostaw*."
+  },
+  {
+   "kind": "point",
+   "title": "Idole *też zaczynali*",
+   "body": "Porażki, wątpliwości, trudni trenerzy. Droga jest długa i pełna zakrętów.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Weź *postawy*",
+   "body": "Upór, cierpliwość, szacunek dla rywali. Resztę zostaw w książce.",
+   "icon": "heart"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj *o koszty*",
+   "body": "Jakim kosztem? Każdy wybór ma swoją cenę.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "end",
+   "text": "Z cudzej historii *bierzesz to, co służy*.",
+   "cta": "Zapisz i dorzuć książkę do wakacyjnej torby.",
+   "icon": "heart"
+  }
+ ]
+}

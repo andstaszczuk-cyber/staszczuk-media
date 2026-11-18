@@ -1,0 +1,36 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Tęsknisz? To przyjadę po Ciebie.",
+   "new": "Tęsknisz? *Masz dokąd wracać*.",
+   "text": "Pierwsze dni na obozie."
+  },
+  {
+   "kind": "point",
+   "title": "Tęsknota *jest normalna*",
+   "body": "Nowe miejsce, zmęczenie, wieczorna cisza. Zwykle mija po kilku dniach.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Spokój *w głosie*",
+   "body": "Rozumiesz i też tęsknisz. Twój spokój działa mocniej niż argumenty.",
+   "icon": "phone"
+  },
+  {
+   "kind": "point",
+   "title": "Pytaj *o dzień*",
+   "body": "Trening, obiad, najśmieszniejsza chwila. Uwaga wraca do tego, co się dzieje.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Tęsknota mija. *Radzenie sobie zostaje*.",
+   "cta": "Zapisz przed pierwszym obozem dziecka.",
+   "icon": "heart"
+  }
+ ]
+}

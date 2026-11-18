@@ -1,0 +1,41 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Tata na trybunach\n*najlepiej po prostu jest*:",
+   "items": [
+    "przyjeżdża, kiedy może",
+    "kibicuje całej drużynie",
+    "po meczu pyta o radość",
+    "gra z dzieckiem dla frajdy"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Po prostu *być*",
+   "body": "Przyjechać, kiedy się da, i kibicować całej drużynie.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsze *pytanie*",
+   "body": "Czy dobrze się bawiłeś otwiera rozmowę. Dlaczego nie podałeś ją zamyka.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Czyje *marzenia*?",
+   "body": "Jeśli sam grałeś, sprawdź, czy dziecko realizuje swoje.",
+   "icon": "compass"
+  },
+  {
+   "kind": "end",
+   "text": "Dla wszystkich tatusiów, *którzy są obok*.",
+   "cta": "Zapisz i wyślij tacie z trybun.",
+   "icon": "heart"
+  }
+ ]
+}

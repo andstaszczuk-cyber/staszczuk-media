@@ -1,0 +1,38 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Ile razy w tym roku jechałeś na mecz?",
+    "*Sporo. I to był dobry rok*."
+   ],
+   "text": "Ty też *miałeś swój sezon*."
+  },
+  {
+   "kind": "point",
+   "title": "Twoja *praca*",
+   "body": "Kursy, pobudki, pranie, trybuny. Mnóstwo pracy, której nikt nie widzi.",
+   "icon": "car"
+  },
+  {
+   "kind": "point",
+   "title": "Co Ci *się udało*?",
+   "body": "Spokojniejszy komentarz, dobra rozmowa z trenerem. To realne postępy.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna zmiana *od września*",
+   "body": "Wspólne dowożenie, wolny wieczór, inne pytanie po meczu.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "end",
+   "text": "Twój odpoczynek *pomaga też dziecku*.",
+   "cta": "Zapisz i wyślij rodzicowi z trybun.",
+   "icon": "heart"
+  }
+ ]
+}
