@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "night",
+   "text": "Sezon to maraton.\\n*Rozłóż siły*."
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsze kolejki",
+   "body": "Energia po przerwie kusi, żeby brać wszystko.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Długi dystans",
+   "body": "Mecze potrwają do czerwca. Forma ma wytrzymać.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Swoje tempo",
+   "body": "Mecz, odpoczynek, trening. I znowu.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "end",
+   "text": "Najważniejszy\\n*jest następny mecz*.",
+   "cta": "Zapisz na start sezonu"
+  }
+ ]
+}

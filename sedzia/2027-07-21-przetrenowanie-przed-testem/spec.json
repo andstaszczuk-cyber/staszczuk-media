@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "waga",
+   "text": "Za dużo treningu\\n*przed testem?*"
+  },
+  {
+   "kind": "point",
+   "title": "Nadrabianie",
+   "body": "Kilka tygodni do testu i nagle chcesz zrobić wszystko naraz.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Sygnały z ciała",
+   "body": "Ciężkie nogi, gorszy sen, krótszy lont. Czas zwolnić.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Mądrze",
+   "body": "Obciążenie plus odpoczynek. Plan od kogoś, kto się zna.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Lepiej niedotrenowany\\n*niż przetrenowany*.",
+   "cta": "Zapisz i sprawdź swój plan"
+  }
+ ]
+}

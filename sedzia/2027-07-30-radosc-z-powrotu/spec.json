@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "usmiech",
+   "text": "Wróciłeś na boisko.\\n*Zauważ, że to lubisz*."
+  },
+  {
+   "kind": "point",
+   "title": "Po przerwie",
+   "body": "Pierwsze mecze to często napięcie i sprawdzanie siebie.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Moment przyjemności",
+   "body": "Zapach trawy, pierwszy gwizdek, dobra decyzja.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "point",
+   "title": "Zapisz go",
+   "body": "Jedno zdanie po meczu: co dziś sprawiło mi radość.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Przykrość przyjdzie sama.\\n*Radość łap świadomie*.",
+   "cta": "Zapisz i wróć po pierwszym meczu"
+  }
+ ]
+}

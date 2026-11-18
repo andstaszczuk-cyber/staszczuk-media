@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Będzie, co będzie?\\n*Zrobię, co zrobię*."
+  },
+  {
+   "kind": "point",
+   "title": "Słowa zmieniają ciało",
+   "body": "Będzie, co będzie oddaje ster komuś innemu.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Zrobię, co zrobię",
+   "body": "Wraca ci wpływ na to, co zależy od ciebie.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Okaże się",
+   "body": "Zamień na: zobaczymy, jaki mecz poprowadzę.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Mówisz o sobie\\n*w trybie działania*.",
+   "cta": "Zapisz przed pierwszym meczem"
+  }
+ ]
+}

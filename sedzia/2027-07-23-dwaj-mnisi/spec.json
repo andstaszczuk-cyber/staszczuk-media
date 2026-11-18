@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "2",
+   "text": "mnichów i jedna rzeka.\\n*Co niesiesz z sezonu?*"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwszy przeniósł i zostawił",
+   "body": "Zrobił, co trzeba, i poszedł dalej.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Drugi niósł w głowie",
+   "body": "Cały dzień myślał o tym, co się stało.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Twój zeszły sezon",
+   "body": "Spór, niesprawiedliwa ocena, mecz, który dalej boli?",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Zostaw na brzegu\\n*to, co już przeniosłeś*.",
+   "cta": "Zapisz i wróć przed pierwszym meczem"
+  }
+ ]
+}

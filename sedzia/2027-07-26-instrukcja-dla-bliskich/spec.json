@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Uprzedź bliskich,\\n*jak masz w dzień meczu*."
+  },
+  {
+   "kind": "point",
+   "title": "Ludzie się nie domyślą",
+   "body": "Widzą, że jesteś cichy, i myślą, że to ich wina.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Instrukcja obsługi",
+   "body": "Rano przed meczem potrzebuję ciszy. Po meczu daj mi godzinę.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Powiedz teraz",
+   "body": "Przed sezonem, spokojnie, zanim pojawi się napięcie.",
+   "icon": "dom"
+  },
+  {
+   "kind": "end",
+   "text": "Mów ludziom,\\n*jak mają cię traktować*.",
+   "cta": "Zapisz i porozmawiaj w domu"
+  }
+ ]
+}

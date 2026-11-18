@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "PIERWSZY MECZ",
+   "text": "Pierwsza decyzja sezonu\\n*to jedna z setek*."
+  },
+  {
+   "kind": "point",
+   "title": "Setki decyzji",
+   "body": "W meczu podejmujesz ich mnóstwo. Pierwsza waży tyle samo co inne.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Głowa robi z niej test",
+   "body": "Pojawia się myśl, że od niej zależy cały sezon.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Jedno zadanie",
+   "body": "Na pierwsze minuty ustawienie, oddech i jasny gest.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Masz setki decyzji.\\n*Każda dostaje swoją uwagę*.",
+   "cta": "Zapisz przed pierwszym meczem sezonu"
+  }
+ ]
+}

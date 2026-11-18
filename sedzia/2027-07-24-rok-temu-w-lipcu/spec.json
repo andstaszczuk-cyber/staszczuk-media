@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Czym martwiłeś się\\n*rok temu w lipcu?*",
+   "sub": "Większość tych obaw *dawno minęła*."
+  },
+  {
+   "kind": "point",
+   "title": "Przypomnij sobie",
+   "body": "Test, obsada, nowa liga. Co wtedy spędzało ci sen z powiek?",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Co się stało",
+   "body": "Ile z tych czarnych scenariuszy się spełniło?",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Skoryguj prognozę",
+   "body": "Głowa pisze katastrofy lepiej, niż je przewiduje.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Za rok\\n*też spojrzysz na ten lipiec*.",
+   "cta": "Zapisz i odpowiedz sobie dziś"
+  }
+ ]
+}

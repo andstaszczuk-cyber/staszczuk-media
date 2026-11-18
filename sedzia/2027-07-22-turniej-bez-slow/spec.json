@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "triangle",
+   "text": "Turniej z drużynami z zagranicy.\\n*Mówisz gestem*."
+  },
+  {
+   "kind": "point",
+   "title": "Inny język",
+   "body": "Zawodnicy cię nie rozumieją, ty nie rozumiesz ich.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Gest i postawa",
+   "body": "Jasny sygnał, spokojna sylwetka, kontakt wzrokowy.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Ustal z kapitanami",
+   "body": "Przed meczem pokaż, jak będziesz komunikował decyzje.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Spokój rozumie\\n*każdy język*.",
+   "cta": "Zapisz przed letnim turniejem"
+  }
+ ]
+}

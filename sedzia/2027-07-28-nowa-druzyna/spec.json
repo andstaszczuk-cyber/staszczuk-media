@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "touchline",
+   "text": "Drużyna, której nie znasz.\\n*Patrzysz bez etykiet*."
+  },
+  {
+   "kind": "point",
+   "title": "Nowe twarze",
+   "body": "Beniaminek, nowy skład, zawodnicy po transferach.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Ciekawość",
+   "body": "Pierwsze minuty obserwujesz, jak grają i jak reagują.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Ta sama miara",
+   "body": "Dla znanych i nieznanych tak samo.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Każdy mecz\\n*jest premierą*.",
+   "cta": "Zapisz przed pierwszą kolejką"
+  }
+ ]
+}

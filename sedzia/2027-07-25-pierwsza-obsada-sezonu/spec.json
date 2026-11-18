@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "tunnel",
+   "text": "Przyszła pierwsza obsada.\\n*Co sobie dopowiadasz?*"
+  },
+  {
+   "kind": "point",
+   "title": "Fakty",
+   "body": "Mecz, liga, data, zespół. Tyle mówi obsada.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Dopowiedziane",
+   "body": "Pewnie mnie skreślili. Ktoś się uwziął. To już twoja interpretacja.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdź wprost",
+   "body": "Masz wątpliwość? Zapytaj kogoś, kto zna odpowiedź.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "end",
+   "text": "Cudze intencje\\n*często piszesz sam*.",
+   "cta": "Zapisz i wróć po kolejnej obsadzie"
+  }
+ ]
+}
