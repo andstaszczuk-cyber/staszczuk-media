@@ -1,0 +1,74 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na obozie każdy trening *traktuję jak walkę o skład*",
+  "sub": "Trener stoi z notesem i wszystko się liczy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Trening jest od nauki",
+   "body": "Tu wolno się mylić. Trener patrzy na rozwój i postawę.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "trophy",
+     "label": "muszę wygrać każde ćwiczenie",
+     "cross": true
+    },
+    "right": {
+     "icon": "book",
+     "label": "uczę się i rosnę"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zadanie na trening",
+   "body": "Jedna rzecz, którą dziś robisz lepiej niż wczoraj."
+  },
+  {
+   "title": "Siły na cały obóz",
+   "body": "Kto szarżuje od pierwszego dnia, często słabnie w drugim tygodniu."
+  }
+ ],
+ "end": {
+  "text": "Pokazujesz się *jakością pracy*.",
+  "cta": "Zapisz i ustal zadanie na jutro"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na obozie są warsztaty z psychologiem, *a ja wolę milczeć*",
+  "sub": "Krzesła w kółku i każdy ma coś powiedzieć",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "mic",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Słuchanie też się liczy",
+   "body": "Możesz zacząć od obserwacji i notatek.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "słucham",
+     "notuję",
+     "jedno pytanie"
+    ],
+    "top": true
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapisuj dla siebie",
+   "body": "Co z tego mogę sprawdzić na najbliższym treningu?"
+  },
+  {
+   "title": "Rozmowa w cztery oczy",
+   "body": "Po zajęciach możesz podejść sam i zadać pytanie."
+  }
+ ],
+ "end": {
+  "text": "Korzystasz *w swoim tempie*.",
+  "cta": "Zapisz i przygotuj jedno pytanie"
+ }
+}

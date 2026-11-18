@@ -1,0 +1,73 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wszyscy wrzucają zdjęcia z wakacji, *a ja mam obóz*",
+  "sub": "Oni nad morzem, ja na podbiegach",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Wycinek cudzego dnia",
+   "body": "W sieci lądują najlepsze kadry. Reszta zostaje poza zdjęciem.",
+   "art": {
+    "type": "focus",
+    "center": "mój obóz",
+    "icon": "flag",
+    "around": [
+     "plaże",
+     "imprezy",
+     "wyjazdy",
+     "zdjęcia"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Twój powód",
+   "body": "Przypomnij sobie, po co tu jesteś i co chcesz zbudować."
+  },
+  {
+   "title": "Wakacje też dla ciebie",
+   "body": "Zaplanuj kilka dni po obozie tylko dla siebie."
+  }
+ ],
+ "end": {
+  "text": "Robisz to, *bo tego chcesz*.",
+  "cta": "Zapisz i zaplanuj swój wolny dzień"
+ }
+}

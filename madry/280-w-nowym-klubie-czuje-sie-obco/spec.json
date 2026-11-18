@@ -1,0 +1,73 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "W nowym klubie *czuję się obco*",
+  "sub": "Wszyscy się znają, a ja stoję z boku",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Adaptacja trwa",
+   "body": "Nowe miejsce potrzebuje czasu. Pierwsze tygodnie są najtrudniejsze.",
+   "art": {
+    "type": "hub",
+    "center": "ja",
+    "icon": "people",
+    "items": [
+     "drużyna",
+     "trener",
+     "nowe zasady",
+     "nowe miejsce"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Małe kroki do ludzi",
+   "body": "Zapytaj o coś praktycznego, zaproponuj wspólną rozgrzewkę."
+  },
+  {
+   "title": "Już tu jesteś",
+   "body": "Klub cię wybrał. Teraz kontynuujesz swoją jakość."
+  }
+ ],
+ "end": {
+  "text": "Swoje miejsce *budujesz krok po kroku*.",
+  "cta": "Zapisz i zagadaj do jednej osoby"
+ }
+}

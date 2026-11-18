@@ -1,0 +1,67 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Złapałem uraz na wakacjach *i głupio mi przed trenerem*",
+  "sub": "Przygotowania za tydzień, a ja z kostką",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "foot",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Powiedz od razu",
+   "body": "Im szybciej trener wie, tym szybciej dopasuje plan.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "wstydzę się",
+    "to": "mówię od razu"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Urazy się zdarzają",
+   "body": "Na boisku i poza nim. Ruch w życiu niesie ryzyko."
+  },
+  {
+   "title": "Plan na teraz",
+   "body": "Lekarz, fizjoterapeuta, trener. Co mogę robić w tym czasie?"
+  }
+ ],
+ "end": {
+  "text": "Zdrowie *ma pierwszeństwo*.",
+  "cta": "Zapisz i zadzwoń do trenera"
+ }
+}

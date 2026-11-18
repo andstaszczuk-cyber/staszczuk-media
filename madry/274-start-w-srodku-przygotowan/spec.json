@@ -1,0 +1,78 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Startuję w środku przygotowań *na ciężkich nogach*",
+  "sub": "W sobotę zawody, a cały tydzień ciężki blok",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Start treningowy",
+   "body": "Ten start jest częścią planu. Oceniasz go według planu.",
+   "art": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "lipiec",
+      "v": 0.55,
+      "note": "ciężkie nogi"
+     },
+     {
+      "label": "wrzesień",
+      "v": 0.9,
+      "hl": true,
+      "note": "forma"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zadanie na start",
+   "body": "Coś technicznego albo taktycznego, co zrobisz także zmęczony."
+  },
+  {
+   "title": "Wynik w kontekście",
+   "body": "Porównuj ze startami w podobnym momencie przygotowań."
+  }
+ ],
+ "end": {
+  "text": "Startujesz, *żeby się uczyć*.",
+  "cta": "Zapisz i ustal zadanie na start"
+ }
+}
