@@ -1,0 +1,69 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Po świętach *wróciłem na trening jak z waty*",
+  "sub": "Kilka dni przerwy i ciało jakby obce",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Frycowe po przerwie",
+   "body": "Pierwsze dwa, trzy treningi są ciężkie u każdego. To jest wliczone.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "ciężko",
+     "lepiej",
+     "swoje tempo"
+    ],
+    "top": true
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Nie odrabiaj na siłę",
+   "body": "Kilka dni wolnego to żaden dług. Wracasz do planu, bez dokładania."
+  },
+  {
+   "title": "Oceniaj po tygodniu",
+   "body": "Jeden ciężki trening niczego nie przesądza. Patrz na cały tydzień."
+  }
+ ],
+ "end": {
+  "text": "Forma *nie wyparowała przez kilka dni*.",
+  "cta": "Zapisz na powrót po przerwie"
+ }
+}

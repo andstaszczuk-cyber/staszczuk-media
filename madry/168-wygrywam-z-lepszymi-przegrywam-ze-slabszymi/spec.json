@@ -1,0 +1,72 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wygrywam z lepszymi, *a przegrywam ze słabszymi*",
+  "sub": "Z faworytem gram luźno, z outsiderem się spinam",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wynik zostaw w szatni",
+   "body": "Ze słabszym masz te same zadania, co z najlepszym. Dwie, trzy konkretne rzeczy.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "shield",
+     "label": "muszę wygrać",
+     "cross": true
+    },
+    "right": {
+     "icon": "play",
+     "label": "gram swoje zadania"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Tabela tego dnia nie gra",
+   "body": "Mistrz gra z każdym w swojej najlepszej dziennej dyspozycji."
+  },
+  {
+   "title": "Szanuj każdego rywala",
+   "body": "Pełne zaangażowanie to szacunek. Ten po drugiej stronie też chce wygrać."
+  }
+ ],
+ "end": {
+  "text": "Grasz *z każdym tak samo*.",
+  "cta": "Zapisz przed meczem z niżej notowanym"
+ }
+}

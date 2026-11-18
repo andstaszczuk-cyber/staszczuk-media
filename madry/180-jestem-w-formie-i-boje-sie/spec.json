@@ -1,0 +1,65 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Jestem w formie *i boję się, że zaraz coś się stanie*",
+  "sub": "Idzie tak dobrze, że czekam, aż coś strzeli",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "win",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Czarny kot",
+   "body": "Dobra forma i uraz to dwie osobne sprawy. Głowa sama je łączy.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "zaraz coś pęknie",
+    "to": "dbam o to, co mogę"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Lista profilaktyki",
+   "body": "Sen, rozgrzewka, sygnały z ciała. Obawę zamieniasz w zadania."
+  },
+  {
+   "title": "Pozwól sobie na radość",
+   "body": "Dobry okres jest po to, żeby go przeżyć. Zapisuj, co działa."
+  }
+ ],
+ "end": {
+  "text": "Dobry czas *jest do wykorzystania*.",
+  "cta": "Zapisz i zrób swoją listę"
+ }
+}

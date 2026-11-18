@@ -1,0 +1,75 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Od tygodni *odkładam rozmowę z trenerem*",
+  "sub": "Wiem, co chcę powiedzieć, i ciągle nie ma dobrego momentu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Spisz trzy zdania",
+   "body": "Co widzisz, jak się z tym czujesz i o co prosisz. Bez oskarżeń.",
+   "art": {
+    "type": "notes",
+    "title": "DO TRENERA",
+    "lines": [
+     "co widzę",
+     "jak się czuję",
+     "o co proszę"
+    ],
+    "crossed": [
+     "czekam na moment"
+    ],
+    "side": "konkretnie"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Przećwicz na głos",
+   "body": "W domu albo z kimś zaufanym. Powiedziane kilka razy brzmi spokojniej."
+  },
+  {
+   "title": "Umów termin",
+   "body": "Dobry moment sam się nie zdarzy. Zapytaj, kiedy trener ma dziesięć minut."
+  }
+ ],
+ "end": {
+  "text": "Rozmowa jest *lżejsza niż jej wizja*.",
+  "cta": "Zapisz i umów się na rozmowę"
+ }
+}

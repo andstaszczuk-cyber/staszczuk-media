@@ -1,0 +1,86 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Każde zawody *traktuję jak najważniejsze*",
+  "sub": "Co weekend finał i co weekend wyczerpanie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Podziel starty",
+   "body": "Główne, ważne i treningowe. Każda grupa ma inny cel.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "GŁÓWNE",
+      "icon": "trophy",
+      "items": [
+       "szczyt formy"
+      ]
+     },
+     {
+      "title": "WAŻNE",
+      "icon": "flag",
+      "items": [
+       "dobry start"
+      ]
+     },
+     {
+      "title": "TRENINGOWE",
+      "icon": "note",
+      "items": [
+       "ćwiczę"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Na treningowych ćwiczysz",
+   "body": "Jeden element do sprawdzenia. Wynik jest dodatkiem."
+  },
+  {
+   "title": "Pobudzenie idzie za rangą",
+   "body": "Mniejsza ranga, mniej napięcia. Energia zostaje na to, co ważne."
+  }
+ ],
+ "end": {
+  "text": "Nie każdy start *jest finałem*.",
+  "cta": "Zapisz i rozpisz swój sezon"
+ }
+}

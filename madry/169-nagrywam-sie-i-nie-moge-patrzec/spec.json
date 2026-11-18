@@ -1,0 +1,78 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Nagrywam się na treningu *i nie mogę na siebie patrzeć*",
+  "sub": "Widzę tylko błędy i wyłączam po minucie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "play",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Najpierw to, co działa",
+   "body": "Trzy dobre akcje i nazwij, co w nich zrobiłeś. Dopiero potem poprawki.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "TERAZ",
+     "items": [
+      "same błędy",
+      "wyłączam"
+     ]
+    },
+    "right": {
+     "title": "INACZEJ",
+     "items": [
+      "trzy dobre akcje",
+      "jedna poprawka",
+      "porównanie"
+     ]
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jedna rzecz do poprawy",
+   "body": "Wybierasz jeden element na najbliższy tydzień. Reszta poczeka."
+  },
+  {
+   "title": "Porównuj z dawnym nagraniem",
+   "body": "Postęp widać z dystansu. Zestaw dzisiejsze z tym sprzed pół roku."
+  }
+ ],
+ "end": {
+  "text": "Kamera to *twój asystent*.",
+  "cta": "Zapisz przed kolejnym nagraniem"
+ }
+}

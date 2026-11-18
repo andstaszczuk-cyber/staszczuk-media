@@ -1,0 +1,65 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Koledzy z drużyny *komentują moje błędy*",
+  "sub": "Każde złe zagranie słyszę jeszcze długo po akcji",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Oddziel formę od treści",
+   "body": "Krzyk to forma. W środku bywa konkretna informacja.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "znowu ty",
+    "to": "szybciej podaj"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Granica przy pierwszej odzywce",
+   "body": "Po treningu, spokojnie i wprost. Bez czekania, aż się nazbiera."
+  },
+  {
+   "title": "Nowa piłka, nowa szansa",
+   "body": "Po komentarzu wracasz do zadania. Następna akcja jest twoja."
+  }
+ ],
+ "end": {
+  "text": "Ich słowa, *twoja następna akcja*.",
+  "cta": "Zapisz i wróć do tego po meczu"
+ }
+}

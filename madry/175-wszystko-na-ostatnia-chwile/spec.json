@@ -1,0 +1,72 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Przed meczem zawsze coś *na ostatnią chwilę*",
+  "sub": "Szukam butów, dopakowuję torbę, biegnę na autobus",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Logistyka to regulator",
+   "body": "Każda bieganina dokłada stresu. Spokojny poranek to część rozgrzewki.",
+   "art": {
+    "type": "checklist",
+    "title": "WIECZÓR PRZED",
+    "chip": "GOTOWE",
+    "chipX": 440,
+    "back": false,
+    "items": [
+     "torba spakowana",
+     "strój i buty",
+     "wyjście z zapasem"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Planuj od tyłu",
+   "body": "Od godziny meczu cofasz się do pobudki. Z zapasem na korki i spóźnienia."
+  },
+  {
+   "title": "Stała lista w telefonie",
+   "body": "Ta sama co tydzień. Sprawdzasz raz i zamykasz temat."
+  }
+ ],
+ "end": {
+  "text": "Spokój przed meczem *zaczyna się wieczorem*.",
+  "cta": "Zapisz i zrób swoją listę"
+ }
+}

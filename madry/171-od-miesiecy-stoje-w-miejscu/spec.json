@@ -1,0 +1,115 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Od miesięcy *stoję w miejscu*",
+  "sub": "Trenuję tak samo, a wyniki ani drgną",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Płasko to też etap",
+   "body": "Ciało układa to, co już zrobiłeś. Postęp przychodzi skokami.",
+   "art": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.15
+       ],
+       [
+        0.2,
+        0.42
+       ],
+       [
+        0.35,
+        0.45
+       ],
+       [
+        0.55,
+        0.47
+       ],
+       [
+        0.72,
+        0.5
+       ],
+       [
+        0.85,
+        0.78
+       ],
+       [
+        1,
+        0.82
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.5,
+      "y": 0.47,
+      "label": "płasko",
+      "dy": -40
+     },
+     {
+      "x": 0.9,
+      "y": 0.8,
+      "label": "skok",
+      "hl": true,
+      "dy": -40
+     }
+    ],
+    "x": "miesiące",
+    "y": "forma"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Sprawdź, co zmierzysz",
+   "body": "Czas, powtórzenia, nagranie techniki. Fakty zamiast odczuć."
+  },
+  {
+   "title": "Zmień jedno pokrętło",
+   "body": "Jedną rzecz w treningu, śnie albo regeneracji. Po kilku tygodniach oceniasz."
+  }
+ ],
+ "end": {
+  "text": "Płasko *nie znaczy w miejscu*.",
+  "cta": "Zapisz i sprawdź swoje liczby"
+ }
+}

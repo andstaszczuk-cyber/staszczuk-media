@@ -1,0 +1,78 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "W dzień wolny *myślami dalej jestem na treningu*",
+  "sub": "Ciało odpoczywa, a głowa analizuje bez przerwy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Rola do szafy",
+   "body": "Po treningu odkładasz rolę zawodnika jak strój. Wyjmiesz ją jutro.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "dumbbell",
+      "label": "trening"
+     },
+     {
+      "icon": "pause",
+      "label": "odkładam rolę",
+      "hl": true
+     },
+     {
+      "icon": "sun",
+      "label": "wolny dzień"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Kwadrans ze stoperem",
+   "body": "Myśli o sporcie mają swoją porę. Potem na dziś wystarczy."
+  },
+  {
+   "title": "Wypełnij dzień czymś innym",
+   "body": "Ludzie, natura, coś do zrobienia rękami. Scrollowanie tego nie załatwi."
+  }
+ ],
+ "end": {
+  "text": "Odpoczynek *to też trening*.",
+  "cta": "Zapisz na najbliższy wolny dzień"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Rywale mnie znają *i boję się, że mnie rozczytają*",
+  "sub": "Mój najlepszy ruch przestał być niespodzianką",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Atut działa nawet znany",
+   "body": "Wiedzieć, co zrobisz, to jedno. Zatrzymać to drugie.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "znają mnie",
+    "to": "dalej to robię"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Dołóż jedną odmianę",
+   "body": "Ten sam ruch z innego ustawienia albo w innym tempie. Rywal musi zgadywać."
+  },
+  {
+   "title": "Rywal też się martwi",
+   "body": "Wie, co potrafisz, i boi się, że nie zdąży. Niech on się martwi."
+  }
+ ],
+ "end": {
+  "text": "Szlifujesz atut, *rywal ma problem*.",
+  "cta": "Zapisz przed kolejnym meczem"
+ }
+}

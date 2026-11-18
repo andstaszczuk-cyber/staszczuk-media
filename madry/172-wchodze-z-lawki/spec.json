@@ -1,0 +1,81 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Wchodzę z ławki *i nie mogę złapać meczu*",
+  "sub": "Siedzę zimny, a potem mam grać na pełnych obrotach",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "bench",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Grzej się na ławce",
+   "body": "Krótki rozruch co kilkanaście minut, jeśli trener pozwala. Ciało gotowe przed wejściem.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "bench",
+      "top": "ławka",
+      "bottom": "rozruch"
+     },
+     {
+      "icon": "eye",
+      "top": "patrzę",
+      "bottom": "zadania",
+      "hl": true
+     },
+     {
+      "icon": "play",
+      "top": "wchodzę",
+      "bottom": "gotowy"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Oglądaj jak zawodnik",
+   "body": "Gdzie jest miejsce, co robi rywal. Wchodzisz już w grze."
+  },
+  {
+   "title": "Pierwsza akcja prosta",
+   "body": "Na start pewne zagranie. Masz prawo rozkręcać się w meczu."
+  }
+ ],
+ "end": {
+  "text": "Ławka rezerwowych *to ławka gotowych*.",
+  "cta": "Zapisz przed meczem"
+ }
+}

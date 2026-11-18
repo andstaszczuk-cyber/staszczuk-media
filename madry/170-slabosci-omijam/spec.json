@@ -1,0 +1,76 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Robię to, co lubię, *a słabości omijam*",
+  "sub": "Mocne strony szlifuję, reszta czeka na lepszy dzień",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Omijanie też uczy",
+   "body": "Uczysz się unikać, a słabość w głowie robi się coraz większa.",
+   "art": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "to, co lubię",
+      "v": 0.9,
+      "note": "codziennie"
+     },
+     {
+      "label": "słabości",
+      "v": 0.2,
+      "hl": true,
+      "note": "od święta"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Do średniego poziomu",
+   "body": "Słabość nie musi być atutem. Ma przestać ci szkodzić."
+  },
+  {
+   "title": "Najpierw trudne",
+   "body": "Kwadrans na słabość, kiedy jesteś świeży. Ulubione ćwiczenie jako nagroda."
+  }
+ ],
+ "end": {
+  "text": "Słabość *też jest do trenowania*.",
+  "cta": "Zapisz i wybierz jedną słabość"
+ }
+}
