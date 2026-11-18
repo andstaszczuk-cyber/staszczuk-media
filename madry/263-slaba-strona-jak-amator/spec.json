@@ -1,0 +1,109 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Ćwiczę słabą stronę *i czuję się jak amator*",
+  "sub": "Wyglądam, jakbym pierwszy raz przyszedł na trening",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "foot",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Najpierw bywa gorzej",
+   "body": "Nowy ruch długo wygląda nieporadnie. Tak wygląda nauka.",
+   "art": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.5
+       ],
+       [
+        0.25,
+        0.32
+       ],
+       [
+        0.5,
+        0.45
+       ],
+       [
+        0.75,
+        0.66
+       ],
+       [
+        1,
+        0.84
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.25,
+      "y": 0.32,
+      "label": "nieporadnie",
+      "dy": 50
+     },
+     {
+      "x": 0.92,
+      "y": 0.82,
+      "label": "nowa umiejętność",
+      "hl": true,
+      "dy": -40
+     }
+    ],
+    "x": "tygodnie",
+    "y": "jakość"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Małe dawki",
+   "body": "Kilkanaście minut na każdym treningu, regularnie przez całe lato."
+  },
+  {
+   "title": "Nagraj się",
+   "body": "Dziś i za miesiąc. Porównaj oba nagrania."
+  }
+ ],
+ "end": {
+  "text": "Lato to czas *na słabe strony*.",
+  "cta": "Zapisz i wybierz jeden element"
+ }
+}

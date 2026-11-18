@@ -1,0 +1,80 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "W upale *wszystko mnie drażni*",
+  "sub": "Trzydzieści stopni i bardzo krótki lont",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Najpierw ciało",
+   "body": "Gorąco i zmęczenie skracają lont. To fizjologia, więc o nią dbasz.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "sun",
+      "label": "upał"
+     },
+     {
+      "icon": "battery",
+      "label": "zmęczenie"
+     },
+     {
+      "icon": "bolt",
+      "label": "krótszy lont",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Nazwij to",
+   "body": "Jest gorąco, jestem drażliwy. Samo nazwanie daje trochę dystansu."
+  },
+  {
+   "title": "Przerwa przed reakcją",
+   "body": "Łyk wody, cień, kilka wolnych wydechów i dopiero wtedy odpowiadasz."
+  }
+ ],
+ "end": {
+  "text": "Gorąco jest *wszystkim*.",
+  "cta": "Zapisz i zaplanuj chłodzenie na trening"
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Inni trenują w wakacje, *a ja mam przerwę i się boję*",
+  "sub": "W telefonie wszyscy już biegają",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Przerwa jest w planie",
+   "body": "Odpoczynek po sezonie to część treningu. Ciało przetwarza pracę.",
+   "art": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.35
+       ],
+       [
+        0.25,
+        0.3
+       ],
+       [
+        0.45,
+        0.55
+       ],
+       [
+        0.7,
+        0.75
+       ],
+       [
+        1,
+        0.9
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.22,
+      "y": 0.3,
+      "label": "przerwa",
+      "dy": 50
+     },
+     {
+      "x": 0.92,
+      "y": 0.88,
+      "label": "świeża forma",
+      "hl": true,
+      "dy": -40
+     }
+    ],
+    "x": "lato",
+    "y": "gotowość"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Mniej scrollowania",
+   "body": "W sieci widzisz cudzy wycinek. Twój plan jest twój."
+  },
+  {
+   "title": "Wracasz świeży",
+   "body": "Po przerwie ciało i głowa przyjmują więcej pracy."
+  }
+ ],
+ "end": {
+  "text": "Odpoczynek to też *trening*.",
+  "cta": "Zapisz i odłóż telefon na wieczór"
+ }
+}

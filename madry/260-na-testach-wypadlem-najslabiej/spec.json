@@ -1,0 +1,71 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na pierwszych testach *wypadłem najsłabiej*",
+  "sub": "Moje nazwisko na samym dole tabeli",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "watch",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "ruler",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Punkt startowy",
+   "body": "Test z początku przygotowań pokazuje, skąd ruszasz.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "test w lipcu",
+     "praca",
+     "kolejny test"
+    ],
+    "top": true
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Porównuj się ze sobą",
+   "body": "Twój wynik dziś i twój wynik za kilka tygodni pracy."
+  },
+  {
+   "title": "Zapytaj o szczegóły",
+   "body": "Który element jest najsłabszy i jak go trenować?"
+  }
+ ],
+ "end": {
+  "text": "Test to *informacja na start*.",
+  "cta": "Zapisz i zapytaj trenera o plan"
+ }
+}

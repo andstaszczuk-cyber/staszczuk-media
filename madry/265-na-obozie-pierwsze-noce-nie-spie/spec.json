@@ -1,0 +1,80 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Na obozie pierwsze noce *w ogóle nie śpię*",
+  "sub": "Obce łóżko, a jutro dwa treningi",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Czujny mózg",
+   "body": "W obcym miejscu pierwsza noc bywa płytsza. Potem organizm się przyzwyczaja.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "moon",
+      "label": "obce łóżko"
+     },
+     {
+      "icon": "eye",
+      "label": "czujny mózg"
+     },
+     {
+      "icon": "bed",
+      "label": "płytszy sen",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Kawałek domu",
+   "body": "Własna poduszka albo poszewka, zatyczki do uszu, opaska na oczy."
+  },
+  {
+   "title": "Leżysz spokojnie",
+   "body": "Wolny oddech i odpoczynek w bezruchu. To też regeneracja."
+  }
+ ],
+ "end": {
+  "text": "Sen wraca, *gdy przestajesz go gonić*.",
+  "cta": "Zapisz i spakuj swój zestaw do spania"
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Bez meczów trening *wydaje mi się bez sensu*",
+  "sub": "Do pierwszego meczu jeszcze bardzo daleko",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Budujesz pod sezon",
+   "body": "Siła i wytrzymałość z lipca pracują na mecze jesienią.",
+   "art": {
+    "type": "bricks",
+    "topIcon": "flag",
+    "label": "sezon",
+    "caption": "każda cegła to trening z lata"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Cel na każdy tydzień",
+   "body": "Coś mierzalnego: więcej powtórzeń, lepszy czas, czystsza technika."
+  },
+  {
+   "title": "Mecz w głowie",
+   "body": "Przy ciężkiej serii wyobraź sobie końcówkę meczu, w której ta siła się przyda."
+  }
+ ],
+ "end": {
+  "text": "Lato robi *jesienną formę*.",
+  "cta": "Zapisz i ustal cel na ten tydzień"
+ }
+}

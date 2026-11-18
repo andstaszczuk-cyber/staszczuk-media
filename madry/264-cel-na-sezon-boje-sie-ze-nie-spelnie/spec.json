@@ -1,0 +1,83 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Mam ustalić cel na sezon *i boję się, że go nie spełnię*",
+  "sub": "Wpiszę wysoko i wyjdę na kogoś, kto się przechwala?",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Cel z widełkami",
+   "body": "Minimum, które cię zadowoli, realny poziom i maksimum na dobry rok.",
+   "art": {
+    "type": "scale10",
+    "caption": "MÓJ CEL",
+    "y": 240,
+    "points": [
+     {
+      "n": 4,
+      "label": "minimum"
+     },
+     {
+      "n": 7,
+      "label": "realnie",
+      "hl": true
+     },
+     {
+      "n": 10,
+      "label": "maksimum"
+     }
+    ],
+    "note": "widełki dają miejsce na gorszy okres"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Dopisz zadania",
+   "body": "Co robisz co tydzień, żeby się do niego zbliżyć?"
+  },
+  {
+   "title": "Sprawdzaj po drodze",
+   "body": "Co kilka tygodni korekta. Cel można urealnić."
+  }
+ ],
+ "end": {
+  "text": "Cel ma ci *pomagać*.",
+  "cta": "Zapisz i ustal swoje widełki"
+ }
+}
