@@ -1,0 +1,81 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "W upale w końcówce *głowa mi odpływa*",
+  "sub": "Proste decyzje nagle zaczynają mi uciekać",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Upał zabiera uwagę",
+   "body": "Ciało ma dodatkową robotę, a na skupienie zostaje mniej energii.",
+   "art": {
+    "type": "scale10",
+    "caption": "SKUPIENIE W UPALE",
+    "points": [
+     {
+      "n": 8,
+      "label": "początek"
+     },
+     {
+      "n": 6,
+      "label": "połowa"
+     },
+     {
+      "n": 3,
+      "label": "końcówka",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jedno słowo",
+   "body": "Krótkie hasło na końcówkę. Zmęczona głowa udźwignie jedno słowo."
+  },
+  {
+   "title": "Plan na przerwy",
+   "body": "Cień, kilka spokojnych oddechów, jedna wskazówka na dalszą grę."
+  }
+ ],
+ "end": {
+  "text": "Upał jest *dla obu stron*.",
+  "cta": "Zapisz i wybierz swoje hasło na końcówkę"
+ }
+}

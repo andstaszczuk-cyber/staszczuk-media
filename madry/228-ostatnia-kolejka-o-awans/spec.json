@@ -1,0 +1,75 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Ostatnia kolejka o awans *i myślę tylko o tym*",
+  "sub": "Wszystko rozstrzygnie się w jednym meczu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Ranga to umowa",
+   "body": "Ten mecz ma tyle samo minut i akcji co każdy inny w sezonie.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "trophy",
+     "label": "mecz o awans",
+     "sub": "w mojej głowie"
+    },
+    "right": {
+     "icon": "ball",
+     "label": "kolejny mecz",
+     "sub": "na boisku"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Tydzień jak zwykle",
+   "body": "Treningi, sen i rytuały bez zmian. Niczego nie dokładasz na ostatnią chwilę."
+  },
+  {
+   "title": "Jedno zadanie na start",
+   "body": "Pierwsze minuty grasz prosto: jeden element, który znasz na pamięć."
+  }
+ ],
+ "end": {
+  "text": "Tydzień jak *każdy inny*.",
+  "cta": "Zapisz i rozpisz swój tydzień przed meczem"
+ }
+}

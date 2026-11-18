@@ -1,0 +1,78 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Spadliśmy z ligi *i czuję, że to moja wina*",
+  "sub": "Wracam w myślach do każdego swojego błędu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Policz uczciwie",
+   "body": "Cały sezon to dziesiątki meczów i setki akcji całej drużyny.",
+   "art": {
+    "type": "table",
+    "left": "W GŁOWIE",
+    "right": "W FAKTACH",
+    "good": true,
+    "rows": [
+     [
+      "mój jeden błąd",
+      "cały sezon drużyny"
+     ],
+     [
+      "to przeze mnie",
+      "wiele przyczyn"
+     ]
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Twoja część",
+   "body": "Nazwij, za co odpowiadasz ty. Resztę zostaw drużynie i trenerowi."
+  },
+  {
+   "title": "Wniosek na lato",
+   "body": "Jedna rzecz do poprawy w przerwie. Bez kary i bez biczowania się."
+  }
+ ],
+ "end": {
+  "text": "Odpowiedzialność *bez biczowania*.",
+  "cta": "Zapisz i nazwij swoją część sezonu"
+ }
+}

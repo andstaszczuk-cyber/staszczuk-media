@@ -1,0 +1,85 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wygraliśmy ligę, *a ja nic nie czuję*",
+  "sub": "Wszyscy świętują, a ja czekam na radość",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "To się zdarza",
+   "body": "Po długim wysiłku najpierw przychodzi zmęczenie. Radość potrafi przyjść później.",
+   "art": {
+    "type": "timeline",
+    "y": 300,
+    "points": [
+     {
+      "top": "ostatni mecz",
+      "icon": "whistle"
+     },
+     {
+      "top": "pustka",
+      "icon": "pause",
+      "hl": true
+     },
+     {
+      "top": "odpoczynek",
+      "icon": "bed"
+     },
+     {
+      "top": "radość",
+      "icon": "heart"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Bez przymusu",
+   "body": "Radość na zawołanie rzadko działa. Daj sobie kilka dni."
+  },
+  {
+   "title": "Wróć do drogi",
+   "body": "Przypomnij sobie trudne momenty sezonu i to, jak przez nie przeszedłeś."
+  }
+ ],
+ "end": {
+  "text": "Radość *ma swój czas*.",
+  "cta": "Zapisz i wróć do sezonu za kilka dni"
+ }
+}

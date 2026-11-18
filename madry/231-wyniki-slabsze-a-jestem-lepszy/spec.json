@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wyniki gorsze niż rok temu, *a czuję, że jestem lepszy*",
+  "sub": "Komu wierzyć: tabeli czy sobie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ruler",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Rozłóż wynik",
+   "body": "Technika, taktyka, warunki, rywale. Każdy element oceniasz osobno.",
+   "art": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "ruler",
+      "label": "technika"
+     },
+     {
+      "icon": "brain",
+      "label": "taktyka"
+     },
+     {
+      "icon": "wind",
+      "label": "warunki"
+     },
+     {
+      "icon": "people",
+      "label": "rywale"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Rywale też rosną",
+   "body": "Biegasz wśród ludzi, którzy przepracowali ten sam rok."
+  },
+  {
+   "title": "Porównuj siebie",
+   "body": "Nagranie sprzed roku i dzisiejsze. Co robisz lepiej?"
+  }
+ ],
+ "end": {
+  "text": "Wynik to *jedna z informacji*.",
+  "cta": "Zapisz i porównaj nagrania z dwóch sezonów"
+ }
+}
