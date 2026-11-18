@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-11-17T09:50:00Z",
+ "ostatnio_do": "2026-11-18T09:50:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -512,6 +512,30 @@
    "dodano_mysli": 1,
    "dodano_metafor": 0,
    "status": "przetworzone"
+  },
+  {
+   "uuid": "38574208-D9D1-4D8A-B0A3-45004A703659",
+   "data": "2026-11-17",
+   "temat": "pierwsze spotkanie (wstęp, bez nowych myśli)",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "6CE1F15C-60A0-4032-B50E-1A8ACF55279A",
+   "data": "2026-11-17",
+   "temat": "pierwsze spotkanie (wstęp, bez nowych myśli)",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "1C8527F4-8610-4FED-8369-6E2B5506D37D",
+   "data": "2026-11-18",
+   "temat": "spotkanie cykliczne (lista wykluczeń)",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "pominięte"
   }
  ]
 }

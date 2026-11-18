@@ -322,5 +322,20 @@
   "png": "metafory/blog/2026-11-17.png",
   "metricool_id": 431211813,
   "metricool_uuid": "-2397737229320565520"
+ },
+ {
+  "data": "2026-11-18",
+  "url": "https://andrzejstaszczuk.pl/2026/11/17/pamiec-proceduralna-w-sporcie/",
+  "tytul_wpisu": "Wiem, ale nie potrafię. Pamięć proceduralna w sporcie",
+  "headline": "Wiesz, co robić, a na zawodach *nie wychodzi*? Przeczytaj, dlaczego.",
+  "layout": "G1",
+  "photo": "svg:wiedza i cel",
+  "palette": "cream",
+  "font": "bebas",
+  "focus": null,
+  "tilt": -2,
+  "spec": "metafory/blog/2026-11-18.json",
+  "png": "metafory/blog/2026-11-18.png",
+  "godzina": "17:00"
  }
 ]

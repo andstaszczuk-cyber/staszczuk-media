@@ -1,0 +1,11 @@
+{
+ "layout": "G1",
+ "svg": "<g fill='none' stroke='{ink}' stroke-width='14' stroke-linecap='round'><rect x='90' y='250' width='290' height='400' rx='24' fill='{bg2}'/><path d='M150 340H320M150 410H320M150 480H280M150 550H300'/></g><g fill='none' stroke='{ink}' stroke-width='14' stroke-linecap='round' stroke-linejoin='round'><path d='M420 450H560M520 410L565 450L520 490' opacity='.8'/></g><g fill='none' stroke='{acc}' stroke-width='22'><circle cx='770' cy='450' r='60'/><circle cx='770' cy='450' r='120' opacity='.7'/><circle cx='770' cy='450' r='180' opacity='.4'/></g><circle cx='770' cy='450' r='26' fill='{acc}'/><g fill='{soft}'><circle cx='170' cy='780' r='18'/><circle cx='260' cy='780' r='18'/><circle cx='350' cy='780' r='18'/><circle cx='440' cy='780' r='18'/><circle cx='530' cy='780' r='18'/><circle cx='620' cy='780' r='18'/><circle cx='710' cy='780' r='18'/><circle cx='800' cy='780' r='18'/></g><path d='M170 780H800' stroke='{acc}' stroke-width='10' opacity='.5'/>",
+ "palette": "cream",
+ "font": "bebas",
+ "tilt": -2,
+ "kicker": "na blogu",
+ "headline": "Wiesz, co robić, a na zawodach *nie wychodzi*? Przeczytaj, dlaczego.",
+ "body": "Dowiesz się, czemu wiedza nie wystarcza i jak ćwiczyć, żeby działało pod presją.",
+ "cta": "Cały tekst: andrzejstaszczuk.pl/blog"
+}
