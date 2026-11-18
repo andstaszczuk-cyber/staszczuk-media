@@ -1,0 +1,41 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Wakacyjny rytm\n*w domu*:",
+   "items": [
+    "sen o stałej porze",
+    "trochę ruchu każdego dnia",
+    "dzień bez planu",
+    "czas z kolegami"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Sen *o stałej porze*",
+   "body": "Nawet później niż w roku szkolnym. Sen to podstawa regeneracji.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Ruch *każdego dnia*",
+   "body": "Rower, basen, gra z kolegami. Bez planu i bez liczenia.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Dzień *bez planu*",
+   "body": "Raz w tygodniu dziecko samo decyduje, co robi.",
+   "icon": "dice"
+  },
+  {
+   "kind": "end",
+   "text": "Luz z kilkoma *stałymi punktami*.",
+   "cta": "Zapisz na pierwszy tydzień wakacji.",
+   "icon": "heart"
+  }
+ ]
+}

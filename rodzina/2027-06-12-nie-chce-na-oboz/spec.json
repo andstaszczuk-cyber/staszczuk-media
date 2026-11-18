@@ -1,0 +1,38 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Nie chcę jechać na obóz.",
+    "*Powiedz mi, czego się obawiasz*."
+   ],
+   "text": "Za niechęcią często stoi *konkretna obawa*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *zapytaj*",
+   "body": "Pokój, tęsknota, trening, koledzy. Za niechęcią zwykle stoi konkret.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Konkret *uspokaja*",
+   "body": "Pokój z kolegą, pora telefonu, plan dnia. Informacja zmniejsza niepewność.",
+   "icon": "tent"
+  },
+  {
+   "kind": "point",
+   "title": "Przypomnij, *co już umie*",
+   "body": "Pierwszy dzień w szkole i pierwszy turniej też były trudne.",
+   "icon": "growth"
+  },
+  {
+   "kind": "end",
+   "text": "Obawa wypowiedziana *robi się mniejsza*.",
+   "cta": "Zapisz i wyślij rodzicowi przed obozem.",
+   "icon": "heart"
+  }
+ ]
+}

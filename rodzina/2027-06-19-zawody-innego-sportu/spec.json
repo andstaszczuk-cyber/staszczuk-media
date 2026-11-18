@@ -1,0 +1,34 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Zabierz dziecko\n*na zawody innego sportu*."
+  },
+  {
+   "kind": "point",
+   "title": "Sport *z boku*",
+   "body": "Bez presji i porównań. Dziecko po prostu ogląda i się dziwi.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Emocje *są wszędzie*",
+   "body": "W każdym sporcie zawodnicy się mylą i denerwują. To normalne.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Razem *jako kibice*",
+   "body": "Rodzic i dziecko po tej samej stronie, bez wyniku w tle.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Cudzy sport *uczy o swoim*.",
+   "cta": "Zapisz na wolny weekend w czerwcu.",
+   "icon": "heart"
+  }
+ ]
+}

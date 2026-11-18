@@ -1,0 +1,36 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Rodzice muszą wygrać z dziećmi.",
+   "new": "Na pikniku *wygrywa dobra zabawa*.",
+   "text": "Mecz rodzice kontra dzieci."
+  },
+  {
+   "kind": "point",
+   "title": "Pokaż *na sobie*",
+   "body": "Szacunek, uśmiech po błędzie, piątka po straconym golu. Dzieci uczą się z tego, co widzą.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Graj *z uśmiechem*",
+   "body": "Na serio i z radością. Pochwal bramkarza, który obronił Twój strzał.",
+   "icon": "heart"
+  },
+  {
+   "kind": "point",
+   "title": "Przyjmij *recenzję*",
+   "body": "Zapytaj dziecko o swoją grę. Szczerą ocenę przyjmij z humorem.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Wynik zapomną. *Atmosferę zapamiętają*.",
+   "cta": "Zapisz i wyślij rodzicom przed klubowym piknikiem.",
+   "icon": "heart"
+  }
+ ]
+}

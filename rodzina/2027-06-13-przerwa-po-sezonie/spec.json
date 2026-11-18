@@ -1,0 +1,41 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Przerwa po sezonie\n*to też plan*:",
+   "items": [
+    "kilka dni bez treningu",
+    "sen bez budzika",
+    "ruch dla frajdy",
+    "powrót bez nadrabiania"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Forma *nie ucieka*",
+   "body": "Kilka tygodni przerwy to część planu. Progres dzieje się w regeneracji.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Ruch *dla frajdy*",
+   "body": "Rower, woda, podwórko. Ciało pracuje, głowa odpoczywa od presji.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Wrzesień *bez nadrabiania*",
+   "body": "Powrót w swoim tempie. Forma buduje się razem z sezonem.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "end",
+   "text": "Wypoczęte dziecko *wraca z radością*.",
+   "cta": "Zapisz i wyślij rodzicowi, który boi się wakacji.",
+   "icon": "heart"
+  }
+ ]
+}

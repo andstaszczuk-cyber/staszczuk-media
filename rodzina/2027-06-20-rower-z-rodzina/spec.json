@@ -1,0 +1,35 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "loop",
+   "text": "Rodzinna wycieczka rowerowa.\n*Ruch bez wyniku*."
+  },
+  {
+   "kind": "point",
+   "title": "Bez *mierzenia*",
+   "body": "Nikt nie liczy czasu i nie ocenia techniki. Jest ruch i rodzina.",
+   "icon": "heart"
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *prowadzi*",
+   "body": "Wybiera trasę i miejsce przerwy. To buduje sprawczość.",
+   "icon": "compass"
+  },
+  {
+   "kind": "point",
+   "title": "Tempo *najwolniejszego*",
+   "body": "Wszyscy mają dojechać zadowoleni, także młodsze rodzeństwo.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "end",
+   "text": "Ruch na całe życie *zaczyna się w rodzinie*.",
+   "cta": "Zapisz na pierwszy wolny weekend.",
+   "icon": "heart"
+  }
+ ]
+}

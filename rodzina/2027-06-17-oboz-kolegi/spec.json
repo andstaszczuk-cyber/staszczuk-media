@@ -1,0 +1,38 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Kuba jedzie na obóz za granicę, a ja nigdzie.",
+    "*Opowiedz, na co Ty masz ochotę latem*."
+   ],
+   "text": "Cudze wakacje *z daleka wyglądają lepiej*."
+  },
+  {
+   "kind": "point",
+   "title": "Uznaj *emocje*",
+   "body": "Zazdrość i rozczarowanie są normalne. Wystarczy powiedzieć, że rozumiesz.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Co jest *pod spodem*?",
+   "body": "Czasem chodzi o to, żeby nie czuć się gorszym od kolegów.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Lato *po swojemu*",
+   "body": "Namiot, jezioro, nowa umiejętność. Liczy się, z kim i jak.",
+   "icon": "tent"
+  },
+  {
+   "kind": "end",
+   "text": "Liczy się, *z kim i jak*.",
+   "cta": "Zapisz i wyślij rodzicowi przed wakacjami.",
+   "icon": "heart"
+  }
+ ]
+}

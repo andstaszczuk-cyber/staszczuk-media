@@ -1,0 +1,35 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "book",
+   "text": "Nowa szkoła od września.\n*Sport może zostać*."
+  },
+  {
+   "kind": "point",
+   "title": "Stały *punkt*",
+   "body": "Wszystko jest nowe, a drużyna i trener zostają. To pomaga w adaptacji.",
+   "icon": "compass"
+  },
+  {
+   "kind": "point",
+   "title": "Tydzień *na kartce*",
+   "body": "Lekcje, dojazdy, treningi, nauka i odpoczynek. Rozpiszcie to razem.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Przegląd *po miesiącu*",
+   "body": "Decyzja z doświadczenia jest lepsza od decyzji z obaw.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "end",
+   "text": "Nowa szkoła, *ta sama drużyna*.",
+   "cta": "Zapisz na koniec sierpnia.",
+   "icon": "heart"
+  }
+ ]
+}

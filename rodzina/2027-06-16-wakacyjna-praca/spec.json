@@ -1,0 +1,36 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Pracujesz latem? To odpuść treningi.",
+   "new": "Praca i trening *mogą się zmieścić*.",
+   "text": "Pierwsza wakacyjna praca nastolatka."
+  },
+  {
+   "kind": "point",
+   "title": "Praca *też uczy*",
+   "body": "Punktualność, odpowiedzialność, kontakt z ludźmi. To przydaje się też w sporcie.",
+   "icon": "wallet"
+  },
+  {
+   "kind": "point",
+   "title": "Plan *robi nastolatek*",
+   "body": "Zapytaj, jak chce to pogodzić. Samodzielne planowanie to lekcja dorosłości.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Uważaj *na zmęczenie*",
+   "body": "Krótszy lont i gorszy sen to sygnały, że czegoś jest za dużo.",
+   "icon": "moon"
+  },
+  {
+   "kind": "end",
+   "text": "Lato z pracą *też jest rozwojem*.",
+   "cta": "Zapisz i wyślij rodzicowi nastolatka.",
+   "icon": "heart"
+  }
+ ]
+}
