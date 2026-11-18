@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "2",
+   "text": "rodzaje zmęczenia.\\n*Sprawdzasz oba*."
+  },
+  {
+   "kind": "point",
+   "title": "Ciało",
+   "body": "Ciężkie nogi, wolniejszy sprint, dłuższy powrót do siebie po meczu.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Głowa",
+   "body": "Rozkojarzenie, irytacja, niechęć do kolejnego meczu.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Różne odpowiedzi",
+   "body": "Ciało potrzebuje odpoczynku, głowa dystansu od sędziowania.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Końcówka sezonu\\n*wymaga obu baterii*.",
+   "cta": "Zapisz i sprawdź się w ten weekend"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Po meczu chce ci się płakać?\\n*Masz do tego prawo*."
+  },
+  {
+   "kind": "point",
+   "title": "Zwykła reakcja",
+   "body": "Łzy po trudnym meczu to sposób, w jaki ciało zrzuca napięcie.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Bez tłumienia",
+   "body": "Trzymanie emocji w środku kosztuje dużo energii.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Potem wnioski",
+   "body": "Kiedy emocje opadną, patrzysz na mecz spokojniej.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Twarda głowa\\n*też ma prawo do łez*.",
+   "cta": "Zapisz i wyślij komuś, kto tego potrzebuje"
+  }
+ ]
+}

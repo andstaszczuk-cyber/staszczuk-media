@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "car",
+   "text": "Przebierasz się w aucie?\\n*Mecz i tak się gra*."
+  },
+  {
+   "kind": "point",
+   "title": "Warunki, jakie są",
+   "body": "Brak szatni, krzywe linie, wysoka trawa. Tak też bywa.",
+   "icon": "dom"
+  },
+  {
+   "kind": "point",
+   "title": "Twój wpływ",
+   "body": "Własna woda, ręcznik i spokój. Reszta jest poza tobą.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Twoje nastawienie widać",
+   "body": "Zawodnicy grają w tych samych warunkach i patrzą na ciebie.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Pływasz w stawie,\\n*jaki masz*.",
+   "cta": "Zapisz i wróć przed wyjazdem na mniejsze boisko"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "kamera",
+   "text": "Oglądasz swój mecz?\\n*Zacznij od dobrych akcji*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw to, co działa",
+   "body": "Wypisz kilka dobrze rozwiązanych sytuacji i zobacz, co wtedy zrobiłeś.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "point",
+   "title": "Potem najwyżej trzy",
+   "body": "Trzy rzeczy do poprawy wystarczą. Reszta poczeka.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Oglądaj jak trener",
+   "body": "Opisujesz ustawienie i zachowania. Bez epitetów pod swoim adresem.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Nagranie pokazuje,\\n*jak rośniesz*.",
+   "cta": "Zapisz i wróć przed analizą nagrania"
+  }
+ ]
+}

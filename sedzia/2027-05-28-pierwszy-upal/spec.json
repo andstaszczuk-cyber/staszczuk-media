@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "termometr",
+   "text": "Pierwszy upał.\\n*Głowa też się grzeje*."
+  },
+  {
+   "kind": "point",
+   "title": "Krótszy lont",
+   "body": "W upale łatwiej o irytację. U zawodników i u ciebie.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojniejsze prowadzenie",
+   "body": "Wolniejszy krok, krótsze rozmowy, spokojny ton.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "point",
+   "title": "Zadbaj o siebie",
+   "body": "Woda, cień przed meczem i rozgrzewka dopasowana do pogody.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "end",
+   "text": "W upale wygrywa\\n*spokojniejsza głowa*.",
+   "cta": "Zapisz i wróć przed meczem w upale"
+  }
+ ]
+}

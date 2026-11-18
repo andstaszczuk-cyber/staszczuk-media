@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "triangle",
+   "text": "Byłeś za daleko od akcji?\\n*To informacja*."
+  },
+  {
+   "kind": "point",
+   "title": "Opis, bez oceny",
+   "body": "Za daleko to po prostu informacja o tym, gdzie stałeś.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdź przyczynę",
+   "body": "Zmęczenie, czytanie gry, tor biegu. Każde ma inne rozwiązanie.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna poprawka",
+   "body": "Na kolejny mecz bierzesz jedną zmianę w ustawieniu.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Ustawienie\\n*da się wytrenować*.",
+   "cta": "Zapisz i wróć po analizie meczu"
+  }
+ ]
+}

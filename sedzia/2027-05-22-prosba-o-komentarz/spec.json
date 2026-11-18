@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PO MECZU",
+   "sub": "Lokalny portal, klubowa kamera, *ktoś z telefonem*.",
+   "text": "Ktoś prosi\\n*o komentarz*?"
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdź zasady",
+   "body": "Twój związek ma swoje wytyczne. Trzymasz się ich.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Masz prawo odmówić",
+   "body": "Grzecznie i krótko, bez tłumaczenia się.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Bez ocen",
+   "body": "Nie komentujesz decyzji, drużyn ani zawodników, nawet gdy kusi.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Twoje decyzje\\n*mówią na boisku*.",
+   "cta": "Zapisz i wróć, zanim ktoś podsunie ci mikrofon"
+  }
+ ]
+}

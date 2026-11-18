@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "1",
+   "text": "rzecz, którą powiesz koledze:\\n*co zrobił dobrze*."
+  },
+  {
+   "kind": "point",
+   "title": "Konkret",
+   "body": "Nazwij sytuację i zachowanie. Samo dobry mecz to za mało.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Od razu po meczu",
+   "body": "W szatni, póki wszystko jest świeże.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Zanim przejdziecie do uwag",
+   "body": "Najpierw to, co zadziałało. Potem kilka rzeczy do poprawy.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Docenianie\\n*buduje zespół*.",
+   "cta": "Zapisz i powiedz to po najbliższym meczu"
+  }
+ ]
+}

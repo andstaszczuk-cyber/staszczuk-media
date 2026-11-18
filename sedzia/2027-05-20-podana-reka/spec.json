@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "handshake",
+   "text": "Po meczu podaje ci rękę.\\n*Przyjmij ją*."
+  },
+  {
+   "kind": "point",
+   "title": "Emocje opadły",
+   "body": "Zawodnik, który krzyczał w trakcie, po meczu widzi więcej.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Bez zaległości",
+   "body": "Uścisk ręki zamyka sprawę. Nie wracasz do tamtej sytuacji.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "point",
+   "title": "Dobry przykład",
+   "body": "Twoja spokojna reakcja pokazuje innym, jak kończy się mecz.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Mecz się skończył.\\n*Sprawy też mogą*.",
+   "cta": "Zapisz i wróć po trudnym meczu"
+  }
+ ]
+}

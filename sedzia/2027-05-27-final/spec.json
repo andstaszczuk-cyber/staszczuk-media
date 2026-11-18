@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "FINAŁ",
+   "text": "Masz finał?\\n*Zapamiętaj go*."
+  },
+  {
+   "kind": "point",
+   "title": "Doceń drogę",
+   "body": "Ta obsada to efekt twojej pracy przez cały sezon.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja zwykła robota",
+   "body": "Rutyna, odprawa, rozgrzewka. Wszystko tak jak zawsze.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Przeżyj go świadomie",
+   "body": "Rozejrzyj się przy wyjściu. Takie chwile warto zabrać ze sobą.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "Finał to nagroda.\\n*Weź ją*.",
+   "cta": "Zapisz i wróć przed ważną obsadą"
+  }
+ ]
+}

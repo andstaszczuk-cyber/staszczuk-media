@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "JUTRO",
+   "sub": "Dzień Dziecka i turnieje *dla najmłodszych*.",
+   "text": "Sędziujesz\\n*dzieciaki*?"
+  },
+  {
+   "kind": "point",
+   "title": "Inna rola",
+   "body": "Przy najmłodszych bardziej uczysz, niż karzesz.",
+   "icon": "ksiazka"
+  },
+  {
+   "kind": "point",
+   "title": "Gra ma płynąć",
+   "body": "Przerywasz wtedy, kiedy naprawdę trzeba.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Uśmiech się liczy",
+   "body": "Dla wielu dzieci to jeden z pierwszych sędziów w życiu.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "end",
+   "text": "Pierwszy sędzia\\n*zostaje w pamięci*.",
+   "cta": "Zapisz i wróć przed turniejem dla dzieci"
+  }
+ ]
+}

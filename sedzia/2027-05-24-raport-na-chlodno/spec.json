@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Raport po meczu\\n*pisz na chłodno*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw oddech",
+   "body": "Emocje po meczu kolorują słowa. Daj sobie chwilę.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "point",
+   "title": "Same fakty",
+   "body": "Minuta, sytuacja, zachowanie, decyzja. Bez przymiotników.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Przeczytaj jeszcze raz",
+   "body": "Sprawdź, czy ktoś, kto nie widział meczu, zrozumie, co się stało.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Raport zostaje na długo.\\n*Pisz go spokojnie*.",
+   "cta": "Zapisz i wróć przed pisaniem raportu"
+  }
+ ]
+}

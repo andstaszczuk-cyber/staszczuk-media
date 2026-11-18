@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "warmup",
+   "text": "Mecz opóźniony.\\n*Twoja gotowość czeka*."
+  },
+  {
+   "kind": "point",
+   "title": "Ciało w lekkim ruchu",
+   "body": "Nie siadaj na długo i nie rób drugiej pełnej rozgrzewki.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Uwaga na konkret",
+   "body": "Boisko, zespół, plan na pierwsze minuty. To uspokaja.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Drugi start",
+   "body": "Tuż przed nową godziną powtórz krótko swoją rutynę.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "end",
+   "text": "Mecz zacznie się później.\\n*Ty dalej jesteś gotowy*.",
+   "cta": "Zapisz i wróć, gdy mecz się opóźni"
+  }
+ ]
+}

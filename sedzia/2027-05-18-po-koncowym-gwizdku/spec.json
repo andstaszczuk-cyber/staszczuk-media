@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "PO GWIZDKU",
+   "text": "Mecz się skończył.\\n*Ty jeszcze nie*."
+  },
+  {
+   "kind": "point",
+   "title": "Feta i złość naraz",
+   "body": "Po końcowym gwizdku emocje obu drużyn wybuchają w tej samej chwili.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Zostań czujny",
+   "body": "Do zejścia z boiska nadal obserwujesz zawodników i ławki.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Razem do szatni",
+   "body": "Zespół schodzi spokojnie, bez pośpiechu i bez dyskusji.",
+   "icon": "szafa"
+  },
+  {
+   "kind": "end",
+   "text": "Mecz kończy się\\n*w szatni*.",
+   "cta": "Zapisz i wróć przed meczem o wysoką stawkę"
+  }
+ ]
+}

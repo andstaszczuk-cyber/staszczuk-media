@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "bench_talk",
+   "text": "Ostatnie kolejki.\\n*Ktoś walczy o utrzymanie*."
+  },
+  {
+   "kind": "point",
+   "title": "Rozumiesz stawkę",
+   "body": "Dla nich to miesiące pracy. To widać w emocjach.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Empatia i zasady",
+   "body": "Możesz współczuć i jednocześnie egzekwować przepisy.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Po meczu po ludzku",
+   "body": "Bez pocieszania na siłę i bez tłumaczenia decyzji.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Ich spadek\\n*nie jest twoją winą*.",
+   "cta": "Zapisz i wróć przed meczem w końcówce sezonu"
+  }
+ ]
+}
