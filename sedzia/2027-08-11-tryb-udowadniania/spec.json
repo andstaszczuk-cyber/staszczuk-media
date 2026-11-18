@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Dla kogo dziś\\n*gwiżdżesz?*",
+   "sub": "Dla meczu czy dla oceny?\\n*To robi różnicę*."
+  },
+  {
+   "kind": "point",
+   "title": "Tryb udowadniania",
+   "body": "Każda decyzja ma pokazać, że jesteś dobry.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Koszt",
+   "body": "Więcej gwizdania, sztywność i uwaga skupiona na sobie.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Tryb roboty",
+   "body": "Uwaga na grze, decyzja dla meczu, ocena przyjdzie sama.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Gwiżdżesz dla meczu.\\n*Ocena jest skutkiem ubocznym*.",
+   "cta": "Zapisz przed meczem z oceną"
+  }
+ ]
+}

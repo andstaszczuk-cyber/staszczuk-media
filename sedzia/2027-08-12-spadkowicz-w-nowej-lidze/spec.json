@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "handshake",
+   "text": "Spadkowicz w nowej lidze.\\n*Frustracja szuka adresu*."
+  },
+  {
+   "kind": "point",
+   "title": "Rozczarowanie",
+   "body": "Drużyna wciąż żyje poprzednim sezonem i wyższą ligą.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Adresat",
+   "body": "Złość łatwo trafia w sędziego, bo jest najbliżej.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja odpowiedź",
+   "body": "Spokój, jasne granice i ta sama miara co dla innych.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Ich frustracja należy do nich.\\n*Ty prowadzisz mecz*.",
+   "cta": "Zapisz przed meczem ze spadkowiczem"
+  }
+ ]
+}

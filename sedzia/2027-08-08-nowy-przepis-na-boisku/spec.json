@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "ksiazka",
+   "text": "Znasz nowy przepis.\\n*Masz na niego gotową reakcję?*"
+  },
+  {
+   "kind": "point",
+   "title": "Wiedza",
+   "body": "Przeczytałeś zmiany i zdałeś test. To dopiero pierwszy krok.",
+   "icon": "ksiazka"
+  },
+  {
+   "kind": "point",
+   "title": "Presja",
+   "body": "W meczu decyzja przychodzi szybko, a stary nawyk wraca pierwszy.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Jeśli X, to Y",
+   "body": "Przygotuj gotową reakcję na sytuacje z nowym przepisem.",
+   "icon": "lista"
+  },
+  {
+   "kind": "end",
+   "text": "Wiedzieć to jedno.\\n*Zrobić w meczu to drugie*.",
+   "cta": "Zapisz przed kolejnym meczem"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Pierwsza ocena sezonu\\n*to jeden pomiar*."
+  },
+  {
+   "kind": "point",
+   "title": "Jeden mecz",
+   "body": "Konkretni ludzie, konkretna perspektywa i jeden dzień.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Rozłóż ją",
+   "body": "Co merytoryczne, bierzesz do pracy. Resztę odkładasz.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Tendencja",
+   "body": "Prawdziwe wnioski wyciągasz po kilku ocenach.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Jedna ocena\\n*to dopiero początek pomiaru*.",
+   "cta": "Zapisz po pierwszej ocenie"
+  }
+ ]
+}

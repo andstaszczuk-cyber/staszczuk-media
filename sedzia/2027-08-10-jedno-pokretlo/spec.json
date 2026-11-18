@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "1",
+   "text": "pokrętło\\n*na całą rundę*."
+  },
+  {
+   "kind": "point",
+   "title": "Za dużo naraz",
+   "body": "Lista dziesięciu celów na rundę zwykle kończy się na żadnym.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden element",
+   "body": "Wybierz jedną umiejętność, która da ci najwięcej.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Mecz po meczu",
+   "body": "Po każdym meczu sprawdzasz tylko ten jeden element.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Ewolucja\\n*daje więcej niż rewolucja*.",
+   "cta": "Zapisz i wybierz swoje pokrętło"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "crew",
+   "text": "Nowy zespół sędziowski?\\n*Ustalcie zasady przed meczem*."
+  },
+  {
+   "kind": "point",
+   "title": "Nowe twarze",
+   "body": "Asystenci, z którymi jeszcze nie pracowałeś.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Instrukcja obsługi",
+   "body": "Powiedz, jak reagujesz i czego potrzebujesz w trudnych chwilach.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Proste sygnały",
+   "body": "Ustalcie znaki na najczęstsze sytuacje w meczu.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "end",
+   "text": "Mniej domysłów,\\n*więcej zespołu*.",
+   "cta": "Zapisz przed meczem z nowym zespołem"
+  }
+ ]
+}

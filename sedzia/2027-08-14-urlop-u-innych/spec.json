@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Znajomi na plaży.\\n*Ty na boisku, bo tak wybrałeś*."
+  },
+  {
+   "kind": "point",
+   "title": "Porównania",
+   "body": "Zdjęcia z wakacji przewijają się w telefonie między meczami.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "point",
+   "title": "Wybór",
+   "body": "Sędziowanie w sierpniu to twoja decyzja, z kosztami i zyskami.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Twój odpoczynek",
+   "body": "Zaplanuj go konkretnie, zanim zabiorą go obsady.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Wybierasz boisko.\\n*Wybierz też odpoczynek*.",
+   "cta": "Zapisz przed długim weekendem"
+  }
+ ]
+}
