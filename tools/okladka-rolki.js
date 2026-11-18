@@ -34,6 +34,8 @@ const FIG = {
       <g fill="${Y}" stroke="${Y}"><circle cx="76" cy="118" r="4"/><circle cx="88" cy="112" r="4"/><circle cx="98" cy="120" r="4"/><circle cx="110" cy="108" r="4"/><circle cx="122" cy="118" r="4"/><circle cx="104" cy="94" r="4"/><circle cx="84" cy="98" r="4"/><circle cx="118" cy="86" r="4"/></g>`,
   6: `<path d="M56 50 l10 -10 l10 10 l10 -10 l10 10 l10 -10 l10 10 l10 -10 l10 10 l10 -10" stroke="${Y}"/><path d="M60 72 q-12 20 0 40 M140 72 q12 20 0 40" stroke="${Y}"/>
       <circle cx="100" cy="76" r="14"/><line x1="100" y1="90" x2="100" y2="124"/><line x1="100" y1="100" x2="80" y2="116"/><line x1="100" y1="100" x2="120" y2="116"/><line x1="100" y1="124" x2="88" y2="160"/><line x1="100" y1="124" x2="112" y2="160"/>`,
+  8: `<rect x="122" y="70" width="44" height="80" rx="5"/><rect x="136" y="62" width="16" height="8" rx="2"/><rect x="129" y="134" width="30" height="9" fill="${Y}" stroke="${Y}"/>
+      <circle cx="62" cy="70" r="14"/><line x1="62" y1="84" x2="64" y2="124"/><line x1="63" y1="96" x2="48" y2="118"/><line x1="63" y1="96" x2="84" y2="112"/><line x1="64" y1="124" x2="52" y2="160"/><line x1="64" y1="124" x2="76" y2="160"/>`,
   1: `<ellipse cx="100" cy="64" rx="52" ry="36" stroke="${Y}" stroke-dasharray="7 8"/><polygon points="146,46 158,60 140,62" fill="${Y}" stroke="${Y}"/>
       <circle cx="100" cy="64" r="14"/><line x1="100" y1="78" x2="100" y2="122"/><line x1="100" y1="92" x2="80" y2="110"/><line x1="100" y1="92" x2="120" y2="110"/><line x1="100" y1="122" x2="88" y2="160"/><line x1="100" y1="122" x2="112" y2="160"/>`,
   2: `<rect x="64" y="22" width="72" height="40" rx="3" stroke="${Y}"/><line x1="64" y1="42" x2="136" y2="42" stroke="${Y}"/>
