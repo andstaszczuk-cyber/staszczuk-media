@@ -1,0 +1,194 @@
+{
+ "cover": {
+  "layout": "hero",
+  "kicker": "PRACA NAD SŁABĄ STRONĄ",
+  "title": "Zmiana chodzi\n*jak wahadło*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 300,
+     "y": 20,
+     "w": 300,
+     "h": 20,
+     "r": 10,
+     "c": "fig2"
+    },
+    {
+     "k": "path",
+     "d": "M150 330 Q450 560 750 330",
+     "c": "soft",
+     "w": 8,
+     "dash": "16 14"
+    },
+    {
+     "k": "line",
+     "x1": 450,
+     "y1": 40,
+     "x2": 210,
+     "y2": 400,
+     "c": "soft",
+     "w": 8
+    },
+    {
+     "k": "circle",
+     "x": 210,
+     "y": 400,
+     "r": 46,
+     "c": "soft"
+    },
+    {
+     "k": "line",
+     "x1": 450,
+     "y1": 40,
+     "x2": 450,
+     "y2": 470,
+     "c": "fg",
+     "w": 10
+    },
+    {
+     "k": "circle",
+     "x": 450,
+     "y": 480,
+     "r": 56,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 20,
+     "y": 180,
+     "text": "za mało",
+     "c": "soft",
+     "tc": "fg",
+     "size": 32
+    },
+    {
+     "k": "chip",
+     "x": 700,
+     "y": 180,
+     "text": "za dużo",
+     "c": "soft",
+     "tc": "fg",
+     "size": 32
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Z jednej skrajności w drugą",
+   "body": "Grałeś zbyt zachowawczo? Teraz ryzykujesz wszystko. To zwykły etap.",
+   "viz": {
+    "type": "scale10",
+    "caption": "RYZYKO W GRZE",
+    "points": [
+     {
+      "n": 2,
+      "label": "wcześniej"
+     },
+     {
+      "n": 6,
+      "label": "cel",
+      "hl": true
+     },
+     {
+      "n": 9,
+      "label": "teraz"
+     }
+    ]
+   }
+  },
+  {
+   "title": "To są drgania",
+   "body": "Wahadło przez chwilę kołysze się w obie strony, aż się ustawi.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.9
+       ],
+       [
+        0.12,
+        0.1
+       ],
+       [
+        0.24,
+        0.8
+       ],
+       [
+        0.36,
+        0.25
+       ],
+       [
+        0.48,
+        0.7
+       ],
+       [
+        0.6,
+        0.38
+       ],
+       [
+        0.72,
+        0.6
+       ],
+       [
+        0.84,
+        0.47
+       ],
+       [
+        1,
+        0.52
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "x": "tygodnie"
+   }
+  },
+  {
+   "title": "Szukasz środka",
+   "body": "Po każdym treningu oceniasz: za mało, za dużo czy w sam raz?",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "ZA MAŁO",
+      "items": [
+       "unikam",
+       "czekam"
+      ]
+     },
+     {
+      "title": "W SAM RAZ",
+      "items": [
+       "wybieram",
+       "sprawdzam"
+      ],
+      "hl": true
+     },
+     {
+      "title": "ZA DUŻO",
+      "items": [
+       "na siłę",
+       "bez planu"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Gdzie *dziś* jesteś na wahadle?",
+  "cta": "Po treningu zaznacz na skali, gdzie dziś byłeś.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

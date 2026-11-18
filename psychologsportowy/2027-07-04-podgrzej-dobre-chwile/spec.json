@@ -1,0 +1,148 @@
+{
+ "cover": {
+  "layout": "split",
+  "left": "ZAPOMNIANE",
+  "right": "PODGRZANE",
+  "title": "Dobre chwile\n*trzeba podgrzewać*",
+  "size": 84,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 158,
+     "y": 60,
+     "s": 120,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "dobry mecz",
+      "i cisza"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "pot",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "wracasz",
+      "i przypominasz"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "think"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Porażki przychodzą same",
+   "body": "Mózg szybciej podsuwa błędy. Dobre chwile trzeba przywołać samemu.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "cloudRain",
+     "label": "porażki",
+     "sub": "przychodzą bez pytania"
+    },
+    "right": {
+     "icon": "star",
+     "label": "sukcesy",
+     "sub": "trzeba je przywołać"
+    }
+   }
+  },
+  {
+   "title": "Wybierz trzy momenty",
+   "body": "Z minionego sezonu. Akcja, start albo trening, po którym byłeś dumny.",
+   "viz": {
+    "type": "notes",
+    "title": "MOJE MOMENTY",
+    "lines": [
+     "wygrana końcówka",
+     "trening w ulewie",
+     "spokój przed finałem"
+    ]
+   }
+  },
+  {
+   "title": "Rozłóż je na umiejętności",
+   "body": "Co wtedy zrobiłeś? To możesz powtórzyć.",
+   "viz": {
+    "type": "table",
+    "left": "MOMENT",
+    "right": "UMIEM",
+    "good": true,
+    "rows": [
+     [
+      "wygrana końcówka",
+      "trzymam plan"
+     ],
+     [
+      "trening w ulewie",
+      "robię pomimo"
+     ],
+     [
+      "spokój przed finałem",
+      "oddycham"
+     ]
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Który moment *podgrzejesz* dziś?",
+  "cta": "Opisz go w trzech zdaniach i zapisz, co wtedy zrobiłeś.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

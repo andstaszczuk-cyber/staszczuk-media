@@ -1,0 +1,190 @@
+{
+ "cover": {
+  "layout": "hero",
+  "kicker": "ODPOCZYNEK",
+  "title": "Odcinek truchtu\n*też pracuje*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "path",
+     "d": "M40 140 H200 V420 H400 V140 H560 V420 H760 V140 H860",
+     "c": "soft",
+     "w": 10
+    },
+    {
+     "k": "path",
+     "d": "M200 420 H400",
+     "c": "A",
+     "w": 16
+    },
+    {
+     "k": "chip",
+     "x": 70,
+     "y": 60,
+     "text": "mocno",
+     "c": "soft",
+     "tc": "fg",
+     "size": 30
+    },
+    {
+     "k": "chip",
+     "x": 230,
+     "y": 460,
+     "text": "trucht",
+     "size": 34
+    },
+    {
+     "k": "chip",
+     "x": 590,
+     "y": 60,
+     "text": "mocno",
+     "c": "soft",
+     "tc": "fg",
+     "size": 30
+    },
+    {
+     "k": "person",
+     "x": 220,
+     "y": 160,
+     "s": 0.5,
+     "pose": "walk"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Interwał ma dwie części",
+   "body": "Szybki odcinek i trucht. Bez truchtu kolejny odcinek nie wyjdzie.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.2
+       ],
+       [
+        0.08,
+        0.85
+       ],
+       [
+        0.25,
+        0.85
+       ],
+       [
+        0.3,
+        0.3
+       ],
+       [
+        0.45,
+        0.3
+       ],
+       [
+        0.5,
+        0.85
+       ],
+       [
+        0.67,
+        0.85
+       ],
+       [
+        0.72,
+        0.3
+       ],
+       [
+        0.87,
+        0.3
+       ],
+       [
+        0.92,
+        0.85
+       ],
+       [
+        1,
+        0.85
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.375,
+      "y": 0.3,
+      "label": "trucht",
+      "hl": true,
+      "dy": 60
+     },
+     {
+      "x": 0.795,
+      "y": 0.3,
+      "label": "trucht",
+      "hl": true,
+      "dy": 60
+     }
+    ],
+    "x": "czas"
+   }
+  },
+  {
+   "title": "Kariera działa podobnie",
+   "body": "Po sezonie przychodzi wolniejszy okres. To ładowanie przed kolejnym odcinkiem.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "sezon",
+      "icon": "trophy"
+     },
+     {
+      "top": "lipiec",
+      "icon": "bed",
+      "hl": true
+     },
+     {
+      "top": "jesień",
+      "icon": "flag"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Trucht to też ruch",
+   "body": "Ruszasz się lżej, śpisz dłużej, robisz rzeczy dla frajdy.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "bed",
+      "label": "sen"
+     },
+     {
+      "icon": "sun",
+      "label": "ruch dla frajdy"
+     },
+     {
+      "icon": "people",
+      "label": "ludzie",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak wygląda *twój trucht*?",
+  "cta": "Zaplanuj lżejszy tydzień tak samo dokładnie jak mocny.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

@@ -1,0 +1,146 @@
+{
+ "cover": {
+  "layout": "split",
+  "left": "Z ZEWNĄTRZ",
+  "right": "OD ŚRODKA",
+  "title": "Poradzę sobie\n*w każdych warunkach*",
+  "size": 80,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "będzie dobrze,",
+      "jeśli chłodno"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 622,
+     "y": 50,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "dam radę",
+      "w upale też"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "stand"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Upał jest dla wszystkich",
+   "body": "Gorąco męczy ciebie i rywala. Różnica tkwi w przygotowaniu.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "sun",
+     "label": "tylko mnie",
+     "sub": "tak mówi głowa"
+    },
+    "right": {
+     "icon": "people",
+     "label": "wszystkich",
+     "sub": "tak jest naprawdę"
+    }
+   }
+  },
+  {
+   "title": "Plan na gorący dzień",
+   "body": "Ustalasz z trenerem, co robisz inaczej, zanim przyjdzie upał.",
+   "viz": {
+    "type": "checklist",
+    "title": "PLAN NA UPAŁ",
+    "items": [
+     "rozgrzewka z trenerem",
+     "cień między startami",
+     "tempo według planu"
+    ],
+    "chip": "GOTOWE",
+    "chipX": 400
+   }
+  },
+  {
+   "title": "Zbieraj dowody",
+   "body": "Każdy trening w gorszych warunkach mówi: dałem radę.",
+   "viz": {
+    "type": "stack",
+    "cols": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "labels": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "caption": "dowody, że dam radę"
+   }
+  }
+ ],
+ "end": {
+  "question": "Czego potrzebujesz, żeby *dać radę* w upale?",
+  "cta": "Ustal z trenerem jeden plan na gorący dzień.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

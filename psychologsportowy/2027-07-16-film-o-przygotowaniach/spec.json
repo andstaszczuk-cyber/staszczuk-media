@@ -1,0 +1,180 @@
+{
+ "cover": {
+  "layout": "split",
+  "left": "DEKLARACJE",
+  "right": "NAGRANIE",
+  "title": "Gdyby ktoś nagrywał\n*twoje przygotowania*",
+  "size": 78,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "mic",
+     "x": 158,
+     "y": 50,
+     "s": 120,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "chcę być",
+      "w formie"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 622,
+     "y": 50,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "co robisz",
+      "każdego dnia"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "run"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Kamera widzi zachowania",
+   "body": "Rejestruje tylko to, co robisz. Plany zostają poza kadrem.",
+   "viz": {
+    "type": "table",
+    "left": "DEKLARACJA",
+    "right": "NA NAGRANIU",
+    "good": true,
+    "rows": [
+     [
+      "chcę być szybszy",
+      "dodatkowe sprinty"
+     ],
+     [
+      "dbam o sen",
+      "telefon poza łóżkiem"
+     ],
+     [
+      "pracuję nad głową",
+      "dziennik po treningu"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "O czym byłby ten film?",
+   "body": "O zawodniku, który się przygotowuje, czy o kimś, kto czeka na wrzesień?",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "phone",
+     "label": "czekam",
+     "sub": "scroll i odkładanie"
+    },
+    "right": {
+     "icon": "dumbbell",
+     "label": "przygotowuję się",
+     "sub": "małe kroki codziennie"
+    }
+   }
+  },
+  {
+   "title": "Dopisz jedną scenę",
+   "body": "Jedno zachowanie dziennie, które kamera by zauważyła.",
+   "viz": {
+    "type": "week",
+    "days": [
+     {
+      "d": "PN",
+      "icon": "bolt",
+      "label": "sprint"
+     },
+     {
+      "d": "WT",
+      "icon": "moon",
+      "label": "sen"
+     },
+     {
+      "d": "ŚR",
+      "icon": "note",
+      "label": "zapis"
+     },
+     {
+      "d": "CZ",
+      "icon": "dumbbell",
+      "label": "technika"
+     },
+     {
+      "d": "PT",
+      "icon": "eye",
+      "label": "głowa"
+     },
+     {
+      "d": "SB",
+      "icon": "ball",
+      "label": "mecz",
+      "mark": "hl"
+     },
+     {
+      "d": "ND",
+      "icon": "sun",
+      "label": "wolne"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaką scenę *nagrasz* jutro?",
+  "cta": "Zapisz jedno zachowanie, które kamera zobaczy jutro.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

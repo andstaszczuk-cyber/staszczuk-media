@@ -1,0 +1,144 @@
+{
+ "cover": {
+  "layout": "hero",
+  "kicker": "SPARINGI",
+  "title": "Poziom rośnie\n*też po porażkach*",
+  "size": 92,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 90,
+     "s": 1.0,
+     "pose": "stand"
+    },
+    {
+     "k": "rect",
+     "x": 420,
+     "y": 220,
+     "w": 440,
+     "h": 70,
+     "r": 35,
+     "c": "card",
+     "stroke": "soft",
+     "sw": 4
+    },
+    {
+     "k": "rect",
+     "x": 420,
+     "y": 220,
+     "w": 300,
+     "h": 70,
+     "r": 35,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 420,
+     "y": 190,
+     "t": "DOŚWIADCZENIE",
+     "size": 30,
+     "w": 800,
+     "c": "mute"
+    },
+    {
+     "k": "chip",
+     "x": 470,
+     "y": 340,
+     "text": "+ przegrany sparing",
+     "c": "soft",
+     "tc": "fg",
+     "size": 28
+    },
+    {
+     "k": "chip",
+     "x": 470,
+     "y": 420,
+     "text": "+ wygrany sparing",
+     "c": "soft",
+     "tc": "fg",
+     "size": 28
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 760,
+     "y": 60,
+     "s": 100,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wynik sparingu mówi niewiele",
+   "body": "Przegrany daje masę informacji. Wygrany często głównie dobry humor.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "trophy",
+     "label": "wygrany",
+     "sub": "miło, mało wiem"
+    },
+    "right": {
+     "icon": "note",
+     "label": "przegrany",
+     "sub": "masa informacji"
+    }
+   }
+  },
+  {
+   "title": "Zbierz doświadczenie",
+   "body": "Bez zapisanych wniosków przegrana zostaje tylko przykrym wspomnieniem.",
+   "viz": {
+    "type": "checklist",
+    "title": "PO SPARINGU",
+    "items": [
+     "co zadziałało",
+     "czego zabrakło",
+     "co sprawdzam dalej"
+    ],
+    "chip": "+1",
+    "chipX": 400
+   }
+  },
+  {
+   "title": "Pasek rośnie powoli",
+   "body": "Każdy mecz dokłada trochę. Efekt widać po kilku tygodniach.",
+   "viz": {
+    "type": "bars",
+    "caption": "DOŚWIADCZENIE",
+    "items": [
+     {
+      "label": "lipiec",
+      "v": 0.3
+     },
+     {
+      "label": "sierpień",
+      "v": 0.55
+     },
+     {
+      "label": "wrzesień",
+      "v": 0.85,
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Czego nauczył cię *ostatni przegrany* mecz?",
+  "cta": "Zapisz trzy rzeczy, które z niego wyniosłeś.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

@@ -1,0 +1,154 @@
+{
+ "cover": {
+  "layout": "top",
+  "kicker": "LATO NA TESTY",
+  "title": "Rzuć plasteliną\n*w ścianę*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "rect",
+     "x": 560,
+     "y": 40,
+     "w": 300,
+     "h": 560,
+     "r": 16,
+     "c": "cardS"
+    },
+    {
+     "k": "circle",
+     "x": 640,
+     "y": 160,
+     "r": 34,
+     "c": "A"
+    },
+    {
+     "k": "circle",
+     "x": 760,
+     "y": 280,
+     "r": 30,
+     "c": "A"
+    },
+    {
+     "k": "circle",
+     "x": 660,
+     "y": 420,
+     "r": 28,
+     "c": "fig2"
+    },
+    {
+     "k": "circle",
+     "x": 600,
+     "y": 560,
+     "r": 24,
+     "c": "fig2"
+    },
+    {
+     "k": "arrow",
+     "x1": 330,
+     "y1": 250,
+     "x2": 520,
+     "y2": 200
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 190,
+     "s": 0.8,
+     "pose": "point"
+    },
+    {
+     "k": "chip",
+     "x": 640,
+     "y": 80,
+     "text": "przylepiło się",
+     "size": 26
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Każdy ma inny układ nerwowy",
+   "body": "To, co pomaga koledze, na ciebie może nie działać. Trzeba sprawdzić.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "play",
+     "label": "kolega",
+     "sub": "pomaga mu muzyka"
+    },
+    "right": {
+     "icon": "wind",
+     "label": "ty",
+     "sub": "pomaga ci oddech"
+    }
+   }
+  },
+  {
+   "title": "Lato to czas testów",
+   "body": "Starty są daleko. Nieudana próba niewiele kosztuje.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "lipiec",
+      "icon": "puzzle",
+      "hl": true
+     },
+     {
+      "top": "sierpień",
+      "icon": "check"
+     },
+     {
+      "top": "wrzesień",
+      "icon": "trophy"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zapisuj, co się przylepiło",
+   "body": "Po każdej próbie jedno zdanie: działa, odpada albo sprawdzam dalej.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "DZIAŁA",
+      "items": [
+       "oddech",
+       "hasło"
+      ],
+      "hl": true
+     },
+     {
+      "title": "SPRAWDZAM",
+      "items": [
+       "muzyka"
+      ]
+     },
+     {
+      "title": "ODPADA",
+      "items": [
+       "liczenie"
+      ],
+      "dash": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *sprawdzisz* w tym tygodniu?",
+  "cta": "Wybierz jedno narzędzie i testuj je przez tydzień.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

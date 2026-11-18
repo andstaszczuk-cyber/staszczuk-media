@@ -1,0 +1,115 @@
+{
+ "cover": {
+  "layout": "top",
+  "kicker": "LATO",
+  "title": "Głowę trenujesz\n*w spokoju*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 250,
+     "y": 190,
+     "s": 0.8,
+     "pose": "sit"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 640,
+     "y": 40,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 80,
+     "y": 60,
+     "s": 130,
+     "c": "fig2"
+    },
+    {
+     "k": "chip",
+     "x": 590,
+     "y": 300,
+     "text": "bez startów",
+     "c": "soft",
+     "tc": "fg",
+     "size": 32
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Pod presją sięgasz po nawyk",
+   "body": "W stresie wracasz do tego, co masz przećwiczone. Nowego wtedy nie wymyślisz.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "stres na starcie",
+    "via": "sięgam po",
+    "to": "to, co przećwiczone"
+   }
+  },
+  {
+   "title": "Lato daje czas",
+   "body": "Mniej startów i mniej nerwów. Dobry moment na jedną umiejętność.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "wind",
+      "label": "oddech"
+     },
+     {
+      "icon": "eye",
+      "label": "skupienie"
+     },
+     {
+      "icon": "note",
+      "label": "dziennik",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Jedno narzędzie na lato",
+   "body": "Wybierasz jedno i ćwiczysz codziennie po kilka minut.",
+   "viz": {
+    "type": "stack",
+    "cols": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "labels": [
+     "1 tydz.",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "caption": "kilka minut dziennie"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *przećwiczysz* tego lata?",
+  "cta": "Wybierz jedno narzędzie i zapisz, kiedy je ćwiczysz.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

@@ -1,0 +1,135 @@
+{
+ "cover": {
+  "layout": "top",
+  "kicker": "ZMIANA KLUBU",
+  "title": "Wszędzie dobrze,\n*gdzie nas nie ma?*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 40,
+     "y": 300,
+     "s": 200,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 640,
+     "y": 300,
+     "s": 200,
+     "c": "A"
+    },
+    {
+     "k": "person",
+     "x": 300,
+     "y": 190,
+     "s": 0.8,
+     "pose": "think"
+    },
+    {
+     "k": "chip",
+     "x": 70,
+     "y": 230,
+     "text": "same minusy",
+     "c": "soft",
+     "tc": "fg",
+     "size": 28
+    },
+    {
+     "k": "chip",
+     "x": 600,
+     "y": 230,
+     "text": "tam idealnie",
+     "size": 28
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Porównujesz nieporównywalne",
+   "body": "Tu znasz wszystkie minusy. Tam widzisz głównie plusy.",
+   "viz": {
+    "type": "listCompare",
+    "left": {
+     "title": "TU",
+     "items": [
+      "trener krzyczy",
+      "mało minut",
+      "daleki dojazd"
+     ]
+    },
+    "right": {
+     "title": "TAM",
+     "items": [
+      "super atmosfera",
+      "dużo grania",
+      "nowa szansa"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Sprawdź drugą stronę",
+   "body": "Każde miejsce ma minusy. Z daleka ich po prostu nie widać.",
+   "viz": {
+    "type": "table",
+    "left": "WYOBRAŻENIE",
+    "right": "SPRAWDZAM",
+    "good": true,
+    "rows": [
+     [
+      "dużo grania",
+      "kto gra na mojej pozycji"
+     ],
+     [
+      "fajna atmosfera",
+      "rozmowa z zawodnikiem"
+     ],
+     [
+      "lepszy trener",
+      "trening próbny"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Decyzja z terminem",
+   "body": "Zbierasz fakty, ustalasz termin i decydujesz na spokojnie.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "fakty",
+      "icon": "note"
+     },
+     {
+      "top": "rozmowy",
+      "icon": "people"
+     },
+     {
+      "top": "decyzja",
+      "icon": "check",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *naprawdę* wiesz o nowym miejscu?",
+  "cta": "Spisz korzyści i koszty obu opcji, zanim podejmiesz decyzję.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

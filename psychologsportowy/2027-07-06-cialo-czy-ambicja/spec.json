@@ -1,0 +1,121 @@
+{
+ "cover": {
+  "layout": "top",
+  "kicker": "OBÓZ",
+  "title": "Słuchasz ciała\n*czy ambicji?*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 250,
+     "y": 190,
+     "s": 0.8,
+     "pose": "think"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 60,
+     "y": 230,
+     "s": 130,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 690,
+     "y": 230,
+     "s": 130,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 30,
+     "y": 120,
+     "text": "dość na dziś",
+     "c": "soft",
+     "tc": "fg",
+     "size": 30
+    },
+    {
+     "k": "chip",
+     "x": 600,
+     "y": 120,
+     "text": "jeszcze seria",
+     "size": 30
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Ambicja mówi głośniej",
+   "body": "Na obozie łatwo dołożyć. Ciało daje znać ciszej i później.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "dołożę jeszcze jedną serię",
+    "to": "robię plan i odpoczywam"
+   }
+  },
+  {
+   "title": "Żółte flagi",
+   "body": "Gorszy sen, brak chęci, ból, który wraca. To sygnał, żeby zwolnić.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "moon",
+      "label": "gorszy sen"
+     },
+     {
+      "icon": "battery",
+      "label": "brak chęci"
+     },
+     {
+      "icon": "alarm",
+      "label": "ból, który wraca",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Komu to służy?",
+   "body": "Zanim dołożysz coś ponad plan, sprawdź, kto mówi.",
+   "viz": {
+    "type": "table",
+    "left": "AMBICJA",
+    "right": "CIAŁO",
+    "good": true,
+    "rows": [
+     [
+      "jeszcze jedna seria",
+      "plan wykonany"
+     ],
+     [
+      "inni dają radę",
+      "ja dziś ładuję"
+     ],
+     [
+      "odpocznę po obozie",
+      "odpoczywam dziś"
+     ]
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Kogo słuchasz *na tym obozie*?",
+  "cta": "Zapisz swoje żółte flagi i pokaż je trenerowi.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

@@ -1,0 +1,115 @@
+{
+ "cover": {
+  "layout": "big",
+  "big": "OBÓZ",
+  "bigSize": 240,
+  "bigSub": "zmęczenie zabiera cierpliwość",
+  "title": "Zmęczony robisz\n*zakupy na głodnego*",
+  "size": 82,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 470,
+     "y": 90,
+     "w": 280,
+     "h": 260,
+     "r": 30,
+     "c": "card"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 530,
+     "y": 150,
+     "s": 160,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 640,
+     "y": 30,
+     "text": "irytacja",
+     "c": "soft",
+     "tc": "fg",
+     "size": 30
+    },
+    {
+     "k": "chip",
+     "x": 700,
+     "y": 360,
+     "text": "foch",
+     "c": "soft",
+     "tc": "fg",
+     "size": 30
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Pusta bateria, krótka cierpliwość",
+   "body": "Na zmęczeniu trudniej o spokój. Drobiazg urasta do problemu.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "battery",
+     "label": "wypoczęty",
+     "sub": "mam dystans"
+    },
+    "right": {
+     "icon": "bolt",
+     "label": "zmęczony",
+     "sub": "odpalam się szybciej"
+    }
+   }
+  },
+  {
+   "title": "Do koszyka trafia co innego",
+   "body": "Reagujesz tak, jak wcale nie chciałeś.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "mic",
+      "label": "ostre słowo"
+     },
+     {
+      "icon": "people",
+      "label": "kłótnia w pokoju"
+     },
+     {
+      "icon": "phone",
+      "label": "wiadomość w nerwach",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Najpierw ładujesz",
+   "body": "Sen, jedzenie, chwila ciszy. Trudną rozmowę zostaw na wypoczętą głowę.",
+   "viz": {
+    "type": "checklist",
+    "title": "NAJPIERW",
+    "items": [
+     "wyspany",
+     "po posiłku",
+     "po chwili ciszy"
+    ],
+    "chip": "GOTOWY",
+    "chipX": 400
+   }
+  }
+ ],
+ "end": {
+  "question": "Po czym poznasz, że *bateria* jest pusta?",
+  "cta": "Zapisz swój pierwszy sygnał zmęczenia i umów się ze sobą, co wtedy robisz.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

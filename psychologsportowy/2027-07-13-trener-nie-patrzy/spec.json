@@ -1,0 +1,97 @@
+{
+ "cover": {
+  "layout": "big",
+  "big": "CISZA",
+  "bigSize": 230,
+  "bigSub": "trener od kilku dni nic nie mówi",
+  "title": "Trener na ciebie\n*nie patrzy?*",
+  "size": 90,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "person",
+     "x": 640,
+     "y": 40,
+     "s": 0.7,
+     "pose": "coach",
+     "flip": true,
+     "c": "fig2"
+    },
+    {
+     "k": "bubble",
+     "x": 440,
+     "y": 40,
+     "w": 260,
+     "h": 110,
+     "c": "A",
+     "lines": [
+      "skreślił mnie?"
+     ],
+     "size": 30,
+     "tail": "right"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Głowa dopisuje intencje",
+   "body": "Brak uwagi łatwo odczytać jako ocenę. Często to tylko twoja historia.",
+   "viz": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "skreślił mnie?",
+     "ma mnie dość?",
+     "nie wierzy we mnie?"
+    ],
+    "ask": [
+     "Trenerze,",
+     "nad czym",
+     "pracować?"
+    ]
+   }
+  },
+  {
+   "title": "Może u ciebie działa",
+   "body": "Trener poświęca czas tam, gdzie widzi najwięcej pracy.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "eye",
+     "label": "nie patrzy",
+     "sub": "bo mnie skreślił"
+    },
+    "right": {
+     "icon": "check",
+     "label": "nie musi",
+     "sub": "bo u mnie działa"
+    }
+   }
+  },
+  {
+   "title": "Zapytaj wprost",
+   "body": "Krótka rozmowa po treningu kosztuje mniej niż tydzień domysłów.",
+   "viz": {
+    "type": "checklist",
+    "title": "PO TRENINGU",
+    "items": [
+     "co robię dobrze",
+     "nad czym pracować",
+     "jak to sprawdzimy"
+    ],
+    "chip": "PYTAM",
+    "chipX": 400
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *dopisujesz* trenerowi?",
+  "cta": "Zadaj trenerowi jedno konkretne pytanie po najbliższym treningu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

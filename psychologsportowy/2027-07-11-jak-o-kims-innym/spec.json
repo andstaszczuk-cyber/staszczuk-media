@@ -1,0 +1,130 @@
+{
+ "cover": {
+  "layout": "hero",
+  "kicker": "MOCNE STRONY",
+  "title": "Przeczytaj to\n*jak o kimś innym*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "rect",
+     "x": 440,
+     "y": 40,
+     "w": 400,
+     "h": 500,
+     "r": 24,
+     "c": "paper",
+     "rot": 4
+    },
+    {
+     "k": "rect",
+     "x": 490,
+     "y": 130,
+     "w": 280,
+     "h": 18,
+     "r": 9,
+     "c": "fig2",
+     "rot": 4
+    },
+    {
+     "k": "rect",
+     "x": 490,
+     "y": 210,
+     "w": 300,
+     "h": 18,
+     "r": 9,
+     "c": "fig2",
+     "rot": 4
+    },
+    {
+     "k": "rect",
+     "x": 490,
+     "y": 290,
+     "w": 250,
+     "h": 18,
+     "r": 9,
+     "c": "fig2",
+     "rot": 4
+    },
+    {
+     "k": "rect",
+     "x": 490,
+     "y": 370,
+     "w": 290,
+     "h": 18,
+     "r": 9,
+     "c": "fig2",
+     "rot": 4
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 450,
+     "text": "to o mnie",
+     "size": 34
+    },
+    {
+     "k": "person",
+     "x": 70,
+     "y": 90,
+     "s": 1.0,
+     "pose": "think"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "O sobie mówisz inaczej",
+   "body": "Swoje atuty umniejszasz. U kogoś innego od razu byś je docenił.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "brain",
+     "label": "o sobie",
+     "sub": "to nic takiego"
+    },
+    "right": {
+     "icon": "people",
+     "label": "o koledze",
+     "sub": "świetny w końcówkach"
+    }
+   }
+  },
+  {
+   "title": "Spisz to w trzeciej osobie",
+   "body": "Zamiast ja, napisz on albo ona. Jak opis innego zawodnika.",
+   "viz": {
+    "type": "notes",
+    "title": "ZAWODNIK X",
+    "lines": [
+     "spokojny w końcówce",
+     "wraca po słabym meczu",
+     "szybko się uczy"
+    ]
+   }
+  },
+  {
+   "title": "Na koniec: to o mnie",
+   "body": "Czytasz jeszcze raz na głos i przyjmujesz, że to opis ciebie.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "eee, to nic takiego",
+    "to": "to o mnie"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co napisałby o tobie *trener z boku*?",
+  "cta": "Spisz pięć mocnych stron w trzeciej osobie i przeczytaj je na głos.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

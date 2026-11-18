@@ -1,0 +1,100 @@
+{
+ "cover": {
+  "layout": "big",
+  "big": "SPARING",
+  "bigSize": 200,
+  "bigSub": "pobudzenie idzie za rangą",
+  "title": "Mecz bez stawki?\n*Daj mu zadanie*",
+  "size": 88,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "gauge",
+     "x": 640,
+     "y": 300,
+     "r": 170,
+     "v": 0.18
+    },
+    {
+     "k": "chip",
+     "x": 470,
+     "y": 340,
+     "text": "za nisko",
+     "c": "soft",
+     "tc": "fg",
+     "size": 32
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Za nisko też szkodzi",
+   "body": "Bez stawki pobudzenie spada. Grasz ospale i robisz proste błędy.",
+   "viz": {
+    "type": "scale10",
+    "caption": "POBUDZENIE",
+    "points": [
+     {
+      "n": 2,
+      "label": "sparing"
+     },
+     {
+      "n": 7,
+      "label": "optimum",
+      "hl": true
+     },
+     {
+      "n": 10,
+      "label": "finał"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Dodaj meczowi znaczenia",
+   "body": "Daj sobie zadanie, które coś dla ciebie znaczy.",
+   "viz": {
+    "type": "notes",
+    "title": "ZADANIE NA SPARING",
+    "lines": [
+     "mocny początek",
+     "reset po każdym błędzie",
+     "jeden nowy element"
+    ]
+   }
+  },
+  {
+   "title": "Podkręć przez ciało",
+   "body": "Mocniejsza rozgrzewka i muzyka podnoszą poziom, zanim zrobi to mecz.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "play",
+      "label": "muzyka"
+     },
+     {
+      "icon": "bolt",
+      "label": "mocniejsza rozgrzewka"
+     },
+     {
+      "icon": "flag",
+      "label": "cel na mecz",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakie *zadanie* dasz sobie na sparing?",
+  "cta": "Zapisz jedno zadanie i rozlicz je po meczu, zanim spojrzysz na wynik.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

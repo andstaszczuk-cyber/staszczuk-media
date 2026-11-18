@@ -1,0 +1,187 @@
+{
+ "cover": {
+  "layout": "big",
+  "big": "LIPIEC",
+  "bigSize": 220,
+  "bigSub": "środek okresu przygotowawczego",
+  "title": "Ciężkie nogi\n*to część planu*",
+  "size": 90,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 400,
+     "x": 440,
+     "w": 440
+    },
+    {
+     "k": "person",
+     "x": 520,
+     "y": 40,
+     "s": 0.7,
+     "pose": "slump",
+     "c": "fig"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 760,
+     "y": 300,
+     "s": 90,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 700,
+     "y": 60,
+     "text": "ciężko",
+     "c": "soft",
+     "tc": "fg",
+     "size": 30
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zmęczenie jest zaplanowane",
+   "body": "W okresie przygotowawczym obciążenie rośnie. Ciało ma prawo protestować.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "battery",
+     "label": "czuję się słabo",
+     "sub": "więc forma ucieka",
+     "cross": true
+    },
+    "right": {
+     "icon": "dumbbell",
+     "label": "ciało pracuje",
+     "sub": "forma się buduje"
+    }
+   }
+  },
+  {
+   "title": "Jeden trening niczego nie przesądza",
+   "body": "Słaby dzień to tylko słaby dzień. Liczy się cały tydzień.",
+   "viz": {
+    "type": "week",
+    "days": [
+     {
+      "d": "PN",
+      "icon": "battery",
+      "label": "ciężko",
+      "dim": true
+     },
+     {
+      "d": "WT",
+      "icon": "check",
+      "label": "ok"
+     },
+     {
+      "d": "ŚR",
+      "icon": "battery",
+      "label": "ciężko",
+      "dim": true
+     },
+     {
+      "d": "CZ",
+      "icon": "check",
+      "label": "ok"
+     },
+     {
+      "d": "PT",
+      "icon": "star",
+      "label": "lekko",
+      "mark": "hl"
+     },
+     {
+      "d": "SB",
+      "icon": "check",
+      "label": "ok"
+     },
+     {
+      "d": "ND",
+      "icon": "bed",
+      "label": "wolne"
+     }
+    ],
+    "note": "patrzysz na cały tydzień"
+   }
+  },
+  {
+   "title": "Patrz na tendencję",
+   "body": "Porównuj tygodnie i miesiące. Pojedynczy dzień mówi niewiele.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.3
+       ],
+       [
+        0.1,
+        0.45
+       ],
+       [
+        0.2,
+        0.25
+       ],
+       [
+        0.32,
+        0.5
+       ],
+       [
+        0.44,
+        0.38
+       ],
+       [
+        0.56,
+        0.6
+       ],
+       [
+        0.68,
+        0.48
+       ],
+       [
+        0.8,
+        0.7
+       ],
+       [
+        0.9,
+        0.62
+       ],
+       [
+        1,
+        0.8
+       ]
+      ],
+      "hl": true,
+      "label": "forma"
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.2,
+      "y": 0.25,
+      "label": "słaby dzień",
+      "dy": 60
+     }
+    ],
+    "x": "tygodnie"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co mówi *cały tydzień*?",
+  "cta": "Zapisuj samopoczucie po treningu i oceniaj je raz w tygodniu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
