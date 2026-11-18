@@ -270,8 +270,18 @@ const ICO = {
   watch: c => `<rect x="34" y="4" width="32" height="22" rx="6" fill="${c}"/><rect x="34" y="74" width="32" height="22" rx="6" fill="${c}"/><circle cx="50" cy="50" r="30" fill="none" stroke="${c}" stroke-width="8"/><path d="M50 34 V50 L60 58" fill="none" stroke="${c}" stroke-width="7" stroke-linecap="round"/><rect x="82" y="44" width="8" height="14" rx="3" fill="${c}"/>`,
   // czujnik dymu z falami alarmu
   alarm: c => `<rect x="20" y="10" width="60" height="12" rx="6" fill="${c}"/><path d="M14 22 H86 a6 6 0 0 1 6 6 V38 a6 6 0 0 1 -6 6 H14 a6 6 0 0 1 -6 -6 V28 a6 6 0 0 1 6 -6 Z" fill="${c}"/><circle cx="50" cy="33" r="5" fill="#fff" opacity=".6"/><path d="M30 60 q20 14 40 0 M20 74 q30 20 60 0" fill="none" stroke="${c}" stroke-width="7" stroke-linecap="round"/>`,
+  // drzewo
+  tree: c => `<circle cx="50" cy="36" r="28" fill="${c}"/><circle cx="30" cy="52" r="20" fill="${c}"/><circle cx="70" cy="52" r="20" fill="${c}"/><rect x="44" y="58" width="12" height="36" rx="4" fill="${c}"/>`,
+  // kropla
+  drop: c => `<path d="M50 6 C66 32 82 50 82 66 a32 32 0 0 1 -64 0 C18 50 34 32 50 6 Z" fill="${c}"/>`,
+  // żelazko
+  iron: c => `<path d="M10 76 C14 46 34 34 62 34 H86 V76 Z" fill="${c}"/><path d="M40 34 C40 18 50 14 60 14 H84 V34" fill="none" stroke="${c}" stroke-width="7" stroke-linejoin="round"/><path d="M28 90 H90" stroke="${c}" stroke-width="5" stroke-linecap="round" opacity=".5"/>`,
+  // garnek
+  pot: c => `<path d="M14 40 H86 V74 a14 14 0 0 1 -14 14 H28 a14 14 0 0 1 -14 -14 Z" fill="${c}"/><path d="M6 46 H14 M86 46 H94" stroke="${c}" stroke-width="7" stroke-linecap="round"/><rect x="20" y="30" width="60" height="8" rx="4" fill="${c}"/><path d="M38 22 q4 -8 0 -16 M54 22 q4 -8 0 -16" fill="none" stroke="${c}" stroke-width="5" stroke-linecap="round"/>`,
+  // dom
+  house: c => `<path d="M10 46 L50 10 L90 46 V90 H10 Z" fill="none" stroke="${c}" stroke-width="7" stroke-linejoin="round"/><rect x="40" y="58" width="20" height="32" fill="${c}"/>`,
 };
-const icon = (name, x, y, s, c) => `<g transform="translate(${x},${y}) scale(${s / 100})">${(ICO[name] || ICO.star)(c)}</g>`;
+const icon =(name, x, y, s, c) => `<g transform="translate(${x},${y}) scale(${s / 100})">${(ICO[name] || ICO.star)(c)}</g>`;
 const wrapTxt = (s, n) => { const w = String(s).split(' '); const out = []; let cur = ''; for (const x of w) { if ((cur + ' ' + x).trim().length > n && cur) { out.push(cur); cur = x; } else cur = (cur + ' ' + x).trim(); } if (cur) out.push(cur); return out; };
 const lines = (x, y, arr, o) => arr.map((s, i) => T(x, y + i * (o.lh || o.size * 1.25), s, o)).join('');
 const arrowD = (x1, y1, x2, y2, c, w = 8) => { const a = Math.atan2(y2 - y1, x2 - x1), h = 26; return `<path d="M${x1} ${y1} L${x2} ${y2}" stroke="${c}" stroke-width="${w}" stroke-linecap="round"/><path d="M${x2 - h * Math.cos(a - .5)} ${y2 - h * Math.sin(a - .5)} L${x2} ${y2} L${x2 - h * Math.cos(a + .5)} ${y2 - h * Math.sin(a + .5)}" fill="none" stroke="${c}" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round"/>`; };
