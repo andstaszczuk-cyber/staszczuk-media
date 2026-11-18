@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po przerwie w meczu *nie umiem wrócić do gry*",
+  "sub": "Przed przerwą szło, po niej jakbym zaczynał od nowa",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "pause",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "play",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Odpoczynek i rozruch",
+   "body": "Najpierw chwila spokoju, a przed wznowieniem krótki ruch.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "pause",
+      "top": "przerwa",
+      "bottom": "oddech, woda"
+     },
+     {
+      "icon": "bolt",
+      "top": "przed wznowieniem",
+      "bottom": "ruch",
+      "hl": true
+     },
+     {
+      "icon": "play",
+      "top": "start",
+      "bottom": "jedno zadanie"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jedna wskazówka",
+   "body": "Z przerwy zabierasz jedną rzecz do zrobienia i jej się trzymasz."
+  },
+  {
+   "title": "Pierwsza akcja prosta",
+   "body": "Po wznowieniu zaczynasz od tego, co znasz na pamięć."
+  }
+ ],
+ "end": {
+  "text": "Po przerwie *wchodzisz od nowa*.",
+  "cta": "Zapisz i ustal swoją rutynę na przerwę"
+ }
+}

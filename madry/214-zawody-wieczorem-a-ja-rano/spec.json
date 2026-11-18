@@ -1,0 +1,83 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Start wieczorem, *a ja najlepszy jestem rano*",
+  "sub": "Do osiemnastej zdążę się zmęczyć samym czekaniem",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Rozpisz cały dzień",
+   "body": "Pobudka, posiłki, rozruch, odpoczynek. Bez zostawiania godzin przypadkowi.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "sun",
+      "top": "rano",
+      "bottom": "rozruch"
+     },
+     {
+      "icon": "pause",
+      "top": "popołudnie",
+      "bottom": "odpoczynek"
+     },
+     {
+      "icon": "play",
+      "top": "wieczór",
+      "bottom": "start",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Poranny rozruch",
+   "body": "Krótki ruch rano budzi ciało i daje poczucie, że dzień już ruszył."
+  },
+  {
+   "title": "Przećwicz wieczór",
+   "body": "Kilka treningów o porze startu, żeby ciało poznało ten rytm."
+  }
+ ],
+ "end": {
+  "text": "Twój dzień, *twój plan*.",
+  "cta": "Zapisz i rozpisz dzień startu"
+ }
+}

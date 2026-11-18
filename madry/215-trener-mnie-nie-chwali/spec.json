@@ -1,0 +1,67 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Trener mnie nie chwali *i nie wiem, czy jest dobrze*",
+  "sub": "Cisza po treningu brzmi jak ocena",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Cisza to brak informacji",
+   "body": "Trener może być zajęty albo uznawać, że jest w porządku.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "czekam na pochwałę",
+    "to": "pytam o informację"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapytaj konkretnie",
+   "body": "Co robię dobrze, nad czym pracuję teraz. Dwa pytania raz na jakiś czas."
+  },
+  {
+   "title": "Dowody z siebie",
+   "body": "Twój dziennik mówi więcej niż czyjaś mina po treningu."
+  }
+ ],
+ "end": {
+  "text": "Wiem, *jak mi idzie*.",
+  "cta": "Zapisz i zadaj trenerowi dwa pytania"
+ }
+}

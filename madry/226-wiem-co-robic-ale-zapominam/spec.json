@@ -1,0 +1,75 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Wiem, co mam robić, *ale w meczu zapominam*",
+  "sub": "Na odprawie wszystko jasne, po gwizdku pustka",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Mniej znaczy więcej",
+   "body": "Uwaga mieści niewiele. Na mecz zabierasz trzy rzeczy, resztę zostawiasz.",
+   "art": {
+    "type": "notes",
+    "title": "NA MECZ",
+    "lines": [
+     "jedno hasło",
+     "jedno zadanie",
+     "jeden reset"
+    ],
+    "crossed": [
+     "dziesięć uwag"
+    ],
+    "side": "trzy rzeczy"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Ćwicz tak, jak grasz",
+   "body": "Hasło i zadanie powtarzasz na treningu, w grze, pod zmęczeniem."
+  },
+  {
+   "title": "Kotwica w przerwach",
+   "body": "Każda przerwa w grze to moment, by wrócić do swojego hasła."
+  }
+ ],
+ "end": {
+  "text": "Wiedza *działa w akcji*.",
+  "cta": "Zapisz i wybierz trzy rzeczy na mecz"
+ }
+}

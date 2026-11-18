@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Połowa sezonu za mną *i nie wiem, czy idę dobrze*",
+  "sub": "Raz lepiej, raz gorzej i trudno to zebrać w całość",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zrób przegląd",
+   "body": "Co powtarzam, co lekko koryguję, gdzie się oszukuję.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "POWTARZAM",
+      "icon": "check",
+      "items": [
+       "co działa",
+       "co daje energię"
+      ]
+     },
+     {
+      "title": "KORYGUJĘ",
+      "icon": "ruler",
+      "items": [
+       "jedna rzecz",
+       "jeden test"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Szukaj tendencji",
+   "body": "Pojedynczy mecz nic nie mówi. Patrz na kilka tygodni naraz."
+  },
+  {
+   "title": "Jeden eksperyment",
+   "body": "Wybierz jedną zmianę na drugą część sezonu i sprawdź ją."
+  }
+ ],
+ "end": {
+  "text": "Przegląd *daje kierunek*.",
+  "cta": "Zapisz i zrób swój przegląd półmetka"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Do finału idzie świetnie, *a w finale staję*",
+  "sub": "Te same nogi, ta sama technika, a gram jak ktoś inny",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "alarm",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Ranga to dopisek",
+   "body": "Boisko ma te same wymiary. Finał robi się wielki dopiero w głowie.",
+   "art": {
+    "type": "scale10",
+    "caption": "RANGA W GŁOWIE",
+    "y": 240,
+    "points": [
+     {
+      "n": 3,
+      "label": "eliminacje"
+     },
+     {
+      "n": 6,
+      "label": "mecz jak mecz",
+      "hl": true
+     },
+     {
+      "n": 10,
+      "label": "mecz życia"
+     }
+    ],
+    "note": "boisko to samo, wymiary te same"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "To samo co w półfinale",
+   "body": "Ta sama rozgrzewka, to samo zadanie, te same rytuały."
+  },
+  {
+   "title": "Finał w wyobraźni",
+   "body": "Przejdź go wcześniej w głowie: wejście, pierwsze akcje, trudny moment."
+  }
+ ],
+ "end": {
+  "text": "Finał to *kolejny mecz*.",
+  "cta": "Zapisz i przejdź finał w głowie"
+ }
+}

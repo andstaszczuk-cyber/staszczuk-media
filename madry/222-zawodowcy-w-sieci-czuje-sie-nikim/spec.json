@@ -1,0 +1,74 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Oglądam zawodowców w sieci *i czuję, że jestem nikim*",
+  "sub": "Wieczorem przewijam, rano nie chce mi się trenować",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Widzisz ich wycinek",
+   "body": "Najlepsze akcje, montaż, muzyka. Bez nudy, zmęczenia i porażek.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "phone",
+     "label": "ich najlepsze momenty",
+     "cross": true
+    },
+    "right": {
+     "icon": "clock",
+     "label": "ja sprzed roku"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Porównuj się ze sobą",
+   "body": "Ty sprzed roku i ty dziś. To jedyne uczciwe porównanie."
+  },
+  {
+   "title": "Inspiracja zamiast miary",
+   "body": "Weź od nich jeden element do treningu. Resztę wyłącz."
+  }
+ ],
+ "end": {
+  "text": "Twoja droga, *twoje tempo*.",
+  "cta": "Zapisz i porównaj się z sobą sprzed roku"
+ }
+}

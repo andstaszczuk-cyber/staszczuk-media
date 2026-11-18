@@ -1,0 +1,74 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "W stresie oddycham płytko *i szybko opadam z sił*",
+  "sub": "Po kwadransie meczu brakuje mi powietrza",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "wind",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zauważ, jak oddychasz",
+   "body": "Ramiona w górę, krótki wdech, krótki wydech. Tak wygląda napięcie.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "wind",
+     "label": "szybko i płytko",
+     "cross": true
+    },
+    "right": {
+     "icon": "wind",
+     "label": "dłuższy wydech"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Dłuższy wydech",
+   "body": "Kilka oddechów z wydechem dłuższym niż wdech. Przed meczem i w przerwach."
+  },
+  {
+   "title": "Ćwicz na spokojnie",
+   "body": "Codziennie kilka minut, żeby pod presją ciało pamiętało, jak to robić."
+  }
+ ],
+ "end": {
+  "text": "Oddech to *twój regulator*.",
+  "cta": "Zapisz i ćwicz kilka minut dziennie"
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Drugie miejsce, *a ja czuję tylko porażkę*",
+  "sub": "Srebro w ręce, a w głowie przegrany finał",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Daj sobie chwilę",
+   "body": "Złość i smutek po finale są normalne. Pokazują, ile ci zależało.",
+   "art": {
+    "type": "table",
+    "left": "ZARAZ PO",
+    "right": "Z DYSTANSU",
+    "good": true,
+    "rows": [
+     [
+      "przegrany finał",
+      "cztery wygrane mecze"
+     ],
+     [
+      "prawie",
+      "drugi w całym turnieju"
+     ]
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zobacz całą drogę",
+   "body": "Ile meczów wygrałeś, żeby w ogóle zagrać o złoto."
+  },
+  {
+   "title": "Doceń, potem analizuj",
+   "body": "Najpierw to, co zrobiłeś dobrze. Analiza za kilka dni."
+  }
+ ],
+ "end": {
+  "text": "Drugie miejsce *to też wynik*.",
+  "cta": "Zapisz i nazwij, co dało ci ten medal"
+ }
+}

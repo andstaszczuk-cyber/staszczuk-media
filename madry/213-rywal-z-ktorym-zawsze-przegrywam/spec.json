@@ -1,0 +1,67 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Znowu trafiam na rywala, *z którym zawsze przegrywam*",
+  "sub": "Losowanie i od razu wiem, jak to się skończy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zmień czas w zdaniu",
+   "body": "Dotąd mi nie leżał. To zdanie zostawia miejsce na kolejny mecz.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "on mi nie leży",
+    "to": "dotąd mi nie leżał"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Rozbierz poprzednie mecze",
+   "body": "Co dokładnie decydowało. Tempo, styl, początek, końcówka."
+  },
+  {
+   "title": "Jeśli on, to ja",
+   "body": "Dwa, trzy gotowe odpowiedzi na to, co zwykle robi."
+  }
+ ],
+ "end": {
+  "text": "Każdy mecz *zaczyna się od zera*.",
+  "cta": "Zapisz i przygotuj swoje jeśli, to"
+ }
+}

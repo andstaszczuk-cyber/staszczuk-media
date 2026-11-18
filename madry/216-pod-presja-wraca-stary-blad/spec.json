@@ -1,0 +1,80 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Pod presją *wraca mi stary błąd*",
+  "sub": "Na treningu nowa technika, w meczu stara",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "alarm",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "To normalny etap",
+   "body": "Stary nawyk jest mocniej wydeptany. Pod presją ciało wybiera znaną drogę.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "note",
+      "label": "jedno słowo"
+     },
+     {
+      "icon": "dumbbell",
+      "label": "trening pod presją",
+      "hl": true
+     },
+     {
+      "icon": "clock",
+      "label": "czas"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Trenuj z presją",
+   "body": "Punkty, kara, ktoś patrzy. Nowa technika musi poznać trudne warunki."
+  },
+  {
+   "title": "Jedno słowo-klucz",
+   "body": "Krótkie hasło przypina nowy ruch. Mówisz je przed akcją."
+  }
+ ],
+ "end": {
+  "text": "Nowy ruch *potrzebuje czasu*.",
+  "cta": "Zapisz i wybierz swoje słowo-klucz"
+ }
+}

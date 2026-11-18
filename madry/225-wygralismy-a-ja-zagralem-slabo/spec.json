@@ -1,0 +1,67 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wygraliśmy, *ale ja zagrałem słabo*",
+  "sub": "Wszyscy świętują, a ja liczę swoje błędy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "win",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Wygrana drużyny jest też twoja",
+   "body": "Byłeś jej częścią. Masz prawo się z niej cieszyć.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "zepsułem sobie dzień",
+    "to": "cieszę się, analizuję jutro"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Oceń mecz w skali",
+   "body": "Słabo to ile? Pięć na dziesięć to nie zero. Co dało te punkty?"
+  },
+  {
+   "title": "Analiza na jutro",
+   "body": "Dziś świętujesz z drużyną. Swoje błędy rozbierasz następnego dnia."
+  }
+ ],
+ "end": {
+  "text": "Cieszę się *i pracuję dalej*.",
+  "cta": "Zapisz i oceń swój mecz w skali"
+ }
+}

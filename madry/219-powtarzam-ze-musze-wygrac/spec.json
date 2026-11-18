@@ -1,0 +1,67 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Przed meczem powtarzam, *że muszę wygrać*",
+  "sub": "Myślałem, że to mnie nakręci",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Muszę dokręca śrubę",
+   "body": "Dla głowy to sygnał zagrożenia. Ciało odpowiada napięciem.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "muszę wygrać",
+    "to": "wchodzę i robię swoje"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zdanie o zadaniu",
+   "body": "Co konkretnie robisz dziś na boisku. Tego się trzymasz."
+  },
+  {
+   "title": "Zależy mi i to jest ok",
+   "body": "Możesz chcieć wygrać i mówić do siebie spokojnie."
+  }
+ ],
+ "end": {
+  "text": "Wchodzę, *robię swoje*, wychodzę.",
+  "cta": "Zapisz i przygotuj swoje zdanie na mecz"
+ }
+}

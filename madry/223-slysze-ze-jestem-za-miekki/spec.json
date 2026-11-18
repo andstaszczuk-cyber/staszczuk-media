@@ -1,0 +1,67 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Ciągle słyszę, *że jestem za miękki*",
+  "sub": "Przejmuję się, więc podobno nie nadaję się do sportu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Wrażliwość to cecha",
+   "body": "Dzięki niej czujesz grę i ludzi. Możesz nią zarządzać.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "jestem za miękki",
+    "to": "jestem wrażliwy i trenuję"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Odporność się trenuje",
+   "body": "Jak siła. Małe dawki trudności i powrót do zadania."
+  },
+  {
+   "title": "Licz powroty",
+   "body": "Liczy się to, jak szybko wracasz po trudnym momencie."
+  }
+ ],
+ "end": {
+  "text": "Wrażliwy *też potrafi być twardy*.",
+  "cta": "Zapisz i licz swoje powroty"
+ }
+}

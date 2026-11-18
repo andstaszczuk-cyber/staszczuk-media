@@ -1,0 +1,67 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Nikt *na mnie nie stawia*",
+  "sub": "W zapowiedziach nawet nie ma mojego nazwiska",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Brak oczekiwań to luz",
+   "body": "Faworyt dźwiga presję. Ty możesz grać swobodnie i odważnie.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "nikt na mnie nie stawia",
+    "to": "nie mam nic do stracenia"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Postaw sam na siebie",
+   "body": "Zapisz trzy powody, dla których możesz dziś namieszać."
+  },
+  {
+   "title": "Zadanie zamiast udowadniania",
+   "body": "Wchodzisz zrobić swoją robotę. Wynik przyjdzie albo nie."
+  }
+ ],
+ "end": {
+  "text": "Grasz *dla siebie*.",
+  "cta": "Zapisz i spisz swoje trzy powody"
+ }
+}
