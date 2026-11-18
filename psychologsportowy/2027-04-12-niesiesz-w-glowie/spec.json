@@ -1,0 +1,109 @@
+{
+ "cover": {
+  "big": "1",
+  "bigSize": 380,
+  "bigSub": "sytuacja, a niesiesz ją cały dzień",
+  "title": "Odstaw to,\n*co już minęło*",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "person",
+     "x": 360,
+     "y": 0,
+     "s": 0.78,
+     "pose": "walk"
+    },
+    {
+     "k": "backpack",
+     "x": 640,
+     "y": 100,
+     "w": 200,
+     "h": 240,
+     "labels": [
+      "tamta akcja",
+      "mina trenera"
+     ]
+    }
+   ]
+  },
+  "vb": "0 0 900 420",
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Dwóch mnichów",
+   "body": "Jeden przeniósł kobietę przez rzekę i zostawił ją na brzegu. Drugi niósł ją w głowie przez cały dzień.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "rano",
+      "icon": "ball",
+      "bottom": [
+       "błąd"
+      ]
+     },
+     {
+      "top": "po meczu",
+      "icon": "brain",
+      "bottom": [
+       "w głowie"
+      ]
+     },
+     {
+      "top": "wieczór",
+      "icon": "moon",
+      "hl": true,
+      "bottom": [
+       "dalej w głowie"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Wyciągnij i odstaw",
+   "body": "Zapisz, czego cię to nauczyło. Wniosek zostaje, ciężar możesz zostawić na brzegu.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "ZOSTAWIAM",
+      "items": [
+       "wstyd",
+       "pretensje",
+       "replay w głowie"
+      ],
+      "dim": true
+     },
+     {
+      "title": "BIORĘ",
+      "items": [
+       "jeden wniosek"
+      ],
+      "hl": true,
+      "note": "na następny trening"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Rytuał domknięcia",
+   "body": "Wnioski na kartkę, kartka do teczki, teczka do szuflady. Ciało lubi takie proste znaki.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "dzisiejszy mecz",
+    "via": "zapisuję",
+    "to": "zamknięte",
+    "toIcon": "paper"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *odstawisz* dziś na brzeg?",
+  "cta": "Zapisz i domknij dzisiejszy dzień na kartce.",
+  "art": "think"
+ },
+ "theme": "grafit"
+}

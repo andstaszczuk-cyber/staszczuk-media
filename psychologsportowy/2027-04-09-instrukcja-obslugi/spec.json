@@ -1,0 +1,105 @@
+{
+ "cover": {
+  "kicker": "PRZED STARTEM",
+  "title": "Daj bliskim\n*instrukcję obsługi*",
+  "size": 90,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "x": 80,
+     "y": 60,
+     "s": 1.0,
+     "pose": "point"
+    },
+    {
+     "k": "bubble",
+     "x": 470,
+     "y": 20,
+     "w": 420,
+     "h": 300,
+     "c": "paper",
+     "tail": "left",
+     "lines": [
+      "przed startem",
+      "jestem cichy",
+      "to nic złego"
+     ],
+     "size": 36
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 560,
+     "y": 380,
+     "s": 160,
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Ludzie się nie domyślą",
+   "body": "Milczysz przed meczem, a bliscy myślą, że się obraziłeś albo coś jest nie tak.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "sami się domyślą",
+    "to": "mówię wprost, jak mam",
+    "fromSub": "obraził się?"
+   }
+  },
+  {
+   "title": "Uprzedź wcześniej",
+   "body": "Powiedz, jak reagujesz przed startem i czego wtedy potrzebujesz. Kto wie, czego się spodziewać, wie też, co robić.",
+   "viz": {
+    "type": "notes",
+    "title": "MOJA INSTRUKCJA",
+    "lines": [
+     "godzinę przed: cisza",
+     "po meczu: kwadrans",
+     "wynik omawiamy jutro"
+    ]
+   }
+  },
+  {
+   "title": "Ustal, co do ciebie trafia",
+   "body": "Na zawodach możesz poprosić, żeby pewne informacje do ciebie nie docierały.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "TAK",
+      "items": [
+       "jedzenie",
+       "godzina",
+       "otucha"
+      ],
+      "hl": true
+     },
+     {
+      "title": "PO MECZU",
+      "items": [
+       "kto przyjechał",
+       "co mówią",
+       "wyniki innych"
+      ],
+      "dim": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *powinni wiedzieć* twoi bliscy?",
+  "cta": "Zapisz i porozmawiaj z nimi przed najbliższymi zawodami.",
+  "art": "bubble"
+ },
+ "theme": "grafit"
+}

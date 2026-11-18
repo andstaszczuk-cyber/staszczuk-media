@@ -1,0 +1,122 @@
+{
+ "cover": {
+  "kicker": "PRIMA APRILIS",
+  "title": "Śmiech to też\n*rozgrzewka*",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 90,
+     "s": 1.0,
+     "pose": "hips",
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "x": 420,
+     "y": 90,
+     "s": 1.0,
+     "pose": "win"
+    },
+    {
+     "k": "bubble",
+     "x": 330,
+     "y": 0,
+     "w": 230,
+     "h": 100,
+     "lines": [
+      "ha ha"
+     ],
+     "tail": "left"
+    }
+   ]
+  },
+  "layout": "hero",
+  "lh": 1.25
+ },
+ "points": [
+  {
+   "title": "Ciało puszcza napięcie",
+   "body": "Kiedy się śmiejesz, ramiona opadają, a oddech się wydłuża. Luźniejsze ciało lepiej się rusza.",
+   "viz": {
+    "type": "bodyMap",
+    "points": [
+     {
+      "part": "shoulders",
+      "label": "ramiona w dół",
+      "side": 1
+     },
+     {
+      "part": "chest",
+      "label": "dłuższy oddech",
+      "side": 0
+     },
+     {
+      "part": "hands",
+      "label": "luźne dłonie",
+      "side": 1,
+      "ly": 380
+     }
+    ]
+   }
+  },
+  {
+   "title": "Rozładowuje czy ucieka?",
+   "body": "Żart w szatni pomaga. Żarty przez cały dzień, żeby nie poczuć, że ci zależy, to już ucieczka.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "cloudRain",
+     "label": "żart, żeby uciec",
+     "cross": true
+    },
+    "right": {
+     "icon": "play",
+     "label": "żart, żeby wejść w zadanie"
+    }
+   }
+  },
+  {
+   "title": "Najpierw luz, potem zadanie",
+   "body": "Śmiech w drodze i w szatni. Ostatnie minuty przed startem należą do rutyny.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "droga",
+      "icon": "people"
+     },
+     {
+      "top": "szatnia",
+      "icon": "mic"
+     },
+     {
+      "top": "rozgrzewka",
+      "icon": "dumbbell"
+     },
+     {
+      "top": "start",
+      "icon": "flag",
+      "hl": true,
+      "bottom": [
+       "skupienie"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Kto w twojej drużynie *rozładowuje*?",
+  "cta": "Zapisz i pozwól sobie na śmiech przed kolejnym meczem.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

@@ -1,0 +1,94 @@
+{
+ "cover": {
+  "kicker": "PROWOKACJA",
+  "title": "Rywal zaprasza.\n*Ty nie tańczysz*",
+  "size": 92,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 20,
+     "y": 90,
+     "s": 1.0,
+     "pose": "hips",
+     "c": "fig2"
+    },
+    {
+     "k": "bubble",
+     "x": 30,
+     "y": 0,
+     "w": 300,
+     "h": 100,
+     "lines": [
+      "dawaj!"
+     ],
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "person",
+     "x": 470,
+     "y": 90,
+     "s": 1.0,
+     "pose": "stand"
+    },
+    {
+     "k": "bubble",
+     "x": 560,
+     "y": 0,
+     "w": 300,
+     "h": 100,
+     "lines": [
+      "robię swoje"
+     ],
+     "tail": "left",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Prowokacja ma cel",
+   "body": "Rywal zaczepia, żeby wyciągnąć cię z twojego planu i wciągnąć w swoją grę.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "zaczepka",
+    "via": "plan rywala",
+    "to": "twój błąd"
+   }
+  },
+  {
+   "title": "Zaczepia, bo się boi",
+   "body": "Raczej nie zaczepia się kogoś, kogo nie traktuje się jako zagrożenia. To informacja o tobie.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "chce mnie zniszczyć",
+    "to": "widzi we mnie zagrożenie"
+   }
+  },
+  {
+   "title": "Uśmiech i swoje zadanie",
+   "body": "Zauważasz zaproszenie, odmawiasz z uśmiechem i wracasz do zadania na kolejną akcję.",
+   "viz": {
+    "type": "wander",
+    "zone": "mój plan",
+    "out1": "zaczepka",
+    "out2": "kolejna",
+    "back": "wracam"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakie *jedno zadanie* masz na zaczepki?",
+  "cta": "Zapisz i przygotuj odpowiedź, zanim rywal zaprosi cię do tańca.",
+  "art": "think"
+ },
+ "theme": "grafit"
+}

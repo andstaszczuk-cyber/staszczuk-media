@@ -1,0 +1,162 @@
+{
+ "cover": {
+  "title": "Nowe warunki,\n*te same umiejętności*",
+  "size": 84,
+  "left": "ZIMĄ",
+  "right": "WIOSNĄ",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "snow",
+     "x": 168,
+     "y": 40,
+     "s": 100,
+     "c": "soft"
+    },
+    {
+     "k": "person",
+     "x": 98,
+     "y": 170,
+     "s": 0.8,
+     "pose": "stand",
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 632,
+     "y": 40,
+     "s": 100,
+     "c": "A"
+    },
+    {
+     "k": "person",
+     "x": 540,
+     "y": 170,
+     "s": 0.8,
+     "pose": "run"
+    },
+    {
+     "k": "icon",
+     "name": "wind",
+     "x": 780,
+     "y": 200,
+     "s": 80,
+     "c": "A"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Zmieniły się warunki",
+   "body": "Wiatr, nawierzchnia, chłód rano, dużo przestrzeni. Umiejętności zostały te same.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "wind",
+      "label": "wiatr"
+     },
+     {
+      "icon": "snow",
+      "label": "chłód rano"
+     },
+     {
+      "icon": "check",
+      "label": "umiejętności",
+      "sub": "zostają",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Daj sobie dwa tygodnie",
+   "body": "Pierwsze treningi na dworze to okres przejściowy. Ciało dopasowuje się do nowych warunków.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.62
+       ],
+       [
+        0.15,
+        0.38
+       ],
+       [
+        0.4,
+        0.5
+       ],
+       [
+        0.7,
+        0.68
+       ],
+       [
+        1,
+        0.8
+       ]
+      ],
+      "hl": true,
+      "label": "na dworze"
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.15,
+      "y": 0.38,
+      "label": "pierwszy trening",
+      "dy": 60
+     }
+    ],
+    "x": "tygodnie"
+   }
+  },
+  {
+   "title": "Porównuj dwór z dworem",
+   "body": "Trening na zewnątrz zestawiaj z treningiem na zewnątrz, a nie z najlepszym dniem w hali.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "snow",
+     "label": "najlepszy dzień w hali",
+     "cross": true
+    },
+    "right": {
+     "icon": "sun",
+     "label": "dwór do dworu"
+    }
+   }
+  }
+ ],
+ "end": {
+  "question": "Co dziś jest *inne*, a co zostało?",
+  "cta": "Zapisz i wróć po pierwszym tygodniu na dworze.",
+  "art": "think"
+ },
+ "theme": "grafit"
+}

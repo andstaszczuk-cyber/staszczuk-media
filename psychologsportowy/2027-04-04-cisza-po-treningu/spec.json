@@ -1,0 +1,127 @@
+{
+ "cover": {
+  "kicker": "BEZ SŁUCHAWEK",
+  "title": "Daj sobie\n*chwilę ciszy*",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 240,
+     "y": 90,
+     "s": 1.0,
+     "pose": "sit"
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 620,
+     "y": 380,
+     "s": 110,
+     "c": "soft"
+    },
+    {
+     "k": "line",
+     "x1": 615,
+     "y1": 380,
+     "x2": 740,
+     "y2": 500,
+     "c": "fg",
+     "w": 8
+    },
+    {
+     "k": "cloud",
+     "x": 640,
+     "y": 150,
+     "s": 1.0,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 655,
+     "y": 180,
+     "t": "...",
+     "size": 80,
+     "w": 800,
+     "c": "onA",
+     "anchor": "middle"
+    }
+   ]
+  },
+  "layout": "top",
+  "lh": 1.25
+ },
+ "points": [
+  {
+   "title": "Od razu zagłuszasz",
+   "body": "Kończysz trening i w sekundę wkładasz słuchawki albo bierzesz telefon. W ciszy spotykasz się ze sobą.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "trening",
+      "icon": "dumbbell"
+     },
+     {
+      "top": "1 sekunda",
+      "icon": "phone"
+     },
+     {
+      "top": "hałas",
+      "icon": "mic",
+      "bottom": [
+       "do wieczora"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Cisza to przestrzeń",
+   "body": "W ciszy myśli same się układają. Wtedy widzisz, co z treningu zostało ci w głowie.",
+   "viz": {
+    "type": "focus",
+    "center": "kilka minut ciszy",
+    "around": [
+     "powiadomienia",
+     "muzyka",
+     "wiadomości",
+     "filmiki"
+    ]
+   }
+  },
+  {
+   "title": "Kilka minut na start",
+   "body": "Droga do domu, rozciąganie albo kąpiel bez dźwięku. Zacznij od kilku minut.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "foot",
+      "label": "droga"
+     },
+     {
+      "icon": "hand",
+      "label": "rozciąganie"
+     },
+     {
+      "icon": "moon",
+      "label": "wieczór",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Kiedy ostatnio byłeś *w ciszy*?",
+  "cta": "Zapisz i spróbuj dziś kilku minut bez dźwięku po treningu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

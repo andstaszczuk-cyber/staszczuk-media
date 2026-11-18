@@ -1,0 +1,95 @@
+{
+ "cover": {
+  "kicker": "TRENER I TY",
+  "title": "Zapytaj trenera\n*dlaczego*",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 90,
+     "s": 1.0,
+     "pose": "think"
+    },
+    {
+     "k": "person",
+     "x": 470,
+     "y": 90,
+     "s": 1.0,
+     "pose": "point",
+     "c": "fig2",
+     "flip": true
+    },
+    {
+     "k": "bubble",
+     "x": 250,
+     "y": 0,
+     "w": 220,
+     "h": 110,
+     "lines": [
+      "dlaczego?"
+     ],
+     "tail": "left",
+     "size": 38
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Schemat bez zrozumienia",
+   "body": "Robisz ćwiczenie, bo trener tak kazał. Na treningu działa, a w meczu się sypie.",
+   "viz": {
+    "type": "listCompare",
+    "left": {
+     "title": "KOPIA",
+     "items": [
+      "kopiuję ruch",
+      "nie wiem po co",
+      "w meczu gubię"
+     ]
+    },
+    "right": {
+     "title": "ZROZUMIENIE",
+     "items": [
+      "wiem, po co",
+      "dopasowuję",
+      "decyduję sam"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Rozumiesz, więc decydujesz",
+   "body": "Kiedy wiesz, po co jest dany ruch, sam dopasujesz go do sytuacji w trakcie pojedynku.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "wiem, po co",
+    "via": "zrozumienie",
+    "to": "sam decyduję"
+   }
+  },
+  {
+   "title": "Pytaj w dobrym momencie",
+   "body": "Po ćwiczeniu, spokojnie, z ciekawością. Pytanie jest po prostu pytaniem.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "obrazi się",
+    "to": "z czego to wynika?",
+    "toSub": "ciekawość"
+   }
+  }
+ ],
+ "end": {
+  "question": "O co *zapytasz* na najbliższym treningu?",
+  "cta": "Zapisz i zadaj jedno pytanie dlaczego w tym tygodniu.",
+  "art": "bubble"
+ },
+ "theme": "grafit"
+}

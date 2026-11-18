@@ -1,0 +1,111 @@
+{
+ "cover": {
+  "kicker": "RELACJA Z TRENEREM",
+  "title": "Kto dorzuca drwa,\nten się *grzeje*",
+  "size": 90,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 20,
+     "y": 100,
+     "s": 0.95,
+     "pose": "crouch"
+    },
+    {
+     "k": "person",
+     "x": 520,
+     "y": 100,
+     "s": 0.95,
+     "pose": "stand",
+     "c": "fig2",
+     "flip": true
+    },
+    {
+     "k": "path",
+     "d": "M380 590 L520 590",
+     "c": "fig2",
+     "w": 26
+    },
+    {
+     "k": "path",
+     "d": "M390 560 L510 590 M390 590 L510 560",
+     "c": "fig2",
+     "w": 18
+    },
+    {
+     "k": "path",
+     "d": "M450 560 C400 500 430 450 450 400 C470 450 500 500 450 560 Z",
+     "fill": "A"
+    },
+    {
+     "k": "path",
+     "d": "M450 560 C425 520 440 490 450 470 C460 490 475 520 450 560 Z",
+     "fill": "paper"
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Relacja to dwie strony",
+   "body": "Czekasz, aż trener się odezwie, zapyta, doceni. On często czeka na to samo od ciebie.",
+   "viz": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "czemu nie pyta?",
+     "chyba mnie nie widzi",
+     "nie zależy mu"
+    ],
+    "ask": [
+     "trenerze,",
+     "mam",
+     "pytanie"
+    ]
+   }
+  },
+  {
+   "title": "Małe drwa",
+   "body": "Pytanie po treningu, informacja o samopoczuciu, podziękowanie za ćwiczenie. Drobne rzeczy, regularnie.",
+   "viz": {
+    "type": "stack",
+    "cols": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "labels": [
+     "tydz. 1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "caption": "relacja rośnie z małych wpłat"
+   }
+  },
+  {
+   "title": "Przyłapuj na dobrych rzeczach",
+   "body": "Zauważ, co trener robi dobrze, i powiedz mu to. Ludzie lubią wiedzieć, że coś działa.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "on i tak wie",
+    "to": "to ćwiczenie mi pomogło"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakie *drewno* dorzucisz w tym tygodniu?",
+  "cta": "Zapisz i zrób jedną małą rzecz dla relacji z trenerem.",
+  "art": "bubble"
+ },
+ "theme": "grafit"
+}

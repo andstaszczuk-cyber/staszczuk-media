@@ -1,0 +1,133 @@
+{
+ "cover": {
+  "kicker": "WAŻNY MECZ",
+  "title": "Zadania jak zawsze.\nReszta to *dodatek*",
+  "size": 86,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "circle",
+     "x": 450,
+     "y": 280,
+     "r": 230,
+     "c": "card",
+     "stroke": "line"
+    },
+    {
+     "k": "circle",
+     "x": 450,
+     "y": 280,
+     "r": 130,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 450,
+     "y": 272,
+     "t": [
+      "moje",
+      "zadania"
+     ],
+     "size": 40,
+     "w": 800,
+     "c": "onA",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "chip",
+     "x": 120,
+     "y": 90,
+     "text": "kamery",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 620,
+     "y": 110,
+     "text": "stawka",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 110,
+     "y": 420,
+     "text": "trybuny",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 630,
+     "y": 430,
+     "text": "tabela",
+     "c": "soft",
+     "tc": "fg"
+    }
+   ]
+  },
+  "layout": "top",
+  "lh": 1.25
+ },
+ "points": [
+  {
+   "title": "Mózg podkręca rangę",
+   "body": "Finał, derby, mecz o awans. Głowa traktuje go jak coś zupełnie innego i podkręca pobudzenie.",
+   "viz": {
+    "type": "scale10",
+    "caption": "POBUDZENIE",
+    "points": [
+     {
+      "n": 7,
+      "label": "zwykły mecz"
+     },
+     {
+      "n": 10,
+      "label": "ważny mecz",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Przełącz kanał",
+   "body": "Jak pilotem, z jedynki na dwójkę: rywal jak każdy inny, zadania jak każde inne.",
+   "viz": {
+    "type": "same",
+    "left": "ZWYKŁY MECZ",
+    "right": "WAŻNY MECZ",
+    "items": [
+     "rozgrzewka",
+     "pierwsze zadanie",
+     "reset po błędzie"
+    ]
+   }
+  },
+  {
+   "title": "Reszta to smaczek",
+   "body": "Kamery, trybuny i stawka są jak dodatek na pizzy. Smakuje, ale ciastem są twoje zadania.",
+   "viz": {
+    "type": "hub",
+    "center": "moje zadania",
+    "icon": "check",
+    "items": [
+     "kamery",
+     "trybuny",
+     "stawka",
+     "tabela"
+    ],
+    "hl": -1
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakie są twoje *zadania jak zawsze*?",
+  "cta": "Zapisz i wypisz je przed najbliższym ważnym meczem.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

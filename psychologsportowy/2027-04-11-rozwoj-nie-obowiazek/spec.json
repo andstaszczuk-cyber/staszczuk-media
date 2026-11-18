@@ -1,0 +1,149 @@
+{
+ "cover": {
+  "left": "CIĄGLE PRACUJE",
+  "right": "POTRAFI ODPUŚCIĆ",
+  "title": "Rozwój\n*to nie obowiązek*",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "person",
+     "x": 98,
+     "y": 150,
+     "s": 0.8,
+     "pose": "think",
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 280,
+     "y": 60,
+     "s": 90,
+     "c": "soft"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 60,
+     "y": 60,
+     "s": 80,
+     "c": "soft"
+    },
+    {
+     "k": "person",
+     "x": 520,
+     "y": 150,
+     "s": 0.8,
+     "pose": "sit"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 760,
+     "y": 50,
+     "s": 100,
+     "c": "A"
+    }
+   ]
+  },
+  "layout": "split",
+  "lh": 1.25
+ },
+ "points": [
+  {
+   "title": "Mit ciągłej pracy",
+   "body": "Czytasz, analizujesz, notujesz, poprawiasz. I masz wrażenie, że jeśli przestaniesz, to się cofniesz.",
+   "viz": {
+    "type": "week",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "book"
+     },
+     {
+      "d": "wt",
+      "icon": "note"
+     },
+     {
+      "d": "śr",
+      "icon": "brain"
+     },
+     {
+      "d": "cz",
+      "icon": "book"
+     },
+     {
+      "d": "pt",
+      "icon": "note"
+     },
+     {
+      "d": "sb",
+      "icon": "brain"
+     },
+     {
+      "d": "nd",
+      "icon": "book"
+     }
+    ],
+    "note": "zero przerwy na życie"
+   }
+  },
+  {
+   "title": "Dobra, już",
+   "body": "Dojrzałość to też umiejętność powiedzenia: na dziś wystarczy. Potem po prostu żyjesz.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "jeszcze muszę coś poprawić",
+    "to": "na dziś wystarczy"
+   }
+  },
+  {
+   "title": "Odpoczynek od pracy nad sobą",
+   "body": "Zrób sobie dzień bez analiz i poradników. Nic się nie zawali, a głowa odpocznie.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "sun",
+      "label": "spacer"
+     },
+     {
+      "icon": "people",
+      "label": "bliscy"
+     },
+     {
+      "icon": "heart",
+      "label": "frajda",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Kiedy ostatnio *nic nie poprawiałeś*?",
+  "cta": "Zapisz i zrób sobie dziś wolne od pracy nad sobą.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

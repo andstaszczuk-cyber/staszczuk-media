@@ -1,0 +1,108 @@
+{
+ "cover": {
+  "kicker": "PO WYGRANEJ",
+  "title": "Czujesz ulgę\n*zamiast radości*?",
+  "size": 90,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 120,
+     "y": 90,
+     "s": 1.0,
+     "pose": "slump"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 160,
+     "y": 470,
+     "s": 110,
+     "c": "A"
+    },
+    {
+     "k": "bubble",
+     "x": 470,
+     "y": 60,
+     "w": 380,
+     "h": 130,
+     "lines": [
+      "uff, udało się"
+     ],
+     "tail": "left",
+     "c": "card",
+     "tc": "fg",
+     "size": 38
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 270,
+     "text": "zamiast: ale super!",
+     "c": "soft",
+     "tc": "fg"
+    }
+   ]
+  },
+  "layout": "hero",
+  "lh": 1.25
+ },
+ "points": [
+  {
+   "title": "Ulga mówi o presji",
+   "body": "Kiedy po wygranej czujesz głównie ulgę, grałeś raczej po to, żeby nie przegrać, niż po to, żeby grać.",
+   "viz": {
+    "type": "scale",
+    "left": "ULGA",
+    "right": "RADOŚĆ",
+    "weights": [
+     "muszę",
+     "nie zawiodę",
+     "wynik"
+    ]
+   }
+  },
+  {
+   "title": "Zauważ, czym grałeś",
+   "body": "Ile w twojej głowie było zadań, a ile myśli o tym, co będzie, jak przegrasz?",
+   "viz": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "zadania",
+      "v": 0.3
+     },
+     {
+      "label": "obawy",
+      "v": 0.85,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Przeżyj to, co wyszło",
+   "body": "Po meczu zatrzymaj się na kilka minut przy tym, co zagrałeś dobrze. Radości też się uczysz.",
+   "viz": {
+    "type": "checklist",
+    "items": [
+     "dobre wejście w mecz",
+     "spokój po błędzie",
+     "trzymałem plan"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co po wygranej *czujesz najpierw*?",
+  "cta": "Zapisz i po najbliższym meczu sprawdź, czy to ulga, czy radość.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

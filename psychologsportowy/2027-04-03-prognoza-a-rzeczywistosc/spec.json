@@ -1,0 +1,112 @@
+{
+ "cover": {
+  "big": "10",
+  "bigSize": 360,
+  "bigSub": "tak ciężko było w głowie, a naprawdę 4",
+  "title": "Głowa pisze\n*cięższy scenariusz*",
+  "size": 84,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "chip",
+     "x": 0,
+     "y": 60,
+     "text": "w głowie: katastrofa",
+     "c": "card",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 0,
+     "y": 150,
+     "text": "na miejscu: jakoś poszło"
+    },
+    {
+     "k": "person",
+     "x": 640,
+     "y": 20,
+     "s": 0.7,
+     "pose": "stand"
+    }
+   ]
+  },
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "lh": 1.25
+ },
+ "points": [
+  {
+   "title": "Prognoza przed",
+   "body": "Przed trudnym startem czy rozmową głowa podsuwa najgorszą wersję. Jest zwykle cięższa niż to, co się wydarza.",
+   "viz": {
+    "type": "scale10",
+    "caption": "JAK BĘDZIE CIĘŻKO",
+    "points": [
+     {
+      "n": 10,
+      "label": "prognoza",
+      "hl": true
+     },
+     {
+      "n": 4,
+      "label": "naprawdę"
+     }
+    ],
+    "arrow": [
+     10,
+     4
+    ],
+    "arrowLabel": "różnica"
+   }
+  },
+  {
+   "title": "Porównaj po fakcie",
+   "body": "Po wszystkim zapisz, co przewidywałeś i co się stało. Nikt cię nie pogryzł, jakoś poszło.",
+   "viz": {
+    "type": "table",
+    "left": "PRZEWIDYWAŁEM",
+    "right": "WYDARZYŁO SIĘ",
+    "good": true,
+    "rows": [
+     [
+      "wszyscy będą patrzeć",
+      "patrzyli na swoje"
+     ],
+     [
+      "nogi z waty",
+      "pierwsze minuty sztywne"
+     ],
+     [
+      "kompromitacja",
+      "zwykły mecz"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Skoryguj prognozy",
+   "body": "Każde takie porównanie uczy głowę, że jej czarne scenariusze często przesadzają.",
+   "viz": {
+    "type": "notes",
+    "title": "NA PRZYSZŁOŚĆ",
+    "lines": [
+     "zwykle jest lżej",
+     "pierwsze minuty mijają",
+     "poradziłem sobie"
+    ],
+    "crossed": [
+     "katastrofa",
+     "nie dam rady"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co przewidujesz na *najbliższy start*?",
+  "cta": "Zapisz prognozę i po starcie porównaj ją z tym, co się stało.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

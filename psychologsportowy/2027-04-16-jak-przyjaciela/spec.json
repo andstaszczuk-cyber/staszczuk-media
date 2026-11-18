@@ -1,0 +1,113 @@
+{
+ "cover": {
+  "big": "2",
+  "bigSize": 380,
+  "bigSub": "standardy: dla przyjaciela i dla siebie",
+  "title": "Mów do siebie\n*jak do przyjaciela*",
+  "size": 86,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "bubble",
+     "x": 20,
+     "y": 60,
+     "w": 380,
+     "h": 110,
+     "lines": [
+      "dasz radę, zdarza się"
+     ],
+     "size": 30
+    },
+    {
+     "k": "bubble",
+     "x": 440,
+     "y": 60,
+     "w": 420,
+     "h": 110,
+     "lines": [
+      "znowu, beznadzieja"
+     ],
+     "c": "soft",
+     "tc": "fg",
+     "size": 30,
+     "tail": "right"
+    },
+    {
+     "k": "text",
+     "x": 210,
+     "y": 280,
+     "t": "do przyjaciela",
+     "size": 28,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle"
+    },
+    {
+     "k": "text",
+     "x": 650,
+     "y": 280,
+     "t": "do siebie",
+     "size": 28,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle"
+    }
+   ]
+  },
+  "vb": "0 0 900 420",
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Dwa różne głosy",
+   "body": "Przyjacielowi po błędzie mówisz, że się zdarza. Sobie mówisz rzeczy, których nikomu byś nie powiedział.",
+   "viz": {
+    "type": "table",
+    "left": "DO PRZYJACIELA",
+    "right": "DO SIEBIE",
+    "rows": [
+     [
+      "zdarza się",
+      "znowu to samo"
+     ],
+     [
+      "dobrze walczyłeś",
+      "beznadzieja"
+     ],
+     [
+      "następnym razem",
+      "nie nadajesz się"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Sprawdź podwójne standardy",
+   "body": "Wypisz, jak traktujesz bliskich w trudnej chwili. Potem sprawdź, czy tak samo traktujesz siebie.",
+   "viz": {
+    "type": "checklist",
+    "items": [
+     "wysłucham",
+     "nie krzyczę",
+     "przypomnę, co umie"
+    ]
+   }
+  },
+  {
+   "title": "Przyjaciel nie musi być idealny",
+   "body": "Bywasz na niego zły i dalej się przyjaźnicie. Ze sobą możesz tak samo.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "muszę być bez błędów",
+    "to": "jestem po swojej stronie"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co powiedziałbyś *przyjacielowi*?",
+  "cta": "Zapisz i powiedz to sobie po najbliższym błędzie.",
+  "art": "bubble"
+ },
+ "theme": "grafit"
+}

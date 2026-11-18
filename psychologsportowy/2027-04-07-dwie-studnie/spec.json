@@ -1,0 +1,120 @@
+{
+ "cover": {
+  "title": "Z której studni\n*czerpiesz*?",
+  "big": "2",
+  "bigSize": 380,
+  "bigSub": "studnie, z których możesz brać",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 40,
+     "y": 120,
+     "w": 300,
+     "h": 200,
+     "r": 24,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 190,
+     "y": 240,
+     "t": "porażki",
+     "size": 40,
+     "w": 800,
+     "c": "fg",
+     "anchor": "middle"
+    },
+    {
+     "k": "rect",
+     "x": 480,
+     "y": 120,
+     "w": 300,
+     "h": 200,
+     "r": 24,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 630,
+     "y": 240,
+     "t": "dowody",
+     "size": 40,
+     "w": 800,
+     "c": "onA",
+     "anchor": "middle"
+    }
+   ]
+  },
+  "vb": "0 0 900 420",
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Brudna woda",
+   "body": "Lista porażek, znowu mi nie wyszło, zawsze tak mam. Czerpiesz stąd i dziwisz się, że źle się czujesz.",
+   "viz": {
+    "type": "listCompare",
+    "left": {
+     "title": "BRUDNA",
+     "items": [
+      "znowu nie wyszło",
+      "zawsze tak mam",
+      "tamten mecz"
+     ]
+    },
+    "right": {
+     "title": "CZYSTA",
+     "items": [
+      "rok temu dałem radę",
+      "umiem to zagrać",
+      "wróciłem po kryzysie"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Czysta woda jest obok",
+   "body": "To, co udało się rok temu, dobre akcje, trudne okresy, przez które przeszedłeś. To też jesteś ty.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "trophy",
+      "label": "co wyszło"
+     },
+     {
+      "icon": "mountain",
+      "label": "co przetrwałem"
+     },
+     {
+      "icon": "star",
+      "label": "co umiem",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Świadomie sięgaj",
+   "body": "Mózg sam podsuwa brudną wodę. Po czystą trzeba sięgnąć celowo, na przykład kartką z dowodami.",
+   "viz": {
+    "type": "notes",
+    "title": "MOJE DOWODY",
+    "lines": [
+     "wygrany tie-break",
+     "powrót po przerwie",
+     "dobry sparing"
+    ],
+    "side": "czytam przed startem"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co dziś wrzucisz do *czystej studni*?",
+  "cta": "Zapisz i dopisz jeden dowód po dzisiejszym treningu.",
+  "art": "think"
+ },
+ "theme": "grafit"
+}

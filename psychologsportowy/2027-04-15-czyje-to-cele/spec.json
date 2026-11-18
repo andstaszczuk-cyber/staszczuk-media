@@ -1,0 +1,138 @@
+{
+ "cover": {
+  "left": "CZYJE?",
+  "right": "MOJE",
+  "title": "Czyje są\n*twoje cele*?",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "chip",
+     "x": 40,
+     "y": 50,
+     "text": "trener chce",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 40,
+     "y": 130,
+     "text": "rodzice liczą",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 40,
+     "y": 210,
+     "text": "tak wypada",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "person",
+     "x": 110,
+     "y": 290,
+     "s": 0.6,
+     "pose": "slump",
+     "c": "fig2"
+    },
+    {
+     "k": "chip",
+     "x": 510,
+     "y": 50,
+     "text": "bo ja chcę"
+    },
+    {
+     "k": "chip",
+     "x": 510,
+     "y": 130,
+     "text": "to mnie kręci"
+    },
+    {
+     "k": "person",
+     "x": 560,
+     "y": 290,
+     "s": 0.6,
+     "pose": "win"
+    }
+   ]
+  },
+  "layout": "split",
+  "lh": 1.25
+ },
+ "points": [
+  {
+   "title": "Posłuchaj swoich powodów",
+   "body": "Wypisz, po co startujesz w tym sezonie. Zobacz, ile tam jest cudzych zdań.",
+   "viz": {
+    "type": "listCompare",
+    "left": {
+     "title": "CUDZE",
+     "items": [
+      "trener mówi",
+      "rodzice liczą",
+      "tak wypada"
+     ]
+    },
+    "right": {
+     "title": "MOJE",
+     "items": [
+      "lubię grać",
+      "chcę umieć",
+      "kręci mnie to"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Cudze cele ciążą",
+   "body": "Kiedy wszystkie powody są czyjeś, każdy start robi się egzaminem przed kimś.",
+   "viz": {
+    "type": "scale",
+    "left": "CUDZE",
+    "right": "MOJE",
+    "weights": [
+     "oczekiwania",
+     "opinie",
+     "wypada"
+    ]
+   }
+  },
+  {
+   "title": "Dopisz swoje",
+   "body": "Nie musisz wyrzucać cudzych oczekiwań. Potrzebujesz obok nich swojego powodu.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "muszę, bo oni",
+    "to": "chcę, bo ja"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co jest *twoim* powodem?",
+  "cta": "Zapisz i dopisz jeden swój powód na ten sezon.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

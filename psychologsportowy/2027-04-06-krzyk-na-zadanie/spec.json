@@ -1,0 +1,142 @@
+{
+ "cover": {
+  "left": "SŁYSZYSZ",
+  "right": "BIERZESZ",
+  "title": "Krzyk przetłumacz\nna *zadanie*",
+  "size": 88,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "bubble",
+     "x": 40,
+     "y": 60,
+     "w": 356,
+     "h": 150,
+     "lines": [
+      "CO TY",
+      "ROBISZ?!"
+     ],
+     "c": "soft",
+     "size": 40
+    },
+    {
+     "k": "person",
+     "x": 108,
+     "y": 240,
+     "s": 0.7,
+     "pose": "slump",
+     "c": "fig2"
+    },
+    {
+     "k": "bubble",
+     "x": 504,
+     "y": 60,
+     "w": 356,
+     "h": 150,
+     "lines": [
+      "wracaj szybciej",
+      "do obrony"
+     ],
+     "size": 34
+    },
+    {
+     "k": "person",
+     "x": 560,
+     "y": 240,
+     "s": 0.7,
+     "pose": "run"
+    }
+   ]
+  },
+  "layout": "split",
+  "lh": 1.25
+ },
+ "points": [
+  {
+   "title": "Forma i treść",
+   "body": "Trener krzyczy, bo się denerwuje. W środku tego krzyku zwykle siedzi jedna konkretna informacja.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "FORMA",
+      "items": [
+       "głośno",
+       "nerwowo",
+       "ostro"
+      ],
+      "dim": true
+     },
+     {
+      "title": "TREŚĆ",
+      "items": [
+       "wracaj szybciej"
+      ],
+      "hl": true,
+      "note": "to bierzesz"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Jedno pytanie w głowie",
+   "body": "Co mam teraz zrobić inaczej? Odpowiedź zamieniasz w kolejną akcję.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "krzyk",
+    "via": "co mam zrobić?",
+    "to": "następna akcja"
+   }
+  },
+  {
+   "title": "Rozmowa po meczu",
+   "body": "Jeśli ton ci przeszkadza, powiedz o tym spokojnie po meczu. W trakcie bierzesz zadanie.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "w meczu",
+      "icon": "ball",
+      "bottom": [
+       "zadanie"
+      ]
+     },
+     {
+      "top": "po meczu",
+      "icon": "people",
+      "hl": true,
+      "bottom": [
+       "rozmowa"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co trener *naprawdę* chciał ci powiedzieć?",
+  "cta": "Zapisz i przy następnym krzyku szukaj zadania.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
