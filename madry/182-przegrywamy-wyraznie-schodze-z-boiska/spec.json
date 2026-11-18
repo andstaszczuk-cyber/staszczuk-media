@@ -1,0 +1,71 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Przegrywamy wyraźnie, *a ja w głowie już schodzę z boiska*",
+  "sub": "Wynik ucieka i przestaje mi się chcieć",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zero do zera w głowie",
+   "body": "Wyniku nie zmienisz jednym zagraniem. Następną akcję możesz zagrać dobrze.",
+   "art": {
+    "type": "focus",
+    "center": "następna akcja",
+    "icon": "ball",
+    "around": [
+     "wynik",
+     "tabela",
+     "trybuny",
+     "zmęczenie"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Mały cel na resztę meczu",
+   "body": "Kolejne pięć minut, trzy dobre akcje w obronie, zero strat po swoim błędzie."
+  },
+  {
+   "title": "To też jest trening",
+   "body": "Granie do końca przy złym wyniku przyda się w meczu na styk."
+  }
+ ],
+ "end": {
+  "text": "Gra się *do ostatniego gwizdka*.",
+  "cta": "Zapisz przed kolejnym meczem"
+ }
+}

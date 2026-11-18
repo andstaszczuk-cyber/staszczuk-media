@@ -1,0 +1,65 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Ktoś mnie chwali, *a ja od razu umniejszam*",
+  "sub": "Mówią dobry mecz, a ja odpowiadam, że to fart",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Powiedz dziękuję",
+   "body": "Bez dopowiadania, bez ale. Komplement przyjmujesz w całości.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "eee, to fart",
+    "to": "dziękuję"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "W głowie: to o mnie",
+   "body": "Dobre słowa o sobie zbierasz i zapisujesz, zamiast je odbijać."
+  },
+  {
+   "title": "Rozłóż sukces na umiejętności",
+   "body": "Co dokładnie zrobiłeś dobrze. To się nie dzieje przypadkiem."
+  }
+ ],
+ "end": {
+  "text": "Docenianie *nie zabiera motywacji*.",
+  "cta": "Zapisz i przyjmij najbliższy komplement"
+ }
+}

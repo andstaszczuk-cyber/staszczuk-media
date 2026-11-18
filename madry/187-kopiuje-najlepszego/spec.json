@@ -1,0 +1,78 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Kopiuję najlepszego w drużynie *i gubię swój styl*",
+  "sub": "Gram jak on i wychodzi mi to gorzej niż po swojemu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Z wzoru bierzesz postawy",
+   "body": "Pracowitość, spokój, odwagę. Jego ruchy pasują do jego ciała.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "KOPIUJĘ",
+     "items": [
+      "jego ruchy",
+      "jego styl"
+     ]
+    },
+    "right": {
+     "title": "BIORĘ",
+     "items": [
+      "pracowitość",
+      "spokój",
+      "odwagę"
+     ]
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Nazwij swoje atuty",
+   "body": "Trzy rzeczy, w których jesteś mocny. Na nich budujesz grę."
+  },
+  {
+   "title": "Sprawdzaj jedną rzecz",
+   "body": "Co z tego, co robi lepszy, pasuje do ciebie. Testujesz i decydujesz."
+  }
+ ],
+ "end": {
+  "text": "Najlepiej grasz *jako ty*.",
+  "cta": "Zapisz i wypisz swoje atuty"
+ }
+}

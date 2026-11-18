@@ -1,0 +1,80 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Nowy element *nie wychodzi od trzech tygodni*",
+  "sub": "Ćwiczę i ćwiczę, a dalej jest koślawo",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ruler",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Nieudane próby są potrzebne",
+   "body": "Układ nerwowy uczy się powoli. Postęp przychodzi z opóźnieniem.",
+   "art": {
+    "type": "stack",
+    "cols": [
+     2,
+     2,
+     3,
+     3,
+     4,
+     6
+    ],
+    "labels": [
+     " ",
+     " ",
+     " ",
+     " ",
+     " ",
+     "nagle"
+    ],
+    "caption": "nieudane próby też się liczą"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zwolnij",
+   "body": "Wolniej i w częściach. Najpierw dokładnie, potem szybko."
+  },
+  {
+   "title": "Przerwa też uczy",
+   "body": "Dzień albo dwa bez tego elementu. Często po przerwie zaczyna wychodzić."
+  }
+ ],
+ "end": {
+  "text": "Wolniej *znaczy szybciej*.",
+  "cta": "Zapisz na trudny trening"
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Sędzia się pomylił *i nie mogę tego puścić*",
+  "sub": "Przez kolejne minuty kłócę się z gwizdkiem",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Decyzja już zapadła",
+   "body": "Nie zmienisz jej. Masz wpływ na swoją następną akcję.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "BEZ WPŁYWU",
+      "icon": "whistle",
+      "items": [
+       "decyzja sędziego",
+       "wynik akcji"
+      ]
+     },
+     {
+      "title": "MÓJ WPŁYW",
+      "icon": "play",
+      "items": [
+       "oddech",
+       "następna akcja"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Gest resetu",
+   "body": "Wydech, dotyk koszulki, jedno słowo. I wracasz do gry."
+  },
+  {
+   "title": "Analiza po meczu",
+   "body": "Wrócisz do tego z trenerem. W trakcie szkoda na to energii."
+  }
+ ],
+ "end": {
+  "text": "Sędzia gwiżdże, *ty grasz dalej*.",
+  "cta": "Zapisz przed meczem"
+ }
+}

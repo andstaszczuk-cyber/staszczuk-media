@@ -1,0 +1,76 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Przed meczem *analizuję rywala do upadłego*",
+  "sub": "Znam jego grę lepiej niż własny plan",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Analiza ma limit",
+   "body": "Kwadrans z trenerem, dwie, trzy rzeczy. Potem zamykasz temat.",
+   "art": {
+    "type": "table",
+    "left": "O RYWALU",
+    "right": "O SOBIE",
+    "good": true,
+    "rows": [
+     [
+      "godziny nagrań",
+      "moje zadania"
+     ],
+     [
+      "jego atuty",
+      "moje atuty"
+     ]
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Pytają o rywala, mówisz o sobie",
+   "body": "W jaki sposób to ty będziesz problemem dla niego."
+  },
+  {
+   "title": "Ostatni dzień jest twój",
+   "body": "Wracasz do swojego planu i swoich dobrych akcji."
+  }
+ ],
+ "end": {
+  "text": "Najważniejszy zawodnik w twoim planie *to ty*.",
+  "cta": "Zapisz przed analizą rywala"
+ }
+}

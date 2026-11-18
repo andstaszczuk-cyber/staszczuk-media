@@ -1,0 +1,65 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "W nowej grupie *chcę się od razu pokazać*",
+  "sub": "Pierwsze treningi wyżej i każde ćwiczenie jak egzamin",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Już się pokazałeś",
+   "body": "Jesteś tu, bo ktoś to zobaczył. Teraz kontynuujesz swoją jakość.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "muszę się pokazać",
+    "to": "robię swoje"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zbieraj dowody",
+   "body": "Po każdym treningu jedna rzecz, która pokazała, że tu pasujesz."
+  },
+  {
+   "title": "Daj sobie czas",
+   "body": "Pierwsze tygodnie są na wdrożenie. Pozycję budujesz krok po kroku."
+  }
+ ],
+ "end": {
+  "text": "Już tu jesteś. *Teraz rób swoje*.",
+  "cta": "Zapisz przed pierwszym treningiem"
+ }
+}
