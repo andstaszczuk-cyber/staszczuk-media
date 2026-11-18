@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "walk",
+   "text": "Drużyna pamięta\\n*twój zeszłoroczny mecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Stara historia",
+   "body": "Kontrowersja z poprzedniego sezonu wraca przy pierwszym spotkaniu.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Pułapka",
+   "body": "Oddawanie albo sztywność, żeby coś udowodnić.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Nowy mecz",
+   "body": "Sędziujesz to, co widzisz dzisiaj, tą samą miarą.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Tamten mecz już był.\\n*Sędziujesz dzisiejszy*.",
+   "cta": "Zapisz przed meczem z historią"
+  }
+ ]
+}

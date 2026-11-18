@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "bateria",
+   "text": "Zmęczony po meczu?\\n*Wielkie decyzje odłóż do jutra*."
+  },
+  {
+   "kind": "point",
+   "title": "Pusta bateria",
+   "body": "Po meczu w upale głowa i ciało są wyczerpane.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Ciemniejsze barwy",
+   "body": "Zmęczenie przyciemnia ocenę meczu i samego siebie.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Do jutra",
+   "body": "Odpowiedzi, wpisy i decyzje czekają na wypoczętą głowę.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "end",
+   "text": "Najpierw ładujesz baterię.\\n*Potem decydujesz*.",
+   "cta": "Zapisz na wieczór po meczu"
+  }
+ ]
+}

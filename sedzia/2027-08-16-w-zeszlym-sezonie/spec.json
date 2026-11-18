@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "NOWE PRZEPISY",
+   "text": "Przecież zawsze\\n*było dozwolone*."
+  },
+  {
+   "kind": "point",
+   "title": "Stary nawyk",
+   "body": "Zawodnicy jeszcze grają według dawnych zasad.",
+   "icon": "ksiazka"
+  },
+  {
+   "kind": "point",
+   "title": "Zaskoczenie",
+   "body": "Pretensje częściej są zdziwieniem niż atakiem na ciebie.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Jedno zdanie",
+   "body": "To nowy przepis, od tego sezonu tak jest. I gramy dalej.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Ty znasz zmiany.\\n*Oni dopiero się uczą*.",
+   "cta": "Zapisz przed kolejnym meczem"
+  }
+ ]
+}

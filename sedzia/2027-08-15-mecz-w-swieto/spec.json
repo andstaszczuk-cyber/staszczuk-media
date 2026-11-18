@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "car",
+   "text": "Mecz w długi weekend\\n*też może być dobrym dniem*."
+  },
+  {
+   "kind": "point",
+   "title": "Inny rytm",
+   "body": "Święto, wyjazdy, korki, czasem więcej emocji na trybunach.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Rozdarcie",
+   "body": "Głowa trochę na boisku, trochę z rodziną nad wodą.",
+   "icon": "dom"
+  },
+  {
+   "kind": "point",
+   "title": "Pełna obecność",
+   "body": "Na czas meczu jesteś w meczu. Potem jesteś z bliskimi.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Najpierw mecz w pełni.\\n*Potem rodzina w pełni*.",
+   "cta": "Zapisz na długi weekend"
+  }
+ ]
+}

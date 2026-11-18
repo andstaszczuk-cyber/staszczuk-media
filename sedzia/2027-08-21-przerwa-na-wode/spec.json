@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "tired",
+   "text": "Przerwa na ochłodę\\n*to też przerwa dla głowy*."
+  },
+  {
+   "kind": "point",
+   "title": "Upał",
+   "body": "W gorące dni mecz zatrzymuje się na chwilę ochłody.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Szansa",
+   "body": "Kilkadziesiąt sekund, które możesz wykorzystać na reset.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Mini rutyna",
+   "body": "Wydech, jedna myśl o zadaniu, spojrzenie na asystentów.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "end",
+   "text": "Zatrzymał się mecz.\\n*Ty też możesz*.",
+   "cta": "Zapisz na upalny mecz"
+  }
+ ]
+}

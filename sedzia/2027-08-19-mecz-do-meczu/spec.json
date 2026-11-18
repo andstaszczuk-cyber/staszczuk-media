@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "1:1",
+   "text": "Porównuj\\n*mecz z meczem*."
+  },
+  {
+   "kind": "point",
+   "title": "Inny kontekst",
+   "body": "Sparing i test mają inną stawkę niż mecz o punkty.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Krzywa miara",
+   "body": "Zestawianie meczu ligowego ze sparingiem tylko dołuje.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Uczciwe porównanie",
+   "body": "Mecz ligowy zestawiasz z poprzednim meczem ligowym.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Ta sama miara\\n*także dla ciebie*.",
+   "cta": "Zapisz i porównuj uczciwie"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Pamiętasz swój\\n*pierwszy sezon?*",
+   "sub": "Teraz ktoś młodszy\\n*patrzy na ciebie*."
+  },
+  {
+   "kind": "point",
+   "title": "Nowi w grupie",
+   "body": "Po kursie do zespołu dołączają młodzi sędziowie.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja rola",
+   "body": "Kilka zdań wsparcia potrafi zostać z kimś na lata.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Konkret",
+   "body": "Najpierw co zrobił dobrze, potem jedna rzecz do poprawy.",
+   "icon": "lista"
+  },
+  {
+   "kind": "end",
+   "text": "Byłeś kiedyś nowy.\\n*Teraz możesz pomóc*.",
+   "cta": "Wyślij koledze, który zaczyna"
+  }
+ ]
+}
