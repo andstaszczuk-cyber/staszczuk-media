@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "3",
+   "text": "pierwsze kolejki\\n*to rozpoznanie*."
+  },
+  {
+   "kind": "point",
+   "title": "Drużyny się zmieniły",
+   "body": "Nowi zawodnicy, nowi trenerzy, nowe ustawienia. Wszystko trzeba poznać.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Ty też się zmieniłeś",
+   "body": "Po przerwie oko i timing wracają stopniowo, mecz po meczu.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Zbieraj informacje",
+   "body": "Po każdym meczu dwie rzeczy, które zadziałały, i jedna do poprawy.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Po trzech kolejkach\\n*masz dane do pracy*.",
+   "cta": "Zapisz na start rundy"
+  }
+ ]
+}

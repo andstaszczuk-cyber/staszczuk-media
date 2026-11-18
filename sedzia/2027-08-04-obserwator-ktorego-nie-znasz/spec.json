@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Nowy obserwator?\\n*Zapytaj, czego oczekuje*."
+  },
+  {
+   "kind": "point",
+   "title": "Brak danych",
+   "body": "Nie znasz go, więc głowa sama dopisuje mu intencje.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Czarna wersja",
+   "body": "Mózg zgaduje ostrożnie i najczęściej wybiera najgorszy scenariusz.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Pytanie po meczu",
+   "body": "Zapytaj, na co zwraca uwagę i co radzi na najbliższe mecze.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Mniej założeń,\\n*więcej rozmowy*.",
+   "cta": "Zapisz przed meczem z nowym obserwatorem"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "warmup",
+   "text": "Upał to jedna z kart.\\n*Zagraj nią mądrze*."
+  },
+  {
+   "kind": "point",
+   "title": "Wszyscy w tym samym",
+   "body": "Gorąco jest zawodnikom, trenerom, asystentom i tobie.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Gra zwalnia",
+   "body": "Więcej przestojów, krótsze sprinty, więcej nerwów pod koniec.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Ekonomia ruchu",
+   "body": "Ustawienie z głową i siły odłożone na końcówkę.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Masz takie karty.\\n*Zagraj nimi najlepiej*.",
+   "cta": "Zapisz na upalny weekend"
+  }
+ ]
+}

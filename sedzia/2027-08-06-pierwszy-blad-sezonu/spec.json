@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "decision",
+   "text": "Pierwszy błąd sezonu\\n*był z puli*."
+  },
+  {
+   "kind": "point",
+   "title": "Pula błędów",
+   "body": "W każdym meczu jakaś część decyzji będzie nietrafiona.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Krótka analiza",
+   "body": "Co widziałeś, gdzie stałeś, co zrobisz inaczej.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Następna akcja",
+   "body": "Gest resetu i uwaga wraca na boisko.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Błąd to informacja.\\n*Bierzesz ją i idziesz dalej*.",
+   "cta": "Zapisz na gorszy moment"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Dla nich to święto.\\n*Dla ciebie kolejny mecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Wysoka ranga",
+   "body": "Mała drużyna gra mecz roku z faworytem z wyższej ligi.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Emocje w powietrzu",
+   "body": "Pełne trybuny, nakręceni zawodnicy, każda decyzja waży więcej.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja temperatura",
+   "body": "Pobudzenie trzymasz na swoim poziomie, jak w każdym meczu.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "end",
+   "text": "Mecz jak mecz.\\n*Ty robisz swoje*.",
+   "cta": "Zapisz przed meczem pucharowym"
+  }
+ ]
+}

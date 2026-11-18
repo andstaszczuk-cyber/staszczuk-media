@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Czy ja w ogóle\\n*tu pasuję?*",
+   "sub": "Skoro dostałeś obsadę,\\n*ktoś to już sprawdził*."
+  },
+  {
+   "kind": "point",
+   "title": "Nowy poziom",
+   "body": "Szybsza gra, więcej kibiców, bardziej doświadczeni zawodnicy.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Stary schemat",
+   "body": "W nowym miejscu wraca potrzeba udowadniania, że zasłużyłeś.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Już tu jesteś",
+   "body": "Kontynuujesz swoją jakość i zbierasz dowody, że to twoje miejsce.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Już się pokazałeś.\\n*Teraz rób swoje*.",
+   "cta": "Zapisz przed debiutem w nowej lidze"
+  }
+ ]
+}

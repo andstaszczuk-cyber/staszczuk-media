@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "PIERWSZE KOLEJKI",
+   "text": "Drużyny też\\n*wracają z przerwy*."
+  },
+  {
+   "kind": "point",
+   "title": "Brzydsza gra",
+   "body": "Spóźnione wejścia, nieczytelne ustawienia, sporo przypadku.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Krótszy lont",
+   "body": "Zawodnicy bez rytmu meczowego szybciej się irytują.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja stabilność",
+   "body": "Wczesna, czytelna linia w faulach porządkuje mecz.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Oni szukają rytmu.\\n*Ty dajesz meczowi porządek*.",
+   "cta": "Zapisz na pierwsze kolejki"
+  }
+ ]
+}
