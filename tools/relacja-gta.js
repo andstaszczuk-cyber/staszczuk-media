@@ -63,7 +63,7 @@ ${[0,1,2,3,4,5,6].map(i=>`<rect x="${560-i*10}" y="${1320+i*34}" width="${280+i*
 </g><rect width="1080" height="1920" fill="url(#vig)"/></svg>`;
 const s2 = wrap(`${scene}
 <div style="position:absolute;left:60px;top:90px;width:560px;background:rgba(0,0,0,.72);border-radius:10px;padding:26px 30px;font:600 34px/1.35 Pop">Cel: <span style="color:${TEAL}">wróć do gry po błędzie</span>.</div>
-<div style="position:absolute;right:60px;top:96px;text-align:right">${stars(2)}<div style="font:400 64px Ant;margin-top:6px;letter-spacing:2px;text-shadow:3px 3px 0 #000">23:41</div></div>
+<div style="position:absolute;right:60px;top:96px;text-align:right">${stars(2)}</div>
 <div style="position:absolute;left:0;right:0;top:330px;background:linear-gradient(90deg,rgba(0,0,0,0),rgba(0,0,0,.82) 15%,rgba(0,0,0,.82) 85%,rgba(0,0,0,0));padding:40px 0 46px;text-align:center">
   <div style="font:400 150px/1 Ant;text-transform:uppercase;color:${PINK};transform:skewX(-8deg);text-shadow:5px 5px 0 #000,0 0 30px rgba(255,61,139,.55)">Misja nieudana</div>
   <div class="p" style="margin:26px auto 0;width:860px;font-size:40px">Patrzysz, w którym miejscu poszło źle, poprawiasz jedną rzecz i <span class="hl">wchodzisz jeszcze raz</span>.</div>
