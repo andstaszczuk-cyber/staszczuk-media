@@ -1,0 +1,67 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wstydzę się zapytać, *kiedy czegoś nie rozumiem*",
+  "sub": "Kiwam głową i robię po swojemu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "hand",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Pytanie to informacja",
+   "body": "Trener mówi do całej grupy. Nie wie, co do ciebie nie dotarło.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "kiwam głową",
+    "to": "pytam, dlaczego"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Pytaj o dlaczego",
+   "body": "Gdy rozumiesz sens ćwiczenia, umiesz je zrobić sam w meczu."
+  },
+  {
+   "title": "Po treningu, na spokojnie",
+   "body": "Jedno pytanie, dwa zdania. Przy szatni albo w wiadomości."
+  }
+ ],
+ "end": {
+  "text": "Kto pyta, *ten szybciej umie*.",
+  "cta": "Zapisz i zadaj jedno pytanie w tym tygodniu"
+ }
+}

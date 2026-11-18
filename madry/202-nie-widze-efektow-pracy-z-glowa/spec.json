@@ -1,0 +1,82 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Ćwiczę głowę od miesiąca *i nie widzę efektów*",
+  "sub": "Oddycham, zapisuję, wyobrażam sobie, a dalej się stresuję",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Efekt przychodzi z opóźnieniem",
+   "body": "Jak przy zmianie sylwetki. Codziennie mało widać, po kwartale dużo.",
+   "art": {
+    "type": "stack",
+    "cols": [
+     1,
+     1,
+     2,
+     2,
+     3,
+     4
+    ],
+    "labels": [
+     " ",
+     " ",
+     " ",
+     " ",
+     " ",
+     "po czasie"
+    ],
+    "caption": "zmiana rośnie po cichu"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Mierz drobne rzeczy",
+   "body": "Krótsza złość po błędzie, szybszy powrót do gry. To jest progres."
+  },
+  {
+   "title": "Porównaj z tym, co było",
+   "body": "Wróć do notatek sprzed miesiąca. Zobacz, co już robisz inaczej."
+  }
+ ],
+ "end": {
+  "text": "Mental to trening, *trzeba się spocić*.",
+  "cta": "Zapisz i sprawdź progres za miesiąc"
+ }
+}

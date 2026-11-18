@@ -1,0 +1,83 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Trzeci dzień turnieju *i nie mam już głowy*",
+  "sub": "Pierwszego dnia ogień, ostatniego tylko zmęczenie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Między meczami ładujesz",
+   "body": "Cień, jedzenie, picie, słuchawki. Analizę każdej akcji zostaw na później.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "play",
+      "top": "mecz",
+      "bottom": "gram"
+     },
+     {
+      "icon": "pause",
+      "top": "przerwa",
+      "bottom": "ładuję",
+      "hl": true
+     },
+     {
+      "icon": "moon",
+      "top": "wieczór",
+      "bottom": "kropka"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zamknij każdy dzień",
+   "body": "Wieczorem trzy zdania: co działało, czego się trzymam, koniec."
+  },
+  {
+   "title": "Plan na ostatni dzień",
+   "body": "Zakładasz, że będzie ciężko. Jedno zadanie i krótka rutyna przed meczem."
+  }
+ ],
+ "end": {
+  "text": "Turniej wygrywa się *też w przerwach*.",
+  "cta": "Zapisz i zaplanuj przerwy na turnieju"
+ }
+}

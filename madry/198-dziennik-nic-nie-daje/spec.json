@@ -1,0 +1,75 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Prowadzę dziennik *i nic z niego nie wynika*",
+  "sub": "Zapisuję wszystko, a potem do tego nie wracam",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Stałe pytania",
+   "body": "Co zadziałało, co było trudne, co zmieniam. Kilka minut po treningu.",
+   "art": {
+    "type": "notes",
+    "title": "PO TRENINGU",
+    "lines": [
+     "co zadziałało",
+     "co było trudne",
+     "co zmieniam jutro"
+    ],
+    "crossed": [
+     "wszystko"
+    ],
+    "side": "stałe pytania"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Raz w tygodniu czytasz",
+   "body": "Szukasz powtórek. Coś wraca trzeci raz? Masz temat do pracy."
+  },
+  {
+   "title": "Jeden wniosek do sprawdzenia",
+   "body": "Z całego tygodnia wybierasz jedną rzecz i testujesz ją na treningu."
+  }
+ ],
+ "end": {
+  "text": "Zapisane ma *pracować*.",
+  "cta": "Zapisz i dopisz dziś trzy pytania"
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po żółtej kartce *boję się wejść w pojedynek*",
+  "sub": "Do końca meczu gram jak na szpilkach",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Kartka to informacja",
+   "body": "Sędzia pokazał, gdzie dziś leży granica. Wiesz więcej niż minutę temu.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "nic mi nie wolno",
+    "to": "wiem, gdzie granica"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zmień sposób, zostaw serce",
+   "body": "Lepsze ustawienie, więcej cierpliwości, wejście we właściwym momencie."
+  },
+  {
+   "title": "Jedno słowo po kartce",
+   "body": "Wydech i hasło, na przykład czysto. Następny pojedynek grasz od nowa."
+  }
+ ],
+ "end": {
+  "text": "Gram *czysto i odważnie*.",
+  "cta": "Zapisz i wybierz swoje słowo"
+ }
+}

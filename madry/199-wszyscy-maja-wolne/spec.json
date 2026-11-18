@@ -1,0 +1,67 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wszyscy mają wolne, *a ja idę na trening*",
+  "sub": "Majówka, grill i zdjęcia znajomych w telefonie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Powiedz: wybieram",
+   "body": "Muszę brzmi jak kara. Wybieram pokazuje, po co to robisz.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "muszę iść",
+    "to": "wybieram iść"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Przypomnij sobie po co",
+   "body": "Jeden cel na ten sezon. Dzisiejszy trening jest jego kawałkiem."
+  },
+  {
+   "title": "Zaplanuj też wolne",
+   "body": "Kilka godzin ze znajomymi po treningu. Sport i życie mieszczą się w jednym dniu."
+  }
+ ],
+ "end": {
+  "text": "Dziś trenujesz, *bo tak wybrałeś*.",
+  "cta": "Zapisz i zaplanuj swoje wolne"
+ }
+}

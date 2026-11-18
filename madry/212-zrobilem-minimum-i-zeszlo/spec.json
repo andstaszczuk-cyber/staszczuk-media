@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Zrobiłem minimum *i coś ze mnie zeszło*",
+  "sub": "Cel osiągnięty, a ja nagle nie mam paliwa",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "win",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Najpierw się ciesz",
+   "body": "Dzień, dwa na świętowanie. To był ważny cel i masz prawo go poczuć.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "flag",
+      "top": "minimum",
+      "bottom": "jest"
+     },
+     {
+      "icon": "star",
+      "top": "dzień, dwa",
+      "bottom": "świętuję",
+      "hl": true
+     },
+     {
+      "icon": "mountain",
+      "top": "potem",
+      "bottom": "nowy cel"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Od razu następny cel",
+   "body": "Konkretny, na najbliższe tygodnie. Bez celu uwaga spada."
+  },
+  {
+   "title": "Wróć do powodów",
+   "body": "Po co trenujesz poza wynikiem? To niesie, gdy cel się kończy."
+  }
+ ],
+ "end": {
+  "text": "Po szczycie *wyznacz kolejną górę*.",
+  "cta": "Zapisz i nazwij swój następny cel"
+ }
+}

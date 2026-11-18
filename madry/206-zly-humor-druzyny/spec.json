@@ -1,0 +1,67 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Zły humor drużyny *od razu mi się udziela*",
+  "sub": "Ktoś narzeka w szatni i po chwili narzekam ja",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zauważ, że to cudze",
+   "body": "Rozumiesz, co czują inni. Nie musisz od razu tego przejmować.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "chłonę wszystko",
+    "to": "rozumiem i robię swoje"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Swój rytuał wejścia",
+   "body": "Słuchawki, rozgrzewka, jedno zdanie. Wchodzisz na trening po swojemu."
+  },
+  {
+   "title": "Dorzuć coś od siebie",
+   "body": "Jedno dobre słowo do kolegi potrafi zmienić klimat całej grupy."
+  }
+ ],
+ "end": {
+  "text": "Rozumiesz, *ale nie nasiąkasz*.",
+  "cta": "Zapisz i ustal swój rytuał wejścia"
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Na świeżo technika działa, *na zmęczeniu się sypie*",
+  "sub": "W końcówce meczu robię błędy jak początkujący",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "watch",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Trenuj też zmęczony",
+   "body": "Kilka powtórzeń techniki pod koniec treningu, gdy nogi już ciężkie.",
+   "art": {
+    "type": "table",
+    "left": "NA ŚWIEŻO",
+    "right": "NA ZMĘCZENIU",
+    "good": true,
+    "rows": [
+     [
+      "dużo powtórzeń",
+      "kilka dokładnych"
+     ],
+     [
+      "cała technika",
+      "jeden element"
+     ]
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jeden element pod presją",
+   "body": "Na zmęczeniu pilnujesz jednej rzeczy, tej najważniejszej."
+  },
+  {
+   "title": "Dokładność przed tempem",
+   "body": "Najpierw wolniej i czysto. Tempo dokładasz, gdy ruch się trzyma."
+  }
+ ],
+ "end": {
+  "text": "Technika ma działać *także w końcówce*.",
+  "cta": "Zapisz i dołóż to na koniec treningu"
+ }
+}

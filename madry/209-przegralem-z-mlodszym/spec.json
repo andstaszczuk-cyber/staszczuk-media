@@ -1,0 +1,67 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Przegrałem z młodszym *i jest mi wstyd*",
+  "sub": "Wydaje mi się, że wszyscy się teraz śmieją",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Wiek nie gra",
+   "body": "Wygrał ten, kto tego dnia zagrał lepiej. Metryka nie ma tu znaczenia.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "przegrałem z dzieciakiem",
+    "to": "przegrałem z dobrym rywalem"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Wstyd ma swoją wiadomość",
+   "body": "Pokazuje, że ci zależy. Co konkretnie chcesz poprawić?"
+  },
+  {
+   "title": "Mniej osób o tym myśli",
+   "body": "Za tydzień pamiętasz o tym głównie ty."
+  }
+ ],
+ "end": {
+  "text": "Rywal był lepszy *tego dnia*.",
+  "cta": "Zapisz i nazwij, co zabierasz z tej porażki"
+ }
+}

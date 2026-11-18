@@ -1,0 +1,86 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Mam pięć celów na sezon *i żaden nie idzie*",
+  "sub": "Chcę poprawić wszystko naraz",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Wybierz jeden lub dwa",
+   "body": "Reszta trafia na listę na później. Nie znika, czeka na swoją kolej.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "TERAZ",
+      "icon": "flag",
+      "items": [
+       "cel numer 1",
+       "cel numer 2"
+      ],
+      "hl": true
+     },
+     {
+      "title": "PÓŹNIEJ",
+      "icon": "clock",
+      "items": [
+       "cel 3",
+       "cel 4",
+       "cel 5"
+      ],
+      "dash": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Rozpisz na zachowania",
+   "body": "Co konkretnie robisz w tym tygodniu, żeby cel był bliżej."
+  },
+  {
+   "title": "Sprawdzaj co tydzień",
+   "body": "Pięć minut w niedzielę. Co zrobione, co przesuwam."
+  }
+ ],
+ "end": {
+  "text": "Mniej celów, *więcej zrobione*.",
+  "cta": "Zapisz i wybierz swoje dwa cele"
+ }
+}

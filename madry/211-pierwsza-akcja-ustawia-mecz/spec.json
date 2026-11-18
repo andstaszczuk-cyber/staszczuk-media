@@ -1,0 +1,82 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Pierwsza akcja *ustawia mi cały mecz*",
+  "sub": "Jak zepsuję na starcie, to już do końca źle",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "play",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Jedna z setek akcji",
+   "body": "Pierwsza akcja waży tyle samo co każda inna. Tylko głowa robi z niej wyrocznię.",
+   "art": {
+    "type": "stack",
+    "cols": [
+     1,
+     2,
+     2,
+     3,
+     3,
+     4
+    ],
+    "labels": [
+     "1",
+     " ",
+     " ",
+     " ",
+     " ",
+     "setki"
+    ],
+    "caption": "pierwsza akcja to jedna z wielu"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Proste zadanie na start",
+   "body": "Na pierwsze minuty jeden element, który znasz na pamięć."
+  },
+  {
+   "title": "Reset po błędzie",
+   "body": "Wydech, gest, słowo. Następna akcja zaczyna się od zera."
+  }
+ ],
+ "end": {
+  "text": "Mecz to *seria nowych początków*.",
+  "cta": "Zapisz i wybierz swoje zadanie na start"
+ }
+}

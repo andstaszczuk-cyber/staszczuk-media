@@ -1,0 +1,74 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Najprostsze rzeczy psuję, *a trudne mi wychodzą*",
+  "sub": "Pusta bramka, krótkie podanie, łatwa piłka",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "point",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Łatwe też jest zadaniem",
+   "body": "Uwaga ucieka, gdy coś wydaje się pewne. Wtedy ruch robi się niedbały.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "check",
+     "label": "to łatwe, samo wejdzie",
+     "cross": true
+    },
+    "right": {
+     "icon": "eye",
+     "label": "patrzę i kończę akcję"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jeden punkt uwagi",
+   "body": "Przy łatwej akcji wybierasz jeden szczegół: cel, stopę, rękę."
+  },
+  {
+   "title": "Doprowadź do końca",
+   "body": "Akcja kończy się, gdy piłka jest tam, gdzie miała być."
+  }
+ ],
+ "end": {
+  "text": "Łatwa piłka *też jest piłką meczową*.",
+  "cta": "Zapisz i wybierz swój punkt uwagi"
+ }
+}

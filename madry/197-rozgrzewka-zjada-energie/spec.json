@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Na rozgrzewce latam, *a w meczu nie mam prądu*",
+  "sub": "Całą energię zostawiam przed pierwszym gwizdkiem",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Rozgrzewka ma cię obudzić",
+   "body": "Masz wejść w mecz ciepły. Przed gwizdkiem nic nie musisz udowadniać.",
+   "art": {
+    "type": "scale10",
+    "caption": "POD KONIEC ROZGRZEWKI",
+    "y": 240,
+    "points": [
+     {
+      "n": 3,
+      "label": "za zimno"
+     },
+     {
+      "n": 6,
+      "label": "w sam raz",
+      "hl": true
+     },
+     {
+      "n": 10,
+      "label": "wszystko na start"
+     }
+    ],
+    "note": "silnik ciepły, bez dymu"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Rozpisz ją od tyłu",
+   "body": "Ile minut, jakie ćwiczenia, na jakim poziomie. Ta sama przed każdym meczem."
+  },
+  {
+   "title": "Zostaw coś w baku",
+   "body": "Ostatni mocny akcent kilka minut przed startem, potem spokój."
+  }
+ ],
+ "end": {
+  "text": "Silnik ma być *ciepły, bez dymu*.",
+  "cta": "Zapisz i rozpisz swoją rozgrzewkę"
+ }
+}

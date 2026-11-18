@@ -1,0 +1,80 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "W meczu wolę oddać piłkę, *niż zaryzykować*",
+  "sub": "Na treningu odważnie, w meczu bezpiecznie do bólu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Trzy światła",
+   "body": "Czerwone chroń, żółte sprawdź, zielone zrób przewagę. Ty wybierasz kolor.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "shield",
+      "label": "chroń"
+     },
+     {
+      "icon": "eye",
+      "label": "sprawdź"
+     },
+     {
+      "icon": "bolt",
+      "label": "zrób przewagę",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Bank ryzyka",
+   "body": "Zapisuj akcje, w których zaryzykowałeś i się opłaciło."
+  },
+  {
+   "title": "Ryzyko na treningu",
+   "body": "Kilka świadomie odważnych akcji na każdym treningu. Bez kary za błąd."
+  }
+ ],
+ "end": {
+  "text": "Odwaga też *się trenuje*.",
+  "cta": "Zapisz i załóż swój bank ryzyka"
+ }
+}
