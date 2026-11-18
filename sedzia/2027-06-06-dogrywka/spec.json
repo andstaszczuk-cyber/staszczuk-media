@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "zegar",
+   "text": "Dogrywka?\\n*Uwaga też się męczy*."
+  },
+  {
+   "kind": "point",
+   "title": "Zmęczeni wszyscy",
+   "body": "Po dziewięćdziesięciu minutach mylą się zawodnicy i sędziowie.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Krótki reset",
+   "body": "Woda, oddech i jedno zadanie na pierwsze minuty.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "point",
+   "title": "Proste rzeczy",
+   "body": "Ustawienie i następna akcja. Analiza poczeka.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Dogrywka to nowy mecz.\\n*Zaczynasz od zera*.",
+   "cta": "Zapisz i wróć przed meczem pucharowym"
+  }
+ ]
+}

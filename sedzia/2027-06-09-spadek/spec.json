@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "SPADEK",
+   "text": "Drużyna spada\\n*i szuka winnego*?",
+   "sub": "Sędzia bywa *najprostszym adresem* dla frustracji."
+  },
+  {
+   "kind": "point",
+   "title": "Cudza frustracja",
+   "body": "Złość po spadku to żal za cały sezon w jednym meczu.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Krótko i spokojnie",
+   "body": "Rozumiem, że jesteście rozczarowani. Decyzja zapadła.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Raport rzetelnie",
+   "body": "Opisujesz fakty, bez emocji i bez łagodzenia.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Frustracja po spadku\\n*ma swoje źródło*.",
+   "cta": "Zapisz i wróć po trudnym meczu"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "sofa",
+   "text": "Nie dostałeś\\n*meczu na koniec sezonu*?"
+  },
+  {
+   "kind": "point",
+   "title": "Rozczarowanie",
+   "body": "Masz prawo być zawiedziony. To znak, że ci zależy.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Fakty",
+   "body": "Obsady zależą od wielu rzeczy. Części z nich nie widzisz.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Twój ruch",
+   "body": "Zapytaj o informację zwrotną i zapisz, nad czym pracujesz.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Jedna lista obsad\\n*nie mierzy sezonu*.",
+   "cta": "Zapisz i wróć, gdy obsada cię rozczaruje"
+  }
+ ]
+}

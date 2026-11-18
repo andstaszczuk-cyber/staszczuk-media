@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Mecz o nic\\n*też ma swoje zasady*."
+  },
+  {
+   "kind": "point",
+   "title": "Rozluźnienie",
+   "body": "Drużyny bez celu grają na luzie. Ty też łatwo odpływasz.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Faule z nudów",
+   "body": "Ze zmęczenia i nudy przychodzą spóźnione wejścia.",
+   "icon": "kartka"
+  },
+  {
+   "kind": "point",
+   "title": "Twoje zadanie",
+   "body": "Wybierz jedną rzecz, którą w tym meczu ćwiczysz.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Bez stawki dla tabeli.\\n*Ze stawką dla ciebie*.",
+   "cta": "Zapisz i wróć przed meczem o nic"
+  }
+ ]
+}

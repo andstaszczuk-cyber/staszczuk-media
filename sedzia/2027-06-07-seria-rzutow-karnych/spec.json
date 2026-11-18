@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "penalty",
+   "text": "Rzuty karne\\n*po dogrywce*."
+  },
+  {
+   "kind": "point",
+   "title": "Procedura w małym palcu",
+   "body": "Losowanie, bramka, kolejność. Spokojnie i po kolei.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Emocje co minutę",
+   "body": "Każdy strzał to radość jednej strony i rozpacz drugiej.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden strzał naraz",
+   "body": "Bramkarz, linia, piłka. Wynik liczy się sam.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Strzał po strzale,\\n*spokojnie do końca*.",
+   "cta": "Zapisz i wróć przed meczem pucharowym"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "kids",
+   "text": "Dziecko płacze\\npo twoim *gwizdku*?"
+  },
+  {
+   "kind": "point",
+   "title": "To normalne",
+   "body": "Dla dziecka jeden gwizdek to w tej chwili cały świat. Emocja szybko minie.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "point",
+   "title": "Zejdź na wysokość oczu",
+   "body": "Krótko i spokojnie. Bez wykładu z przepisów.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja zostaje",
+   "body": "Możesz być życzliwy i nadal gwizdać to, co widzisz.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Życzliwość i konsekwencja\\n*idą w parze*.",
+   "cta": "Zapisz i wróć przed turniejem dla dzieci"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "touchline",
+   "text": "Upał grzeje\\n*także zawodników*."
+  },
+  {
+   "kind": "point",
+   "title": "Krótsza cierpliwość",
+   "body": "W upale łatwiej o irytację po obu stronach.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Twój ton",
+   "body": "Mów krócej i wolniej. Spokój działa jak cień.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Przerwa na wodę",
+   "body": "To też chwila, żeby mecz zaczął się od nowa.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "end",
+   "text": "Gorąco jest wszystkim.\\n*Ty trzymasz chłodną głowę*.",
+   "cta": "Zapisz i wróć przed meczem w upale"
+  }
+ ]
+}

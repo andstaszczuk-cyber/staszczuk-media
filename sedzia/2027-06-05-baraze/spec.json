@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "BARAŻE",
+   "text": "Dwa mecze\\n*o cały sezon*."
+  },
+  {
+   "kind": "point",
+   "title": "Stawka rośnie",
+   "body": "Jeden błąd może zabrać drużynie cały rok pracy.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsze minuty",
+   "body": "Zaplanuj, na czym skupisz uwagę na początku.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Twoje kryteria",
+   "body": "Faul jest faulem, tak samo jak w lidze.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Większa stawka,\\n*te same kryteria*.",
+   "cta": "Zapisz i wróć przed barażem"
+  }
+ ]
+}

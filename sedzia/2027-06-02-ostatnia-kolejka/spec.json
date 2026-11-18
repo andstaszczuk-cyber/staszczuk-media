@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Ostatnia kolejka?\\n*Grasz swój mecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Telefony przy ławce",
+   "body": "Wynik z innego boiska zmienia emocje w kilka sekund.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "point",
+   "title": "Nagły zwrot",
+   "body": "Spokojna drużyna w minutę zaczyna grać o wszystko.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Twój wpływ",
+   "body": "Masz to jedno boisko. Reszta toczy się bez ciebie.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Jedno boisko,\\n*jeden mecz*.",
+   "cta": "Zapisz i wróć przed ostatnią kolejką"
+  }
+ ]
+}
