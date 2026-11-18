@@ -1,0 +1,117 @@
+{
+ "cover": {
+  "kicker": "PO DOBRYM MECZU",
+  "title": "A przestań,\n*to nic takiego*",
+  "size": 92,
+  "lh": 1.25,
+  "italic": false,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 120,
+     "y": 90,
+     "s": 1.0,
+     "pose": "slump"
+    },
+    {
+     "k": "bubble",
+     "x": 470,
+     "y": 60,
+     "w": 400,
+     "h": 160,
+     "lines": [
+      "świetny mecz!"
+     ],
+     "c": "A",
+     "size": 40,
+     "tail": "left"
+    },
+    {
+     "k": "bubble",
+     "x": 470,
+     "y": 300,
+     "w": 400,
+     "h": 140,
+     "lines": [
+      "eee, nic takiego"
+     ],
+     "c": "card",
+     "tc": "mute",
+     "size": 36,
+     "tail": "none"
+    },
+    {
+     "k": "cross",
+     "x": 840,
+     "y": 300,
+     "r": 30
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Skromność umniejsza",
+   "body": "Odbijasz pochwałę jak piłkę. Głowa słyszy, że to nie było nic warte.",
+   "viz": {
+    "type": "bars",
+    "caption": "CO ZAPISUJE GŁOWA",
+    "items": [
+     {
+      "label": "a przestań",
+      "v": 0.15
+     },
+     {
+      "label": "dziękuję",
+      "v": 0.7,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Pokora widzi całość",
+   "body": "Znasz swoją siłę i znasz jej granice. Jedno i drugie mówisz spokojnie.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "cloudRain",
+     "label": "skromność",
+     "sub": "to nic takiego"
+    },
+    "right": {
+     "icon": "mountain",
+     "label": "pokora",
+     "sub": "to umiem, nad tym pracuję"
+    }
+   }
+  },
+  {
+   "title": "Dziękuję i jedno zdanie",
+   "body": "Dziękuję, dobrze mi dziś szło w obronie. Krótko i bez umniejszania.",
+   "viz": {
+    "type": "notes",
+    "title": "PO POCHWALE",
+    "lines": [
+     "dziękuję",
+     "co dziś zadziałało",
+     "nad czym pracuję"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak *przyjmujesz* dobre słowa?",
+  "cta": "Zapisz i przy najbliższej pochwale powiedz po prostu dziękuję.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

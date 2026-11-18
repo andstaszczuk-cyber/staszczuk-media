@@ -1,0 +1,123 @@
+{
+ "cover": {
+  "kicker": "TRENING UWAGI",
+  "title": "Medytacja to\n*trening meczu*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 60,
+     "s": 0.95,
+     "pose": "sit"
+    },
+    {
+     "k": "cloud",
+     "x": 560,
+     "y": 120,
+     "s": 0.8,
+     "c": "soft"
+    },
+    {
+     "k": "cloud",
+     "x": 760,
+     "y": 220,
+     "s": 0.6,
+     "c": "soft"
+    },
+    {
+     "k": "cloud",
+     "x": 600,
+     "y": 340,
+     "s": 0.5,
+     "c": "soft"
+    },
+    {
+     "k": "arrow",
+     "x1": 520,
+     "y1": 470,
+     "x2": 380,
+     "y2": 470
+    },
+    {
+     "k": "chip",
+     "x": 560,
+     "y": 440,
+     "text": "wracam"
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Myśli przyjeżdżają i odjeżdżają",
+   "body": "Jak samochody za oknem. Zauważasz, nie wsiadasz.",
+   "viz": {
+    "type": "wander",
+    "zone": "oddech",
+    "out1": "plan dnia",
+    "out2": "mecz",
+    "back": "wracam"
+   }
+  },
+  {
+   "title": "Liczy się powrót",
+   "body": "Każdy powrót do oddechu to jedno powtórzenie. Jak seria na siłowni.",
+   "viz": {
+    "type": "stack",
+    "cols": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "labels": [
+     "pn",
+     "wt",
+     "śr",
+     "cz",
+     "pt"
+    ],
+    "caption": "powroty to powtórzenia"
+   }
+  },
+  {
+   "title": "Na boisku ten sam ruch",
+   "body": "Rozproszenie, zauważenie, powrót do piłki.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "rozproszenie",
+      "icon": "cloudRain"
+     },
+     {
+      "top": "zauważam",
+      "icon": "eye"
+     },
+     {
+      "top": "piłka",
+      "icon": "ball",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Ile razy dziś *wrócisz* do oddechu?",
+  "cta": "Zapisz i zacznij od pięciu minut dziennie.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

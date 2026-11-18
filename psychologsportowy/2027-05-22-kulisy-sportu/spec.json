@@ -1,0 +1,158 @@
+{
+ "cover": {
+  "big": "1 FOTKA",
+  "bigSize": 200,
+  "bigSub": "z całego miesiąca żmudnej pracy",
+  "title": "Kulisy, których\n*nie widać*",
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 420,
+     "y": 40,
+     "s": 300,
+     "c": "soft"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 520,
+     "y": 140,
+     "s": 100,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 720,
+     "y": 60,
+     "s": 90,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 720,
+     "y": 180,
+     "s": 90,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 720,
+     "y": 300,
+     "s": 90,
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Widzisz najlepsze momenty",
+   "body": "Medal, wygrana, piękny gol. Nudy, zmęczenia i wątpliwości nikt nie wrzuca.",
+   "viz": {
+    "type": "scene",
+    "items": [
+     {
+      "k": "iceberg",
+      "y": 220
+     },
+     {
+      "k": "text",
+      "x": 465,
+      "y": 110,
+      "t": "medal, gol, podium",
+      "size": 34,
+      "w": 800,
+      "c": "A",
+      "anchor": "middle"
+     },
+     {
+      "k": "text",
+      "x": 465,
+      "y": 330,
+      "t": [
+       "nuda, zmęczenie,",
+       "wątpliwości, powtórzenia"
+      ],
+      "size": 32,
+      "w": 700,
+      "c": "fg",
+      "anchor": "middle",
+      "lh": 44
+     }
+    ]
+   }
+  },
+  {
+   "title": "Porównujesz swoje kulisy z cudzą sceną",
+   "body": "Twój zwykły wtorek przegrywa z czyimś finałem.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "dumbbell",
+     "label": "mój wtorek",
+     "sub": "zmęczony, nudny trening"
+    },
+    "right": {
+     "icon": "trophy",
+     "label": "ich finał",
+     "sub": "jedno zdjęcie z miesiąca"
+    }
+   }
+  },
+  {
+   "title": "Zrób swój film zza kulis",
+   "body": "Zapisuj zwykłe dni. Zobaczysz, z czego naprawdę składa się forma.",
+   "viz": {
+    "type": "week",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "wt",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "śr",
+      "icon": "bed"
+     },
+     {
+      "d": "cz",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "pt",
+      "icon": "clock"
+     },
+     {
+      "d": "sb",
+      "icon": "trophy",
+      "mark": "hl"
+     },
+     {
+      "d": "nd",
+      "icon": "bed"
+     }
+    ],
+    "note": "jeden dzień widać, sześć buduje"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak wyglądają *twoje kulisy*?",
+  "cta": "Zapisz i nagraj w tym tygodniu jeden zwykły trening.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

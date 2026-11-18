@@ -1,0 +1,174 @@
+{
+ "cover": {
+  "kicker": "KONIEC ROKU SZKOLNEGO",
+  "title": "Trzy zadania.\n*Reszta może poczekać*",
+  "size": 84,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 60,
+     "y": 40,
+     "w": 420,
+     "h": 500,
+     "r": 24,
+     "c": "paper",
+     "rot": -3
+    },
+    {
+     "k": "text",
+     "x": 110,
+     "y": 120,
+     "t": "DZIŚ",
+     "size": 34,
+     "w": 800,
+     "c": "ink"
+    },
+    {
+     "k": "check",
+     "x": 130,
+     "y": 200,
+     "r": 30
+    },
+    {
+     "k": "text",
+     "x": 180,
+     "y": 212,
+     "t": "trening",
+     "size": 34,
+     "w": 700,
+     "c": "ink"
+    },
+    {
+     "k": "check",
+     "x": 130,
+     "y": 290,
+     "r": 30
+    },
+    {
+     "k": "text",
+     "x": 180,
+     "y": 302,
+     "t": "sprawdzian",
+     "size": 34,
+     "w": 700,
+     "c": "ink"
+    },
+    {
+     "k": "check",
+     "x": 130,
+     "y": 380,
+     "r": 30
+    },
+    {
+     "k": "text",
+     "x": 180,
+     "y": 392,
+     "t": "sen",
+     "size": 34,
+     "w": 700,
+     "c": "ink"
+    },
+    {
+     "k": "chip",
+     "x": 560,
+     "y": 120,
+     "text": "pranie",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 600,
+     "y": 210,
+     "text": "wiadomości",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 560,
+     "y": 300,
+     "text": "zakupy",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "text",
+     "x": 680,
+     "y": 420,
+     "t": "może poczekać",
+     "size": 30,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Wszystkiego naraz się nie da",
+   "body": "Oceny, starty, treningi, wyjazdy. Głowa próbuje trzymać wszystko jednocześnie.",
+   "viz": {
+    "type": "hub",
+    "center": "koniec maja",
+    "items": [
+     "sprawdziany",
+     "zawody",
+     "treningi",
+     "wyjazd"
+    ],
+    "icon": "clock",
+    "hl": 1
+   }
+  },
+  {
+   "title": "Wieczorem wybierz trzy",
+   "body": "Trzy najważniejsze rzeczy na jutro. Reszta może się spalić.",
+   "viz": {
+    "type": "checklist",
+    "title": "JUTRO",
+    "chip": "TRZY",
+    "items": [
+     "trening",
+     "nauka 45 min",
+     "sen do 22:30"
+    ]
+   }
+  },
+  {
+   "title": "Najtrudniejsze najpierw",
+   "body": "Nielubiane zadanie robisz zaraz po treningu. Potem nagroda.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "trening",
+      "icon": "dumbbell"
+     },
+     {
+      "top": "trudne",
+      "icon": "note",
+      "hl": true
+     },
+     {
+      "top": "nagroda",
+      "icon": "star"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakie są *twoje trzy* na jutro?",
+  "cta": "Zapisz je dziś wieczorem.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

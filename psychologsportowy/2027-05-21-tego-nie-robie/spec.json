@@ -1,0 +1,164 @@
+{
+ "cover": {
+  "left": "WSZYSTKO NARAZ",
+  "right": "WYBÓR",
+  "title": "Tego nie robię,\nbo *robię to*",
+  "size": 92,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "chip",
+     "x": 30,
+     "y": 30,
+     "text": "siłownia",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 180,
+     "y": 100,
+     "text": "drugi sport",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 30,
+     "y": 170,
+     "text": "imprezy",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 190,
+     "y": 240,
+     "text": "nowy plan",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "person",
+     "x": 120,
+     "y": 300,
+     "s": 0.55,
+     "pose": "slump",
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 622,
+     "y": 60,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 250,
+     "t": [
+      "jedno ważne"
+     ],
+     "size": 36,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle"
+    },
+    {
+     "k": "person",
+     "x": 582,
+     "y": 300,
+     "s": 0.55,
+     "pose": "walk"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Strategia to też rezygnacja",
+   "body": "Każde tak dla jednego oznacza nie dla czegoś innego.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "ROBIĘ",
+      "items": [
+       "sen",
+       "trening techniki",
+       "regeneracja"
+      ],
+      "hl": true
+     },
+     {
+      "title": "NIE ROBIĘ",
+      "items": [
+       "późne wyjścia",
+       "trzeci trening"
+      ],
+      "dim": true,
+      "dash": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Z czego rezygnujesz?",
+   "body": "To pytanie mówi o tobie więcej niż lista celów.",
+   "viz": {
+    "type": "focus",
+    "center": "mój cel",
+    "around": [
+     "wyjście",
+     "serial",
+     "drugi sport",
+     "telefon"
+    ],
+    "icon": "flag"
+   }
+  },
+  {
+   "title": "Zapisz swoje nie",
+   "body": "Krótka lista rzeczy, których świadomie nie robisz w tym sezonie.",
+   "viz": {
+    "type": "notes",
+    "title": "W TYM SEZONIE NIE",
+    "lines": [
+     "nie dokładam treningów",
+     "nie gram po nocach",
+     "nie biorę wszystkiego"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Z czego *rezygnujesz*, żeby iść do celu?",
+  "cta": "Zapisz trzy swoje nie na ten sezon.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

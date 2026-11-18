@@ -1,0 +1,106 @@
+{
+ "cover": {
+  "big": "?",
+  "bigSize": 340,
+  "bigSub": "uczciwe pytanie, które warto sobie zadać",
+  "title": "Nie potrafisz\nczy *nie chcesz*?",
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 470,
+     "y": 110,
+     "s": 170,
+     "c": "soft"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 690,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Ukryty zysk",
+   "body": "Czasem trudność coś ci daje. Spokój, wymówkę, mniej ryzyka.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "shield",
+     "label": "nie potrafię",
+     "sub": "nikt nie oceni"
+    },
+    "right": {
+     "icon": "flag",
+     "label": "nie chcę",
+     "sub": "uczciwa decyzja"
+    }
+   }
+  },
+  {
+   "title": "Bilans zamiast oceny",
+   "body": "Co zyskujesz, zostając przy starym? Co tracisz?",
+   "viz": {
+    "type": "table",
+    "left": "ZOSTAJĘ PRZY STARYM",
+    "right": "ZMIENIAM",
+    "good": true,
+    "rows": [
+     [
+      "bezpiecznie",
+      "ryzyko błędu"
+     ],
+     [
+      "znane",
+      "nowa umiejętność"
+     ],
+     [
+      "bez zmian",
+      "rozwój"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Obie odpowiedzi są w porządku",
+   "body": "Jeśli nie chcesz, decydujesz świadomie. Jeśli chcesz, szukasz pierwszego kroku.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "NIE CHCĘ",
+      "items": [
+       "odpuszczam",
+       "bez wyrzutów"
+      ]
+     },
+     {
+      "title": "CHCĘ",
+      "items": [
+       "pierwszy krok",
+       "termin"
+      ],
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *naprawdę* stoi za twoim nie potrafię?",
+  "cta": "Zapisz bilans korzyści i kosztów.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

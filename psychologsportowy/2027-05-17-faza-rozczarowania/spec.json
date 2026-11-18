@@ -1,0 +1,180 @@
+{
+ "cover": {
+  "left": "NA POCZĄTKU",
+  "right": "PO TYGODNIACH",
+  "title": "Entuzjazm minął.\n*To dobry znak*",
+  "size": 86,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 160,
+     "y": 50,
+     "s": 120,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 250,
+     "t": [
+      "nowa technika!"
+     ],
+     "size": 36,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1
+    },
+    {
+     "k": "person",
+     "x": 120,
+     "y": 300,
+     "s": 0.55,
+     "pose": "win",
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 622,
+     "y": 50,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 250,
+     "t": [
+      "dalej nie wychodzi"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle"
+    },
+    {
+     "k": "person",
+     "x": 582,
+     "y": 300,
+     "s": 0.55,
+     "pose": "think"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Trzy fazy nauki",
+   "body": "Entuzjazm, rozczarowanie, samodzielność. Środkowa faza jest najdłuższa.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.75
+       ],
+       [
+        0.25,
+        0.85
+       ],
+       [
+        0.5,
+        0.3
+       ],
+       [
+        0.75,
+        0.45
+       ],
+       [
+        1,
+        0.8
+       ]
+      ],
+      "hl": true,
+      "label": "samodzielność"
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.25,
+      "y": 0.85,
+      "label": "entuzjazm"
+     },
+     {
+      "x": 0.5,
+      "y": 0.3,
+      "label": "rozczarowanie",
+      "hl": true,
+      "dy": 60
+     }
+    ],
+    "x": "tygodnie",
+    "y": "nastrój"
+   }
+  },
+  {
+   "title": "Tu odpada najwięcej osób",
+   "body": "Pierwsze tygodnie niesie nowość. Potem zostaje praca, której efektów jeszcze nie widać.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "to nie dla mnie",
+    "to": "jestem w środkowej fazie"
+   }
+  },
+  {
+   "title": "Mierz małe kroki",
+   "body": "Nagraj się teraz i za miesiąc. Porównuj z sobą sprzed tygodni.",
+   "viz": {
+    "type": "stack",
+    "cols": [
+     1,
+     2,
+     2,
+     3,
+     4
+    ],
+    "labels": [
+     "tydz. 1",
+     "tydz. 2",
+     "tydz. 3",
+     "tydz. 4",
+     "tydz. 5"
+    ],
+    "caption": "postęp widać z dystansu"
+   }
+  }
+ ],
+ "end": {
+  "question": "W której *fazie* jesteś teraz?",
+  "cta": "Zapisz i nagraj się dziś, żeby za miesiąc porównać.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

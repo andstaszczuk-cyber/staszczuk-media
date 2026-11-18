@@ -1,0 +1,130 @@
+{
+ "cover": {
+  "kicker": "MYŚLI AUTOMATYCZNE",
+  "title": "Maszyna robi popcorn.\n*Nie musisz go jeść*",
+  "size": 78,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "rect",
+     "x": 140,
+     "y": 250,
+     "w": 260,
+     "h": 300,
+     "r": 26,
+     "c": "fig2"
+    },
+    {
+     "k": "rect",
+     "x": 170,
+     "y": 280,
+     "w": 200,
+     "h": 160,
+     "r": 18,
+     "c": "card"
+    },
+    {
+     "k": "cloud",
+     "x": 270,
+     "y": 350,
+     "s": 0.7,
+     "c": "paper"
+    },
+    {
+     "k": "chip",
+     "x": 20,
+     "y": 10,
+     "text": "nie dam rady",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 230,
+     "y": 90,
+     "text": "znowu to samo",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 40,
+     "y": 170,
+     "text": "wszyscy patrzą",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "person",
+     "x": 520,
+     "y": 60,
+     "s": 0.95,
+     "pose": "hips"
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Myśli przychodzą same",
+   "body": "Głowa produkuje je automatycznie. Tego nie wyłączysz.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "brain",
+      "label": "produkuje"
+     },
+     {
+      "icon": "eye",
+      "label": "zauważasz"
+     },
+     {
+      "icon": "hand",
+      "label": "nie bierzesz",
+      "hl": true
+     }
+    ],
+    "join": "→"
+   }
+  },
+  {
+   "title": "Ty decydujesz, które zostaną",
+   "body": "Myśl możesz zauważyć i zostawić w misce.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "nie dam rady",
+    "to": "mam myśl, że nie dam rady"
+   }
+  },
+  {
+   "title": "Wracasz do zadania",
+   "body": "Zamiast dyskutować z myślą, wybierasz jedną rzecz do zrobienia teraz.",
+   "viz": {
+    "type": "focus",
+    "center": "następna akcja",
+    "around": [
+     "nie dam rady",
+     "znowu",
+     "patrzą",
+     "co jeśli"
+    ],
+    "icon": "play"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaki popcorn *produkuje* twoja głowa przed startem?",
+  "cta": "Zapisz trzy takie myśli i przy każdej dopisz mam myśl, że.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
