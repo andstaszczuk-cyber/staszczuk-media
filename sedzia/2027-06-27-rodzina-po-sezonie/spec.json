@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PO SEZONIE",
+   "text": "Twoi bliscy\\n*też mieli sezon*.",
+   "sub": "Weekendy bez ciebie, *obiady bez ciebie*. Czas to zauważyć."
+  },
+  {
+   "kind": "point",
+   "title": "Ich koszt",
+   "body": "Wyjazdy, nerwy po meczach, zmienione plany.",
+   "icon": "dom"
+  },
+  {
+   "kind": "point",
+   "title": "Powiedz to",
+   "body": "Nazwij, za co dokładnie dziękujesz.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Wspólny czas",
+   "body": "Zaplanuj coś razem, zanim wróci nowy sezon.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Sezon sędziego\\n*to sezon całej rodziny*.",
+   "cta": "Zapisz i wróć po ostatnim meczu"
+  }
+ ]
+}

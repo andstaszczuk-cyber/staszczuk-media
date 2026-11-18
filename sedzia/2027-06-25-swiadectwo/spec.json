@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "desk",
+   "text": "Szkoła i gwizdek.\\n*Dwie role naraz*."
+  },
+  {
+   "kind": "point",
+   "title": "Rok w dwóch rolach",
+   "body": "Lekcje w tygodniu, mecze w weekend. To dużo.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Doceń to",
+   "body": "Pogodzenie nauki i sędziowania wymaga organizacji.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Wakacje",
+   "body": "Odpocznij od obu ról, zanim zaczniesz nowe plany.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "end",
+   "text": "Dwie role\\n*i jeden ty*.",
+   "cta": "Zapisz i wróć na koniec roku szkolnego"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "40+",
+   "text": "lat na boisku.\\n*Każdy zna przepisy*."
+  },
+  {
+   "kind": "point",
+   "title": "Doświadczeni gracze",
+   "body": "Grali latami i mają swoje zdanie o każdej sytuacji.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja rola",
+   "body": "Rozmawiasz z szacunkiem i prowadzisz mecz według przepisów.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Zdrowie najpierw",
+   "body": "Starsze ciała szybciej się męczą. Bezpieczeństwo ponad ambicję.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "Szacunek dla doświadczenia,\\n*przepisy dla wszystkich*.",
+   "cta": "Zapisz i wróć przed turniejem oldbojów"
+  }
+ ]
+}

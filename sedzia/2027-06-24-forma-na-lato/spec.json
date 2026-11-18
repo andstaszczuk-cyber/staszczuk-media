@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "bateria",
+   "text": "Lato bez meczów.\\n*Ruch dla przyjemności*."
+  },
+  {
+   "kind": "point",
+   "title": "Odpoczynek najpierw",
+   "body": "Pierwsze tygodnie po sezonie to czas na regenerację.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Ruch, który lubisz",
+   "body": "Rower, pływanie, góry. Bez planu i bez zegarka.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Bez nadrabiania",
+   "body": "Ciężki trening w lipcu łatwo kończy się przeciążeniem.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Wypoczęty sędzia\\n*wraca mocniejszy*.",
+   "cta": "Zapisz i wróć na początku lata"
+  }
+ ]
+}

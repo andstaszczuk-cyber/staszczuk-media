@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Latem uczysz się\\n*bez presji*."
+  },
+  {
+   "kind": "point",
+   "title": "Spokojna głowa",
+   "body": "Nowych umiejętności łatwiej uczyć się, kiedy nic się nie pali.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna technika",
+   "body": "Oddech, mowa wewnętrzna albo wyobrażenia. Wybierz jedną.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "point",
+   "title": "Kilka minut dziennie",
+   "body": "Krótko i regularnie, zanim przyjdzie sierpień.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Mentalu uczysz się,\\n*kiedy jest spokojnie*.",
+   "cta": "Zapisz i wróć w lipcu"
+  }
+ ]
+}

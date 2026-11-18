@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "growth",
+   "text": "Napisz list\\n*do siebie na sierpień*."
+  },
+  {
+   "kind": "point",
+   "title": "Teraz pamiętasz",
+   "body": "Dziś wiesz, co działało w sezonie. W sierpniu zapomnisz.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Co wpisać",
+   "body": "Co zadziałało, czego się nauczyłeś, na co uważać.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Odłóż do torby",
+   "body": "Przeczytasz przed pierwszym meczem nowego sezonu.",
+   "icon": "szafa"
+  },
+  {
+   "kind": "end",
+   "text": "Wiedza z tego sezonu\\n*na start kolejnego*.",
+   "cta": "Zapisz i wróć przed nowym sezonem"
+  }
+ ]
+}

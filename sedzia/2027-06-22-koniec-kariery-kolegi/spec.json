@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "handshake",
+   "text": "Kolega kończy\\n*sędziowanie*."
+  },
+  {
+   "kind": "point",
+   "title": "Pożegnanie",
+   "body": "Powiedz mu, czego się od niego nauczyłeś.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Twoje myśli",
+   "body": "Odejście kogoś bliskiego budzi pytania o siebie. To normalne.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Co zostaje",
+   "body": "Zapisz, co z jego stylu chcesz zabrać dalej.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Zostaje to,\\n*czego się nauczyłeś*.",
+   "cta": "Zapisz i wróć, gdy ktoś z zespołu odchodzi"
+  }
+ ]
+}

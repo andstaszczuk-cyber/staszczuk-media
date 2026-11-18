@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "KONIEC SEZONU",
+   "text": "Nagroda za sezon?\\n*Daj ją sobie sam*."
+  },
+  {
+   "kind": "point",
+   "title": "Zauważ, co zrobiłeś",
+   "body": "Kilkadziesiąt meczów, setki decyzji, kilometry w nogach.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Celebruj",
+   "body": "Docenianie nie zabiera motywacji. Daje paliwo.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Konkretnie",
+   "body": "Wybierz nagrodę, którą naprawdę lubisz, i zrób to.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "end",
+   "text": "Wysiłek też\\n*zasługuje na nagrodę*.",
+   "cta": "Zapisz i wróć na koniec sezonu"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Czy sędziować dalej?\\n*Nie decyduj w czerwcu*."
+  },
+  {
+   "kind": "point",
+   "title": "Zmęczenie mówi głośno",
+   "body": "Po sezonie wątpliwości są największe. To normalne.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Daj sobie czas",
+   "body": "Wróć do pytania za kilka tygodni, wypoczęty.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Korzyści i koszty",
+   "body": "Zapisz, co ci daje sędziowanie, a ile kosztuje.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Decyzja na chłodno\\n*to lepsza decyzja*.",
+   "cta": "Zapisz i wróć, gdy przyjdą wątpliwości"
+  }
+ ]
+}

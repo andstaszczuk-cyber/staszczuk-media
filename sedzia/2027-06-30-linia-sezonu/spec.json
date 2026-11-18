@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Narysuj linię sezonu.\\n*Zobacz, przez co przeszedłeś*."
+  },
+  {
+   "kind": "point",
+   "title": "Od sierpnia do czerwca",
+   "body": "Zaznacz najważniejsze mecze i momenty.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Trudne chwile",
+   "body": "Przy każdej zapisz, co pomogło ci przez nią przejść.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Wniosek",
+   "body": "Co ta linia mówi o tobie jako sędzim?",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Przeszedłeś\\n*cały sezon*.",
+   "cta": "Zapisz i wróć, gdy zwątpisz w siebie"
+  }
+ ]
+}
