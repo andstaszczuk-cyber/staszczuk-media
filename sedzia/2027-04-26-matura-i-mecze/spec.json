@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "desk",
+   "text": "Matura za tydzień,\\n*mecz w weekend*?"
+  },
+  {
+   "kind": "point",
+   "title": "Dwa ważne obszary",
+   "body": "Szkoła i sędziowanie walczą o ten sam czas i tę samą energię.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Plan na maj",
+   "body": "Ustal wcześniej, ile obsad bierzesz w czasie egzaminów.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa z obsadą",
+   "body": "Powiedz wcześniej, kiedy jesteś mniej dostępny.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "end",
+   "text": "Matura raz.\\n*Mecze jeszcze długo*.",
+   "cta": "Zapisz i wyślij koledze przed maturą"
+  }
+ ]
+}

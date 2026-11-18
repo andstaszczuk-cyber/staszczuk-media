@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "young",
+   "text": "Młodsi sędziowie\\n*patrzą na ciebie*."
+  },
+  {
+   "kind": "point",
+   "title": "Uczą się z obserwacji",
+   "body": "Twoje zachowanie w szatni i na boisku to dla nich lekcja.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Dzielisz się wprost",
+   "body": "Krótka rada po meczu potrafi zostać z kimś na lata.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Sam też się uczysz",
+   "body": "Tłumacząc innym, porządkujesz własne sędziowanie.",
+   "icon": "ksiazka"
+  },
+  {
+   "kind": "end",
+   "text": "Ktoś uczy się\\n*na twoim przykładzie*.",
+   "cta": "Zapisz i wróć przed meczem z młodszym kolegą"
+  }
+ ]
+}

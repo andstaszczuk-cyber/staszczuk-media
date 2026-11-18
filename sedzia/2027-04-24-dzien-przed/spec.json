@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "24",
+   "text": "godziny przed meczem.\\n*Spokojny plan*."
+  },
+  {
+   "kind": "point",
+   "title": "Przygotowany strój",
+   "body": "Torba spakowana wieczorem. Rano nie szukasz gwizdka.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Zwykły dzień",
+   "body": "Bez wielkich zmian w jedzeniu, śnie i aktywności.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Krótka chwila dla głowy",
+   "body": "Kilka minut wyobrażenia pierwszych akcji. Potem odpoczynek.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Dzień przed meczem\\n*też jest przygotowaniem*.",
+   "cta": "Zapisz i wróć w przeddzień meczu"
+  }
+ ]
+}

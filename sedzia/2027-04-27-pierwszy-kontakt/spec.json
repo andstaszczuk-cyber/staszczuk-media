@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Mecz zaczyna się\\n*przed pierwszym gwizdkiem*."
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsze słowa",
+   "body": "Powitanie z kierownikami i trenerami ustawia ton całego dnia.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojna kontrola",
+   "body": "Karty, sprzęt, boisko. Rzeczowo, bez pośpiechu i bez nerwów.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa z kapitanami",
+   "body": "Kilka jasnych zdań przed meczem buduje współpracę.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Pierwsze wrażenie\\n*też sędziujesz*.",
+   "cta": "Zapisz i wróć przed wyjazdem na mecz"
+  }
+ ]
+}

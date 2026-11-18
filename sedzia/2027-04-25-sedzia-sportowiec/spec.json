@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "TOŻSAMOŚĆ",
+   "sub": "Trenujesz, regenerujesz się, *startujesz co weekend*.",
+   "text": "Sędzia to też\\n*sportowiec*."
+  },
+  {
+   "kind": "point",
+   "title": "Ciało to narzędzie",
+   "body": "Biegasz kilometry w meczu. Przygotowanie fizyczne to podstawa.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Regeneracja to część pracy",
+   "body": "Sen i odpoczynek po meczu robią formę na kolejny.",
+   "icon": "ksiezyc"
+  },
+  {
+   "kind": "point",
+   "title": "Głowa trenuje się jak mięsień",
+   "body": "Koncentrację i spokój ćwiczysz regularnie.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Myśl o sobie\\n*jak o sportowcu*.",
+   "cta": "Zapisz i wróć, planując tydzień"
+  }
+ ]
+}

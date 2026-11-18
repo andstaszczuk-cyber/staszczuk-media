@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "walk",
+   "text": "Połowa wiosny\\n*za tobą*."
+  },
+  {
+   "kind": "point",
+   "title": "Spójrz na drogę",
+   "body": "Porównaj siebie z marca z tym, kim jesteś dziś na boisku.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Zadanie z kwietnia",
+   "body": "Sprawdź, czy jedna rzecz z przeglądu marca weszła ci w krew.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Plan na końcówkę",
+   "body": "Maj i czerwiec to najtrudniejsze mecze. Dosyp energii.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "end",
+   "text": "Połowa za tobą.\\n*Druga połowa przed*.",
+   "cta": "Zapisz i zrób przegląd kwietnia"
+  }
+ ]
+}

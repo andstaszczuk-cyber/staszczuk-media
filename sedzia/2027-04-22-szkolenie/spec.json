@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "ksiazka",
+   "text": "Po szkoleniu\\nzabierz *jedną rzecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Dużo informacji",
+   "body": "Kilka godzin wykładów, nagrań i przepisów. Głowa nie zmieści wszystkiego.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Wybierz jedno",
+   "body": "Jedna rzecz, którą wdrożysz w najbliższych meczach.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdź w meczu",
+   "body": "Po meczu zobacz, czy zadziałało. Potem następna rzecz.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Wiedza działa,\\n*kiedy ją wdrażasz*.",
+   "cta": "Zapisz i wróć po najbliższym szkoleniu"
+  }
+ ]
+}

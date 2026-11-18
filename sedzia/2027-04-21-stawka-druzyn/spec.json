@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "STAWKA",
+   "text": "Oni grają o wszystko.\\n*Ty sędziujesz mecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Emocje rosną",
+   "body": "Utrzymanie, awans, ostatnie kolejki. Każdy kontakt waży więcej.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja miara bez zmian",
+   "body": "Przepisy są te same w październiku i w maju.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Więcej uwagi na ludzi",
+   "body": "Czytasz napięcie wcześniej i reagujesz spokojnie.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Ich stawka,\\n*twoja stała miara*.",
+   "cta": "Zapisz i wróć przed meczem o punkty na wagę sezonu"
+  }
+ ]
+}

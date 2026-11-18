@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "DŁUGI WEEKEND",
+   "text": "Majówka z gwizdkiem\\n*albo bez*."
+  },
+  {
+   "kind": "point",
+   "title": "Turnieje i mecze",
+   "body": "Długi weekend to często dużo obsad. Policz siły na kilka dni.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Odpoczynek też jest planem",
+   "body": "Wolne dni wybrane świadomie ładują baterie na maj.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Bliscy też czekają",
+   "body": "Uprzedź ich wcześniej, ile czasu zajmie ci sędziowanie.",
+   "icon": "dom"
+  },
+  {
+   "kind": "end",
+   "text": "Wybierasz świadomie.\\n*Wtedy majówka służy*.",
+   "cta": "Zapisz i wróć przed długim weekendem"
+  }
+ ]
+}

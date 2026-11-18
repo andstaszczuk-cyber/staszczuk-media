@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Dziękuję, panie sędzio.\\n*Zatrzymaj to na chwilę*."
+  },
+  {
+   "kind": "point",
+   "title": "Rzadkie, więc cenne",
+   "body": "Pochwał od zawodników jest mało. Tym bardziej warto je zauważyć.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Zapisz to",
+   "body": "Dobre słowo po meczu to dowód, do którego możesz wracać.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Przyjmij bez umniejszania",
+   "body": "Wystarczy powiedzieć dziękuję. Bez ale.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "end",
+   "text": "Dobre słowa\\n*też są informacją*.",
+   "cta": "Zapisz i wróć po meczu, w którym ktoś podziękował"
+  }
+ ]
+}
