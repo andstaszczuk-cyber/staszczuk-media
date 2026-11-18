@@ -1,0 +1,89 @@
+{
+ "cover": {
+  "layout": "big",
+  "big": "OBÓZ",
+  "bigSize": 250,
+  "bigSub": "nowa grupa, wyższy poziom",
+  "title": "Już się\n*pokazałeś*",
+  "size": 92,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 450,
+     "y": 110,
+     "s": 220,
+     "c": "soft"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 720,
+     "y": 60,
+     "s": 130,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 730,
+     "y": 230,
+     "s": 110,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Stary schemat wraca",
+   "body": "Nowe miejsce i znowu potrzeba, żeby zasłużyć i udowodnić.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "muszę się pokazać",
+    "to": "już się pokazałem"
+   }
+  },
+  {
+   "title": "Ktoś cię wybrał",
+   "body": "Na podstawie twojej pracy w sezonie. To już się wydarzyło.",
+   "viz": {
+    "type": "checklist",
+    "title": "DOWODY",
+    "items": [
+     "powołanie",
+     "sezon za mną",
+     "praca na treningach"
+    ],
+    "chip": "MAM",
+    "chipX": 420
+   }
+  },
+  {
+   "title": "Kontynuujesz swoją jakość",
+   "body": "Robisz to, co umiesz najlepiej. Bez dokładania na pokaz.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "przyjazd",
+     "pierwszy trening",
+     "swój rytm",
+     "swoje miejsce"
+    ],
+    "done": 2,
+    "top": true
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *już* pokazałeś, że tu jesteś?",
+  "cta": "Zapisz trzy dowody przed pierwszym treningiem.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

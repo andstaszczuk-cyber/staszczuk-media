@@ -1,0 +1,106 @@
+{
+ "cover": {
+  "layout": "top",
+  "kicker": "LETNIE ZGRUPOWANIA",
+  "title": "Otoczenie działa\n*mocniej od książek*",
+  "size": 80,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 40,
+     "y": 220,
+     "s": 0.75,
+     "pose": "stand",
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "x": 320,
+     "y": 200,
+     "s": 0.8,
+     "pose": "walk"
+    },
+    {
+     "k": "person",
+     "x": 600,
+     "y": 220,
+     "s": 0.75,
+     "pose": "run",
+     "c": "fig2"
+    },
+    {
+     "k": "chip",
+     "x": 390,
+     "y": 90,
+     "text": "ty",
+     "size": 34
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Kto cię ciągnie w górę",
+   "body": "Ludzie z podobnymi celami, którzy są krok przed tobą.",
+   "viz": {
+    "type": "hub",
+    "center": "ty",
+    "icon": "people",
+    "items": [
+     "trener",
+     "partner",
+     "starszy kolega",
+     "rodzina",
+     "przyjaciel"
+    ],
+    "hl": 2
+   }
+  },
+  {
+   "title": "Porównanie czy inspiracja",
+   "body": "Ktoś lepszy w jednym elemencie to podpowiedź, co ćwiczyć.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "cloudRain",
+     "label": "porównanie",
+     "sub": "jestem gorszy"
+    },
+    "right": {
+     "icon": "eye",
+     "label": "inspiracja",
+     "sub": "podpatrzę to"
+    }
+   }
+  },
+  {
+   "title": "Wybierasz, z kim trenujesz",
+   "body": "Latem masz na to więcej wpływu, niż ci się wydaje.",
+   "viz": {
+    "type": "checklist",
+    "title": "LATO",
+    "items": [
+     "trening z lepszymi",
+     "pytam starszych",
+     "jeden mentor"
+    ],
+    "chip": "WYBIERAM",
+    "chipX": 380
+   }
+  }
+ ],
+ "end": {
+  "question": "Kto *ciągnie cię* w górę?",
+  "cta": "Zapisz jedną osobę, z którą chcesz trenować tego lata.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

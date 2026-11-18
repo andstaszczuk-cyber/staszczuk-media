@@ -1,0 +1,157 @@
+{
+ "cover": {
+  "layout": "split",
+  "left": "ELIMINACJE",
+  "right": "NAUKA",
+  "title": "Trening to nie\n*eliminacje*",
+  "size": 90,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 168,
+     "y": 40,
+     "s": 100,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 210,
+     "t": [
+      "każdy trening",
+      "na wynik"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 632,
+     "y": 40,
+     "s": 100,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 210,
+     "t": [
+      "uczę się",
+      "nowego"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 110,
+     "y": 320,
+     "s": 0.5,
+     "pose": "run",
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "x": 572,
+     "y": 320,
+     "s": 0.5,
+     "pose": "think"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Obóz jak turniej",
+   "body": "Kto szybszy, kto silniejszy, kto wygrał gierkę. Codziennie od nowa.",
+   "viz": {
+    "type": "bars",
+    "caption": "NA OBOZIE MYŚLĘ O",
+    "items": [
+     {
+      "label": "rywalizacja",
+      "v": 0.9
+     },
+     {
+      "label": "nauka",
+      "v": 0.3,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Jedno zadanie na obóz",
+   "body": "Wybierasz jedną umiejętność, którą chcesz przywieźć do domu.",
+   "viz": {
+    "type": "focus",
+    "center": "jedna umiejętność",
+    "around": [
+     "wygrać sprint",
+     "być pierwszy",
+     "pokazać się",
+     "zmęczyć innych"
+    ]
+   }
+  },
+  {
+   "title": "Trening do treningu",
+   "body": "Porównujesz siebie z poniedziałku z sobą z piątku.",
+   "viz": {
+    "type": "stack",
+    "cols": [
+     2,
+     3,
+     3,
+     4,
+     5
+    ],
+    "labels": [
+     "pn",
+     "wt",
+     "śr",
+     "cz",
+     "pt"
+    ],
+    "caption": "MOJA UMIEJĘTNOŚĆ"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *przywieziesz* z obozu?",
+  "cta": "Zapisz jedną umiejętność, nad którą będziesz pracować.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

@@ -1,0 +1,97 @@
+{
+ "cover": {
+  "layout": "big",
+  "big": "PLECAK",
+  "bigSize": 220,
+  "bigSub": "pełen cudzych oczekiwań",
+  "title": "Co niesiesz\n*na start?*",
+  "size": 90,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "backpack",
+     "x": 470,
+     "y": 60,
+     "w": 200,
+     "h": 280
+    },
+    {
+     "k": "chip",
+     "x": 700,
+     "y": 90,
+     "text": "trener",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 720,
+     "y": 180,
+     "text": "klub",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 700,
+     "y": 270,
+     "text": "rodzina",
+     "c": "soft",
+     "tc": "fg"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Kamienie od innych",
+   "body": "Oczekiwania bliskich, trenera, klubu. Każdy dokłada coś od siebie.",
+   "viz": {
+    "type": "notes",
+    "title": "W PLECAKU",
+    "lines": [
+     "musisz wygrać",
+     "tyle w ciebie włożyliśmy",
+     "liczymy na medal"
+    ]
+   }
+  },
+  {
+   "title": "Część dokładasz sam",
+   "body": "Nikt tego nie powiedział wprost. Sam wziąłeś to na siebie.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "wszyscy na mnie liczą",
+    "to": "kto to powiedział?"
+   }
+  },
+  {
+   "title": "Włóż scyzoryk",
+   "body": "W miejsce kamieni zabierasz umiejętności. One przydadzą się na starcie.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "mountain",
+     "label": "kamienie",
+     "sub": "cudze oczekiwania",
+     "cross": true
+    },
+    "right": {
+     "icon": "shield",
+     "label": "scyzoryk",
+     "sub": "moje umiejętności"
+    }
+   }
+  }
+ ],
+ "end": {
+  "question": "Który kamień *wyjmiesz* jako pierwszy?",
+  "cta": "Zapisz go i porozmawiaj o nim z kimś bliskim.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

@@ -1,0 +1,104 @@
+{
+ "cover": {
+  "layout": "top",
+  "kicker": "LETNIE TURNIEJE",
+  "title": "Wygrywam,\n*bo jestem lepszy*",
+  "size": 92,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 180,
+     "s": 0.85,
+     "pose": "win"
+    },
+    {
+     "k": "person",
+     "x": 520,
+     "y": 180,
+     "s": 0.85,
+     "pose": "stand",
+     "flip": true,
+     "c": "fig2"
+    },
+    {
+     "k": "chip",
+     "x": 330,
+     "y": 40,
+     "text": "fair play",
+     "size": 34
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Odpuszczanie z empatii",
+   "body": "Grasz z kolegą i hamujesz, żeby nie było mu przykro.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "nie chcę mu zrobić przykrości",
+    "to": "gram na sto procent"
+   }
+  },
+  {
+   "title": "Pełna gra to szacunek",
+   "body": "Rywal zasługuje na twoją najlepszą grę. Także ten, którego lubisz.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "heart",
+     "label": "odpuszczam",
+     "sub": "z litości"
+    },
+    "right": {
+     "icon": "people",
+     "label": "gram w pełni",
+     "sub": "z szacunku"
+    }
+   }
+  },
+  {
+   "title": "Po meczu przyjaźń wraca",
+   "body": "Na boisku rywale, po końcowym gwizdku znowu znajomi.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "przed",
+      "icon": "people"
+     },
+     {
+      "top": "mecz",
+      "icon": "ball",
+      "hl": true,
+      "bottom": [
+       "rywale"
+      ]
+     },
+     {
+      "top": "po",
+      "icon": "heart",
+      "bottom": [
+       "znowu razem"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Z kim *odpuszczasz*, bo go lubisz?",
+  "cta": "Zapisz, jak zagrasz w najbliższym takim meczu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

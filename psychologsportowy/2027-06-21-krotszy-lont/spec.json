@@ -1,0 +1,101 @@
+{
+ "cover": {
+  "layout": "hero",
+  "kicker": "CZERWCOWE WIECZORY",
+  "title": "Niewyspany ma\n*krótszy lont*",
+  "size": 92,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "bed",
+     "x": 40,
+     "y": 300,
+     "w": 520
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 640,
+     "y": 40,
+     "s": 160,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 680,
+     "y": 280,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 200,
+     "y": 100,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Długie wieczory",
+   "body": "Jasno do dziesiątej, znajomi, telefon. Zasypiasz coraz później.",
+   "viz": {
+    "type": "bars",
+    "caption": "GODZINA ZAŚNIĘCIA",
+    "items": [
+     {
+      "label": "maj",
+      "v": 0.4,
+      "note": "22:30"
+     },
+     {
+      "label": "czerwiec",
+      "v": 0.8,
+      "note": "00:30",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Głodny na zakupach",
+   "body": "Zmęczony gorzej reguluje emocje. Do koszyka trafia to, czego nie chciałeś.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "battery",
+     "label": "niewyspany",
+     "sub": "wybucham"
+    },
+    "right": {
+     "icon": "moon",
+     "label": "wyspany",
+     "sub": "mam dystans"
+    }
+   }
+  },
+  {
+   "title": "Najpierw bateria",
+   "body": "Zanim zaczniesz wymagać od siebie spokoju, sprawdź, ile spałeś.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "ciągle się irytuję",
+    "via": "sprawdzam sen",
+    "to": "więcej dystansu"
+   }
+  }
+ ],
+ "end": {
+  "question": "Ile *naprawdę* spałeś w tym tygodniu?",
+  "cta": "Zapisuj godzinę zaśnięcia przez siedem dni.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
