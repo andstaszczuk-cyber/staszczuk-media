@@ -1,0 +1,35 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "siblings",
+   "text": "Nie lubi kolegi z drużyny.\n*Grać razem i tak mogą*."
+  },
+  {
+   "kind": "point",
+   "title": "Lubić *nie trzeba*",
+   "body": "W drużynie nie musicie się przyjaźnić. Wystarczy szacunek i wspólny cel.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *posłuchaj*",
+   "body": "Niechęć to jedno. Docinki czy wykluczanie to sprawa dla trenera.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Zachowanie *ważniejsze od sympatii*",
+   "body": "Podanie do kogoś, za kim się nie przepada, też jest dojrzałością.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Drużyna uczy, że *można współpracować bez przyjaźni*.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko nie dogaduje się z kimś w drużynie.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Lubi treningi,\n*a meczów nie*:",
+   "items": [
+    "mniejsza waga meczu",
+    "jedno zadanie na grę",
+    "spokój na trybunach",
+    "czas na oswojenie"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Mecz *to ocena*",
+   "body": "Na treningu wolno się mylić. W meczu dziecko czuje, że wszyscy patrzą i liczą.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Jedno *zadanie*",
+   "body": "Wracam do obrony albo po błędzie gram dalej. Taki cel zależy od dziecka.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "point",
+   "title": "Oswajanie *przez granie*",
+   "body": "Im więcej meczów bez presji, tym mniejsze robią wrażenie.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "end",
+   "text": "Mecz może być *kolejnym treningiem*, tylko z publicznością.",
+   "cta": "Zapisz i wyślij rodzicowi dziecka, które woli treningi od meczów.",
+   "icon": "heart"
+  }
+ ]
+}

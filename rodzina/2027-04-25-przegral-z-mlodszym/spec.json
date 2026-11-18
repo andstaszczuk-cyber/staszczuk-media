@@ -1,0 +1,34 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Przegrał z młodszym?\n*Wstydu w tym nie ma*."
+  },
+  {
+   "kind": "point",
+   "title": "Wiek *nie gra*",
+   "body": "Młodszy może trenować dłużej, częściej albo po prostu mieć dobry dzień.",
+   "icon": "dice"
+  },
+  {
+   "kind": "point",
+   "title": "Ego *boli najbardziej*",
+   "body": "Dziecko czuje, że powinno wygrać. To uczucie warto nazwać i przyjąć.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Szacunek *dla rywala*",
+   "body": "Doceńcie razem, co młodszy zrobił dobrze. Od niego też można się uczyć.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Z każdym rywalem gra się *tak samo uważnie*.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko przegrało z młodszym.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "To tylko sparing, nie musisz jechać.",
+   "new": "Każdy mecz to *okazja, żeby coś przećwiczyć*.",
+   "text": "Ranga meczu nie zmienia zaangażowania."
+  },
+  {
+   "kind": "point",
+   "title": "Mniej presji, *więcej prób*",
+   "body": "W sparingu można spróbować nowego zagrania bez strachu o wynik.",
+   "icon": "dice"
+  },
+  {
+   "kind": "point",
+   "title": "Drużyna *liczy na każdego*",
+   "body": "Także wtedy, gdy mecz nie jest ligowy.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Cel *na sparing*",
+   "body": "Jedno zadanie do przećwiczenia sprawia, że mecz ma sens.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "end",
+   "text": "Sparing to *najlepsze miejsce*, żeby spróbować czegoś nowego.",
+   "cta": "Zapisz i wyślij rodzicowi przed weekendowym sparingiem.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Jutro znowu mecz?",
+    "*Tak, a dziś wieczorem odpoczywamy.*"
+   ],
+   "text": "Dwa mecze w weekend?\n*Między nimi jest odpoczynek*."
+  },
+  {
+   "kind": "point",
+   "title": "Wieczór *to przygotowanie*",
+   "body": "Spokojna kolacja, prysznic, wcześniejszy sen. To też część meczu.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *analizy do północy*",
+   "body": "Kilka zdań o pierwszym meczu i stawiamy kropkę.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Drugi mecz *od zera*",
+   "body": "Wygrana czy przegrana w sobotę nie przesądza o niedzieli.",
+   "icon": "loop"
+  },
+  {
+   "kind": "end",
+   "text": "Każdy mecz *zaczyna się od zera*.",
+   "cta": "Zapisz i wyślij rodzicowi przed intensywnym weekendem.",
+   "icon": "heart"
+  }
+ ]
+}

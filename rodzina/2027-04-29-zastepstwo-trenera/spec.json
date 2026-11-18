@@ -1,0 +1,41 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Gdy na treningu\n*jest inny trener*:",
+   "items": [
+    "zmiana wybija z rytmu",
+    "nowe oczy, nowa szansa",
+    "bez porównań w domu",
+    "daj temu kilka tygodni"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Zmiana *wybija z rytmu*",
+   "body": "Dzieci lubią to, co znają. Nowy trener to dla nich spore wyzwanie.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Nowe oczy, *nowa szansa*",
+   "body": "Inny trener może zauważyć coś, czego dotąd nikt nie widział.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *porównań* w domu",
+   "body": "Zdania o tym, że poprzedni był lepszy, utrudniają dziecku współpracę.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Umiejętność współpracy z różnymi trenerami *przyda się na lata*.",
+   "cta": "Zapisz i wyślij rodzicowi, w którego klubie zmienił się trener.",
+   "icon": "heart"
+  }
+ ]
+}
