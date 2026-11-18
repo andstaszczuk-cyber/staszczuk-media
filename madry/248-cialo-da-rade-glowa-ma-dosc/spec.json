@@ -1,0 +1,78 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Ciało by jeszcze dało radę, *a głowa ma dość*",
+  "sub": "Na treningu odliczam minuty do końca",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Głowa też się męczy",
+   "body": "Decyzje, emocje, presja. To również zużywa energię.",
+   "art": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "ciało",
+      "v": 0.6,
+      "note": "jeszcze pociągnie"
+     },
+     {
+      "label": "głowa",
+      "v": 0.15,
+      "hl": true,
+      "note": "na rezerwie"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Odejmij bodźce",
+   "body": "Mniej analiz, mniej ekranu, mniej porównań."
+  },
+  {
+   "title": "Coś tylko dla siebie",
+   "body": "Jedna aktywność w tygodniu, w której nikt cię nie ocenia."
+  }
+ ],
+ "end": {
+  "text": "Głowę też *trzeba regenerować*.",
+  "cta": "Zapisz i wybierz, co odejmujesz"
+ }
+}

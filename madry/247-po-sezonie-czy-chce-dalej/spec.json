@@ -1,0 +1,85 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Po sezonie nie wiem, *czy chcę dalej trenować*",
+  "sub": "Zmęczenie miesza mi się z wątpliwościami",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Najpierw odpoczynek",
+   "body": "W szczycie zmęczenia decyzje bywają kiepskie.",
+   "art": {
+    "type": "timeline",
+    "y": 300,
+    "points": [
+     {
+      "top": "koniec sezonu",
+      "icon": "flag"
+     },
+     {
+      "top": "odpoczynek",
+      "icon": "bed",
+      "hl": true
+     },
+     {
+      "top": "rozmowy",
+      "icon": "people"
+     },
+     {
+      "top": "decyzja",
+      "icon": "check"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Korzyści i koszty",
+   "body": "Rozpisz, co daje ci sport, a ile cię kosztuje."
+  },
+  {
+   "title": "Termin na decyzję",
+   "body": "Wyznacz datę. Do tego dnia zbierasz informacje."
+  }
+ ],
+ "end": {
+  "text": "Decyzja *dojrzewa*.",
+  "cta": "Zapisz i wyznacz sobie termin decyzji"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Za tydzień obóz kondycyjny *i boję się, że odpadnę*",
+  "sub": "W głowie już widzę, jak zostaję z tyłu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Prognoza a fakty",
+   "body": "Głowa pisze czarny scenariusz. Sprawdź, co faktycznie wiesz.",
+   "art": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "odpadnę pierwszy?",
+     "nie wytrzymam?",
+     "wszyscy zobaczą?"
+    ],
+    "ask": [
+     "Trenerze,",
+     "jak wygląda",
+     "plan obozu?"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Pytaj o plan",
+   "body": "Zapytaj trenera, jak wyglądają dni i obciążenia."
+  },
+  {
+   "title": "Dzień po dniu",
+   "body": "Na obozie myślisz o dzisiejszym treningu. Jutro przyjdzie jutro."
+  }
+ ],
+ "end": {
+  "text": "Obóz przechodzisz *dzień po dniu*.",
+  "cta": "Zapisz i zapytaj trenera o plan obozu"
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "W upale tętno skacze *i myślę, że tracę formę*",
+  "sub": "To samo tempo, a zegarek pokazuje więcej",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "watch",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Warunki zmieniają liczby",
+   "body": "Ciepło podnosi wysiłek przy tym samym tempie.",
+   "art": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "wiosna",
+      "v": 0.55,
+      "note": "to samo tempo"
+     },
+     {
+      "label": "upał",
+      "v": 0.8,
+      "hl": true,
+      "note": "wyższe tętno"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Porównuj podobne dni",
+   "body": "Upał z upałem, chłodny dzień z chłodnym."
+  },
+  {
+   "title": "Liczby i odczucia",
+   "body": "Zapisuj oba. Szczegóły treningu w upale ustalaj z trenerem."
+  }
+ ],
+ "end": {
+  "text": "Liczby czytasz *z kontekstem*.",
+  "cta": "Zapisz i dopisuj warunki do treningów"
+ }
+}

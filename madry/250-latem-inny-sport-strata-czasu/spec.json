@@ -1,0 +1,83 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Latem ciągnie mnie do innego sportu, *ale boję się, że to strata czasu*",
+  "sub": "Mam wrażenie, że powinienem trenować tylko swoje",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "point",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Ciało uczy się wszędzie",
+   "body": "Nowy ruch to nowe bodźce: koordynacja, równowaga, czucie.",
+   "art": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "foot",
+      "label": "koordynacja"
+     },
+     {
+      "icon": "wind",
+      "label": "wydolność"
+     },
+     {
+      "icon": "eye",
+      "label": "czytanie gry"
+     },
+     {
+      "icon": "heart",
+      "label": "frajda"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Ustal z trenerem",
+   "body": "Co i ile, żeby zgadzało się z planem i regeneracją."
+  },
+  {
+   "title": "Bez presji wyniku",
+   "body": "W nowym sporcie jesteś początkujący. I to jest jego zaleta."
+  }
+ ],
+ "end": {
+  "text": "Nowy ruch to *też trening*.",
+  "cta": "Zapisz i porozmawiaj z trenerem o lecie"
+ }
+}
