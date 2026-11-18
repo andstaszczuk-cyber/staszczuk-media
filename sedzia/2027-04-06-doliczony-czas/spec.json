@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "90+",
+   "text": "Doliczony czas.\\n*Sędziujesz do końca*."
+  },
+  {
+   "kind": "point",
+   "title": "Zegar to twoja decyzja",
+   "body": "Doliczasz według tego, co się wydarzyło. Krzyki z ławki tego nie zmieniają.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Uwaga do ostatniej akcji",
+   "body": "Zmęczenie rośnie, a decyzje w końcówce ważą najwięcej.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojny ostatni gwizdek",
+   "body": "Kończysz mecz w odpowiednim momencie i schodzisz pewnie.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Ostatnia minuta\\nto *też twoja minuta*.",
+   "cta": "Zapisz i wróć przed meczem o stawkę"
+  }
+ ]
+}

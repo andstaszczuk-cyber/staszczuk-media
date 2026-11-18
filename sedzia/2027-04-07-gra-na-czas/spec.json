@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "CZAS",
+   "sub": "Zawodnicy grają wynikiem. *Ty prowadzisz mecz*.",
+   "text": "Gra na czas?\\n*Ty pilnujesz zegara*."
+  },
+  {
+   "kind": "point",
+   "title": "Widzisz wzór",
+   "body": "Wolne wznowienia, długie zmiany, leżenie bez powodu. Zaczyna się powtarzać.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Reagujesz wcześnie",
+   "body": "Krótki sygnał przy pierwszej próbie oszczędza kartki później.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Doliczasz uczciwie",
+   "body": "Stracony czas wraca do meczu. Obie drużyny to widzą.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Czas meczu\\n*należy do meczu*.",
+   "cta": "Zapisz i wróć przed meczem z wynikiem na styk"
+  }
+ ]
+}

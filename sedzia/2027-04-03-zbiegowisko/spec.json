@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "ZBIEGOWISKO",
+   "text": "Wszyscy biegną\\n*do jednego miejsca*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw dystans",
+   "body": "Zatrzymaj się kilka kroków dalej. Stamtąd widzisz więcej.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Szukasz źródła",
+   "body": "Kto zaczął, kto dołączył, kto uspokaja. Zapamiętaj numery.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja na spokojnie",
+   "body": "Kiedy emocje opadną, podchodzisz i ogłaszasz decyzję.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Tłum się kłębi.\\n*Ty patrzysz*.",
+   "cta": "Zapisz i wróć przed trudnym meczem"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "dom",
+   "text": "Sędzia też ma\\n*życie poza boiskiem*."
+  },
+  {
+   "kind": "point",
+   "title": "Rola do szafy",
+   "body": "Po meczu odkładasz strój i rolę. W domu jesteś sobą.",
+   "icon": "szafa"
+  },
+  {
+   "kind": "point",
+   "title": "Coś tylko dla ciebie",
+   "body": "Pasja bez ocen i obsad daje głowie odpoczynek.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Ludzie spoza środowiska",
+   "body": "Rozmowy o czymś innym niż sędziowanie ładują baterie.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Sędziujesz lepiej,\\n*kiedy żyjesz pełniej*.",
+   "cta": "Zapisz i wróć w niedzielę wieczorem"
+  }
+ ]
+}

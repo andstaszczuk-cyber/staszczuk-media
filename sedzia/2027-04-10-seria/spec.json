@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Kilka dobrych meczów\\n*z rzędu*? Sędziuj ten."
+  },
+  {
+   "kind": "point",
+   "title": "Seria to dowód",
+   "body": "Dobre mecze pokazują, co umiesz. Zapisz, co zadziałało.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Seria bez obowiązku",
+   "body": "Nie musisz jej bronić. Wychodzisz zrobić swoją robotę.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Każdy mecz osobno",
+   "body": "Kolejny mecz zaczyna się od zera, z nowymi sytuacjami.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Seria trwa,\\n*mecz jest jeden*.",
+   "cta": "Zapisz i wróć przed kolejnym meczem"
+  }
+ ]
+}

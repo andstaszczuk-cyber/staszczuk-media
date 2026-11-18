@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Czerwona kartka.\\n*Decydujesz spokojnie*."
+  },
+  {
+   "kind": "point",
+   "title": "Ciało przyspiesza",
+   "body": "Serce wali, ręka drży. To mobilizacja przed ważną decyzją.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Chwila na spokój",
+   "body": "Zatrzymujesz się, oddychasz, podchodzisz pewnym krokiem.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "point",
+   "title": "Krótko i jasno",
+   "body": "Pokazujesz kartkę i odchodzisz. Bez przemów i tłumaczenia.",
+   "icon": "kartka"
+  },
+  {
+   "kind": "end",
+   "text": "Ciężka decyzja\\n*w spokojnej ręce*.",
+   "cta": "Zapisz i wróć przed meczem o dużą stawkę"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Sytuacja na styk?\\nDecydujesz *i grasz dalej*."
+  },
+  {
+   "kind": "point",
+   "title": "Pewności nie będzie",
+   "body": "Część sytuacji nie ma jasnej odpowiedzi. Tak wygląda ta robota.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Kryterium z tygodnia",
+   "body": "Wiesz wcześniej, na co patrzysz przy ręce i przy kontakcie.",
+   "icon": "ksiazka"
+  },
+  {
+   "kind": "point",
+   "title": "Gwizdek i kropka",
+   "body": "Po decyzji zamykasz temat. Następna akcja już trwa.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Na styk też\\n*się decyduje*.",
+   "cta": "Zapisz i wróć po meczu ze sporną sytuacją"
+  }
+ ]
+}

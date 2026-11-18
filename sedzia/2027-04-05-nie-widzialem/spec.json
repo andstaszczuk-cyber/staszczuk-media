@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "triangle",
+   "text": "Nie widziałeś?\\n*Nie zgaduj*."
+  },
+  {
+   "kind": "point",
+   "title": "Zasłonięty obraz",
+   "body": "Zawodnik zasłonił sytuację. Zdarza się każdemu sędziemu.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Pytasz partnera",
+   "body": "Asystent mógł widzieć więcej. Po to jesteście zespołem.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Uczysz się ustawienia",
+   "body": "Po meczu sprawdzasz, skąd widziałbyś lepiej.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "end",
+   "text": "Gwiżdżesz to,\\n*co naprawdę widzisz*.",
+   "cta": "Zapisz i wróć przy analizie ustawienia"
+  }
+ ]
+}

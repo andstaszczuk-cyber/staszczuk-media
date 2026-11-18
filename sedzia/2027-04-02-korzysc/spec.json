@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "decision",
+   "text": "Korzyść to\\n*cierpliwy gwizdek*."
+  },
+  {
+   "kind": "point",
+   "title": "Ręka już leci do ust",
+   "body": "Odruch każe gwizdać od razu. Daj sobie chwilę, żeby zobaczyć, co dalej.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Patrzysz na grę",
+   "body": "Liczy się, czy drużyna faulowana coś z tej akcji ma.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Wracasz do kartki",
+   "body": "Po korzyści pamiętasz o przewinieniu i karzesz je po akcji.",
+   "icon": "kartka"
+  },
+  {
+   "kind": "end",
+   "text": "Czasem najlepsza decyzja\\nto *chwila czekania*.",
+   "cta": "Zapisz i wróć przed kolejnym meczem"
+  }
+ ]
+}

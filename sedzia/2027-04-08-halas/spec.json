@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "derby",
+   "text": "Trybuny głośne.\\n*Gest mówi za ciebie*."
+  },
+  {
+   "kind": "point",
+   "title": "Gwizdek nie zawsze słychać",
+   "body": "W hałasie zawodnicy częściej patrzą, niż słuchają.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "point",
+   "title": "Gesty wyraźne i spokojne",
+   "body": "Jasny sygnał ręką działa tam, gdzie głos przegrywa.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Ustalenia z asystentami",
+   "body": "Przed meczem umawiacie znaki na głośne momenty.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Hałas jest dla wszystkich.\\n*Spokój jest twój*.",
+   "cta": "Zapisz i wróć przed meczem przy pełnych trybunach"
+  }
+ ]
+}
