@@ -1,0 +1,121 @@
+{
+ "cover": {
+  "layout": "big",
+  "big": "TWARDY",
+  "bigSize": 220,
+  "bigSub": "odporność też ma swoją cenę",
+  "title": "Druga strona\n*medalu*",
+  "size": 96,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "path",
+     "d": "M560 20 L620 140 M720 20 L660 140",
+     "c": "fig2",
+     "w": 18
+    },
+    {
+     "k": "circle",
+     "x": 640,
+     "y": 250,
+     "r": 120,
+     "c": "A"
+    },
+    {
+     "k": "circle",
+     "x": 640,
+     "y": 250,
+     "r": 80,
+     "fill": "none",
+     "stroke": "onA",
+     "sw": 8
+    },
+    {
+     "k": "chip",
+     "x": 470,
+     "y": 370,
+     "text": "zaleta i koszt",
+     "c": "soft",
+     "tc": "fg",
+     "size": 30
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zaleta ma swój koszt",
+   "body": "Twardość pomaga przetrwać ciężkie treningi. Ta sama cecha każe ignorować zmęczenie.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "shield",
+     "label": "twardość",
+     "sub": "wytrzymam wszystko"
+    },
+    "right": {
+     "icon": "battery",
+     "label": "koszt",
+     "sub": "nie słyszę sygnałów"
+    }
+   }
+  },
+  {
+   "title": "Kiedy służy, kiedy obciąża?",
+   "body": "Zadaj to pytanie każdej swojej mocnej cesze.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "SŁUŻY",
+      "items": [
+       "ciężki trening",
+       "końcówka meczu"
+      ],
+      "hl": true
+     },
+     {
+      "title": "OBCIĄŻA",
+      "items": [
+       "przy urazie",
+       "przy zmęczeniu"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Pilnuj dawki",
+   "body": "Cechę zatrzymujesz. Zmieniasz jej ilość w danej sytuacji.",
+   "viz": {
+    "type": "scale10",
+    "caption": "TWARDOŚĆ",
+    "points": [
+     {
+      "n": 3,
+      "label": "za mało"
+     },
+     {
+      "n": 7,
+      "label": "w sam raz",
+      "hl": true
+     },
+     {
+      "n": 10,
+      "label": "za dużo"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Ile kosztuje *twoja* największa zaleta?",
+  "cta": "Wybierz jedną mocną cechę i zapisz, kiedy ci służy, a kiedy obciąża.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

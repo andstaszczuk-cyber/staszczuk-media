@@ -1,0 +1,124 @@
+{
+ "cover": {
+  "layout": "top",
+  "kicker": "DŁUGI WYSIŁEK",
+  "title": "Biegnij do\n*najbliższego drzewa*",
+  "size": 92,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 20,
+     "y": 260,
+     "s": 0.65,
+     "pose": "run"
+    },
+    {
+     "k": "icon",
+     "name": "tree",
+     "x": 300,
+     "y": 380,
+     "s": 220,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "tree",
+     "x": 540,
+     "y": 440,
+     "s": 160,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "tree",
+     "x": 720,
+     "y": 480,
+     "s": 120,
+     "c": "fig2"
+    },
+    {
+     "k": "chip",
+     "x": 290,
+     "y": 320,
+     "text": "tylko do niego",
+     "size": 30
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Cała trasa przytłacza",
+   "body": "Myśl o całym wysiłku odbiera siły, zanim się zmęczysz.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "mountain",
+     "label": "cała trasa",
+     "sub": "jeszcze tyle"
+    },
+    "right": {
+     "icon": "tree",
+     "label": "najbliższe drzewo",
+     "sub": "tylko tyle"
+    }
+   }
+  },
+  {
+   "title": "Dziel na odcinki",
+   "body": "Następne drzewo, następna seria, następny kilometr.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "drzewo",
+      "icon": "tree"
+     },
+     {
+      "top": "drzewo",
+      "icon": "tree",
+      "hl": true
+     },
+     {
+      "top": "drzewo",
+      "icon": "tree"
+     },
+     {
+      "top": "meta",
+      "icon": "flag"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Odhaczaj po drodze",
+   "body": "Każdy zaliczony odcinek to mały sukces, który niesie dalej.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "odcinek 1",
+     "odcinek 2",
+     "odcinek 3",
+     "meta"
+    ],
+    "done": 2,
+    "who": true,
+    "top": true
+   }
+  }
+ ],
+ "end": {
+  "question": "Gdzie jest *twoje najbliższe drzewo*?",
+  "cta": "Na najbliższym długim treningu podziel wysiłek na odcinki i odhaczaj je w głowie.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

@@ -1,0 +1,105 @@
+{
+ "cover": {
+  "layout": "big",
+  "big": "NIEDOSYT",
+  "bigSize": 170,
+  "bigSub": "satysfakcja i trochę głodu naraz",
+  "title": "Zadowolony\n*i trochę głodny*",
+  "size": 90,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 470,
+     "y": 90,
+     "w": 260,
+     "h": 260,
+     "r": 30,
+     "c": "card"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 530,
+     "y": 150,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 760,
+     "y": 40,
+     "s": 100,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Sam głód wypala",
+   "body": "Ciągle podnosisz poprzeczkę i nigdy nie czujesz, że dowiozłeś.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "jeszcze nie to, następne",
+    "to": "dowiozłem i chcę więcej"
+   }
+  },
+  {
+   "title": "Sama satysfakcja usypia",
+   "body": "Nasycony zawodnik trudniej się mobilizuje. Trzeba go przycisnąć.",
+   "viz": {
+    "type": "scale10",
+    "caption": "GŁÓD",
+    "points": [
+     {
+      "n": 1,
+      "label": "nasycony"
+     },
+     {
+      "n": 6,
+      "label": "w sam raz",
+      "hl": true
+     },
+     {
+      "n": 10,
+      "label": "wiecznie głodny"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Najpierw domknij",
+   "body": "Najpierw docenienie, potem kolejny krok. W tej kolejności.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "zrobione",
+      "icon": "check"
+     },
+     {
+      "top": "docenione",
+      "icon": "star"
+     },
+     {
+      "top": "następny krok",
+      "icon": "flag",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Z czego jesteś *zadowolony* po lipcu?",
+  "cta": "Zapisz jedną rzecz, z której jesteś zadowolony, i jedną, której jesteś głodny.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

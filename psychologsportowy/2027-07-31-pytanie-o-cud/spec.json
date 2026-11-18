@@ -1,0 +1,98 @@
+{
+ "cover": {
+  "layout": "hero",
+  "kicker": "KONIEC LIPCA",
+  "title": "Gdyby problem\n*zniknął jutro*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 640,
+     "y": 20,
+     "s": 200,
+     "c": "A"
+    },
+    {
+     "k": "person",
+     "x": 120,
+     "y": 90,
+     "s": 1.0,
+     "pose": "wave"
+    },
+    {
+     "k": "bubble",
+     "x": 420,
+     "y": 300,
+     "w": 420,
+     "h": 120,
+     "lines": [
+      "co robię inaczej?"
+     ],
+     "size": 36,
+     "tail": "left"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wyobraź sobie poranek",
+   "body": "Budzisz się i problemu nie ma. Po czym to poznajesz?",
+   "viz": {
+    "type": "notes",
+    "title": "PORANEK BEZ PROBLEMU",
+    "lines": [
+     "wstaję bez ociągania",
+     "idę z ciekawością",
+     "po błędzie gram dalej"
+    ]
+   }
+  },
+  {
+   "title": "Co zobaczyliby inni?",
+   "body": "Trener, drużyna, bliscy. Jakie zachowania by zauważyli?",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "whistle",
+      "label": "trener"
+     },
+     {
+      "icon": "people",
+      "label": "drużyna"
+     },
+     {
+      "icon": "heart",
+      "label": "bliscy",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Co jest realne już teraz?",
+   "body": "Wybierz jedno z tych zachowań i zrób je jutro.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "kiedy problem minie, wtedy",
+    "to": "robię to już jutro"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co z tego *zrobisz jutro*?",
+  "cta": "Wybierz jedno zachowanie z poranka bez problemu i zrób je pierwszego sierpnia.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

@@ -1,0 +1,152 @@
+{
+ "cover": {
+  "layout": "top",
+  "kicker": "LATO W SIECI",
+  "title": "Masz mercedesa,\n*myślisz o ferrari*",
+  "size": 90,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 190,
+     "s": 0.8,
+     "pose": "think"
+    },
+    {
+     "k": "rect",
+     "x": 400,
+     "y": 120,
+     "w": 220,
+     "h": 400,
+     "r": 34,
+     "c": "card",
+     "stroke": "fg",
+     "sw": 6
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 450,
+     "y": 200,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 460,
+     "y": 360,
+     "s": 100,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 650,
+     "y": 220,
+     "text": "ich lato",
+     "size": 32
+    },
+    {
+     "k": "chip",
+     "x": 650,
+     "y": 420,
+     "text": "moje lato?",
+     "c": "soft",
+     "tc": "fg",
+     "size": 32
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zawsze ktoś ma lepiej",
+   "body": "Obóz za granicą, nowy klub, lepszy sprzęt. Lato w sieci to wystawa.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "mountain",
+      "label": "obóz za granicą"
+     },
+     {
+      "icon": "trophy",
+      "label": "nowy klub"
+     },
+     {
+      "icon": "star",
+      "label": "lepszy sprzęt",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Porównujesz nieporównywalne",
+   "body": "Swój zwykły wtorek z czyimś najlepszym kadrem.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "phone",
+     "label": "ich lato",
+     "sub": "same najlepsze kadry"
+    },
+    "right": {
+     "icon": "check",
+     "label": "moje lato",
+     "sub": "realna robota"
+    }
+   }
+  },
+  {
+   "title": "Punkt odniesienia u siebie",
+   "body": "Porównuj się z sobą sprzed miesiąca.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.25
+       ],
+       [
+        0.25,
+        0.35
+       ],
+       [
+        0.5,
+        0.42
+       ],
+       [
+        0.75,
+        0.58
+       ],
+       [
+        1,
+        0.7
+       ]
+      ],
+      "hl": true,
+      "label": "ja"
+     }
+    ],
+    "x": "czerwiec, lipiec"
+   }
+  }
+ ],
+ "end": {
+  "question": "Z czego możesz się *cieszyć* już teraz?",
+  "cta": "Zapisz trzy rzeczy, które w twoich przygotowaniach są naprawdę dobre.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

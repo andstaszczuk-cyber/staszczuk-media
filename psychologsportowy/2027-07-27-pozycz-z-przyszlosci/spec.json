@@ -1,0 +1,128 @@
+{
+ "cover": {
+  "layout": "hero",
+  "kicker": "PRZED SEZONEM",
+  "title": "Pożycz spokój\n*z przyszłości*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 20,
+     "y": 120,
+     "s": 0.9,
+     "pose": "think",
+     "c": "fig2"
+    },
+    {
+     "k": "text",
+     "x": 200,
+     "y": 90,
+     "t": "lipiec",
+     "size": 36,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1
+    },
+    {
+     "k": "person",
+     "x": 520,
+     "y": 120,
+     "s": 0.9,
+     "pose": "win"
+    },
+    {
+     "k": "text",
+     "x": 700,
+     "y": 60,
+     "t": "październik",
+     "size": 40,
+     "w": 800,
+     "c": "fg",
+     "anchor": "middle"
+    },
+    {
+     "k": "path",
+     "d": "M640 470 Q450 560 280 470",
+     "c": "A",
+     "w": 10
+    },
+    {
+     "k": "arrow",
+     "x1": 320,
+     "y1": 492,
+     "x2": 270,
+     "y2": 465
+    },
+    {
+     "k": "chip",
+     "x": 360,
+     "y": 380,
+     "text": "pożyczam spokój",
+     "size": 30
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Spójrz z października",
+   "body": "Lipcowe obawy z perspektywy jesieni zwykle wyglądają mniejsze.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "dziś",
+      "icon": "cloudRain"
+     },
+     {
+      "top": "wrzesień",
+      "icon": "flag"
+     },
+     {
+      "top": "październik",
+      "icon": "check",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Weź to już dziś",
+   "body": "Skoro wtedy będziesz spokojniejszy, część tego spokoju zabierasz teraz.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "za miesiąc się z tego zaśmieję",
+    "via": "pożyczam",
+    "to": "spokój dziś"
+   }
+  },
+  {
+   "title": "List od siebie",
+   "body": "Kilka zdań od ciebie z października do ciebie z lipca.",
+   "viz": {
+    "type": "notes",
+    "title": "OD MNIE Z JESIENI",
+    "lines": [
+     "dałeś radę",
+     "trema minęła szybko",
+     "rób swoje"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co powiedziałby ci *ty z października*?",
+  "cta": "Napisz trzy zdania od siebie z października i przeczytaj je przed pierwszym meczem.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
