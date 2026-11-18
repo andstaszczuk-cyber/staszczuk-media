@@ -1,0 +1,38 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Mamo, a mogę Ci coś powiedzieć?",
+    "*Jasne. Słucham Cię.*"
+   ],
+   "text": "Ważne rozmowy *przychodzą wieczorem*."
+  },
+  {
+   "kind": "point",
+   "title": "Po meczu *jest za wcześnie*",
+   "body": "Emocje są jeszcze gorące. Wiele dzieci potrzebuje czasu, zanim zacznie mówić.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Wieczór *otwiera*",
+   "body": "W półmroku, przed snem, dzieci mówią rzeczy, których nie powiedzą w aucie.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Słuchaj *bez naprawiania*",
+   "body": "Kilka minut uwagi daje więcej niż najlepsza rada.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Bądź dostępny *wtedy, kiedy dziecko jest gotowe*.",
+   "cta": "Zapisz i wyślij rodzicowi, który czeka na rozmowę po meczu.",
+   "icon": "heart"
+  }
+ ]
+}

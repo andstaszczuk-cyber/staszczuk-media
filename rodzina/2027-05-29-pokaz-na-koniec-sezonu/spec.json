@@ -1,0 +1,41 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Pokaz na koniec\n*sezonu*:",
+   "items": [
+    "trema jest normalna",
+    "to święto, egzamin poczeka",
+    "ciesz się całym występem",
+    "po pokazie lody"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Trema *jest normalna*",
+   "body": "Ręce się trzęsą, bo dziecku zależy. Tak reaguje ciało.",
+   "icon": "heart"
+  },
+  {
+   "kind": "point",
+   "title": "To *święto*",
+   "body": "Pokaz pokazuje, ile dziecko nauczyło się przez rok.",
+   "icon": "gift"
+  },
+  {
+   "kind": "point",
+   "title": "Po pokazie *lody*",
+   "body": "Świętujcie występ. Błędy nie mają tu znaczenia.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "end",
+   "text": "Cały sezon pracy *w kilku minutach na scenie*.",
+   "cta": "Zapisz i wyślij rodzicowi przed pokazem na koniec roku.",
+   "icon": "heart"
+  }
+ ]
+}

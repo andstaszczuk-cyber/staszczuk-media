@@ -1,0 +1,35 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "hug",
+   "text": "Dzień Matki.\n*Ty też grasz w tej drużynie*."
+  },
+  {
+   "kind": "point",
+   "title": "Niewidoczna *robota*",
+   "body": "Pranie strojów, dojazdy, kanapki, czekanie na parkingu. To też jest sport.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Nie musisz *być idealna*",
+   "body": "Zdenerwowanie na trybunach czy gorszy wieczór zdarzają się każdemu.",
+   "icon": "heart"
+  },
+  {
+   "kind": "point",
+   "title": "Zadbaj *też o siebie*",
+   "body": "Twój odpoczynek to też część wsparcia dla dziecka.",
+   "icon": "moon"
+  },
+  {
+   "kind": "end",
+   "text": "Dziękuję *za każdy dojazd i każde czekanie*.",
+   "cta": "Zapisz i wyślij mamie młodego sportowca.",
+   "icon": "heart"
+  }
+ ]
+}

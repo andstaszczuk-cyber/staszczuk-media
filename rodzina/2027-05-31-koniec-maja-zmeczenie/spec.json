@@ -1,0 +1,35 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "moon",
+   "text": "Koniec maja.\n*Zmęczenie ma prawo przyjść*."
+  },
+  {
+   "kind": "point",
+   "title": "Maj *daje w kość*",
+   "body": "Sprawdziany, oceny, mecze co weekend. Dużo naraz.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Rozpoznaj *zmęczenie*",
+   "body": "Drażliwość, płacz z byle powodu, brak ochoty na ulubione rzeczy.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Odejmij *coś na chwilę*",
+   "body": "Jeden wolny wieczór może zrobić więcej niż dodatkowy trening.",
+   "icon": "clock"
+  },
+  {
+   "kind": "end",
+   "text": "Wypoczęte dziecko *lepiej gra i lepiej się uczy*.",
+   "cta": "Zapisz i wyślij rodzicowi zmęczonego młodego sportowca.",
+   "icon": "heart"
+  }
+ ]
+}

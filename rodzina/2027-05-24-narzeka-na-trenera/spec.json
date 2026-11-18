@@ -1,0 +1,41 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Gdy dziecko\n*narzeka na trenera*:",
+   "items": [
+    "najpierw wysłuchaj",
+    "nie dokładaj swoich ocen",
+    "oddziel emocje od faktów",
+    "szukajcie kroku razem"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *wysłuchaj*",
+   "body": "Złość po treningu ma prawo wybrzmieć. Nie musisz od razu jej prostować.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *dokładania ocen*",
+   "body": "Twoje słowa o trenerze zostaną z dzieckiem na kolejnych zajęciach.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Fakty *i emocje osobno*",
+   "body": "Co się wydarzyło? Co wtedy poczułeś? To dwa różne pytania.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko uczy się *rozwiązywać sprawy z dorosłymi*.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko wraca zdenerwowane z treningu.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "ball",
+   "text": "Chce zostać\n*na boisku po treningu*."
+  },
+  {
+   "kind": "point",
+   "title": "Zabawa *też uczy*",
+   "body": "Gra bez trenera rozwija kreatywność i odwagę.",
+   "icon": "dice"
+  },
+  {
+   "kind": "point",
+   "title": "Drużyna *rośnie po godzinach*",
+   "body": "Wspólne wygłupy budują relacje, których nie zbuduje żadne ćwiczenie.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Daj *kwadrans*",
+   "body": "Jeśli możesz, poczekaj. Te minuty często są najlepszą częścią dnia.",
+   "icon": "clock"
+  },
+  {
+   "kind": "end",
+   "text": "Miłość do sportu rodzi się *w takich chwilach*.",
+   "cta": "Zapisz i wyślij rodzicowi, który czeka na parkingu po treningu.",
+   "icon": "heart"
+  }
+ ]
+}

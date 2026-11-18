@@ -1,0 +1,36 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Nudzi mi się, nie ma treningu.",
+   "new": "Nuda *też jest odpoczynkiem*.",
+   "text": "Długi weekend nie musi mieć planu."
+  },
+  {
+   "kind": "point",
+   "title": "Nuda *jest potrzebna*",
+   "body": "Głowa odpoczywa, a dziecko samo wymyśla, czym się zająć.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *zapychania dnia*",
+   "body": "Nie trzeba wypełniać każdej godziny zajęciami.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Ruch *dla frajdy*",
+   "body": "Rower, spacer, piłka na trawie. Bez planu i bez celu.",
+   "icon": "ball"
+  },
+  {
+   "kind": "end",
+   "text": "Odpoczynek *też jest częścią sportu*.",
+   "cta": "Zapisz i wyślij rodzicowi przed długim weekendem.",
+   "icon": "heart"
+  }
+ ]
+}

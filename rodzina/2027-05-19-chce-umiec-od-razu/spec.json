@@ -1,0 +1,41 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Gdy dziecko chce\n*umieć od razu*:",
+   "items": [
+    "nauka ma swoje tempo",
+    "nieudane próby są potrzebne",
+    "porównuj z wczoraj",
+    "doceniaj powtórzenia"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Nauka *ma swoje tempo*",
+   "body": "Nowy ruch potrzebuje dziesiątek powtórzeń, zanim zacznie wychodzić.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Nieudane próby *są potrzebne*",
+   "body": "Każda z nich przybliża do tej, która się uda.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Porównuj *z wczoraj*",
+   "body": "Patrz na własny postęp. Inni uczą się w swoim tempie.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Umiejętność *przychodzi z powtórzeń*.",
+   "cta": "Zapisz i wyślij rodzicowi niecierpliwego zawodnika.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Trener poprosił, żebym sędziował młodszym.",
+    "*I jak było z gwizdkiem w ręku?*"
+   ],
+   "text": "Druga strona gwizdka *uczy szacunku*."
+  },
+  {
+   "kind": "point",
+   "title": "Inna *perspektywa*",
+   "body": "Z gwizdkiem w ręku widać, jak trudno wszystko zauważyć.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja *w sekundę*",
+   "body": "Sędzia nie ma powtórek. Dziecko szybko to zrozumie.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Szacunek *rośnie*",
+   "body": "Kto raz sędziował, inaczej reaguje na decyzje na swoim meczu.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Kto stał po drugiej stronie, *lepiej rozumie grę*.",
+   "cta": "Zapisz i wyślij rodzicowi zawodnika, który zaczyna pomagać przy młodszych.",
+   "icon": "heart"
+  }
+ ]
+}

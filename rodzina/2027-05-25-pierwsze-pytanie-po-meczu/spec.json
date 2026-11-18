@@ -1,0 +1,34 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Pierwsze pytanie po meczu?\n*Jak się dziś grało?*"
+  },
+  {
+   "kind": "point",
+   "title": "Wynik *może poczekać*",
+   "body": "Wynik dziecko i tak zna. Pytanie o niego mówi, co jest dla Ciebie ważne.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Pytaj *o przeżycie*",
+   "body": "Jak się grało, co sprawiło frajdę, z czego jesteś zadowolony.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Daj *wybór*",
+   "body": "Czasem dziecko nie chce rozmawiać. Wtedy wystarczy, że jesteś.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Pierwsze pytanie *ustawia całą rozmowę*.",
+   "cta": "Zapisz i wyślij rodzicowi, który odbiera dziecko po meczu.",
+   "icon": "heart"
+  }
+ ]
+}

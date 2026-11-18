@@ -1,0 +1,36 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Musisz się im odegrać za tamto.",
+   "new": "Pokaż, *czego się od tamtej pory nauczyłeś*.",
+   "text": "Rewanż to sprawdzian postępów."
+  },
+  {
+   "kind": "point",
+   "title": "Tamten mecz *już był*",
+   "body": "Dziś gra się od zera. Wynik sprzed miesięcy nie wychodzi na boisko.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Rewanż *to sprawdzian*",
+   "body": "Ciekawie zobaczyć, co dziś wygląda inaczej niż wtedy.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *zemsty w głowie*",
+   "body": "Złość na rywala zabiera energię, którą lepiej włożyć w grę.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "end",
+   "text": "Postęp widać *niezależnie od wyniku rewanżu*.",
+   "cta": "Zapisz i wyślij rodzicowi przed meczem rewanżowym.",
+   "icon": "heart"
+  }
+ ]
+}

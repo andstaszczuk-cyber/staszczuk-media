@@ -1,0 +1,34 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "W twoim wieku to ja...\n*Jego droga jest inna*."
+  },
+  {
+   "kind": "point",
+   "title": "Inne czasy, *inne dziecko*",
+   "body": "Twoje wspomnienia to Twoja historia. Dziecko pisze własną.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Porównanie *zamyka rozmowę*",
+   "body": "Dziecko słyszy, że jest gorsze, i przestaje mówić.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Opowiadaj *ze śmiechem*",
+   "body": "Historie o Twoich wpadkach zbliżają bardziej niż o sukcesach.",
+   "icon": "book"
+  },
+  {
+   "kind": "end",
+   "text": "Twoje historie mogą *dodawać dziecku skrzydeł*.",
+   "cta": "Zapisz i wyślij rodzicowi, który też kiedyś trenował.",
+   "icon": "heart"
+  }
+ ]
+}

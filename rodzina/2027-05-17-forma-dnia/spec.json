@@ -1,0 +1,36 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Wczoraj grałeś świetnie, a dziś co?",
+   "new": "Dziś gramy *tym, co mamy*.",
+   "text": "Forma dnia bywa różna i to jest normalne."
+  },
+  {
+   "kind": "point",
+   "title": "Ciało *ma swoje dni*",
+   "body": "Sen, szkoła, emocje, pogoda. Na formę składa się mnóstwo rzeczy.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden mecz *to nie wyrok*",
+   "body": "Słabszy dzień niczego nie przekreśla. Za tydzień może być zupełnie inaczej.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Najlepsze *z tego, co jest*",
+   "body": "Kiedy forma nie dopisuje, można dalej dobrze biegać i pomagać drużynie.",
+   "icon": "ball"
+  },
+  {
+   "kind": "end",
+   "text": "Gorszy dzień *też jest częścią sportu*.",
+   "cta": "Zapisz i wyślij rodzicowi po meczu, który nie wyszedł.",
+   "icon": "heart"
+  }
+ ]
+}

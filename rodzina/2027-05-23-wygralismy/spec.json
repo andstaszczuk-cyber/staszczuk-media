@@ -1,0 +1,38 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Tato, wygraliśmy!",
+    "*Ty wygrałeś. Ja byłem dumnym kibicem.*"
+   ],
+   "text": "Sukces dziecka *należy do niego*."
+  },
+  {
+   "kind": "point",
+   "title": "To *jego wygrana*",
+   "body": "Dziecko trenowało i grało. Ty wspierałeś z boku.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "point",
+   "title": "Uważaj *na my*",
+   "body": "Wygraliśmy brzmi miło, a po porażce łatwo zamienia się w przegraliśmy przez Ciebie.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Bądź *dumnym kibicem*",
+   "body": "Twoja rola też jest ważna. Po prostu jest inna.",
+   "icon": "heart"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko, które ma swój sport, *bierze za niego odpowiedzialność*.",
+   "cta": "Zapisz i wyślij rodzicowi, który żyje meczami dziecka.",
+   "icon": "heart"
+  }
+ ]
+}
