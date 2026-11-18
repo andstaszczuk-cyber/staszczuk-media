@@ -1,0 +1,135 @@
+{
+ "cover": {
+  "layout": "hero",
+  "kicker": "KONIEC CZERWCA",
+  "title": "Gdzie byłeś\n*rok temu?*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 30,
+     "y": 170,
+     "s": 0.8,
+     "pose": "stand",
+     "c": "fig2"
+    },
+    {
+     "k": "text",
+     "x": 190,
+     "y": 130,
+     "t": "rok temu",
+     "size": 36,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1
+    },
+    {
+     "k": "arrow",
+     "x1": 330,
+     "y1": 360,
+     "x2": 470,
+     "y2": 360
+    },
+    {
+     "k": "person",
+     "x": 500,
+     "y": 140,
+     "s": 0.85,
+     "pose": "win"
+    },
+    {
+     "k": "text",
+     "x": 670,
+     "y": 90,
+     "t": "dziś",
+     "size": 44,
+     "w": 800,
+     "c": "fg",
+     "anchor": "middle"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Postęp widać z dystansu",
+   "body": "Z dnia na dzień zmienia się niewiele. Z roku na rok bardzo dużo.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "rok temu",
+      "icon": "flag"
+     },
+     {
+      "top": "jesień",
+      "icon": "dumbbell"
+     },
+     {
+      "top": "wiosna",
+      "icon": "mountain"
+     },
+     {
+      "top": "dziś",
+      "icon": "star",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Porównaj konkret",
+   "body": "Wynik, umiejętność, przygotowanie, reakcja na błąd.",
+   "viz": {
+    "type": "table",
+    "left": "ROK TEMU",
+    "right": "DZIŚ",
+    "good": true,
+    "rows": [
+     [
+      "bałem się startów",
+      "mam rutynę"
+     ],
+     [
+      "jedno zagranie",
+      "trzy warianty"
+     ],
+     [
+      "po błędzie panika",
+      "gest i dalej"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Zapisz to",
+   "body": "Lista zmian z całego roku to mocny dowód na gorsze dni.",
+   "viz": {
+    "type": "checklist",
+    "title": "MÓJ ROK",
+    "items": [
+     "technika",
+     "głowa",
+     "relacje"
+    ],
+    "chip": "ZMIANY",
+    "chipX": 400
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *zmieniło się* u ciebie przez rok?",
+  "cta": "Zapisz trzy rzeczy, które robisz dziś lepiej niż rok temu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

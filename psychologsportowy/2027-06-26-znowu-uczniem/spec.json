@@ -1,0 +1,156 @@
+{
+ "cover": {
+  "layout": "split",
+  "left": "MISTRZ",
+  "right": "UCZEŃ",
+  "title": "Bądź znowu\n*początkujący*",
+  "size": 92,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 168,
+     "y": 40,
+     "s": 100,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 210,
+     "t": [
+      "wszystko",
+      "już znam"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 632,
+     "y": 40,
+     "s": 100,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 210,
+     "t": [
+      "uczę się",
+      "od zera"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 110,
+     "y": 320,
+     "s": 0.5,
+     "pose": "stand",
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "x": 572,
+     "y": 320,
+     "s": 0.5,
+     "pose": "think"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Latem spróbuj nowego",
+   "body": "Inny sport, nowa umiejętność. Coś, w czym jesteś na samym początku.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "wind",
+      "label": "pływanie"
+     },
+     {
+      "icon": "mountain",
+      "label": "wspinaczka"
+     },
+     {
+      "icon": "ball",
+      "label": "nowa gra",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Uczysz się uczyć",
+   "body": "Przypominasz sobie, jak to jest być słabym i dalej próbować.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "nie wychodzi",
+     "próbuję",
+     "wyszło raz",
+     "umiem"
+    ],
+    "done": 2,
+    "top": true
+   }
+  },
+  {
+   "title": "Bierzesz trenera",
+   "body": "Do nowych rzeczy warto mieć kogoś, kto się na nich zna.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "brain",
+     "label": "sam",
+     "sub": "zgaduję"
+    },
+    "right": {
+     "icon": "whistle",
+     "label": "z trenerem",
+     "sub": "wiem, co robię"
+    }
+   }
+  }
+ ],
+ "end": {
+  "question": "Czego *nowego* nauczysz się tego lata?",
+  "cta": "Zapisz jedną rzecz, w której będziesz początkujący.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

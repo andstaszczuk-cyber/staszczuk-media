@@ -1,0 +1,143 @@
+{
+ "cover": {
+  "layout": "split",
+  "left": "OCZEKIWANIE",
+  "right": "SEZON",
+  "title": "Przeciętny występ\n*też jest w planie*",
+  "size": 76,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 158,
+     "y": 50,
+     "s": 120,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 260,
+     "t": [
+      "każdy start",
+      "na dziesiątkę"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 622,
+     "y": 50,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 260,
+     "t": [
+      "większość",
+      "na szóstkę"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "think"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Szczyt zdarza się rzadko",
+   "body": "Najlepsze występy są wyjątkami. Większość będzie w okolicy środka.",
+   "viz": {
+    "type": "scale10",
+    "caption": "MOJE WYSTĘPY",
+    "points": [
+     {
+      "n": 3,
+      "label": "słabo"
+     },
+     {
+      "n": 6,
+      "label": "najczęściej",
+      "hl": true
+     },
+     {
+      "n": 9,
+      "label": "rzadko"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Wygrywasz też przeciętnie",
+   "body": "Kto umie grać tym, co ma danego dnia, ten wygrywa częściej.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "star",
+     "label": "tylko w formie",
+     "sub": "czekam na dzień"
+    },
+    "right": {
+     "icon": "trophy",
+     "label": "w każdej formie",
+     "sub": "robię swoje"
+    }
+   }
+  },
+  {
+   "title": "Znajdź swoją szóstkę",
+   "body": "Szóstka dziś to też robota. Bierzesz ją i idziesz dalej.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "znowu przeciętnie",
+    "to": "szóstka zrobiona"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak wygląda *twoja szóstka*?",
+  "cta": "Zapisz, co robisz dobrze nawet w przeciętny dzień.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

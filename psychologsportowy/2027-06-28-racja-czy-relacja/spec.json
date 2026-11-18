@@ -1,0 +1,132 @@
+{
+ "cover": {
+  "layout": "top",
+  "kicker": "OBÓZ",
+  "title": "Racja\n*czy relacja?*",
+  "size": 110,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 200,
+     "s": 0.8,
+     "pose": "hips",
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "x": 540,
+     "y": 200,
+     "s": 0.8,
+     "pose": "hips",
+     "flip": true,
+     "c": "fig2"
+    },
+    {
+     "k": "chip",
+     "x": 40,
+     "y": 60,
+     "text": "moja racja",
+     "c": "soft",
+     "tc": "fg",
+     "size": 30
+    },
+    {
+     "k": "chip",
+     "x": 600,
+     "y": 60,
+     "text": "jego racja",
+     "c": "soft",
+     "tc": "fg",
+     "size": 30
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 380,
+     "y": 330,
+     "s": 140,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Dwa tygodnie w pokoju",
+   "body": "Ktoś chrapie, ktoś bałagani, ktoś słucha muzyki do nocy.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "moon",
+      "label": "chrapanie"
+     },
+     {
+      "icon": "note",
+      "label": "bałagan"
+     },
+     {
+      "icon": "phone",
+      "label": "muzyka",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Nie musicie się lubić",
+   "body": "Wartością jest drużyna. Wystarczy dogadać się w kilku sprawach.",
+   "viz": {
+    "type": "hub",
+    "center": "drużyna",
+    "icon": "people",
+    "items": [
+     "cisza nocna",
+     "porządek",
+     "szacunek",
+     "wspólny cel"
+    ],
+    "hl": 3
+   }
+  },
+  {
+   "title": "Mów o zachowaniu",
+   "body": "Prosisz o konkret i zostawiasz osobę w spokoju.",
+   "viz": {
+    "type": "table",
+    "left": "ZACZEPKA",
+    "right": "PROŚBA",
+    "good": true,
+    "rows": [
+     [
+      "jesteś bałaganiarzem",
+      "schowaj buty do szafy"
+     ],
+     [
+      "zawsze hałasujesz",
+      "po dziesiątej słuchawki"
+     ],
+     [
+      "masz mnie gdzieś",
+      "pogadajmy wieczorem"
+     ]
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Wolisz mieć *rację* czy spokój?",
+  "cta": "Zapisz jedną prośbę, którą powiesz wprost.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

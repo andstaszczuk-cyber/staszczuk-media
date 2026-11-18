@@ -1,0 +1,140 @@
+{
+ "cover": {
+  "layout": "hero",
+  "kicker": "ZA DUŻO PRACY",
+  "title": "Nie musisz\n*udowadniać*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 90,
+     "s": 1.0,
+     "pose": "slump"
+    },
+    {
+     "k": "rect",
+     "x": 470,
+     "y": 500,
+     "w": 320,
+     "h": 60,
+     "r": 12,
+     "c": "soft"
+    },
+    {
+     "k": "rect",
+     "x": 490,
+     "y": 430,
+     "w": 300,
+     "h": 60,
+     "r": 12,
+     "c": "A"
+    },
+    {
+     "k": "rect",
+     "x": 460,
+     "y": 360,
+     "w": 320,
+     "h": 60,
+     "r": 12,
+     "c": "soft"
+    },
+    {
+     "k": "rect",
+     "x": 500,
+     "y": 290,
+     "w": 290,
+     "h": 60,
+     "r": 12,
+     "c": "A"
+    },
+    {
+     "k": "rect",
+     "x": 470,
+     "y": 220,
+     "w": 310,
+     "h": 60,
+     "r": 12,
+     "c": "soft"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 120,
+     "text": "jeszcze jedno",
+     "size": 30
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Robisz więcej od planu",
+   "body": "Dodatkowa seria, kolejny trening, jeszcze jedna analiza. Ciągle mało.",
+   "viz": {
+    "type": "bars",
+    "caption": "MÓJ TYDZIEŃ",
+    "items": [
+     {
+      "label": "plan",
+      "v": 0.55
+     },
+     {
+      "label": "robię",
+      "v": 0.95,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Pod spodem jest potrzeba",
+   "body": "Udowodnić, że jesteś wart swojego miejsca. Sobie, trenerowi, wszystkim.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "muszę zasłużyć",
+    "to": "już jestem wartościowy"
+   }
+  },
+  {
+   "title": "Część rzeczy odpadnie",
+   "body": "I o to chodzi. Zostaje praca, która naprawdę służy.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "ODPADA",
+      "items": [
+       "seria na siłę",
+       "nocna analiza"
+      ],
+      "dim": true,
+      "dash": true
+     },
+     {
+      "title": "ZOSTAJE",
+      "items": [
+       "plan",
+       "regeneracja"
+      ],
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co robisz, żeby *coś udowodnić*?",
+  "cta": "Zapisz jedną rzecz, którą jutro odpuścisz.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
