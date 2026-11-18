@@ -264,6 +264,12 @@ const ICO = {
   brain: c => `<path d="M50 14 C40 6 22 10 22 26 C10 30 8 48 18 54 C12 66 22 80 36 78 C40 88 56 88 60 78 C76 82 88 68 82 56 C92 48 88 30 76 28 C76 12 58 6 50 14 Z" fill="${c}"/><path d="M50 16 V82" stroke="#fff" stroke-opacity=".45" stroke-width="5"/>`,
   dumbbell: c => `<rect x="30" y="44" width="40" height="12" fill="${c}"/><rect x="14" y="26" width="16" height="48" rx="5" fill="${c}"/><rect x="70" y="26" width="16" height="48" rx="5" fill="${c}"/><rect x="4" y="36" width="10" height="28" rx="4" fill="${c}"/><rect x="86" y="36" width="10" height="28" rx="4" fill="${c}"/>`,
   bed: c => `<rect x="6" y="50" width="88" height="22" rx="6" fill="${c}"/><rect x="6" y="30" width="12" height="56" rx="4" fill="${c}"/><rect x="20" y="38" width="26" height="14" rx="6" fill="${c}" opacity=".6"/>`,
+  // puzzel: kwadrat z wypustkami
+  puzzle: c => `<path d="M14 26 H38 a12 12 0 1 1 24 0 H86 V50 a12 12 0 1 0 0 24 V90 H62 a12 12 0 1 0 -24 0 H14 V74 a12 12 0 1 1 0 -24 Z" fill="${c}"/>`,
+  // zegarek sportowy na pasku
+  watch: c => `<rect x="34" y="4" width="32" height="22" rx="6" fill="${c}"/><rect x="34" y="74" width="32" height="22" rx="6" fill="${c}"/><circle cx="50" cy="50" r="30" fill="none" stroke="${c}" stroke-width="8"/><path d="M50 34 V50 L60 58" fill="none" stroke="${c}" stroke-width="7" stroke-linecap="round"/><rect x="82" y="44" width="8" height="14" rx="3" fill="${c}"/>`,
+  // czujnik dymu z falami alarmu
+  alarm: c => `<rect x="20" y="10" width="60" height="12" rx="6" fill="${c}"/><path d="M14 22 H86 a6 6 0 0 1 6 6 V38 a6 6 0 0 1 -6 6 H14 a6 6 0 0 1 -6 -6 V28 a6 6 0 0 1 6 -6 Z" fill="${c}"/><circle cx="50" cy="33" r="5" fill="#fff" opacity=".6"/><path d="M30 60 q20 14 40 0 M20 74 q30 20 60 0" fill="none" stroke="${c}" stroke-width="7" stroke-linecap="round"/>`,
 };
 const icon = (name, x, y, s, c) => `<g transform="translate(${x},${y}) scale(${s / 100})">${(ICO[name] || ICO.star)(c)}</g>`;
 const wrapTxt = (s, n) => { const w = String(s).split(' '); const out = []; let cur = ''; for (const x of w) { if ((cur + ' ' + x).trim().length > n && cur) { out.push(cur); cur = x; } else cur = (cur + ' ' + x).trim(); } if (cur) out.push(cur); return out; };
