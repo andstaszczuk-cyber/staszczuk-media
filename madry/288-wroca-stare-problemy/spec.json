@@ -1,0 +1,78 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Boję się, że w nowym sezonie *wrócą stare problemy*",
+  "sub": "Latem było spokojnie, a teraz wraca obawa",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Co już o sobie wiesz",
+   "body": "Znasz swoje sygnały i znasz sposoby, które działały.",
+   "art": {
+    "type": "table",
+    "left": "SYGNAŁ",
+    "right": "MOJA REAKCJA",
+    "good": true,
+    "rows": [
+     [
+      "spięte ręce",
+      "oddech"
+     ],
+     [
+      "czarne myśli",
+      "jedno zadanie"
+     ]
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Plan z wyprzedzeniem",
+   "body": "Jeśli pojawi się sygnał, wiem, co robię. Spisz to teraz."
+  },
+  {
+   "title": "Trudność może wrócić",
+   "body": "Wróci na chwilę i znowu minie. Masz już na nią sposoby."
+  }
+ ],
+ "end": {
+  "text": "Jesteś *mądrzejszy o rok*.",
+  "cta": "Zapisz i rozpisz plan na trudne chwile"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Mam cel na sezon, *ale nie wiem, co robić codziennie*",
+  "sub": "Kartka nad biurkiem i zwykły wtorek",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "point",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Z lotu ptaka do robaka",
+   "body": "Cel, umiejętności, to, co mierzysz, i ćwiczenia na dziś.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "flag",
+      "top": "cel",
+      "bottom": "sezon"
+     },
+     {
+      "icon": "star",
+      "top": "umiejętność",
+      "bottom": "co poprawić"
+     },
+     {
+      "icon": "check",
+      "top": "ćwiczenie",
+      "bottom": "dziś",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jedno zdanie przed treningiem",
+   "body": "Nad czym dziś pracuję? Po treningu sprawdzasz."
+  },
+  {
+   "title": "Tygodniowy przegląd",
+   "body": "Co zrobiłem, co poprawiam, co planuję dalej."
+  }
+ ],
+ "end": {
+  "text": "Cel robi się *w zwykłe dni*.",
+  "cta": "Zapisz i rozpisz swój cel na kroki"
+ }
+}

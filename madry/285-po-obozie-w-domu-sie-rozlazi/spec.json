@@ -1,0 +1,74 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wróciłem z obozu *i w domu wszystko mi się rozłazi*",
+  "sub": "Na obozie szło jak w zegarku",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Rytm zostaje z tobą",
+   "body": "Weź z obozu dwie, trzy rzeczy, które działały.",
+   "art": {
+    "type": "checklist",
+    "title": "Z OBOZU",
+    "chip": "ZOSTAJE",
+    "chipX": 330,
+    "back": false,
+    "items": [
+     "stała pobudka",
+     "rozciąganie wieczorem",
+     "sen o tej samej porze"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Dwa dni na oddech",
+   "body": "Odpocznij po obozie, a potem wracasz do rytmu."
+  },
+  {
+   "title": "Ktoś do pary",
+   "body": "Umów się z kolegą na wspólne treningi."
+  }
+ ],
+ "end": {
+  "text": "Obóz się kończy, *nawyki zostają*.",
+  "cta": "Zapisz i wybierz dwa nawyki z obozu"
+ }
+}

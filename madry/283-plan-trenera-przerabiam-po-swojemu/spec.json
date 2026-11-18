@@ -1,0 +1,83 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Plan od trenera na lato *przerabiam po swojemu*",
+  "sub": "Dokładam, bo wydaje mi się, że to za mało",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Więcej czy mądrzej?",
+   "body": "Dokładanie bez wiedzy trenera łatwo kończy się przeciążeniem.",
+   "art": {
+    "type": "scale10",
+    "caption": "OBCIĄŻENIE",
+    "y": 240,
+    "points": [
+     {
+      "n": 3,
+      "label": "za mało"
+     },
+     {
+      "n": 6,
+      "label": "plan",
+      "hl": true
+     },
+     {
+      "n": 10,
+      "label": "po swojemu"
+     }
+    ],
+    "note": "plan ma swoją logikę"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapytaj o sens",
+   "body": "Gdy rozumiesz plan, łatwiej się go trzymać."
+  },
+  {
+   "title": "Notuj, jak się czujesz",
+   "body": "Twoje notatki pomogą trenerowi dopasować plan."
+  }
+ ],
+ "end": {
+  "text": "Plan to *umowa z trenerem*.",
+  "cta": "Zapisz i zapytaj o sens planu"
+ }
+}

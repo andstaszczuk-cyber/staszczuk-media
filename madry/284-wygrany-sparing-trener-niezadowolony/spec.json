@@ -1,0 +1,80 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wygraliśmy sparing, *a trener jest niezadowolony*",
+  "sub": "W miejscu gratulacji lista błędów",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Wynik i przebieg",
+   "body": "Można wygrać i zagrać słabo. Trener patrzy na przebieg.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "trophy",
+      "label": "wygrana"
+     },
+     {
+      "icon": "eye",
+      "label": "przebieg"
+     },
+     {
+      "icon": "note",
+      "label": "uwagi do pracy",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Weź konkret",
+   "body": "Zapytaj, co dokładnie trener chce widzieć w twojej grze."
+  },
+  {
+   "title": "Radość i poprawki",
+   "body": "Cieszysz się z wygranej i bierzesz uwagi do pracy."
+  }
+ ],
+ "end": {
+  "text": "Sparing służy *do nauki*.",
+  "cta": "Zapisz i spisz trzy uwagi"
+ }
+}

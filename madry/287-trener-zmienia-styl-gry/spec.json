@@ -1,0 +1,67 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Trener zmienia nam styl gry *i czuję się zagubiony*",
+  "sub": "Na tablicy logicznie, na boisku chaos",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zapytaj o sens",
+   "body": "Gdy rozumiesz cel zmiany, łatwiej grać w nowym systemie.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "nic nie rozumiem",
+    "to": "czego jeszcze się uczę?"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Twoje zadanie najpierw",
+   "body": "Dwie, trzy rzeczy na twojej pozycji. Reszta krok po kroku."
+  },
+  {
+   "title": "Uczy się cała drużyna",
+   "body": "Błędy w sparingach są teraz częścią procesu."
+  }
+ ],
+ "end": {
+  "text": "Nowy system to *nowa umiejętność*.",
+  "cta": "Zapisz i spisz swoje zadania"
+ }
+}

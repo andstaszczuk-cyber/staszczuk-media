@@ -1,0 +1,78 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Przechodzę do starszej kategorii *i boję się, że będę najsłabszy*",
+  "sub": "Rywale o kilka lat starsi i silniejsi",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Pierwszy rok to nauka",
+   "body": "Grasz ze starszymi, więc uczysz się szybciej.",
+   "art": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "pierwszy rok",
+      "v": 0.5,
+      "note": "nauka"
+     },
+     {
+      "label": "drugi rok",
+      "v": 0.82,
+      "hl": true,
+      "note": "pewność"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Porównuj się ze sobą",
+   "body": "Ty rok temu i ty dziś. Rywale też kiedyś byli młodsi."
+  },
+  {
+   "title": "Twoje atuty",
+   "body": "Co już umiesz i co zabierasz ze sobą?"
+  }
+ ],
+ "end": {
+  "text": "Każdy *kiedyś był najmłodszy*.",
+  "cta": "Zapisz i wypisz trzy swoje atuty"
+ }
+}
