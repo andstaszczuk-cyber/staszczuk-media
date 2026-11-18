@@ -1,0 +1,133 @@
+{
+ "cover": {
+  "big": "TY + 7",
+  "bigSize": 230,
+  "bigSub": "rywali, którzy też trenowali",
+  "title": "Nie biegasz\n*w próżni*",
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "person",
+     "x": 280,
+     "y": 130,
+     "s": 0.5,
+     "pose": "run"
+    },
+    {
+     "k": "person",
+     "x": 480,
+     "y": 130,
+     "s": 0.5,
+     "pose": "run",
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "x": 680,
+     "y": 130,
+     "s": 0.5,
+     "pose": "run",
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Rywale też się rozwijają",
+   "body": "Twój wynik zależy też od tego, co zrobili inni. Nawet w dobrej formie ktoś może być szybszy.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.2
+       ],
+       [
+        0.5,
+        0.4
+       ],
+       [
+        1,
+        0.55
+       ]
+      ],
+      "hl": true,
+      "label": "ty"
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.3
+       ],
+       [
+        0.5,
+        0.6
+       ],
+       [
+        1,
+        0.9
+       ]
+      ],
+      "label": "rywal"
+     }
+    ],
+    "x": "sezon",
+    "y": "forma"
+   }
+  },
+  {
+   "title": "Nie wszystko na siebie",
+   "body": "Przesada w jedną stronę to biczowanie. W drugą to szukanie winnych.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "przegrałem, bo jestem słaby",
+    "to": "co moje, a co rywala?"
+   }
+  },
+  {
+   "title": "Uczciwy podział",
+   "body": "Co było moje, co nie zależało ode mnie, co rywal zrobił lepiej.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "MOJE",
+      "items": [
+       "tempo",
+       "rozgrzewka"
+      ],
+      "hl": true
+     },
+     {
+      "title": "RYWAL",
+      "items": [
+       "mocny finisz"
+      ]
+     },
+     {
+      "title": "WARUNKI",
+      "items": [
+       "wiatr"
+      ],
+      "dim": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co w ostatnim starcie *zrobił lepiej rywal*?",
+  "cta": "Zapisz to obok tego, co było twoje.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

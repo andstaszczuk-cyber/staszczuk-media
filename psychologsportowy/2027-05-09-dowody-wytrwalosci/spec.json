@@ -1,0 +1,149 @@
+{
+ "cover": {
+  "left": "PAMIĘTASZ",
+  "right": "PRZESZEDŁEŚ",
+  "title": "Masz już\n*dowody wytrwałości*",
+  "size": 88,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 148,
+     "y": 60,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 280,
+     "t": [
+      "kontuzja",
+      "zła seria",
+      "zmiana klubu"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 50
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 612,
+     "y": 60,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 280,
+     "t": [
+      "dałem radę",
+      "wróciłem",
+      "odnalazłem się"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 50
+    },
+    {
+     "k": "person",
+     "x": 582,
+     "y": 400,
+     "s": 0.4,
+     "pose": "win"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Głowa pamięta ból",
+   "body": "Trudne okresy pamiętasz jako cierpienie. Rzadziej jako coś, przez co przeszedłeś.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "to był koszmar",
+    "to": "przeszedłem przez to"
+   }
+  },
+  {
+   "title": "Narysuj swoją linię",
+   "body": "Zaznacz na osi trudne momenty z ostatnich lat. Przy każdym dopisz, co zrobiłeś.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "kontuzja",
+      "icon": "cloudRain",
+      "bottom": [
+       "wróciłem"
+      ]
+     },
+     {
+      "top": "słaby sezon",
+      "icon": "cloudRain",
+      "bottom": [
+       "zmieniłem plan"
+      ]
+     },
+     {
+      "top": "dziś",
+      "icon": "mountain",
+      "hl": true,
+      "bottom": [
+       "jestem tu"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Co to mówi o tobie?",
+   "body": "Kiedy przyjdzie kolejny kryzys, masz dowody zamiast obietnic.",
+   "viz": {
+    "type": "checklist",
+    "title": "MOJE DOWODY",
+    "items": [
+     "wracam po przerwie",
+     "trenuję w gorsze dni",
+     "proszę o pomoc"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Przez co *już przeszedłeś*?",
+  "cta": "Zapisz swoją linię czasu i wracaj do niej w trudny dzień.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

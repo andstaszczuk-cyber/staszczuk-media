@@ -1,0 +1,136 @@
+{
+ "cover": {
+  "big": "4",
+  "bigSize": 360,
+  "bigSub": "obszary, które składają się na twój występ",
+  "title": "Głowa to\n*jeden z czterech*",
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 420,
+     "y": 110,
+     "s": 110,
+     "c": "soft"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 540,
+     "y": 110,
+     "s": 110,
+     "c": "soft"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 660,
+     "y": 110,
+     "s": 110,
+     "c": "soft"
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 780,
+     "y": 110,
+     "s": 110,
+     "c": "A"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Rozłóż występ na części",
+   "body": "Fizyka, technika, taktyka i głowa. Każda ma swój udział w wyniku.",
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "label": "fizyka",
+      "icon": "dumbbell"
+     },
+     {
+      "label": "technika",
+      "icon": "ball"
+     },
+     {
+      "label": "taktyka",
+      "icon": "note"
+     },
+     {
+      "label": "głowa",
+      "icon": "brain"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Nie wszystko to psychika",
+   "body": "Czasem przyczyną jest zmęczenie, sprzęt albo plan na mecz.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "PRZYCZYNA",
+      "items": [
+       "mało snu",
+       "zły plan",
+       "nowa technika"
+      ],
+      "hl": true
+     },
+     {
+      "title": "OBJAW",
+      "items": [
+       "nerwy",
+       "spięcie"
+      ],
+      "dim": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Oceń każdy osobno",
+   "body": "Po starcie skala od 1 do 10 dla każdego obszaru. Widzisz, gdzie pracować.",
+   "viz": {
+    "type": "bars",
+    "caption": "OSTATNI START",
+    "items": [
+     {
+      "label": "fizyka",
+      "v": 0.8
+     },
+     {
+      "label": "technika",
+      "v": 0.7
+     },
+     {
+      "label": "taktyka",
+      "v": 0.45,
+      "hl": true,
+      "note": "tu"
+     },
+     {
+      "label": "głowa",
+      "v": 0.6
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Który obszar *ciągnie cię w dół*?",
+  "cta": "Zapisz ocenę czterech obszarów po najbliższym starcie.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

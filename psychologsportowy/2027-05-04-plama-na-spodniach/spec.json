@@ -1,0 +1,144 @@
+{
+ "cover": {
+  "kicker": "JEDEN BŁĄD",
+  "title": "Widzisz tylko\n*plamę*",
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 260,
+     "y": 90,
+     "s": 1.0,
+     "pose": "slump"
+    },
+    {
+     "k": "circle",
+     "x": 445,
+     "y": 470,
+     "r": 34,
+     "c": "A"
+    },
+    {
+     "k": "circle",
+     "x": 445,
+     "y": 470,
+     "r": 70,
+     "fill": "none",
+     "stroke": "A",
+     "sw": 6,
+     "dash": true
+    },
+    {
+     "k": "chip",
+     "x": 560,
+     "y": 440,
+     "text": "tylko to widać"
+    },
+    {
+     "k": "check",
+     "x": 120,
+     "y": 160,
+     "r": 36
+    },
+    {
+     "k": "check",
+     "x": 120,
+     "y": 260,
+     "r": 36
+    },
+    {
+     "k": "check",
+     "x": 120,
+     "y": 360,
+     "r": 36
+    },
+    {
+     "k": "check",
+     "x": 760,
+     "y": 160,
+     "r": 36
+    },
+    {
+     "k": "check",
+     "x": 760,
+     "y": 260,
+     "r": 36
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Dziewięć dobrze, jeden źle",
+   "body": "Jak w tabliczce mnożenia. Wszyscy patrzą na ten jeden zły wynik.",
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "label": "obrona",
+      "icon": "shield"
+     },
+     {
+      "label": "podania",
+      "icon": "ball"
+     },
+     {
+      "label": "tempo",
+      "icon": "bolt"
+     },
+     {
+      "label": "1 strata",
+      "icon": "cloudRain",
+      "ok": false
+     }
+    ]
+   }
+  },
+  {
+   "title": "Mózg tak ma",
+   "body": "Szybciej wyłapuje to, co poszło źle. Resztę trzeba zobaczyć świadomie.",
+   "viz": {
+    "type": "bars",
+    "caption": "CO PAMIĘTASZ PO MECZU",
+    "items": [
+     {
+      "label": "błąd",
+      "v": 0.9
+     },
+     {
+      "label": "dobre akcje",
+      "v": 0.25,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Policz całe spodnie",
+   "body": "Po meczu najpierw trzy rzeczy, które zrobiłeś dobrze. Potem jedna do poprawy.",
+   "viz": {
+    "type": "checklist",
+    "title": "PO MECZU",
+    "items": [
+     "wygrane pojedynki",
+     "dobra komunikacja",
+     "praca w obronie"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co jeszcze *było w tym meczu* poza błędem?",
+  "cta": "Zapisz trzy rzeczy po najbliższym występie.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

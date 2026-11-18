@@ -1,0 +1,123 @@
+{
+ "cover": {
+  "kicker": "ODPOCZYNEK",
+  "title": "Wycieczka\nczy *ucieczka*?",
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "x": 20,
+     "y": 60,
+     "s": 0.95,
+     "pose": "walk"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 40,
+     "y": 0,
+     "s": 120,
+     "c": "soft"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 400,
+     "y": 380,
+     "s": 130,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 360,
+     "y": 320,
+     "text": "zadanie"
+    },
+    {
+     "k": "person",
+     "x": 540,
+     "y": 60,
+     "s": 0.95,
+     "pose": "run",
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Ucieczka ma wiele twarzy",
+   "body": "Zapychanie dnia, żarty, nagle pilne grabienie liści. Byle nie to jedno zadanie.",
+   "viz": {
+    "type": "focus",
+    "center": "trudne zadanie",
+    "around": [
+     "sprzątanie",
+     "telefon",
+     "żart",
+     "zakupy"
+    ]
+   }
+  },
+  {
+   "title": "Po czym poznasz",
+   "body": "Po wycieczce wracasz z energią. Po ucieczce zadanie dalej wisi.",
+   "viz": {
+    "type": "table",
+    "left": "UCIECZKA",
+    "right": "WYCIECZKA",
+    "good": true,
+    "rows": [
+     [
+      "zadanie wisi",
+      "wracam do zadania"
+     ],
+     [
+      "wyrzuty",
+      "spokój"
+     ],
+     [
+      "zmęczenie",
+      "energia"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Blok i nagroda",
+   "body": "Umawiasz się na konkretny czas pracy. Ucieczkę robisz nagrodą po nim.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "45 min pracy",
+      "icon": "clock",
+      "hl": true
+     },
+     {
+      "top": "potem",
+      "icon": "check"
+     },
+     {
+      "top": "grabienie",
+      "icon": "sun"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Od czego *uciekasz* w tym tygodniu?",
+  "cta": "Zapisz i umów się ze sobą na jeden blok pracy.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

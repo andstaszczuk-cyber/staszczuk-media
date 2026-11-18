@@ -1,0 +1,95 @@
+{
+ "cover": {
+  "kicker": "PO FAKCIE",
+  "title": "Dobra decyzja,\n*zły wynik*",
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "viz",
+     "type": "table",
+     "x": 0,
+     "y": 60,
+     "s": 1,
+     "left": "W CHWILI DECYZJI",
+     "right": "PO FAKCIE",
+     "rows": [
+      [
+       "wiedziałem to, co wiedziałem",
+       "wiem więcej"
+      ],
+      [
+       "wybrałem najlepiej, jak mogłem",
+       "widzę wynik"
+      ],
+      [
+       "to była dobra decyzja",
+       "wynik zły"
+      ]
+     ]
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Oceniasz z wiedzą z przyszłości",
+   "body": "Po meczu znasz wynik. W chwili decyzji go nie znałeś.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "decyzja",
+      "icon": "flag",
+      "hl": true,
+      "bottom": [
+       "mało danych"
+      ]
+     },
+     {
+      "top": "akcja",
+      "icon": "ball"
+     },
+     {
+      "top": "wynik",
+      "icon": "cloudRain",
+      "bottom": [
+       "pełny obraz"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Gdybyś znał lepszą, wybrałbyś ją",
+   "body": "W danym momencie zwykle wybieramy najlepszą opcję, jaką widzimy.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "jak mogłem tak zagrać",
+    "to": "wtedy to był najlepszy wybór"
+   }
+  },
+  {
+   "title": "Pytaj o proces",
+   "body": "Co widziałem? Co mogłem zobaczyć? Co sprawdzę następnym razem?",
+   "viz": {
+    "type": "notes",
+    "title": "ANALIZA DECYZJI",
+    "lines": [
+     "co wtedy widziałem?",
+     "co mogłem zobaczyć?",
+     "co sprawdzę następnie?"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Którą decyzję *oceniasz za surowo*?",
+  "cta": "Zapisz ją i rozłóż na trzy pytania.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

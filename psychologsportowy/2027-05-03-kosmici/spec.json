@@ -1,0 +1,166 @@
+{
+ "cover": {
+  "kicker": "RANGA ZAWODÓW",
+  "title": "Skąd kosmici wiedzą,\nże te zawody\nsą *ważne*?",
+  "size": 80,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "circle",
+     "x": 680,
+     "y": 150,
+     "r": 120,
+     "c": "soft"
+    },
+    {
+     "k": "line",
+     "x1": 630,
+     "y1": 40,
+     "x2": 600,
+     "y2": -10,
+     "c": "A",
+     "w": 8
+    },
+    {
+     "k": "line",
+     "x1": 730,
+     "y1": 40,
+     "x2": 760,
+     "y2": -10,
+     "c": "A",
+     "w": 8
+    },
+    {
+     "k": "circle",
+     "x": 600,
+     "y": -14,
+     "r": 16,
+     "c": "A"
+    },
+    {
+     "k": "circle",
+     "x": 760,
+     "y": -14,
+     "r": 16,
+     "c": "A"
+    },
+    {
+     "k": "circle",
+     "x": 635,
+     "y": 140,
+     "r": 30,
+     "c": "A"
+    },
+    {
+     "k": "circle",
+     "x": 725,
+     "y": 140,
+     "r": 30,
+     "c": "A"
+    },
+    {
+     "k": "path",
+     "d": "M640 205 Q680 230 720 205",
+     "c": "A",
+     "w": 8
+    },
+    {
+     "k": "person",
+     "x": 110,
+     "y": 70,
+     "s": 0.95,
+     "pose": "stand"
+    },
+    {
+     "k": "chip",
+     "x": 40,
+     "y": 10,
+     "text": "FINAŁ!"
+    },
+    {
+     "k": "bubble",
+     "x": 470,
+     "y": 330,
+     "w": 380,
+     "h": 120,
+     "lines": [
+      "zwykłe bieganie"
+     ],
+     "c": "card",
+     "size": 34,
+     "tail": "none"
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Rangę nadajesz sam",
+   "body": "Ten sam bieg, ten sam rzut. Różnicę robi etykieta w twojej głowie.",
+   "viz": {
+    "type": "same",
+    "left": "TRENING",
+    "right": "FINAŁ",
+    "items": [
+     "start",
+     "rozbieg",
+     "skok"
+    ]
+   }
+  },
+  {
+   "title": "Pobudzenie idzie za rangą",
+   "body": "Za nisko, dodaj zawodom znaczenia. Za wysoko, zawody jak zawody.",
+   "viz": {
+    "type": "scale10",
+    "caption": "POZIOM POBUDZENIA",
+    "points": [
+     {
+      "n": 3,
+      "label": "nuda"
+     },
+     {
+      "n": 7,
+      "label": "w sam raz",
+      "hl": true
+     },
+     {
+      "n": 10,
+      "label": "spalony"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Wybierz etykietę",
+   "body": "Na wiosenne starty zabierz zdanie, które ustawia cię w siódemce.",
+   "viz": {
+    "type": "notes",
+    "title": "NA START",
+    "lines": [
+     "zawody jak zawody",
+     "robię swoje",
+     "akcja po akcji"
+    ],
+    "crossed": [
+     "start życia",
+     "teraz albo nigdy"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaką *etykietę* dajesz najbliższym zawodom?",
+  "cta": "Zapisz i dobierz ją do swojego poziomu pobudzenia.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

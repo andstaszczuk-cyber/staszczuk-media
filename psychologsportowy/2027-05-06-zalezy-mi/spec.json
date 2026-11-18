@@ -1,0 +1,78 @@
+{
+ "cover": {
+  "big": "ZALEŻY",
+  "bigSize": 210,
+  "bigSub": "i to jest w porządku",
+  "title": "Udawanie, że\n*nie zależy*, nie działa",
+  "size": 76,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 620,
+     "y": 80,
+     "s": 220,
+     "c": "A"
+    },
+    {
+     "k": "person",
+     "x": 330,
+     "y": 120,
+     "s": 0.55,
+     "pose": "stand"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Maska kosztuje",
+   "body": "Mówisz, że ci wszystko jedno. W środku ciało i tak wie swoje.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "shield",
+     "label": "mam to gdzieś",
+     "sub": "a w środku burza",
+     "cross": true
+    },
+    "right": {
+     "icon": "heart",
+     "label": "zależy mi",
+     "sub": "i wiem, co z tym zrobić"
+    }
+   }
+  },
+  {
+   "title": "Obawa to dowód",
+   "body": "Stresujesz się, bo to jest dla ciebie ważne. Przy obojętnych rzeczach jest cicho.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "znowu się stresuję",
+    "to": "zależy mi, to dobrze"
+   }
+  },
+  {
+   "title": "Zależy mi, więc robię",
+   "body": "Energię z zaangażowania kierujesz w zadania, na które masz wpływ.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "zależy mi",
+    "via": "zadania",
+    "to": "dobry występ"
+   }
+  }
+ ],
+ "end": {
+  "question": "Na czym *naprawdę* ci zależy?",
+  "cta": "Zapisz to i powiedz sobie wprost przed startem.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

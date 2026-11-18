@@ -1,0 +1,115 @@
+{
+ "cover": {
+  "kicker": "DRUGIE PYTANIE",
+  "title": "A jeśli\n*wyjdzie*?",
+  "size": 110,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "bubble",
+     "x": 30,
+     "y": 60,
+     "w": 380,
+     "h": 150,
+     "lines": [
+      "a jeśli",
+      "nie wyjdzie?"
+     ],
+     "c": "card",
+     "tc": "mute",
+     "size": 36
+    },
+    {
+     "k": "bubble",
+     "x": 470,
+     "y": 200,
+     "w": 400,
+     "h": 170,
+     "lines": [
+      "a jeśli",
+      "wyjdzie?"
+     ],
+     "c": "A",
+     "size": 44,
+     "tail": "right"
+    },
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 250,
+     "y": 250,
+     "s": 0.65,
+     "pose": "think"
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Głowa zadaje jedno pytanie",
+   "body": "Pyta o porażkę, bo chce cię chronić. O sukces musisz zapytać sam.",
+   "viz": {
+    "type": "bars",
+    "caption": "JAK CZĘSTO PYTASZ",
+    "items": [
+     {
+      "label": "nie wyjdzie",
+      "v": 0.9
+     },
+     {
+      "label": "wyjdzie",
+      "v": 0.2,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Rozpisz oba scenariusze",
+   "body": "Przy każdym: co czuję, co robię, co z tego wychodzi.",
+   "viz": {
+    "type": "table",
+    "left": "NIE WYJDZIE",
+    "right": "WYJDZIE",
+    "good": true,
+    "rows": [
+     [
+      "spinam się",
+      "gram odważniej"
+     ],
+     [
+      "unikam ryzyka",
+      "biorę piłkę"
+     ],
+     [
+      "czekam na koniec",
+      "szukam szansy"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Wybierz, na który działasz",
+   "body": "Oba są możliwe. Ty decydujesz, który ustawi ci rozgrzewkę.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "a jeśli wyjdzie?",
+    "via": "wybór",
+    "to": "plan na start"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co zrobisz, *jeśli wyjdzie*?",
+  "cta": "Zapisz oba scenariusze przed najbliższym startem.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

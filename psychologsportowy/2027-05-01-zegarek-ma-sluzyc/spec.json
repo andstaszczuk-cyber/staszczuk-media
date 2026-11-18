@@ -1,0 +1,173 @@
+{
+ "cover": {
+  "left": "ZEGAREK RZĄDZI",
+  "right": "ZEGAREK SŁUŻY",
+  "title": "Zegarek\n*ma ci służyć*",
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "watch",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 250,
+     "t": [
+      "jak spałem?",
+      "muszę sprawdzić"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 120,
+     "y": 330,
+     "s": 0.5,
+     "pose": "slump",
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "watch",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 250,
+     "t": [
+      "czuję się dobrze,",
+      "dane to dodatek"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 582,
+     "y": 330,
+     "s": 0.5,
+     "pose": "walk"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Najpierw ty, potem wykres",
+   "body": "Rano zapytaj siebie, jak się czujesz. Dopiero potem patrz na liczby z nocy.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "pobudka",
+      "icon": "sun"
+     },
+     {
+      "top": "jak się czuję?",
+      "icon": "heart",
+      "hl": true
+     },
+     {
+      "top": "dane",
+      "icon": "watch"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Liczba to informacja",
+   "body": "Słaby wynik snu to podpowiedź do planu. Wyroku na cały dzień z niego nie robisz.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "dzień stracony",
+    "to": "dziś lżej, jutro normalnie"
+   }
+  },
+  {
+   "title": "Dzień bez zegarka",
+   "body": "Raz w tygodniu trening bez danych. Uczysz się czytać ciało sam.",
+   "viz": {
+    "type": "week",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "watch"
+     },
+     {
+      "d": "wt",
+      "icon": "watch"
+     },
+     {
+      "d": "śr",
+      "icon": "watch"
+     },
+     {
+      "d": "cz",
+      "icon": "watch"
+     },
+     {
+      "d": "pt",
+      "icon": "watch"
+     },
+     {
+      "d": "sb",
+      "icon": "heart",
+      "mark": "hl",
+      "label": "bez"
+     },
+     {
+      "d": "nd",
+      "icon": "bed",
+      "dim": true
+     }
+    ],
+    "note": "jeden trening na czucie"
+   }
+  }
+ ],
+ "end": {
+  "question": "Kto u ciebie *rządzi*, ty czy zegarek?",
+  "cta": "Zapisz i zaplanuj w tym tygodniu jeden trening na czucie.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

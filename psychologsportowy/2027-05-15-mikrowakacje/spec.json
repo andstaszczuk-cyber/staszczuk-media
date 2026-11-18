@@ -1,0 +1,117 @@
+{
+ "cover": {
+  "kicker": "W ŚRODKU SEZONU",
+  "title": "Zaplanuj sobie\n*mikrowakacje*",
+  "size": 90,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "viz",
+     "type": "week",
+     "x": 0,
+     "y": 0,
+     "s": 1,
+     "days": [
+      {
+       "d": "pn",
+       "icon": "dumbbell"
+      },
+      {
+       "d": "wt",
+       "icon": "dumbbell"
+      },
+      {
+       "d": "śr",
+       "icon": "dumbbell"
+      },
+      {
+       "d": "cz",
+       "icon": "dumbbell"
+      },
+      {
+       "d": "pt",
+       "icon": "dumbbell"
+      },
+      {
+       "d": "sb",
+       "icon": "sun",
+       "mark": "hl",
+       "label": "wolne"
+      },
+      {
+       "d": "nd",
+       "icon": "mountain",
+       "mark": "hl",
+       "label": "wolne"
+      }
+     ]
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Konkretnie, w kalendarzu",
+   "body": "Dzień albo dwa wolnego z planem. Wiesz, co robisz i kiedy wracasz.",
+   "viz": {
+    "type": "notes",
+    "title": "MIKROWAKACJE",
+    "lines": [
+     "sobota: rower",
+     "niedziela: góry",
+     "poniedziałek: trening"
+    ]
+   }
+  },
+  {
+   "title": "Odpoczynek z planem",
+   "body": "Wolny dzień bez planu często zjada telefon i kanapa.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "phone",
+     "label": "jakoś zleci",
+     "sub": "scrollowanie do wieczora"
+    },
+    "right": {
+     "icon": "sun",
+     "label": "zaplanowane",
+     "sub": "wracasz naładowany"
+    }
+   }
+  },
+  {
+   "title": "Uzgodnij z trenerem",
+   "body": "Wpisujecie to w plan razem. Wtedy to część treningu.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "people",
+      "label": "rozmowa"
+     },
+     {
+      "icon": "note",
+      "label": "plan"
+     },
+     {
+      "icon": "battery",
+      "label": "ładowanie",
+      "hl": true
+     }
+    ],
+    "join": "→"
+   }
+  }
+ ],
+ "end": {
+  "question": "Kiedy masz *najbliższe mikrowakacje*?",
+  "cta": "Zapisz datę i plan, zanim zjedzą je inne sprawy.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

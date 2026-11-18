@@ -1,0 +1,100 @@
+{
+ "cover": {
+  "big": "PIIP!",
+  "bigSize": 250,
+  "bigSub": "a pożaru brak",
+  "title": "Lęk to\n*czujnik dymu*",
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "alarm",
+     "x": 560,
+     "y": 40,
+     "s": 220,
+     "c": "A"
+    },
+    {
+     "k": "person",
+     "x": 250,
+     "y": 120,
+     "s": 0.55,
+     "pose": "think"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Ma ostrzegać",
+   "body": "Lęk powstał po to, żeby cię chronić. Woli fałszywy alarm niż przeoczenie.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "alarm",
+      "label": "wyje",
+      "hl": true
+     },
+     {
+      "icon": "eye",
+      "label": "sprawdzam"
+     },
+     {
+      "icon": "play",
+      "label": "działam"
+     }
+    ],
+    "join": "→"
+   }
+  },
+  {
+   "title": "Sprawdź, czy się pali",
+   "body": "Co konkretnie może pójść nie tak? Co na to mówią fakty z treningów?",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "DYM",
+      "icon": "alarm",
+      "items": [
+       "słaba rozgrzewka",
+       "brak planu"
+      ],
+      "hl": true
+     },
+     {
+      "title": "BEZ DYMU",
+      "icon": "cloudRain",
+      "items": [
+       "a jak się nie uda",
+       "wszyscy patrzą"
+      ],
+      "dim": true,
+      "dash": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Podziękuj i rób swoje",
+   "body": "Czujnik możesz usłyszeć i spokojnie wrócić do zadania. Wyłączyć się go nie da.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "muszę przestać się bać",
+    "to": "dzięki, sprawdziłem, wracam"
+   }
+  }
+ ],
+ "end": {
+  "question": "Kiedy twój czujnik *wyje bez pożaru*?",
+  "cta": "Zapisz i przed startem sprawdź, czy jest dym.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

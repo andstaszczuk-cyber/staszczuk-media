@@ -1,0 +1,168 @@
+{
+ "cover": {
+  "kicker": "KONCENTRACJA",
+  "title": "Trenujesz skupienie\n*przy puzzlach*?",
+  "size": 84,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 80,
+     "y": 90,
+     "s": 1.0,
+     "pose": "sit"
+    },
+    {
+     "k": "rect",
+     "x": 430,
+     "y": 380,
+     "w": 440,
+     "h": 200,
+     "r": 20,
+     "c": "card"
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 460,
+     "y": 400,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 590,
+     "y": 400,
+     "s": 120,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 720,
+     "y": 410,
+     "s": 110,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 700,
+     "y": 60,
+     "s": 150,
+     "c": "soft"
+    },
+    {
+     "k": "cross",
+     "x": 820,
+     "y": 90,
+     "r": 34
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Uwaga to mięsień",
+   "body": "Gdy cały dzień skaczesz po bodźcach, na zawodach też skacze.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.7
+       ],
+       [
+        0.3,
+        0.5
+       ],
+       [
+        0.6,
+        0.35
+       ],
+       [
+        1,
+        0.25
+       ]
+      ],
+      "label": "same bodźce"
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.5
+       ],
+       [
+        0.3,
+        0.6
+       ],
+       [
+        0.6,
+        0.72
+       ],
+       [
+        1,
+        0.85
+       ]
+      ],
+      "hl": true,
+      "label": "trening skupienia"
+     }
+    ],
+    "x": "tygodnie",
+    "y": "skupienie"
+   }
+  },
+  {
+   "title": "Coś analogowego",
+   "body": "Puzzle, klocki, kilka stron książki ze zrozumieniem, spacer bez słuchawek.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "puzzle",
+      "label": "puzzle",
+      "hl": true
+     },
+     {
+      "icon": "book",
+      "label": "książka"
+     },
+     {
+      "icon": "foot",
+      "label": "spacer"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zauważ i wróć",
+   "body": "Myśl ucieka do telefonu. Zauważasz bez złości i wracasz do elementu.",
+   "viz": {
+    "type": "wander",
+    "zone": "jeden element",
+    "out1": "telefon",
+    "out2": "co tam?",
+    "back": "wracam"
+   }
+  }
+ ],
+ "end": {
+  "question": "Gdzie w tym tygodniu *potrenujesz skupienie*?",
+  "cta": "Zapisz i zaplanuj 20 minut bez telefonu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

@@ -1,0 +1,194 @@
+{
+ "cover": {
+  "left": "ZASKOCZENIE",
+  "right": "PLAN",
+  "title": "Spodziewałem się\n*tego stresu*",
+  "size": 88,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 160,
+     "y": 50,
+     "s": 120,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 250,
+     "t": [
+      "co się dzieje?!"
+     ],
+     "size": 36,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1
+    },
+    {
+     "k": "person",
+     "x": 120,
+     "y": 300,
+     "s": 0.55,
+     "pose": "crouch",
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 622,
+     "y": 50,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 250,
+     "t": [
+      "o, jest, znam to"
+     ],
+     "size": 36,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle"
+    },
+    {
+     "k": "person",
+     "x": 582,
+     "y": 300,
+     "s": 0.55,
+     "pose": "stand"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Zaskoczenie podkręca",
+   "body": "Stres, który przychodzi nagle, odbierasz jak zagrożenie. Przewidziany jest zwykłym gościem.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.3
+       ],
+       [
+        0.4,
+        0.35
+       ],
+       [
+        0.5,
+        0.95
+       ],
+       [
+        1,
+        0.8
+       ]
+      ],
+      "label": "zaskoczenie"
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.3
+       ],
+       [
+        0.4,
+        0.45
+       ],
+       [
+        0.6,
+        0.6
+       ],
+       [
+        1,
+        0.55
+       ]
+      ],
+      "hl": true,
+      "label": "spodziewany"
+     }
+    ],
+    "x": "czas do startu",
+    "y": "napięcie"
+   }
+  },
+  {
+   "title": "Zaplanuj go z wyprzedzeniem",
+   "body": "Kiedy się pojawi? Jak go poczujesz? Co wtedy zrobisz?",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "wieczór",
+      "icon": "moon",
+      "bottom": [
+       "myśli"
+      ]
+     },
+     {
+      "top": "rozgrzewka",
+      "icon": "heart",
+      "bottom": [
+       "serce"
+      ]
+     },
+     {
+      "top": "start",
+      "icon": "play",
+      "hl": true,
+      "bottom": [
+       "wydech"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Inicjatywa zamiast reakcji",
+   "body": "Obniżasz pobudzenie, zanim skoczy. Oddech i plan robisz wcześniej.",
+   "viz": {
+    "type": "breath",
+    "inN": 4,
+    "outN": 6,
+    "inT": "wdech",
+    "outT": "dłuższy wydech"
+   }
+  }
+ ],
+ "end": {
+  "question": "Kiedy *spodziewasz się* stresu przed najbliższym startem?",
+  "cta": "Zapisz trzy momenty i plan na każdy.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

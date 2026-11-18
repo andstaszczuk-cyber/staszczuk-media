@@ -1,0 +1,145 @@
+{
+ "cover": {
+  "kicker": "WNIOSKI",
+  "title": "Najpierw kartka,\npotem *podpowiedzi*",
+  "size": 86,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 80,
+     "y": 40,
+     "w": 320,
+     "h": 420,
+     "r": 20,
+     "c": "paper",
+     "rot": -4
+    },
+    {
+     "k": "line",
+     "x1": 130,
+     "y1": 140,
+     "x2": 340,
+     "y2": 130,
+     "c": "soft",
+     "w": 10
+    },
+    {
+     "k": "line",
+     "x1": 130,
+     "y1": 210,
+     "x2": 320,
+     "y2": 200,
+     "c": "soft",
+     "w": 10
+    },
+    {
+     "k": "line",
+     "x1": 130,
+     "y1": 280,
+     "x2": 300,
+     "y2": 270,
+     "c": "soft",
+     "w": 10
+    },
+    {
+     "k": "check",
+     "x": 340,
+     "y": 400,
+     "r": 46
+    },
+    {
+     "k": "arrow",
+     "x1": 450,
+     "y1": 260,
+     "x2": 560,
+     "y2": 260
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 600,
+     "y": 120,
+     "s": 260,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 730,
+     "y": 470,
+     "t": "dopiero teraz",
+     "size": 32,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle"
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Wniosek ze swojej głowy",
+   "body": "To, do czego dochodzisz sam, zostaje z tobą na zawodach.",
+   "viz": {
+    "type": "bars",
+    "caption": "CO ZAPAMIĘTUJESZ",
+    "items": [
+     {
+      "label": "sam",
+      "v": 0.9,
+      "hl": true
+     },
+     {
+      "label": "podane",
+      "v": 0.35
+     }
+    ]
+   }
+  },
+  {
+   "title": "Trzy pytania po treningu",
+   "body": "Co wyszło, co nie wyszło, co zmieniam. Pięć minut z długopisem.",
+   "viz": {
+    "type": "notes",
+    "title": "PO TRENINGU",
+    "lines": [
+     "co wyszło?",
+     "co nie wyszło?",
+     "co zmieniam jutro?"
+    ]
+   }
+  },
+  {
+   "title": "Potem sprawdzaj",
+   "body": "Trener, książka, aplikacja. Porównujesz z tym, co już masz.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "kartka",
+      "icon": "note",
+      "hl": true
+     },
+     {
+      "top": "rozmowa",
+      "icon": "people"
+     },
+     {
+      "top": "podpowiedź",
+      "icon": "phone"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Kiedy ostatnio doszedłeś do czegoś *sam*?",
+  "cta": "Zapisz trzy pytania i odpowiedz na nie po treningu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

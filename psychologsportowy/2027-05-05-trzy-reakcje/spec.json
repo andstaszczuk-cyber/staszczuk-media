@@ -1,0 +1,143 @@
+{
+ "cover": {
+  "left": "PIERWOTNIE",
+  "right": "ŚWIADOMIE",
+  "title": "Atak, ucieczka\nalbo *wyzwanie*",
+  "size": 88,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "chip",
+     "x": 40,
+     "y": 50,
+     "text": "atak",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 160,
+     "y": 50,
+     "text": "ucieczka",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 110,
+     "y": 120,
+     "text": "zamrożenie",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "person",
+     "x": 120,
+     "y": 230,
+     "s": 0.65,
+     "pose": "crouch",
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 620,
+     "y": 50,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "person",
+     "x": 560,
+     "y": 230,
+     "s": 0.65,
+     "pose": "run"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Trzy stare programy",
+   "body": "Atak na oślep, ucieczka albo zamrożenie. Mózg odpala je pod presją sam.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "bolt",
+      "label": "atak na oślep"
+     },
+     {
+      "icon": "foot",
+      "label": "ucieczka"
+     },
+     {
+      "icon": "snow",
+      "label": "zamrożenie"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Poznaj swój",
+   "body": "Każdy ma ulubiony. Sprawdź, co robisz, kiedy mecz robi się gorący.",
+   "viz": {
+    "type": "table",
+    "left": "OBJAW",
+    "right": "PROGRAM",
+    "rows": [
+     [
+      "faule, nerwy",
+      "atak"
+     ],
+     [
+      "chowam się za innych",
+      "ucieczka"
+     ],
+     [
+      "stoję i patrzę",
+      "zamrożenie"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Włącz czwarty",
+   "body": "Reakcja na wyzwanie: oddech, jedno zadanie, następna akcja.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "presja",
+    "via": "wydech + zadanie",
+    "to": "wyzwanie"
+   }
+  }
+ ],
+ "end": {
+  "question": "Który program *odpala się u ciebie* najczęściej?",
+  "cta": "Zapisz i zaplanuj, co włączasz zamiast niego.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
