@@ -1,0 +1,38 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Jutro gram przeciwko najlepszemu kumplowi.",
+    "*I jak się z tym czujesz?*"
+   ],
+   "text": "Na boisku rywale.\n*Po meczu dalej kumple*."
+  },
+  {
+   "kind": "point",
+   "title": "Mieszane *uczucia*",
+   "body": "Chce wygrać i nie chce, żeby kolega przegrał. Te dwie rzeczy mogą być razem.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Gra *na całego*",
+   "body": "Pełne zaangażowanie wobec przyjaciela to wyraz szacunku.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Po gwizdku *wspólna sprawa*",
+   "body": "Uścisk dłoni, rozmowa, wspólne lody. Wynik zostaje na boisku.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Sport uczy, że *można rywalizować i się lubić*.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko gra przeciwko przyjacielowi.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Wygrał turniej, a teraz mu się nie chce.",
+   "new": "Po dużej radości\n*spadek energii jest normalny*.",
+   "text": "Po sukcesie też trzeba odpocząć."
+  },
+  {
+   "kind": "point",
+   "title": "Emocje *kosztują*",
+   "body": "Duży turniej to dużo emocji, także tych przyjemnych. Potem ciało i głowa odpoczywają.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Nowy cel *na spokojnie*",
+   "body": "Po kilku dniach zapytaj, co chce robić dalej. Nie od razu po medalu.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "point",
+   "title": "Sukces *bez zobowiązań*",
+   "body": "Medal nie oznacza, że teraz musi wygrywać zawsze. Zdejmij ten ciężar.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "end",
+   "text": "Po sukcesie dziecko potrzebuje *chwili oddechu*, zanim ruszy dalej.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko właśnie coś wygrało.",
+   "icon": "heart"
+  }
+ ]
+}

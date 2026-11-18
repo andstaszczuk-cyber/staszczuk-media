@@ -1,0 +1,35 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "car",
+   "text": "Nie dałeś rady przyjść na mecz?\n*Nie musisz być na każdym*."
+  },
+  {
+   "kind": "point",
+   "title": "Wyrzuty *nie pomagają*",
+   "body": "Praca, młodsze rodzeństwo, dwa mecze naraz. Czasem po prostu się nie da.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj *o mecz*",
+   "body": "Opowiedz mi, jak było. Takie pytanie wieczorem znaczy bardzo dużo.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *radzi sobie samo*",
+   "body": "Mecz bez rodzica na trybunach to też okazja do samodzielności.",
+   "icon": "door"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko pamięta *Twoje zainteresowanie*.",
+   "cta": "Zapisz i wyślij rodzicowi, który ma wyrzuty sumienia po opuszczonym meczu.",
+   "icon": "heart"
+  }
+ ]
+}

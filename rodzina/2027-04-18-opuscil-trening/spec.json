@@ -1,0 +1,38 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Trening był odwołany.",
+    "*Trener pytał, gdzie byłeś.*"
+   ],
+   "text": "Za kłamstwem\n*często stoi powód*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *spokój*",
+   "body": "Krzyk i kara zamykają rozmowę. Następnym razem dziecko lepiej ukryje prawdę.",
+   "icon": "door"
+  },
+  {
+   "kind": "point",
+   "title": "Szukaj *powodu*",
+   "body": "Nuda, konflikt w drużynie, strach przed trenerem, zmęczenie. Każdy wymaga czegoś innego.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Umowa *na przyszłość*",
+   "body": "Ustalcie, że o niechęci do treningu można w domu powiedzieć wprost.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko, które może powiedzieć prawdę, *nie musi kombinować*.",
+   "cta": "Zapisz i wyślij rodzicowi, który właśnie odkrył opuszczony trening.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "W przerwie meczu\n*zostań na trybunach*:",
+   "items": [
+    "przerwa jest dla drużyny",
+    "mówi trener",
+    "Twoje uwagi poczekają",
+    "wystarczy pomachać"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Przerwa *dla drużyny*",
+   "body": "Dziecko pije, odpoczywa i słucha trenera. Tego czasu jest niewiele.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna *wskazówka*",
+   "body": "W przerwie dziecko zapamięta jedną rzecz. Niech to będzie ta od trenera.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Twój *uśmiech wystarczy*",
+   "body": "Machnięcie ręką z trybun mówi: jestem tu. Więcej dziecku w tej chwili nie trzeba.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Przerwa należy *do drużyny i trenera*.",
+   "cta": "Zapisz i wyślij rodzicowi, który w przerwie biegnie do ławki.",
+   "icon": "heart"
+  }
+ ]
+}

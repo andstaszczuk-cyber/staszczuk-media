@@ -1,0 +1,36 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Ktoś to posprząta.",
+   "new": "*Zostawiamy miejsce czyste*.",
+   "text": "Szacunek do boiska to też część sportu."
+  },
+  {
+   "kind": "point",
+   "title": "Boisko *to wspólne miejsce*",
+   "body": "Ktoś je przygotował i ktoś będzie z niego korzystał po nas.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Dorośli *pokazują*",
+   "body": "Dzieci patrzą, co zostaje po rodzicach na trybunach.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Drobiazg, *który mówi wiele*",
+   "body": "Butelka do kosza, pachołki do worka. Tak wygląda postawa zawodnika.",
+   "icon": "bag"
+  },
+  {
+   "kind": "end",
+   "text": "Szacunek do miejsca *uczy szacunku do ludzi*.",
+   "cta": "Zapisz i wyślij rodzicowi, który dba o porządek po meczu.",
+   "icon": "heart"
+  }
+ ]
+}

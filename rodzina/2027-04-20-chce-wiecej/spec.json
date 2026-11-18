@@ -1,0 +1,34 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Sam chce trenować\n*codziennie*?\nOdpoczynek *też jest treningiem*."
+  },
+  {
+   "kind": "point",
+   "title": "Zapał *jest piękny*",
+   "body": "Dziecko, które samo chce trenować, ma wielki skarb. Warto go chronić.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Ciało *rośnie w odpoczynku*",
+   "body": "Postęp przychodzi, kiedy trening przeplata się z przerwą.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdź, *skąd ten pośpiech*",
+   "body": "Radość z gry czy strach, że inni go wyprzedzą? To dwie różne historie.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "end",
+   "text": "Najlepszy zapał to taki, który *wystarczy na lata*.",
+   "cta": "Zapisz i wyślij rodzicowi dziecka, które chce trenować bez przerwy.",
+   "icon": "heart"
+  }
+ ]
+}
