@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "PO MECZU",
+   "text": "Działacz w drzwiach\\n*szatni*."
+  },
+  {
+   "kind": "point",
+   "title": "Spokojny ton",
+   "body": "Mówisz krótko i rzeczowo. Nie wchodzisz w przepychankę słowną.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Granica rozmowy",
+   "body": "Masz prawo powiedzieć, że teraz nie dyskutujesz o decyzjach.",
+   "icon": "dom"
+  },
+  {
+   "kind": "point",
+   "title": "Opisujesz w protokole",
+   "body": "Jeśli przekroczono granicę, robisz swoją robotę na papierze.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Mecz się skończył.\\n*Ty też możesz skończyć*.",
+   "cta": "Zapisz i wróć po trudnym meczu"
+  }
+ ]
+}

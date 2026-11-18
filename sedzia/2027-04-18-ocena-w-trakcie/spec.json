@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Oceniasz się\\n*w trakcie meczu*?"
+  },
+  {
+   "kind": "point",
+   "title": "Komentator w głowie",
+   "body": "Już zawaliłem, dziś słabo. Takie myśli przychodzą same.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Ocena po meczu",
+   "body": "W trakcie masz zadania. Notę wystawisz sobie potem.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Następna akcja",
+   "body": "Wracasz do tego, co dzieje się teraz z piłką.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Najpierw mecz,\\n*potem ocena*.",
+   "cta": "Zapisz i wróć przed kolejnym meczem"
+  }
+ ]
+}

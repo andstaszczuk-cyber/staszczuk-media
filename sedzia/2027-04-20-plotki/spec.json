@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "locker",
+   "text": "Plotki w środowisku?\\n*Robisz swoje*."
+  },
+  {
+   "kind": "point",
+   "title": "Słyszysz coś o sobie",
+   "body": "Ktoś coś powiedział, ktoś coś przekazał. Emocje od razu rosną.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "point",
+   "title": "Fakty czy domysły",
+   "body": "Sprawdzasz, co jest informacją, a co czyjąś interpretacją.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja robota mówi",
+   "body": "Najlepszą odpowiedzią są kolejne dobre mecze.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Ludzie mówią.\\n*Ty sędziujesz*.",
+   "cta": "Zapisz i wróć, kiedy usłyszysz coś o sobie"
+  }
+ ]
+}

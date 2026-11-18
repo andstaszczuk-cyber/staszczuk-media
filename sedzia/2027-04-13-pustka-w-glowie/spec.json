@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "glowa",
+   "text": "Pustka w głowie\\n*w środku meczu*?"
+  },
+  {
+   "kind": "point",
+   "title": "To się zdarza",
+   "body": "Pod presją pamięć potrafi na chwilę się zaciąć. Każdemu.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Kupujesz sobie czas",
+   "body": "Spokojny krok, wydech, rzut oka na sytuację. Kilka sekund wystarczy.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "point",
+   "title": "Wracasz do podstaw",
+   "body": "Co widziałem? Jaki jest najprostszy sposób wznowienia?",
+   "icon": "ksiazka"
+  },
+  {
+   "kind": "end",
+   "text": "Chwila pustki\\n*to jeszcze nie błąd*.",
+   "cta": "Zapisz i wróć przed kolejnym meczem"
+  }
+ ]
+}

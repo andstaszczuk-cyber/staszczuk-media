@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "penalty",
+   "text": "Mecz wieczorem,\\n*przy światłach*."
+  },
+  {
+   "kind": "point",
+   "title": "Inny rytm dnia",
+   "body": "Cały dzień czekania potrafi zmęczyć bardziej niż sam mecz.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Plan na popołudnie",
+   "body": "Lekki posiłek, krótki odpoczynek, spokojne zajęcie.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Światło i cienie",
+   "body": "Na rozgrzewce sprawdź, jak widać piłkę przy jupiterach.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Późny mecz.\\n*Ta sama koncentracja*.",
+   "cta": "Zapisz i wróć przed wieczornym meczem"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "WĄTPLIWOŚĆ",
+   "sub": "Pytanie to *kompetencja sędziego*.",
+   "text": "Nie wiesz?\\n*Zapytaj*."
+  },
+  {
+   "kind": "point",
+   "title": "Wstyd blokuje",
+   "body": "Głowa podsuwa, że doświadczony sędzia powinien wiedzieć wszystko.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Pytasz konkretnie",
+   "body": "Jedna sytuacja, jedno pytanie, najlepiej z nagraniem.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Zapisujesz odpowiedź",
+   "body": "Wiedza zostaje z tobą na kolejne mecze.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Kto pyta,\\n*szybciej się uczy*.",
+   "cta": "Zapisz i wróć z pytaniem po meczu"
+  }
+ ]
+}

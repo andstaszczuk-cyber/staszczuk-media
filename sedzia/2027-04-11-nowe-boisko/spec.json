@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "car",
+   "text": "Nowe boisko?\\n*Przyjedź wcześniej*."
+  },
+  {
+   "kind": "point",
+   "title": "Zapas czasu",
+   "body": "Nieznany dojazd, parking, szatnia. Dodaj sobie spokojne pół godziny.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Obejdź boisko",
+   "body": "Murawa, linie, słońce, trybuny. Zobacz to przed meczem.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Znajome rzeczy",
+   "body": "Twoja rutyna jest ta sama na każdym boisku. Zabierasz ją ze sobą.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Obce miejsce,\\n*twoja rutyna*.",
+   "cta": "Zapisz i wróć przed wyjazdem na nowe boisko"
+  }
+ ]
+}

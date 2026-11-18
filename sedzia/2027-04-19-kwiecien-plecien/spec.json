@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Kwiecień plecień.\\n*Ty zostajesz sobą*."
+  },
+  {
+   "kind": "point",
+   "title": "Słońce, deszcz, wiatr",
+   "body": "W jednym meczu potrafią się zmienić wszystkie warunki.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Zmiana dla wszystkich",
+   "body": "Obie drużyny grają w tej samej pogodzie. Ty też.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Dopasowujesz szczegóły",
+   "body": "Ustawienie, strój, rozgrzewka. Reszta zostaje bez zmian.",
+   "icon": "lista"
+  },
+  {
+   "kind": "end",
+   "text": "Pogoda się zmienia.\\n*Twój sposób zostaje*.",
+   "cta": "Zapisz i wróć przed meczem w zmiennej pogodzie"
+  }
+ ]
+}

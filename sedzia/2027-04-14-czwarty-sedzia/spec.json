@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "bench_talk",
+   "text": "Czwarty sędzia.\\n*Mniej widać, dużo robisz*."
+  },
+  {
+   "kind": "point",
+   "title": "Ławki blisko",
+   "body": "Jesteś pierwszy na linii ognia przy emocjach trenerów.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "point",
+   "title": "Spokój przy linii",
+   "body": "Krótko, rzeczowo, z szacunkiem. Bez dyskusji o decyzjach.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Wsparcie dla zespołu",
+   "body": "Twoje oczy i informacje pomagają sędziemu głównemu.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Mniej widoczna rola,\\n*ta sama odpowiedzialność*.",
+   "cta": "Zapisz i wróć przed obsadą przy linii"
+  }
+ ]
+}
