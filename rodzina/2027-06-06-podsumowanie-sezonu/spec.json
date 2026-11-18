@@ -1,0 +1,36 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Ile bramek strzeliłeś w tym sezonie?",
+   "new": "Czego *nauczyłeś się* w tym sezonie?",
+   "text": "Podsumowanie sezonu z dzieckiem."
+  },
+  {
+   "kind": "point",
+   "title": "Czego *się nauczyło*?",
+   "body": "Technika, samodzielność, powrót po błędzie. Wszystko się liczy.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Co było *najtrudniejsze*?",
+   "body": "Dziecko zobaczy, że przeszło przez coś trudnego. To dowód na przyszłość.",
+   "icon": "compass"
+  },
+  {
+   "kind": "point",
+   "title": "Z czego *jest dumne*?",
+   "body": "Odpowiedź bywa zaskakująca. Słuchaj i dopytuj.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Wynik zostaje w tabeli. *Nauka zostaje z dzieckiem*.",
+   "cta": "Zapisz te trzy pytania na wakacyjną rozmowę.",
+   "icon": "heart"
+  }
+ ]
+}

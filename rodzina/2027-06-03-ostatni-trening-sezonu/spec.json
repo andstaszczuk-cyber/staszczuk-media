@@ -1,0 +1,41 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Ostatni trening\n*sezonu*:",
+   "items": [
+    "przybij piątkę kolegom",
+    "zapamiętaj dobrą akcję",
+    "powiedz trenerowi do września",
+    "torba do prania"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Stawiamy *kropkę*",
+   "body": "Wyraźne zakończenie pomaga zostawić trudne chwile i zatęsknić za dobrymi.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna *dobra akcja*",
+   "body": "Zapytaj, co z sezonu dziecko pamięta najlepiej. Pomóż pamięci wyciągnąć dobre momenty.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Torba *do szafy*",
+   "body": "Wyprana i schowana. Sygnał, że teraz jest czas na odpoczynek.",
+   "icon": "bag"
+  },
+  {
+   "kind": "end",
+   "text": "Kropka na końcu sezonu *otwiera wakacje*.",
+   "cta": "Zapisz i wyślij rodzicom z drużyny.",
+   "icon": "heart"
+  }
+ ]
+}

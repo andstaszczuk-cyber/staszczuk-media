@@ -1,0 +1,36 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Kupię Ci nowe korki na Dzień Dziecka.",
+   "new": "Dziś *Ty wybierasz, w co gramy*.",
+   "text": "Dzień Dziecka z rodzicem, który ma czas."
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *ustala zasady*",
+   "body": "Gra, miejsce i punktacja należą dziś do niego. Ty grasz według jego reguł.",
+   "icon": "dice"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *poprawiania*",
+   "body": "Dziś nie oceniasz techniki. Śmiejesz się i grasz do końca.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Telefon *odłożony*",
+   "body": "Godzina pełnej obecności znaczy więcej niż cały dzień obok siebie.",
+   "icon": "phone"
+  },
+  {
+   "kind": "end",
+   "text": "Najlepszy prezent to *Twój czas*.",
+   "cta": "Zapisz i wyślij rodzicowi, który dziś gra z dzieckiem.",
+   "icon": "heart"
+  }
+ ]
+}

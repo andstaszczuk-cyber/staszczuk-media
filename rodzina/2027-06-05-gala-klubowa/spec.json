@@ -1,0 +1,35 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "trophy",
+   "text": "Statuetki dostali inni.\n*Twoje dziecko też miało sezon*."
+  },
+  {
+   "kind": "point",
+   "title": "Docenić możesz *Ty*",
+   "body": "Konkretnie: za obecność, nowe zagranie, wsparcie dla kolegów.",
+   "icon": "heart"
+  },
+  {
+   "kind": "point",
+   "title": "Gratulacje *z klasą*",
+   "body": "Kolega ze statuetką miał świetny rok. Gratulacje to powód do dumy.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Gala to *święto klubu*",
+   "body": "Dziecko było częścią sezonu i ma prawo czuć się tam dobrze.",
+   "icon": "podium"
+  },
+  {
+   "kind": "end",
+   "text": "To, czego się nauczyło, *idzie z nim dalej*.",
+   "cta": "Zapisz przed zakończeniem sezonu w klubie.",
+   "icon": "heart"
+  }
+ ]
+}

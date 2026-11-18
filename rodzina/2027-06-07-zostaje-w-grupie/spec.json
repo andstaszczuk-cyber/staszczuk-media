@@ -1,0 +1,38 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Trener mówi, że zostaję w tej samej grupie.",
+    "*Co chcesz w niej jeszcze zrobić?*"
+   ],
+   "text": "Kolejny rok w grupie to *czas na szlif*."
+  },
+  {
+   "kind": "point",
+   "title": "Rozczarowanie *ma sens*",
+   "body": "Daj mu się wygadać. Bez przekonywania, że to nic takiego.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Różne *tempo rozwoju*",
+   "body": "Decyzja mówi, gdzie dziecko jest teraz. Za rok może być gdzie indziej.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Szansa *na lidera*",
+   "body": "Więcej gry i odpowiedzialności w znanej grupie. Czas na szlif.",
+   "icon": "podium"
+  },
+  {
+   "kind": "end",
+   "text": "Każde dziecko ma *swoje tempo*.",
+   "cta": "Zapisz i wyślij rodzicowi, który usłyszał taką decyzję.",
+   "icon": "heart"
+  }
+ ]
+}

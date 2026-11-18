@@ -1,0 +1,34 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Ostatni mecz przegrany?\n*Sezon miał ich dużo więcej*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *emocje*",
+   "body": "Wieczór po przegranej to czas na obecność. Analiza poczeka kilka dni.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Cały sezon *w kadrze*",
+   "body": "Wiele meczów i treningów. Jeden mecz to mały wycinek tej całości.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Notatka *na wrzesień*",
+   "body": "Zapiszcie, nad czym popracować, i odłóżcie to do powrotu.",
+   "icon": "book"
+  },
+  {
+   "kind": "end",
+   "text": "Ostatni mecz *to jeszcze nie cały rok*.",
+   "cta": "Zapisz na wieczór po ostatnim meczu sezonu.",
+   "icon": "heart"
+  }
+ ]
+}

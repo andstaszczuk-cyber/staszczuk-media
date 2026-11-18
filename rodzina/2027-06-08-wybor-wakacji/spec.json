@@ -1,0 +1,41 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Plan na wakacje?\n*Zapytaj dziecko*:",
+   "items": [
+    "czego chce latem",
+    "z kim chce spędzić czas",
+    "ile chce trenować",
+    "jak lubi odpoczywać"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *pytasz*",
+   "body": "Czego chce latem, z kim, ile trenować. Odpowiedzi bywają zaskakujące.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja *zostaje przy Was*",
+   "body": "Znacie budżet i terminy. Dziecko ma wpływ, Wy macie ostatnie słowo.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Odpoczynek *od trenera*",
+   "body": "Rower, woda, podwórko. Taki ruch też ładuje baterie przed wrześniem.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Plan zrobiony razem *cieszy podwójnie*.",
+   "cta": "Zapisz przed zapisami na wakacje.",
+   "icon": "heart"
+  }
+ ]
+}

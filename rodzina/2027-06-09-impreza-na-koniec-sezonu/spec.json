@@ -1,0 +1,34 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Pizza z drużyną na koniec sezonu.\n*Rezerwowy też na nią zasłużył*."
+  },
+  {
+   "kind": "point",
+   "title": "Drużyna to *więcej niż skład*",
+   "body": "Treningi, rozgrzewki, doping z ławki. Bez rezerwowych nie ma zespołu.",
+   "icon": "bench"
+  },
+  {
+   "kind": "point",
+   "title": "Co *wniosło*?",
+   "body": "Zapytaj, co dało drużynie w tym roku. Niech samo to nazwie.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Zachęć, *bez przymusu*",
+   "body": "Wspólne świętowanie buduje więzi na kolejny sezon.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Ławka rezerwowych to *ławka gotowych*.",
+   "cta": "Zapisz i wyślij rodzicowi rezerwowego.",
+   "icon": "heart"
+  }
+ ]
+}

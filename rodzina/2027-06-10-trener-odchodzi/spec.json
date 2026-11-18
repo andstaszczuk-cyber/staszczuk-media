@@ -1,0 +1,35 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "door",
+   "text": "Trener odchodzi po sezonie.\n*Dziecko może się pożegnać*."
+  },
+  {
+   "kind": "point",
+   "title": "Smutek *jest naturalny*",
+   "body": "Relacja z trenerem bywa bardzo bliska. Daj prawo to przeżyć.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Pomóż *się pożegnać*",
+   "body": "Kartka, zdjęcie, kilka zdań osobiście. Domknięta relacja zostawia ciepło.",
+   "icon": "gift"
+  },
+  {
+   "kind": "point",
+   "title": "Nowy trener *to szansa*",
+   "body": "Relacja zbuduje się z czasem. Z poprzednim też tak było.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Dobre pożegnanie *otwiera na nowe*.",
+   "cta": "Zapisz i wyślij rodzicom z drużyny.",
+   "icon": "heart"
+  }
+ ]
+}

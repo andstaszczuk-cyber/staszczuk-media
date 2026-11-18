@@ -1,0 +1,38 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Mamo, w tym upale nie dam rady na treningu.",
+    "*Sprawdźmy razem, co pomoże*."
+   ],
+   "text": "Upał to też *warunek do ogarnięcia*."
+  },
+  {
+   "kind": "point",
+   "title": "Woda i *czapka*",
+   "body": "Bidon spakowany przed wyjściem, czapka na zajęcia na dworze, cień w przerwie.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Słabsza forma *jest normalna*",
+   "body": "Ciało zużywa energię na chłodzenie. Mniej siły w upale to reakcja organizmu.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Ma prawo *przerwać*",
+   "body": "Gdy czuje się bardzo źle, mówi trenerowi. To odpowiedzialność za siebie.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "end",
+   "text": "Upał to karta z rozdania. *Wpływ masz na resztę*.",
+   "cta": "Zapisz przed kolejnym gorącym treningiem.",
+   "icon": "heart"
+  }
+ ]
+}
