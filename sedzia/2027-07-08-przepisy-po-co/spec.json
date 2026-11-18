@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Zmiany w przepisach?\\n*Zrozum, po co są*."
+  },
+  {
+   "kind": "point",
+   "title": "Przeczytaj sam",
+   "body": "Spokojnie, z oficjalnego źródła, zanim usłyszysz wersję z drugiej ręki.",
+   "icon": "ksiazka"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj: po co?",
+   "body": "Jaki problem na boisku ma rozwiązać ta zmiana?",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Przećwicz w głowie",
+   "body": "Wyobraź sobie trzy sytuacje, w których ją zastosujesz.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Gdy rozumiesz,\\n*decydujesz samodzielnie*.",
+   "cta": "Zapisz przed szkoleniem z przepisów"
+  }
+ ]
+}

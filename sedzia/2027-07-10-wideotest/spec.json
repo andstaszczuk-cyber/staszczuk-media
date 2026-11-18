@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "hall",
+   "text": "Test z klipów na szkoleniu.\\n*Decydujesz jak w meczu*."
+  },
+  {
+   "kind": "point",
+   "title": "Kilka sekund",
+   "body": "Klip leci, potem zapada decyzja. Jak na boisku.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "point",
+   "title": "Głowa szuka podstępu",
+   "body": "Pojawia się myśl, że to musi być coś trudniejszego.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsza decyzja",
+   "body": "Zmieniaj ją tylko z konkretnego powodu.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Ufasz temu,\\n*co widziałeś*.",
+   "cta": "Zapisz przed letnim szkoleniem"
+  }
+ ]
+}

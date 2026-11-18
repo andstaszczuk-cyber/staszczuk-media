@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "TEST KONDYCYJNY",
+   "text": "Oblany test\\n*to informacja*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw emocje",
+   "body": "Złość i wstyd są normalne. Daj im dzień albo dwa.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Potem fakty",
+   "body": "Który odcinek nie wyszedł? Tempo, zmęczenie, sen, nerwy?",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Plan do poprawki",
+   "body": "Rozpisz tygodnie do terminu z kimś, kto zna się na treningu.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Jeden test\\n*mówi o jednym dniu*.",
+   "cta": "Zapisz i wróć przed poprawką"
+  }
+ ]
+}

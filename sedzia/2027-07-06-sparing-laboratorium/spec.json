@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "SPARINGI",
+   "text": "Sparing to\\n*twoje laboratorium*.",
+   "sub": "Przetestuj *jedną nową rzecz*, zanim zacznie się liga."
+  },
+  {
+   "kind": "point",
+   "title": "Wybierz jedną rzecz",
+   "body": "Nowe ustawienie, sygnał z asystentem albo rozmowa z kapitanem.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdź w meczu",
+   "body": "Stawka jest mała, więc błąd kosztuje niewiele.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Oceń po meczu",
+   "body": "Działa, zostawiasz. Działa słabo, poprawiasz albo odrzucasz.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Testujesz w lipcu,\\n*w sierpniu już umiesz*.",
+   "cta": "Zapisz przed pierwszym sparingiem"
+  }
+ ]
+}

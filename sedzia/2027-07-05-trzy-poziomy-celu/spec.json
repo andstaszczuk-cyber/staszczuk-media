@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "3",
+   "text": "poziomy celu\\n*na nowy sezon*."
+  },
+  {
+   "kind": "point",
+   "title": "Wynik",
+   "body": "Gdzie chcesz być po sezonie. Na przykład wyższa liga.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Umiejętność",
+   "body": "Co musisz umieć lepiej, żeby się tam znaleźć.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Ćwiczenie",
+   "body": "Co konkretnie zrobisz w tym tygodniu.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Z lotu ptaka\\n*do konkretnego kroku*.",
+   "cta": "Zapisz i rozpisz swój cel"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Ułóż sobie otoczenie.\\n*Motywacja dołączy po drodze*."
+  },
+  {
+   "kind": "point",
+   "title": "Upał i wakacje",
+   "body": "Latem łatwo przesunąć trening na jutro.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Przygotuj wieczorem",
+   "body": "Buty i strój przy drzwiach, trening rano przed upałem.",
+   "icon": "szafa"
+  },
+  {
+   "kind": "point",
+   "title": "Wpisz w kalendarz",
+   "body": "Konkretna godzina i miejsce, jak spotkanie.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Trening według planu,\\n*nawet bez ochoty*.",
+   "cta": "Zapisz i przygotuj strój na jutro"
+  }
+ ]
+}

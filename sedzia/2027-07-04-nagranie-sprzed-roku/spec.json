@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "replay",
+   "text": "Obejrzyj swój mecz\\n*sprzed roku*."
+  },
+  {
+   "kind": "point",
+   "title": "Postęp widać z dystansu",
+   "body": "Z tygodnia na tydzień zmiany są za małe, żeby je zauważyć.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Dwa nagrania",
+   "body": "Mecz z zeszłego lata i mecz z końcówki sezonu.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "point",
+   "title": "Wypisz różnice",
+   "body": "Ustawienie, gesty, spokój przy spornych akcjach.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Zobaczysz,\\n*ile już przeszedłeś*.",
+   "cta": "Zapisz i poszukaj starego nagrania"
+  }
+ ]
+}

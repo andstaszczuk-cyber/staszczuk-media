@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "ludzie",
+   "text": "Na obozie sędziowskim\\n*poznajesz swoich ludzi*."
+  },
+  {
+   "kind": "point",
+   "title": "Ta sama droga",
+   "body": "Podobne mecze, podobne obawy, podobne pytania.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowy po zajęciach",
+   "body": "Przy kolacji często uczysz się tyle samo co na sali.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Zostańcie w kontakcie",
+   "body": "Wymieńcie się numerami i umówcie na telefon po pierwszych kolejkach.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "end",
+   "text": "Kim się otaczasz,\\n*tak się rozwijasz*.",
+   "cta": "Zapisz przed wyjazdem na obóz"
+  }
+ ]
+}

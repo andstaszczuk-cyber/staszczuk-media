@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "phone",
+   "text": "Lipiec bez klipów\\n*i sędziowskich grup*."
+  },
+  {
+   "kind": "point",
+   "title": "Głowa dalej sędziuje",
+   "body": "Sezon się skończył, a telefon co chwilę podsyła sporne sytuacje.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "point",
+   "title": "Wycisz na kilka tygodni",
+   "body": "Grupy, powiadomienia, kanały z powtórkami. Wrócą w sierpniu.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdź, co się zmieni",
+   "body": "Po tygodniu zobacz, jak śpisz i ile myślisz o sędziowaniu.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Odpoczynek od meczów\\n*to też odpoczynek od telefonu*.",
+   "cta": "Zapisz i wycisz jedną grupę jeszcze dziś"
+  }
+ ]
+}

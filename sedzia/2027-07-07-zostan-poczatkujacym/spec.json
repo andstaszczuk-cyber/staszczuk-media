@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "walk",
+   "text": "Spróbuj latem\\n*czegoś, czego nie umiesz*."
+  },
+  {
+   "kind": "point",
+   "title": "Nowy sport",
+   "body": "Rower, pływanie, tenis, wspinaczka. Coś, w czym jesteś początkujący.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Poczujesz to co zawodnik",
+   "body": "Błędy, frustrację i chęć, żeby ktoś spokojnie wytłumaczył.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Weź to na boisko",
+   "body": "Więcej cierpliwości dla tych, którzy dopiero się uczą.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Mistrz potrafi\\n*stać się uczniem*.",
+   "cta": "Zapisz i wybierz coś na lato"
+  }
+ ]
+}
