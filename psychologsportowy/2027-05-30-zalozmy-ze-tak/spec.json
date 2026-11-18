@@ -1,0 +1,96 @@
+{
+ "cover": {
+  "big": "ZAŁÓŻMY",
+  "bigSize": 190,
+  "bigSub": "że się uda. I co wtedy robisz?",
+  "title": "Sukces jako\n*hipoteza robocza*",
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 480,
+     "y": 80,
+     "s": 160,
+     "c": "soft"
+    },
+    {
+     "k": "arrow",
+     "x1": 660,
+     "y1": 160,
+     "x2": 740,
+     "y2": 160
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 770,
+     "y": 80,
+     "s": 130,
+     "c": "A"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Pytanie czy blokuje",
+   "body": "Czy mi się uda? Głowa nie ma odpowiedzi, więc dopisuje najgorszą.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "czy mi się uda?",
+    "to": "załóżmy, że tak"
+   }
+  },
+  {
+   "title": "Potem pytasz co",
+   "body": "Co trzeba robić, żeby to było realne? Czego jeszcze nie robisz?",
+   "viz": {
+    "type": "table",
+    "left": "ROBIĘ",
+    "right": "JESZCZE NIE",
+    "good": true,
+    "rows": [
+     [
+      "treningi",
+      "regeneracja"
+     ],
+     [
+      "technika",
+      "plan startowy"
+     ],
+     [
+      "siła",
+      "rozmowa z trenerem"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Braki zamieniasz w zadania",
+   "body": "Każda brakująca rzecz dostaje termin i pierwszy krok.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "regeneracja",
+     "plan startowy",
+     "rozmowa",
+     "start"
+    ],
+    "done": 1,
+    "top": true
+   }
+  }
+ ],
+ "end": {
+  "question": "Co robisz, *zakładając*, że się uda?",
+  "cta": "Zapisz trzy rzeczy, których jeszcze nie robisz.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

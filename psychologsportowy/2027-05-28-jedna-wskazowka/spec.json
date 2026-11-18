@@ -1,0 +1,122 @@
+{
+ "cover": {
+  "kicker": "PRZERWA W MECZU",
+  "title": "W przerwie\n*jedna wskazówka*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 80,
+     "y": 90,
+     "s": 1.0,
+     "pose": "coach",
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "x": 420,
+     "y": 90,
+     "s": 1.0,
+     "pose": "stand",
+     "flip": true
+    },
+    {
+     "k": "bubble",
+     "x": 600,
+     "y": -70,
+     "w": 300,
+     "h": 100,
+     "lines": [
+      "jedna rzecz"
+     ],
+     "c": "A",
+     "size": 36,
+     "tail": "left"
+    },
+    {
+     "k": "chip",
+     "x": 30,
+     "y": 0,
+     "text": "obrona",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 200,
+     "y": 30,
+     "text": "tempo",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 60,
+     "y": 70,
+     "text": "podania",
+     "c": "soft",
+     "tc": "fg"
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Pięć uwag to żadna",
+   "body": "W emocjach głowa zapamięta jedną rzecz. Reszta przepada.",
+   "viz": {
+    "type": "bars",
+    "caption": "CO ZAPAMIĘTASZ",
+    "items": [
+     {
+      "label": "5 uwag",
+      "v": 0.2
+     },
+     {
+      "label": "1 uwaga",
+      "v": 0.85,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Wybierz najważniejszą",
+   "body": "Co jedno zmieni najwięcej w drugiej połowie?",
+   "viz": {
+    "type": "focus",
+    "center": "niżej w obronie",
+    "around": [
+     "tempo",
+     "podania",
+     "sędzia",
+     "wynik"
+    ]
+   }
+  },
+  {
+   "title": "Zamień ją na hasło",
+   "body": "Krótko, pozytywnie, konkretnie. Jedno słowo, które pamiętasz w akcji.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "nie dawaj się tak ogrywać",
+    "to": "niżej"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaka jest *twoja jedna* wskazówka na drugą połowę?",
+  "cta": "Zapisz i ustal z trenerem swoje hasło.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

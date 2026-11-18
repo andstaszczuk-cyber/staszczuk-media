@@ -1,0 +1,151 @@
+{
+ "cover": {
+  "big": "BŁĄD",
+  "bigSize": 210,
+  "bigSub": "to zwykła część treningu",
+  "title": "Trening jest\n*od błędów*",
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "cross",
+     "x": 520,
+     "y": 150,
+     "r": 50
+    },
+    {
+     "k": "arrow",
+     "x1": 590,
+     "y1": 150,
+     "x2": 690,
+     "y2": 150
+    },
+    {
+     "k": "check",
+     "x": 760,
+     "y": 150,
+     "r": 60
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Frustracja przychodzi szybko",
+   "body": "Ćwiczenie nie wychodzi trzeci raz i zaczyna się złość na siebie.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.2
+       ],
+       [
+        0.3,
+        0.5
+       ],
+       [
+        0.5,
+        0.85
+       ],
+       [
+        1,
+        0.9
+       ]
+      ],
+      "label": "złość"
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.6
+       ],
+       [
+        0.3,
+        0.5
+       ],
+       [
+        0.5,
+        0.35
+       ],
+       [
+        1,
+        0.2
+       ]
+      ],
+      "hl": true,
+      "label": "jakość"
+     }
+    ],
+    "x": "kolejne próby",
+    "y": "poziom"
+   }
+  },
+  {
+   "title": "Ścieżka frustracji",
+   "body": "Fakt, emocja w ciele, wydech, zdanie, następna próba.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "fakt",
+      "icon": "note"
+     },
+     {
+      "top": "ciało",
+      "icon": "heart"
+     },
+     {
+      "top": "wydech",
+      "icon": "wind"
+     },
+     {
+      "top": "zdanie",
+      "icon": "mic"
+     },
+     {
+      "top": "próba",
+      "icon": "play",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Krótszy czas złości to progres",
+   "body": "Złość przyjdzie. Liczysz, jak szybko wracasz.",
+   "viz": {
+    "type": "bars",
+    "caption": "CZAS POWROTU PO BŁĘDZIE",
+    "items": [
+     {
+      "label": "marzec",
+      "v": 0.8
+     },
+     {
+      "label": "kwiecień",
+      "v": 0.55
+     },
+     {
+      "label": "maj",
+      "v": 0.3,
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak długo *trzyma cię* złość po błędzie?",
+  "cta": "Zapisz i zmierz to na najbliższym treningu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

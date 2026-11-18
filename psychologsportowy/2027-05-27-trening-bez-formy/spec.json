@@ -1,0 +1,138 @@
+{
+ "cover": {
+  "kicker": "DŁUGI WEEKEND",
+  "title": "Trenuj też\n*bez formy*",
+  "size": 104,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 60,
+     "y": 60,
+     "s": 160,
+     "c": "soft"
+    },
+    {
+     "k": "person",
+     "x": 260,
+     "y": 60,
+     "s": 0.95,
+     "pose": "walk"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 640,
+     "y": 380,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 600,
+     "y": 300,
+     "text": "5 strzałów"
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Forma nie bywa codziennie",
+   "body": "Na ważnych startach rzadko masz pełną dyspozycję. Warto umieć grać i bez niej.",
+   "viz": {
+    "type": "week",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "battery"
+     },
+     {
+      "d": "wt",
+      "icon": "bolt",
+      "mark": "hl"
+     },
+     {
+      "d": "śr",
+      "icon": "battery"
+     },
+     {
+      "d": "cz",
+      "icon": "battery",
+      "dim": true
+     },
+     {
+      "d": "pt",
+      "icon": "bolt",
+      "mark": "hl"
+     },
+     {
+      "d": "sb",
+      "icon": "battery"
+     },
+     {
+      "d": "nd",
+      "icon": "bed"
+     }
+    ],
+    "note": "forma przychodzi i odchodzi"
+   }
+  },
+  {
+   "title": "Kilka powtórzeń w zmęczeniu",
+   "body": "Pięć strzałów na koniec treningu, kiedy już nie chce się nic.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "zmęczony",
+     "1 strzał",
+     "3 strzały",
+     "5 strzałów"
+    ],
+    "done": 4
+   }
+  },
+  {
+   "title": "Mądrze, bez zajeżdżania",
+   "body": "Krótko i z planem trenera. Uczysz się działać, ciało zostaje całe.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "TAK",
+      "items": [
+       "krótko",
+       "z planem",
+       "jeden element"
+      ],
+      "hl": true
+     },
+     {
+      "title": "NIE",
+      "items": [
+       "do upadłego",
+       "przy bólu"
+      ],
+      "dim": true,
+      "dash": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co potrafisz zrobić *bez formy*?",
+  "cta": "Zapisz i zaplanuj z trenerem kilka powtórzeń w zmęczeniu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

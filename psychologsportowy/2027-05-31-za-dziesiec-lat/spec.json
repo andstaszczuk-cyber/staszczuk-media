@@ -1,0 +1,104 @@
+{
+ "cover": {
+  "kicker": "KONIEC MAJA",
+  "title": "Czego nie chcesz\nżałować *za 10 lat*?",
+  "size": 84,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "viz",
+     "type": "timeline",
+     "x": 0,
+     "y": 40,
+     "s": 1,
+     "points": [
+      {
+       "top": "dziś",
+       "icon": "dumbbell",
+       "hl": true,
+       "bottom": [
+        "nie chce mi się"
+       ]
+      },
+      {
+       "top": "za rok",
+       "icon": "mountain"
+      },
+      {
+       "top": "za 10 lat",
+       "icon": "eye",
+       "bottom": [
+        "patrzę wstecz"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Ucieczka od żalu też motywuje",
+   "body": "Cel przyciąga. Czasem pcha też to, czego nie chcesz poczuć.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "cloudRain",
+     "label": "żal",
+     "sub": "mogłem więcej"
+    },
+    "right": {
+     "icon": "flag",
+     "label": "dziś",
+     "sub": "robię swoje"
+    }
+   }
+  },
+  {
+   "title": "Zadaj je w gorszy dzień",
+   "body": "Kiedy się nie chce, pytasz siebie z perspektywy za kilka lat.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "nie chce mi się",
+    "via": "za 10 lat?",
+    "to": "jeden trening"
+   }
+  },
+  {
+   "title": "Bez bata",
+   "body": "To pytanie ma pomagać. Jeśli tylko dociska, wróć do odpoczynku.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "POMAGA",
+      "items": [
+       "wstaję",
+       "robię swoje"
+      ],
+      "hl": true
+     },
+     {
+      "title": "DOCISKA",
+      "items": [
+       "wyrzuty",
+       "przemęczenie"
+      ],
+      "dim": true,
+      "dash": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co dziś zrobisz dla siebie *za 10 lat*?",
+  "cta": "Zapisz jedną rzecz na czerwiec.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

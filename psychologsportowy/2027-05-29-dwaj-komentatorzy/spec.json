@@ -1,0 +1,163 @@
+{
+ "cover": {
+  "left": "KOMENTATOR 1",
+  "right": "KOMENTATOR 2",
+  "title": "Ani tak dobry,\nani *tak zły*",
+  "size": 92,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "mic",
+     "x": 168,
+     "y": 40,
+     "s": 100,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 220,
+     "t": [
+      "jesteś",
+      "beznadziejny"
+     ],
+     "size": 36,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 48
+    },
+    {
+     "k": "icon",
+     "name": "mic",
+     "x": 632,
+     "y": 40,
+     "s": 100,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 220,
+     "t": [
+      "jesteś",
+      "genialny"
+     ],
+     "size": 36,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 48
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 330,
+     "s": 0.55,
+     "pose": "stand"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Dwie skrajne oceny",
+   "body": "Po złym meczu słyszysz tylko jednego. Po dobrym tylko drugiego.",
+   "viz": {
+    "type": "scale10",
+    "caption": "OCENA MECZU",
+    "points": [
+     {
+      "n": 1,
+      "label": "dramat"
+     },
+     {
+      "n": 6,
+      "label": "prawda",
+      "hl": true
+     },
+     {
+      "n": 10,
+      "label": "geniusz"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Prawda leży pośrodku",
+   "body": "Rozłóż występ na konkretne zachowania. Skala zamiast przymiotnika.",
+   "viz": {
+    "type": "table",
+    "left": "PRZYMIOTNIK",
+    "right": "KONKRET",
+    "good": true,
+    "rows": [
+     [
+      "fatalnie",
+      "3 straty w 2. połowie"
+     ],
+     [
+      "świetnie",
+      "dobre wyjścia do pressingu"
+     ],
+     [
+      "słabo",
+      "wolny start"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Komentator trzeci",
+   "body": "Ten, który widzi i dobre, i złe. Spokojnie i bez krzyku.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "mic",
+      "label": "beznadziejny"
+     },
+     {
+      "icon": "eye",
+      "label": "konkret",
+      "hl": true
+     },
+     {
+      "icon": "mic",
+      "label": "genialny"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Który komentator *mówi* w twojej głowie?",
+  "cta": "Zapisz ocenę ostatniego meczu w skali od 1 do 10.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

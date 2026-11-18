@@ -1,0 +1,145 @@
+{
+ "cover": {
+  "left": "WALCZĘ",
+  "right": "POZWALAM",
+  "title": "Pozwól im być\n*niezadowolonymi*",
+  "size": 88,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 90,
+     "y": 40,
+     "s": 100,
+     "c": "soft"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 240,
+     "y": 70,
+     "s": 100,
+     "c": "soft"
+    },
+    {
+     "k": "person",
+     "x": 120,
+     "y": 260,
+     "s": 0.6,
+     "pose": "hips",
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 560,
+     "y": 50,
+     "s": 90,
+     "c": "soft"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 720,
+     "y": 40,
+     "s": 110,
+     "c": "A"
+    },
+    {
+     "k": "person",
+     "x": 572,
+     "y": 260,
+     "s": 0.6,
+     "pose": "walk"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Wszystkich nie zadowolisz",
+   "body": "Zagrasz ofensywnie, ktoś skrytykuje. Zagrasz ostrożnie, skrytykuje ktoś inny.",
+   "viz": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "za wolno",
+     "za ryzykownie",
+     "za cicho"
+    ],
+    "ask": [
+     "moja",
+     "ocena",
+     "też się liczy"
+    ]
+   }
+  },
+  {
+   "title": "Pozwalasz i dalej słuchasz",
+   "body": "Rezygnujesz z walki o cudze emocje. Swoje zdanie zostawiasz przy sobie.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "ICH",
+      "items": [
+       "niezadowolenie",
+       "opinie"
+      ],
+      "dim": true
+     },
+     {
+      "title": "MOJE",
+      "items": [
+       "moje zachowanie",
+       "mój plan"
+      ],
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Wyczyść swoją stronę",
+   "body": "Powiedz, co masz do powiedzenia. Reakcja drugiej strony należy do niej.",
+   "viz": {
+    "type": "checklist",
+    "title": "MOJA STRONA",
+    "items": [
+     "powiedziałem",
+     "wysłuchałem",
+     "robię swoje"
+    ],
+    "back": false
+   }
+  }
+ ],
+ "end": {
+  "question": "Czyje niezadowolenie *nosisz* na treningi?",
+  "cta": "Zapisz i oddaj je właścicielowi.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
