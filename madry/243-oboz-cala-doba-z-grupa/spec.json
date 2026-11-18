@@ -1,0 +1,78 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na obozie jestem z grupą *przez całą dobę*",
+  "sub": "Brakuje mi chwili tylko dla siebie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Potrzeba ciszy jest normalna",
+   "body": "Jedni ładują się w grupie, inni w samotności. Oba sposoby są w porządku.",
+   "art": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "z grupą",
+      "v": 0.9,
+      "note": "treningi, posiłki, pokój"
+     },
+     {
+      "label": "sam",
+      "v": 0.15,
+      "hl": true,
+      "note": "kilka minut dziennie"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Znajdź swoje minuty",
+   "body": "Spacer, słuchawki, książka, chwila przed snem."
+  },
+  {
+   "title": "Powiedz wprost",
+   "body": "Krótko i życzliwie: potrzebuję chwili dla siebie, zaraz wracam."
+  }
+ ],
+ "end": {
+  "text": "Chwila dla siebie *to regeneracja*.",
+  "cta": "Zapisz i zaplanuj swoje minuty na obozie"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Miałem dobry sezon *i czuję, że teraz muszę więcej*",
+  "sub": "Każdy sukces podnosi mi poprzeczkę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "win",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Medal to wypadkowa",
+   "body": "Wynik pokazuje pracę, którą już wykonałeś.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "dobry sezon",
+    "via": "co zadziałało?",
+    "toIcon": "check",
+    "to": "powtarzam i rozwijam"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Cel z widełkami",
+   "body": "Ustal minimum i maksimum na nowy sezon. Bez kopiowania wyniku."
+  },
+  {
+   "title": "Najpierw domknij",
+   "body": "Zanim podniesiesz poprzeczkę, nazwij, co zrobiłeś dobrze."
+  }
+ ],
+ "end": {
+  "text": "Sukces to *punkt wyjścia*.",
+  "cta": "Zapisz i domknij swój dobry sezon"
+ }
+}

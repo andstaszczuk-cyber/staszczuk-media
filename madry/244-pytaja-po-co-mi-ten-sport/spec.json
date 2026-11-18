@@ -1,0 +1,73 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Pytają mnie, *po co mi ten sport*",
+  "sub": "Skoro nie wygrywam, to chyba nie ma sensu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Czego by ci brakowało?",
+   "body": "Wyobraź sobie rok bez sportu. Co tracisz?",
+   "art": {
+    "type": "hub",
+    "center": "mój sport",
+    "icon": "heart",
+    "items": [
+     "ludzie",
+     "ruch",
+     "wyzwania",
+     "rytm dnia"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Twoje powody",
+   "body": "Zapisz je swoimi słowami. To twoja odpowiedź."
+  },
+  {
+   "title": "Wynik to jedna z korzyści",
+   "body": "Ważna, a jednocześnie jedna z wielu."
+  }
+ ],
+ "end": {
+  "text": "Sens *znasz ty*.",
+  "cta": "Zapisz swoje trzy powody"
+ }
+}

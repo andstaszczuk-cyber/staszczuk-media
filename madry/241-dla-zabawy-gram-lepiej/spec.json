@@ -1,0 +1,75 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Gram dla zabawy *i wychodzi mi lepiej niż w sezonie*",
+  "sub": "Na letnim turnieju gra sama mi idzie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Co się zmieniło",
+   "body": "Mniej oceniania, więcej grania. Uwaga wraca do zadania.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "trophy",
+     "label": "w sezonie",
+     "sub": "myślę o wyniku"
+    },
+    "right": {
+     "icon": "ball",
+     "label": "latem",
+     "sub": "myślę o grze"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapisz ten stan",
+   "body": "Co robiłeś, jak się czułeś, o czym myślałeś. Szczegóły."
+  },
+  {
+   "title": "Przenieś kawałek",
+   "body": "Jedna rzecz z luźnego grania do sezonu. Rutyna, hasło, reakcja."
+  }
+ ],
+ "end": {
+  "text": "Swobodę *da się trenować*.",
+  "cta": "Zapisz, co działało na letnim turnieju"
+ }
+}

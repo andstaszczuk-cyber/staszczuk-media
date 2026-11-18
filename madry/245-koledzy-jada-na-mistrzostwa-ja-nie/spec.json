@@ -1,0 +1,75 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Koledzy jadą na mistrzostwa, *a ja zostaję w domu*",
+  "sub": "Cieszę się z nimi i jednocześnie mnie to boli",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Dwie emocje naraz",
+   "body": "Radość za innych i żal za siebie mogą być razem.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "heart",
+     "label": "cieszę się",
+     "sub": "z kolegów"
+    },
+    "right": {
+     "icon": "cloudRain",
+     "label": "żal mi",
+     "sub": "siebie"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Czego zabrakło?",
+   "body": "Na spokojnie, z trenerem. Konkretne elementy, bez wyroku."
+  },
+  {
+   "title": "Twój czas na pracę",
+   "body": "Kiedy oni startują, ty pracujesz nad swoim elementem."
+  }
+ ],
+ "end": {
+  "text": "Twoja droga *trwa dalej*.",
+  "cta": "Zapisz i umów się na rozmowę z trenerem"
+ }
+}
