@@ -1,0 +1,41 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Nastolatek chce trenować\n*na urlopie*:",
+   "items": [
+    "krótko",
+    "rano",
+    "bez presji",
+    "z dniem wolnym"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Doceń *zaangażowanie*",
+   "body": "Chęć trenowania to dobry znak. Warto ją uszanować.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Ustalcie *ramy*",
+   "body": "Ile dni, ile czasu. Reszta dnia należy do rodziny.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Odpoczynek *to też trening*",
+   "body": "Ciało wzmacnia się w przerwie. Ten argument przekonuje sportowców.",
+   "icon": "moon"
+  },
+  {
+   "kind": "end",
+   "text": "Ambicja i odpoczynek *mogą jechać razem*.",
+   "cta": "Zapisz przed rodzinnym wyjazdem.",
+   "icon": "heart"
+  }
+ ]
+}

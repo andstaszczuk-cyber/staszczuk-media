@@ -1,0 +1,38 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Daleko jeszcze? Nogi mnie bolą.",
+    "*Do tamtego drzewa i odpoczywamy*."
+   ],
+   "text": "Rodzinna *wędrówka w górach*."
+  },
+  {
+   "kind": "point",
+   "title": "Bliskie *cele*",
+   "body": "Do zakrętu, do mostu, do drzewa. Krótkie odcinki łatwiej przejść.",
+   "icon": "compass"
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *prowadzi*",
+   "body": "Niech wybiera tempo i wypatruje znaków. Wtedy to jego wyprawa.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Doceń *drogę*",
+   "body": "Na szczycie pochwal wysiłek. Widok to dodatek.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "end",
+   "text": "Na szlaku dziecko *uczy się wytrwałości*.",
+   "cta": "Zapisz przed górskim wyjazdem.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "compass",
+   "text": "W rodzinie sportowców\n*jedno dziecko woli książki*."
+  },
+  {
+   "kind": "point",
+   "title": "Inne *talenty*",
+   "body": "Rysuje, czyta, gra, buduje. To też są pasje.",
+   "icon": "book"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *porównań*",
+   "body": "Brat trenuje, ono woli coś innego. Każde ma swoją drogę.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Ruch *po swojemu*",
+   "body": "Spacer z psem, taniec w pokoju, rower. To też się liczy.",
+   "icon": "loop"
+  },
+  {
+   "kind": "end",
+   "text": "Każde dziecko *ma swoją drogę*.",
+   "cta": "Zapisz i wyślij rodzinie sportowców.",
+   "icon": "heart"
+  }
+ ]
+}

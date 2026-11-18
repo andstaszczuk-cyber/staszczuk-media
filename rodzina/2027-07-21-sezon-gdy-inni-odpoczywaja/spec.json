@@ -1,0 +1,36 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Wszyscy mają wakacje, a ja trenuję.",
+   "new": "Mój sezon *trwa właśnie teraz*.",
+   "text": "Letnie sporty w lipcu."
+  },
+  {
+   "kind": "point",
+   "title": "Zrozum *tęsknotę*",
+   "body": "Koledzy nad morzem, ono na zawodach. Ma prawo żałować.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Wakacje *po sezonie*",
+   "body": "Zaplanujcie odpoczynek po najważniejszych startach.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Mały *luz*",
+   "body": "Jedno popołudnie z kolegami między startami robi różnicę.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Każdy sport ma *swój kalendarz*.",
+   "cta": "Zapisz i wyślij rodzicowi letniego sportowca.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Oglądacie razem\n*wielki mecz*:",
+   "items": [
+    "chwalisz walkę",
+    "rozumiesz błędy",
+    "szanujesz rywali",
+    "szanujesz sędziów"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *słucha Ciebie*",
+   "body": "To, co mówisz o gwiazdach, po cichu odnosi do siebie.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Błąd *jest ludzki*",
+   "body": "Gwiazda też pudłuje. To dobra okazja do rozmowy.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Szacunek *dla rywala*",
+   "body": "Doceń dobrą akcję przeciwnika. Dziecko to zapamięta.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "end",
+   "text": "Kibicujesz gwiazdom, *a uczy się dziecko*.",
+   "cta": "Zapisz przed następnym meczem w telewizji.",
+   "icon": "heart"
+  }
+ ]
+}

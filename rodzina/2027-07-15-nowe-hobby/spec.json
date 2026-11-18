@@ -1,0 +1,35 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "sprout",
+   "text": "Nowa pasja w wakacje.\n*Daj jej trochę miejsca*."
+  },
+  {
+   "kind": "point",
+   "title": "Ciekawość *to zasób*",
+   "body": "Dziecko, które potrafi się zapalić, przyda się to także w sporcie.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *ultimatum*",
+   "body": "Albo sport, albo gitara. Takie wybory zwykle bolą.",
+   "icon": "door"
+  },
+  {
+   "kind": "point",
+   "title": "Poczekaj *do września*",
+   "body": "Często da się połączyć jedno z drugim.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko ma prawo *mieć kilka pasji*.",
+   "cta": "Zapisz i wyślij rodzicowi, który się martwi.",
+   "icon": "heart"
+  }
+ ]
+}

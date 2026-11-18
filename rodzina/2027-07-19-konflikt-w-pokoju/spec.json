@@ -1,0 +1,34 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Kłótnia w pokoju na obozie?\n*Daj dziecku szansę*."
+  },
+  {
+   "kind": "point",
+   "title": "Wysłuchaj *do końca*",
+   "body": "Bez przerywania i bez gotowych rozwiązań.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj, *co może zrobić*",
+   "body": "Porozmawiać, zmienić łóżko, pójść do wychowawcy.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Kiedy *reagujesz*",
+   "body": "Gdy dziecko jest wyśmiewane, zastraszane, samotne. Wtedy dzwonisz do kadry.",
+   "icon": "tear"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko uczy się *rozwiązywać konflikty*.",
+   "cta": "Zapisz na telefon z obozu.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Szkoda wieczoru, jutro trening.",
+   "new": "Wieczór *z kolegami z podwórka*.",
+   "text": "Lato to czas na innych przyjaciół."
+  },
+  {
+   "kind": "point",
+   "title": "Inny *świat*",
+   "body": "Z kolegami spoza klubu nikt nie gada o wynikach.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Bezpieczna *przystań*",
+   "body": "Gdy w drużynie jest trudniej, ma gdzie odpocząć.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Twoje *zaproszenie*",
+   "body": "Zaproś ich do domu. Poznasz świat dziecka.",
+   "icon": "door"
+  },
+  {
+   "kind": "end",
+   "text": "Przyjaciele spoza sportu *też są ważni*.",
+   "cta": "Zapisz na wakacyjne popołudnie.",
+   "icon": "heart"
+  }
+ ]
+}

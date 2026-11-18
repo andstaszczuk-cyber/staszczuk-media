@@ -1,0 +1,38 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Zapiszmy go na jakieś zajęcia.",
+    "*Najpierw niech się wybiega*."
+   ],
+   "text": "Przedszkolak *latem*."
+  },
+  {
+   "kind": "point",
+   "title": "Zabawa *jest treningiem*",
+   "body": "Bieganie, skakanie, wspinanie. Tak rozwija się ciało malucha.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Dużo *różnych ruchów*",
+   "body": "Piasek, woda, trawa, drabinki. Każde podłoże uczy czegoś innego.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Rodzic *w zabawie*",
+   "body": "Najlepszy partner przedszkolaka to rodzic, który się rusza.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Maluch uczy się ruchu *przez zabawę*.",
+   "cta": "Zapisz i wyślij rodzicom przedszkolaka.",
+   "icon": "heart"
+  }
+ ]
+}
