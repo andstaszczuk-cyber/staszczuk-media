@@ -1,0 +1,35 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "ball",
+   "text": "Puścił bramkę.\n*Teraz liczy się następna piłka*."
+  },
+  {
+   "kind": "point",
+   "title": "Błąd bramkarza *widać najbardziej*",
+   "body": "Napastnik może pomylić się pięć razy. Bramkarz raz i wszyscy to pamiętają.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Gol to *praca całej drużyny*",
+   "body": "Zanim piłka wpadła do bramki, po drodze było kilka innych błędów.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Reset *po golu*",
+   "body": "Jeden gest, jeden oddech i uwaga wraca na grę. Tego można uczyć się na treningu.",
+   "icon": "loop"
+  },
+  {
+   "kind": "end",
+   "text": "Najlepsi bramkarze też puszczają gole. *Liczy się, co robią potem*.",
+   "cta": "Zapisz i wyślij rodzicowi bramkarza.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Przed naborem\n*zadbaj o to*:",
+   "items": [
+    "sen i spokojny poranek",
+    "cel na ten dzień",
+    "bez porównań",
+    "plan na każdy wynik"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Cel *na ten dzień*",
+   "body": "Pokazać, co umie, i dobrze się bawić. To cel, na który dziecko ma wpływ.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *porównań*",
+   "body": "Inne dzieci będą lepsze w czymś innym. Na naborze każdy pokazuje swoje.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Każdy wynik *coś daje*",
+   "body": "Ustalcie wcześniej, co robicie, jeśli się uda, i co, jeśli się nie uda.",
+   "icon": "loop"
+  },
+  {
+   "kind": "end",
+   "text": "Nabór to *jeden dzień*. Rozwój dziecka trwa latami.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko idzie na nabór.",
+   "icon": "heart"
+  }
+ ]
+}

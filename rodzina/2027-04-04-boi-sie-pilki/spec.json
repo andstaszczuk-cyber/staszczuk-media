@@ -1,0 +1,41 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Gdy dziecko\n*boi się piłki*:",
+   "items": [
+    "to normalna reakcja",
+    "oswajanie krok po kroku",
+    "bez wyśmiewania",
+    "ćwiczenia dobiera trener"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Strach *chroni*",
+   "body": "Mózg chce ochronić ciało przed uderzeniem. Ta reakcja jest normalna i nie świadczy o słabości.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Krok *po kroku*",
+   "body": "Miękka piłka, mniejsza odległość, więcej powtórzeń. Odwaga rośnie z bezpiecznych prób.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *etykiet*",
+   "body": "Śmiech i przezwiska tylko wzmacniają strach. Doceniaj każdą próbę.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Odwagi *dziecko się uczy*, jak każdej umiejętności.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko odsuwa się od piłki.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Trener mnie zdjął, bo jestem słaby.",
+   "new": "Zmiana to *decyzja na ten mecz*.",
+   "text": "Zejście z boiska nie jest oceną dziecka."
+  },
+  {
+   "kind": "point",
+   "title": "Powodów *jest wiele*",
+   "body": "Taktyka, zmęczenie, minuty dla innych. Trener widzi więcej niż jedną akcję.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Złość *ma prawo być*",
+   "body": "Dziecko chce grać i to dobrze. Pozwól mu ochłonąć, zanim zaczniesz tłumaczyć.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Niech *samo zapyta*",
+   "body": "Co mogę zrobić, żeby grać dłużej? Takie pytanie do trenera uczy więcej niż Twoja interwencja.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Zmiana to *jedna chwila w meczu*. Sezon trwa dalej.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko zeszło z boiska ze złością.",
+   "icon": "heart"
+  }
+ ]
+}

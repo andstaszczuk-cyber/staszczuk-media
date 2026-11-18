@@ -1,0 +1,34 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Na treningu jesteś\n*trenerem*.\nW aucie znowu\n*rodzicem*."
+  },
+  {
+   "kind": "point",
+   "title": "Dwie role, *dwa miejsca*",
+   "body": "Na boisku prowadzisz drużynę. Po treningu jesteś mamą albo tatą, bez analizy meczu.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Tak samo *jak inni*",
+   "body": "Własne dziecko traktuj jak każdego zawodnika. Ani łagodniej, ani surowiej.",
+   "icon": "triangle"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj, *jak mu z tym*",
+   "body": "Bycie dzieckiem trenera bywa trudne. Niech ma miejsce, żeby o tym powiedzieć.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko potrzebuje *rodzica bardziej* niż drugiego trenera.",
+   "cta": "Zapisz i wyślij rodzicowi, który trenuje drużynę swojego dziecka.",
+   "icon": "heart"
+  }
+ ]
+}

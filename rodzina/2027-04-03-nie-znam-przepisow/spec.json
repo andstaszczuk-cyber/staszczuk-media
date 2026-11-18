@@ -1,0 +1,38 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Mamo, to był spalony!",
+    "*Wytłumaczysz mi, co to znaczy?*"
+   ],
+   "text": "Nie musisz znać przepisów.\n*Wystarczy ciekawość*."
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *jest ekspertem*",
+   "body": "Kiedy tłumaczy Ci zasady, czuje, że wie coś, czego Ty nie wiesz. To buduje pewność.",
+   "icon": "book"
+  },
+  {
+   "kind": "point",
+   "title": "Pytaj o *jego grę*",
+   "body": "Co dziś było trudne? Co lubisz robić na boisku? Do takich pytań nie trzeba znać przepisów.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Technika *zostaje u trenera*",
+   "body": "Rady z trybun bez znajomości sportu częściej mylą, niż pomagają.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "end",
+   "text": "Twoja ciekawość *znaczy więcej* niż znajomość przepisów.",
+   "cta": "Zapisz i wyślij rodzicowi, który dopiero uczy się sportu dziecka.",
+   "icon": "heart"
+  }
+ ]
+}

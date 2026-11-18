@@ -1,0 +1,38 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Nie chcę strzelać karnego.",
+    "*A czego się boisz?*"
+   ],
+   "text": "Strach, że zawiedzie drużynę,\n*pokazuje, że mu zależy*."
+  },
+  {
+   "kind": "point",
+   "title": "Za strachem *jest troska*",
+   "body": "Dziecko boi się, że koledzy będą źli. To znaczy, że drużyna jest dla niego ważna.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Nikt *nie gra sam*",
+   "body": "Mecz wygrywa i przegrywa cała drużyna. Jeden strzał nie przesądza o wszystkim.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Wybór *też jest w porządku*",
+   "body": "Dziś może odmówić. Za tydzień może zdecydować inaczej, bo nikt go nie zmusił.",
+   "icon": "door"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko, które może się bać przy Tobie, *łatwiej znajduje odwagę*.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko boi się zawieść drużynę.",
+   "icon": "heart"
+  }
+ ]
+}
