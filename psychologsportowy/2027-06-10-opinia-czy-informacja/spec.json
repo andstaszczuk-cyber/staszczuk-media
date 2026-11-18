@@ -1,0 +1,164 @@
+{
+ "cover": {
+  "layout": "split",
+  "left": "OPINIA",
+  "right": "INFORMACJA",
+  "title": "Kto ci\nto *mówi?*",
+  "size": 104,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 158,
+     "y": 50,
+     "s": 120,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 260,
+     "t": [
+      "trzeba było",
+      "mocniej"
+     ],
+     "size": 36,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 48
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 622,
+     "y": 50,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 260,
+     "t": [
+      "start",
+      "za wolny"
+     ],
+     "size": 36,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 48
+    },
+    {
+     "k": "person",
+     "x": 110,
+     "y": 360,
+     "s": 0.45,
+     "pose": "hips",
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "x": 572,
+     "y": 360,
+     "s": 0.45,
+     "pose": "coach"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Po sezonie każdy ma zdanie",
+   "body": "Rodzina, znajomi, komentarze. Każdy wie, co poszło źle.",
+   "viz": {
+    "type": "hub",
+    "center": "twój sezon",
+    "icon": "ball",
+    "items": [
+     "wujek",
+     "sąsiad",
+     "kibic",
+     "kolega",
+     "trener"
+    ],
+    "hl": 4
+   }
+  },
+  {
+   "title": "Informacja zna niuanse",
+   "body": "Daje ją ktoś, kto widział twoją pracę i rozumie kontekst.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "OPINIA",
+      "items": [
+       "za słabo",
+       "trzeba było",
+       "brakuje ci"
+      ],
+      "dim": true,
+      "dash": true
+     },
+     {
+      "title": "INFORMACJA",
+      "items": [
+       "start za wolny",
+       "dobra obrona",
+       "końcówka do pracy"
+      ],
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Bierzesz merytoryczne",
+   "body": "Resztę odkładasz bez ładowania w nią emocji.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "cloudRain",
+     "label": "odkładam",
+     "sub": "bez emocji"
+    },
+    "right": {
+     "icon": "check",
+     "label": "biorę",
+     "sub": "nawet jeśli boli"
+    }
+   }
+  }
+ ],
+ "end": {
+  "question": "Czyje zdanie o sezonie *się liczy*?",
+  "cta": "Zapisz dwie osoby, od których chcesz informacji zwrotnej.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

@@ -1,0 +1,110 @@
+{
+ "cover": {
+  "layout": "big",
+  "big": "SERWIS",
+  "bigSize": 200,
+  "bigSub": "po sezonie, zanim zaczniesz nowy",
+  "title": "Ciało to\n*twój sprzęt*",
+  "size": 90,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 440,
+     "y": 90,
+     "s": 230,
+     "c": "soft"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 720,
+     "y": 60,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 720,
+     "y": 220,
+     "s": 110,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zaległe drobiazgi",
+   "body": "Ból, który przeszedł sam. Sztywność, do której się przyzwyczaiłeś.",
+   "viz": {
+    "type": "notes",
+    "title": "DO SPRAWDZENIA",
+    "lines": [
+     "kolano po upadku",
+     "sztywne biodro",
+     "zużyte buty"
+    ]
+   }
+  },
+  {
+   "title": "Idziesz do specjalisty",
+   "body": "Fizjoterapeuta, lekarz, badania. Lato daje na to czas bez presji startów.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "heart",
+      "label": "badania"
+     },
+     {
+      "icon": "hand",
+      "label": "fizjo"
+     },
+     {
+      "icon": "foot",
+      "label": "sprzęt",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Głowa też w przeglądzie",
+   "body": "Sen, energia, nastrój po sezonie. To też należy do serwisu.",
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "moon",
+      "label": "sen"
+     },
+     {
+      "icon": "battery",
+      "label": "energia"
+     },
+     {
+      "icon": "brain",
+      "label": "głowa"
+     },
+     {
+      "icon": "people",
+      "label": "relacje"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *odkładasz* do serwisu od miesięcy?",
+  "cta": "Zapisz jedną rzecz i umów termin jeszcze w czerwcu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

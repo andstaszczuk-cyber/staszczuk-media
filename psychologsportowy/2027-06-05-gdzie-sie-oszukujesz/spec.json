@@ -1,0 +1,101 @@
+{
+ "cover": {
+  "layout": "hero",
+  "kicker": "PRZEGLĄD SEZONU",
+  "title": "Gdzie się\n*oszukujesz?*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "rect",
+     "x": 470,
+     "y": 20,
+     "w": 340,
+     "h": 560,
+     "r": 170,
+     "c": "paper"
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 90,
+     "s": 1.0,
+     "pose": "think"
+    },
+    {
+     "k": "person",
+     "x": 490,
+     "y": 140,
+     "s": 0.75,
+     "pose": "hips",
+     "c": "fig2",
+     "flip": true
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Co powtarzasz",
+   "body": "Rzeczy, które działały. Zostają w planie bez dyskusji.",
+   "viz": {
+    "type": "checklist",
+    "title": "ZOSTAJE",
+    "items": [
+     "rozgrzewka",
+     "sen",
+     "plan na mecz"
+    ],
+    "chip": "POWTARZAM"
+   }
+  },
+  {
+   "title": "Gdzie się oszukujesz",
+   "body": "Miejsca, w których mówisz jedno, a robisz drugie.",
+   "viz": {
+    "type": "table",
+    "left": "MÓWIĘ",
+    "right": "ROBIĘ",
+    "good": true,
+    "rows": [
+     [
+      "rozciągam się",
+      "raz w tygodniu"
+     ],
+     [
+      "dobrze śpię",
+      "do północy z telefonem"
+     ],
+     [
+      "analizuję mecze",
+      "oglądam skróty"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Jaki eksperyment robisz",
+   "body": "Jedna rzecz do sprawdzenia w nowym sezonie. Z terminem.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "teza",
+    "via": "sprawdzam",
+    "to": "wnioski",
+    "toIcon": "paper"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co w tym sezonie było *tylko w planie*?",
+  "cta": "Zapisz jedną rzecz i sprawdź ją w lipcu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

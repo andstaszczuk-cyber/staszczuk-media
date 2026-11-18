@@ -1,0 +1,145 @@
+{
+ "cover": {
+  "layout": "split",
+  "left": "PORAŻKA",
+  "right": "WYGRANA",
+  "title": "Celebruj tak długo,\njak *przeżywałeś porażkę*",
+  "size": 76,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 158,
+     "y": 50,
+     "s": 120,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 240,
+     "t": [
+      "trzy dni",
+      "analizy"
+     ],
+     "size": 38,
+     "w": 800,
+     "c": "mute",
+     "anchor": "middle",
+     "lh": 50
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 622,
+     "y": 50,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 240,
+     "t": [
+      "trzy minuty",
+      "radości"
+     ],
+     "size": 38,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 50
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 340,
+     "s": 0.55,
+     "pose": "think"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Porażkę nosisz długo",
+   "body": "Po przegranej analizujesz całymi dniami. Po wygranej jedziesz dalej.",
+   "viz": {
+    "type": "bars",
+    "caption": "ILE CZASU POŚWIĘCASZ",
+    "items": [
+     {
+      "label": "porażka",
+      "v": 0.9,
+      "note": "dni"
+     },
+     {
+      "label": "wygrana",
+      "v": 0.12,
+      "note": "minuty",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Mózg pilnuje zagrożeń",
+   "body": "Błąd zapamiętuje sam. Sukces trzeba przeżyć świadomie.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "alarm",
+     "label": "błąd",
+     "sub": "zapamiętuje sam"
+    },
+    "right": {
+     "icon": "star",
+     "label": "sukces",
+     "sub": "trzeba go przeżyć"
+    }
+   }
+  },
+  {
+   "title": "Rozłóż wygraną na części",
+   "body": "Co zrobiłeś, że wyszło? To są twoje umiejętności na kolejny sezon.",
+   "viz": {
+    "type": "checklist",
+    "title": "CO WYSZŁO",
+    "items": [
+     "plan na start",
+     "reset po błędzie",
+     "końcówka"
+    ],
+    "chip": "ZAPISZ"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak długo *świętowałeś* ostatnią wygraną?",
+  "cta": "Zapisz trzy rzeczy, które dały ci tę wygraną.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

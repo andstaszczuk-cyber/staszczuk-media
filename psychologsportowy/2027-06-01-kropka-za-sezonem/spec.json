@@ -1,0 +1,160 @@
+{
+ "cover": {
+  "layout": "hero",
+  "kicker": "KONIEC SEZONU",
+  "title": "Postaw kropkę\nza *sezonem*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 60,
+     "y": 60,
+     "w": 380,
+     "h": 460,
+     "r": 24,
+     "c": "paper",
+     "rot": -4
+    },
+    {
+     "k": "text",
+     "x": 110,
+     "y": 140,
+     "t": "SEZON",
+     "size": 36,
+     "w": 800,
+     "c": "ink"
+    },
+    {
+     "k": "check",
+     "x": 130,
+     "y": 230,
+     "r": 28
+    },
+    {
+     "k": "rect",
+     "x": 180,
+     "y": 218,
+     "w": 200,
+     "h": 22,
+     "r": 11,
+     "c": "soft"
+    },
+    {
+     "k": "check",
+     "x": 130,
+     "y": 320,
+     "r": 28
+    },
+    {
+     "k": "rect",
+     "x": 180,
+     "y": 308,
+     "w": 170,
+     "h": 22,
+     "r": 11,
+     "c": "soft"
+    },
+    {
+     "k": "check",
+     "x": 130,
+     "y": 410,
+     "r": 28
+    },
+    {
+     "k": "rect",
+     "x": 180,
+     "y": 398,
+     "w": 140,
+     "h": 22,
+     "r": 11,
+     "c": "soft"
+    },
+    {
+     "k": "arrow",
+     "x1": 480,
+     "y1": 290,
+     "x2": 580,
+     "y2": 290
+    },
+    {
+     "k": "circle",
+     "x": 740,
+     "y": 290,
+     "r": 120
+    },
+    {
+     "k": "text",
+     "x": 740,
+     "y": 480,
+     "t": "kropka",
+     "size": 36,
+     "w": 800,
+     "c": "fg",
+     "anchor": "middle"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Emocje mają swój czas",
+   "body": "Najpierw pozwalasz sobie przeżyć koniec. Radość, żal i zmęczenie.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "heart",
+      "label": "radość"
+     },
+     {
+      "icon": "cloudRain",
+      "label": "żal"
+     },
+     {
+      "icon": "battery",
+      "label": "zmęczenie",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Wnioski na kartkę",
+   "body": "Trzy rzeczy, które zabierasz dalej. Jedna, którą zostawiasz.",
+   "viz": {
+    "type": "notes",
+    "title": "PO SEZONIE",
+    "lines": [
+     "co zadziałało",
+     "co zabieram",
+     "co zostawiam"
+    ],
+    "crossed": [
+     "rozpamiętywanie"
+    ],
+    "side": "kartka do pudełka"
+   }
+  },
+  {
+   "title": "Rytuał domknięcia",
+   "body": "Kartkę wkładasz do pudełka. Sezon zamknięty, głowa wolna.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "cały sezon w głowie",
+    "via": "zapisuję",
+    "to": "do pudełka",
+    "toIcon": "paper"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co zabierasz *z tego sezonu*?",
+  "cta": "Zapisz trzy wnioski i schowaj kartkę.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

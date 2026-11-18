@@ -1,0 +1,114 @@
+{
+ "cover": {
+  "layout": "top",
+  "kicker": "UPAŁ",
+  "title": "Ustal, co jest\n*dziś twoim 100%*",
+  "size": 84,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 330,
+     "y": 0,
+     "s": 240,
+     "c": "A"
+    },
+    {
+     "k": "viz",
+     "type": "scale10",
+     "x": 0,
+     "y": 200,
+     "s": 1,
+     "caption": "",
+     "points": [
+      {
+       "n": 7,
+       "label": [
+        "dziś"
+       ],
+       "hl": true
+      },
+      {
+       "n": 10,
+       "label": [
+        "chłodny dzień"
+       ]
+      }
+     ],
+     "arrow": [
+      10,
+      7
+     ]
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Upał zmienia warunki",
+   "body": "Tętno wyżej, tempo niżej. Ten sam wysiłek kosztuje więcej.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "snow",
+     "label": "chłodno",
+     "sub": "tempo z tabeli"
+    },
+    "right": {
+     "icon": "sun",
+     "label": "upał",
+     "sub": "tempo z odczuć"
+    }
+   }
+  },
+  {
+   "title": "Plan na dzisiejsze karty",
+   "body": "Ustal z trenerem, jak wygląda trening w tych warunkach.",
+   "viz": {
+    "type": "table",
+    "left": "PLAN Z KWIETNIA",
+    "right": "PLAN NA DZIŚ",
+    "good": true,
+    "rows": [
+     [
+      "tempo z tabeli",
+      "tempo z odczuć"
+     ],
+     [
+      "pełna objętość",
+      "krótsze odcinki"
+     ],
+     [
+      "rekord",
+      "dobre wykonanie"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Oceniasz wykonanie",
+   "body": "Liczy się to, co zrobiłeś w tych warunkach. Bez porównań z majem.",
+   "viz": {
+    "type": "checklist",
+    "title": "DZIŚ",
+    "items": [
+     "woda i cień",
+     "tempo z odczuć",
+     "dobra technika"
+    ],
+    "chip": "ZROBIONE",
+    "chipX": 330
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakie jest *twoje 100%* w upale?",
+  "cta": "Ustal je z trenerem przed najbliższym gorącym startem.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

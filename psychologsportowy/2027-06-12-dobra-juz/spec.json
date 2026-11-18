@@ -1,0 +1,119 @@
+{
+ "cover": {
+  "layout": "top",
+  "kicker": "WAKACJE",
+  "title": "Umiesz powiedzieć:\n*dobra, już*?",
+  "size": 84,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 200,
+     "s": 0.8,
+     "pose": "think",
+     "c": "fig2"
+    },
+    {
+     "k": "bubble",
+     "x": 20,
+     "y": 20,
+     "w": 360,
+     "h": 110,
+     "lines": [
+      "jeszcze to",
+      "przepracuję"
+     ],
+     "c": "card",
+     "tc": "fg",
+     "size": 32,
+     "tail": "left"
+    },
+    {
+     "k": "person",
+     "x": 520,
+     "y": 200,
+     "s": 0.8,
+     "pose": "win"
+    },
+    {
+     "k": "bubble",
+     "x": 520,
+     "y": 20,
+     "w": 320,
+     "h": 110,
+     "lines": [
+      "dobra, już"
+     ],
+     "c": "A",
+     "size": 40,
+     "tail": "left"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Dwóch mędrców",
+   "body": "Pierwszy ciągle nad czymś pracuje. Drugi potrafi odpuścić i pożyć.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "brain",
+     "label": "mędrzec",
+     "sub": "ciągle kmini"
+    },
+    "right": {
+     "icon": "sun",
+     "label": "oświecony",
+     "sub": "dobra, już"
+    }
+   }
+  },
+  {
+   "title": "Przerwa nie kasuje pracy",
+   "body": "Umiejętności z sezonu zostają z tobą przez kilka tygodni spokoju.",
+   "viz": {
+    "type": "bricks",
+    "label": "sezon",
+    "caption": "zbudowane zostaje",
+    "topIcon": "star"
+   }
+  },
+  {
+   "title": "Lato na zwykłe życie",
+   "body": "Znajomi, książka, rower bez zegarka. To też cię buduje.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "people",
+      "label": "znajomi"
+     },
+     {
+      "icon": "book",
+      "label": "książka"
+     },
+     {
+      "icon": "sun",
+      "label": "słońce",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Na co dziś powiesz *dobra, już*?",
+  "cta": "Zapisz jedną rzecz, którą odkładasz do września.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

@@ -1,0 +1,83 @@
+{
+ "cover": {
+  "layout": "top",
+  "kicker": "PO STARCIE",
+  "title": "Mogłem\n*szybciej?*",
+  "size": 110,
+  "lh": 1.25,
+  "artTop": 520,
+  "artH": 720,
+  "art": {
+   "type": "timeline",
+   "points": [
+    {
+     "top": "start",
+     "icon": "flag"
+    },
+    {
+     "top": "meta",
+     "icon": "bolt",
+     "bottom": [
+      "ledwo żyję"
+     ]
+    },
+    {
+     "top": "wieczór",
+     "icon": "bed",
+     "hl": true,
+     "bottom": [
+      "mogłem szybciej"
+     ]
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wieczorem łatwo mówić",
+   "body": "Wypoczęty i bezpieczny oceniasz wysiłek, którego już nie czujesz.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "bolt",
+     "label": "na trasie",
+     "sub": "daję, ile mam"
+    },
+    "right": {
+     "icon": "bed",
+     "label": "wieczorem",
+     "sub": "mogłem więcej"
+    }
+   }
+  },
+  {
+   "title": "Gdybyś mógł, to byś pobiegł",
+   "body": "W danej chwili robisz to, na co cię stać. Tak wygląda uczciwa ocena.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "mogłem szybciej",
+    "to": "dałem tyle, ile miałem"
+   }
+  },
+  {
+   "title": "Ocena prosto z trasy",
+   "body": "Zapisz, co czułeś w trakcie. To lepsza informacja od wieczornego gdybania.",
+   "viz": {
+    "type": "notes",
+    "title": "Z TRASY",
+    "lines": [
+     "tempo zgodne z planem",
+     "kryzys po połowie",
+     "finisz na resztkach"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *naprawdę* czułeś na trasie?",
+  "cta": "Zapisz to zaraz po starcie, zanim przyjdzie wieczór.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

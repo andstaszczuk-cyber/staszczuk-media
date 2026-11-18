@@ -1,0 +1,125 @@
+{
+ "cover": {
+  "layout": "big",
+  "big": "4.",
+  "bigSize": 300,
+  "bigSub": "miejsce na mistrzostwach",
+  "title": "Pierwszy w kolejce\n*do podium*",
+  "size": 84,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 500,
+     "y": 200,
+     "w": 120,
+     "h": 220,
+     "r": 12,
+     "c": "soft"
+    },
+    {
+     "k": "rect",
+     "x": 630,
+     "y": 110,
+     "w": 120,
+     "h": 310,
+     "r": 12,
+     "c": "soft"
+    },
+    {
+     "k": "rect",
+     "x": 760,
+     "y": 260,
+     "w": 120,
+     "h": 160,
+     "r": 12,
+     "c": "soft"
+    },
+    {
+     "k": "circle",
+     "x": 420,
+     "y": 360,
+     "r": 50
+    },
+    {
+     "k": "text",
+     "x": 420,
+     "y": 378,
+     "t": "4",
+     "size": 50,
+     "w": 800,
+     "c": "onA",
+     "anchor": "middle"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Najbardziej boli",
+   "body": "Medal był tuż obok. Widziałeś go z bliska i wracasz bez niego.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "cloudRain",
+     "label": "czwarty",
+     "sub": "zabrakło medalu"
+    },
+    "right": {
+     "icon": "flag",
+     "label": "pierwszy w kolejce",
+     "sub": "tyle brakuje"
+    }
+   }
+  },
+  {
+   "title": "Policz, ile brakowało",
+   "body": "Ułamek sekundy, jeden punkt, jedna akcja. To bardzo konkretna lista.",
+   "viz": {
+    "type": "table",
+    "left": "WRAŻENIE",
+    "right": "KONKRET",
+    "good": true,
+    "rows": [
+     [
+      "daleko od medalu",
+      "0,3 sekundy"
+     ],
+     [
+      "przegrałem",
+      "jeden słabszy odcinek"
+     ],
+     [
+      "nie umiem",
+      "start do poprawy"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Z tego robisz plan",
+   "body": "Konkretna strata to konkretne zadanie na nowy sezon.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "start",
+     "środkowy odcinek",
+     "końcówka",
+     "podium"
+    ],
+    "done": 1,
+    "top": true
+   }
+  }
+ ],
+ "end": {
+  "question": "Czego dokładnie *zabrakło* do podium?",
+  "cta": "Zapisz jedną rzecz i zrób z niej zadanie na nowy sezon.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

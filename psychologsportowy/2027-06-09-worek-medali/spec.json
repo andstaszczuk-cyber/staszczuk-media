@@ -1,0 +1,144 @@
+{
+ "cover": {
+  "layout": "hero",
+  "kicker": "PO SEZONIE",
+  "title": "Cały worek medali.\nMyślisz o *jednym*",
+  "size": 80,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 30,
+     "y": 70,
+     "w": 500,
+     "h": 480,
+     "r": 80,
+     "c": "card"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 80,
+     "y": 120,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 220,
+     "y": 140,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 360,
+     "y": 120,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 110,
+     "y": 300,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 260,
+     "y": 320,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 390,
+     "y": 300,
+     "s": 110,
+     "c": "A"
+    },
+    {
+     "k": "bubble",
+     "x": 600,
+     "y": 200,
+     "w": 260,
+     "h": 200,
+     "lines": [
+      "ten",
+      "jeden"
+     ],
+     "dash": true,
+     "c": "soft",
+     "tc": "fg",
+     "tail": "none",
+     "size": 40
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Uwaga idzie w brak",
+   "body": "Mózg patrzy na to, czego nie ma. Reszta staje się oczywista.",
+   "viz": {
+    "type": "focus",
+    "center": "brakujący medal",
+    "around": [
+     "dwa podia",
+     "awans",
+     "nowa technika",
+     "regularność"
+    ]
+   }
+  },
+  {
+   "title": "Policz, co masz",
+   "body": "Wypisz wszystko, co zdobyłeś. Także to, czego nie ma w tabeli.",
+   "viz": {
+    "type": "checklist",
+    "title": "MÓJ SEZON",
+    "items": [
+     "dwa podia",
+     "nowa technika",
+     "regularność"
+    ],
+    "chip": "MAM",
+    "chipX": 420
+   }
+  },
+  {
+   "title": "Sprawdź proporcje",
+   "body": "Ile myślisz o tym, czego brakuje? Ile o tym, co już masz?",
+   "viz": {
+    "type": "bars",
+    "caption": "MYŚLĘ O",
+    "items": [
+     {
+      "label": "brak",
+      "v": 0.85
+     },
+     {
+      "label": "dorobek",
+      "v": 0.2,
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co jest *w twoim worku*?",
+  "cta": "Wypisz cały dorobek sezonu, zanim pomyślisz o brakach.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

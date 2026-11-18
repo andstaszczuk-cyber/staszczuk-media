@@ -1,0 +1,146 @@
+{
+ "cover": {
+  "layout": "split",
+  "left": "SEZON",
+  "right": "ROZTRENOWANIE",
+  "title": "Przerwa też\njest *w planie*",
+  "size": 90,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 168,
+     "y": 40,
+     "s": 100,
+     "c": "soft"
+    },
+    {
+     "k": "person",
+     "x": 110,
+     "y": 200,
+     "s": 0.62,
+     "pose": "run",
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 632,
+     "y": 40,
+     "s": 100,
+     "c": "A"
+    },
+    {
+     "k": "person",
+     "x": 572,
+     "y": 200,
+     "s": 0.62,
+     "pose": "walk"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Ciało zbiera rachunek",
+   "body": "Cały sezon obciążeń. Teraz czas na spłatę długu.",
+   "viz": {
+    "type": "bars",
+    "caption": "PO SEZONIE",
+    "items": [
+     {
+      "label": "zmęczenie",
+      "v": 0.85
+     },
+     {
+      "label": "świeżość",
+      "v": 0.25
+     },
+     {
+      "label": "ochota",
+      "v": 0.35,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Ruch dla przyjemności",
+   "body": "Rower, pływanie, spacer. Bez zegarka i bez planu na wynik.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "sun",
+      "label": "rower"
+     },
+     {
+      "icon": "wind",
+      "label": "pływanie"
+     },
+     {
+      "icon": "foot",
+      "label": "spacer",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Głowa też odpoczywa",
+   "body": "Kilka dni bez analiz, tabel i nagrań. Wrócisz do nich świeży.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "ODKŁADAM",
+      "items": [
+       "analizy",
+       "nagrania",
+       "tabele"
+      ],
+      "dim": true,
+      "dash": true
+     },
+     {
+      "title": "BIORĘ",
+      "items": [
+       "sen",
+       "znajomi",
+       "słońce"
+      ],
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak *zaplanujesz* swoją przerwę?",
+  "cta": "Zapisz, czym naładujesz baterie w czerwcu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

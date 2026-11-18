@@ -1,0 +1,129 @@
+{
+ "cover": {
+  "layout": "big",
+  "big": "SESJA",
+  "bigSize": 200,
+  "bigSub": "egzaminy i treningi w jednym czerwcu",
+  "title": "Trening pomaga\n*w nauce*",
+  "size": 84,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 440,
+     "y": 80,
+     "s": 260,
+     "c": "soft"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 720,
+     "y": 60,
+     "s": 130,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 720,
+     "y": 230,
+     "s": 110,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Odruch: rzucam trening",
+   "body": "Przed egzaminem kusi, żeby odpuścić wszystko poza nauką.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "nie mam czasu na trening",
+    "to": "krótszy trening zostaje"
+   }
+  },
+  {
+   "title": "Ruch przewietrza głowę",
+   "body": "Po treningu łatwiej usiąść do nauki i łatwiej się skupić.",
+   "viz": {
+    "type": "week",
+    "caption": "TYDZIEŃ SESJI",
+    "days": [
+     {
+      "d": "PN",
+      "icon": "book",
+      "label": "egzamin"
+     },
+     {
+      "d": "WT",
+      "icon": "dumbbell",
+      "label": "lekko",
+      "mark": "hl"
+     },
+     {
+      "d": "ŚR",
+      "icon": "book",
+      "label": "nauka"
+     },
+     {
+      "d": "CZ",
+      "icon": "dumbbell",
+      "label": "lekko",
+      "mark": "hl"
+     },
+     {
+      "d": "PT",
+      "icon": "book",
+      "label": "egzamin"
+     },
+     {
+      "d": "SB",
+      "icon": "moon",
+      "label": "sen"
+     },
+     {
+      "d": "ND",
+      "icon": "sun",
+      "label": "wolne"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Sen należy do nauki",
+   "body": "Niewyspany gorzej myślisz i na egzaminie, i na treningu.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "book",
+      "label": "nauka"
+     },
+     {
+      "icon": "dumbbell",
+      "label": "ruch"
+     },
+     {
+      "icon": "moon",
+      "label": "sen",
+      "hl": true
+     }
+    ],
+    "join": "+"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak *zmieścisz* trening w sesji?",
+  "cta": "Rozpisz tydzień z trzema krótkimi treningami.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
