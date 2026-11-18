@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Kapitan może być\\n*twoim sojusznikiem*."
+  },
+  {
+   "kind": "point",
+   "title": "Wspólny cel",
+   "body": "Kapitan też chce, żeby mecz skończył się spokojnie.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Przez kapitana do drużyny",
+   "body": "Gdy emocje rosną, poproś go, żeby uspokoił swoich.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Jasne granice",
+   "body": "Opaska nie daje prawa do dyskusji i nie chroni przed kartką.",
+   "icon": "kartka"
+  },
+  {
+   "kind": "end",
+   "text": "Spokojny kapitan\\n*uspokaja drużynę*.",
+   "cta": "Zapisz i wróć przed meczem"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "crew",
+   "text": "Asystujesz młodszemu?\\n*Gracie jeden mecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Duma do kieszeni",
+   "body": "Dziś twoją rolą jest wsparcie. Robisz to po mistrzowsku.",
+   "icon": "szafa"
+  },
+  {
+   "kind": "point",
+   "title": "Doświadczenie w służbie",
+   "body": "Podpowiadasz na odprawie, w meczu dajesz jasne sygnały.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja należy do niego",
+   "body": "Kiedy się nie zgadzasz, rozmawiacie spokojnie po meczu.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Dobry zespół\\n*to wspólny mecz*.",
+   "cta": "Zapisz i wróć przed meczem w nowej roli"
+  }
+ ]
+}

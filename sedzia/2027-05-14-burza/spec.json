@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "rain",
+   "text": "Grzmi nad boiskiem.\\n*Decydujesz spokojnie*."
+  },
+  {
+   "kind": "point",
+   "title": "Bezpieczeństwo najpierw",
+   "body": "Zdrowie ludzi jest ważniejsze niż dokończenie meczu w terminie.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Presja z obu stron",
+   "body": "Jedni chcą grać, drudzy przerwać. Decydujesz według zasad.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Jasny komunikat",
+   "body": "Krótko mówisz kapitanom i ławkom, co się dzieje i co dalej.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "W burzy\\n*ktoś musi zachować spokój*.",
+   "cta": "Zapisz i wróć przed meczem w niepewną pogodę"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "phone",
+   "text": "Obsada odwołana\\n*w ostatniej chwili*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw emocja",
+   "body": "Złość albo zawód są w porządku. Daj im kilka minut.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Przygotowanie zostaje",
+   "body": "Trening i powtórzone przepisy zabierasz na kolejny mecz.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Wolny czas",
+   "body": "Zaplanuj go świadomie: trening, odpoczynek albo bliscy.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Mecz przepadł.\\n*Forma została*.",
+   "cta": "Zapisz i wróć, gdy plan się posypie"
+  }
+ ]
+}

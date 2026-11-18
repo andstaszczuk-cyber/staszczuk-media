@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "DRUGA STRONA",
+   "sub": "Znasz grę z boiska. *Teraz patrzysz inaczej*.",
+   "text": "Grałeś w piłkę?\\n*To twoja przewaga*."
+  },
+  {
+   "kind": "point",
+   "title": "Czytasz grę",
+   "body": "Wiesz, jak myśli zawodnik, więc szybciej widzisz, co się zaraz stanie.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Rozumiesz emocje",
+   "body": "Pamiętasz, jak to jest przegrywać w końcówce.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Nowa rola",
+   "body": "Na boisku nie grasz już w żadnej drużynie. Masz swoje zadanie.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Doświadczenie z gry\\n*pracuje dla ciebie*.",
+   "cta": "Zapisz i wyślij koledze, który też grał"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Inni przymykają oko?\\n*Ty gwiżdżesz swoje*."
+  },
+  {
+   "kind": "point",
+   "title": "Wszyscy tak robią",
+   "body": "Brzmi jak argument, a działa jak wymówka.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja miara",
+   "body": "Przewidywalny sędzia trzyma się zasad także w małych rzeczach.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja decyzja",
+   "body": "Zdrowy rozsądek jest w porządku, jeśli stoi za nim twoja ocena.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Twoje standardy\\n*jadą z tobą na każdy mecz*.",
+   "cta": "Zapisz i wróć, gdy ktoś powie, że inni tak nie gwiżdżą"
+  }
+ ]
+}

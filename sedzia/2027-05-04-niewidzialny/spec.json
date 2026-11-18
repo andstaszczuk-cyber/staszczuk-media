@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "MIT",
+   "sub": "Dobry sędzia to ten, *którego nie widać*?",
+   "text": "Masz być\\n*niewidzialny*?"
+  },
+  {
+   "kind": "point",
+   "title": "Widać cię, kiedy trzeba",
+   "body": "W trudnej sytuacji zawodnicy szukają wzrokiem właśnie ciebie.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojna obecność",
+   "body": "Ruch, gest, kontakt wzrokowy. Mecz czuje, że ktoś go prowadzi.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Bez grania solówek",
+   "body": "Gwiazdami meczu są zawodnicy. Ty dbasz, żeby mogli grać.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Bądź widoczny\\n*wtedy, kiedy trzeba*.",
+   "cta": "Zapisz i wyślij koledze z zespołu"
+  }
+ ]
+}

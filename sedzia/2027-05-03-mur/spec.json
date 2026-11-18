@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "9,15",
+   "text": "metra. Zawodnicy *kombinują*,\\nty spokojnie *odmierzasz*."
+  },
+  {
+   "kind": "point",
+   "title": "Znany scenariusz",
+   "body": "Mur podchodzi, ktoś staje przy piłce. To się powtarza w każdym meczu.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Bez nerwów",
+   "body": "Spokojny gest i krótka komenda działają lepiej niż podniesiony głos.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "point",
+   "title": "Za każdym razem tak samo",
+   "body": "Jasna zasada, egzekwowana zawsze w ten sam sposób.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Małe sytuacje\\n*budują autorytet*.",
+   "cta": "Zapisz i wróć przed meczem"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "tunnel",
+   "text": "Ostatni mecz był słaby.\\n*Ten jest nowy*."
+  },
+  {
+   "kind": "point",
+   "title": "Zamknij poprzedni",
+   "body": "Wnioski zapisane i kropka. Nie zabierasz całego meczu ze sobą.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Jedno zadanie",
+   "body": "Wybierz jedną rzecz do poprawy i na niej oprzyj uwagę.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Przypomnij sobie dobre mecze",
+   "body": "Jeden słabszy występ nie kasuje całej wiosny.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "Jeden mecz\\n*nie przekreśla sezonu*.",
+   "cta": "Zapisz i wróć po słabszym meczu"
+  }
+ ]
+}

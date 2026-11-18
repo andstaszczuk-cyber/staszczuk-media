@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "decision",
+   "text": "Na trybunie obserwator.\\n*Ty sędziujesz mecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Zauważ myśl",
+   "body": "Ciekawe, co on notuje. Zauważasz to i wracasz do gry.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Mecz jest na boisku",
+   "body": "Zawodnicy potrzebują ciebie w każdej akcji. Tam jest twoja uwaga.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Ocena to informacja",
+   "body": "Po meczu słuchasz i bierzesz to, co merytoryczne.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Obserwator ocenia.\\n*Ty prowadzisz*.",
+   "cta": "Zapisz i wróć przed meczem z obserwacją"
+  }
+ ]
+}

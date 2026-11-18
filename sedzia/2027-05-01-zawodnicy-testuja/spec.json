@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "oko",
+   "text": "Pierwsze minuty.\\n*Zawodnicy cię sprawdzają*."
+  },
+  {
+   "kind": "point",
+   "title": "To normalne",
+   "body": "Pierwsze faule i uwagi to często sondowanie, gdzie jest twoja granica.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "point",
+   "title": "Odpowiadasz decyzją",
+   "body": "Wyraźny gwizdek i spokojny gest mówią więcej niż długie tłumaczenie.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Ta sama miara",
+   "body": "Linia z pierwszych minut obowiązuje do końcowego gwizdka.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Sprawdzają każdego.\\n*Pokaż swoją linię*.",
+   "cta": "Zapisz i wróć przed najbliższym meczem"
+  }
+ ]
+}

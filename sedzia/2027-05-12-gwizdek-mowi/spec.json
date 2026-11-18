@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "3",
+   "text": "rodzaje gwizdka.\\n*Każdy coś mówi*."
+  },
+  {
+   "kind": "point",
+   "title": "Krótki",
+   "body": "Drobne przewinienie, szybkie wznowienie. Gra płynie dalej.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Mocny",
+   "body": "Poważny faul. Wszyscy od razu słyszą, że stało się coś więcej.",
+   "icon": "kartka"
+  },
+  {
+   "kind": "point",
+   "title": "Długi",
+   "body": "Koniec połowy albo meczu. Jasny sygnał dla całego boiska.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "end",
+   "text": "Gwizdek to\\n*twój głos na boisku*.",
+   "cta": "Zapisz i przećwicz przed meczem"
+  }
+ ]
+}

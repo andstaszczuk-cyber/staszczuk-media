@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Zapisz, co już umiesz.\\n*Głowa sama tego nie zrobi*."
+  },
+  {
+   "kind": "point",
+   "title": "Głowa pamięta błędy",
+   "body": "Trudne sytuacje wracają same. Dobre trzeba przypominać świadomie.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Kartka z dowodami",
+   "body": "Spisz decyzje i mecze z tej wiosny, z których jesteś zadowolony.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Czytaj przed meczem",
+   "body": "Kilka minut z taką listą buduje spokój na faktach.",
+   "icon": "lista"
+  },
+  {
+   "kind": "end",
+   "text": "Dowody masz.\\n*Wystarczy je spisać*.",
+   "cta": "Zapisz i zrób swoją listę jeszcze dziś"
+  }
+ ]
+}

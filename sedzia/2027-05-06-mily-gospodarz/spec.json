@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Miły gospodarz.\\n*Ty zostajesz bezstronny*."
+  },
+  {
+   "kind": "point",
+   "title": "Uprzejmość jest w porządku",
+   "body": "Dziękujesz i rozmawiasz kulturalnie. To zwykła grzeczność.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja granica",
+   "body": "Prezenty i rozmowy o stawce meczu zostawiasz za drzwiami szatni.",
+   "icon": "szafa"
+  },
+  {
+   "kind": "point",
+   "title": "Ta sama miara",
+   "body": "Na boisku obie drużyny dostają od ciebie dokładnie to samo.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Kultura tak.\\n*Zobowiązania nie*.",
+   "cta": "Zapisz i wróć przed wyjazdem na mecz"
+  }
+ ]
+}

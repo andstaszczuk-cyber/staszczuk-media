@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "ASYSTENT",
+   "text": "Wstrzymaj\\n*chorągiewkę*."
+  },
+  {
+   "kind": "point",
+   "title": "Daj akcji chwilę",
+   "body": "Pochopnie podniesionej chorągiewki nie da się już cofnąć.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Pośpiech to emocja",
+   "body": "Chęć, żeby zdążyć, potrafi wyprzedzić to, co faktycznie widzisz.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Wyraźny sygnał",
+   "body": "Kiedy już decydujesz, podnosisz chorągiewkę pewnie i bez wahania.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Cierpliwość\\n*też jest decyzją*.",
+   "cta": "Zapisz i wyślij asystentowi z zespołu"
+  }
+ ]
+}

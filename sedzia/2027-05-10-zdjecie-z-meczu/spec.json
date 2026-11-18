@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "telefon",
+   "text": "Wrzucasz zdjęcie\\n*z meczu*?"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja pasja",
+   "body": "Masz prawo pokazywać sędziowanie. To kawał twojego życia.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Z wyczuciem",
+   "body": "Bez komentowania decyzji, drużyn i zawodników.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Zanim klikniesz",
+   "body": "Sprawdź, jak ten wpis wygląda oczami obu drużyn.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Pokazuj pasję.\\n*Mecz zostaw na boisku*.",
+   "cta": "Zapisz i wróć, zanim coś opublikujesz"
+  }
+ ]
+}
