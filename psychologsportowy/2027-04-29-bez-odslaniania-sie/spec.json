@@ -1,0 +1,94 @@
+{
+ "cover": {
+  "kicker": "BEZBŁĘDNY MECZ",
+  "title": "Nie ma ciosu\n*bez odsłonięcia się*",
+  "size": 88,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 80,
+     "y": 90,
+     "s": 1.0,
+     "pose": "point"
+    },
+    {
+     "k": "person",
+     "x": 470,
+     "y": 90,
+     "s": 1.0,
+     "pose": "stand",
+     "c": "fig2",
+     "flip": true
+    },
+    {
+     "k": "circle",
+     "x": 260,
+     "y": 200,
+     "r": 60,
+     "fill": "none",
+     "stroke": "A",
+     "sw": 8,
+     "dash": true
+    },
+    {
+     "k": "chip",
+     "x": 140,
+     "y": 20,
+     "text": "tu jesteś odkryty"
+    }
+   ]
+  },
+  "layout": "top",
+  "lh": 1.25
+ },
+ "points": [
+  {
+   "title": "Każda akcja to ryzyko",
+   "body": "Atakujesz, więc na chwilę zostawiasz lukę. Grając bez ryzyka, rzadko cokolwiek zdobędziesz.",
+   "viz": {
+    "type": "scale",
+    "left": "RYZYKO",
+    "right": "SZANSA",
+    "weights": [
+     "luka",
+     "błąd"
+    ]
+   }
+  },
+  {
+   "title": "Akcja jednych to błąd drugich",
+   "body": "Każda udana akcja rywala to jakiś twój błąd. Bezbłędny mecz po prostu nie istnieje.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "zero błędów",
+    "to": "błędy wpisuję w kosztorys"
+   }
+  },
+  {
+   "title": "Błędy w kosztorysie",
+   "body": "Zakładasz je z góry. Wtedy błąd nie wybija cię z gry, bo był w planie.",
+   "viz": {
+    "type": "notes",
+    "title": "PLAN NA MECZ",
+    "lines": [
+     "gram odważnie",
+     "kilka błędów w cenie",
+     "po błędzie: reset"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Ile błędów *wpisujesz* w swój mecz?",
+  "cta": "Zapisz i przed najbliższym meczem wpisz je w kosztorys.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

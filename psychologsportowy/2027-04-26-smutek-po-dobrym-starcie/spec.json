@@ -1,0 +1,122 @@
+{
+ "cover": {
+  "kicker": "PO STARCIE",
+  "title": "Dobry start,\na ty *smutny*?",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 120,
+     "y": 90,
+     "s": 1.0,
+     "pose": "slump"
+    },
+    {
+     "k": "rect",
+     "x": 520,
+     "y": 120,
+     "w": 340,
+     "h": 260,
+     "r": 26,
+     "c": "paper"
+    },
+    {
+     "k": "text",
+     "x": 690,
+     "y": 200,
+     "t": "życiówka",
+     "size": 34,
+     "w": 800,
+     "c": "ink",
+     "anchor": "middle"
+    },
+    {
+     "k": "check",
+     "x": 690,
+     "y": 290,
+     "r": 46
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 260,
+     "y": 0,
+     "s": 120,
+     "c": "soft"
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Smutek zdradza oczekiwania",
+   "body": "Kiedy po dobrym starcie czujesz smutek, celem był pewnie rekord albo konkretne miejsce.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "check",
+     "label": "dobry start"
+    },
+    "right": {
+     "icon": "trophy",
+     "label": "ukryty cel: rekord"
+    }
+   }
+  },
+  {
+   "title": "Nazwij prawdziwy cel",
+   "body": "Zapisz, czego naprawdę chciałeś. Ukryty cel i tak wpływa na twoje emocje.",
+   "viz": {
+    "type": "table",
+    "left": "MÓWIŁEM",
+    "right": "CHCIAŁEM",
+    "good": true,
+    "rows": [
+     [
+      "dobry bieg",
+      "rekord"
+     ],
+     [
+      "pierwsza dziesiątka",
+      "podium"
+     ],
+     [
+      "zobaczymy",
+      "wygrać"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Urealnij na następny raz",
+   "body": "Ustal cel minimalny i maksymalny. Wtedy dobry start da ci też radość.",
+   "viz": {
+    "type": "scale10",
+    "caption": "CEL W WIDEŁKACH",
+    "points": [
+     {
+      "n": 5,
+      "label": "minimum"
+     },
+     {
+      "n": 8,
+      "label": "maksimum",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Czego *naprawdę* chciałeś?",
+  "cta": "Zapisz to przed kolejnym startem.",
+  "art": "think"
+ },
+ "theme": "grafit"
+}

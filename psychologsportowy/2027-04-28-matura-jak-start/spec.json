@@ -1,0 +1,116 @@
+{
+ "cover": {
+  "big": "100+",
+  "bigSize": 300,
+  "bigSub": "rozwiązanych arkuszy przed tobą",
+  "title": "Matura\n*jak start*",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 80,
+     "y": 60,
+     "w": 260,
+     "h": 330,
+     "r": 18,
+     "c": "paper",
+     "rot": -6
+    },
+    {
+     "k": "rect",
+     "x": 140,
+     "y": 40,
+     "w": 260,
+     "h": 330,
+     "r": 18,
+     "c": "paper",
+     "rot": 4
+    },
+    {
+     "k": "check",
+     "x": 270,
+     "y": 200,
+     "r": 50
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 600,
+     "y": 80,
+     "s": 200,
+     "c": "A"
+    }
+   ]
+  },
+  "vb": "0 0 900 420",
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Ten arkusz będzie taki sam",
+   "body": "Rozwiązałeś ich setki. Ten jeden ma po prostu wyższą rangę w twojej głowie.",
+   "viz": {
+    "type": "stack",
+    "cols": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "labels": [
+     "styczeń",
+     "luty",
+     "marzec",
+     "kwiecień",
+     "maj"
+    ],
+    "caption": "każdy arkusz to trening"
+   }
+  },
+  {
+   "title": "Rutyna jak przed zawodami",
+   "body": "Sen, śniadanie, droga, pierwsze zadanie. Zrób to tak jak przed ważnym startem.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "sen",
+      "icon": "moon"
+     },
+     {
+      "top": "śniadanie",
+      "icon": "sun"
+     },
+     {
+      "top": "droga",
+      "icon": "foot"
+     },
+     {
+      "top": "zadanie 1",
+      "icon": "note",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Pierwsze zadanie i dalej",
+   "body": "Trudne pytanie zostawiasz na później, jak błąd w meczu. Następna akcja.",
+   "viz": {
+    "type": "wander",
+    "zone": "kolejne zadanie",
+    "out1": "nie wiem",
+    "out2": "stres",
+    "back": "dalej"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co ze sportu zabierzesz *na egzamin*?",
+  "cta": "Zapisz i przećwicz swoją rutynę na próbnym arkuszu.",
+  "art": "think"
+ },
+ "theme": "grafit"
+}

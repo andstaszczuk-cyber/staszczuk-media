@@ -1,0 +1,136 @@
+{
+ "cover": {
+  "left": "WYŚCIG",
+  "right": "PIT STOP",
+  "title": "Słabszy okres\nto *pit stop*",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "person",
+     "x": 70,
+     "y": 140,
+     "s": 0.8,
+     "pose": "run",
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 300,
+     "y": 40,
+     "s": 90,
+     "c": "soft"
+    },
+    {
+     "k": "person",
+     "x": 540,
+     "y": 140,
+     "s": 0.8,
+     "pose": "crouch"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 690,
+     "y": 60,
+     "s": 130,
+     "c": "A"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Zjazd do boksu",
+   "body": "Forma spada, coś się sypie. Czujesz, że wszyscy cię wyprzedzają.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.6
+       ],
+       [
+        0.3,
+        0.75
+       ],
+       [
+        0.5,
+        0.35
+       ],
+       [
+        0.7,
+        0.55
+       ],
+       [
+        1,
+        0.82
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.5,
+      "y": 0.35,
+      "label": "pit stop",
+      "dy": 60,
+      "hl": true
+     }
+    ],
+    "x": "sezon"
+   }
+  },
+  {
+   "title": "Wymiana opon",
+   "body": "To czas na poprawki: technika, sen, rozmowa z trenerem, nowe zasady.",
+   "viz": {
+    "type": "checklist",
+    "items": [
+     "co poprawiam",
+     "co zmieniam",
+     "o czym rozmawiam"
+    ]
+   }
+  },
+  {
+   "title": "Co jest po pit stopie?",
+   "body": "Wyjeżdżasz z poprawkami, z których skorzystasz także przy następnym postoju.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "słabszy okres",
+    "via": "poprawki",
+    "to": "dalej w wyścigu"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co wymienisz *w swoim boksie*?",
+  "cta": "Zapisz i wypisz trzy poprawki na ten tydzień.",
+  "art": "think"
+ },
+ "theme": "grafit"
+}

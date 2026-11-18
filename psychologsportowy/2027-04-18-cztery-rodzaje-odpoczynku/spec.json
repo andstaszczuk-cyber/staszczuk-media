@@ -1,0 +1,111 @@
+{
+ "cover": {
+  "kicker": "REGENERACJA",
+  "title": "Odpoczynek ma\n*cztery wymiary*",
+  "size": 94,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "viz",
+     "type": "grid4",
+     "x": 90,
+     "y": 20,
+     "s": 0.8,
+     "items": [
+      {
+       "icon": "bed",
+       "label": "ciało"
+      },
+      {
+       "icon": "people",
+       "label": "ludzie"
+      },
+      {
+       "icon": "heart",
+       "label": "emocje"
+      },
+      {
+       "icon": "sun",
+       "label": "sens"
+      }
+     ]
+    }
+   ]
+  },
+  "layout": "hero",
+  "lh": 1.25
+ },
+ "points": [
+  {
+   "title": "Ciało to dopiero początek",
+   "body": "Sen, rozciąganie, lżejszy dzień. To podstawa, ale głowa może dalej być zmęczona.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "bed",
+      "label": "sen"
+     },
+     {
+      "icon": "hand",
+      "label": "rozciąganie"
+     },
+     {
+      "icon": "pause",
+      "label": "lżejszy dzień",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Ludzie i emocje",
+   "body": "Czas z kimś, przy kim nie musisz być zawodnikiem. Rozmowa, która zdejmuje ciężar.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "people",
+     "label": "ludzie bez sportu"
+    },
+    "right": {
+     "icon": "heart",
+     "label": "rozmowa, która zdejmuje ciężar"
+    }
+   }
+  },
+  {
+   "title": "Coś poza wynikiem",
+   "body": "Spacer w lesie, muzyka, coś, co daje ci poczucie sensu. Scrollowanie nim nie jest.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "ŁADUJE",
+      "items": [
+       "spacer",
+       "muzyka",
+       "hobby"
+      ],
+      "hl": true
+     },
+     {
+      "title": "UDAJE",
+      "items": [
+       "scrollowanie",
+       "seriale do nocy"
+      ],
+      "dim": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Który wymiar *zaniedbujesz*?",
+  "cta": "Zapisz i zaplanuj na ten tydzień jedną rzecz z tego wymiaru.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

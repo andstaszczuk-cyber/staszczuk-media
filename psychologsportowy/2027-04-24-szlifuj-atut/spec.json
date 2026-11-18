@@ -1,0 +1,98 @@
+{
+ "cover": {
+  "big": "1",
+  "bigSize": 360,
+  "bigSub": "atut, który działa, nawet gdy rywal o nim wie",
+  "title": "Szlifuj\n*swój atut*",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "viz",
+     "type": "bars",
+     "x": 0,
+     "y": 0,
+     "s": 0.72,
+     "items": [
+      {
+       "label": "atut",
+       "v": 0.95,
+       "hl": true
+      },
+      {
+       "label": "reszta",
+       "v": 0.5
+      },
+      {
+       "label": "słabszy",
+       "v": 0.35
+      }
+     ]
+    }
+   ]
+  },
+  "vb": "0 0 900 420",
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Pod presją wracasz do mocnych",
+   "body": "W trudnym meczu ciało sięga po to, co umie najlepiej. Rywal robi dokładnie to samo.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "presja",
+    "via": "wracam do",
+    "to": "mojego atutu"
+   }
+  },
+  {
+   "title": "Słabsze do średniego poziomu",
+   "body": "Obszar, który nie szkodzi i nie daje przewagi, wystarczy podciągnąć do przyzwoitego poziomu.",
+   "viz": {
+    "type": "scale10",
+    "caption": "SŁABSZY ELEMENT",
+    "points": [
+     {
+      "n": 3,
+      "label": "dziś"
+     },
+     {
+      "n": 6,
+      "label": "wystarczy",
+      "hl": true
+     }
+    ],
+    "arrow": [
+     3,
+     6
+    ],
+    "arrowLabel": "do średniego"
+   }
+  },
+  {
+   "title": "Energia w szlif",
+   "body": "Większość czasu na atut. Wypracowany atut działa, nawet gdy rywal wie, co zrobisz.",
+   "viz": {
+    "type": "bars",
+    "caption": "PODZIAŁ TRENINGU",
+    "items": [
+     {
+      "label": "atut",
+      "v": 0.7,
+      "hl": true
+     },
+     {
+      "label": "słabsze",
+      "v": 0.3
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaki jest *twój atut*?",
+  "cta": "Zapisz go i zaplanuj, jak go szlifujesz w tym tygodniu.",
+  "art": "bubble"
+ },
+ "theme": "grafit"
+}

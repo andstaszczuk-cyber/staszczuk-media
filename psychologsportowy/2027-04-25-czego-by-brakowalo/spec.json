@@ -1,0 +1,148 @@
+{
+ "cover": {
+  "kicker": "WARTOŚCI",
+  "title": "Czego by ci\n*brakowało* bez sportu?",
+  "size": 84,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 150,
+     "y": 20,
+     "w": 600,
+     "h": 500,
+     "r": 30,
+     "c": "card",
+     "stroke": "line",
+     "sw": 4
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 210,
+     "y": 70,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 390,
+     "y": 70,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 570,
+     "y": 70,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 390,
+     "y": 300,
+     "s": 120,
+     "c": "soft"
+    },
+    {
+     "k": "line",
+     "x1": 380,
+     "y1": 300,
+     "x2": 520,
+     "y2": 420,
+     "c": "fg",
+     "w": 8
+    }
+   ]
+  },
+  "layout": "top",
+  "lh": 1.25
+ },
+ "points": [
+  {
+   "title": "Wyobraź sobie brak",
+   "body": "Przez rok nie ma treningów ani zawodów. Wypisz, za czym tęsknisz najbardziej.",
+   "viz": {
+    "type": "notes",
+    "title": "BRAKOWAŁOBY MI",
+    "lines": [
+     "ludzi z drużyny",
+     "zmęczenia po treningu",
+     "emocji przed startem"
+    ]
+   }
+  },
+  {
+   "title": "Wynik rzadko tam jest",
+   "body": "Na takiej liście prawie nigdy nie pada medal. Padają ludzie, ruch, rozwój, emocje.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "people",
+      "label": "ludzie"
+     },
+     {
+      "icon": "heart",
+      "label": "emocje"
+     },
+     {
+      "icon": "trophy",
+      "label": "medal",
+      "sub": "rzadko"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Wartości w kalendarzu",
+   "body": "Sprawdź, czy w twoim tygodniu jest miejsce na to, co naprawdę cenisz.",
+   "viz": {
+    "type": "week",
+    "days": [
+     {
+      "d": "pn"
+     },
+     {
+      "d": "wt",
+      "icon": "people",
+      "mark": "hl"
+     },
+     {
+      "d": "śr"
+     },
+     {
+      "d": "cz",
+      "icon": "heart",
+      "mark": "ring"
+     },
+     {
+      "d": "pt"
+     },
+     {
+      "d": "sb",
+      "icon": "ball"
+     },
+     {
+      "d": "nd",
+      "icon": "sun",
+      "mark": "hl"
+     }
+    ],
+    "note": "gdzie są twoje wartości?"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co jest na *twojej liście*?",
+  "cta": "Zapisz ją i trzymaj na gorsze dni sezonu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

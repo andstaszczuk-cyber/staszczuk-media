@@ -1,0 +1,128 @@
+{
+ "cover": {
+  "left": "NA POCZĄTKU",
+  "right": "NA KOŃCU",
+  "title": "Koniec zdania\n*waży więcej*",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 230,
+     "t": [
+      "dobrze grałem,",
+      "ale ten błąd..."
+     ],
+     "size": 36,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 50
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 230,
+     "t": [
+      "był błąd,",
+      "ale dobrze grałem"
+     ],
+     "size": 36,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 50
+    },
+    {
+     "k": "person",
+     "x": 140,
+     "y": 330,
+     "s": 0.5,
+     "pose": "slump",
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "x": 590,
+     "y": 330,
+     "s": 0.5,
+     "pose": "win"
+    }
+   ]
+  },
+  "layout": "split",
+  "lh": 1.25
+ },
+ "points": [
+  {
+   "title": "Ostatnie słowo zostaje",
+   "body": "Masz kłopoty, ale cię lubię, brzmi inaczej niż lubię cię, ale masz kłopoty. Liczy się końcówka.",
+   "viz": {
+    "type": "table",
+    "left": "ZOSTAJE ZŁE",
+    "right": "ZOSTAJE DOBRE",
+    "good": true,
+    "rows": [
+     [
+      "wygrałem, ale słabo",
+      "słabo, ale wygrałem"
+     ],
+     [
+      "umiem, ale się boję",
+      "boję się, ale umiem"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Słuchaj, jak mówisz do siebie",
+   "body": "Po meczu zauważ, czym kończysz swoje zdania. Tam jest to, co zabierasz do domu.",
+   "viz": {
+    "type": "focus",
+    "center": "koniec zdania",
+    "around": [
+     "mecz",
+     "błąd",
+     "trener",
+     "wynik"
+    ]
+   }
+  },
+  {
+   "title": "Przestaw kolejność",
+   "body": "Te same fakty, inna kolejność. To, co wspiera, stawiaj na końcu.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "dobrze, ale błąd",
+    "to": "był błąd, ale zagrałem dobrze"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak *kończysz* swoje zdania?",
+  "cta": "Zapisz i po najbliższym meczu przestaw jedno zdanie.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

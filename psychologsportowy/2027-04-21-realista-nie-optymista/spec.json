@@ -1,0 +1,132 @@
+{
+ "cover": {
+  "kicker": "NASTAWIENIE",
+  "title": "Po drodze ciężko,\n*na koniec spoko*",
+  "size": 90,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "path",
+     "d": "M40 560 C200 560 220 300 340 360 C460 420 520 160 640 220 C740 270 780 120 860 80",
+     "c": "A",
+     "w": 14
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 800,
+     "y": 0,
+     "s": 100,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 330,
+     "y": 200,
+     "s": 110,
+     "c": "soft"
+    },
+    {
+     "k": "person",
+     "x": 40,
+     "y": 290,
+     "s": 0.55,
+     "pose": "walk"
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Optymista nie widzi dziur",
+   "body": "Będzie dobrze, wszystko pójdzie gładko. Pierwsza trudność i cały plan się sypie.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.5
+       ],
+       [
+        1,
+        0.9
+       ]
+      ],
+      "dash": true
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.5
+       ],
+       [
+        0.25,
+        0.35
+       ],
+       [
+        0.5,
+        0.6
+       ],
+       [
+        0.7,
+        0.45
+       ],
+       [
+        1,
+        0.85
+       ]
+      ],
+      "hl": true,
+      "label": "rzeczywistość"
+     }
+    ],
+    "x": "sezon"
+   }
+  },
+  {
+   "title": "Realista zakłada trud",
+   "body": "Wie, że będą gorsze dni, i ma na nie plan. Trudność nie zaskakuje, więc mniej boli.",
+   "viz": {
+    "type": "table",
+    "left": "JEŚLI",
+    "right": "TO JA",
+    "good": true,
+    "rows": [
+     [
+      "gorszy trening",
+      "trzymam plan"
+     ],
+     [
+      "porażka",
+      "analiza za 2 dni"
+     ],
+     [
+      "zmęczenie",
+      "lżejszy dzień"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Będzie dobrze, bo o to zadbam",
+   "body": "Optymizm z planem w ręku. Wiesz, co zrobisz, gdy przyjdzie trudniej.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "jakoś to będzie",
+    "to": "będzie dobrze, bo o to zadbam"
+   }
+  }
+ ],
+ "end": {
+  "question": "Na jaki *trudny moment* masz plan?",
+  "cta": "Zapisz jeden scenariusz jeśli i to na najbliższe tygodnie.",
+  "art": "think"
+ },
+ "theme": "grafit"
+}

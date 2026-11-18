@@ -1,0 +1,125 @@
+{
+ "cover": {
+  "kicker": "KONIEC KWIETNIA",
+  "title": "Kto będzie o tym\n*pamiętał za miesiąc*?",
+  "size": 82,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "viz",
+     "type": "timeline",
+     "x": 0,
+     "y": 40,
+     "s": 1,
+     "points": [
+      {
+       "top": "dziś",
+       "icon": "cloudRain",
+       "bottom": [
+        "porażka"
+       ]
+      },
+      {
+       "top": "tydzień",
+       "icon": "brain",
+       "bottom": [
+        "jeszcze boli"
+       ]
+      },
+      {
+       "top": "miesiąc",
+       "icon": "sun",
+       "hl": true,
+       "bottom": [
+        "kto pamięta?"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "layout": "hero",
+  "lh": 1.25
+ },
+ "points": [
+  {
+   "title": "Tamte zawody sprzed roku",
+   "body": "Przypomnij sobie słaby start sprzed roku. Pewnie musisz się chwilę zastanowić.",
+   "viz": {
+    "type": "scale10",
+    "caption": "JAK MOCNO PAMIĘTASZ",
+    "points": [
+     {
+      "n": 10,
+      "label": "wtedy"
+     },
+     {
+      "n": 2,
+      "label": "dziś",
+      "hl": true
+     }
+    ],
+    "arrow": [
+     10,
+     2
+    ],
+    "arrowLabel": "czas robi swoje"
+   }
+  },
+  {
+   "title": "Inni myślą o tobie krócej",
+   "body": "Mało kto pamięta twoją porażkę dłużej niż kilka dni. To smutne, ale wyzwalające.",
+   "viz": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "ty",
+      "v": 0.9,
+      "hl": true
+     },
+     {
+      "label": "trener",
+      "v": 0.35
+     },
+     {
+      "label": "kibice",
+      "v": 0.12
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zły dzień zostaw",
+   "body": "Pojedynczy zły dzień zostawiasz. Analizujesz dopiero złe tygodnie.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "ZOSTAWIAM",
+      "items": [
+       "zły dzień",
+       "jeden mecz"
+      ],
+      "dim": true
+     },
+     {
+      "title": "ANALIZUJĘ",
+      "items": [
+       "złe tygodnie",
+       "powtarzalność"
+      ],
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co z kwietnia *zostawiasz*?",
+  "cta": "Zapisz i zamknij miesiąc jednym zdaniem.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

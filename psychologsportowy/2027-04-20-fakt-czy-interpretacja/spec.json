@@ -1,0 +1,120 @@
+{
+ "cover": {
+  "big": "1",
+  "bigSize": 360,
+  "bigSub": "fakt i cała masa interpretacji",
+  "title": "To był\n*zły bieg*?",
+  "size": 100,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "chip",
+     "x": 0,
+     "y": 40,
+     "text": "tragedia",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 220,
+     "y": 40,
+     "text": "znowu",
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 0,
+     "y": 130,
+     "text": "czas 12:41",
+     "c": "A",
+     "tc": "onA"
+    },
+    {
+     "k": "icon",
+     "name": "ruler",
+     "x": 640,
+     "y": 40,
+     "s": 180,
+     "c": "A"
+    }
+   ]
+  },
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "lh": 1.25
+ },
+ "points": [
+  {
+   "title": "Fakt da się policzyć",
+   "body": "Czas, wynik, liczba celnych podań. Wszystko inne jest twoją interpretacją.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "FAKT",
+      "items": [
+       "czas",
+       "wynik",
+       "statystyki"
+      ],
+      "hl": true
+     },
+     {
+      "title": "INTERPRETACJA",
+      "items": [
+       "tragedia",
+       "zawsze tak",
+       "beznadzieja"
+      ],
+      "dim": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Rozłóż ocenę",
+   "body": "Zły bieg rozbierz na czynniki: tempo, ciało, warunki, taktyka. Zobacz, co faktycznie nie zagrało.",
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "clock",
+      "label": "tempo",
+      "ok": false
+     },
+     {
+      "icon": "heart",
+      "label": "ciało"
+     },
+     {
+      "icon": "wind",
+      "label": "warunki"
+     },
+     {
+      "icon": "flag",
+      "label": "taktyka"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Oczy trenera i przyjaciela",
+   "body": "Sprawdź swoją interpretację z ich perspektywy. Często jest łagodniejsza i bardziej trafna.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "zły bieg",
+    "to": "za szybki start, reszta ok"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co jest *faktem*, a co twoją oceną?",
+  "cta": "Zapisz i rozłóż na czynniki ostatni słabszy start.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

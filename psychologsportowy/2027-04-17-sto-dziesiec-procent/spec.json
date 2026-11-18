@@ -1,0 +1,94 @@
+{
+ "cover": {
+  "kicker": "HASŁA MOTYWACYJNE",
+  "title": "Dajesz *110%*?\nPolicz to",
+  "size": 100,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "gauge",
+     "x": 450,
+     "y": 400,
+     "r": 300,
+     "v": 1.08,
+     "labels": []
+    },
+    {
+     "k": "text",
+     "x": 450,
+     "y": 470,
+     "t": "110%",
+     "size": 64,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle"
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Hasło brzmi dobrze",
+   "body": "Dawaj 110%, zawsze na maksa. Tylko że ponad sto procent się nie da, da się najwyżej zajechać.",
+   "viz": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "100%",
+      "v": 0.8
+     },
+     {
+      "label": "110%",
+      "v": 1,
+      "hl": true,
+      "note": "na kredyt"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Ustal swoje dzisiejsze 100%",
+   "body": "Po złej nocy twoje sto procent wygląda inaczej niż po wypoczynku. I to jest w porządku.",
+   "viz": {
+    "type": "scale10",
+    "caption": "DZISIEJSZA DYSPOZYCJA",
+    "points": [
+     {
+      "n": 6,
+      "label": "dziś",
+      "hl": true
+     },
+     {
+      "n": 9,
+      "label": "dobry dzień"
+     }
+    ],
+    "note": "dziś robię swoje 100% z szóstki"
+   }
+  },
+  {
+   "title": "Więcej czy inaczej?",
+   "body": "Zamiast dokładać intensywności, zapytaj, co możesz zrobić mądrzej.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "bolt",
+     "label": "jeszcze mocniej",
+     "cross": true
+    },
+    "right": {
+     "icon": "brain",
+     "label": "jeszcze mądrzej"
+    }
+   }
+  }
+ ],
+ "end": {
+  "question": "Ile wynosi *dziś* twoje 100%?",
+  "cta": "Zapisz i ustal to przed jutrzejszym treningiem.",
+  "art": "think"
+ },
+ "theme": "grafit"
+}

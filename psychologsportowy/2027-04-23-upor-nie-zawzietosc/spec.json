@@ -1,0 +1,146 @@
+{
+ "cover": {
+  "left": "ZAWZIĘTOŚĆ",
+  "right": "UPÓR",
+  "title": "Upór jest\n*spokojny*",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 170,
+     "y": 40,
+     "s": 100,
+     "c": "soft"
+    },
+    {
+     "k": "person",
+     "x": 98,
+     "y": 160,
+     "s": 0.8,
+     "pose": "hips",
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 630,
+     "y": 40,
+     "s": 110,
+     "c": "A"
+    },
+    {
+     "k": "person",
+     "x": 540,
+     "y": 160,
+     "s": 0.8,
+     "pose": "walk"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Zawziętość chce udowodnić",
+   "body": "Napędza ją złość i potrzeba pokazania komuś. Daje kopa, ale szybko spala energię.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.3
+       ],
+       [
+        0.15,
+        0.95
+       ],
+       [
+        0.35,
+        0.2
+       ],
+       [
+        0.5,
+        0.9
+       ],
+       [
+        0.7,
+        0.15
+       ]
+      ],
+      "label": "zawziętość",
+      "la": "start"
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.3
+       ],
+       [
+        0.3,
+        0.45
+       ],
+       [
+        0.6,
+        0.6
+       ],
+       [
+        1,
+        0.78
+       ]
+      ],
+      "hl": true,
+      "label": "upór"
+     }
+    ],
+    "x": "czas"
+   }
+  },
+  {
+   "title": "Upór robi swoje",
+   "body": "Spokojnie, dzień po dniu. Nie potrzebuje wroga, żeby wstać na trening.",
+   "viz": {
+    "type": "bricks",
+    "label": "dzień po dniu",
+    "caption": "powtarzalność"
+   }
+  },
+  {
+   "title": "Sprawdź swoje paliwo",
+   "body": "Robisz to dla siebie czy po to, żeby komuś coś pokazać?",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "jeszcze im pokażę",
+    "to": "robię swoje, dzień po dniu"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *napędza* cię najczęściej?",
+  "cta": "Zapisz i sprawdź to przy najbliższym trudnym treningu.",
+  "art": "think"
+ },
+ "theme": "grafit"
+}

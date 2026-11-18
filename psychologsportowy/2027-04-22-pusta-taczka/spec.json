@@ -1,0 +1,123 @@
+{
+ "cover": {
+  "kicker": "ZAJĘTOŚĆ",
+  "title": "Biegasz\nz *pustą taczką*?",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 100,
+     "y": 90,
+     "s": 1.0,
+     "pose": "run"
+    },
+    {
+     "k": "path",
+     "d": "M430 400 L520 470 L800 470 L840 380 Z",
+     "fill": "soft"
+    },
+    {
+     "k": "line",
+     "x1": 330,
+     "y1": 330,
+     "x2": 450,
+     "y2": 410,
+     "c": "fig",
+     "w": 14
+    },
+    {
+     "k": "circle",
+     "x": 560,
+     "y": 530,
+     "r": 46,
+     "fill": "none",
+     "stroke": "fg",
+     "sw": 14
+    },
+    {
+     "k": "chip",
+     "x": 560,
+     "y": 300,
+     "text": "pusto",
+     "c": "A"
+    }
+   ]
+  },
+  "layout": "hero",
+  "lh": 1.25
+ },
+ "points": [
+  {
+   "title": "Zajęty to nie to samo",
+   "body": "Cały dzień w biegu, kalendarz pełny, a na koniec trudno powiedzieć, co się posunęło.",
+   "viz": {
+    "type": "week",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "wt",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "śr",
+      "icon": "phone"
+     },
+     {
+      "d": "cz",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "pt",
+      "icon": "book"
+     },
+     {
+      "d": "sb",
+      "icon": "ball"
+     },
+     {
+      "d": "nd",
+      "icon": "dumbbell"
+     }
+    ],
+    "note": "dużo ruchu, mało postępu"
+   }
+  },
+  {
+   "title": "Sprawdź, co wieziesz",
+   "body": "Na każdy trening jedno konkretne zadanie. Wtedy wiesz, co z niego zabierasz.",
+   "viz": {
+    "type": "notes",
+    "title": "DZIŚ WIOZĘ",
+    "lines": [
+     "pierwszy kontakt",
+     "praca nóg",
+     "reset po błędzie"
+    ]
+   }
+  },
+  {
+   "title": "Mniej, ale z celem",
+   "body": "Czasem lepszy efekt daje odjęcie jednej rzeczy niż dołożenie trzech.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "jeszcze dołożę",
+    "to": "co mogę odjąć?"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co dziś *naprawdę* wieziesz?",
+  "cta": "Zapisz i przed jutrzejszym treningiem nazwij jedno zadanie.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
