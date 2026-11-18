@@ -196,6 +196,14 @@ const S = {
     <rect y="450" width="1080" height="900" fill="#1B2A1F" opacity=".55"/>
     <line x1="540" y1="470" x2="540" y2="1350" stroke="${CR}" stroke-opacity=".2" stroke-width="6"/><ellipse cx="540" cy="760" rx="260" ry="60" fill="none" stroke="${CR}" stroke-opacity=".2" stroke-width="6"/>
     <g transform="translate(340,230) scale(1)">${fig({ head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [148, 228], [150, 300]], rA: [[240, 155], [262, 85], [270, 10]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] })}</g>`),
+  // turniej dla dzieci: sędzia przykucnięty na wysokości oczu dziecka, mała bramka i piłka
+  kids: () => wrap(`${light(170, 100, 240)}${light(910, 90, 250)}${stands(420)}<rect y="440" width="1080" height="910" fill="#1B2A1F" opacity=".5"/>
+    <line x1="0" y1="720" x2="1080" y2="700" stroke="${CR}" stroke-opacity=".2" stroke-width="6"/>
+    <path d="M820,640 L820,470 L1020,470 L1020,640" fill="none" stroke="${CR}" stroke-width="10" opacity=".75"/>
+    <path d="M820,470 L860,500 L980,500 L1020,470 M860,500 L860,640 M980,500 L980,640" fill="none" stroke="${CR}" stroke-width="3" opacity=".35"/>
+    <g transform="translate(180,170)">${fig({ head: [210, 170], sh: [205, 240], hip: [215, 385], lA: [[165, 245], [150, 320], [175, 385]], rA: [[245, 245], [320, 300], [395, 290]], lL: [[200, 390], [120, 410], [125, 500]], rL: [[230, 390], [310, 385], [315, 500]] })}</g>
+    ${kid(520, 345, 0.62, { head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [130, 215], [120, 270]], rA: [[240, 155], [252, 228], [250, 300]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] })}
+    <circle cx="760" cy="640" r="30" fill="${CR}"/><path d="M745,628 l15,-8 l15,8 l-5,16 l-20,0 Z" fill="#2B1515" opacity=".7"/>`),
   // przywitanie przed meczem: sędzia podaje rękę zawodnikowi przy linii środkowej
   handshake: () => wrap(`${light(200, 100, 250)}${light(880, 90, 250)}${stands(420)}<rect y="440" width="1080" height="910" fill="#1B2A1F" opacity=".5"/>
     <line x1="0" y1="720" x2="1080" y2="700" stroke="${CR}" stroke-opacity=".2" stroke-width="6"/><circle cx="560" cy="720" r="14" fill="${CR}" opacity=".5"/>
