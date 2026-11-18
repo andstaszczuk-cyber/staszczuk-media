@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "young",
+   "text": "Pierwszy sezon\\n*za tobą*."
+  },
+  {
+   "kind": "point",
+   "title": "Przetrwałeś",
+   "body": "Pierwsze mecze, pierwsze nerwy, pierwsze krzyki. Jesteś tu.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Ile się nauczyłeś",
+   "body": "Porównaj siebie z września i siebie z czerwca.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Co dalej",
+   "body": "Jedna rzecz, którą rozwijasz w drugim sezonie.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Gdzie byłeś rok temu,\\n*a gdzie jesteś dziś*?",
+   "cta": "Zapisz i wróć na początku drugiego sezonu"
+  }
+ ]
+}

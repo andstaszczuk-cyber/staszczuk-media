@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "decision",
+   "text": "Letni turniej\\n*na małym boisku*."
+  },
+  {
+   "kind": "point",
+   "title": "Inna gra",
+   "body": "Małe boisko, szybkie akcje, decyzje co kilka sekund.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Bez asystentów",
+   "body": "Sam widzisz wszystko. Ustawienie jest kluczem.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Amatorzy z ambicją",
+   "body": "Grają dla zabawy, a chcą wygrać jak w finale.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Małe boisko,\\n*ta sama głowa*.",
+   "cta": "Zapisz i wróć przed letnim turniejem"
+  }
+ ]
+}

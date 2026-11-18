@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "lista",
+   "text": "Lista po sezonie.\\n*Twoje miejsce*."
+  },
+  {
+   "kind": "point",
+   "title": "Emocje przy liście",
+   "body": "Spadek albo awans na liście porusza każdego.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Wpływ",
+   "body": "Na pozycję wpływasz pośrednio, przez pracę w sezonie.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Pytania",
+   "body": "Zapytaj, co stoi za twoją oceną. Spokojnie i konkretnie.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Miejsce na liście\\n*to informacja*.",
+   "cta": "Zapisz i wróć, gdy wyjdą klasyfikacje"
+  }
+ ]
+}

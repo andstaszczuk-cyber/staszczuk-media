@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Ostatni mecz kapitana?\\n*Ty prowadzisz mecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Szpaler i kwiaty",
+   "body": "Pożegnanie przed meczem to piękna chwila. Daj jej miejsce.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Potem gra",
+   "body": "Po pierwszym gwizdku przepisy są te same dla każdego.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Wzruszenie",
+   "body": "Emocje zawodnika rosną. Twoje mogą też.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "end",
+   "text": "Szacunek dla chwili,\\n*szacunek dla przepisów*.",
+   "cta": "Zapisz i wróć przed ostatnim meczem sezonu"
+  }
+ ]
+}

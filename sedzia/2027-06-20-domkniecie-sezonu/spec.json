@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Sezon skończony?\\n*Postaw kropkę*."
+  },
+  {
+   "kind": "point",
+   "title": "Rytuał",
+   "body": "Zrób coś, co mówi głowie: koniec, ten rozdział zamknięty.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Sprzęt do szafy",
+   "body": "Wypierz strój, spakuj torbę, odłóż gwizdek.",
+   "icon": "szafa"
+  },
+  {
+   "kind": "point",
+   "title": "Notatka",
+   "body": "Kilka zdań o sezonie. Potem zamykasz zeszyt.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Kropka\\n*robi miejsce na odpoczynek*.",
+   "cta": "Zapisz i wróć po ostatnim meczu sezonu"
+  }
+ ]
+}

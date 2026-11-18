@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "1",
+   "text": "mecz z tego sezonu,\\n*który rozbierasz na części*."
+  },
+  {
+   "kind": "point",
+   "title": "Wybierz",
+   "body": "Mecz, po którym schodziłeś zadowolony z siebie.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Rozbierz",
+   "body": "Co zrobiłeś przed meczem, w trakcie i po nim?",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Powtórz",
+   "body": "To, co zadziałało, zapisujesz i robisz znowu.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Wiesz, jak to zrobiłeś.\\n*Możesz to powtórzyć*.",
+   "cta": "Zapisz i wróć przed nowym sezonem"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "SEZON",
+   "text": "Twój najtrudniejszy\\n*mecz sezonu*?",
+   "sub": "Przeszedłeś przez niego. *Co to mówi o tobie*?"
+  },
+  {
+   "kind": "point",
+   "title": "Przypomnij sobie",
+   "body": "Bez oceniania. Co wtedy było trudne?",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Jak przeszedłeś",
+   "body": "Co pozwoliło ci dokończyć ten mecz?",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Co zabierasz",
+   "body": "Jeden wniosek, który zostaje na kolejne mecze.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Trudny mecz\\n*to też dowód*.",
+   "cta": "Zapisz i wróć po trudnym meczu"
+  }
+ ]
+}

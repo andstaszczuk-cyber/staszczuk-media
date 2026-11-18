@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "derby",
+   "text": "Wolny weekend?\\n*Usiądź na trybunach*."
+  },
+  {
+   "kind": "point",
+   "title": "Inna perspektywa",
+   "body": "Z trybun widać, jak sędzia wygląda dla kibica.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Co słychać",
+   "body": "Posłuchaj, co ludzie mówią o sędzim. Bez brania tego do siebie.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "point",
+   "title": "Jedno spostrzeżenie",
+   "body": "Wybierz jedną rzecz, którą zabierasz do swoich meczów.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Z trybun\\n*widać inaczej*.",
+   "cta": "Zapisz i wróć w wolny weekend"
+  }
+ ]
+}

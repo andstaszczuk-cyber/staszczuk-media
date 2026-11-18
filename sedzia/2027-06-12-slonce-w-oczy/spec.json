@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Słońce w oczy?\\n*Zmień miejsce, zanim zmienisz zdanie*."
+  },
+  {
+   "kind": "point",
+   "title": "Wieczorne mecze",
+   "body": "Czerwcowe słońce świeci nisko i potrafi oślepić.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Ustawienie",
+   "body": "Sprawdź przed meczem, skąd będzie świecić w drugiej połowie.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Uczciwie z sobą",
+   "body": "Nie widziałeś? Pomoc asystenta to twój zasób.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Masz wpływ\\n*na to, skąd patrzysz*.",
+   "cta": "Zapisz i wróć przed wieczornym meczem"
+  }
+ ]
+}
