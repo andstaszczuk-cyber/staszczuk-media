@@ -1,0 +1,35 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "whistle",
+   "text": "Rozgrzewka jest nudna?\n*Trochę tak. I tak warto*."
+  },
+  {
+   "kind": "point",
+   "title": "Nudna *dla każdego*",
+   "body": "Dorośli zawodnicy też za nią nie przepadają. I robią ją.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Rozgrzewka *to start meczu*",
+   "body": "Ciało i głowa przełączają się na grę już przy pierwszych ćwiczeniach.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Daj *zadanie*",
+   "body": "Jedna rzecz do sprawdzenia w rozgrzewce zmienia nudę w przygotowanie.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "end",
+   "text": "Nie trzeba jej lubić. *Wystarczy ją robić*.",
+   "cta": "Zapisz i wyślij rodzicowi zawodnika, który przesypia rozgrzewkę.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "W sobotę komunia kuzyna i turniej.",
+    "*Usiądźmy i zdecydujmy razem.*"
+   ],
+   "text": "Rodzina i sport *w jednym terminie*."
+  },
+  {
+   "kind": "point",
+   "title": "Obie rzeczy *są ważne*",
+   "body": "Rodzina i drużyna to dwie wartości. Każdy wybór ma swój koszt.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Decydujcie *razem*",
+   "body": "Zapytaj dziecko, co jest dla niego ważne w każdej opcji.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Uprzedź *trenera*",
+   "body": "Informacja na tydzień przed to szacunek dla drużyny.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "end",
+   "text": "Wybór podjęty razem *łatwiej przyjąć*.",
+   "cta": "Zapisz i wyślij rodzicowi przed rodzinną uroczystością w dzień meczu.",
+   "icon": "heart"
+  }
+ ]
+}

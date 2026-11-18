@@ -1,0 +1,36 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Tata mówi: strzelaj. Mama mówi: podawaj.",
+   "new": "W domu *mówimy jednym głosem*.",
+   "text": "A na boisku dziecko słucha trenera."
+  },
+  {
+   "kind": "point",
+   "title": "Dwie rady *to chaos*",
+   "body": "Dziecko w meczu nie wie, kogo zadowolić, i gra ostrożnie.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Ustalcie *między sobą*",
+   "body": "Różnice omawiajcie we dwoje, bez dziecka w roli sędziego.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Na boisku *jest trener*",
+   "body": "Wskazówki taktyczne zostawcie jemu. Wy dajcie wsparcie.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "end",
+   "text": "Spójny dom *daje dziecku spokój na boisku*.",
+   "cta": "Zapisz i wyślij drugiemu rodzicowi.",
+   "icon": "heart"
+  }
+ ]
+}

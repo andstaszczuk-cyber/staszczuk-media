@@ -1,0 +1,38 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Tato, po co Ty znowu biegasz?",
+    "*Bo lubię. Choć na początku zawsze boli.*"
+   ],
+   "text": "Dziecko patrzy, *jak Ty trenujesz*."
+  },
+  {
+   "kind": "point",
+   "title": "Pokazujesz *wysiłek*",
+   "body": "Dziecko widzi, że dorosły też się męczy i wraca następnego dnia.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Mów *o gorszych dniach*",
+   "body": "Że się nie chciało, że bolało, że i tak wyszedłeś z domu.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *porównań*",
+   "body": "Twój sport jest Twój. Ma być przykładem, nigdy wyrzutem.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "end",
+   "text": "Dzieci uczą się sportu *z tego, co widzą w domu*.",
+   "cta": "Zapisz i wyślij rodzicowi, który też trenuje.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Spakowałam Ci torbę na trening.",
+   "new": "Spakuj torbę sam, *ja zerknę na listę*.",
+   "text": "Samodzielność zaczyna się od drobiazgów."
+  },
+  {
+   "kind": "point",
+   "title": "Lista *na drzwiach*",
+   "body": "Kartka z rzeczami do torby. Dziecko odhacza, Ty nie musisz pamiętać za nie.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Zapomniał? *To też nauka*",
+   "body": "Jeden trening w pożyczonej koszulce uczy więcej niż dziesięć przypomnień.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Doceń *spakowaną torbę*",
+   "body": "Tydzień bez wpadek to dobry powód, żeby to powiedzieć głośno.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Kto sam pakuje torbę, *czuje, że to jego sport*.",
+   "cta": "Zapisz i wyślij rodzicowi, który wciąż pakuje torbę za dziecko.",
+   "icon": "heart"
+  }
+ ]
+}

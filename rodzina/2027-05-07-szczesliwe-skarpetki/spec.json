@@ -1,0 +1,36 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Bez szczęśliwych skarpetek nie wygram.",
+   "new": "Gram *tym, co umiem*.",
+   "text": "Talizman może zostać, byle nie rządził."
+  },
+  {
+   "kind": "point",
+   "title": "Talizman *daje spokój*",
+   "body": "Znany rytuał uspokaja przed meczem i to jest w porządku.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Gorzej, gdy *rządzi meczem*",
+   "body": "Kiedy zgubiona skarpetka psuje cały występ, warto porozmawiać.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Rytuał *z zachowań*",
+   "body": "Rozgrzewka, oddech, jedno zdanie do siebie. Tego nie da się zgubić.",
+   "icon": "loop"
+  },
+  {
+   "kind": "end",
+   "text": "To, co naprawdę działa, *dziecko ma w sobie*.",
+   "cta": "Zapisz i wyślij rodzicowi małego zawodnika z talizmanem.",
+   "icon": "heart"
+  }
+ ]
+}

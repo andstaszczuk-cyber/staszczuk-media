@@ -1,0 +1,41 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Matura i trening\n*w jednym tygodniu*:",
+   "items": [
+    "ruch przewietrza głowę",
+    "mniej, ale regularnie",
+    "sen przed powtórkami",
+    "decyzja należy do niego"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Ruch *przewietrza głowę*",
+   "body": "Krótki trening po dniu nauki daje odpoczynek od kartek i myśli.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Mniej, *ale regularnie*",
+   "body": "W maju można zmniejszyć obciążenie. Wystarczy rozmowa z trenerem.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja *należy do niego*",
+   "body": "Zapytaj, czego potrzebuje. On najlepiej wie, co mu pomaga.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Egzamin i sport *mogą się wspierać*.",
+   "cta": "Zapisz i wyślij rodzicowi maturzysty, który trenuje.",
+   "icon": "heart"
+  }
+ ]
+}

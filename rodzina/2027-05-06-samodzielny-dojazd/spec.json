@@ -1,0 +1,35 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "bag",
+   "text": "Pierwszy raz sam\n*na trening*."
+  },
+  {
+   "kind": "point",
+   "title": "Przećwiczcie *trasę razem*",
+   "body": "Raz czy dwa przejedźcie ją wspólnie, potem dziecko prowadzi.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "point",
+   "title": "Plan *na wpadkę*",
+   "body": "Co robi, gdy autobus nie przyjedzie? Ustalcie to wcześniej.",
+   "icon": "phone"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna wiadomość *wystarczy*",
+   "body": "Krótki znak, że dotarło. Bez dzwonienia co dziesięć minut.",
+   "icon": "clock"
+  },
+  {
+   "kind": "end",
+   "text": "Droga na trening *też uczy samodzielności*.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko zaczyna samo jeździć na trening.",
+   "icon": "heart"
+  }
+ ]
+}

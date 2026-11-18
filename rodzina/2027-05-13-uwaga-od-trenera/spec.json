@@ -1,0 +1,38 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Trener pisze, że syn przeszkadza na treningach.",
+    "*Dobrze, że wiem. Porozmawiam z nim.*"
+   ],
+   "text": "Uwaga od trenera *to informacja*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *oddech*",
+   "body": "Pierwsza reakcja to często obrona. Daj sobie chwilę przed odpowiedzią.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj *o konkrety*",
+   "body": "Co dokładnie się dzieje i kiedy? Konkret ułatwia rozmowę z dzieckiem.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa *z dzieckiem*",
+   "body": "Bez kary na start. Najpierw jego wersja, potem wspólny plan.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Trener i rodzic *grają do jednej bramki*.",
+   "cta": "Zapisz i wyślij rodzicowi, który dostał wiadomość od trenera.",
+   "icon": "heart"
+  }
+ ]
+}

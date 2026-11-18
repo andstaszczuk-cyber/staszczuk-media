@@ -1,0 +1,34 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Trener chwali innych?\n*Twoje dziecko też rośnie*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *posłuchaj*",
+   "body": "Smutek w takiej sytuacji jest zrozumiały. Daj mu wybrzmieć.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Trener *widzi całą grupę*",
+   "body": "Pochwały rozkładają się nierówno i rzadko są przemyślaną oceną.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Szukajcie *własnych dowodów*",
+   "body": "Co umiesz dziś, czego nie umiałeś w styczniu?",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "end",
+   "text": "Postęp dzieje się *także bez pochwały*.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko czeka na pochwałę trenera.",
+   "icon": "heart"
+  }
+ ]
+}

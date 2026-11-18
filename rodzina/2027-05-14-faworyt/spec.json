@@ -1,0 +1,41 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Gdy dziecko\n*jest faworytem*:",
+   "items": [
+    "rywal też chce wygrać",
+    "gramy swoje",
+    "bez obietnic złota",
+    "każdy mecz od zera"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Rywal *też chce wygrać*",
+   "body": "Słabszy przeciwnik nie ma nic do stracenia i często gra odważniej.",
+   "icon": "dice"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *obietnic złota*",
+   "body": "Zdanie, że na pewno wygra, dokłada dziecku presji.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "point",
+   "title": "Każdy mecz *od zera*",
+   "body": "Poprzednie wyniki nie grają. Gra to, co dziecko zrobi dziś.",
+   "icon": "loop"
+  },
+  {
+   "kind": "end",
+   "text": "Faworyt wygrywa *tym, co robi na boisku*.",
+   "cta": "Zapisz i wyślij rodzicowi przed meczem, który dziecko ma wygrać.",
+   "icon": "heart"
+  }
+ ]
+}

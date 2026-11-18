@@ -1,0 +1,35 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "face",
+   "text": "Przegrał, a Tobie\n*też jest przykro*."
+  },
+  {
+   "kind": "point",
+   "title": "Masz *prawo to czuć*",
+   "body": "Zależy Ci na dziecku, więc przeżywasz razem z nim.",
+   "icon": "heart"
+  },
+  {
+   "kind": "point",
+   "title": "Twoje emocje *poczekają*",
+   "body": "Najpierw dziecko. Swoje przeżyj później, z dorosłym.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Twarz *mówi pierwsza*",
+   "body": "Dziecko czyta Twoją minę, zanim usłyszy pierwsze słowo.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Rozczarowanie rodzica *nie może stać się ciężarem dziecka*.",
+   "cta": "Zapisz i wyślij rodzicowi, który przeżywa mecze dziecka.",
+   "icon": "heart"
+  }
+ ]
+}

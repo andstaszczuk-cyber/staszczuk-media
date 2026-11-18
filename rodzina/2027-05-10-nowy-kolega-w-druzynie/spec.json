@@ -1,0 +1,34 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Ktoś nowy w drużynie?\n*Twoje dziecko może mu pomóc*."
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsze dni *są najtrudniejsze*",
+   "body": "Nowa szatnia, nowe imiona, nikt nie wie, gdzie usiąść.",
+   "icon": "door"
+  },
+  {
+   "kind": "point",
+   "title": "Mały gest *wystarczy*",
+   "body": "Cześć, chodź do nas, pokażę Ci, gdzie jest szatnia.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Drużyna *zyskuje*",
+   "body": "Kto dobrze przyjmuje nowych, buduje zespół, w którym chce się grać.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "end",
+   "text": "Dobre przyjęcie *zostaje w pamięci na lata*.",
+   "cta": "Zapisz i wyślij rodzicowi, do którego drużyny doszedł ktoś nowy.",
+   "icon": "heart"
+  }
+ ]
+}

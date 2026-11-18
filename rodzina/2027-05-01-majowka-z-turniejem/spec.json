@@ -1,0 +1,35 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "car",
+   "text": "Majówka na turnieju?\n*Niech to będzie też rodzinny wyjazd*."
+  },
+  {
+   "kind": "point",
+   "title": "Mecze to *część dnia*",
+   "body": "Między meczami jest czas na lody, spacer i rozmowę o czymś innym.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Wynik *zostaje na hali*",
+   "body": "Po ostatnim gwizdku turniej się kończy. Wieczór należy do rodziny.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Rodzeństwo *też ma majówkę*",
+   "body": "Znajdźcie chwilę, która będzie tylko dla niego.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko zapamięta *atmosferę wyjazdu*.",
+   "cta": "Zapisz i wyślij rodzicowi, który spędza majówkę na turnieju.",
+   "icon": "heart"
+  }
+ ]
+}

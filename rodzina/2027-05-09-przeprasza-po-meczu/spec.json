@@ -1,0 +1,41 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Dziecko przeprasza\n*za przegrany mecz*:",
+   "items": [
+    "zatrzymaj się na chwilę",
+    "nie ma za co przepraszać",
+    "zapytaj, co czuje",
+    "pokaż to zachowaniem"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Zatrzymaj się *na chwilę*",
+   "body": "Przeprosiny za wynik to sygnał. Warto go usłyszeć.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Nie ma *za co przepraszać*",
+   "body": "Grało dla siebie i drużyny. Ty nic przez to nie straciłeś.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Pokaż to *zachowaniem*",
+   "body": "Ten sam uśmiech, ta sama pizza, ta sama rozmowa co po wygranej.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "end",
+   "text": "Twoja miłość *nie zależy od wyniku*. Niech dziecko to widzi.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko przeprasza po meczu.",
+   "icon": "heart"
+  }
+ ]
+}
