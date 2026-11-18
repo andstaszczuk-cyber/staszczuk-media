@@ -1,0 +1,41 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Pomagasz w klubie?\n*Pamiętaj o granicach*:",
+   "items": [
+    "skład ustala trener",
+    "przy dziecku jesteś rodzicem",
+    "bez przywilejów",
+    "plotki zostają za drzwiami"
+   ],
+   "checked": 4
+  },
+  {
+   "kind": "point",
+   "title": "Skład *to sprawa trenera*",
+   "body": "Pomagasz przy organizacji, a decyzje sportowe zostają u trenera.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Twoje dziecko *bez przywilejów*",
+   "body": "Inne dzieci szybko zauważą, że dziecko kierownika ma łatwiej. Twoje też to poczuje.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Wiesz więcej, *mówisz mniej*",
+   "body": "Słyszysz rozmowy trenerów i rodziców. Nie przenoś ich do domu.",
+   "icon": "door"
+  },
+  {
+   "kind": "end",
+   "text": "Pomoc w klubie to *piękna sprawa*, dopóki dziecko ma w Tobie rodzica.",
+   "cta": "Zapisz i wyślij rodzicowi, który działa w klubie.",
+   "icon": "heart"
+  }
+ ]
+}

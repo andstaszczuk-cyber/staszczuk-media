@@ -1,0 +1,35 @@
+{
+ "bg": "khaki",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "whistle",
+   "text": "Sfaulował rywala.\n*Porozmawiajcie o tym spokojnie*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *emocje*",
+   "body": "Dziecko często samo się przestraszyło. Daj mu chwilę, zanim zaczniecie rozmowę.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *usprawiedliwiania*",
+   "body": "Błąd się zdarza, a odpowiedzialność też jest umiejętnością. Można przeprosić i grać dalej.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Co *następnym razem*?",
+   "body": "Zapytaj, co może zrobić inaczej w podobnej sytuacji. Błąd zamienia się w naukę.",
+   "icon": "loop"
+  },
+  {
+   "kind": "end",
+   "text": "Faul to *błąd w grze*. Przeprosiny pokazują *klasę zawodnika*.",
+   "cta": "Zapisz i wyślij rodzicowi, którego dziecko gra ostro.",
+   "icon": "heart"
+  }
+ ]
+}

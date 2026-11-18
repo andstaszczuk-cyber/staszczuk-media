@@ -1,0 +1,36 @@
+{
+ "bg": "white",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Przegraliśmy 0:10. Wstyd.",
+   "new": "Co *udało się mimo wszystko*?",
+   "text": "Wysoka porażka boli, ale sezonu nie przekreśla."
+  },
+  {
+   "kind": "point",
+   "title": "Wynik *nie mówi wszystkiego*",
+   "body": "Rywal mógł być starszy, silniejszy, lepiej zgrany. Liczy się też to, co w meczu wyszło.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Wstyd *mija*",
+   "body": "Pierwsze godziny są najtrudniejsze. Nie dokładaj komentarzy, pozwól emocjom opaść.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Szukaj *małych rzeczy*",
+   "body": "Jedna dobra obrona, jedno podanie, walka do końca. Na tym da się budować.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Po wysokiej porażce dziecko potrzebuje *Twojego spokoju*.",
+   "cta": "Zapisz i wyślij rodzicowi po trudnym meczu.",
+   "icon": "heart"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Po treningu w klubie\n*drugi trening w domu*?\nCzasem to za dużo."
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *potrzebuje przerwy*",
+   "body": "Ciało i głowa uczą się też w odpoczynku. Bez przerwy nauka idzie wolniej.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Dwa *różne głosy*",
+   "body": "Ćwiczenia z domu mogą kłócić się z tym, czego uczy klub. Zapytaj trenera.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Zabawa *bez oceny*",
+   "body": "Granie z rodzicem jest super, kiedy nikt nie liczy błędów.",
+   "icon": "ball"
+  },
+  {
+   "kind": "end",
+   "text": "Po treningu najlepszy jest *wspólny czas bez zadań*.",
+   "cta": "Zapisz i wyślij rodzicowi, który robi z dzieckiem dodatkowe treningi.",
+   "icon": "heart"
+  }
+ ]
+}

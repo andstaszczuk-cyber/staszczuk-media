@@ -1,0 +1,35 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "podium",
+   "text": "Ma idola na ścianie.\n*Niech bierze od niego postawę*."
+  },
+  {
+   "kind": "point",
+   "title": "Idol *inspiruje*",
+   "body": "Daje energię do treningu i obraz tego, kim dziecko chce być. To cenne.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "point",
+   "title": "Za kulisami *jest praca*",
+   "body": "Opowiedz, ile treningów i porażek stoi za każdym golem z telewizji.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Postawa *zostaje na dłużej*",
+   "body": "Jak idol trenuje, jak zachowuje się po porażce, jak traktuje innych.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Zapytaj, *co najbardziej podoba mu się* w jego idolu.",
+   "cta": "Zapisz i wyślij rodzicowi małego kibica.",
+   "icon": "heart"
+  }
+ ]
+}

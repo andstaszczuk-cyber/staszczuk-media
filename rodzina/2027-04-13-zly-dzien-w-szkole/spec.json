@@ -1,0 +1,38 @@
+{
+ "bg": "cream",
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Dostałam jedynkę z matmy.",
+    "*Chcesz dziś iść na trening?*"
+   ],
+   "text": "Zły dzień w szkole\n*nie musi iść z nią na boisko*."
+  },
+  {
+   "kind": "point",
+   "title": "Emocje *idą z dzieckiem*",
+   "body": "Złość czy smutek ze szkoły nie znikają w szatni. To normalne.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Trening *może pomóc*",
+   "body": "Ruch i drużyna często poprawiają nastrój. Czasem lepiej pójść, niż siedzieć w domu.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *posłuchaj*",
+   "body": "Bez oceniania i bez wykładu o nauce. Czasem wystarczy, że ktoś usłyszał.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Zapytaj, czego dziś potrzebuje, i *posłuchaj odpowiedzi*.",
+   "cta": "Zapisz na dzień, kiedy dziecko wróci ze szkoły w złym humorze.",
+   "icon": "heart"
+  }
+ ]
+}
