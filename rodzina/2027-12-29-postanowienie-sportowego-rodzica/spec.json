@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Jakie masz postanowienie na nowy rok?",
+    "*A Ty, mamo? A Ty, tato?*"
+   ],
+   "text": "Postanowienie *sportowego rodzica*."
+  },
+  {
+   "kind": "point",
+   "title": "Jedna *zmiana*",
+   "body": "Coś małego i konkretnego.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Po czym *poznać*",
+   "body": "Zachowanie, które widać.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *wie*",
+   "body": "Powiedz mu, nad czym pracujesz.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Rodzic też *się rozwija*.",
+   "cta": "Zapisz przed Sylwestrem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

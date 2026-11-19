@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Sylwester\n*do północy?*",
+   "items": [
+    "zabawa z rodziną",
+    "fajerwerki o północy",
+    "spokojny Nowy Rok"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Jedna noc *to wyjątek*",
+   "body": "Zwykle niczego nie psuje.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojny *poranek*",
+   "body": "Dzień na odespanie.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Powrót *do rytmu*",
+   "body": "Kilka dni przed treningami.",
+   "icon": "loop"
+  },
+  {
+   "kind": "end",
+   "text": "Świętujcie *razem i spokojnie*.",
+   "cta": "Zapisz na sylwestrowy wieczór.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

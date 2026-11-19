@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Najlepsze rozmowy\n*idą w ruchu*."
+  },
+  {
+   "kind": "point",
+   "title": "Obok *siebie*",
+   "body": "Łatwiej mówić, idąc ramię w ramię.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *przesłuchania*",
+   "body": "Pytaj luźno, słuchaj długo.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Cisza *też jest dobra*",
+   "body": "Spacer może być bez tematu.",
+   "icon": "snowflake"
+  },
+  {
+   "kind": "end",
+   "text": "Ruszcie się *razem*.",
+   "cta": "Zapisz na drugi dzień świąt.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Ostatni bieg roku\n*całą rodziną*."
+  },
+  {
+   "kind": "point",
+   "title": "Każdy *swoim tempem*",
+   "body": "Bez ścigania się w rodzinie.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Przebranie *i śmiech*",
+   "body": "Czapki, peruki, kolorowe skarpety.",
+   "icon": "gift"
+  },
+  {
+   "kind": "point",
+   "title": "Meta *razem*",
+   "body": "Za ręce, z uśmiechem do zdjęcia.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Zakończcie rok *w ruchu*.",
+   "cta": "Zapisz na ostatni dzień roku.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

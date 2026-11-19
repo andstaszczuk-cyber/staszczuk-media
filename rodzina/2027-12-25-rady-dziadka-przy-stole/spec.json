@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Dziadek ma rady\n*na każdy mecz*:",
+   "items": [
+    "więcej biegaj",
+    "strzelaj z daleka",
+    "za moich czasów..."
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Dobra *intencja*",
+   "body": "Dziadek chce pomóc.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden *głos na boisku*",
+   "body": "Wskazówki do gry daje trener.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Pytania *i opowieści*",
+   "body": "Niech dziadek zapyta, co wnuk lubi w grze.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Dziadek najlepiej *kibicuje sercem*.",
+   "cta": "Zapisz na rodzinne odwiedziny.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

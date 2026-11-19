@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "To był beznadziejny rok.",
+   "new": "*Co się w nim jednak udało?*",
+   "text": "Podsumowanie roku szerzej niż tabela."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *wysłuchaj*",
+   "body": "Rozczarowanie ma prawo wybrzmieć.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Rozłóż *rok*",
+   "body": "Drużyna, szkoła, przyjaźnie, umiejętności.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna *dobra rzecz*",
+   "body": "Z czego jest zadowolone?",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "end",
+   "text": "Rok to więcej *niż tabela*.",
+   "cta": "Zapisz na koniec roku.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

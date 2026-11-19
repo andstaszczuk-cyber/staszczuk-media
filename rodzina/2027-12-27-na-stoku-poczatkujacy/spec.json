@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Na boisku pewny,\n*na stoku początkujący*.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Nowa *nauka*",
+   "body": "Każdy kiedyś zaczynał.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Frustracja *jest normalna*",
+   "body": "Przyzwyczaił się, że coś umie.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Mały *postęp*",
+   "body": "Doceniajcie każdy zjazd.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "end",
+   "text": "Bycie początkującym *to też umiejętność*.",
+   "cta": "Zapisz przed wyjazdem w góry.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}
