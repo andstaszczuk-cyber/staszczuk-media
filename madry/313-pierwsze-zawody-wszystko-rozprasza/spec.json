@@ -1,0 +1,73 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Pierwsze zawody po przerwie *i wszystko mnie rozprasza*",
+  "sub": "Hałas, ludzie, telefon, a ja nie mogę się skupić",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Uwaga też wraca do formy",
+   "body": "Po przerwie bodźców jest jakby więcej. Głowa uczy się je na nowo filtrować.",
+   "art": {
+    "type": "focus",
+    "center": "moje zadanie",
+    "icon": "flag",
+    "around": [
+     "trybuny",
+     "telefon",
+     "rywale",
+     "wynik"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Tabela uwagi",
+   "body": "Na czym skupiam się na zawodach, a na czym nie warto. Spisz to przed startem."
+  },
+  {
+   "title": "Sztuka wracania",
+   "body": "Zauważasz, że odpłynąłeś, bez złości. Wydech i jeden punkt uwagi."
+  }
+ ],
+ "end": {
+  "text": "Rozproszenie to sygnał, *żeby wrócić*.",
+  "cta": "Zapisz i zrób swoją tabelę uwagi"
+ }
+}

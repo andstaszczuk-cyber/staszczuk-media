@@ -1,0 +1,75 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Przygotowania się skończyły *i nie wiem, czy zrobiłem dość*",
+  "sub": "W głowie lista treningów, które mogłem zrobić lepiej",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Lista tego, co zrobiłeś",
+   "body": "Głowa sama podsuwa braki. Dowody pracy trzeba wypisać świadomie.",
+   "art": {
+    "type": "checklist",
+    "title": "ZROBIŁEM",
+    "chip": "LATO",
+    "chipX": 330,
+    "back": true,
+    "backChip": "BRAKI",
+    "items": [
+     "obóz",
+     "sparingi",
+     "siłownia"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Wystarczająco to też dużo",
+   "body": "Idealnych przygotowań nie ma nikt. Rywale też coś opuścili."
+  },
+  {
+   "title": "Teraz grasz tym, co masz",
+   "body": "Okres budowania się skończył. Zaczyna się okres korzystania."
+  }
+ ],
+ "end": {
+  "text": "Grasz *tym, co masz*.",
+  "cta": "Zapisz i wypisz pięć rzeczy, które zrobiłeś"
+ }
+}

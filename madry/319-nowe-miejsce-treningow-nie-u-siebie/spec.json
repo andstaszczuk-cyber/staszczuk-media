@@ -1,0 +1,84 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Trenujemy w nowym miejscu *i nic nie jest jak u siebie*",
+  "sub": "Inna hala, inne światło, inna szatnia",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Nowe miejsce to nowe bodźce",
+   "body": "Głowa potrzebuje kilku tygodni, żeby obce zrobiło się znajome.",
+   "art": {
+    "type": "bars",
+    "caption": "JAK SIĘ CZUJĘ",
+    "items": [
+     {
+      "label": "1. tydzień",
+      "v": 0.35,
+      "note": "obco"
+     },
+     {
+      "label": "3. tydzień",
+      "v": 0.62,
+      "note": "znajomo"
+     },
+     {
+      "label": "6. tydzień",
+      "v": 0.88,
+      "hl": true,
+      "note": "u siebie"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zrób je swoim",
+   "body": "Ulubione miejsce w szatni, stała kolejność, znajome rzeczy w torbie."
+  },
+  {
+   "title": "Zabierasz siebie",
+   "body": "Twoje umiejętności i rutyna działają w każdym miejscu."
+  }
+ ],
+ "end": {
+  "text": "U siebie jesteś *tam, gdzie robisz swoje*.",
+  "cta": "Zapisz i zaplanuj swój rytuał"
+ }
+}

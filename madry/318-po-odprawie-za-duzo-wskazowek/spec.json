@@ -1,0 +1,86 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Po odprawie przed meczem *mam w głowie za dużo wskazówek*",
+  "sub": "Trener mówił dwadzieścia minut, a ja pamiętam chaos",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Uwaga mieści niewiele",
+   "body": "Pod presją głowa utrzyma dwie, trzy rzeczy. Reszta się rozmywa.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "WSZYSTKO",
+      "items": [
+       "ustawienie",
+       "stałe fragmenty",
+       "rywal",
+       "pressing"
+      ],
+      "dim": true,
+      "dash": true
+     },
+     {
+      "title": "MOJE TRZY",
+      "items": [
+       "pozycja",
+       "pierwsze podanie",
+       "komunikacja"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Wybierz swoje trzy",
+   "body": "Co z odprawy dotyczy twojej pozycji? Zapisz to krótko."
+  },
+  {
+   "title": "Zapytaj po odprawie",
+   "body": "Trenerze, co jest dla mnie najważniejsze dziś? Jedno pytanie porządkuje resztę."
+  }
+ ],
+ "end": {
+  "text": "Trzy rzeczy *zrobione dobrze*.",
+  "cta": "Zapisz i wybierz swoje trzy zadania"
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Szkoła i treningi, *a na znajomych nie zostanie czasu*",
+  "sub": "Wszyscy się spotykają, a ja znowu na treningu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Relacje to też regeneracja",
+   "body": "Czas ze znajomymi ładuje baterię społeczną. To część dbania o formę.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "dumbbell",
+      "label": "trening"
+     },
+     {
+      "icon": "book",
+      "label": "szkoła"
+     },
+     {
+      "icon": "people",
+      "label": "znajomi",
+      "hl": true
+     }
+    ],
+    "join": "+"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zaplanuj spotkania",
+   "body": "Jeden stały czas w tygodniu. Wpisany do kalendarza tak jak trening."
+  },
+  {
+   "title": "Jakość ponad ilość",
+   "body": "Mniej spotkań, ale naprawdę z ludźmi, bez telefonu w ręku."
+  }
+ ],
+ "end": {
+  "text": "Najpierw człowiek, *potem zawodnik*.",
+  "cta": "Zapisz i wpisz znajomych do kalendarza"
+ }
+}

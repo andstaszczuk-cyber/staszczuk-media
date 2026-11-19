@@ -1,0 +1,101 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Treningi kończą się późno *i nie wiem, kiedy będę się uczyć*",
+  "sub": "Do domu wracam wieczorem i nie mam już głowy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Najpierw ułóż tydzień",
+   "body": "Kiedy masz okna na naukę? Często są tam, gdzie ich nie szukasz.",
+   "art": {
+    "type": "week",
+    "caption": "GDZIE JEST NAUKA",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "book",
+      "mark": "ring"
+     },
+     {
+      "d": "wt",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "śr",
+      "icon": "book",
+      "mark": "ring"
+     },
+     {
+      "d": "cz",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "pt",
+      "icon": "book",
+      "mark": "ring"
+     },
+     {
+      "d": "sb",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "nd",
+      "icon": "bed",
+      "dim": true
+     }
+    ],
+    "note": "krótko, ale regularnie"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Krótkie bloki",
+   "body": "Dwadzieścia minut skupienia daje więcej niż godzina nad książką na pół gwizdka."
+  },
+  {
+   "title": "Sen zostaje w planie",
+   "body": "Nauka kosztem snu odbija się na treningu i na szkole jednocześnie."
+  }
+ ],
+ "end": {
+  "text": "Plan robi więcej *niż siła woli*.",
+  "cta": "Zapisz i znajdź trzy okna na naukę"
+ }
+}

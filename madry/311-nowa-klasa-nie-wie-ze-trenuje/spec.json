@@ -1,0 +1,73 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "W nowej klasie nikt nie wie, że trenuję, *i nie wiem, czy mówić*",
+  "sub": "Boję się, że wezmą mnie za kogoś, kto się wywyższa",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Sport to część ciebie",
+   "body": "Mówisz o tym, co robisz, tak jak inni mówią o swoich pasjach.",
+   "art": {
+    "type": "hub",
+    "center": "ja",
+    "icon": "people",
+    "items": [
+     "uczeń",
+     "zawodnik",
+     "kolega",
+     "pasja"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Mów zwyczajnie",
+   "body": "Trenuję, mam treningi po szkole. Bez wyników i medali na start."
+  },
+  {
+   "title": "Nauczyciele też powinni wiedzieć",
+   "body": "Wyjazdy na zawody łatwiej ustalić, gdy wiedzą od początku."
+  }
+ ],
+ "end": {
+  "text": "Jesteś *uczniem i zawodnikiem*.",
+  "cta": "Zapisz i przygotuj jedno zdanie o sobie"
+ }
+}

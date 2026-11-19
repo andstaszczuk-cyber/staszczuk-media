@@ -1,0 +1,74 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "W nowej lidze *nie znam rywali* i to mnie niepokoi",
+  "sub": "Wcześniej wiedziałem, czego się spodziewać",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Rywale też cię nie znają",
+   "body": "Niewiadoma działa w obie strony. Ty też jesteś dla nich zagadką.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "puzzle",
+     "label": "nie wiem, kim są",
+     "cross": true
+    },
+    "right": {
+     "icon": "eye",
+     "label": "poznaję ich w trakcie"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Najpierw swoje",
+   "body": "Twoja gra działa niezależnie od tego, kto stoi naprzeciwko."
+  },
+  {
+   "title": "Czytaj w trakcie",
+   "body": "Pierwsze minuty to rozpoznanie. Patrzysz, uczysz się, dopasowujesz."
+  }
+ ],
+ "end": {
+  "text": "Każdy mecz *jest premierą*.",
+  "cta": "Zapisz i wypisz swoje trzy atuty"
+ }
+}

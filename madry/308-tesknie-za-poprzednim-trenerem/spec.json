@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Nowy trener prowadzi wszystko inaczej *i tęsknię za poprzednim*",
+  "sub": "Tamten mnie znał, ten dopiero się uczy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Tęsknota to znak relacji",
+   "body": "Brakuje ci kogoś, z kim było dobrze. To mówi o tobie dużo dobrego.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "heart",
+      "top": "idealizacja",
+      "bottom": "na starcie"
+     },
+     {
+      "icon": "eye",
+      "top": "poznawanie",
+      "bottom": "teraz",
+      "hl": true
+     },
+     {
+      "icon": "check",
+      "top": "zaufanie",
+      "bottom": "z czasem"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Porównuj mniej, pytaj więcej",
+   "body": "Każdy trener ma swój sposób. Zapytaj, po co robicie to, co robicie."
+  },
+  {
+   "title": "Daj mu kilka tygodni",
+   "body": "Relacji z poprzednim trenerem też nie zbudowałeś w miesiąc."
+  }
+ ],
+ "end": {
+  "text": "Relację z trenerem *buduje się razem*.",
+  "cta": "Zapisz i zadaj trenerowi jedno pytanie"
+ }
+}

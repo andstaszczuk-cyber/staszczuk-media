@@ -1,0 +1,72 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po przerwie *boję się wejść w pierwszy kontakt*",
+  "sub": "Na treningu odpuszczam starcia, które kiedyś brałem",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "foot",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Ciało sprawdza, czy jest bezpiecznie",
+   "body": "Po przerwie ostrożność jest naturalna. Mózg chce się upewnić, że dasz radę.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "lekki kontakt",
+     "starcie w ćwiczeniu",
+     "pojedynek w grze"
+    ],
+    "done": 1,
+    "top": true
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Stopniuj intensywność",
+   "body": "Od lekkiego kontaktu do pełnego starcia, krok po kroku, na treningu."
+  },
+  {
+   "title": "Jedno hasło na wejście",
+   "body": "Krótkie słowo, które łączysz z ruchem. Robisz, zanim zaczniesz dyskutować."
+  }
+ ],
+ "end": {
+  "text": "Odwagę *buduje się powtórzeniem*.",
+  "cta": "Zapisz i ustal swoje hasło na wejście"
+ }
+}

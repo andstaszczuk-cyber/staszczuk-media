@@ -1,0 +1,74 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Za dwa tygodnie szkoła, *a ja już się nią stresuję*",
+  "sub": "Jeszcze wakacje, a w głowie już wrzesień",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zamartwianie pozoruje wpływ",
+   "body": "Myślenie o wrześniu daje wrażenie, że coś robisz. Zmienia niewiele.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "cloudRain",
+     "label": "martwię się na zapas",
+     "cross": true
+    },
+    "right": {
+     "icon": "note",
+     "label": "robię jeden krok"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jeden konkretny krok",
+   "body": "Plan lekcji, godziny treningów, torba na wrzesień. Coś, co możesz zrobić dziś."
+  },
+  {
+   "title": "Wakacje jeszcze trwają",
+   "body": "Masz prawo z nich korzystać. Odpoczynek teraz to zapas na wrzesień."
+  }
+ ],
+ "end": {
+  "text": "Wrzesień przyjdzie *we wrześniu*.",
+  "cta": "Zapisz i zrób jeden krok na wrzesień"
+ }
+}

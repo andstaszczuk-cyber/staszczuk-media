@@ -1,0 +1,79 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na starcie sezonu *każdy mecz wydaje mi się decydujący*",
+  "sub": "Dwie kolejki za nami, a ja już liczę, czy się uda",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Sezon to wędrówka",
+   "body": "Na wędrówce idziesz swoim rytmem. W wyścigu ciągle się oglądasz.",
+   "art": {
+    "type": "bars",
+    "caption": "ILE WAŻY JEDEN MECZ",
+    "items": [
+     {
+      "label": "w głowie",
+      "v": 0.95,
+      "note": "wszystko"
+     },
+     {
+      "label": "w sezonie",
+      "v": 0.22,
+      "hl": true,
+      "note": "jeden z wielu"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Policz kolejki",
+   "body": "Ile meczów przed tobą? Jeden wynik to mały wycinek całości."
+  },
+  {
+   "title": "Cel na ten mecz",
+   "body": "Jedno zadanie, które możesz wykonać dziś. Reszta sezonu poczeka."
+  }
+ ],
+ "end": {
+  "text": "Sezon to *wiele meczów*, gra się jeden.",
+  "cta": "Zapisz i ustal zadanie na najbliższy mecz"
+ }
+}
