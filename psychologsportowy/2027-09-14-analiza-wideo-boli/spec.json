@@ -1,0 +1,163 @@
+{
+ "cover": {
+  "left": "BOLI",
+  "right": "UCZY",
+  "title": "Odprawa wideo\n*boli*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "wszyscy",
+      "patrzą"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "jedna rzecz",
+      "do zabrania"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "point"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Boli każdego",
+   "body": "Uwaga o błędzie uderza w poczucie miejsca w grupie. To normalne.",
+   "viz": {
+    "type": "scale10",
+    "caption": "NAPIĘCIE",
+    "points": [
+     {
+      "n": 9,
+      "label": "stop-klatka"
+     },
+     {
+      "n": 6,
+      "label": "po oddechu"
+     },
+     {
+      "n": 2,
+      "label": "po odprawie",
+      "hl": true
+     }
+    ],
+    "arrow": [
+     9,
+     2
+    ],
+    "arrowLabel": "opada"
+   }
+  },
+  {
+   "title": "Merytoryczne bierzesz",
+   "body": "Co jest do poprawy, zabierasz. Resztę odkładasz bez emocji.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "ODKŁADAM",
+      "items": [
+       "śmiech z tyłu",
+       "ton głosu"
+      ]
+     },
+     {
+      "title": "BIORĘ",
+      "items": [
+       "ustawienie",
+       "wybór podania"
+      ],
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zapytaj dlaczego",
+   "body": "Kiedy rozumiesz uwagę, poprawisz ją sam w trakcie meczu.",
+   "viz": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "znowu ja?",
+     "ma mnie dość?",
+     "wstyd"
+    ],
+    "ask": [
+     "Co byłoby",
+     "lepszym",
+     "wyborem?"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *zabierasz* z ostatniej odprawy?",
+  "cta": "Zapisz jedną poprawkę i jedną akcję z nagrania, która ci wyszła.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

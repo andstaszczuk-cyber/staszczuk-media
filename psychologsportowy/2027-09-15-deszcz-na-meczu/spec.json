@@ -1,0 +1,120 @@
+{
+ "cover": {
+  "big": "DESZCZ",
+  "bigSize": 220,
+  "bigSub": "pierwszy jesienny mecz",
+  "title": "Mecz\n*w deszczu*",
+  "size": 100,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 500,
+     "y": 80,
+     "s": 190,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "drop",
+     "x": 720,
+     "y": 170,
+     "s": 110,
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Karty z rozdania",
+   "body": "Pogoda jest taka sama dla obu drużyn. Liczy się, co z nią zrobisz.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "BEZ WPŁYWU",
+      "items": [
+       "deszcz",
+       "wiatr",
+       "ciężka murawa"
+      ]
+     },
+     {
+      "title": "MAM WPŁYW",
+      "items": [
+       "torba",
+       "proste podania",
+       "pierwsze zadanie"
+      ],
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Torba dzień wcześniej",
+   "body": "Zapasowe skarpety, coś ciepłego na przerwę, ręcznik.",
+   "viz": {
+    "type": "checklist",
+    "title": "TORBA",
+    "chip": "NA DESZCZ",
+    "chipX": 400,
+    "backChip": "POGODA",
+    "items": [
+     "zapasowe skarpety",
+     "ciepła bluza",
+     "ręcznik"
+    ]
+   }
+  },
+  {
+   "title": "Pierwsze minuty",
+   "body": "Są najgorsze. Potem ciało się przyzwyczaja, a głowa wraca do gry.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.25
+       ],
+       [
+        0.25,
+        0.5
+       ],
+       [
+        0.5,
+        0.64
+       ],
+       [
+        0.75,
+        0.7
+       ],
+       [
+        1,
+        0.72
+       ]
+      ],
+      "hl": true,
+      "label": "komfort"
+     }
+    ],
+    "x": "minuty meczu"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *zmieniasz* w grze na mokrym boisku?",
+  "cta": "Spakuj dziś torbę na deszcz i zapisz jedną zmianę w grze.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

@@ -1,0 +1,97 @@
+{
+ "cover": {
+  "kicker": "TRYBUNY",
+  "title": "Gwizdy\n*z trybun*",
+  "size": 104,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 110,
+     "s": 0.9,
+     "pose": "stand"
+    },
+    {
+     "k": "icon",
+     "name": "wind",
+     "x": 520,
+     "y": 160,
+     "s": 280,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 560,
+     "y": 90,
+     "text": "fiuuu",
+     "size": 36
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Stary mechanizm",
+   "body": "Głośna dezaprobata grupy brzmi dla ciała jak zagrożenie. Ma to każdy.",
+   "viz": {
+    "type": "bodyMap",
+    "points": [
+     {
+      "part": "chest",
+      "label": "szybsze tętno"
+     },
+     {
+      "part": "shoulders",
+      "label": "spięte barki"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Wiatr i kaptur",
+   "body": "Wiatru się nie wyłączy. Możesz założyć kaptur i robić swoje.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "wind",
+      "label": "gwizdy"
+     },
+     {
+      "icon": "shield",
+      "label": "kaptur"
+     },
+     {
+      "icon": "ball",
+      "label": "moje zadanie",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Jedno zdanie",
+   "body": "Słyszysz gwizd, mówisz sobie wiatr, robię swoje i wracasz do piłki.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "wszyscy na mnie gwiżdżą",
+    "to": "wiatr, robię swoje"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakie *zdanie* powiesz sobie przy gwizdach?",
+  "cta": "Wybierz je przed meczem i powtórz kilka razy na rozgrzewce.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

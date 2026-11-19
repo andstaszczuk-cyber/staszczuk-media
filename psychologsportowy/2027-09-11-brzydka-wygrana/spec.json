@@ -1,0 +1,88 @@
+{
+ "cover": {
+  "big": "1:0",
+  "bigSize": 300,
+  "bigSub": "po brzydkim meczu",
+  "title": "Brzydka\n*wygrana*",
+  "size": 100,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 720,
+     "y": 160,
+     "s": 120,
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Skuteczność się liczy",
+   "body": "Trafiony brzydki cios bije piękny, którego nikt nie zadał.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "star",
+     "label": "widowisko",
+     "sub": "ładnie się ogląda"
+    },
+    "right": {
+     "icon": "trophy",
+     "label": "skuteczność",
+     "sub": "daje punkty"
+    }
+   }
+  },
+  {
+   "title": "Co działało?",
+   "body": "Obrona, cierpliwość, spokój po stracie. To też są umiejętności.",
+   "viz": {
+    "type": "checklist",
+    "title": "DOWIEŹLIŚMY",
+    "chip": "BO",
+    "chipX": 420,
+    "backChip": "BŁĘDY",
+    "items": [
+     "obrona",
+     "cierpliwość",
+     "spokój po stracie"
+    ]
+   }
+  },
+  {
+   "title": "Najpierw radość",
+   "body": "Ciesz się punktami. Jedna rzecz do poprawy na sam koniec.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "radość",
+     "co działało",
+     "jedna poprawka"
+    ],
+    "done": 1
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *pozwoliło* wam wygrać mimo słabszej gry?",
+  "cta": "Zapisz dwie takie rzeczy, zanim zaczniesz szukać błędów.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

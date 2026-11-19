@@ -1,0 +1,91 @@
+{
+ "cover": {
+  "kicker": "KOŃCÓWKA",
+  "title": "Wynik\n*na styk*",
+  "size": 104,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 100,
+     "y": 90,
+     "s": 1.0,
+     "pose": "think"
+    },
+    {
+     "k": "icon",
+     "name": "watch",
+     "x": 580,
+     "y": 20,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "88. minuta",
+     "size": 36
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Uwaga ucieka",
+   "body": "Im więcej uwagi zjada zegar, tym mniej zostaje dla piłki.",
+   "viz": {
+    "type": "wander",
+    "zone": "akcja",
+    "out1": "zegar",
+    "out2": "a jeśli stracimy?",
+    "back": "wracam"
+   }
+  },
+  {
+   "title": "Kotwica na końcówkę",
+   "body": "Jedno zdanie o najbliższej akcji. Wracasz do niego po każdym spojrzeniu na zegar.",
+   "viz": {
+    "type": "focus",
+    "center": "krótko i pewnie",
+    "around": [
+     "zegar",
+     "tablica",
+     "trybuny",
+     "stawka"
+    ]
+   }
+  },
+  {
+   "title": "Trenuj końcówki",
+   "body": "Gry z wynikiem na styk i krótkim czasem. Sprawdzaj, gdzie ucieka uwaga.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "clock",
+     "label": "trening",
+     "sub": "wynik na styk"
+    },
+    "right": {
+     "icon": "eye",
+     "label": "obserwuję",
+     "sub": "gdzie ucieka uwaga"
+    }
+   }
+  }
+ ],
+ "end": {
+  "question": "Na czym *skupisz* uwagę w końcówce?",
+  "cta": "Zapisz swoje zdanie na końcówkę i sprawdź je na treningu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
