@@ -1,0 +1,87 @@
+{
+ "cover": {
+  "big": "1/2",
+  "bigSize": 260,
+  "bigSub": "rundy za tobą",
+  "title": "Trener ocenia\n*twoją rundę*",
+  "size": 92,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Krytyka boli każdego",
+   "body": "Mózg czyta ją jak zagrożenie dla miejsca w grupie. To normalne.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "jestem do niczego",
+    "to": "dostałem informację"
+   }
+  },
+  {
+   "title": "Pytaj o zachowanie",
+   "body": "Ocena ogólna mało daje. Konkretne zachowanie da się trenować.",
+   "viz": {
+    "type": "targets",
+    "left": "ogólnie",
+    "leftSub": "słabo w obronie",
+    "right": "konkret",
+    "rightSub": "start do piłki"
+   }
+  },
+  {
+   "title": "Dwie szuflady",
+   "body": "Merytoryczne bierzesz do pracy. Resztę przemyślisz i dopytasz.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "DO PRACY",
+      "items": [
+       "stałe fragmenty",
+       "pierwsze podanie",
+       "gadanie w obronie"
+      ],
+      "hl": true
+     },
+     {
+      "title": "DO PRZEMYŚLENIA",
+      "items": [
+       "ton rozmowy",
+       "porównania"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Z jakim *zadaniem* wyjdziesz z rozmowy?",
+  "cta": "Przed rozmową zapisz trzy rzeczy, które ci wyszły, i dwie do pracy.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

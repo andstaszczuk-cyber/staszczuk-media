@@ -1,0 +1,146 @@
+{
+ "cover": {
+  "left": "TYDZIEŃ",
+  "right": "WEEKEND",
+  "title": "Odsypiasz\n*w weekend?*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "alarm",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "6:30",
+      "pobudka"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "11:00",
+      "pobudka"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "sit"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Rozjechany rytm",
+   "body": "Im większa różnica w godzinach snu, tym trudniej ciału złapać rytm.",
+   "viz": {
+    "type": "bars",
+    "caption": "GODZINA POBUDKI",
+    "items": [
+     {
+      "label": "pon–pt",
+      "v": 0.35,
+      "note": "6:30"
+     },
+     {
+      "label": "sobota",
+      "v": 0.9,
+      "hl": true,
+      "note": "11:00"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Łagodniej",
+   "body": "Godzina dłużej w sobotę, reszta przez wcześniejsze zasypianie.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "śpię do południa",
+    "to": "godzina dłużej"
+   }
+  },
+  {
+   "title": "Wieczór i poranek",
+   "body": "Telefon poza sypialnią wieczorem, światło dnia rano.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "phone",
+      "label": "telefon daleko"
+     },
+     {
+      "icon": "moon",
+      "label": "stała pora"
+     },
+     {
+      "icon": "sun",
+      "label": "światło rano",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "O której *wstajesz* w sobotę?",
+  "cta": "Przez dwa tygodnie zapisuj godzinę pobudki i oceniaj poniedziałkowy trening.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

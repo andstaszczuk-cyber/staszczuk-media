@@ -1,0 +1,94 @@
+{
+ "cover": {
+  "kicker": "HALA",
+  "title": "Z trawy\n*na halę*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "crouch"
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 560,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "pod dachem",
+     "size": 36
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Fakt i interpretacja",
+   "body": "Mniej czasu na decyzję to fakt. Reszta to opowieść w głowie.",
+   "viz": {
+    "type": "table",
+    "left": "FAKT",
+    "right": "OPOWIEŚĆ",
+    "rows": [
+     [
+      "mniej miejsca",
+      "nie umiem grać"
+     ],
+     [
+      "szybsza piłka",
+      "to nie dla mnie"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Umiejętności na wiosnę",
+   "body": "Szybsza decyzja i ustawienie ciała przydadzą się też na trawie.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "hala",
+    "via": "szybsza głowa",
+    "to": "wiosna na trawie"
+   }
+  },
+  {
+   "title": "Jeden element",
+   "body": "Na przykład: rozglądam się przed przyjęciem piłki.",
+   "viz": {
+    "type": "checklist",
+    "title": "NA HALI",
+    "chip": "PILNUJĘ",
+    "chipX": 420,
+    "backChip": "WSZYSTKO",
+    "items": [
+     "rozglądam się",
+     "ustawiam ciało",
+     "mówię do partnera"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Czego *nauczy cię* hala?",
+  "cta": "Po czterech tygodniach porównaj się z pierwszym treningiem pod dachem.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

@@ -1,0 +1,91 @@
+{
+ "cover": {
+  "kicker": "DRUŻYNA",
+  "title": "Cisza\n*w szatni*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "sit"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "3 porażki",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Cisza, która trwa",
+   "body": "Każdy dopisuje intencje innych, a pretensje rosną.",
+   "viz": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "obwinia mnie?",
+     "nikomu nie zależy?",
+     "to przeze mnie?"
+    ],
+    "ask": [
+     "Pogadajmy",
+     "o tym, co",
+     "się dzieje"
+    ]
+   }
+  },
+  {
+   "title": "Mów o problemie",
+   "body": "Komunikat bez wskazywania palcem otwiera rozmowę.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "przez ciebie przegraliśmy",
+    "to": "mniej ze sobą gadamy"
+   }
+  },
+  {
+   "title": "Konkret na trening",
+   "body": "Kto podpowiada w obronie, jak reagujemy po stracie gola.",
+   "viz": {
+    "type": "checklist",
+    "title": "USTALAMY",
+    "chip": "RAZEM",
+    "chipX": 420,
+    "backChip": "CISZA",
+    "items": [
+     "kto podpowiada",
+     "reakcja po golu",
+     "wsparcie po błędzie"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Kto w drużynie *przerwie ciszę*?",
+  "cta": "Zacznij od jednego zdania na najbliższym treningu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

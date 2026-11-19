@@ -1,0 +1,91 @@
+{
+ "cover": {
+  "big": "6",
+  "bigSize": 260,
+  "bigSub": "punktów w grze",
+  "title": "Mecz o\n*sześć punktów*",
+  "size": 92,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Pobudzenie idzie za rangą",
+   "body": "Do pewnego momentu pomaga. Za wysoko i ruchy sztywnieją.",
+   "viz": {
+    "type": "scale10",
+    "caption": "POBUDZENIE",
+    "points": [
+     {
+      "n": 7,
+      "label": "siódemka",
+      "hl": true
+     },
+     {
+      "n": 9,
+      "label": "za dużo"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Mecz jak mecz",
+   "body": "To samo boisko, ta sama piłka. Rywal też się spina.",
+   "viz": {
+    "type": "same",
+    "left": "ZWYKŁY MECZ",
+    "right": "O 6 PUNKTÓW",
+    "items": [
+     "boisko",
+     "piłka",
+     "rutyna"
+    ]
+   }
+  },
+  {
+   "title": "Wchodzę, robię swoje",
+   "body": "Daj mózgowi konkretne zadanie na pierwsze minuty.",
+   "viz": {
+    "type": "checklist",
+    "title": "PIERWSZE MINUTY",
+    "chip": "ROBIĘ",
+    "chipX": 420,
+    "backChip": "WYNIK",
+    "items": [
+     "twardy pojedynek",
+     "proste podanie",
+     "głośno w obronie"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakie masz *zadanie* na pierwsze minuty?",
+  "cta": "Wypisz dwa, trzy zadania i powtórz je przed rozgrzewką.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

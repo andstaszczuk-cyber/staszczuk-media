@@ -1,0 +1,143 @@
+{
+ "cover": {
+  "kicker": "PO CHOROBIE",
+  "title": "Tydzień choroby\n*to nie dług*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "walk"
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 560,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "frycowe",
+     "size": 36
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Trening odpoczynku",
+   "body": "Opuszczony przez chorobę trening był odpoczynkiem dla organizmu.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "muszę to nadrobić",
+    "to": "wracam mądrze"
+   }
+  },
+  {
+   "title": "Ambicja maskuje zmęczenie",
+   "body": "Kilka dobrych dni, potem spadek albo kolejna infekcja.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.3
+       ],
+       [
+        0.2,
+        0.7
+       ],
+       [
+        0.4,
+        0.75
+       ],
+       [
+        0.6,
+        0.35
+       ],
+       [
+        0.8,
+        0.3
+       ],
+       [
+        1,
+        0.45
+       ]
+      ],
+      "dash": true,
+      "label": "na siłę"
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.3
+       ],
+       [
+        0.25,
+        0.42
+       ],
+       [
+        0.5,
+        0.55
+       ],
+       [
+        0.75,
+        0.66
+       ],
+       [
+        1,
+        0.78
+       ]
+      ],
+      "hl": true,
+      "label": "krok po kroku"
+     }
+    ],
+    "x": "dni po chorobie"
+   }
+  },
+  {
+   "title": "Skala po treningu",
+   "body": "Zmęczenie wyraźnie wyższe niż zwykle to sygnał, żeby nie przyspieszać.",
+   "viz": {
+    "type": "scale10",
+    "caption": "ZMĘCZENIE PO TRENINGU",
+    "points": [
+     {
+      "n": 4,
+      "label": "zwykle"
+     },
+     {
+      "n": 8,
+      "label": "dziś",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak *wrócisz* po przerwie?",
+  "cta": "Ustal z trenerem plan na pierwszy tydzień po chorobie.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

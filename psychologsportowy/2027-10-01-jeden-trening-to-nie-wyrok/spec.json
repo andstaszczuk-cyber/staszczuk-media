@@ -1,0 +1,137 @@
+{
+ "cover": {
+  "big": "1",
+  "bigSize": 260,
+  "bigSub": "słabszy trening",
+  "title": "Jeden trening\n*to nie wyrok*",
+  "size": 92,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Ciało jest zagadką",
+   "body": "Możesz zrobić wszystko jak trzeba i czuć się kijowo.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "forma odjechała",
+    "to": "to był jeden wieczór"
+   }
+  },
+  {
+   "title": "Jaki to procent tygodnia?",
+   "body": "Półtorej godziny to mały wycinek całego tygodnia.",
+   "viz": {
+    "type": "week",
+    "caption": "MÓJ TYDZIEŃ",
+    "days": [
+     {
+      "d": "PN",
+      "icon": "dumbbell",
+      "label": "ok"
+     },
+     {
+      "d": "WT",
+      "icon": "dumbbell",
+      "label": "ok"
+     },
+     {
+      "d": "ŚR",
+      "icon": "cloudRain",
+      "label": "słabo",
+      "mark": "ring"
+     },
+     {
+      "d": "CZW",
+      "icon": "dumbbell",
+      "label": "ok"
+     },
+     {
+      "d": "PT",
+      "icon": "moon",
+      "label": "luz"
+     },
+     {
+      "d": "SB",
+      "icon": "ball",
+      "label": "mecz",
+      "mark": "hl"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Patrz na tendencję",
+   "body": "Zapisuj sen, skalę od 1 do 10 i jedną rzecz, która wyszła.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.5
+       ],
+       [
+        0.15,
+        0.62
+       ],
+       [
+        0.3,
+        0.4
+       ],
+       [
+        0.45,
+        0.6
+       ],
+       [
+        0.6,
+        0.66
+       ],
+       [
+        0.75,
+        0.58
+       ],
+       [
+        1,
+        0.75
+       ]
+      ],
+      "hl": true,
+      "label": "forma"
+     }
+    ],
+    "x": "tygodnie"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *wyszło* mimo słabego treningu?",
+  "cta": "Zapisz dziś trzy rzeczy i sprawdź tendencję za dwa tygodnie.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

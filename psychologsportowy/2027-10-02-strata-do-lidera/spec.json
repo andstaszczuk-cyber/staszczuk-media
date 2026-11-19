@@ -1,0 +1,114 @@
+{
+ "cover": {
+  "kicker": "TABELA",
+  "title": "Liczysz punkty\n*innych drużyn?*",
+  "size": 92,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "think"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "4 pkt straty",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Trzy poziomy wpływu",
+   "body": "Wyniki innych, twój wynik i twoje przygotowanie.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "BEZ WPŁYWU",
+      "items": [
+       "mecze innych",
+       "terminarz",
+       "tabela"
+      ]
+     },
+     {
+      "title": "MÓJ WPŁYW",
+      "items": [
+       "sen",
+       "rozgrzewka",
+       "pierwsze minuty"
+      ],
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Liczenie pozoruje kontrolę",
+   "body": "Daje poczucie działania i zabiera uwagę z najbliższego meczu.",
+   "viz": {
+    "type": "focus",
+    "center": "najbliższy mecz",
+    "around": [
+     "tabela",
+     "punkty lidera",
+     "terminarz",
+     "kombinacje"
+    ]
+   }
+  },
+  {
+   "title": "Tabela raz w tygodniu",
+   "body": "Niedzielny wieczór po kolejce. Od poniedziałku zadania.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "niedziela",
+      "icon": "note",
+      "bottom": "tabela"
+     },
+     {
+      "top": "pon–pt",
+      "icon": "dumbbell",
+      "bottom": "zadania"
+     },
+     {
+      "top": "sobota",
+      "icon": "ball",
+      "bottom": "mecz",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Na co masz *wpływ* przed sobotą?",
+  "cta": "Ustal jedną stałą porę na tabelę i trzymaj się jej przez miesiąc.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

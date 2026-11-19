@@ -1,0 +1,102 @@
+{
+ "cover": {
+  "kicker": "SKUTECZNOŚĆ",
+  "title": "Pięć meczów\n*bez gola*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "slump"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "0 goli",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Serie się zdarzają",
+   "body": "Pięć orłów z rzędu nie oznacza, że moneta się zepsuła.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "zepsułem się",
+    "to": "to jest seria"
+   }
+  },
+  {
+   "title": "Strach przed pudłem",
+   "body": "Kto za wszelką cenę unika błędu, ten do niego zmierza.",
+   "viz": {
+    "type": "listCompare",
+    "left": {
+     "title": "BOJĘ SIĘ",
+     "items": [
+      "podaję",
+      "uderzam na siłę",
+      "kombinuję"
+     ]
+    },
+    "right": {
+     "title": "GRAM",
+     "items": [
+      "strzelam",
+      "jedno zadanie",
+      "płasko w róg"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Dochodzisz do sytuacji",
+   "body": "To też umiejętność. Obejrzyj swoje gole z zeszłego sezonu.",
+   "viz": {
+    "type": "bars",
+    "caption": "MOJE MECZE",
+    "items": [
+     {
+      "label": "sytuacje",
+      "v": 0.8,
+      "hl": true,
+      "note": "są"
+     },
+     {
+      "label": "gole",
+      "v": 0.15,
+      "note": "przyjdą"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakie masz *zadanie* przy strzale?",
+  "cta": "Obejrzyj dziś swoje gole z poprzedniego sezonu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

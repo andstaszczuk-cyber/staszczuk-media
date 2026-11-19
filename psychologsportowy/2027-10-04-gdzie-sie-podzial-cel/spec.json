@@ -1,0 +1,139 @@
+{
+ "cover": {
+  "left": "WRZESIEŃ",
+  "right": "PAŹDZIERNIK",
+  "title": "Gdzie się podział\n*twój cel?*",
+  "size": 88,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "cel",
+      "daleko"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "cel na",
+      "4 tygodnie"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "think"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Dyscyplina idzie za celem",
+   "body": "Kiedy cel się rozmywa, znika też samodyscyplina.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "rozmyty cel",
+    "via": "mniej chęci",
+    "to": "trening z musu"
+   }
+  },
+  {
+   "title": "Z lotu ptaka do robaka",
+   "body": "Duży cel zostaje, a ty bierzesz zadanie na cztery tygodnie.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "cel na sezon",
+     "cel na rundę",
+     "zadanie na 4 tygodnie"
+    ],
+    "done": 2
+   }
+  },
+  {
+   "title": "Czego by ci brakowało?",
+   "body": "Drużyny, ruchu, rywalizacji. To też jest paliwo.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "people",
+      "label": "drużyna"
+     },
+     {
+      "icon": "foot",
+      "label": "ruch"
+     },
+     {
+      "icon": "trophy",
+      "label": "rywalizacja",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaki masz cel na *cztery tygodnie*?",
+  "cta": "Zapisz go dziś i powieś tam, gdzie codziennie patrzysz.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
