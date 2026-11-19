@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Mecz w sobotę.\\n*Stres już od wtorku?*"
+  },
+  {
+   "kind": "point",
+   "title": "Wcześnie",
+   "body": "Hit końcówki rundy siedzi w głowie kilka dni przed pierwszym gwizdkiem.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Koszt",
+   "body": "Długie napięcie zabiera sen, cierpliwość i energię potrzebną na mecz.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Pora",
+   "body": "Stałe miejsce w tygodniu na myślenie o meczu, potem powrót do zwykłych spraw.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "end",
+   "text": "Stres na boisku pomaga.\\n*Stres od wtorku męczy*.",
+   "cta": "Wyślij komuś, kto ma hit w sobotę"
+  }
+ ]
+}

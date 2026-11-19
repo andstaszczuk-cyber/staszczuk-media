@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "locker",
+   "text": "Złość po meczu?\\n*Ona też coś ci mówi*."
+  },
+  {
+   "kind": "point",
+   "title": "Nazwa",
+   "body": "Emocje są przyjemne i nieprzyjemne. Każda niesie informację.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Złość",
+   "body": "Mówi, że coś przekroczyło twoją granicę albo było dla ciebie ważne.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Smutek",
+   "body": "Pokazuje, że na czymś ci zależało i coś poszło inaczej.",
+   "icon": "ksiezyc"
+  },
+  {
+   "kind": "end",
+   "text": "Emocję wysłuchaj.\\n*Reakcję wybierz*.",
+   "cta": "Zapisz po trudnym meczu"
+  }
+ ]
+}

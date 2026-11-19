@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "snow",
+   "text": "Zamarznięta murawa.\\n*Decyzja należy do ciebie*."
+  },
+  {
+   "kind": "point",
+   "title": "Presja",
+   "body": "Gospodarze chcą grać, goście czasem wolą przełożyć. Każdy ma swój interes.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Kryteria",
+   "body": "Bezpieczeństwo zawodników i przepisy rozgrywek są twoim punktem odniesienia.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Spokój",
+   "body": "Obejdź boisko, sprawdź newralgiczne miejsca, zdecyduj i wyjaśnij krótko.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Najpierw bezpieczeństwo.\\n*Potem wszystko inne*.",
+   "cta": "Zapisz przed zimowym meczem"
+  }
+ ]
+}

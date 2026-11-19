@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "usmiech",
+   "text": "Mróz, wiatr i deszcz?\\n*Weź to z humorem*."
+  },
+  {
+   "kind": "point",
+   "title": "Fakt",
+   "body": "Zimno jest takie samo dla zawodników, ławek i sędziów.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Narzekanie",
+   "body": "Każde zdanie o pogodzie dokłada ciężaru, którego i tak nie zmienisz.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Uśmiech",
+   "body": "Lekki żart z warunków rozluźnia ciebie i ludzi wokół.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "end",
+   "text": "Pogoda jest dla wszystkich.\\n*Humor wybierasz sam*.",
+   "cta": "Wyślij koledze przed zimnym meczem"
+  }
+ ]
+}

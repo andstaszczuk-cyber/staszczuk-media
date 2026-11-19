@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Ile wpłaciłeś\\n*na konto pewności?*",
+   "sub": "Pewność siebie\\n*wymaga regularnych wpłat*."
+  },
+  {
+   "kind": "point",
+   "title": "Wypłaty",
+   "body": "Każdy trudny mecz, krytyka i zmęczenie pobierają coś z konta.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Wpłaty",
+   "body": "Dobre przygotowanie, docenione decyzje i dowody, że potrafisz.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Saldo",
+   "body": "Pod koniec rundy warto sprawdzić, co zostało, i świadomie dopłacić.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Konto pewności\\n*prowadzisz sam*.",
+   "cta": "Zapisz i sprawdź saldo"
+  }
+ ]
+}

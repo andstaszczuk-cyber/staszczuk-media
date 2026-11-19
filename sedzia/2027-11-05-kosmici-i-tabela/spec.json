@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "HIT KOLEJKI",
+   "text": "Mecz o pierwsze miejsce.\\n*Boisko ma te same wymiary*."
+  },
+  {
+   "kind": "point",
+   "title": "Ranga",
+   "body": "Tabela, kibice i stawka podkręcają ważność meczu w twojej głowie.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Pobudzenie",
+   "body": "Za dużo napięcia usztywnia ruchy i skraca czas na decyzję.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Rzemiosło",
+   "body": "Ustawienie, komunikacja, spokojna sylwetka. To samo co w każdym meczu.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Wysoka stawka dla drużyn.\\n*Twoja robota bez zmian*.",
+   "cta": "Wyślij przed meczem na szczycie"
+  }
+ ]
+}

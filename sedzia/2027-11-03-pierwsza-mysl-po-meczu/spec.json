@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Pierwsza myśl po meczu\\n*bywa najgłośniejsza*."
+  },
+  {
+   "kind": "point",
+   "title": "Szatnia",
+   "body": "Zaraz po meczu głowa wyciąga najmocniejsze sceny, zwykle te trudne.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Emocje",
+   "body": "Zmęczenie i adrenalina podkręcają każdą ocenę.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdzenie",
+   "body": "Wracasz do meczu następnego dnia, z nagraniem albo notatkami.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Pierwszą myśl wysłuchaj.\\n*Ocenę zrób jutro*.",
+   "cta": "Zapisz na drogę z meczu"
+  }
+ ]
+}

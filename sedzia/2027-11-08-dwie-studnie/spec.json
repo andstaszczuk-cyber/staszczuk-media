@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "2",
+   "text": "studnie.\\n*Z której dziś czerpiesz?*"
+  },
+  {
+   "kind": "point",
+   "title": "Brudna",
+   "body": "Lista błędów, nieudanych meczów i tego, co znowu poszło źle.",
+   "icon": "kartka"
+  },
+  {
+   "kind": "point",
+   "title": "Czysta",
+   "body": "Dobre decyzje, trudne mecze poprowadzone spokojnie, słowa uznania.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Wybór",
+   "body": "Przed meczem świadomie sięgasz po wodę, która daje energię.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Obie studnie są twoje.\\n*Wybierasz, z której pijesz*.",
+   "cta": "Zapisz przed kolejnym meczem"
+  }
+ ]
+}

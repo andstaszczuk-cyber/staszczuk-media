@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "warmup",
+   "text": "Mecz o trzynastej\\n*zmienia cały dzień*."
+  },
+  {
+   "kind": "point",
+   "title": "Wcześniej",
+   "body": "W listopadzie mecze ruszają wcześniej, bo szybko robi się ciemno.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Rytm",
+   "body": "Śniadanie, dojazd i rozgrzewka przesuwają się o kilka godzin.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Plan",
+   "body": "Rozpisz dzień od pierwszego gwizdka do tyłu, z zapasem.",
+   "icon": "lista"
+  },
+  {
+   "kind": "end",
+   "text": "Godzina się zmienia.\\n*Twoja rutyna zostaje*.",
+   "cta": "Zapisz przed meczem w południe"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "dinner",
+   "text": "Wolny dzień w środku rundy.\\n*Daj głowie odpocząć od meczu*."
+  },
+  {
+   "kind": "point",
+   "title": "Pauza",
+   "body": "Listopadowe święto daje dzień bez obsady, raportu i dojazdu.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Głowa",
+   "body": "Ostatni mecz i tak wraca w myślach, bo głowa lubi domykać sprawy.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Bliscy",
+   "body": "Ten dzień możesz oddać ludziom, którzy zwykle czekają na ciebie po meczu.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Dzień bez gwizdka\\n*też pracuje na formę*.",
+   "cta": "Zapisz na wolny dzień"
+  }
+ ]
+}
