@@ -1,0 +1,73 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na treningach się bawię, *a meczów zaczynam unikać*",
+  "sub": "Przed weekendem szukam wymówek, żeby nie grać",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Co cię odpycha",
+   "body": "Nazwij konkretnie, czego boisz się w meczu: oceny, błędu, wyniku, trybun.",
+   "art": {
+    "type": "hub",
+    "center": "mecz",
+    "icon": "ball",
+    "items": [
+     "ocena",
+     "błąd",
+     "wynik",
+     "trybuny"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Mecz jak trening",
+   "body": "Wejdź z jednym zadaniem z treningu, które znasz i lubisz."
+  },
+  {
+   "title": "Małe kroki",
+   "body": "Najpierw krótsze wejścia, sparingi, mniejsza stawka. Potem więcej."
+  }
+ ],
+ "end": {
+  "text": "Zabieram na mecz *to, co lubię w treningu*.",
+  "cta": "Zapisz i nazwij, czego się boisz"
+ }
+}

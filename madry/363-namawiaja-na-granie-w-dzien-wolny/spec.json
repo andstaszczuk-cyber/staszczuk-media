@@ -1,0 +1,99 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Koledzy namawiają mnie na granie *w dzień odpoczynku*",
+  "sub": "Głupio odmówić, a potem na treningu brak sił",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "pause",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Dzień wolny ma cel",
+   "body": "W odpoczynku ciało wzmacnia się po pracy z całego tygodnia.",
+   "art": {
+    "type": "week",
+    "caption": "MÓJ TYDZIEŃ",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "wt",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "śr",
+      "icon": "pause",
+      "mark": "ring"
+     },
+     {
+      "d": "cz",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "pt",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "sb",
+      "icon": "ball"
+     },
+     {
+      "d": "nd",
+      "icon": "pause",
+      "mark": "ring"
+     }
+    ],
+    "note": "dni odpoczynku też są w planie"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Krótka odmowa",
+   "body": "Wystarczy jedno zdanie: dziś mam wolne od wysiłku, wpadnę w weekend."
+  },
+  {
+   "title": "Zaproponuj coś innego",
+   "body": "Spacer, wspólne wyjście, mecz w telewizji. Zostajesz z ludźmi i odpoczywasz."
+  }
+ ],
+ "end": {
+  "text": "Odpoczynek *też jest w planie*.",
+  "cta": "Zapisz i przygotuj swoją odmowę"
+ }
+}

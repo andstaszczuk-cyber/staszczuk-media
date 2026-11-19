@@ -1,0 +1,73 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Oglądam porady o mentalu *i mam w głowie bałagan*",
+  "sub": "Każdy film mówi co innego, a ja nic nie zmieniam",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "play",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Wybierz jedno",
+   "body": "Z całej masy porad wybierz jedno narzędzie na najbliższe tygodnie.",
+   "art": {
+    "type": "focus",
+    "center": "jedno narzędzie",
+    "icon": "check",
+    "around": [
+     "film",
+     "podcast",
+     "post",
+     "porada"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Testuj na sobie",
+   "body": "Sprawdzaj je przez kilka tygodni na treningach. Notuj, co się zmienia."
+  },
+  {
+   "title": "Ogranicz dopływ",
+   "body": "Kilka sprawdzonych źródeł wystarczy. Ciekawostki zapisuj na później."
+  }
+ ],
+ "end": {
+  "text": "Wybieram jedno *i to wdrażam*.",
+  "cta": "Zapisz i wybierz jedno narzędzie"
+ }
+}

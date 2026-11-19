@@ -1,0 +1,79 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Jestem najniższy w drużynie *i ciągle o tym myślę*",
+  "sub": "Przy każdym pojedynku czuję, że startuję z gorszej pozycji",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ruler",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Wpływ i brak wpływu",
+   "body": "Wzrostu nie zmienisz. Zmienisz szybkość, technikę i czytanie gry.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "BEZ WPŁYWU",
+     "items": [
+      "wzrost"
+     ]
+    },
+    "right": {
+     "title": "MAM WPŁYW",
+     "items": [
+      "szybkość",
+      "technika",
+      "czytanie gry"
+     ]
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Szukaj swoich atutów",
+   "body": "Niższy zawodnik bywa zwinniejszy i szybciej zmienia kierunek. Szlifuj to."
+  },
+  {
+   "title": "Uwaga na zadaniu",
+   "body": "W pojedynku myśl o tym, co robisz: ustawienie, pierwszy krok, przewidywanie."
+  }
+ ],
+ "end": {
+  "text": "Gram *swoimi atutami*.",
+  "cta": "Zapisz i wypisz swoje atuty"
+ }
+}

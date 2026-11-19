@@ -1,0 +1,67 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Kapitanem został ktoś inny, *a liczyłem, że to będę ja*",
+  "sub": "Czuję się pominięty i trudno mi to ukryć",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Daj sobie chwilę",
+   "body": "Rozczarowanie jest normalne. Nazwij je i odłóż decyzje na później.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "pominęli mnie",
+    "to": "co mogę wnieść?"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapytaj o kryteria",
+   "body": "Porozmawiaj z trenerem, czego szukał i nad czym możesz pracować."
+  },
+  {
+   "title": "Przywództwo bez opaski",
+   "body": "Mówisz na boisku, podnosisz kolegów, pomagasz młodszym, dajesz przykład."
+  }
+ ],
+ "end": {
+  "text": "Prowadzę drużynę *swoim zachowaniem*.",
+  "cta": "Zapisz i porozmawiaj z trenerem"
+ }
+}

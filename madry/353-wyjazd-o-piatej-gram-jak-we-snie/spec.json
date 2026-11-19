@@ -1,0 +1,83 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Wyjazd o piątej rano *i gram jak we śnie*",
+  "sub": "Kilka godzin w autokarze, a potem od razu mecz",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "alarm",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Wieczór przed",
+   "body": "Spakuj się wcześniej i połóż się wcześniej niż zwykle.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "moon",
+      "top": "spanie",
+      "bottom": "wcześniej"
+     },
+     {
+      "icon": "alarm",
+      "top": "pobudka",
+      "bottom": "o świcie"
+     },
+     {
+      "icon": "play",
+      "top": "rozruch",
+      "bottom": "dłuższy",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Podróż jako odpoczynek",
+   "body": "W autokarze śpisz albo słuchasz czegoś spokojnego. Na postojach się ruszasz."
+  },
+  {
+   "title": "Dłuższy rozruch",
+   "body": "Po kilku godzinach siedzenia ciało potrzebuje więcej czasu, żeby się obudzić."
+  }
+ ],
+ "end": {
+  "text": "Budzę ciało, *zanim zacznie się mecz*.",
+  "cta": "Zapisz i przygotuj plan wyjazdu"
+ }
+}

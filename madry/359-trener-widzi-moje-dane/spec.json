@@ -1,0 +1,67 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Trener widzi moje dane *i stresuję się liczbami*",
+  "sub": "Każdy słabszy wynik czuję jak ocenę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "watch",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Po co są dane",
+   "body": "Liczby pomagają trenerowi dobrać obciążenie. Służą twojej formie.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "liczby mnie oceniają",
+    "to": "liczby pomagają dobrać trening"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Patrz na trend",
+   "body": "Jeden słabszy dzień niewiele znaczy. Liczy się kierunek z kilku tygodni."
+  },
+  {
+   "title": "Daj kontekst",
+   "body": "Krótka noc, sprawdziany, zmęczenie? Powiedz trenerowi, to też dane."
+  }
+ ],
+ "end": {
+  "text": "Liczby pracują *dla mnie*.",
+  "cta": "Zapisz i zapytaj trenera o trend"
+ }
+}

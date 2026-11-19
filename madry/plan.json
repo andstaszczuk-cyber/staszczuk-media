@@ -3049,5 +3049,284 @@
   "theme": "grafit",
   "temat_id": null,
   "data": "2027-09-30"
+ },
+ {
+  "nr": 350,
+  "folder": "350-silownia-zabierze-mi-szybkosc",
+  "tytul": "Trener dorzucił siłownię, a ja boję się, że stracę szybkość",
+  "filar": "ciało",
+  "theme": "cieply",
+  "temat_id": null,
+  "data": "2027-10-01"
+ },
+ {
+  "nr": 351,
+  "folder": "351-dwa-treningi-dziennie-co-z-przerwa",
+  "tytul": "Mam dwa treningi dziennie i nie wiem, co robić w przerwie",
+  "filar": "ciało",
+  "theme": "grafit",
+  "temat_id": null,
+  "data": "2027-10-02"
+ },
+ {
+  "nr": 352,
+  "folder": "352-lubie-treningi-unikam-meczow",
+  "tytul": "Na treningach się bawię, a meczów zaczynam unikać",
+  "filar": "głowa",
+  "theme": "czerwony",
+  "temat_id": null,
+  "data": "2027-10-03"
+ },
+ {
+  "nr": 353,
+  "folder": "353-wyjazd-o-piatej-gram-jak-we-snie",
+  "tytul": "Wyjazd na mecz o piątej rano i gram jak we śnie",
+  "filar": "ciało",
+  "theme": "cieply",
+  "temat_id": null,
+  "data": "2027-10-04"
+ },
+ {
+  "nr": 354,
+  "folder": "354-wrzucam-kazdy-trening-do-sieci",
+  "tytul": "Wrzucam każdy trening do sieci i czekam na reakcje",
+  "filar": "głowa",
+  "theme": "czerwony",
+  "temat_id": null,
+  "data": "2027-10-05"
+ },
+ {
+  "nr": 355,
+  "folder": "355-prowadze-rozgrzewke-stres",
+  "tytul": "Trener kazał mi prowadzić rozgrzewkę, a stresuję się bardziej niż meczem",
+  "filar": "głowa",
+  "theme": "cieply",
+  "temat_id": null,
+  "data": "2027-10-06"
+ },
+ {
+  "nr": 356,
+  "folder": "356-dzien-po-meczu-jak-przejechany",
+  "tytul": "Dzień po meczu jestem jak przejechany i nie wiem, czy trenować",
+  "filar": "ciało",
+  "theme": "czerwony",
+  "temat_id": null,
+  "data": "2027-10-07"
+ },
+ {
+  "nr": 357,
+  "folder": "357-kapitanem-zostal-ktos-inny",
+  "tytul": "Kapitanem został ktoś inny, a liczyłem, że to będę ja",
+  "filar": "głowa",
+  "theme": "cieply",
+  "temat_id": null,
+  "data": "2027-10-08"
+ },
+ {
+  "nr": 358,
+  "folder": "358-ogladam-porady-o-mentalu-balagan",
+  "tytul": "Oglądam porady o mentalu i mam w głowie bałagan",
+  "filar": "głowa",
+  "theme": "czerwony",
+  "temat_id": null,
+  "data": "2027-10-09"
+ },
+ {
+  "nr": 359,
+  "folder": "359-trener-widzi-moje-dane",
+  "tytul": "Trener widzi moje dane z każdego treningu i stresuję się liczbami",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": null,
+  "data": "2027-10-10"
+ },
+ {
+  "nr": 360,
+  "folder": "360-najnizszy-w-druzynie",
+  "tytul": "Jestem najniższy w drużynie i ciągle o tym myślę",
+  "filar": "głowa",
+  "theme": "grafit",
+  "temat_id": null,
+  "data": "2027-10-11"
+ },
+ {
+  "nr": 361,
+  "folder": "361-rzucilem-oddech-bo-nie-dzialal",
+  "tytul": "Rzuciłem ćwiczenia oddechowe, bo nie działały od razu",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": null,
+  "data": "2027-10-12"
+ },
+ {
+  "nr": 362,
+  "folder": "362-trener-chce-mnie-na-dluzszy-dystans",
+  "tytul": "Trener chce przesunąć mnie na dłuższy dystans, a ja kocham krótki",
+  "filar": "głowa",
+  "theme": "grafit",
+  "temat_id": null,
+  "data": "2027-10-13"
+ },
+ {
+  "nr": 363,
+  "folder": "363-namawiaja-na-granie-w-dzien-wolny",
+  "tytul": "Koledzy namawiają mnie na granie w dzień odpoczynku",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": null,
+  "data": "2027-10-14"
+ },
+ {
+  "nr": 364,
+  "folder": "364-u-siebie-gram-gorzej",
+  "tytul": "U siebie gram gorzej niż na wyjeździe",
+  "filar": "głowa",
+  "theme": "grafit",
+  "temat_id": null,
+  "data": "2027-10-15"
+ },
+ {
+  "nr": 365,
+  "folder": "365-forma-leci-szukam-winnego",
+  "tytul": "Od dwóch tygodni forma leci w dół i szukam winnego",
+  "filar": "głowa i ciało",
+  "theme": "czerwony",
+  "temat_id": null,
+  "data": "2027-10-16"
+ },
+ {
+  "nr": 366,
+  "folder": "366-kontuzja-czuje-sie-poza-druzyna",
+  "tytul": "Kontuzja w środku sezonu i czuję się poza drużyną",
+  "filar": "głowa",
+  "theme": "grafit",
+  "temat_id": null,
+  "data": "2027-10-17"
+ },
+ {
+  "nr": 367,
+  "folder": "367-placze-po-przegranej-wstydze-sie",
+  "tytul": "Po przegranej płaczę i wstydzę się przed drużyną",
+  "filar": "głowa",
+  "theme": "cieply",
+  "temat_id": null,
+  "data": "2027-10-18"
+ },
+ {
+  "nr": 368,
+  "folder": "368-na-ostatnim-kilometrze-odpuszczam",
+  "tytul": "Na ostatnim kilometrze odpuszczam, choć mam jeszcze siłę",
+  "filar": "głowa",
+  "theme": "grafit",
+  "temat_id": null,
+  "data": "2027-10-19"
+ },
+ {
+  "nr": 369,
+  "folder": "369-mam-mowic-do-kamery-klubu",
+  "tytul": "Po meczu mam powiedzieć coś do kamery klubu i zjada mnie stres",
+  "filar": "głowa",
+  "theme": "cieply",
+  "temat_id": null,
+  "data": "2027-10-20"
+ },
+ {
+  "nr": 370,
+  "folder": "370-druzyna-wygrywa-beze-mnie",
+  "tytul": "Drużyna wygrywa beze mnie i nie wiem, czy jestem potrzebny",
+  "filar": "głowa",
+  "theme": "grafit",
+  "temat_id": null,
+  "data": "2027-10-21"
+ },
+ {
+  "nr": 371,
+  "folder": "371-przez-lekcje-spozniam-sie-na-trening",
+  "tytul": "Przez lekcje spóźniam się na trening i wchodzę zestresowany",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": null,
+  "data": "2027-10-22"
+ },
+ {
+  "nr": 372,
+  "folder": "372-na-dole-tabeli-trudno-sie-zmobilizowac",
+  "tytul": "Jesteśmy na dole tabeli i coraz trudniej mi się zmobilizować",
+  "filar": "głowa",
+  "theme": "czerwony",
+  "temat_id": null,
+  "data": "2027-10-23"
+ },
+ {
+  "nr": 373,
+  "folder": "373-jesienia-moglbym-spac-caly-dzien",
+  "tytul": "Jesienią mógłbym spać cały dzień",
+  "filar": "ciało",
+  "theme": "grafit",
+  "temat_id": null,
+  "data": "2027-10-24"
+ },
+ {
+  "nr": 374,
+  "folder": "374-zawsze-oceniam-sie-nisko",
+  "tytul": "Kiedy trener prosi o ocenę treningu, zawsze daję sobie mało",
+  "filar": "głowa",
+  "theme": "czerwony",
+  "temat_id": null,
+  "data": "2027-10-25"
+ },
+ {
+  "nr": 375,
+  "folder": "375-po-bledzie-zlosc-ciagnie-sie",
+  "tytul": "Po błędzie złość ciągnie się za mną przez kolejne akcje",
+  "filar": "głowa",
+  "theme": "grafit",
+  "temat_id": null,
+  "data": "2027-10-26"
+ },
+ {
+  "nr": 376,
+  "folder": "376-w-meczu-przestaje-mowic",
+  "tytul": "W meczu przestaję mówić do kolegów i zamykam się w sobie",
+  "filar": "głowa",
+  "theme": "czerwony",
+  "temat_id": null,
+  "data": "2027-10-27"
+ },
+ {
+  "nr": 377,
+  "folder": "377-twarde-boisko-gram-ostroznie",
+  "tytul": "Boisko twarde od zimna i gram ostrożnie, żeby nic sobie nie zrobić",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": null,
+  "data": "2027-10-28"
+ },
+ {
+  "nr": 378,
+  "folder": "378-lepiej-trenuje-mi-sie-samemu",
+  "tytul": "Lepiej trenuje mi się samemu niż z grupą",
+  "filar": "głowa",
+  "theme": "grafit",
+  "temat_id": null,
+  "data": "2027-10-29"
+ },
+ {
+  "nr": 379,
+  "folder": "379-po-porannym-treningu-zasypiam-na-lekcji",
+  "tytul": "Po porannym treningu zasypiam na pierwszej lekcji",
+  "filar": "głowa i ciało",
+  "theme": "cieply",
+  "temat_id": null,
+  "data": "2027-10-30"
+ },
+ {
+  "nr": 380,
+  "folder": "380-co-roku-w-pazdzierniku-dolek",
+  "tytul": "Co roku w październiku mam dołek",
+  "filar": "głowa",
+  "theme": "czerwony",
+  "temat_id": null,
+  "data": "2027-10-31"
  }
 ]

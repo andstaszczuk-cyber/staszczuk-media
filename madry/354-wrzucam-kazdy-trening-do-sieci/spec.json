@@ -1,0 +1,79 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wrzucam każdy trening do sieci *i czekam na reakcje*",
+  "sub": "Mało polubień i od razu gorszy humor",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Własna miara",
+   "body": "Po treningu zapisz jedną rzecz, która wyszła, i jedną do poprawy. To twoja ocena.",
+   "art": {
+    "type": "bars",
+    "caption": "CO MÓWI O MOIM POSTĘPIE",
+    "items": [
+     {
+      "label": "polubienia",
+      "v": 0.25,
+      "note": "przypadek"
+     },
+     {
+      "label": "notatki",
+      "v": 0.9,
+      "hl": true,
+      "note": "moja praca"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Najpierw ocena, potem publikacja",
+   "body": "Wrzucaj wieczorem albo raz w tygodniu, kiedy sam już ocenisz trening."
+  },
+  {
+   "title": "Regeneracja bez widzów",
+   "body": "Czas po treningu oddaj ciału: rozciąganie, posiłek, odpoczynek."
+  }
+ ],
+ "end": {
+  "text": "Swój trening *oceniam sam*.",
+  "cta": "Zapisz i sprawdź swoją miarę"
+ }
+}

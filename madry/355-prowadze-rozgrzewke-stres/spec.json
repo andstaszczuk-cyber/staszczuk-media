@@ -1,0 +1,72 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Mam prowadzić rozgrzewkę *i stresuję się bardziej niż meczem*",
+  "sub": "Wszyscy patrzą na mnie i czekają na komendy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "coach",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Przygotuj kolejność",
+   "body": "Rozpisz ćwiczenia na kartce i przećwicz je w domu na głos.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "piszę kolejność",
+     "ćwiczę na głos",
+     "prowadzę"
+    ],
+    "done": 1,
+    "top": true
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Krótkie komendy",
+   "body": "Jedno słowo, jeden gest. Głośno i spokojnie."
+  },
+  {
+   "title": "Pomyłka to drobiazg",
+   "body": "Pomylisz kolejność, poprawiasz i idziecie dalej. Za tydzień nikt nie pamięta."
+  }
+ ],
+ "end": {
+  "text": "Prowadzę spokojnie, *krok po kroku*.",
+  "cta": "Zapisz i rozpisz swoją rozgrzewkę"
+ }
+}

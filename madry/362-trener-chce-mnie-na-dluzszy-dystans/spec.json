@@ -1,0 +1,75 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Trener chce mnie na dłuższym dystansie, *a ja kocham krótki*",
+  "sub": "Boję się, że stracę to, w czym jestem dobry",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Poznaj powody",
+   "body": "Zapytaj, co trener widzi w twoich wynikach i treningach.",
+   "art": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "jestem za wolny?",
+     "to na stałe?",
+     "nie wierzy we mnie?"
+    ],
+    "ask": [
+     "Co widzisz",
+     "w wynikach?",
+     "Na jak długo?"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Potraktuj jak test",
+   "body": "Ustalcie okres próbny i kryteria, po których ocenicie zmianę."
+  },
+  {
+   "title": "Powiedz, co czujesz",
+   "body": "Twoje odczucia to ważna informacja przy planowaniu."
+  }
+ ],
+ "end": {
+  "text": "Sprawdzam, *zanim zdecyduję*.",
+  "cta": "Zapisz i ustal okres próbny"
+ }
+}

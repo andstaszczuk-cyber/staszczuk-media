@@ -1,0 +1,98 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Rzuciłem ćwiczenia oddechowe, *bo nie działały od razu*",
+  "sub": "Spróbowałem dwa razy przed meczem i dalej się trzęsłem",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "wind",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Ćwicz na spokojnie",
+   "body": "Oddech trenujesz codziennie, kiedy nic się nie dzieje. Na meczu z niego korzystasz.",
+   "art": {
+    "type": "week",
+    "caption": "ODDECH CODZIENNIE",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "wind"
+     },
+     {
+      "d": "wt",
+      "icon": "wind"
+     },
+     {
+      "d": "śr",
+      "icon": "wind"
+     },
+     {
+      "d": "cz",
+      "icon": "wind"
+     },
+     {
+      "d": "pt",
+      "icon": "wind"
+     },
+     {
+      "d": "sb",
+      "icon": "ball",
+      "mark": "ring"
+     },
+     {
+      "d": "nd",
+      "icon": "wind"
+     }
+    ],
+    "note": "na meczu korzystam z treningu"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Daj mu tygodnie",
+   "body": "Układ nerwowy uczy się powoli. Pierwsze efekty bywają ledwo widoczne."
+  },
+  {
+   "title": "Mierz zmianę",
+   "body": "Oceniaj napięcie przed ćwiczeniem i po nim w skali od 1 do 10."
+  }
+ ],
+ "end": {
+  "text": "Ćwiczę, *zanim będę potrzebował*.",
+  "cta": "Zapisz i zacznij od pięciu minut"
+ }
+}

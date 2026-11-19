@@ -1,0 +1,79 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "U siebie gram gorzej *niż na wyjeździe*",
+  "sub": "Znajomi na trybunach, a ja spięty od pierwszej minuty",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Skąd napięcie",
+   "body": "U siebie czujesz, że musisz pokazać się znajomym. To podkręca pobudzenie.",
+   "art": {
+    "type": "scale10",
+    "caption": "NAPIĘCIE",
+    "y": 240,
+    "points": [
+     {
+      "n": 6,
+      "label": "na wyjeździe",
+      "hl": true
+     },
+     {
+      "n": 9,
+      "label": "u siebie"
+     }
+    ],
+    "note": "szukam swojej szóstki także u siebie"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Rutyna wyjazdowa",
+   "body": "Przenieś na mecz u siebie to, co robisz przed wyjazdem, w tej samej kolejności."
+  },
+  {
+   "title": "Jedno zadanie na start",
+   "body": "Wybierz jedno zadanie na pierwsze minuty i wracaj do niego."
+  }
+ ],
+ "end": {
+  "text": "U siebie gram *jak na wyjeździe*.",
+  "cta": "Zapisz i spisz rutynę wyjazdową"
+ }
+}

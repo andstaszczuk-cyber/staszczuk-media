@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Od dwóch tygodni forma leci w dół *i szukam winnego*",
+  "sub": "Raz myślę, że to głowa, raz, że trener źle planuje",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Najpierw proste rzeczy",
+   "body": "Sprawdź sen, szkołę, obciążenie i zdrowie. Często tam jest odpowiedź.",
+   "art": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "bed",
+      "label": "sen"
+     },
+     {
+      "icon": "book",
+      "label": "szkoła"
+     },
+     {
+      "icon": "dumbbell",
+      "label": "obciążenie"
+     },
+     {
+      "icon": "heart",
+      "label": "zdrowie"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jedna hipoteza naraz",
+   "body": "Zmieniasz jedną rzecz, obserwujesz tydzień, oceniasz."
+  },
+  {
+   "title": "Notatki dla trenera",
+   "body": "Pokaż mu, co zapisałeś. Razem łatwiej znaleźć przyczynę."
+  }
+ ],
+ "end": {
+  "text": "Sprawdzam *po kolei*.",
+  "cta": "Zapisz i sprawdź cztery obszary"
+ }
+}

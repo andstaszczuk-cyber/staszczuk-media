@@ -1,0 +1,83 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Mam dwa treningi dziennie *i nie wiem, co robić w przerwie*",
+  "sub": "Telefon, gry, a po południu zero energii",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Przerwa to trening",
+   "body": "Między sesjami ciało się odbudowuje. Od tego zależy jakość drugiego treningu.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "dumbbell",
+      "top": "trening",
+      "bottom": "rano"
+     },
+     {
+      "icon": "bed",
+      "top": "regeneracja",
+      "bottom": "w przerwie",
+      "hl": true
+     },
+     {
+      "icon": "ball",
+      "top": "trening",
+      "bottom": "po południu"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Plan na przerwę",
+   "body": "Posiłek, chwila leżenia, krótki spacer, spokojna nauka. Rozpisz to z góry."
+  },
+  {
+   "title": "Telefon z limitem",
+   "body": "Wyznacz mu konkretny czas i odłóż go poza łóżko, gdy minie."
+  }
+ ],
+ "end": {
+  "text": "Przerwa też *ma swój plan*.",
+  "cta": "Zapisz i rozpisz swoją przerwę"
+ }
+}

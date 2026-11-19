@@ -1,0 +1,67 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Trener dorzucił siłownię, *a ja boję się o szybkość*",
+  "sub": "Słyszałem, że od ciężarów robi się wolniej",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zapytaj po co",
+   "body": "Dowiedz się od trenera, jaki cel ma ta siłownia i jak łączy się z twoją grą.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "boję się ciężarów",
+    "to": "wiem, po co je robię"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Daj czas",
+   "body": "Pierwsze tygodnie bywają ciężkie, nogi mogą być zmęczone. To część adaptacji."
+  },
+  {
+   "title": "Sprawdzaj fakty",
+   "body": "Co kilka tygodni porównaj z trenerem wynik sprintu albo skoku z miejsca."
+  }
+ ],
+ "end": {
+  "text": "Ufam planowi *i sprawdzam fakty*.",
+  "cta": "Zapisz i zapytaj trenera o cel"
+ }
+}

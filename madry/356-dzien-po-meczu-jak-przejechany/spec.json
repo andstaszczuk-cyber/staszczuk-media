@@ -1,0 +1,74 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Dzień po meczu *jestem jak przejechany*",
+  "sub": "Wszystko boli, a w planie jest trening",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Lekki ruch",
+   "body": "Spokojny rozruch często daje więcej niż leżenie cały dzień. Ustal go z trenerem.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "bed",
+     "label": "cały dzień leżę",
+     "cross": true
+    },
+    "right": {
+     "icon": "foot",
+     "label": "spokojny rozruch"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Noc i jedzenie",
+   "body": "Sen po meczu i regularne posiłki to podstawa. Zadbaj o nie najpierw."
+  },
+  {
+   "title": "Sztywność czy sygnał",
+   "body": "Sztywność mija po rozgrzaniu. Ostry ból albo obrzęk zgłaszasz od razu."
+  }
+ ],
+ "end": {
+  "text": "Regeneracja to *część meczu*.",
+  "cta": "Zapisz i ustal plan dnia po meczu"
+ }
+}
