@@ -1,0 +1,67 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Po miesiącu sezonu widzę, *że mój cel był za wysoko*",
+  "sub": "Głupio mi go zmieniać, bo wyjdzie, że odpuszczam",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Nowe fakty, nowy cel",
+   "body": "Cel ustawiałeś na podstawie faktów. Nowe fakty to powód do aktualizacji.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "odpuszczam",
+    "to": "urealniam cel"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Cel z widełkami",
+   "body": "Minimum, które realnie zrobisz, i maksimum, które da ci dużą radość."
+  },
+  {
+   "title": "Dołóż cel zadaniowy",
+   "body": "Co robisz co tydzień, żeby iść w stronę celu?"
+  }
+ ],
+ "end": {
+  "text": "Urealniam cel, *zostaję przy ambicji*.",
+  "cta": "Zapisz i rozpisz swoje widełki"
+ }
+}

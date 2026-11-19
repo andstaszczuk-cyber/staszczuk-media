@@ -1,0 +1,79 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Gramy z drużyną kolegów ze szkoły *i boję się poniedziałku*",
+  "sub": "Jak przegramy, będą to wspominać na każdej przerwie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Mało kto tyle o tym myśli",
+   "body": "Ty będziesz pamiętać mecz dłużej niż koledzy, którzy mają swoje sprawy.",
+   "art": {
+    "type": "bars",
+    "caption": "ILE KTO O TYM MYŚLI",
+    "items": [
+     {
+      "label": "ja",
+      "v": 0.9,
+      "note": "cały tydzień"
+     },
+     {
+      "label": "koledzy",
+      "v": 0.3,
+      "hl": true,
+      "note": "jedna przerwa"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Graj ten sam mecz",
+   "body": "Ten sam plan, ta sama rutyna i te same zadania co w każdy weekend."
+  },
+  {
+   "title": "Przygotuj odpowiedź",
+   "body": "Na poniedziałek wystarczy jedno krótkie zdanie z uśmiechem."
+  }
+ ],
+ "end": {
+  "text": "Każdy mecz *gram tak samo*.",
+  "cta": "Zapisz i przygotuj swoje zadania na mecz"
+ }
+}

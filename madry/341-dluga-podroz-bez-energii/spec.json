@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po długiej podróży na mecz *wychodzę z autokaru bez energii*",
+  "sub": "Kilka godzin siedzenia i ciało jakby zasnęło",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zaplanuj podróż",
+   "body": "Podróż to część dnia meczowego i może mieć swój plan.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "play",
+      "top": "wyjazd",
+      "bottom": "odpoczynek"
+     },
+     {
+      "icon": "foot",
+      "top": "postój",
+      "bottom": "ruch",
+      "hl": true
+     },
+     {
+      "icon": "bolt",
+      "top": "przyjazd",
+      "bottom": "rozruch"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Ruszaj się na postojach",
+   "body": "Krótki spacer i kilka ćwiczeń budzą ciało po siedzeniu."
+  },
+  {
+   "title": "Dłuższa rozgrzewka",
+   "body": "Po podróży ciało potrzebuje więcej czasu na rozruch."
+  }
+ ],
+ "end": {
+  "text": "Mecz zaczyna się *już w autokarze*.",
+  "cta": "Zapisz i zrób swój plan podróży"
+ }
+}

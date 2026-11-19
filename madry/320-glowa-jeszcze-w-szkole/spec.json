@@ -1,0 +1,67 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na trening przychodzę *z głową jeszcze w szkole*",
+  "sub": "Ciało na hali, myśli przy klasówce i zadaniu domowym",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Głowa potrzebuje przejścia",
+   "body": "Między lekcją a treningiem zrób krótki rytuał, który mówi: teraz sport.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "lekcje",
+    "to": "trening"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Odłóż szkołę na później",
+   "body": "Zapisz, co masz do zrobienia, i umów się ze sobą na konkretną godzinę."
+  },
+  {
+   "title": "Pierwsze ćwiczenie jako kotwica",
+   "body": "Pierwsze minuty treningu skup na jednym prostym zadaniu."
+  }
+ ],
+ "end": {
+  "text": "Najpierw *przełączam*, potem trenuję.",
+  "cta": "Zapisz i wymyśl swój rytuał przejścia"
+ }
+}

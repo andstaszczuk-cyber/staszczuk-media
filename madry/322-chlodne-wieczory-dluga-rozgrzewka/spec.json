@@ -1,0 +1,74 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Wieczory są już chłodne *i długo nie mogę się rozgrzać*",
+  "sub": "Pierwsze akcje gram sztywny jak deska",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "wind",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zimny silnik potrzebuje czasu",
+   "body": "W chłodzie rozgrzewka trwa dłużej i to jest część przygotowania.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "snow",
+     "label": "krótka rozgrzewka",
+     "cross": true
+    },
+    "right": {
+     "icon": "sun",
+     "label": "dłuższa i stopniowa"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Ubierz się warstwami",
+   "body": "Bluzę zdejmujesz dopiero wtedy, gdy ciało jest gotowe do gry."
+  },
+  {
+   "title": "Trzymaj ciepło do startu",
+   "body": "Między rozgrzewką a pierwszą akcją ruszaj się lekko i nie stój w miejscu."
+  }
+ ],
+ "end": {
+  "text": "Najpierw *rozgrzany silnik*, potem gaz.",
+  "cta": "Zapisz i dopisz kilka minut do rozgrzewki"
+ }
+}

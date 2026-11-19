@@ -1,0 +1,83 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Rano sprawdzian, wieczorem mecz *i nie wiem, na czym się skupić*",
+  "sub": "W głowie jedno miesza się z drugim",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Jedna rzecz naraz",
+   "body": "Na sprawdzianie myślisz o sprawdzianie, a mecz ma swoją godzinę.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "book",
+      "top": "sprawdzian",
+      "bottom": "rano"
+     },
+     {
+      "icon": "pause",
+      "top": "przerwa",
+      "bottom": "po szkole",
+      "hl": true
+     },
+     {
+      "icon": "ball",
+      "top": "mecz",
+      "bottom": "wieczorem"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Przerwa między",
+   "body": "Po szkole chwila na jedzenie i odpoczynek, zanim zaczniesz myśleć o meczu."
+  },
+  {
+   "title": "Przygotuj się dzień wcześniej",
+   "body": "Spakowana torba i nauka skończona wieczorem odciążają głowę rano."
+  }
+ ],
+ "end": {
+  "text": "Teraz to, *co jest teraz*.",
+  "cta": "Zapisz i rozpisz swój dzień meczowy"
+ }
+}

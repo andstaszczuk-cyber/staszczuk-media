@@ -1,0 +1,73 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "W sezonie trenujemy mniej *i boję się, że tracę formę*",
+  "sub": "Latem harowaliśmy, a teraz głównie odpoczywamy między meczami",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Forma rośnie w odpoczynku",
+   "body": "Obciążenie plus regeneracja daje postęp. W sezonie liczy się świeżość.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "dumbbell",
+     "label": "lato: budowanie"
+    },
+    "right": {
+     "icon": "battery",
+     "label": "sezon: świeżość"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapytaj o plan",
+   "body": "Trener rozkłada obciążenia na cały sezon. Zapytaj, jak to wygląda."
+  },
+  {
+   "title": "Dbaj o jakość",
+   "body": "Krótszy trening może być bardzo intensywny i bardzo dokładny."
+  }
+ ],
+ "end": {
+  "text": "Świeży *gra lepiej*.",
+  "cta": "Zapisz i zapytaj trenera o plan sezonu"
+ }
+}

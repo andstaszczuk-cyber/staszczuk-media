@@ -1,0 +1,79 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Chcę mieć dobre oceny i wygrywać mecze, *a wszędzie czuję się na pół gwizdka*",
+  "sub": "Jak nie jest idealnie, czuję, że zawaliłem",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Wystarczająco dobrze",
+   "body": "W każdym obszarze ustal, co jest dla ciebie wystarczające w tym miesiącu.",
+   "art": {
+    "type": "scale10",
+    "caption": "SZKOŁA I SPORT",
+    "y": 240,
+    "points": [
+     {
+      "n": 7,
+      "label": "wystarczająco",
+      "hl": true
+     },
+     {
+      "n": 10,
+      "label": "idealnie"
+     }
+    ],
+    "note": "siódemka też jest dobrym wynikiem"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Priorytety w tygodniu",
+   "body": "Tydzień ze sprawdzianem i tydzień z ważnym meczem mają inne priorytety."
+  },
+  {
+   "title": "Doceniaj to, co zrobione",
+   "body": "Wieczorem wypisz, co ci się udało, zanim zaczniesz liczyć braki."
+  }
+ ],
+ "end": {
+  "text": "Robię wystarczająco *i mogę się rozwijać*.",
+  "cta": "Zapisz i ustal swoje wystarczająco"
+ }
+}

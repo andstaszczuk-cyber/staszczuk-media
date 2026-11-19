@@ -1,0 +1,82 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Miesiąc sezonu za mną, *a czuję się jak pod jego koniec*",
+  "sub": "Nogi ciężkie, sen gorszy, wszystko mnie drażni",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Żółte flagi",
+   "body": "Gorszy sen, drażliwość i ciężkie nogi kilka dni z rzędu to sygnał.",
+   "art": {
+    "type": "table",
+    "left": "ŻÓŁTA FLAGA",
+    "right": "CO ROBIĘ",
+    "good": true,
+    "rows": [
+     [
+      "gorszy sen",
+      "kładę się wcześniej"
+     ],
+     [
+      "ciężkie nogi",
+      "mówię trenerowi"
+     ],
+     [
+      "drażliwość",
+      "dzień luzu"
+     ]
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Mów wcześnie",
+   "body": "Łatwiej zmniejszyć obciążenie teraz, zanim zmęczenie urośnie."
+  },
+  {
+   "title": "Poranna skala",
+   "body": "Krótka ocena snu, energii i nastroju co rano pokaże ci trend."
+  }
+ ],
+ "end": {
+  "text": "Lepiej niedotrenowany *niż przetrenowany*.",
+  "cta": "Zapisz i zacznij poranną skalę"
+ }
+}

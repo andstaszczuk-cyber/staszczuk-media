@@ -1,0 +1,67 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Po kilku słabych meczach *mam ochotę wszystko rzucić*",
+  "sub": "Myślę, że może ten sport jest nie dla mnie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "pause",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "W emocjach bez decyzji",
+   "body": "Ważne decyzje podejmujesz, gdy emocje opadną.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "rzucam to",
+    "to": "wracam za miesiąc"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Co daje ci sport?",
+   "body": "Wypisz, czego by ci brakowało bez sportu. Wynik rzadko jest na tej liście."
+  },
+  {
+   "title": "Porozmawiaj z kimś",
+   "body": "Trener, rodzic, ktoś z drużyny. Wypowiedziane na głos traci ciężar."
+  }
+ ],
+ "end": {
+  "text": "Najpierw *emocje*, potem decyzje.",
+  "cta": "Zapisz datę powrotu do tematu"
+ }
+}

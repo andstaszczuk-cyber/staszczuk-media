@@ -1,0 +1,99 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "W tygodniu niedosypiam, *a w weekend odsypiam do południa*",
+  "sub": "W poniedziałek budzę się jeszcze bardziej zmęczony",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "alarm",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Stała pora wstawania",
+   "body": "Ciało lubi rytm. Duże przesunięcia w weekend rozbijają cały tydzień.",
+   "art": {
+    "type": "week",
+    "caption": "PORA WSTAWANIA",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "alarm"
+     },
+     {
+      "d": "wt",
+      "icon": "alarm"
+     },
+     {
+      "d": "śr",
+      "icon": "alarm"
+     },
+     {
+      "d": "cz",
+      "icon": "alarm"
+     },
+     {
+      "d": "pt",
+      "icon": "alarm"
+     },
+     {
+      "d": "sb",
+      "icon": "alarm",
+      "mark": "ring"
+     },
+     {
+      "d": "nd",
+      "icon": "alarm",
+      "mark": "ring"
+     }
+    ],
+    "note": "podobnie każdego dnia"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Szukaj czasu wieczorem",
+   "body": "Sprawdź, co zjada ci wieczór i co możesz przesunąć."
+  },
+  {
+   "title": "Krótka drzemka po szkole",
+   "body": "Może dodać energii, jeśli nie psuje snu w nocy."
+  }
+ ],
+ "end": {
+  "text": "Sen to *część treningu*.",
+  "cta": "Zapisz i ustal swoją porę wstawania"
+ }
+}

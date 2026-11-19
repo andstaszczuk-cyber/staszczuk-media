@@ -1,0 +1,83 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Mam nowego partnera do gry w parze *i nic nam nie wychodzi*",
+  "sub": "Z poprzednim rozumieliśmy się bez słów",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zgranie wymaga czasu",
+   "body": "Zrozumienie bez słów z poprzednim partnerem też budowaliście miesiącami.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "puzzle",
+      "top": "docieranie",
+      "bottom": "teraz",
+      "hl": true
+     },
+     {
+      "icon": "people",
+      "top": "zgranie",
+      "bottom": "po tygodniach"
+     },
+     {
+      "icon": "check",
+      "top": "bez słów",
+      "bottom": "z czasem"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Mówcie więcej",
+   "body": "Krótkie ustalenia przed akcją i po niej. Mniej założeń, więcej komunikacji."
+  },
+  {
+   "title": "Grajcie pod mocne strony",
+   "body": "Ustalcie, co każdy z was robi najlepiej, i grajcie pod to."
+  }
+ ],
+ "end": {
+  "text": "Zgranie *to wspólna praca*.",
+  "cta": "Zapisz i umów się z partnerem na rozmowę"
+ }
+}

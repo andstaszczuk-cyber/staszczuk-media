@@ -1,0 +1,67 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Trener stawia mnie innym za przykład *i teraz boję się pomylić*",
+  "sub": "Czuję, że wszyscy patrzą, czy rzeczywiście jestem taki dobry",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Pochwała dotyczy pracy",
+   "body": "Trener docenił to, co robisz od tygodni. Jeden błąd tej pracy nie cofnie.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "muszę być bezbłędny",
+    "to": "robię swoje dalej"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Błąd to dowód działania",
+   "body": "Popełniają je wszyscy, także ci, których stawia się za przykład."
+  },
+  {
+   "title": "Zostań przy swoich nawykach",
+   "body": "Rób dalej to, za co cię doceniono, w tym samym rytmie."
+  }
+ ],
+ "end": {
+  "text": "Pochwała *to twój dowód*.",
+  "cta": "Zapisz ją na swojej liście dowodów"
+ }
+}

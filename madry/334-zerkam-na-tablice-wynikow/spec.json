@@ -1,0 +1,73 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "W meczu co chwilę *zerkam na tablicę wyników*",
+  "sub": "Liczę punkty i minuty, a gra mi ucieka",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Wynik to informacja",
+   "body": "Sprawdzasz go w przerwie gry i wracasz do zadania.",
+   "art": {
+    "type": "focus",
+    "center": "następna akcja",
+    "icon": "ball",
+    "around": [
+     "wynik",
+     "czas",
+     "trybuny",
+     "ławka"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Ustal momenty patrzenia",
+   "body": "Przerwa w grze, zmiana stron, przerwa na żądanie, koniec seta."
+  },
+  {
+   "title": "Wróć gestem",
+   "body": "Złapałeś się na zerkaniu? Wydech, jedno słowo i wzrok na grę."
+  }
+ ],
+ "end": {
+  "text": "Wynik buduje się *akcja po akcji*.",
+  "cta": "Zapisz i ustal swoje momenty na wynik"
+ }
+}

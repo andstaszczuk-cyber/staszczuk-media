@@ -1,0 +1,75 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Muszę zwolnić się ze szkoły na zawody *i głupio mi prosić*",
+  "sub": "Boję się, że nauczyciel pomyśli, że się wymiguję",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Proś wcześniej",
+   "body": "Kilka dni przed wyjazdem, z konkretną datą i godziną wyjazdu.",
+   "art": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "pomyśli, że kombinuję?",
+     "będzie zła?",
+     "odmówi?"
+    ],
+    "ask": [
+     "Mam zawody",
+     "w piątek.",
+     "Co nadrobić?"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Powiedz, jak nadrobisz",
+   "body": "Zaproponuj termin zaliczenia i weź notatki od kolegi z klasy."
+  },
+  {
+   "title": "Dotrzymaj słowa",
+   "body": "Zaległości nadrobione na czas budują zaufanie na kolejne wyjazdy."
+  }
+ ],
+ "end": {
+  "text": "Prośba to *zwykła rozmowa*.",
+  "cta": "Zapisz i przygotuj swoją prośbę"
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Robi się ciemno coraz wcześniej *i tracę ochotę na wieczorne treningi*",
+  "sub": "Wychodzę z domu, a za oknem prawie noc",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Plan przed nastrojem",
+   "body": "Decyzję o treningu podejmujesz rano, a wieczorem tylko ją wykonujesz.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "nie chce mi się",
+    "to": "wychodzę, bo mam plan"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Ułatw sobie wyjście",
+   "body": "Torba przy drzwiach, ubranie przygotowane, kurtka na wierzchu."
+  },
+  {
+   "title": "Dziesięć minut ruchu",
+   "body": "Po rozgrzewce ochota zwykle wraca. Najtrudniejsze jest wyjście z domu."
+  }
+ ],
+ "end": {
+  "text": "Działam *zgodnie z planem*.",
+  "cta": "Zapisz i spakuj torbę dzień wcześniej"
+ }
+}

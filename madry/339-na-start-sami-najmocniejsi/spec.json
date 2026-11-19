@@ -1,0 +1,79 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na start sezonu trafiliśmy *na samych najmocniejszych*",
+  "sub": "Po kilku kolejkach jesteśmy na dole tabeli",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Patrz na przebieg",
+   "body": "Co zagraliście dobrze z najlepszymi? Ile akcji stworzyliście?",
+   "art": {
+    "type": "scale10",
+    "caption": "JAK GRAMY Z MOCNYMI",
+    "y": 240,
+    "points": [
+     {
+      "n": 3,
+      "label": "1. kolejka"
+     },
+     {
+      "n": 6,
+      "label": "ostatni mecz",
+      "hl": true
+     }
+    ],
+    "note": "porównuj mecz do meczu"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Gotowa lista zadań",
+   "body": "Na tle najlepszych najlepiej widać, co trzeba poprawić."
+  },
+  {
+   "title": "Kalendarz się wyrówna",
+   "body": "Przed wami mecze z drużynami z waszego poziomu."
+  }
+ ],
+ "end": {
+  "text": "Kilka kolejek *to jeszcze nie sezon*.",
+  "cta": "Zapisz i wypisz trzy rzeczy, które zadziałały"
+ }
+}

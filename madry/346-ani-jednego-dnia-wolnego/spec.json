@@ -1,0 +1,98 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Od września nie miałem *ani jednego dnia naprawdę wolnego*",
+  "sub": "W niedzielę po meczu nadrabiam lekcje",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zaplanuj wolne",
+   "body": "Wolne wpisane do kalendarza ma takie samo prawo jak trening.",
+   "art": {
+    "type": "week",
+    "caption": "W KALENDARZU",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "book"
+     },
+     {
+      "d": "wt",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "śr",
+      "icon": "book"
+     },
+     {
+      "d": "cz",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "pt",
+      "icon": "book"
+     },
+     {
+      "d": "sb",
+      "icon": "ball"
+     },
+     {
+      "d": "nd",
+      "icon": "sun",
+      "mark": "ring"
+     }
+    ],
+    "note": "jeden dzień tylko dla mnie"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Odpocznij naprawdę",
+   "body": "Wybierz to, co cię ładuje: ruch dla przyjemności, ludzie, natura."
+  },
+  {
+   "title": "Naukę rozłóż w tygodniu",
+   "body": "Małe porcje nauki w tygodniu zostawiają niedzielę dla ciebie."
+  }
+ ],
+ "end": {
+  "text": "Odpoczynek *też jest działaniem*.",
+  "cta": "Zapisz i wpisz wolne do kalendarza"
+ }
+}

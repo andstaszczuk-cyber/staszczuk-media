@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Rywal ma lepszy sprzęt *i od razu czuję się gorszy*",
+  "sub": "Patrzę na jego buty i już przegrywam w głowie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Sprzęt to jeden element",
+   "body": "Wynik składa się z przygotowania, techniki, taktyki i głowy.",
+   "art": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "dumbbell",
+      "label": "przygotowanie"
+     },
+     {
+      "icon": "foot",
+      "label": "technika"
+     },
+     {
+      "icon": "puzzle",
+      "label": "taktyka"
+     },
+     {
+      "icon": "brain",
+      "label": "głowa"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Wróć do swojego",
+   "body": "Twój sprzęt, twoje przygotowanie i twoje zadania. Na to masz wpływ."
+  },
+  {
+   "title": "Rywal też ma obawy",
+   "body": "Możliwe, że on patrzy na ciebie i widzi twoje atuty."
+  }
+ ],
+ "end": {
+  "text": "Na start zabierasz *swoje umiejętności*.",
+  "cta": "Zapisz i wypisz swoje trzy atuty"
+ }
+}

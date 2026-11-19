@@ -1,0 +1,79 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Trener mówi, że brakuje mi pewności siebie, *a ja nie wiem, co to znaczy*",
+  "sub": "Chcę to poprawić i nie wiem, od czego zacząć",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "play",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Co zobaczyłaby kamera?",
+   "body": "Opisz pewność siebie zachowaniami: jak stoisz, jak się pokazujesz, jak mówisz.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "HASŁO",
+     "items": [
+      "bądź pewny siebie"
+     ]
+    },
+    "right": {
+     "title": "ZACHOWANIA",
+     "items": [
+      "wołam o piłkę",
+      "podnoszę głowę",
+      "biorę strzał"
+     ]
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapytaj trenera o konkret",
+   "body": "Po czym pozna, że jest lepiej? Poproś o dwa, trzy przykłady z meczów."
+  },
+  {
+   "title": "Ćwicz jedno zachowanie",
+   "body": "Wybierz jedno i rób je na każdym treningu, także w gorszy dzień."
+  }
+ ],
+ "end": {
+  "text": "Pewność siebie *widać w zachowaniu*.",
+  "cta": "Zapisz i wypisz swoje trzy zachowania"
+ }
+}

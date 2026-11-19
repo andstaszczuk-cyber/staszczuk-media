@@ -1,0 +1,75 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Mecze lecą co weekend *i zlewają mi się w jeden*",
+  "sub": "Nie pamiętam już, co działało dwa tygodnie temu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Krótki zapis po meczu",
+   "body": "Trzy rzeczy: co zadziałało, co poprawiam i jedno zadanie na następny mecz.",
+   "art": {
+    "type": "notes",
+    "title": "PO MECZU",
+    "lines": [
+     "co zadziałało",
+     "co poprawiam",
+     "zadanie na sobotę"
+    ],
+    "crossed": [
+     "cała lista błędów"
+    ],
+    "side": "5 minut"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Każdy mecz ma swoje zadanie",
+   "body": "Jedno konkretne zadanie sprawia, że mecz ma własną twarz."
+  },
+  {
+   "title": "Raz w miesiącu spójrz wstecz",
+   "body": "Z kilku zapisów zobaczysz, co się powtarza i w którą stronę idziesz."
+  }
+ ],
+ "end": {
+  "text": "Zapisany mecz *zostaje z tobą*.",
+  "cta": "Zapisz i zrób notatkę po najbliższym meczu"
+ }
+}

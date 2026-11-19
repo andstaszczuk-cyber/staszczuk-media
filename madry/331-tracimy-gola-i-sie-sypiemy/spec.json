@@ -1,0 +1,67 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Prowadzimy, tracimy jednego gola *i cała drużyna się sypie*",
+  "sub": "Po stracie nagle gramy nerwowo i chaotycznie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Reset po stracie",
+   "body": "Zero do zera w głowie i pełne skupienie na następnej akcji.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "wszystko się wali",
+    "to": "dalej prowadzimy"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Ustalcie sygnał",
+   "body": "Jedno hasło albo gest, który drużyna zna z treningów."
+  },
+  {
+   "title": "Pierwsze akcje po golu",
+   "body": "Kilka prostych, pewnych zagrań uspokaja zespół najszybciej."
+  }
+ ],
+ "end": {
+  "text": "Jeden gol *to jedna akcja*.",
+  "cta": "Zapisz i ustal z drużyną swój sygnał"
+ }
+}

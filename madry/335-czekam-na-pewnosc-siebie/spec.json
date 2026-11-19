@@ -1,0 +1,72 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Czekam, aż poczuję pewność siebie, *żeby zagrać odważnie*",
+  "sub": "A ona przychodzi rzadko i zwykle za późno",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Najpierw działanie",
+   "body": "Odważne zagranie często przychodzi przed pewnością, a ona dociąga za nim.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "robię mimo obaw",
+     "zbieram dowody",
+     "czuję pewność"
+    ],
+    "done": 1,
+    "top": true
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Pewność ma prawo się chwiać",
+   "body": "Wielu zawodników gra dobrze bez tego uczucia, bo skupia się na robocie."
+  },
+  {
+   "title": "Jeden odważny krok",
+   "body": "Jedna odważna decyzja w meczu to już dowód do zapisania."
+  }
+ ],
+ "end": {
+  "text": "Zbuduję pewność *w trakcie gry*.",
+  "cta": "Zapisz i wybierz swój odważny krok"
+ }
+}

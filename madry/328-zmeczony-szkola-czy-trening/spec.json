@@ -1,0 +1,73 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Jestem zmęczony *i nie wiem, czy to szkoła, czy trening*",
+  "sub": "Od początku września ciągle brakuje mi energii",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Wszystko się sumuje",
+   "body": "Lekcje, dojazdy, nauka i trening trafiają do jednego worka zmęczenia.",
+   "art": {
+    "type": "hub",
+    "center": "moje zmęczenie",
+    "icon": "battery",
+    "items": [
+     "lekcje",
+     "trening",
+     "nauka",
+     "sen"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Sprawdź najprostsze",
+   "body": "Sen, posiłki, dojazdy i wieczory przy ekranie to pierwsze miejsca do sprawdzenia."
+  },
+  {
+   "title": "Powiedz trenerowi",
+   "body": "Trener dopasuje obciążenie, kiedy wie, co dzieje się poza treningiem."
+  }
+ ],
+ "end": {
+  "text": "Ciało liczy *całe zmęczenie*.",
+  "cta": "Zapisz i rozpisz swój tydzień na kartce"
+ }
+}
