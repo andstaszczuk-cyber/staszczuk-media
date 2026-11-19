@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Czego chcesz na wiosnę?\\n*Zacznij od tego*."
+  },
+  {
+   "kind": "point",
+   "title": "Unikanie",
+   "body": "Cel w stylu: byle się nie pomylić, kieruje uwagę na błąd.",
+   "icon": "kartka"
+  },
+  {
+   "kind": "point",
+   "title": "Dążenie",
+   "body": "Cel dążeniowy opisuje, co chcesz robić na boisku.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Kamera",
+   "body": "Zapisz go tak, jak zobaczyłaby to kamera.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "end",
+   "text": "Uwaga idzie tam,\\n*gdzie patrzysz*.",
+   "cta": "Zapisz i napisz swój cel"
+  }
+ ]
+}

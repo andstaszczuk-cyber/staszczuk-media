@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "WARTOŚCI",
+   "text": "Czego by ci brakowało\\n*bez sędziowania?*"
+  },
+  {
+   "kind": "point",
+   "title": "Pytanie",
+   "body": "Wyobraź sobie rok bez gwizdka i zapisz, czego by ci brakowało.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Lista",
+   "body": "Na takiej liście ocena i awans zwykle stoją daleko.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Wartości",
+   "body": "To, co zapisałeś, pokazuje, po co naprawdę sędziujesz.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "To, czego by brakowało,\\n*warto pielęgnować*.",
+   "cta": "Zapisz i zrób swoją listę"
+  }
+ ]
+}

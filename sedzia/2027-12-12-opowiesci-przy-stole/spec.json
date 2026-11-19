@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "dymek",
+   "text": "Przy stole wszyscy mieli\\n*świetny rok*?"
+  },
+  {
+   "kind": "point",
+   "title": "Opowieści",
+   "body": "Na spotkaniu opowiada się najlepsze mecze i najlepsze decyzje.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Kulisy",
+   "body": "Wątpliwości, słabsze oceny i nerwy zostają w domu.",
+   "icon": "szafa"
+  },
+  {
+   "kind": "point",
+   "title": "Porównanie",
+   "body": "Swoje kulisy porównujesz z cudzą wersją na pokaz.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Każdy ma swoje kulisy.\\n*Ty też*.",
+   "cta": "Zapisz przed spotkaniem kolegium"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Sędziowanie to\\n*wycieczka czy ucieczka?*",
+   "sub": "Odpowiedź znajdziesz\\n*w innych obszarach życia*."
+  },
+  {
+   "kind": "point",
+   "title": "Pasja",
+   "body": "Sędziowanie może dawać radość, ruch i ludzi.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Ucieczka",
+   "body": "Bywa też sposobem, żeby oddalić się od spraw w domu albo w pracy.",
+   "icon": "dom"
+  },
+  {
+   "kind": "point",
+   "title": "Koszt",
+   "body": "Poznasz to po kosztach, które płacą inne obszary życia.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Sport daje dużo.\\n*Sprawdź, ile kosztuje*.",
+   "cta": "Zapisz na spokojny wieczór"
+  }
+ ]
+}

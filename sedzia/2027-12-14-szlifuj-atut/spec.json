@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "1",
+   "text": "atut na całą zimę.\\n*Wybierz go dziś*."
+  },
+  {
+   "kind": "point",
+   "title": "Słabości",
+   "body": "Zimą kusi, żeby łatać wszystkie słabe strony naraz.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Średni poziom",
+   "body": "Słabość, która nie szkodzi, wystarczy podciągnąć do przyzwoitego poziomu.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Atut",
+   "body": "Energię wkładasz w to, co już robisz dobrze, żeby stało się twoją przewagą.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Wypracowany atut\\n*działa także pod presją*.",
+   "cta": "Zapisz i wybierz swój atut"
+  }
+ ]
+}

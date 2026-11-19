@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Mój kot nie wie,\\n*że się pomyliłeś*."
+  },
+  {
+   "kind": "point",
+   "title": "Ranga",
+   "body": "Ważność meczów i błędów to nasza wspólna umowa.",
+   "icon": "kartka"
+  },
+  {
+   "kind": "point",
+   "title": "Świat",
+   "body": "Poza sędziowskim środowiskiem mało kto pamięta tamten mecz.",
+   "icon": "dom"
+  },
+  {
+   "kind": "point",
+   "title": "Dystans",
+   "body": "Ta perspektywa zdejmuje ciężar, a lekcja zostaje.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Błąd był ważny w meczu.\\n*Teraz może być lekcją*.",
+   "cta": "Wyślij komuś, kto wciąż przeżywa"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "PODSUMOWANIE",
+   "text": "Zadowolony z roku\\n*i trochę głodny*."
+  },
+  {
+   "kind": "point",
+   "title": "Satysfakcja",
+   "body": "Doceniasz to, co w tym roku zrobiłeś.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Głód",
+   "body": "Niedosyt daje chęć do pracy na kolejny rok.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Proporcje",
+   "body": "Bez satysfakcji żyjesz w deficycie, bez głodu stoisz w miejscu.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Jedno i drugie\\n*może być w tobie naraz*.",
+   "cta": "Zapisz na podsumowanie roku"
+  }
+ ]
+}

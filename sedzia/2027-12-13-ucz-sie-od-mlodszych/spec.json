@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "young",
+   "text": "Młodszy sędzia\\n*też może cię czegoś nauczyć*."
+  },
+  {
+   "kind": "point",
+   "title": "Piórka",
+   "body": "Z latami łatwo uznać, że wiesz już wystarczająco dużo.",
+   "icon": "ksiazka"
+  },
+  {
+   "kind": "point",
+   "title": "Świeże oko",
+   "body": "Młodsi widzą rzeczy, których ty już nie zauważasz.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa",
+   "body": "Zapytaj, jak oni się uczą i co ich zaskakuje.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Mistrz potrafi\\n*stać się uczniem*.",
+   "cta": "Zapisz przed spotkaniem z młodszymi"
+  }
+ ]
+}

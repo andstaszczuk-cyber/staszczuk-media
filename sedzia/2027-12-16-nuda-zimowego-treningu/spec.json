@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "snow",
+   "text": "Ten sam trening od tygodni.\\n*Nuda też się zdarza*."
+  },
+  {
+   "kind": "point",
+   "title": "Nuda",
+   "body": "Jedna trasa i jedno tempo w kółko w końcu obrzydną.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Urozmaicenie",
+   "body": "Zmień trasę, porę, towarzystwo albo rodzaj ruchu.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Powtarzalność",
+   "body": "Resztę bierzesz jako trening powtarzalności w dyskomforcie.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "end",
+   "text": "Nuda to część treningu.\\n*Urozmaicenie też*.",
+   "cta": "Zapisz na zimowe bieganie"
+  }
+ ]
+}

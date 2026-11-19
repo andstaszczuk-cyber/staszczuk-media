@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "crew",
+   "text": "Kim się otaczasz\\n*w sędziowaniu?*"
+  },
+  {
+   "kind": "point",
+   "title": "Otoczenie",
+   "body": "Ludzie wokół ciebie wpływają na rozwój mocniej niż książki.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Ciągnący",
+   "body": "Szukaj takich, którzy są krok przed tobą i chcą się rozwijać.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Energia",
+   "body": "Zauważ, po których rozmowach masz jej mniej.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "end",
+   "text": "Twoi ludzie\\n*to część przygotowania*.",
+   "cta": "Wyślij komuś ze swojego zespołu"
+  }
+ ]
+}
