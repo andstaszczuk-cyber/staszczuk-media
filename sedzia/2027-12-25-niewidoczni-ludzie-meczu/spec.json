@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "locker",
+   "text": "Za każdym meczem\\n*stoją ludzie, których nie widać*."
+  },
+  {
+   "kind": "point",
+   "title": "Kulisy",
+   "body": "Ktoś przygotował boisko, otworzył szatnię, zrobił herbatę.",
+   "icon": "dom"
+  },
+  {
+   "kind": "point",
+   "title": "Każdy robi swoje",
+   "body": "Gospodarz obiektu robi swoją robotę tak samo jak ty swoją.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Wdzięczność",
+   "body": "W święta warto pomyśleć o nich chociaż przez chwilę.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "Mecz to praca\\n*wielu ludzi*.",
+   "cta": "Wyślij komuś z boiska"
+  }
+ ]
+}

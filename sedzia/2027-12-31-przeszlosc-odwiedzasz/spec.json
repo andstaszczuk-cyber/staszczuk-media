@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "night",
+   "text": "Ostatni wieczór roku.\\n*Przeszłość tylko odwiedzasz*."
+  },
+  {
+   "kind": "point",
+   "title": "Pamięć",
+   "body": "Błędy z tego roku łatwo zabrać ze sobą w nowy.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Odwiedziny",
+   "body": "Do przeszłości wracasz po wnioski i dowody, że dałeś radę.",
+   "icon": "dom"
+  },
+  {
+   "kind": "point",
+   "title": "Nowy rok",
+   "body": "Zaczynasz go z tym, czego się nauczyłeś.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Przeszłość odwiedzasz.\\n*Mieszkasz dziś*.",
+   "cta": "Wyślij komuś na nowy rok"
+  }
+ ]
+}

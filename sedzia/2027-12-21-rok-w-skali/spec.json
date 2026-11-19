@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "cel",
+   "text": "Twój rok\\n*w odpowiedniej skali*."
+  },
+  {
+   "kind": "point",
+   "title": "Wycinek",
+   "body": "Pamiętasz kilka trudnych meczów, a rok miał ich dużo więcej.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Skala",
+   "body": "Niewielu ludzi prowadzi mecze co weekend przez cały sezon.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Docenienie",
+   "body": "Popatrz na swój rok tak, jak patrzyłbyś na rok kolegi.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "W odpowiedniej skali\\n*twój rok wygląda inaczej*.",
+   "cta": "Zapisz na koniec roku"
+  }
+ ]
+}

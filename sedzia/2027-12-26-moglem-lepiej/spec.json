@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Wypoczęty myślisz:\\n*mogłem sędziować lepiej*."
+  },
+  {
+   "kind": "point",
+   "title": "Fotel",
+   "body": "Po świętach, wypoczęty i bezpieczny, łatwo ocenić rundę surowo.",
+   "icon": "dom"
+  },
+  {
+   "kind": "point",
+   "title": "Wtedy",
+   "body": "Każdą decyzję podejmowałeś z wiedzą i siłami, które miałeś wtedy.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Wniosek",
+   "body": "Z ogólnego mogłem lepiej zrób jedną konkretną rzecz na wiosnę.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Gdybyś mógł lepiej,\\n*zrobiłbyś to*.",
+   "cta": "Zapisz na spokojne święta"
+  }
+ ]
+}

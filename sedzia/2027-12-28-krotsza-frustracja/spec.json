@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "replay",
+   "text": "Mierz, jak szybko wracasz\\n*po błędzie*."
+  },
+  {
+   "kind": "point",
+   "title": "Wrażliwość",
+   "body": "Błąd rusza każdego sędziego, któremu zależy.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Sprężystość",
+   "body": "Możesz trenować to, jak szybko wracasz do gry.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Miara",
+   "body": "Krótszy czas frustracji to twój progres.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Krótszy czas frustracji\\n*to też progres*.",
+   "cta": "Zapisz i sprawdź wiosną"
+  }
+ ]
+}

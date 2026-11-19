@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "tunnel",
+   "text": "Jak będziesz się czuł w marcu?\\n*Weź to już dziś*."
+  },
+  {
+   "kind": "point",
+   "title": "Obraz",
+   "body": "Wyobraź sobie siebie w marcu, przygotowanego i spokojnego.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Pożyczka",
+   "body": "Zobacz, jak ten sędzia myśli o jesieni i o sobie.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Dziś",
+   "body": "Jedną rzecz z tego obrazu zrób jeszcze w tym tygodniu.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Spokój z marca\\n*możesz pożyczyć w grudniu*.",
+   "cta": "Zapisz na przerwę świąteczną"
+  }
+ ]
+}

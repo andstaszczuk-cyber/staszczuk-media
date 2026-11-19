@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "NOWY ROK",
+   "text": "Postanowienie na nowy rok?\\n*Najpierw zrób, potem ogłoś*."
+  },
+  {
+   "kind": "point",
+   "title": "Ogłoszenie",
+   "body": "Deklaracja w sieci daje polubienia, zanim zrobisz pierwszy krok.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "point",
+   "title": "Nagroda",
+   "body": "Głowa dostaje nagrodę przed pracą i część zapału ucieka.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "point",
+   "title": "Wdrożenie",
+   "body": "Pierwsze tygodnie zrób po cichu albo z jedną zaufaną osobą.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Deklaracja\\n*to jeszcze nie wdrożenie*.",
+   "cta": "Zapisz przed Sylwestrem"
+  }
+ ]
+}

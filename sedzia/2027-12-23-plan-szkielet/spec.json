@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "3",
+   "text": "kroki na zimę.\\n*Plan to szkielet*."
+  },
+  {
+   "kind": "point",
+   "title": "Szkielet",
+   "body": "Ustalasz kilka głównych kroków, bez rozpisywania każdego dnia.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Przesunięcie",
+   "body": "Święta, przeziębienie albo praca coś przesuną. To normalne.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Kroki",
+   "body": "Gdy plan się sypie, zostają te same kroki z nowymi terminami.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "end",
+   "text": "Te same kroki,\\n*przesunięte terminy*.",
+   "cta": "Zapisz przed świętami"
+  }
+ ]
+}

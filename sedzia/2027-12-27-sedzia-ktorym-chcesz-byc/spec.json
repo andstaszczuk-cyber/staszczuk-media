@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Zachowuj się jak sędzia,\\nktórym chcesz być.\\n*Resztę dociągniesz*."
+  },
+  {
+   "kind": "point",
+   "title": "Kredyt",
+   "body": "Bank daje kredyt, zanim go spłacisz. Ty też możesz dać sobie zaufanie z góry.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Zachowania",
+   "body": "Opisz, jak ten sędzia się przygotowuje, porusza i rozmawia.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Zima",
+   "body": "Część tych zachowań możesz zacząć ćwiczyć już teraz.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Najpierw postawa,\\n*potem potwierdzenia*.",
+   "cta": "Zapisz na zimowe przygotowania"
+  }
+ ]
+}

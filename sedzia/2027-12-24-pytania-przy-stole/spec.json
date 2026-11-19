@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "WIGILIA",
+   "text": "Wujek pyta\\n*o tamten karny?*",
+   "sub": "Pytanie przy stole\\n*jest po prostu pytaniem*."
+  },
+  {
+   "kind": "point",
+   "title": "Pytanie",
+   "body": "Przy stole ktoś zawsze zapyta o głośny mecz albo o sędziów z telewizji.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Odczyt",
+   "body": "Głowa od razu słyszy w tym atak i ocenę.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "point",
+   "title": "Odpowiedź",
+   "body": "Krótko odpowiadasz i wracasz do świąt.",
+   "icon": "dom"
+  },
+  {
+   "kind": "end",
+   "text": "Dziś jesteś\\n*przy stole z bliskimi*.",
+   "cta": "Wyślij komuś na Wigilię"
+  }
+ ]
+}

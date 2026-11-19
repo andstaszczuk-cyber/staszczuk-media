@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "kamera",
+   "text": "Postanowienie,\\n*które zobaczy kamera*."
+  },
+  {
+   "kind": "point",
+   "title": "Hasło",
+   "body": "Będę lepszym sędzią brzmi dobrze, a niewiele mówi.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Zachowanie",
+   "body": "Opisz, co konkretnie robisz, kiedy i jak często.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdzenie",
+   "body": "Po miesiącu sprawdzasz, czy kamera by to zarejestrowała.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "end",
+   "text": "Kamera nagrywa\\n*zachowania*.",
+   "cta": "Zapisz na pierwszy tydzień stycznia"
+  }
+ ]
+}
