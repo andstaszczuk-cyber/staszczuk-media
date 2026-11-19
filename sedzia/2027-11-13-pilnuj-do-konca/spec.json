@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "crew",
+   "text": "Ostatni mecz rundy.\\n*Pilnuj do końcowego gwizdka*."
+  },
+  {
+   "kind": "point",
+   "title": "Pokusa",
+   "body": "Głowa już jest na przerwie zimowej, a mecz jeszcze trwa.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Końcówka",
+   "body": "Ostatnie minuty ostatniego meczu bywają najgorętsze.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Zespół",
+   "body": "Umówcie się, że do końca pilnujecie się nawzajem.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Runda kończy się\\n*z ostatnim gwizdkiem*.",
+   "cta": "Wyślij swojemu zespołowi"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "JĘZYK",
+   "text": "Udało się?\\n*Ty to zrobiłeś*."
+  },
+  {
+   "kind": "point",
+   "title": "Asymetria",
+   "body": "Błąd bierzesz na siebie od razu, dobrą decyzję oddajesz szczęściu.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Koszt",
+   "body": "Dobre mecze nazwane fartem przestają być dowodem twoich umiejętności.",
+   "icon": "kartka"
+  },
+  {
+   "kind": "point",
+   "title": "Zmiana",
+   "body": "Mów o dobrych decyzjach tak, jak mówisz o błędach: w pierwszej osobie.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Błąd bierzesz na siebie.\\n*Dobrą decyzję też*.",
+   "cta": "Zapisz po dobrym meczu"
+  }
+ ]
+}

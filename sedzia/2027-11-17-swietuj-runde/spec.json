@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "3",
+   "text": "dni przeżywasz błąd.\\n*Ile świętujesz rundę?*"
+  },
+  {
+   "kind": "point",
+   "title": "Porażka",
+   "body": "Słabszy mecz potrafi siedzieć w głowie przez kilka dni.",
+   "icon": "ksiezyc"
+  },
+  {
+   "kind": "point",
+   "title": "Sukces",
+   "body": "Dobrą rundę zamykasz jednym zdaniem i od razu myślisz o wiośnie.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Równowaga",
+   "body": "Daj radości tyle samo czasu, ile dajesz błędom.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "end",
+   "text": "Celebruj rundę\\n*tak długo jak błąd*.",
+   "cta": "Wyślij komuś, kto zrobił dobrą rundę"
+  }
+ ]
+}

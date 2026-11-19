@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Niezależność sędziego\\n*zaczyna się w głowie*."
+  },
+  {
+   "kind": "point",
+   "title": "Aprobata",
+   "body": "Każdy chce być lubiany. Na boisku ta potrzeba potrafi podpowiadać decyzje.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Pokusa",
+   "body": "Wyrównywanie, przymykanie oka, szukanie uśmiechu od ławki.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Kompas",
+   "body": "Przepisy i to, co widziałeś. Reszta to szum z trybun.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Decyzja ma być twoja.\\n*Spokojna i własna*.",
+   "cta": "Zapisz na 11 listopada"
+  }
+ ]
+}

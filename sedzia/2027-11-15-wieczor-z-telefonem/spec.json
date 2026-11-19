@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "telefon",
+   "text": "Wieczór po meczu\\n*z telefonem w ręku?*"
+  },
+  {
+   "kind": "point",
+   "title": "Bodźce",
+   "body": "Komentarze, tabele, grupy sędziowskie. Głowa dalej jest na boisku.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "point",
+   "title": "Sen",
+   "body": "Pobudzona głowa późno zasypia i gorzej odpoczywa.",
+   "icon": "ksiezyc"
+  },
+  {
+   "kind": "point",
+   "title": "Granica",
+   "body": "Ustal godzinę, po której telefon ląduje poza sypialnią.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "end",
+   "text": "Mecz się skończył.\\n*Daj mu się skończyć też w głowie*.",
+   "cta": "Zapisz na wieczór po meczu"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Koledze wybaczasz.\\n*A sobie?*"
+  },
+  {
+   "kind": "point",
+   "title": "Kolega",
+   "body": "Po jego błędzie mówisz: zdarza się, wyciągnij wniosek i działaj dalej.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Ty",
+   "body": "Po swoim błędzie słyszysz w głowie dużo ostrzejsze słowa.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Test",
+   "body": "Powiedz sobie to, co powiedziałbyś dobremu koledze.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Bądź dla siebie\\n*tak dobry jak dla kolegi*.",
+   "cta": "Wyślij koledze z zespołu"
+  }
+ ]
+}

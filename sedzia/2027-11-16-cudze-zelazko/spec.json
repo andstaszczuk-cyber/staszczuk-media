@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "replay",
+   "text": "Cudzy błąd na nagraniu\\n*to twoja darmowa lekcja*."
+  },
+  {
+   "kind": "point",
+   "title": "Szkolenie",
+   "body": "Zimą wracają szkolenia z klipami z boisk z całej rundy.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "point",
+   "title": "Pokusa",
+   "body": "Łatwo ocenić kolegę i pomyśleć, że tobie by się to nie zdarzyło.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Pytanie",
+   "body": "Co ja bym zrobił w tej sekundzie? Gdzie bym stał?",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Ucz się na cudzych klipach,\\n*zanim powstanie twój*.",
+   "cta": "Zapisz przed zimowym szkoleniem"
+  }
+ ]
+}

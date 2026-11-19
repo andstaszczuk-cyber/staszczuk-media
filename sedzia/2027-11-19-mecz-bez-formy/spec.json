@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "penalty",
+   "text": "Forma uciekła w listopadzie?\\n*Mecz i tak poprowadzisz*."
+  },
+  {
+   "kind": "point",
+   "title": "Dyspozycja",
+   "body": "Pod koniec rundy rzadko czujesz się tak świeżo jak we wrześniu.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Fundament",
+   "body": "Ustawienie, komunikacja i rutyna działają też w gorszy dzień.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Cel",
+   "body": "Ustal, co jest dziś twoimi stu procentami, i to zrób.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Gorszy dzień\\n*też da się dobrze poprowadzić*.",
+   "cta": "Zapisz na mecz bez formy"
+  }
+ ]
+}

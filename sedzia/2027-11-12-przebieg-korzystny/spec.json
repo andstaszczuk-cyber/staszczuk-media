@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Wynik niekorzystny,\\n*przebieg korzystny*."
+  },
+  {
+   "kind": "point",
+   "title": "Ocena",
+   "body": "Jedna słabsza nota po meczu, w którym większość decyzji była dobra.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Przebieg",
+   "body": "Ustawienie, komunikacja i kontrola meczu przez dziewięćdziesiąt minut.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Wniosek",
+   "body": "Bierzesz z oceny to, co merytoryczne, i odkładasz resztę.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Liczy się cały mecz.\\n*Ocena to jego fragment*.",
+   "cta": "Zapisz po słabszej ocenie"
+  }
+ ]
+}

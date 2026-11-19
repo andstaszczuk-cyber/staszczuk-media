@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Gdzie się\\n*oszukujesz?*",
+   "sub": "Cztery pytania\\n*na koniec rundy*."
+  },
+  {
+   "kind": "point",
+   "title": "Powtarzam",
+   "body": "Co działało tej jesieni i chcę robić dalej?",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Koryguję",
+   "body": "Co wymaga drobnej poprawki przed wiosną?",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Oszukuję",
+   "body": "Gdzie mówię sobie, że jest dobrze, choć wiem swoje?",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Uczciwy przegląd\\n*to najlepszy start przerwy*.",
+   "cta": "Zapisz na podsumowanie rundy"
+  }
+ ]
+}
