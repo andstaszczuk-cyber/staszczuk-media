@@ -1,0 +1,149 @@
+{
+ "cover": {
+  "left": "USŁYSZAŁEM",
+  "right": "ZROBIŁEM",
+  "title": "Nic z ciebie\n*nie będzie*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "mic",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "nic z ciebie",
+      "nie będzie"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "setki",
+      "treningów"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "point"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Paliwo ma swoją cenę",
+   "body": "Udowadnianie komuś czegoś działa, ale męczy i odbiera radość.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "bolt",
+     "label": "udowadniam",
+     "sub": "męczy"
+    },
+    "right": {
+     "icon": "heart",
+     "label": "gram dla siebie",
+     "sub": "cieszy"
+    }
+   }
+  },
+  {
+   "title": "Ocena z innej chwili",
+   "body": "Ktoś ocenił cię wtedy. Od tamtej pory przepracowałeś setki treningów.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "wtedy",
+      "icon": "mic",
+      "bottom": "wyrok"
+     },
+     {
+      "top": "rok temu",
+      "icon": "dumbbell",
+      "bottom": "trening"
+     },
+     {
+      "top": "dziś",
+      "icon": "star",
+      "hl": true,
+      "bottom": "fakty"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Kartka z faktami",
+   "body": "Zapisz to zdanie, a pod nim to, czego nauczyłeś się przez ostatni rok.",
+   "viz": {
+    "type": "notes",
+    "title": "FAKTY",
+    "lines": [
+     "nowa pozycja",
+     "pewny pierwszy kontakt",
+     "gram w podstawie"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co mówią *fakty* z ostatniego roku?",
+  "cta": "Zapisz pod tamtym zdaniem pięć rzeczy, które zrobiłeś.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

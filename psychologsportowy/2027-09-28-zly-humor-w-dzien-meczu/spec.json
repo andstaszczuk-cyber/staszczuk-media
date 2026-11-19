@@ -1,0 +1,103 @@
+{
+ "cover": {
+  "kicker": "DZIEŃ MECZU",
+  "title": "Zły humor\n*od rana*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "slump"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "a o 17 mecz",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Masz do niego prawo",
+   "body": "Udawanie, że wszystko jest super, kosztuje dodatkową energię.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "muszę być w humorze",
+    "to": "czuję, co czuję, gram swoje"
+   }
+  },
+  {
+   "title": "Nastrój i decyzja",
+   "body": "Nastrój bywa słaby. Decyzja o wysiłku zostaje przy planie.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "NASTRÓJ",
+      "items": [
+       "zły poranek",
+       "kłótnia",
+       "nerwy"
+      ]
+     },
+     {
+      "title": "PLAN",
+      "items": [
+       "rutyna",
+       "pierwsze zadanie",
+       "wysiłek"
+      ],
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Twoje dzisiejsze sto procent",
+   "body": "W gorszy dzień może to być trochę mniej niż zwykle. To w porządku.",
+   "viz": {
+    "type": "scale10",
+    "caption": "MOJE 100%",
+    "points": [
+     {
+      "n": 9,
+      "label": "dobry dzień"
+     },
+     {
+      "n": 7,
+      "label": "dziś",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co jest dziś twoim *stu procentami*?",
+  "cta": "Po meczu sprawdź, ile z planu zrobiłeś mimo humoru.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

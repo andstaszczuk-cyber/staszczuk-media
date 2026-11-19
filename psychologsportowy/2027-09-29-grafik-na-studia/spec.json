@@ -1,0 +1,133 @@
+{
+ "cover": {
+  "kicker": "STUDIA",
+  "title": "Studia\n*i treningi*",
+  "size": 104,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "point"
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 560,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "od października",
+     "size": 36
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Mniej założeń",
+   "body": "Powiedz wcześniej, czego się spodziewasz, nawet bez wszystkich odpowiedzi.",
+   "viz": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "olewa treningi?",
+     "zrezygnuje?",
+     "nie zależy mu?"
+    ],
+    "ask": [
+     "Pogadajmy",
+     "o grafiku",
+     "na jesień"
+    ]
+   }
+  },
+  {
+   "title": "Plan na pierwsze tygodnie",
+   "body": "Dam znać do piątku, w które dni będę. Po miesiącu siadamy znowu.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "wrzesień",
+      "icon": "people",
+      "bottom": "rozmowa"
+     },
+     {
+      "top": "październik",
+      "icon": "note",
+      "bottom": "sprawdzamy"
+     },
+     {
+      "top": "listopad",
+      "icon": "check",
+      "hl": true,
+      "bottom": "korekta"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Tydzień od stałych",
+   "body": "Zajęcia, treningi, sen, dojazdy. Od razu widać, gdzie jest ciasno.",
+   "viz": {
+    "type": "week",
+    "caption": "MÓJ TYDZIEŃ",
+    "days": [
+     {
+      "d": "PN",
+      "icon": "book",
+      "label": "zajęcia"
+     },
+     {
+      "d": "WT",
+      "icon": "dumbbell",
+      "label": "trening"
+     },
+     {
+      "d": "ŚR",
+      "icon": "book",
+      "label": "zajęcia"
+     },
+     {
+      "d": "CZW",
+      "icon": "dumbbell",
+      "label": "trening"
+     },
+     {
+      "d": "PT",
+      "icon": "moon",
+      "label": "luz",
+      "mark": "ring"
+     },
+     {
+      "d": "SB",
+      "icon": "ball",
+      "label": "mecz",
+      "mark": "hl"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Kiedy *porozmawiasz* z trenerem?",
+  "cta": "Ustal termin rozmowy jeszcze w tym tygodniu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

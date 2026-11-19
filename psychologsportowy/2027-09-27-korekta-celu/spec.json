@@ -1,0 +1,116 @@
+{
+ "cover": {
+  "big": "CEL",
+  "bigSize": 260,
+  "bigSub": "po pierwszym miesiącu",
+  "title": "Zmieniasz cel\n*w trakcie?*",
+  "size": 92,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Cel ma mobilizować",
+   "body": "Za daleki po miesiącu zaczyna demobilizować. Wtedy korekta ma sens.",
+   "viz": {
+    "type": "scale10",
+    "caption": "CEL",
+    "points": [
+     {
+      "n": 3,
+      "label": "za łatwy"
+     },
+     {
+      "n": 10,
+      "label": "poza zasięgiem"
+     },
+     {
+      "n": 7,
+      "label": "lekko ponad",
+      "hl": true
+     }
+    ],
+    "arrow": [
+     10,
+     7
+    ],
+    "arrowLabel": "korekta"
+   }
+  },
+  {
+   "title": "Cel w widełkach",
+   "body": "Minimum na każde warunki, maksimum, gdy wszystko się ułoży.",
+   "viz": {
+    "type": "bars",
+    "caption": "RUNDA",
+    "items": [
+     {
+      "label": "minimum",
+      "v": 0.45,
+      "note": "5 goli"
+     },
+     {
+      "label": "maksimum",
+      "v": 0.85,
+      "hl": true,
+      "note": "10 goli"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Na spokojnie",
+   "body": "Korekta po kilku tygodniach, najlepiej z trenerem. Na gorąco czekasz.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "porażka",
+      "icon": "cloudRain",
+      "bottom": "czekam"
+     },
+     {
+      "top": "tygodnie",
+      "icon": "note",
+      "bottom": "fakty"
+     },
+     {
+      "top": "rozmowa",
+      "icon": "people",
+      "hl": true,
+      "bottom": "nowy cel"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Czy twój cel dalej cię *mobilizuje*?",
+  "cta": "Zapisz dziś cel minimalny i maksymalny na rundę.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

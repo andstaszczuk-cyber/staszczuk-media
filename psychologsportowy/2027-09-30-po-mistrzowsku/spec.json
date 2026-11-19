@@ -1,0 +1,130 @@
+{
+ "cover": {
+  "left": "NA SIŁĘ",
+  "right": "PO MISTRZOWSKU",
+  "title": "Po\n*mistrzowsku*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "więcej",
+      "i więcej"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "seria",
+      "i sen"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "win"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Mistrz też regeneruje",
+   "body": "To samo zdanie przy jeszcze jednej serii i przy wcześniejszym śnie.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "dumbbell",
+     "label": "seria",
+     "sub": "po mistrzowsku"
+    },
+    "right": {
+     "icon": "moon",
+     "label": "sen",
+     "sub": "po mistrzowsku"
+    }
+   }
+  },
+  {
+   "title": "Koniec września",
+   "body": "Zmęczenie się kumuluje. Obciążenie plus regeneracja dają postęp.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "obciążenie",
+    "via": "regeneracja",
+    "to": "postęp"
+   }
+  },
+  {
+   "title": "Zapytaj mistrza",
+   "body": "Co zrobiłby mistrz, który chce dobrze zagrać w sobotę?",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "jeszcze jedno bieganie",
+    "to": "idę spać, po mistrzowsku"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co dziś znaczy dla ciebie *po mistrzowsku*?",
+  "cta": "Przez tydzień używaj tego zdania przy treningu i przy odpoczynku.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
