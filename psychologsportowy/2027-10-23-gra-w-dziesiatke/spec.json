@@ -1,0 +1,115 @@
+{
+ "cover": {
+  "kicker": "OSŁABIENIE",
+  "title": "Gracie\n*w dziesiątkę*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "point"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 560,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "60 minut",
+     "size": 36
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Groźne pierwsze minuty",
+   "body": "Najwięcej traci się zaraz po kartce, gdy drużyna jest w emocjach.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.9
+       ],
+       [
+        0.15,
+        0.75
+       ],
+       [
+        0.3,
+        0.5
+       ],
+       [
+        0.5,
+        0.4
+       ],
+       [
+        0.75,
+        0.35
+       ],
+       [
+        1,
+        0.3
+       ]
+      ],
+      "hl": true,
+      "label": "ryzyko"
+     }
+    ],
+    "x": "minuty po kartce"
+   }
+  },
+  {
+   "title": "Zero do zera",
+   "body": "Nowy mecz, nowe ustawienie, krótko między sobą.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "czerwona",
+    "via": "reset",
+    "to": "nowe ustawienie"
+   }
+  },
+  {
+   "title": "Prostota",
+   "body": "Każdy ma jedno, dwa zadania i robi je do końca.",
+   "viz": {
+    "type": "checklist",
+    "title": "W DZIESIĄTKĘ",
+    "chip": "GRAMY",
+    "chipX": 420,
+    "backChip": "CHAOS",
+    "items": [
+     "zwarte linie",
+     "mniej ryzyka",
+     "dużo gadania"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *ty* robisz po czerwonej kartce kolegi?",
+  "cta": "Ustalcie na treningu plan na grę w osłabieniu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

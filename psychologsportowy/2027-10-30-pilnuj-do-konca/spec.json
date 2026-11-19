@@ -1,0 +1,98 @@
+{
+ "cover": {
+  "kicker": "KOŃCÓWKA RUNDY",
+  "title": "Pilnuj\n*do końca*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "run"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "3 kolejki",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Punkty z listopada",
+   "body": "Liczą się tak samo jak te z września.",
+   "viz": {
+    "type": "same",
+    "left": "WRZESIEŃ",
+    "right": "LISTOPAD",
+    "items": [
+     "3 punkty",
+     "ta sama tabela",
+     "ta sama gra"
+    ]
+   }
+  },
+  {
+   "title": "Zmęczenie szanujesz",
+   "body": "Sen i rozsądne obciążenia to część finiszu.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "bed",
+      "label": "sen"
+     },
+     {
+      "icon": "battery",
+      "label": "regeneracja"
+     },
+     {
+      "icon": "ball",
+      "label": "jeden mecz",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Z czym wchodzisz w przerwę?",
+   "body": "Miejsce w tabeli, poczucie, dowody na zimę.",
+   "viz": {
+    "type": "notes",
+    "title": "NA ZIMĘ",
+    "lines": [
+     "miejsce w tabeli",
+     "dobre poczucie",
+     "dowody, że umiem"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Z czym chcesz *zakończyć* rundę?",
+  "cta": "Zapisz to dziś i przeczytaj przed ostatnimi meczami.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

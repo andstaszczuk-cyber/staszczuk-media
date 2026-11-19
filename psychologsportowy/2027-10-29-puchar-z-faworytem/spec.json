@@ -1,0 +1,88 @@
+{
+ "cover": {
+  "big": "2",
+  "bigSize": 260,
+  "bigSub": "ligi wyżej",
+  "title": "Puchar\n*z faworytem*",
+  "size": 92,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Faworyt też się boi",
+   "body": "Niewiele może zyskać, a sporo stracić.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "star",
+     "label": "my",
+     "sub": "do zyskania"
+    },
+    "right": {
+     "icon": "shield",
+     "label": "oni",
+     "sub": "do stracenia"
+    }
+   }
+  },
+  {
+   "title": "Sukces w skali",
+   "body": "Minimalna przegrana albo kwadrans przewagi to też osiągnięcie.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "odważny start",
+     "kwadrans przewagi",
+     "walka o wynik"
+    ],
+    "done": 2
+   }
+  },
+  {
+   "title": "Cele zadaniowe",
+   "body": "Skup się na tym, co zrobisz w pierwszych minutach.",
+   "viz": {
+    "type": "checklist",
+    "title": "ZADANIA",
+    "chip": "GRAM",
+    "chipX": 420,
+    "backChip": "NAZWISKA",
+    "items": [
+     "wygrywam pojedynki",
+     "gram do przodu",
+     "biorę piłkę"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Z czym *wyjdziesz* na faworyta?",
+  "cta": "Ustal trzy zadania na pierwsze minuty meczu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

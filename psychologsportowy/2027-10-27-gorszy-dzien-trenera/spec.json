@@ -1,0 +1,94 @@
+{
+ "cover": {
+  "kicker": "TRENER",
+  "title": "Gorszy dzień\n*trenera*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "coach"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 560,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "krótki lont",
+     "size": 36
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Trener też jest człowiekiem",
+   "body": "Zmęczenie, presja wyników, sprawy poza boiskiem.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "battery",
+      "label": "zmęczenie"
+     },
+     {
+      "icon": "trophy",
+      "label": "presja"
+     },
+     {
+      "icon": "house",
+      "label": "poza boiskiem",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Czyje to emocje?",
+   "body": "Większość ludzi przez większość czasu myśli o sobie.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "co zrobiłem źle?",
+    "to": "ma gorszy dzień"
+   }
+  },
+  {
+   "title": "Uwaga na zadanie",
+   "body": "Gdzie stoję, do kogo gram, jak szybko wracam.",
+   "viz": {
+    "type": "focus",
+    "center": "moje zadanie",
+    "around": [
+     "jego mina",
+     "ton głosu",
+     "co o mnie myśli",
+     "inni"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Czyj *humor* zabierasz do domu?",
+  "cta": "Po trudnym treningu zapisz jedną rzecz, którą zrobiłeś dobrze.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

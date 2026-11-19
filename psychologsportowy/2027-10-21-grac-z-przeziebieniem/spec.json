@@ -1,0 +1,148 @@
+{
+ "cover": {
+  "big": "?",
+  "bigSize": 260,
+  "bigSub": "grać czy pauzować",
+  "title": "Gram mimo\n*przeziębienia?*",
+  "size": 88,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "drop",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Którą walutą płacisz?",
+   "body": "Punkty w sobotę albo zdrowie w kolejnych tygodniach.",
+   "viz": {
+    "type": "targets",
+    "left": "sobota",
+    "leftSub": "punkty",
+    "right": "sezon",
+    "rightSub": "zdrowie"
+   }
+  },
+  {
+   "title": "Prawda na czas",
+   "body": "Trener, który wie w czwartek, spokojnie planuje skład.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "czwartek",
+      "icon": "phone",
+      "bottom": "mówię",
+      "hl": true
+     },
+     {
+      "top": "piątek",
+      "icon": "bed",
+      "bottom": "leczę"
+     },
+     {
+      "top": "sobota",
+      "icon": "people",
+      "bottom": "decyzja"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Myśl długoterminowo",
+   "body": "Jeden mecz rzadko decyduje o sezonie.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.6
+       ],
+       [
+        0.2,
+        0.45
+       ],
+       [
+        0.4,
+        0.3
+       ],
+       [
+        0.6,
+        0.4
+       ],
+       [
+        0.8,
+        0.35
+       ],
+       [
+        1,
+        0.45
+       ]
+      ],
+      "dash": true,
+      "label": "gram chory"
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.6
+       ],
+       [
+        0.2,
+        0.5
+       ],
+       [
+        0.4,
+        0.62
+       ],
+       [
+        0.6,
+        0.68
+       ],
+       [
+        0.8,
+        0.72
+       ],
+       [
+        1,
+        0.76
+       ]
+      ],
+      "hl": true,
+      "label": "pauzuję"
+     }
+    ],
+    "x": "tygodnie"
+   }
+  }
+ ],
+ "end": {
+  "question": "Kiedy ostatnio *wybrałeś zdrowie*?",
+  "cta": "Przy pierwszych objawach daj znać trenerowi, zanim zapadnie decyzja o składzie.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

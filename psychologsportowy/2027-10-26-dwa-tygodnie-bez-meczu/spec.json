@@ -1,0 +1,94 @@
+{
+ "cover": {
+  "kicker": "PRZERWA W LIDZE",
+  "title": "Dwa tygodnie\n*bez meczu*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "walk"
+    },
+    {
+     "k": "icon",
+     "name": "pause",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "przerwa",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Struktura się sypie",
+   "body": "Głowa zrzuca tempo albo dokłada na siłę.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "forma mi ucieknie",
+    "to": "przerwa ma swój cel"
+   }
+  },
+  {
+   "title": "Cel na przerwę",
+   "body": "Najpierw odpoczynek głowy, potem jedna umiejętność.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "dni 1–3",
+      "icon": "bed",
+      "bottom": "odpoczynek"
+     },
+     {
+      "top": "tydzień 1",
+      "icon": "dumbbell",
+      "bottom": "jedna rzecz",
+      "hl": true
+     },
+     {
+      "top": "tydzień 2",
+      "icon": "ball",
+      "bottom": "sparing"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Sparing jako test",
+   "body": "Liczy się to, czy sprawdziłeś to, co ćwiczyłeś.",
+   "viz": {
+    "type": "targets",
+    "left": "wynik",
+    "leftSub": "sparingu",
+    "right": "test",
+    "rightSub": "jednej rzeczy"
+   }
+  }
+ ],
+ "end": {
+  "question": "Czego się *nauczysz* w przerwie?",
+  "cta": "Ustal z trenerem jedną umiejętność na dwa tygodnie.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

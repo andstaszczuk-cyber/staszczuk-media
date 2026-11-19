@@ -1,0 +1,83 @@
+{
+ "cover": {
+  "big": "1.",
+  "bigSize": 260,
+  "bigSub": "miejsce po rundzie",
+  "title": "Wszyscy mówią\n*o awansie*",
+  "size": 88,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Prowadzenie zmienia zadanie",
+   "body": "Gra o coś łatwo zamienia się w grę, żeby nie stracić.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "flag",
+     "label": "dążenie",
+     "sub": "gonimy"
+    },
+    "right": {
+     "icon": "shield",
+     "label": "dowożenie",
+     "sub": "pilnujemy"
+    }
+   }
+  },
+  {
+   "title": "Reset",
+   "body": "Zero do zera i pełne skupienie na najbliższym meczu.",
+   "viz": {
+    "type": "moment",
+    "bad": [
+     "1.",
+     "PRESJA"
+    ],
+    "good": [
+     "0:0",
+     "MECZ"
+    ]
+   }
+  },
+  {
+   "title": "Mów o sobie",
+   "body": "Pytają o awans, a ty mówisz o najbliższym meczu.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "awansujecie?",
+    "to": "gramy najbliższy mecz"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *ty* robisz w najbliższej kolejce?",
+  "cta": "Wybierz jedno zadanie na sobotę i trzymaj się go.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

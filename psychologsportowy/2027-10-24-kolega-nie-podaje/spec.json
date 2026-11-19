@@ -1,0 +1,133 @@
+{
+ "cover": {
+  "left": "FAKT",
+  "right": "MOJA HISTORIA",
+  "title": "Kolega\n*nie podaje?*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "3 podania",
+      "w meczu"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "on mnie",
+      "nie lubi"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "hips"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Mózg dopisuje intencje",
+   "body": "Brakuje wyjaśnienia, więc tworzy własne, zwykle przykre.",
+   "viz": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "nie lubi mnie?",
+     "celowo?",
+     "chce mnie wygryźć?"
+    ],
+    "ask": [
+     "Co widzisz",
+     "ze swojej",
+     "pozycji?"
+    ]
+   }
+  },
+  {
+   "title": "Najpierw fakty",
+   "body": "Ile razy byłeś wolny? Gdzie stałeś? Jakie miał zadanie?",
+   "viz": {
+    "type": "notes",
+    "title": "SPRAWDZAM",
+    "lines": [
+     "ile razy byłem wolny",
+     "czy mnie widział",
+     "jakie miał zadanie"
+    ]
+   }
+  },
+  {
+   "title": "Idziesz i rozmawiasz",
+   "body": "Komunikat o sobie przenosi rozmowę na grę.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "ty mi nie podajesz",
+    "to": "rzadko się szukamy"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaką *historię* dopisałeś ostatnio komuś?",
+  "cta": "Sprawdź fakty, zanim uwierzysz w swoją wersję.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

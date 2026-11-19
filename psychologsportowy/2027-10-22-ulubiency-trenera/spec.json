@@ -1,0 +1,92 @@
+{
+ "cover": {
+  "kicker": "TRENER",
+  "title": "Trener ma\n*ulubieńców?*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "hips"
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "znowu ławka",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Pełna sprawiedliwość to utopia",
+   "body": "Oceniają ludzie, a ludzie mają sympatie.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "nic ode mnie nie zależy",
+    "to": "robię swoje dla siebie"
+   }
+  },
+  {
+   "title": "Test odwrócenia",
+   "body": "Gdyby decyzja była na twoją korzyść, czy byłaby niesprawiedliwa?",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "bench",
+     "label": "dla niego",
+     "sub": "niesprawiedliwe"
+    },
+    "right": {
+     "icon": "star",
+     "label": "dla mnie",
+     "sub": "w porządku?"
+    }
+   }
+  },
+  {
+   "title": "Dla trenera czy dla siebie?",
+   "body": "Zapytaj, co konkretnie poprawić, żeby grać więcej.",
+   "viz": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "woli tamtego?",
+     "nie lubi mnie?",
+     "to ustawione?"
+    ],
+    "ask": [
+     "Czego",
+     "ode mnie",
+     "potrzebujesz?"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Dla kogo *trenujesz*?",
+  "cta": "Zapisz trzy dowody swojej pracy z ostatniego tygodnia.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

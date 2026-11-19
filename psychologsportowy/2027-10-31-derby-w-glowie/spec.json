@@ -1,0 +1,97 @@
+{
+ "cover": {
+  "kicker": "DERBY",
+  "title": "Derby\n*w głowie*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "wave"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 560,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "całe miasto",
+     "size": 36
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Ranga dopisana z zewnątrz",
+   "body": "Im więcej znaczenia dopisują inni, tym wyżej pobudzenie.",
+   "viz": {
+    "type": "scale10",
+    "caption": "POBUDZENIE",
+    "points": [
+     {
+      "n": 7,
+      "label": "mój mecz",
+      "hl": true
+     },
+     {
+      "n": 10,
+      "label": "derby"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Spodziewaj się hałasu",
+   "body": "Przewidziane emocje przestają zaskakiwać.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "znowu mnie zaczepia",
+    "to": "spodziewałem się"
+   }
+  },
+  {
+   "title": "Gotowe reakcje",
+   "body": "Zaczepka: oddech i pozycja. Stracony gol: zbiórka w środku.",
+   "viz": {
+    "type": "table",
+    "left": "JEŚLI",
+    "right": "TO",
+    "good": true,
+    "rows": [
+     [
+      "zaczepka",
+      "oddech, pozycja"
+     ],
+     [
+      "stracony gol",
+      "zbiórka w środku"
+     ]
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak zagrasz *swoją piłkę* w derbach?",
+  "cta": "Przed meczem wypisz dwie gotowe reakcje na trudne sytuacje.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
