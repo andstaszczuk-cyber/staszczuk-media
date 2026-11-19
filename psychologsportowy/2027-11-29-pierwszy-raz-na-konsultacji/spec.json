@@ -1,0 +1,147 @@
+{
+ "cover": {
+  "left": "W GŁOWIE",
+  "right": "NAPRAWDĘ",
+  "title": "Pierwszy raz\n*na konsultacji*",
+  "size": 84,
+  "lh": 1.25,
+  "layout": "split",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "skompromituję",
+      "się"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "ktoś mnie",
+      "zauważył"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "think"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wszyscy mają tremę",
+   "body": "Inni myślą o tobie to samo, co ty o nich.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "brain",
+     "label": "ja",
+     "sub": "oni są lepsi"
+    },
+    "right": {
+     "icon": "people",
+     "label": "oni",
+     "sub": "on jest lepszy"
+    }
+   }
+  },
+  {
+   "title": "Już się pokazałeś",
+   "body": "Jesteś na liście, bo coś w twojej grze zauważono.",
+   "viz": {
+    "type": "checklist",
+    "title": "POWOŁANIE",
+    "chip": "DOWÓD",
+    "chipX": 380,
+    "backChip": "STRACH",
+    "items": [
+     "ktoś mnie zauważył",
+     "jestem na liście",
+     "gram swoje"
+    ]
+   }
+  },
+  {
+   "title": "Plan na start i na błąd",
+   "body": "Jedno zadanie na początek i gotowy reset.",
+   "viz": {
+    "type": "table",
+    "left": "SYTUACJA",
+    "right": "MOJA REAKCJA",
+    "good": true,
+    "rows": [
+     [
+      "pierwsze minuty",
+      "proste podania, mówię"
+     ],
+     [
+      "błąd",
+      "gest, oddech, dalej"
+     ]
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Z czym *pojedziesz* na konsultację?",
+  "cta": "Zapisz jedno zadanie na start i swoją reakcję na błąd.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

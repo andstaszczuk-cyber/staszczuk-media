@@ -1,0 +1,113 @@
+{
+ "cover": {
+  "kicker": "ZIMA",
+  "title": "Pierwszy\n*śnieg*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "hero",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "wave"
+    },
+    {
+     "k": "icon",
+     "name": "snow",
+     "x": 560,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "-2°C",
+     "size": 36
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Śnieg pada na wszystkich",
+   "body": "Twoja reakcja to już twój wybór.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "snow",
+      "label": "śnieg"
+     },
+     {
+      "icon": "people",
+      "label": "obie drużyny"
+     },
+     {
+      "icon": "check",
+      "label": "moja reakcja",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Trudne warunki to trening",
+   "body": "Wiosną też trafi się mecz w deszczu i wietrze.",
+   "size": 62,
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "snow",
+      "label": "śnieg"
+     },
+     {
+      "icon": "cloudRain",
+      "label": "deszcz"
+     },
+     {
+      "icon": "wind",
+      "label": "wiatr"
+     },
+     {
+      "icon": "ball",
+      "label": "ciężka piłka"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Z humorem i z głową",
+   "body": "Śmiech rozluźnia, dłuższa rozgrzewka chroni.",
+   "viz": {
+    "type": "checklist",
+    "title": "NA MROZIE",
+    "chip": "GŁOWA",
+    "chipX": 380,
+    "backChip": "MARUDZENIE",
+    "items": [
+     "czapka i rękawiczki",
+     "dłuższa rozgrzewka",
+     "suche rzeczy"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak *zagrasz* w śniegu?",
+  "cta": "Przygotuj zimowy strój i dłuższą rozgrzewkę na najbliższy trening.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

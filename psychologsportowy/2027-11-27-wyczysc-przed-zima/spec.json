@@ -1,0 +1,127 @@
+{
+ "cover": {
+  "kicker": "RELACJE",
+  "title": "Wyczyść\n*przed zimą*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "top",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "wave"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "jedna rozmowa",
+     "size": 34
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Sprawy bez słowa rosną",
+   "body": "Przez zimę dopisujesz kolejne interpretacje.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.2
+       ],
+       [
+        0.3,
+        0.35
+       ],
+       [
+        0.6,
+        0.6
+       ],
+       [
+        1,
+        0.85
+       ]
+      ],
+      "hl": true,
+      "label": "napięcie"
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.02,
+      "y": 0.2,
+      "label": "zgrzyt",
+      "dy": -50
+     }
+    ],
+    "x": "tygodnie"
+   }
+  },
+  {
+   "title": "Kilka prostych zdań",
+   "body": "Mam wrażenie, mogę się mylić, chcę to podnieść.",
+   "viz": {
+    "type": "notes",
+    "title": "ROZMOWA",
+    "lines": [
+     "mam wrażenie, że...",
+     "mogę się mylić",
+     "potrzebuję..."
+    ]
+   }
+  },
+  {
+   "title": "Czysto po twojej stronie",
+   "body": "Na reakcję drugiej strony nie masz wpływu.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "MOJE",
+      "items": [
+       "nazwać sprawę",
+       "powiedzieć, czego chcę"
+      ],
+      "hl": true,
+      "note": "to robię"
+     },
+     {
+      "title": "POZA MNĄ",
+      "items": [
+       "jego reakcja"
+      ],
+      "dim": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaką sprawę *domkniesz* przed zimą?",
+  "cta": "Wybierz jedną rozmowę i przeprowadź ją w tym tygodniu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

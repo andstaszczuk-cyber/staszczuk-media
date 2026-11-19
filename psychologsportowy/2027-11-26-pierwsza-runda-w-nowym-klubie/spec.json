@@ -1,0 +1,113 @@
+{
+ "cover": {
+  "big": "1.",
+  "bigSize": 260,
+  "bigSub": "runda w nowym klubie",
+  "title": "Nowy klub,\n*pierwsza runda*",
+  "size": 84,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Niewidoczna robota",
+   "body": "Ludzie, zasady i miejsce w szatni kosztują energię.",
+   "viz": {
+    "type": "scene",
+    "items": [
+     {
+      "k": "iceberg",
+      "y": 220
+     },
+     {
+      "k": "text",
+      "x": 465,
+      "y": 60,
+      "t": "statystyki",
+      "size": 34,
+      "w": 800,
+      "c": "A",
+      "anchor": "middle"
+     },
+     {
+      "k": "text",
+      "x": 465,
+      "y": 330,
+      "t": [
+       "nowi ludzie, zasady,",
+       "miejsce w szatni"
+      ],
+      "size": 32,
+      "w": 700,
+      "c": "fg",
+      "anchor": "middle"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Oceń obszary osobno",
+   "body": "Drużyna, pomysł trenera, forma i presja debiutu.",
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "people",
+      "label": "drużyna"
+     },
+     {
+      "icon": "brain",
+      "label": "pomysł trenera"
+     },
+     {
+      "icon": "dumbbell",
+      "label": "forma"
+     },
+     {
+      "icon": "bolt",
+      "label": "presja debiutu"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Już się pokazałem",
+   "body": "Teraz kontynuujesz swoją jakość i zbierasz dowody.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "muszę się pokazać",
+    "to": "jestem tu, gram swoje",
+    "toSub": "dowody"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co już *zbudowałeś* w nowym klubie?",
+  "cta": "Wypisz trzy dowody, że to twoje miejsce.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

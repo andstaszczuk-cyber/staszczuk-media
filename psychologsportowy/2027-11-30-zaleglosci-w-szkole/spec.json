@@ -1,0 +1,122 @@
+{
+ "cover": {
+  "big": "5",
+  "bigSize": 260,
+  "bigSub": "spraw do nadrobienia",
+  "title": "Zaległości\n*w szkole*",
+  "size": 96,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Szkoła na drugim planie",
+   "body": "Sezon zabrał czas i energię, przerwa daje szansę to wyrównać.",
+   "size": 64,
+   "viz": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "sport",
+      "v": 0.85
+     },
+     {
+      "label": "szkoła",
+      "v": 0.3,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zaległości jak plan treningowy",
+   "body": "Lista, kolejność, dni i godziny.",
+   "size": 60,
+   "viz": {
+    "type": "week",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "book"
+     },
+     {
+      "d": "wt",
+      "icon": "note"
+     },
+     {
+      "d": "śr",
+      "icon": "book"
+     },
+     {
+      "d": "cz",
+      "icon": "pause"
+     },
+     {
+      "d": "pt",
+      "icon": "note"
+     },
+     {
+      "d": "sb",
+      "icon": "book"
+     },
+     {
+      "d": "nd",
+      "icon": "pause"
+     }
+    ],
+    "note": "jedno zadanie dziennie"
+   }
+  },
+  {
+   "title": "Partner do nauki",
+   "body": "Rozliczanie się z kimś działa jak trening w parze.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "people",
+      "label": "kolega z klasy"
+     },
+     {
+      "icon": "book",
+      "label": "wspólna nauka"
+     },
+     {
+      "icon": "check",
+      "label": "zrobione",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Od czego *zaczniesz* nadrabianie?",
+  "cta": "Wypisz zaległości i zaplanuj pierwsze zadanie na jutro.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
