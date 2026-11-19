@@ -1,0 +1,101 @@
+{
+ "cover": {
+  "kicker": "PO PORAŻCE",
+  "title": "Złość\n*to ambicja*",
+  "size": 104,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "hips"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 580,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 380,
+     "text": "zależy mi",
+     "size": 36
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Zależy ci",
+   "body": "Obojętny wzrusza ramionami. Ty przeżywasz, bo chcesz wygrywać.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "pause",
+     "label": "obojętny",
+     "sub": "idzie do domu"
+    },
+    "right": {
+     "icon": "bolt",
+     "label": "ambitny",
+     "sub": "przeżywa"
+    }
+   }
+  },
+  {
+   "title": "Chwila, potem pytanie",
+   "body": "O czym informuje cię ta złość? Z odpowiedzi zrób zadanie.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "złość",
+    "via": "pytanie",
+    "to": "zadanie"
+   }
+  },
+  {
+   "title": "Wieczór i następny dzień",
+   "body": "Wieczór po meczu jest dla emocji. Następny dzień dla wniosków.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "wieczór",
+      "icon": "heart",
+      "bottom": "emocje"
+     },
+     {
+      "top": "rano",
+      "icon": "sun",
+      "bottom": "spokój"
+     },
+     {
+      "top": "po treningu",
+      "icon": "note",
+      "hl": true,
+      "bottom": "wnioski"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "O czym *informuje* cię twoja złość?",
+  "cta": "Po następnym meczu zapisz jedno zadanie, które z niej wynika.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

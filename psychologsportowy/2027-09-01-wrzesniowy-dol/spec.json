@@ -1,0 +1,96 @@
+{
+ "cover": {
+  "kicker": "WRZESIEŃ",
+  "title": "Wrzesień\n*bez energii?*",
+  "size": 104,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 150,
+     "s": 0.95,
+     "pose": "slump"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 560,
+     "y": 40,
+     "s": 250,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 380,
+     "text": "pierwszy tydzień",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Masz prawo to czuć",
+   "body": "Smutek po lecie mówi o tym, co się skończyło. Przyjdzie i minie.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "jestem smutny",
+    "to": "czuję smutek, to minie"
+   }
+  },
+  {
+   "title": "Trzymasz się planu",
+   "body": "Na trening idziesz według grafiku, nawet gdy myślami jesteś jeszcze na plaży.",
+   "viz": {
+    "type": "checklist",
+    "title": "TEN TYDZIEŃ",
+    "chip": "ROBIĘ",
+    "chipX": 400,
+    "backChip": "HUMOR",
+    "items": [
+     "trening według planu",
+     "jedno zadanie",
+     "co wyszło"
+    ]
+   }
+  },
+  {
+   "title": "Coś dla siebie",
+   "body": "Wrzesień nie musi składać się z samych obowiązków. Zaplanuj weekend.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "sun",
+      "label": "spacer"
+     },
+     {
+      "icon": "people",
+      "label": "znajomi"
+     },
+     {
+      "icon": "heart",
+      "label": "coś miłego",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *przyjemnego* zaplanujesz na weekend?",
+  "cta": "Po treningu zapisz jedną rzecz, która dziś wyszła.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

@@ -1,0 +1,130 @@
+{
+ "cover": {
+  "left": "CZEKAM",
+  "right": "UFAM",
+  "title": "Zaufanie\n*na kredyt*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "czekam",
+      "na pewność"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "gram",
+      "odważnie"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "point"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Najpierw gra",
+   "body": "Pewność rośnie z doświadczeń, a doświadczenia zbierasz w grze.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "gram odważnie",
+    "via": "doświadczenie",
+    "to": "pewność"
+   }
+  },
+  {
+   "title": "Masz zabezpieczenie",
+   "body": "Setki treningów i cały poprzedni sezon dalej są w tobie.",
+   "viz": {
+    "type": "bricks",
+    "topIcon": "shield",
+    "label": " ",
+    "caption": "treningi, mecze, sezon"
+   }
+  },
+  {
+   "title": "Jedno zachowanie",
+   "body": "Domagaj się piłki, decyduj szybciej, po błędzie wracaj do gry.",
+   "viz": {
+    "type": "checklist",
+    "title": "W MECZU",
+    "chip": "ROBIĘ",
+    "chipX": 400,
+    "backChip": "CZUJĘ",
+    "items": [
+     "domagam się piłki",
+     "szybka decyzja",
+     "wracam po błędzie"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak gra zawodnik, który *ufa* sobie?",
+  "cta": "Po meczu policz, ile razy zrobiłeś swoje jedno zachowanie.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

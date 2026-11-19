@@ -1,0 +1,94 @@
+{
+ "cover": {
+  "big": "CO 3 DNI",
+  "bigSize": 200,
+  "bigSub": "mecz, mecz i znowu mecz",
+  "title": "Seria meczów\n*bez oddechu*",
+  "size": 90,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 440,
+     "y": 160,
+     "s": 130,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 590,
+     "y": 160,
+     "s": 130,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 740,
+     "y": 160,
+     "s": 130,
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Krótka analiza",
+   "body": "Trzy myślniki po meczu. Pełna analiza poczeka na spokojniejszy tydzień.",
+   "viz": {
+    "type": "notes",
+    "title": "PO MECZU",
+    "lines": [
+     "co zadziałało",
+     "co robię inaczej",
+     "jedno zadanie"
+    ]
+   }
+  },
+  {
+   "title": "Odpoczynek pracuje",
+   "body": "Sen, spokojny wieczór, chwila bez telefonu. Tu dzieje się progres.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "moon",
+      "label": "sen"
+     },
+     {
+      "icon": "people",
+      "label": "ludzie"
+     },
+     {
+      "icon": "phone",
+      "label": "telefon odłożony",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Każdy mecz od zera",
+   "body": "Wynik z poprzedniego spotkania nie gra w następnym.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "wciąż myślę o środzie",
+    "to": "zero do zera, jedno zadanie"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co dziś *odpuścisz*, żeby mieć siłę na mecz?",
+  "cta": "Po meczu zapisz trzy myślniki i zamknij zeszyt do jutra.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

@@ -1,0 +1,107 @@
+{
+ "cover": {
+  "kicker": "RUTYNA",
+  "title": "Dziesięć minut\n*do meczu*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 40,
+     "y": 110,
+     "s": 0.9,
+     "pose": "run"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 560,
+     "y": 200,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "wersja mini",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Rutyna to narzędzie",
+   "body": "Ma prowadzić do zadania. Bez pełnej wersji też możesz zagrać dobrze.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "note",
+     "label": "pełna",
+     "sub": "gdy jest czas"
+    },
+    "right": {
+     "icon": "bolt",
+     "label": "mini",
+     "sub": "gdy wszystko się sypie"
+    }
+   }
+  },
+  {
+   "title": "Dwa, trzy elementy",
+   "body": "Oddech z dłuższym wydechem, jedno zdanie, jedno zadanie na start.",
+   "viz": {
+    "type": "checklist",
+    "title": "WERSJA MINI",
+    "chip": "3 MINUTY",
+    "chipX": 400,
+    "backChip": "RESZTA",
+    "items": [
+     "trzy oddechy",
+     "jedno zdanie",
+     "pierwsze zadanie"
+    ]
+   }
+  },
+  {
+   "title": "Ćwicz na treningu",
+   "body": "Raz w tygodniu skrócona wersja. Planuj od pierwszego gwizdka wstecz.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "zbiórka",
+      "icon": "clock",
+      "bottom": "oddech"
+     },
+     {
+      "top": "buty",
+      "icon": "foot",
+      "bottom": "zdanie"
+     },
+     {
+      "top": "gwizdek",
+      "icon": "whistle",
+      "hl": true,
+      "bottom": "zadanie"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak wygląda twoja *wersja mini*?",
+  "cta": "Zapisz ją dziś i przećwicz na najbliższym treningu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
