@@ -1,0 +1,102 @@
+{
+ "cover": {
+  "kicker": "SZATNIA",
+  "title": "Czyja to\n*wina?*",
+  "size": 104,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 40,
+     "y": 90,
+     "s": 1.0,
+     "pose": "point"
+    },
+    {
+     "k": "person",
+     "x": 460,
+     "y": 90,
+     "s": 1.0,
+     "pose": "point",
+     "flip": true
+    },
+    {
+     "k": "chip",
+     "x": 300,
+     "y": 20,
+     "text": "to przez was",
+     "size": 36
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Dwie skrajności",
+   "body": "Wszystko na innych albo wszystko na siebie. Obie przesadzają.",
+   "viz": {
+    "type": "table",
+    "left": "SKRAJNOŚĆ",
+    "right": "ŚRODEK",
+    "good": true,
+    "rows": [
+     [
+      "zawiedli inni",
+      "moja część"
+     ],
+     [
+      "wszystko przeze mnie",
+      "część rywala"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Komisja szuka przyczyn",
+   "body": "Sąd szuka winnego. Po meczu potrzebujecie komisji.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "SĄD",
+      "items": [
+       "kto zawalił?",
+       "czyja wina?"
+      ]
+     },
+     {
+      "title": "KOMISJA",
+      "items": [
+       "co się stało?",
+       "co zmienimy?"
+      ],
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zacznij od siebie",
+   "body": "Mów o zachowaniu i o tym, czego potrzebujesz od kolegi.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "ty zawsze zawalasz",
+    "to": "krzycz, kogo kryjesz"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaka była *twoja część* w tym meczu?",
+  "cta": "Odpowiedz na to pytanie, zanim zaczniesz rozliczać innych.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

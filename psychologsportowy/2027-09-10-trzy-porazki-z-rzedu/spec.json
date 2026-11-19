@@ -1,0 +1,157 @@
+{
+ "cover": {
+  "left": "KRYZYS",
+  "right": "INCYDENT",
+  "title": "Trzy porażki\n*z rzędu*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "sezon",
+      "do niczego"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "ruler",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "trzy mecze",
+      "z trzydziestu"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "think"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Jaki to procent?",
+   "body": "Trzy mecze z trzydziestu to dziesiąta część sezonu.",
+   "viz": {
+    "type": "bars",
+    "caption": "SEZON",
+    "items": [
+     {
+      "label": "seria porażek",
+      "v": 0.12,
+      "note": "3"
+     },
+     {
+      "label": "reszta sezonu",
+      "v": 0.9,
+      "hl": true,
+      "note": "27"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Rozłóż na czynniki",
+   "body": "Ciało, technika, taktyka, głowa. Co się powtarza, a co było raz?",
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "dumbbell",
+      "label": "ciało"
+     },
+     {
+      "icon": "ball",
+      "label": "technika"
+     },
+     {
+      "icon": "flag",
+      "label": "taktyka"
+     },
+     {
+      "icon": "brain",
+      "label": "głowa"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Jedna zmiana, jedna stała",
+   "body": "Jedną rzecz poprawiasz w tym tygodniu. Jedną robisz dalej, bo działa.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "check",
+     "label": "zostaje",
+     "sub": "to działa"
+    },
+    "right": {
+     "icon": "puzzle",
+     "label": "poprawiam",
+     "sub": "jedna rzecz"
+    }
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *działało* nawet w tych trzech meczach?",
+  "cta": "Wybierz jedną rzecz do poprawy i jedną do kontynuacji.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

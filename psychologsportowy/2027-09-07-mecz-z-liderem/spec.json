@@ -1,0 +1,103 @@
+{
+ "cover": {
+  "big": "LIDER",
+  "bigSize": 220,
+  "bigSub": "przyjeżdża w sobotę",
+  "title": "Mecz\n*z liderem*",
+  "size": 100,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 500,
+     "y": 120,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 700,
+     "y": 150,
+     "s": 140,
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Rangę nadajesz ty",
+   "body": "Za nisko oddajesz mecz. Za wysoko spinasz się już w rozgrzewce.",
+   "viz": {
+    "type": "scale10",
+    "caption": "STAWKA W GŁOWIE",
+    "points": [
+     {
+      "n": 2,
+      "label": "i tak przegramy"
+     },
+     {
+      "n": 9,
+      "label": "mecz sezonu"
+     },
+     {
+      "n": 6,
+      "label": "gramy swoje",
+      "hl": true
+     }
+    ],
+    "arrow": [
+     9,
+     6
+    ],
+    "arrowLabel": "w sam raz"
+   }
+  },
+  {
+   "title": "Co jest sukcesem?",
+   "body": "Ustal cele zadaniowe i oceniaj je niezależnie od wyniku.",
+   "viz": {
+    "type": "checklist",
+    "title": "W SOBOTĘ",
+    "chip": "ZADANIA",
+    "chipX": 400,
+    "backChip": "WYNIK",
+    "items": [
+     "wygrane pojedynki",
+     "szybki powrót",
+     "reakcja po stracie"
+    ]
+   }
+  },
+  {
+   "title": "Presja jest u nich",
+   "body": "Od faworyta wszyscy oczekują wygranej. Ty możesz grać swobodniej.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "trophy",
+     "label": "lider",
+     "sub": "musi wygrać"
+    },
+    "right": {
+     "icon": "play",
+     "label": "my",
+     "sub": "gramy swoje"
+    }
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakim *problemem* będziesz dla lidera?",
+  "cta": "Wypisz trzy zadania na mecz i oceń je po końcowym gwizdku.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

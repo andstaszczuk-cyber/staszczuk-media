@@ -1,0 +1,112 @@
+{
+ "cover": {
+  "kicker": "PO SZKOLE",
+  "title": "Bateria\n*w połowie*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "slump"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "siedem lekcji",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Zmęczenie odbiera regulację",
+   "body": "Na rozładowanej baterii łatwiej o irytację i gorsze decyzje.",
+   "viz": {
+    "type": "scale10",
+    "caption": "BATERIA",
+    "points": [
+     {
+      "n": 9,
+      "label": "rano"
+     },
+     {
+      "n": 4,
+      "label": "po lekcjach"
+     },
+     {
+      "n": 6,
+      "label": "po przerwie",
+      "hl": true
+     }
+    ],
+    "arrow": [
+     4,
+     6
+    ],
+    "arrowLabel": "ładuję"
+   }
+  },
+  {
+   "title": "Kilkanaście minut przejścia",
+   "body": "Spacer, muzyka, spokojne oddechy. Telefon zostaje w torbie.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "foot",
+      "label": "spacer"
+     },
+     {
+      "icon": "moon",
+      "label": "cisza"
+     },
+     {
+      "icon": "wind",
+      "label": "oddech",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Prawo do rozkręcania się",
+   "body": "Jedno zadanie na początek. Ciało często łapie rytm po kwadransie.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "rozgrzewka",
+     "jedno zadanie",
+     "pełny trening"
+    ],
+    "done": 1
+   }
+  }
+ ],
+ "end": {
+  "question": "Co cię *ładuje* przed treningiem?",
+  "cta": "Zaplanuj na ten tydzień swoje kilkanaście minut przejścia.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
