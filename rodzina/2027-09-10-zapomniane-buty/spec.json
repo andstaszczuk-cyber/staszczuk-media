@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Zapomniałem butów! Przywieziesz?",
+    "*Co możesz zrobić teraz?*"
+   ],
+   "text": "Zapomniany strój *to też lekcja*."
+  },
+  {
+   "kind": "point",
+   "title": "Bez *kazania*",
+   "body": "Wystarczy spokojne pytanie, co dalej.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Lista *przy drzwiach*",
+   "body": "Dziecko samo sprawdza torbę.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Mała *konsekwencja*",
+   "body": "Trener poradzi sobie z jednym takim dniem.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "end",
+   "text": "Samodzielność *rośnie na drobnych błędach*.",
+   "cta": "Zapisz, zanim przyjdzie kolejny telefon.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

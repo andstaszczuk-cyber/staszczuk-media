@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Ze szkoły\n*prosto na trening*?",
+   "icon": "car"
+  },
+  {
+   "kind": "point",
+   "title": "Głowa *potrzebuje przejścia*",
+   "body": "Kilkanaście minut spokoju po lekcjach.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Pytania *później*",
+   "body": "O szkołę zapytasz wieczorem.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Coś *swojego*",
+   "body": "Muzyka, przekąska, cisza w aucie.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Krótka przerwa *daje lepszy trening*.",
+   "cta": "Zapisz na dni, kiedy gonicie z lekcji na trening.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

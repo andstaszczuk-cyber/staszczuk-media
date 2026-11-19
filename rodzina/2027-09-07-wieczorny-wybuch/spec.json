@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Wieczorny wybuch\nto często *zmęczenie*."
+  },
+  {
+   "kind": "point",
+   "title": "Krótszy *lont*",
+   "body": "Zmęczone dziecko szybciej się złości.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *spokój*",
+   "body": "O zachowaniu porozmawiacie, gdy emocje opadną.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Sen *na pierwszym miejscu*",
+   "body": "Wcześniejsze wieczory w tych tygodniach.",
+   "icon": "moon"
+  },
+  {
+   "kind": "end",
+   "text": "Wypoczęte dziecko *ma więcej cierpliwości*.",
+   "cta": "Zapisz na trudne wrześniowe wieczory.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

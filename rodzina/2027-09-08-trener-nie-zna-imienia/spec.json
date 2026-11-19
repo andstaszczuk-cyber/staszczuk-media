@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Trener *nie pamięta*\nmojego imienia.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "To *normalne*",
+   "body": "W nowej grupie trener poznaje wiele dzieci naraz.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Pomóż *się przedstawić*",
+   "body": "Krótko, przed treningiem, swoimi słowami.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Daj *czas*",
+   "body": "Relacja z trenerem buduje się tygodniami.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Relacja z trenerem *rośnie z czasem*.",
+   "cta": "Zapisz, jeśli dziecko zaczyna w nowej grupie.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

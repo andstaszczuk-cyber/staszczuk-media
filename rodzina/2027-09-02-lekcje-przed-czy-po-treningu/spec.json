@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Lekcje przed treningiem\n*czy po*?"
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdźcie *oba*",
+   "body": "Tydzień tak, tydzień inaczej, potem wniosek.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Po treningu *głowa zmęczona*",
+   "body": "Trudne zadania lepiej robić wcześniej.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Stała *pora*",
+   "body": "Dziecko wie, kiedy siada do nauki.",
+   "icon": "book"
+  },
+  {
+   "kind": "end",
+   "text": "Najlepszy plan *to sprawdzony plan*.",
+   "cta": "Zapisz i przetestujcie w tym tygodniu.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

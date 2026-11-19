@@ -1,0 +1,41 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Wspólne dowozy,\n*ustalcie na start*:",
+   "items": [
+    "kto i kiedy jedzie",
+    "co, gdy ktoś choruje",
+    "jak się kontaktujemy",
+    "zasady w aucie"
+   ],
+   "checked": 0
+  },
+  {
+   "kind": "point",
+   "title": "Grafik *na piśmie*",
+   "body": "Jasno rozpisane dni, bez domysłów.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Plan *awaryjny*",
+   "body": "Kto zastępuje, gdy ktoś nie może.",
+   "icon": "phone"
+  },
+  {
+   "kind": "point",
+   "title": "Te same *zasady*",
+   "body": "Pasy, telefony, rozmowy o meczu.",
+   "icon": "car"
+  },
+  {
+   "kind": "end",
+   "text": "Dobra umowa *ułatwia cały sezon*.",
+   "cta": "Zapisz i wyślij rodzicom z drużyny.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

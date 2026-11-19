@@ -1,0 +1,40 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Zeszyt na nowy\n*sezon*:",
+   "items": [
+    "co dziś wyszło",
+    "czego się nauczyłem",
+    "co mnie ucieszyło"
+   ],
+   "checked": 0
+  },
+  {
+   "kind": "point",
+   "title": "Kilka *zdań*",
+   "body": "Po treningu dwie minuty, bez wypracowań.",
+   "icon": "book"
+  },
+  {
+   "kind": "point",
+   "title": "Pisze *dziecko*",
+   "body": "Rodzic kupuje zeszyt, treść należy do dziecka.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Wracacie *za miesiąc*",
+   "body": "Po kilku tygodniach widać postęp czarno na białym.",
+   "icon": "growth"
+  },
+  {
+   "kind": "end",
+   "text": "Zapisane *zostaje na dłużej*.",
+   "cta": "Zapisz i kupcie zeszyt razem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

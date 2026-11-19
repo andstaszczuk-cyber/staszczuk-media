@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Kto mnie odbierze we wtorek?",
+    "*Sprawdźmy razem w kalendarzu*."
+   ],
+   "text": "Piętnaście minut *w niedzielę*."
+  },
+  {
+   "kind": "point",
+   "title": "Stała *pora*",
+   "body": "Niedziela wieczorem, kwadrans dla całej rodziny.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *przy stole*",
+   "body": "Wpisuje swoje treningi i sprawdziany.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden *wolny wieczór*",
+   "body": "W tygodniu zostaw miejsce na odpoczynek.",
+   "icon": "moon"
+  },
+  {
+   "kind": "end",
+   "text": "Plan na tydzień *to mniej nerwów*.",
+   "cta": "Zapisz i zróbcie naradę w tę niedzielę.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

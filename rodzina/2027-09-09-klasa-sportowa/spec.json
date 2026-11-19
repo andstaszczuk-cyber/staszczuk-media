@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Klasa sportowa to więcej tego samego.",
+   "new": "Klasa sportowa *to nowy rytm*.",
+   "text": "Daj dziecku czas na przestawienie się."
+  },
+  {
+   "kind": "point",
+   "title": "Więcej *ruchu*",
+   "body": "Treningi w szkole i w klubie to duże obciążenie.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Nowe *porównania*",
+   "body": "W klasie są sami sportowcy.",
+   "icon": "podium"
+  },
+  {
+   "kind": "point",
+   "title": "Więcej *odpoczynku*",
+   "body": "Sen i wolne chwile stają się ważniejsze.",
+   "icon": "moon"
+  },
+  {
+   "kind": "end",
+   "text": "Nowa klasa *to nowy start*.",
+   "cta": "Zapisz, jeśli dziecko zaczęło klasę sportową.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

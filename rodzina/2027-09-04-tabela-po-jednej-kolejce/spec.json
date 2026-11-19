@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Przegraliśmy pierwszy mecz. Sezon stracony.",
+   "new": "Jeden mecz *to jeden mecz*.",
+   "text": "Sezon jest długi."
+  },
+  {
+   "kind": "point",
+   "title": "Liczy się *kierunek*",
+   "body": "Sezon ocenia się po wielu kolejkach.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Co *wyszło*",
+   "body": "Po meczu szukajcie jednej dobrej rzeczy.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Spokój *rodzica*",
+   "body": "Dziecko patrzy, jak Ty przyjmujesz wynik.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Sezon pisze się *przez wiele miesięcy*.",
+   "cta": "Zapisz po pierwszej kolejce.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}
