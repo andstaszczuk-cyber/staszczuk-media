@@ -1,0 +1,97 @@
+{
+ "cover": {
+  "kicker": "ZIMA",
+  "title": "Mecz w telewizji\n*jako trening*",
+  "size": 88,
+  "lh": 1.25,
+  "layout": "top",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "sit"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "15 minut",
+     "size": 34
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Patrz na jedną pozycję",
+   "body": "Kwadrans uwagi na zawodniku, który gra jak ty.",
+   "viz": {
+    "type": "focus",
+    "center": "moja pozycja",
+    "around": [
+     "wynik",
+     "kibice",
+     "powtórki",
+     "komentarz"
+    ]
+   }
+  },
+  {
+   "title": "Co ty byś zrobił?",
+   "body": "Zatrzymaj akcję w głowie i podejmij decyzję.",
+   "viz": {
+    "type": "table",
+    "left": "JA BYM",
+    "right": "ON ZROBIŁ",
+    "good": true,
+    "rows": [
+     [
+      "podanie do przodu",
+      "przytrzymał piłkę"
+     ],
+     [
+      "strzał",
+      "podanie wszerz"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Jedna rzecz do sprawdzenia",
+   "body": "Po meczu zapisz ją i przetestuj na treningu.",
+   "size": 62,
+   "viz": {
+    "type": "notes",
+    "title": "ZESZYT POMYSŁÓW",
+    "lines": [
+     "rozglądam się częściej",
+     "ustawienie po stracie",
+     "szybsza decyzja"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Na kogo *popatrzysz* w następnym meczu?",
+  "cta": "Wybierz zawodnika ze swojej pozycji i obserwuj go przez kwadrans.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

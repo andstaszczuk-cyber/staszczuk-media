@@ -1,0 +1,144 @@
+{
+ "cover": {
+  "left": "Z DRUŻYNĄ",
+  "right": "SAM",
+  "title": "Trening\n*bez drużyny*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "split",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "zbiórka",
+      "o siedemnastej"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "plan",
+      "w telefonie"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "run"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Drużyna daje strukturę",
+   "body": "Zbiórka, koledzy i trener robią część roboty za ciebie.",
+   "size": 62,
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "clock",
+      "label": "zbiórka"
+     },
+     {
+      "icon": "people",
+      "label": "koledzy"
+     },
+     {
+      "icon": "eye",
+      "label": "trener",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zbuduj ją sam",
+   "body": "Stałe godziny, partner na odległość, dziennik.",
+   "viz": {
+    "type": "checklist",
+    "title": "ZIMA SAM",
+    "chip": "SYSTEM",
+    "chipX": 360,
+    "backChip": "WENA",
+    "items": [
+     "stałe godziny",
+     "wiadomość do kolegi",
+     "odhaczam w dzienniku"
+    ]
+   }
+  },
+  {
+   "title": "Pięć powtórzeń na start",
+   "body": "Umawiasz się na mały kawałek, reszta przychodzi w trakcie.",
+   "size": 62,
+   "viz": {
+    "type": "arrowFlow",
+    "from": "nie chce mi się",
+    "via": "tylko pięć",
+    "to": "cały trening"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak *ustawisz* swoją zimę?",
+  "cta": "Wpisz treningi do kalendarza i znajdź partnera na odległość.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

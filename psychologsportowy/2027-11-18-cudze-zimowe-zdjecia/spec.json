@@ -1,0 +1,105 @@
+{
+ "cover": {
+  "big": "6:00",
+  "bigSize": 220,
+  "bigSub": "cudza siłownia o świcie",
+  "title": "Cudze\n*zimowe zdjęcia*",
+  "size": 88,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Instagram przyjmie wszystko",
+   "body": "Widzisz wybrany fragment, a swoją zimę znasz całą.",
+   "size": 62,
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "phone",
+     "label": "ich zima",
+     "sub": "wybrane chwile"
+    },
+    "right": {
+     "icon": "note",
+     "label": "moja zima",
+     "sub": "cała"
+    }
+   }
+  },
+  {
+   "title": "Więcej bywa gorzej",
+   "body": "Ciało buduje formę także w odpoczynku.",
+   "viz": {
+    "type": "scale10",
+    "caption": "OBCIĄŻENIE",
+    "points": [
+     {
+      "n": 6,
+      "label": "mój plan",
+      "hl": true
+     },
+     {
+      "n": 9,
+      "label": "na pokaz"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Punkt odniesienia u siebie",
+   "body": "Porównuj się z sobą sprzed miesiąca i sprzed roku.",
+   "size": 62,
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "rok temu",
+      "icon": "note"
+     },
+     {
+      "top": "miesiąc temu",
+      "icon": "note"
+     },
+     {
+      "top": "dziś",
+      "icon": "check",
+      "hl": true,
+      "bottom": [
+       "ja"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Z kim się *porównujesz* tej zimy?",
+  "cta": "Porównaj swój trening z tym sprzed miesiąca.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

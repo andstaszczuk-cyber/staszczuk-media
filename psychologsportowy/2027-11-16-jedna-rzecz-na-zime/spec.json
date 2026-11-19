@@ -1,0 +1,97 @@
+{
+ "cover": {
+  "kicker": "CEL NA ZIMĘ",
+  "title": "Jedna rzecz\n*na zimę*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "hero",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "point"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 560,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "jeden cel",
+     "size": 36
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Za długa lista",
+   "body": "Każdy cel dostaje za mało uwagi i powtórzeń.",
+   "viz": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "dziesięć celów",
+      "v": 0.15
+     },
+     {
+      "label": "jeden cel",
+      "v": 0.9,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Wybierz z trenerem",
+   "body": "Słabość, która przeszkadza, albo atut, który daje przewagę.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "shield",
+     "label": "słabość",
+     "sub": "przeszkadza"
+    },
+    "right": {
+     "icon": "star",
+     "label": "atut",
+     "sub": "daje przewagę"
+    }
+   }
+  },
+  {
+   "title": "Zamień na konkret",
+   "body": "Ruch, miara, ćwiczenie i liczba powtórzeń.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "lepsza lewa noga",
+     "20 podań o ścianę",
+     "nagranie co miesiąc"
+    ],
+    "done": 3
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaka *jedna rzecz* na tę zimę?",
+  "cta": "Wybierz ją z trenerem i zapisz konkretne ćwiczenie.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

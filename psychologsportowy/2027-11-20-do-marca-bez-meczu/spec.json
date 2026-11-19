@@ -1,0 +1,130 @@
+{
+ "cover": {
+  "kicker": "PRZERWA ZIMOWA",
+  "title": "Do marca\n*bez meczu*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "hero",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "run"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 560,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "4 miesiące",
+     "size": 36
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Daleki cel słabo ciągnie",
+   "body": "Mózgowi trudno połączyć dzisiejszy trening z marcem.",
+   "size": 62,
+   "viz": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "mecz w sobotę",
+      "v": 0.85,
+      "hl": true
+     },
+     {
+      "label": "mecz w marcu",
+      "v": 0.25
+     }
+    ]
+   }
+  },
+  {
+   "title": "Przystanki co kilka tygodni",
+   "body": "Test, turniej halowy, sparing, sprawdzian elementu.",
+   "size": 62,
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "grudzień",
+      "icon": "dumbbell",
+      "bottom": [
+       "test"
+      ]
+     },
+     {
+      "top": "styczeń",
+      "icon": "ball",
+      "bottom": [
+       "hala"
+      ]
+     },
+     {
+      "top": "luty",
+      "icon": "whistle",
+      "bottom": [
+       "sparing"
+      ]
+     },
+     {
+      "top": "marzec",
+      "icon": "flag",
+      "hl": true,
+      "bottom": [
+       "liga"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Do najbliższego drzewa",
+   "body": "Krótki odcinek łatwiej przebiec niż drogę do horyzontu.",
+   "size": 62,
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "tree",
+      "label": "przystanek"
+     },
+     {
+      "icon": "tree",
+      "label": "przystanek"
+     },
+     {
+      "icon": "flag",
+      "label": "marzec",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaki jest twój *najbliższy* przystanek?",
+  "cta": "Wpisz do kalendarza pierwszy sprawdzian na grudzień.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
