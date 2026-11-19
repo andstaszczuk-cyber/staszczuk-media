@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Trener uczy sportu, nauczyciel matematyki.",
+   "new": "Wszyscy *uczymy dziecko razem*.",
+   "text": "Dzień Nauczyciela."
+  },
+  {
+   "kind": "point",
+   "title": "Wspólny *front*",
+   "body": "Dziecko widzi, że dorośli grają do jednej bramki.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Wątpliwości *bez dziecka*",
+   "body": "Omawiaj je z dorosłym, w cztery oczy.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Podziękowanie *od dziecka*",
+   "body": "Kilka słów na kartce dla nauczyciela i trenera.",
+   "icon": "gift"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko rośnie *między wieloma dorosłymi*.",
+   "cta": "Zapisz i wyślij nauczycielowi albo trenerowi.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

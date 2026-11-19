@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Słabsze oceny?\n*Zróbcie plan razem*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *spokój*",
+   "body": "Rozmowa na drugi dzień, po emocjach.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *ma głos*",
+   "body": "Zapytaj, co według niego pomoże.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Sport *zostaje w planie*",
+   "body": "Trening często pomaga się uczyć.",
+   "icon": "book"
+  },
+  {
+   "kind": "end",
+   "text": "Plan zrobiony razem *jest planem dziecka*.",
+   "cta": "Zapisz na wieczór po wywiadówce.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

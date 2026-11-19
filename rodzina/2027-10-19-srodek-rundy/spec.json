@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Jeszcze daleko do końca sezonu.",
+   "new": "*Środek rundy* to czas na małe cele.",
+   "text": "Połowa jesieni za Wami."
+  },
+  {
+   "kind": "point",
+   "title": "Mało *nowości*",
+   "body": "Start dawno minął, finał jeszcze daleko.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Cel *na trzy tygodnie*",
+   "body": "Mały, konkretny, do sprawdzenia.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "point",
+   "title": "Docenianie *drogi*",
+   "body": "Pokaż dziecku, co już się zmieniło.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "end",
+   "text": "Środek sezonu *buduje formę na wiosnę*.",
+   "cta": "Zapisz na drugą połowę października.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

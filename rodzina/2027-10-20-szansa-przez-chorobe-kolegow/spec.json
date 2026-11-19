@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Zagrałem tylko dlatego, że inni chorują.",
+    "*Zagrałeś, bo byłeś gotowy*."
+   ],
+   "text": "Szansa *z przypadku też się liczy*."
+  },
+  {
+   "kind": "point",
+   "title": "Każda szansa *ma okoliczności*",
+   "body": "Tak zaczyna się wiele debiutów.",
+   "icon": "bench"
+  },
+  {
+   "kind": "point",
+   "title": "Gotowość *była jego*",
+   "body": "Pracował na treningach, kiedy nikt nie patrzył.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Po powrocie *kolegów*",
+   "body": "Pozycję buduje się dalej, krok po kroku.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "end",
+   "text": "Gotowy zawodnik *korzysta z okazji*.",
+   "cta": "Zapisz dla dziecka, które czeka na swoją szansę.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

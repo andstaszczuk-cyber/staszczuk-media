@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Najtrudniej\n*wyjść z domu*.",
+   "icon": "door"
+  },
+  {
+   "kind": "point",
+   "title": "Zimno *i ciemno*",
+   "body": "Ciało woli kanapę, to normalne.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Stała *pora*",
+   "body": "Torba spakowana wcześniej, wyjście bez dyskusji.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Po treningu *zapytaj*",
+   "body": "Jak się czujesz teraz, w porównaniu z kanapą?",
+   "icon": "face"
+  },
+  {
+   "kind": "end",
+   "text": "Po rozgrzewce *zwykle się chce*.",
+   "cta": "Zapisz na zimne październikowe wieczory.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

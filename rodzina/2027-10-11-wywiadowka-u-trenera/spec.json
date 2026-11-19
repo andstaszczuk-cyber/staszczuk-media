@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Po rozmowie\nz trenerem *zapytaj*:",
+   "items": [
+    "co mu wychodzi?",
+    "nad czym pracuje?",
+    "jak mogę pomóc?"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *mocne strony*",
+   "body": "Od nich zacznij rozmowę z dzieckiem.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna *rzecz do pracy*",
+   "body": "Wybierzcie jedną, resztę zostawcie trenerowi.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojny *ton*",
+   "body": "Mów o tym jak o informacji.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Informacja zwrotna *ma pomagać rosnąć*.",
+   "cta": "Zapisz przed rozmową z trenerem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Przy niedzielnym obiedzie\n*wszyscy wiedzą lepiej*."
+  },
+  {
+   "kind": "point",
+   "title": "Dobra *intencja*",
+   "body": "Rodzina zwykle chce dobrze, mówi nieporadnie.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Stań *obok dziecka*",
+   "body": "Krótko i spokojnie, bez kłótni przy stole.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Poważne sprawy *na osobności*",
+   "body": "Uwagi warto sprawdzić, bez robienia z nich tematu.",
+   "icon": "door"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko pamięta, *kto stanął obok niego*.",
+   "cta": "Zapisz przed rodzinnym obiadem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

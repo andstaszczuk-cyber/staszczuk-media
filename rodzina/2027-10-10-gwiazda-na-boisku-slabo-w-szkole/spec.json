@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "W szkole jestem głupi.",
+    "*Na boisku pokazujesz, że umiesz się uczyć*."
+   ],
+   "text": "Sport i szkoła, *jedno dziecko*."
+  },
+  {
+   "kind": "point",
+   "title": "Te same *umiejętności*",
+   "body": "Powtarzanie, cierpliwość, praca z błędem.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Konkret *zamiast etykiety*",
+   "body": "Który temat sprawia trudność?",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Mała *zmiana*",
+   "body": "Jedna rzecz na tydzień, jak na treningu.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "end",
+   "text": "Umie się uczyć. *Pomóż mu to zobaczyć*.",
+   "cta": "Zapisz dla dziecka, które w siebie wątpi.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

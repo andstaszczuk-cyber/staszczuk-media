@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Rozwesel się, nic się nie stało.",
+    "*Widzę, że jest ci smutno. Jestem obok*."
+   ],
+   "text": "Jesienna *chandra*."
+  },
+  {
+   "kind": "point",
+   "title": "Smutek *ma prawo być*",
+   "body": "Mówi, że coś jest ważne albo trudne.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Obecność *wystarczy*",
+   "body": "Bez pocieszania na siłę.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Kiedy *trwa długo*",
+   "body": "Porozmawiaj ze specjalistą.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Smutek *mija szybciej, kiedy ma miejsce*.",
+   "cta": "Zapisz na szare październikowe dni.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

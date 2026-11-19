@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Masz dość wożenia?\n*Pamiętaj*,",
+   "items": [
+    "to normalne",
+    "możesz poprosić o pomoc",
+    "dziecko nie jest winne"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Zmęczenie *rodzica*",
+   "body": "Też ma prawo się pojawić.",
+   "icon": "car"
+  },
+  {
+   "kind": "point",
+   "title": "Pomoc *innych*",
+   "body": "Wspólne dowozy, podział wyjazdów, autobus dla starszych.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Szczerze *i bez wyrzutów*",
+   "body": "Powiedz, że masz mało energii, bez obwiniania.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Zadbany rodzic *łatwiej wspiera*.",
+   "cta": "Zapisz i wyślij rodzicowi, który dziś znowu jedzie.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}
