@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Pierwszy śnieg\n*i dylemat przed treningiem*.",
+   "icon": "snowflake"
+  },
+  {
+   "kind": "point",
+   "title": "Raz *w roku*",
+   "body": "Pierwszy śnieg ma swoją magię.",
+   "icon": "snowflake"
+  },
+  {
+   "kind": "point",
+   "title": "Wiadomość *do trenera*",
+   "body": "Nieobecność się zgłasza.",
+   "icon": "phone"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja *z dzieckiem*",
+   "body": "Zapytaj, co jest dla niego ważne.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "end",
+   "text": "Dzieciństwo *też ma swój plan*.",
+   "cta": "Zapisz na pierwszy śnieg.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

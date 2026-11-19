@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Widziałeś, jak ten obrońca stał?",
+    "*Tato, dostałem czapkę Mikołaja!*"
+   ],
+   "text": "Turniej mikołajkowy *jego oczami*."
+  },
+  {
+   "kind": "point",
+   "title": "Zabawa *na pierwszym planie*",
+   "body": "Czapki, cukierki, zdjęcie z Mikołajem.",
+   "icon": "gift"
+  },
+  {
+   "kind": "point",
+   "title": "Analiza *dla trenera*",
+   "body": "Ty możesz po prostu się cieszyć.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj *o frajdę*",
+   "body": "Co było dziś najfajniejsze?",
+   "icon": "ball"
+  },
+  {
+   "kind": "end",
+   "text": "Dziś liczy się *uśmiech na hali*.",
+   "cta": "Zapisz na weekend turniejów.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Leń się zrobił przed świętami.",
+   "new": "*Jest zmęczony całym semestrem.*",
+   "text": "Grudniowy spadek energii."
+  },
+  {
+   "kind": "point",
+   "title": "Długi *semestr*",
+   "body": "Od września szkoła i treningi.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Więcej *snu*",
+   "body": "Wcześniejsze wieczory pomagają.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Mniej *dodatków*",
+   "body": "Część zajęć poczeka do stycznia.",
+   "icon": "clock"
+  },
+  {
+   "kind": "end",
+   "text": "Do przerwy *dojdziecie razem*.",
+   "cta": "Zapisz na grudniowe wieczory.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

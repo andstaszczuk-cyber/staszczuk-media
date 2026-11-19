@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Pod choinką\n*prezent także dla rodzeństwa*.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Równa *uwaga*",
+   "body": "Pasja każdego dziecka jest ważna.",
+   "icon": "heart"
+  },
+  {
+   "kind": "point",
+   "title": "Jego *zainteresowania*",
+   "body": "Książki, rysowanie, muzyka.",
+   "icon": "book"
+  },
+  {
+   "kind": "point",
+   "title": "Czas *sam na sam*",
+   "body": "Godzina tylko dla niego.",
+   "icon": "clock"
+  },
+  {
+   "kind": "end",
+   "text": "Każde dziecko *ma swoją scenę*.",
+   "cta": "Zapisz przed zakupami.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Statuetka dla najlepszego\n*poszła do kolegi*:",
+   "items": [
+    "smutek w aucie",
+    "czemu nie ja?",
+    "co teraz?"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Smutek *jest w porządku*",
+   "body": "Daj mu chwilę na tę emocję.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Gratulacje *dla kolegi*",
+   "body": "Cudzy sukces też można świętować.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Jego *dobre zagrania*",
+   "body": "Pokaż, co samo zrobiło dobrze.",
+   "icon": "growth"
+  },
+  {
+   "kind": "end",
+   "text": "Cudzy sukces *zostawia mu jego wartość*.",
+   "cta": "Zapisz na drogę z turnieju.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Mikołajki w drużynie:\n*każdy jest czyimś Mikołajem*."
+  },
+  {
+   "kind": "point",
+   "title": "Losowanie *imion*",
+   "body": "Każdy kupuje drobiazg dla jednej osoby.",
+   "icon": "dice"
+  },
+  {
+   "kind": "point",
+   "title": "Mały *budżet*",
+   "body": "Liczy się pomysł.",
+   "icon": "wallet"
+  },
+  {
+   "kind": "point",
+   "title": "Liścik *od siebie*",
+   "body": "Jedno zdanie, za co lubi tę osobę.",
+   "icon": "book"
+  },
+  {
+   "kind": "end",
+   "text": "Drużyna rośnie *przez takie drobiazgi*.",
+   "cta": "Zapisz na Mikołajki w klubie.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

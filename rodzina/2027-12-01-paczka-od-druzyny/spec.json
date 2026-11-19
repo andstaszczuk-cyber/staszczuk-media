@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Drużyna pakuje\n*paczkę dla innych*."
+  },
+  {
+   "kind": "point",
+   "title": "Każdy coś *dokłada*",
+   "body": "Mały wkład od każdego dziecka.",
+   "icon": "gift"
+  },
+  {
+   "kind": "point",
+   "title": "Dzieci *wybierają*",
+   "body": "Niech same zdecydują, co włożyć.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Razem *pakują*",
+   "body": "Kwadrans po treningu w szatni.",
+   "icon": "bag"
+  },
+  {
+   "kind": "end",
+   "text": "Drużyna to też *ludzie obok*.",
+   "cta": "Zapisz i pokaż trenerowi.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

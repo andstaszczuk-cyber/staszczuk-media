@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Uspokój się, to tylko turniej.",
+   "new": "*Cieszysz się, to widać.*",
+   "text": "Wieczór przed turniejem mikołajkowym."
+  },
+  {
+   "kind": "point",
+   "title": "To *pobudzenie*",
+   "body": "Ciało szykuje się do gry.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojny *wieczór*",
+   "body": "Kąpiel, książka, wcześniej do łóżka.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Gotowa *torba*",
+   "body": "Spakowana jeszcze przed kolacją.",
+   "icon": "bag"
+  },
+  {
+   "kind": "end",
+   "text": "Ekscytacja *to dobra energia*.",
+   "cta": "Zapisz na wieczór przed turniejem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}
