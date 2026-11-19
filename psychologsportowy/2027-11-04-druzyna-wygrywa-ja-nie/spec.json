@@ -1,0 +1,90 @@
+{
+ "cover": {
+  "kicker": "MIESZANE UCZUCIA",
+  "title": "Drużyna wygrywa,\n*ja nie*",
+  "size": 88,
+  "lh": 1.25,
+  "layout": "hero",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "slump"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 560,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "3:0",
+     "size": 36
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Dwie emocje naraz",
+   "body": "Radość z wyniku i rozczarowanie swoją grą mogą współistnieć.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "trophy",
+     "label": "drużyna",
+     "sub": "radość"
+    },
+    "right": {
+     "icon": "cloudRain",
+     "label": "ja",
+     "sub": "rozczarowanie"
+    }
+   }
+  },
+  {
+   "title": "Rozczarowanie informuje",
+   "body": "Rzeczywistość rozjechała się z oczekiwaniami.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "zawaliłem",
+    "to": "co dopracować?",
+    "toSub": "informacja"
+   }
+  },
+  {
+   "title": "Rozbierz grę na zachowania",
+   "body": "Co dobrze, co inaczej, czego więcej.",
+   "size": 62,
+   "viz": {
+    "type": "notes",
+    "title": "MOJA GRA",
+    "lines": [
+     "dobrze: odbiory",
+     "inaczej: ustawienie",
+     "więcej: gra do przodu"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Z czego *cieszysz się* razem z drużyną?",
+  "cta": "Zapisz jedną rzecz do poprawy i zapytaj o nią trenera.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

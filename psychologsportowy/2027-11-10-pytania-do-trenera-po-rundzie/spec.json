@@ -1,0 +1,102 @@
+{
+ "cover": {
+  "big": "3",
+  "bigSize": 260,
+  "bigSub": "pytania do trenera",
+  "title": "Rozmowa\n*po rundzie*",
+  "size": 92,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Teraz jest czas",
+   "body": "Po rundzie trener ma więcej spokoju na rozmowę.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "runda",
+      "icon": "ball"
+     },
+     {
+      "top": "koniec",
+      "icon": "flag"
+     },
+     {
+      "top": "rozmowa",
+      "icon": "mic",
+      "hl": true,
+      "bottom": [
+       "teraz"
+      ]
+     },
+     {
+      "top": "zima",
+      "icon": "snow"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zapytaj wprost",
+   "body": "Domysły są zwykle czarniejsze niż rzeczywistość.",
+   "viz": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "skreślił mnie?",
+     "co o mnie myśli?",
+     "nie pasuję?"
+    ],
+    "ask": [
+     "trenerze,",
+     "mam",
+     "pytanie"
+    ]
+   }
+  },
+  {
+   "title": "Trzy konkretne pytania",
+   "body": "Zapisz je przed rozmową, odpowiedzi zaraz po niej.",
+   "size": 62,
+   "viz": {
+    "type": "notes",
+    "title": "PYTANIA",
+    "lines": [
+     "co robię dobrze?",
+     "czego więcej?",
+     "co na zimę?"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "O co *zapytasz* trenera?",
+  "cta": "Zapisz trzy pytania i umów się na rozmowę.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

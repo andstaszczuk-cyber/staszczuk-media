@@ -1,0 +1,101 @@
+{
+ "cover": {
+  "kicker": "RUNDA",
+  "title": "Same\n*remisy*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "hero",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "stand"
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 560,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "1:1",
+     "size": 36
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Dwie wersje tego samego",
+   "body": "Znowu nie wygraliśmy. Znowu nie przegraliśmy.",
+   "size": 62,
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "cloudRain",
+     "label": "nie wygraliśmy"
+    },
+    "right": {
+     "icon": "shield",
+     "label": "nie przegraliśmy"
+    }
+   }
+  },
+  {
+   "title": "Gdzie uciekają punkty",
+   "body": "Sprawdź minuty straconych goli i brakujące podania.",
+   "size": 64,
+   "viz": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "1-30 min",
+      "v": 0.2
+     },
+     {
+      "label": "31-60 min",
+      "v": 0.35
+     },
+     {
+      "label": "61-90 min",
+      "v": 0.85,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Ćwiczcie końcówki",
+   "body": "Trening na konkretnym wyniku przestaje zaskakiwać w meczu.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "wynik 1:1",
+     "plan na końcówkę",
+     "odważna decyzja"
+    ],
+    "done": 3
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaki *wniosek* wyciągasz z remisów?",
+  "cta": "Zapisz jeden wniosek z serii remisów na wiosnę.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

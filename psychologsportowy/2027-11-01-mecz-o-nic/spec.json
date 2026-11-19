@@ -1,0 +1,156 @@
+{
+ "cover": {
+  "left": "TABELA",
+  "right": "DLA MNIE",
+  "title": "Mecz\n*o nic*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "split",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "mecz",
+      "o nic"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "mecz",
+      "o coś"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "hips"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Stawka spada",
+   "body": "Za mało mobilizacji to senność i spóźnione reakcje.",
+   "viz": {
+    "type": "scale10",
+    "caption": "POBUDZENIE",
+    "points": [
+     {
+      "n": 3,
+      "label": "mecz o nic"
+     },
+     {
+      "n": 7,
+      "label": "moja strefa",
+      "hl": true
+     }
+    ],
+    "arrow": [
+     3,
+     7
+    ],
+    "arrowLabel": "dodaj znaczenie"
+   }
+  },
+  {
+   "title": "Dodaj własny cel",
+   "body": "Wybierz jeden element, który chcesz sprawdzić.",
+   "viz": {
+    "type": "checklist",
+    "title": "MÓJ CEL",
+    "chip": "SPRAWDZAM",
+    "chipX": 330,
+    "backChip": "TABELA",
+    "items": [
+     "gra słabszą nogą",
+     "odważne pojedynki",
+     "komunikacja z tyłu"
+    ]
+   }
+  },
+  {
+   "title": "Ten mecz też zostaje",
+   "body": "Trener i ty zapamiętacie, jak kończysz rundę.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "eye",
+      "label": "trener"
+     },
+     {
+      "icon": "note",
+      "label": "nagranie"
+     },
+     {
+      "icon": "flag",
+      "label": "moje poczucie",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "O co *ty* zagrasz w meczu o nic?",
+  "cta": "Zapisz jeden element, który sprawdzisz w tym meczu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

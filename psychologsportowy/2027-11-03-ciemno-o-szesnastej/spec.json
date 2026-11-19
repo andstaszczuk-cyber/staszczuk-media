@@ -1,0 +1,117 @@
+{
+ "cover": {
+  "kicker": "LISTOPAD",
+  "title": "Ciemno\n*o szesnastej*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "top",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "walk"
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "16:00",
+     "size": 34
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Po zmroku ciało zwalnia",
+   "body": "Mniej światła i chłód szykują cię do odpoczynku.",
+   "size": 64,
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "moon",
+      "label": "mniej światła"
+     },
+     {
+      "icon": "battery",
+      "label": "dzień w szkole"
+     },
+     {
+      "icon": "snow",
+      "label": "chłód",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Decyzja zapada rano",
+   "body": "Wieczorem już nie negocjujesz ze sobą.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "rano",
+      "icon": "sun",
+      "hl": true,
+      "bottom": [
+       "decyzja"
+      ]
+     },
+     {
+      "top": "szkoła",
+      "icon": "book"
+     },
+     {
+      "top": "torba",
+      "icon": "check"
+     },
+     {
+      "top": "trening",
+      "icon": "ball"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Torba przy drzwiach",
+   "body": "Spakuj się wieczorem i nie siadaj na chwilę.",
+   "viz": {
+    "type": "checklist",
+    "title": "WIECZOREM",
+    "chip": "PLAN",
+    "chipX": 400,
+    "backChip": "HUMOR",
+    "items": [
+     "torba spakowana",
+     "ubrania na wierzchu",
+     "prosto na trening"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co ustawisz *dziś wieczorem* na jutro?",
+  "cta": "Spakuj torbę wieczorem i postaw ją przy drzwiach.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

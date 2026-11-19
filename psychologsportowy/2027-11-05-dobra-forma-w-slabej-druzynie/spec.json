@@ -1,0 +1,148 @@
+{
+ "cover": {
+  "left": "MOJA GRA",
+  "right": "TABELA",
+  "title": "Forma jest,\n*wyników brak*",
+  "size": 92,
+  "lh": 1.25,
+  "layout": "split",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "najlepsza",
+      "runda"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "seria",
+      "porażek"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "think"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Masz prawo docenić formę",
+   "body": "Dobre mecze to efekt twojej pracy.",
+   "size": 62,
+   "viz": {
+    "type": "checklist",
+    "title": "MOJA RUNDA",
+    "chip": "FORMA",
+    "chipX": 400,
+    "backChip": "TABELA",
+    "items": [
+     "wygrane pojedynki",
+     "gole i asysty",
+     "dobre decyzje"
+    ]
+   }
+  },
+  {
+   "title": "Oceniaj swoje zadania",
+   "body": "Swój wkład mierzysz decyzjami i zaangażowaniem.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "TABELA",
+      "items": [
+       "miejsce",
+       "wyniki"
+      ],
+      "dim": true
+     },
+     {
+      "title": "MOJE",
+      "items": [
+       "zadania",
+       "decyzje",
+       "zaangażowanie"
+      ],
+      "hl": true,
+      "note": "to oceniam"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Ciągnij zachowaniem",
+   "body": "Podpowiadaj, dawaj przykład, przyjdź z pomysłem.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "pretensje",
+    "via": "mój wpływ",
+    "to": "przykład"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co z tej rundy *zabierasz* na zimę?",
+  "cta": "Zapisz trzy rzeczy, które w tej rundzie robiłeś dobrze.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

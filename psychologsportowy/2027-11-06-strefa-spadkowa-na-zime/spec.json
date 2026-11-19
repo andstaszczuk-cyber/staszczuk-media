@@ -1,0 +1,105 @@
+{
+ "cover": {
+  "big": "-3",
+  "bigSize": 260,
+  "bigSub": "punkty do bezpiecznego miejsca",
+  "title": "Zimujesz\n*pod kreską*",
+  "size": 92,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Fakty i historia",
+   "body": "Miejsce w tabeli to fakt. Wiosna jeszcze się nie wydarzyła.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "FAKTY",
+      "items": [
+       "miejsce",
+       "punkty"
+      ],
+      "hl": true,
+      "note": "to sprawdzam"
+     },
+     {
+      "title": "HISTORIA",
+      "items": [
+       "musimy spaść",
+       "wiosną to samo"
+      ],
+      "dim": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zima na cztery obszary",
+   "body": "Rozłóż rundę i znajdź powtarzalne problemy.",
+   "size": 62,
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "dumbbell",
+      "label": "fizycznie"
+     },
+     {
+      "icon": "ball",
+      "label": "technika"
+     },
+     {
+      "icon": "flag",
+      "label": "taktyka"
+     },
+     {
+      "icon": "brain",
+      "label": "głowa"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Czarny scenariusz na listę",
+   "body": "Co musiałoby się stać i jak temu zapobiec.",
+   "size": 62,
+   "viz": {
+    "type": "arrowFlow",
+    "from": "spadniemy",
+    "via": "rozbieram",
+    "to": "lista roboty"
+   }
+  }
+ ],
+ "end": {
+  "question": "Od czego *zaczniesz* zimę?",
+  "cta": "Wypisz dwie rzeczy z jesieni, nad którymi popracujesz.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

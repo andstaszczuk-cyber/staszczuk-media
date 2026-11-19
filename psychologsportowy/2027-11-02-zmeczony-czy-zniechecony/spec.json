@@ -1,0 +1,141 @@
+{
+ "cover": {
+  "big": "2",
+  "bigSize": 260,
+  "bigSub": "stany, jeden objaw",
+  "title": "Zmęczony\nczy *zniechęcony?*",
+  "size": 88,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Ciało czy głowa",
+   "body": "Zmęczenie czujesz w nogach, zniechęcenie w chęciach.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "battery",
+     "label": "zmęczenie",
+     "sub": "ciało"
+    },
+    "right": {
+     "icon": "brain",
+     "label": "zniechęcenie",
+     "sub": "głowa"
+    }
+   }
+  },
+  {
+   "title": "Test kwadransa",
+   "body": "Po kwadransie treningu sprawdź, czy jest lżej.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.3
+       ],
+       [
+        0.25,
+        0.45
+       ],
+       [
+        0.5,
+        0.7
+       ],
+       [
+        1,
+        0.8
+       ]
+      ],
+      "hl": true,
+      "label": "rozkręcam się"
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.3
+       ],
+       [
+        0.25,
+        0.28
+       ],
+       [
+        0.5,
+        0.25
+       ],
+       [
+        1,
+        0.22
+       ]
+      ],
+      "label": "dalej ciężko"
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.25,
+      "y": 0.45,
+      "label": "15 minut",
+      "dy": -50
+     }
+    ],
+    "x": "trening"
+   }
+  },
+  {
+   "title": "Każde potrzebuje czegoś innego",
+   "body": "Zmęczenie: odpoczynek. Zniechęcenie: małe zadanie.",
+   "size": 62,
+   "viz": {
+    "type": "table",
+    "left": "STAN",
+    "right": "CO POMAGA",
+    "good": true,
+    "rows": [
+     [
+      "zmęczenie",
+      "sen, mniej obciążeń"
+     ],
+     [
+      "zniechęcenie",
+      "jedno małe zadanie"
+     ]
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co dziś *czujesz* naprawdę?",
+  "cta": "Zrób test kwadransa na najbliższym treningu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

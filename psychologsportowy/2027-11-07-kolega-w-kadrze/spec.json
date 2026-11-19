@@ -1,0 +1,111 @@
+{
+ "cover": {
+  "kicker": "POWOŁANIE",
+  "title": "Kolega\n*w kadrze*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "top",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "think"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "powołanie",
+     "size": 34
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Zazdrość to informacja",
+   "body": "Pokazuje, na czym ci zależy.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "jestem gorszy",
+    "to": "czego chcę?",
+    "toSub": "informacja"
+   }
+  },
+  {
+   "title": "Widzisz efekt",
+   "body": "Droga do powołania zostaje w cieniu.",
+   "viz": {
+    "type": "scene",
+    "items": [
+     {
+      "k": "iceberg",
+      "y": 220
+     },
+     {
+      "k": "text",
+      "x": 465,
+      "y": 60,
+      "t": "powołanie",
+      "size": 34,
+      "w": 800,
+      "c": "A",
+      "anchor": "middle"
+     },
+     {
+      "k": "text",
+      "x": 465,
+      "y": 330,
+      "t": [
+       "dodatkowe treningi,",
+       "decyzje, cierpliwość"
+      ],
+      "size": 32,
+      "w": 700,
+      "c": "fg",
+      "anchor": "middle"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Czego się nauczysz",
+   "body": "Wybierz jeden element i zapytaj trenera o zadania.",
+   "viz": {
+    "type": "checklist",
+    "title": "UCZĘ SIĘ",
+    "chip": "INSPIRACJA",
+    "chipX": 330,
+    "backChip": "ZAZDROŚĆ",
+    "items": [
+     "gra bez piłki",
+     "szybsze decyzje",
+     "praca po treningu"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Czego *nauczysz się* od kolegi?",
+  "cta": "Zapytaj trenera, czego brakuje ci do tego poziomu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
