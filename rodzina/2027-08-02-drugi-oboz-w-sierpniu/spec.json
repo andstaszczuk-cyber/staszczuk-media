@@ -1,0 +1,41 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Drugi obóz w sierpniu?\n*Sprawdź najpierw*:",
+   "items": [
+    "czy odpoczął",
+    "czy sam chce",
+    "ile zostało lata",
+    "co mówi trener"
+   ],
+   "checked": 0
+  },
+  {
+   "kind": "point",
+   "title": "Odpoczynek *też buduje formę*",
+   "body": "Ciało i głowa potrzebują przerwy przed sezonem.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Czyja to *potrzeba*",
+   "body": "Dziecka czy rodzica, który boi się, że inni odjadą?",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Zostaw *kilka dni luzu*",
+   "body": "Nuda w wakacje też ma sens.",
+   "icon": "tent"
+  },
+  {
+   "kind": "end",
+   "text": "Sezon jest długi. *Wejdźcie w niego wypoczęci*.",
+   "cta": "Zapisz przed zapisami na obóz.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

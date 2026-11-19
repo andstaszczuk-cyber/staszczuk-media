@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Mamo, nie chcę jutro iść na trening.",
+    "*Po wakacjach to normalne*."
+   ],
+   "text": "Pierwszy trening *po lecie*."
+  },
+  {
+   "kind": "point",
+   "title": "Daj *kilka treningów*",
+   "body": "Chęć często wraca po pierwszym tygodniu w grupie.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj *o konkret*",
+   "body": "Czego się obawia? Zmęczenia, trenera, kolegów?",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Bez decyzji *na gorąco*",
+   "body": "O rezygnacji rozmawiajcie za kilka tygodni.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "end",
+   "text": "Niechęć na starcie *mija szybciej, niż myślisz*.",
+   "cta": "Zapisz na pierwszy tydzień treningów.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

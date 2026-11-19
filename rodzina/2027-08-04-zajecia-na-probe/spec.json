@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "calendar",
+   "text": "Nowe zajęcia?\n*Miesiąc na próbę*."
+  },
+  {
+   "kind": "point",
+   "title": "Umówcie *termin*",
+   "body": "Miesiąc chodzenia, potem rozmowa i decyzja.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsze tygodnie *są najtrudniejsze*",
+   "body": "Nowe miejsce, nowi ludzie, wszystko obce.",
+   "icon": "door"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja *razem*",
+   "body": "Dziecko mówi, co czuje. Decydujecie wspólnie.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Próba daje dziecku *prawo do zmiany zdania*.",
+   "cta": "Zapisz przed zapisami na zajęcia.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

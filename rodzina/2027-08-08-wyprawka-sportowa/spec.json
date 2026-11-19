@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Wyprawka na sezon:\n*mniej kupowania, więcej dbania*."
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdźcie, *co już jest*",
+   "body": "Przymierzcie stroje, buty i ochraniacze z zeszłego roku.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Potrzeba *czy moda*",
+   "body": "Porozmawiajcie, co naprawdę jest potrzebne.",
+   "icon": "wallet"
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *dba o swoje*",
+   "body": "Własny sprzęt to własna odpowiedzialność.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Szacunek do sprzętu *to też część sportu*.",
+   "cta": "Zapisz przed zakupami na sezon.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

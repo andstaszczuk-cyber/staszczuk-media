@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Wybierasz klub?\nPatrz na *trenera i atmosferę*."
+  },
+  {
+   "kind": "point",
+   "title": "Jak trener *mówi do dzieci*",
+   "body": "Przyjdź na trening i posłuchaj, jakim tonem mówi.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Czy dzieci *się uśmiechają*",
+   "body": "Radość na treningu widać po kilku minutach.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Dojazd *na lata*",
+   "body": "Klub blisko domu to mniej stresu przez cały rok.",
+   "icon": "car"
+  },
+  {
+   "kind": "end",
+   "text": "Dobry klub to taki, *do którego dziecko chce wracać*.",
+   "cta": "Zapisz przed wyborem klubu.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

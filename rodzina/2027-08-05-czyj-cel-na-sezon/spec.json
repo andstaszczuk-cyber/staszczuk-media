@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "W tym sezonie masz grać w pierwszym składzie.",
+   "new": "Co *chcesz poprawić* w tym sezonie?",
+   "text": "Cel na sezon zaczyna się od pytania."
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj *pierwszy*",
+   "body": "Zanim powiesz, czego oczekujesz, posłuchaj dziecka.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Cel *na co dzień*",
+   "body": "Coś, co dziecko może robić na każdym treningu.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Zapiszcie *i wróćcie*",
+   "body": "Kartka na lodówce, rozmowa za kilka miesięcy.",
+   "icon": "book"
+  },
+  {
+   "kind": "end",
+   "text": "Cel, który dziecko wybrało samo, *niesie dłużej*.",
+   "cta": "Zapisz przed rozmową o sezonie.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

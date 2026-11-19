@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Poprzedni trener był lepszy.",
+    "*Dajmy nowemu trochę czasu*."
+   ],
+   "text": "Nowy sezon, *nowy trener*."
+  },
+  {
+   "kind": "point",
+   "title": "Wysłuchaj *bez oceniania*",
+   "body": "Tęsknota za poprzednim trenerem jest normalna.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Inny styl *to też nauka*",
+   "body": "Dziecko uczy się pracy z różnymi ludźmi.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Daj *miesiąc lub dwa*",
+   "body": "Relacja z trenerem potrzebuje czasu.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "end",
+   "text": "Twoje nastawienie *ułatwi dziecku start*.",
+   "cta": "Zapisz i wróć po pierwszym miesiącu.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

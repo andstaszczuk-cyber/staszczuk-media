@@ -1,0 +1,41 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Tabeli nie ma,\n*a rodzice liczą*:",
+   "items": [
+    "gole",
+    "wygrane",
+    "minuty",
+    "miejsce w grupie"
+   ],
+   "checked": 0
+  },
+  {
+   "kind": "point",
+   "title": "Po co *bez tabeli*",
+   "body": "Dzieci mają się uczyć i grać bez presji wyniku.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *słyszy Twoje liczby*",
+   "body": "Pytanie o wynik pokazuje, co jest ważne.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Licz *coś innego*",
+   "body": "Odważne podania, nowe zagrania, pomoc koledze.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "end",
+   "text": "Najważniejszy wynik w tym wieku to *chęć, żeby grać dalej*.",
+   "cta": "Zapisz przed pierwszym meczem sezonu.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}
