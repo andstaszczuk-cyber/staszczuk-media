@@ -1,0 +1,88 @@
+{
+ "cover": {
+  "kicker": "PONIEDZIAŁEK",
+  "title": "Trening\n*po porażce*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 110,
+     "s": 0.9,
+     "pose": "walk"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 540,
+     "y": 220,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 560,
+     "y": 120,
+     "text": "kropka",
+     "size": 36
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Dzień czy tydzień?",
+   "body": "Zły dzień zostawiasz. Złe tygodnie analizujesz.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "sun",
+     "label": "zły dzień",
+     "sub": "zostawiam"
+    },
+    "right": {
+     "icon": "note",
+     "label": "zły tydzień",
+     "sub": "analizuję"
+    }
+   }
+  },
+  {
+   "title": "Przetnij linę",
+   "body": "Mecz się skończył. Ty decydujesz, czy ciągniesz go na każdy trening.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "wciąż myślę o sobocie",
+    "to": "kropka, dziś jedno zadanie"
+   }
+  },
+  {
+   "title": "Kartka w torbie",
+   "body": "Jedna rzecz do poprawy, jedna, która wyszła. Złóż i schowaj.",
+   "viz": {
+    "type": "notes",
+    "title": "SOBOTA",
+    "lines": [
+     "poprawiam: krycie",
+     "wyszło: pressing",
+     "kropka"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaką *kropkę* postawisz w poniedziałek?",
+  "cta": "Przed treningiem zapisz dwie rzeczy z meczu i schowaj kartkę.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

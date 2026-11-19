@@ -1,0 +1,175 @@
+{
+ "cover": {
+  "left": "ROZPAMIĘTUJĘ",
+  "right": "WYCIĄGAM",
+  "title": "Gol w ostatniej\n*minucie*",
+  "size": 88,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "ta jedna",
+      "akcja"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "89 minut",
+      "dobrej gry"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "think"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Prawie boli mocniej",
+   "body": "Mózg porównuje to, co jest, z tym, co prawie było.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.4
+       ],
+       [
+        0.25,
+        0.55
+       ],
+       [
+        0.5,
+        0.65
+       ],
+       [
+        0.75,
+        0.75
+       ],
+       [
+        0.86,
+        0.8
+       ],
+       [
+        0.92,
+        0.25
+       ]
+      ],
+      "hl": true,
+      "label": " "
+     }
+    ],
+    "x": "minuty meczu"
+   }
+  },
+  {
+   "title": "Pilnuj do końca",
+   "body": "Końcówka to osobny fragment meczu z własnym zadaniem.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "start",
+      "icon": "play",
+      "bottom": "zadanie"
+     },
+     {
+      "top": "środek",
+      "icon": "ball",
+      "bottom": "zadanie"
+     },
+     {
+      "top": "końcówka",
+      "icon": "watch",
+      "hl": true,
+      "bottom": "zadanie"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Analiza bez winnego",
+   "body": "Co działo się w ostatnich minutach? Jedna rzecz na trening.",
+   "viz": {
+    "type": "checklist",
+    "title": "KOŃCÓWKA",
+    "chip": "TRENUJEMY",
+    "chipX": 400,
+    "backChip": "WINNY",
+    "items": [
+     "ustawienie",
+     "komunikacja",
+     "stały fragment"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *zadziałało* przez 89 minut?",
+  "cta": "Zapisz to i weź na trening jedną rzecz z końcówki.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

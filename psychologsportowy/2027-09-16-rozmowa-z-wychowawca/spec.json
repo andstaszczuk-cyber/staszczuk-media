@@ -1,0 +1,111 @@
+{
+ "cover": {
+  "kicker": "SZKOŁA",
+  "title": "Rozmowa\n*z wychowawcą*",
+  "size": 92,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 130,
+     "s": 0.85,
+     "pose": "point"
+    },
+    {
+     "k": "person",
+     "x": 480,
+     "y": 130,
+     "s": 0.85,
+     "pose": "think",
+     "flip": true
+    },
+    {
+     "k": "chip",
+     "x": 300,
+     "y": 40,
+     "text": "w piątek mam mecz",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Wyobraźnia przesadza",
+   "body": "Trudna rozmowa w głowie wygląda gorzej niż w rzeczywistości.",
+   "viz": {
+    "type": "scale10",
+    "caption": "STRES",
+    "points": [
+     {
+      "n": 9,
+      "label": "przed rozmową"
+     },
+     {
+      "n": 3,
+      "label": "po rozmowie",
+      "hl": true
+     }
+    ],
+    "arrow": [
+     9,
+     3
+    ],
+    "arrowLabel": "jakoś poszło"
+   }
+  },
+  {
+   "title": "Fakty, uczucia, prośba",
+   "body": "Kiedy i dlaczego. Jak się z tym czujesz. O co konkretnie prosisz.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "fakty",
+      "icon": "note",
+      "bottom": "kiedy, dlaczego"
+     },
+     {
+      "top": "uczucia",
+      "icon": "heart",
+      "bottom": "zależy mi"
+     },
+     {
+      "top": "prośba",
+      "icon": "hand",
+      "hl": true,
+      "bottom": "inny termin?"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Przećwicz na głos",
+   "body": "Dwa, trzy zdania zapisane wcześniej. Powiedz je w domu na głos.",
+   "viz": {
+    "type": "notes",
+    "title": "DO WYCHOWAWCY",
+    "lines": [
+     "w piątek gram mecz",
+     "zależy mi na nauce",
+     "czy inny termin?"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Komu *powiesz* o terminie meczu?",
+  "cta": "Zapisz dziś trzy zdania i porozmawiaj w tym tygodniu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

@@ -1,0 +1,91 @@
+{
+ "cover": {
+  "big": "5 SEKUND",
+  "bigSize": 170,
+  "bigSub": "przed wykonaniem",
+  "title": "Rutyna\n*przed rzutem*",
+  "size": 96,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 540,
+     "y": 190,
+     "s": 130,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 720,
+     "y": 110,
+     "s": 170,
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Pauza to szansa",
+   "body": "W ciszy łatwo dyskutować ze sobą. Możesz też ustawić głowę jak na treningu.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "chaos w głowie",
+    "via": "rutyna",
+    "to": "zadanie"
+   }
+  },
+  {
+   "title": "Zawsze ta sama",
+   "body": "Piłka, kroki, oddech, cel, jedno słowo. Potem wykonanie.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "piłka",
+      "icon": "ball",
+      "bottom": "ustawiam"
+     },
+     {
+      "top": "oddech",
+      "icon": "wind",
+      "bottom": "wydech"
+     },
+     {
+      "top": "słowo",
+      "icon": "mic",
+      "hl": true,
+      "bottom": "pewnie"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Przy każdym rzucie",
+   "body": "Także na treningu i przy mało ważnych wykonaniach.",
+   "viz": {
+    "type": "same",
+    "left": "TRENING",
+    "right": "MECZ",
+    "items": [
+     "kroki",
+     "oddech",
+     "jedno słowo"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak wygląda twoja *rutyna* przed rzutem?",
+  "cta": "Spisz ją w kilku krokach i zrób przy każdym rzucie na treningu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

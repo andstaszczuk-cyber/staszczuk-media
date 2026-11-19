@@ -1,0 +1,113 @@
+{
+ "cover": {
+  "kicker": "PRZERWA",
+  "title": "Zmiana\n*w przerwie*",
+  "size": 104,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "icon",
+     "name": "bench",
+     "x": 60,
+     "y": 300,
+     "s": 380,
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "x": 130,
+     "y": 40,
+     "s": 0.9,
+     "pose": "sit"
+    },
+    {
+     "k": "chip",
+     "x": 560,
+     "y": 120,
+     "text": "46. minuta",
+     "size": 38
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Głowa dopisuje",
+   "body": "Skreślił mnie? Już mi nie ufa? Powodów zmiany bywa dużo więcej.",
+   "viz": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "skreślił mnie?",
+     "już mi nie ufa?",
+     "koniec składu?"
+    ],
+    "ask": [
+     "Co",
+     "zdecydowało",
+     "o zmianie?"
+    ]
+   }
+  },
+  {
+   "title": "Zapytaj następnego dnia",
+   "body": "Krótko i bez pretensji. Chcesz wiedzieć, co poprawić.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "mecz",
+      "icon": "whistle",
+      "bottom": "emocje"
+     },
+     {
+      "top": "noc",
+      "icon": "moon",
+      "bottom": "opadają"
+     },
+     {
+      "top": "rano",
+      "icon": "people",
+      "hl": true,
+      "bottom": "rozmowa"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Ławka gotowych",
+   "body": "Obserwuj, wspieraj drużynę i bądź gotowy na powrót.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "eye",
+      "label": "obserwuję"
+     },
+     {
+      "icon": "people",
+      "label": "wspieram"
+     },
+     {
+      "icon": "bolt",
+      "label": "gotowy",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *zdecydowało* o twojej zmianie?",
+  "cta": "Zapytaj o to trenera jutro, krótko i spokojnie.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
