@@ -1,0 +1,82 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Śnieg odwołał trening *i od razu się nakręcam*",
+  "sub": "Plan na dziś przepadł, a w głowie liczę stracone kilometry",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "snow",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "pause",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Jeden trening w skali",
+   "body": "W skali całej zimy jeden odwołany trening to mały ułamek pracy. Forma nie znika w jeden dzień.",
+   "art": {
+    "type": "stack",
+    "cols": [
+     4,
+     5,
+     5,
+     1,
+     5,
+     6
+    ],
+    "labels": [
+     " ",
+     " ",
+     " ",
+     "śnieg",
+     " ",
+     " "
+    ],
+    "caption": "jeden dzień w skali całej zimy"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Trening odpoczynku",
+   "body": "Potraktuj ten dzień jako dodatkową regenerację. Jutro robisz to, co w planie, bez podwójnej porcji."
+  },
+  {
+   "title": "Plan awaryjny",
+   "body": "Ustal z trenerem krótki zestaw do zrobienia w domu na takie dni. Wtedy masz gotową odpowiedź."
+  }
+ ],
+ "end": {
+  "text": "Pogoda zmienia plan, *a ja zostaję spokojny*.",
+  "cta": "Zapisz i przygotuj plan awaryjny"
+ }
+}

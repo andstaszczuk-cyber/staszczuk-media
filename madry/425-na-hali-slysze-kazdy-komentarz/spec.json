@@ -1,0 +1,73 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na hali słyszę *każdy komentarz z trybun*",
+  "sub": "Na dworze głosy ginęły, a tu każde słowo do mnie dociera",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "mic",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Jeden punkt uwagi",
+   "body": "Komentarze będą. Wybierz jeden punkt uwagi na każdą akcję: piłka, rywal, zadanie.",
+   "art": {
+    "type": "focus",
+    "center": "moje zadanie",
+    "icon": "ball",
+    "around": [
+     "trybuny",
+     "rodzice",
+     "komentarze",
+     "wynik"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Cudza opinia jak wiatr",
+   "body": "Słyszysz, zakładasz kaptur i robisz swoje. Analizowanie zostawiasz na później."
+  },
+  {
+   "title": "Trenuj z hałasem",
+   "body": "Poproś trenera o ćwiczenia z hałasem i okrzykami. Głowa przyzwyczaja się do bodźców."
+  }
+ ],
+ "end": {
+  "text": "Słyszę trybuny, *patrzę na swoje zadanie*.",
+  "cta": "Zapisz i wybierz swój punkt uwagi"
+ }
+}

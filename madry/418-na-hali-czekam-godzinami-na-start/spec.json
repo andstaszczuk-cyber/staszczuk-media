@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Na hali czekam godzinami *na swój start*",
+  "sub": "Rozgrzewka rano, start po południu, a w środku pustka",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Plan na czekanie",
+   "body": "Rozpisz dzień od tyłu: start, rozgrzewka, przekąska, odpoczynek. Wiesz, co robisz o której.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "clock",
+      "top": "przyjazd",
+      "bottom": "rozeznanie"
+     },
+     {
+      "icon": "pause",
+      "top": "czekanie",
+      "bottom": "odpoczynek",
+      "hl": true
+     },
+     {
+      "icon": "bolt",
+      "top": "przed startem",
+      "bottom": "rozgrzewka"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Kontrolowane rozproszenie",
+   "body": "Książka, muzyka, krótka rozmowa. Głowa odpoczywa od startu, zanim będzie potrzebna."
+  },
+  {
+   "title": "Druga rozgrzewka",
+   "body": "Po długim siedzeniu ciało stygnie. Rozgrzej się jeszcze raz, jak samochód zimą."
+  }
+ ],
+ "end": {
+  "text": "Czekam spokojnie, *startuję gotowy*.",
+  "cta": "Zapisz i rozpisz swój dzień zawodów"
+ }
+}

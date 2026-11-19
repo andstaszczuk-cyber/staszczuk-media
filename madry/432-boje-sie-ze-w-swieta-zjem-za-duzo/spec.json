@@ -1,0 +1,74 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Boję się, że w święta zjem za dużo *i stracę formę*",
+  "sub": "Stół pełen jedzenia, a w głowie liczenie i wyrzuty sumienia",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "pot",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Kilka dni w skali roku",
+   "body": "Forma powstaje przez miesiące. Kilka świątecznych dni jej nie przekreśla.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "pot",
+     "label": "liczę każdy kęs przy stole",
+     "cross": true
+    },
+    "right": {
+     "icon": "heart",
+     "label": "jem spokojnie i jestem z bliskimi"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Stół to spotkanie",
+   "body": "Przy świątecznym stole liczy się czas z bliskimi. Jedz spokojnie i rozmawiaj."
+  },
+  {
+   "title": "Pytania do specjalisty",
+   "body": "Jeśli jedzenie budzi w tobie silny lęk, porozmawiaj z dietetykiem albo psychologiem."
+  }
+ ],
+ "end": {
+  "text": "Jem spokojnie *i cieszę się świętami*.",
+  "cta": "Zapisz przed świętami"
+ }
+}

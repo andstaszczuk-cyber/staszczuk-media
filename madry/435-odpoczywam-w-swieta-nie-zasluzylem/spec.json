@@ -1,0 +1,73 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Odpoczywam w święta *i czuję, że nie zasłużyłem*",
+  "sub": "Leżę z rodziną na kanapie, a w głowie lista niezrobionych treningów",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Odpoczynek to część planu",
+   "body": "Na odpoczynek nie trzeba zasłużyć. To element treningu, tak samo jak obciążenie.",
+   "art": {
+    "type": "hub",
+    "center": "odpoczynek",
+    "icon": "bed",
+    "items": [
+     "sen",
+     "bliscy",
+     "spacer",
+     "książka"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Skąd ten głos",
+   "body": "Zapytaj siebie, kto cię nauczył, że odpoczynek trzeba wypracować. Czy ta zasada ci dziś służy?"
+  },
+  {
+   "title": "Zauważ i wróć",
+   "body": "Gdy pojawia się poczucie winy, nazwij je i wróć do tego, co robisz z bliskimi."
+  }
+ ],
+ "end": {
+  "text": "Odpoczywam *bez wyrzutów sumienia*.",
+  "cta": "Zapisz i odpocznij dziś naprawdę"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "W święta ruszam się dla frajdy *i nie wiem, czy to się liczy*",
+  "sub": "Sanki, łyżwy, spacer z psem i myśl, że to żaden trening",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "point",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "snow",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Ruch też buduje",
+   "body": "Ciało korzysta z każdego ruchu. Frajda dokłada coś, czego nie da ci plan: chęć.",
+   "art": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "snow",
+      "label": "sanki"
+     },
+     {
+      "icon": "foot",
+      "label": "spacer"
+     },
+     {
+      "icon": "ball",
+      "label": "gra z rodziną"
+     },
+     {
+      "icon": "mountain",
+      "label": "wycieczka"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Trening dla przyjemności",
+   "body": "Raz na jakiś czas ruch bez zegarka i bez celu. Przypominasz sobie, za co lubisz sport."
+  },
+  {
+   "title": "Z rozsądkiem",
+   "body": "Przy nowych aktywnościach rozsądek przed brawurą. Ciało ma ci jeszcze posłużyć w sezonie."
+  }
+ ],
+ "end": {
+  "text": "Ruszam się *dla radości*.",
+  "cta": "Zapisz i zaplanuj ruch dla frajdy"
+ }
+}

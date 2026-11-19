@@ -1,0 +1,80 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Trenuję późnym wieczorem *i potem nie mogę zasnąć*",
+  "sub": "Koniec treningu o dziewiątej, a sen przychodzi po północy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Wyciszenie po treningu",
+   "body": "Ciało po wysiłku jest pobudzone. Daj mu czas i powtarzaj codziennie te same kroki.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "drop",
+      "label": "ciepły prysznic"
+     },
+     {
+      "icon": "pot",
+      "label": "spokojna kolacja"
+     },
+     {
+      "icon": "moon",
+      "label": "przygaszone światło",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Odłóż analizę",
+   "body": "Rozkładanie treningu na części zostaw na jutro. Zapisz jedną myśl na kartce i zamknij zeszyt."
+  },
+  {
+   "title": "Stała pora",
+   "body": "Kładź się mniej więcej o tej samej godzinie, także w dni bez treningu. Ciało lubi rytm."
+  }
+ ],
+ "end": {
+  "text": "Po treningu *daję ciału zwolnić*.",
+  "cta": "Zapisz i ustaw wieczorny rytuał"
+ }
+}

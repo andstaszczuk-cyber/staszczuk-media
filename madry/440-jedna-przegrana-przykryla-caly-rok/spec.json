@@ -1,0 +1,83 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Jedna przegrana *przykryła mi cały rok*",
+  "sub": "Najważniejszy start sezonu i tylko on zostaje w pamięci",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Plama na spodniach",
+   "body": "Reszta materiału jest czysta, a widać tylko plamę. Rozpisz wszystkie starty z całego roku.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "check",
+      "top": "wiosna",
+      "bottom": "postęp"
+     },
+     {
+      "icon": "cloudRain",
+      "top": "jeden start",
+      "bottom": "przegrana",
+      "hl": true
+     },
+     {
+      "icon": "star",
+      "top": "jesień",
+      "bottom": "dobre mecze"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Ile to procent roku",
+   "body": "Jeden dzień zawodów to mały wycinek miesięcy pracy. Czy chcesz, żeby oceniał całość?"
+  },
+  {
+   "title": "Jeden wniosek",
+   "body": "Zapisz jeden konkretny wniosek z tej przegranej i zamknij temat."
+  }
+ ],
+ "end": {
+  "text": "Jeden dzień to *mały kawałek całego roku*.",
+  "cta": "Zapisz i rozpisz swój rok"
+ }
+}

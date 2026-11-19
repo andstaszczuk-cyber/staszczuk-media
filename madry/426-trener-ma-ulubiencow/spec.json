@@ -1,0 +1,79 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wydaje mi się, że trener *ma swoich ulubieńców*",
+  "sub": "Jednych chwali, innych ledwo zauważa",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Fakty i interpretacja",
+   "body": "Zapisz, co konkretnie widzisz. Potem sprawdź, ile z tego to fakty, a ile twoje odczytanie.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "INTERPRETACJA",
+     "items": [
+      "mnie nie lubi",
+      "nie mam szans"
+     ]
+    },
+    "right": {
+     "title": "FAKT",
+     "items": [
+      "częściej rozmawia",
+      "chwali przy grupie"
+     ]
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapytaj o informację zwrotną",
+   "body": "Poproś trenera o rozmowę: co robię dobrze, nad czym mam teraz pracować."
+  },
+  {
+   "title": "Twoja część",
+   "body": "Skup się na tym, na co masz wpływ: zaangażowanie, postęp, sposób, w jaki pracujesz na treningu."
+  }
+ ],
+ "end": {
+  "text": "Sprawdzam fakty *i rozmawiam wprost*.",
+  "cta": "Zapisz i przygotuj pytania do trenera"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Koniec roku *i nie wiem, czy dalej chcę trenować*",
+  "sub": "Zmęczenie, wątpliwości i pytanie, które wraca co wieczór",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "pause",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Decyzja po odpoczynku",
+   "body": "Pod koniec roku jesteś zmęczony. Odłóż decyzję na kilka tygodni i sprawdź, czy pytanie wraca.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "cloudRain",
+      "top": "teraz",
+      "bottom": "zmęczenie"
+     },
+     {
+      "icon": "bed",
+      "top": "przerwa",
+      "bottom": "odpoczynek",
+      "hl": true
+     },
+     {
+      "icon": "check",
+      "top": "za kilka tygodni",
+      "bottom": "decyzja"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Korzyści i koszty",
+   "body": "Wypisz, co daje ci sport, a co cię kosztuje. Poszukaj też trzeciej drogi."
+  },
+  {
+   "title": "Porozmawiaj",
+   "body": "Z trenerem, z bliskimi, z psychologiem sportu. Mówiąc na głos, łatwiej zrozumieć, o co ci chodzi."
+  }
+ ],
+ "end": {
+  "text": "Daję sobie czas *na dobrą decyzję*.",
+  "cta": "Zapisz i wróć do tego po przerwie"
+ }
+}

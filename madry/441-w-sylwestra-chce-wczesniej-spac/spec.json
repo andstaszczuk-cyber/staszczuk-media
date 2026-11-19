@@ -1,0 +1,67 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "W Sylwestra chcę wcześniej spać *i głupio mi przed znajomymi*",
+  "sub": "Wszyscy planują zabawę do rana, a ja myślę o treningu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Twój wybór, twoje powody",
+   "body": "Wiesz, dlaczego tak decydujesz. Krótko i szczerze mówisz o tym znajomym.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "wyjdę na nudziarza",
+    "to": "wybieram to, co mi służy"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jest wiele wersji",
+   "body": "Możesz przyjść na początek, wyjść po północy albo spędzić wieczór spokojnie w domu."
+  },
+  {
+   "title": "Opinie innych",
+   "body": "Część osób zażartuje, część zrozumie. Za tydzień mało kto będzie o tym pamiętał."
+  }
+ ],
+ "end": {
+  "text": "Zaczynam rok *po swojemu*.",
+  "cta": "Zapisz i zaplanuj swój Sylwester"
+ }
+}

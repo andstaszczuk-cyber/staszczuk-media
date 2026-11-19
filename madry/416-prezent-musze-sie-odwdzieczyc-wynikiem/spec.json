@@ -1,0 +1,67 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Dostałem sportowy prezent *i czuję, że muszę się odwdzięczyć*",
+  "sub": "Nowe buty od rodziców i nagle presja na każdy start",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zapytaj, po co ten prezent",
+   "body": "Najczęściej bliscy chcieli sprawić ci radość i pomóc w treningu. Warunku z wynikiem nikt nie postawił.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "muszę się odwdzięczyć",
+    "to": "cieszę się i dziękuję po swojemu"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Podziękuj po swojemu",
+   "body": "Wdzięczność okażesz słowem, opowieścią z treningu, zaproszeniem bliskich na zawody."
+  },
+  {
+   "title": "Wynik zostaw procesowi",
+   "body": "Startujesz dla siebie. Prezent jest wsparciem, które ci w tym pomaga."
+  }
+ ],
+ "end": {
+  "text": "Cieszę się prezentem *i robię swoje*.",
+  "cta": "Zapisz i podziękuj po swojemu"
+ }
+}

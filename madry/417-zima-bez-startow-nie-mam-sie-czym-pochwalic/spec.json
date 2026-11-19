@@ -1,0 +1,68 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Zimą bez startów *i nie mam się czym pochwalić*",
+  "sub": "Inni pytają o wyniki, a ja mam tylko treningi",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Postęp bez medali",
+   "body": "Zimą zbierasz rzeczy, których nie widać w tabeli: siłę, technikę, wytrzymałość. Zapisuj je.",
+   "art": {
+    "type": "bricks",
+    "topIcon": "flag",
+    "label": "trening",
+    "caption": "zimą układasz cegły pod sezon"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Dowody na kartce",
+   "body": "Raz w tygodniu zapisz, co poszło lepiej niż tydzień wcześniej. Po miesiącu masz listę."
+  },
+  {
+   "title": "Kim jesteś bez wyniku",
+   "body": "Twoja wartość zostaje ta sama, nawet jeśli w tym miesiącu nie masz się czym pochwalić."
+  }
+ ],
+ "end": {
+  "text": "Zimą buduję, *wyniki przyjdą w sezonie*.",
+  "cta": "Zapisz i zacznij listę postępów"
+ }
+}

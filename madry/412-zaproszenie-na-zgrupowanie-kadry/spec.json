@@ -1,0 +1,67 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Dostałem zaproszenie na kadrę *i już się nakręcam*",
+  "sub": "Radość trwała godzinę, potem przyszły pytania",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "point",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Przyjeżdżasz zasłużenie",
+   "body": "Ktoś obejrzał twoje występy i podjął decyzję. Już się pokazałeś, teraz kontynuujesz swoją jakość.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "muszę się pokazać",
+    "to": "już tu jestem, robię swoje"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Ucz się od lepszych",
+   "body": "Inni będą w czymś lepsi. To obszar inspiracji, który możesz podpatrzeć i zabrać do klubu."
+  },
+  {
+   "title": "Zwykłe rzeczy",
+   "body": "Sen, jedzenie, rozgrzewka i pakowanie jak przed każdym wyjazdem. Znane czynności dają poczucie bezpieczeństwa."
+  }
+ ],
+ "end": {
+  "text": "Jestem tu *i robię swoją robotę*.",
+  "cta": "Zapisz przed zgrupowaniem"
+ }
+}

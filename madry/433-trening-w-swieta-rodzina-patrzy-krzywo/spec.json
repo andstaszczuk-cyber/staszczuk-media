@@ -1,0 +1,75 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Mam trening w święta *i rodzina patrzy krzywo*",
+  "sub": "Wszyscy przy stole, a ja wkładam buty do biegania",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "foot",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Uprzedź wcześniej",
+   "body": "Powiedz bliskim, kiedy trenujesz i jak długo. Ludzie łatwiej akceptują to, czego się spodziewają.",
+   "art": {
+    "type": "notes",
+    "title": "DLA RODZINY",
+    "lines": [
+     "trenuję rano",
+     "wracam przed obiadem",
+     "potem jestem z wami"
+    ],
+    "crossed": [
+     "znikam bez słowa"
+    ],
+    "side": "uprzedzam"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Wybierz porę",
+   "body": "Trening rano albo między posiłkami zabiera najmniej wspólnego czasu."
+  },
+  {
+   "title": "Bądź obecny",
+   "body": "Po treningu odłóż telefon i plan. Jesteś z bliskimi w pełni."
+  }
+ ],
+ "end": {
+  "text": "Trenuję *i jestem z bliskimi*.",
+  "cta": "Zapisz i uprzedź bliskich"
+ }
+}

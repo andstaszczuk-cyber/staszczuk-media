@@ -1,0 +1,80 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Co roku robię postanowienia *i w lutym ich nie pamiętam*",
+  "sub": "Lista na nowy rok długa jak plan treningowy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "point",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Jedno postanowienie",
+   "body": "Wybierz jedno postanowienie sportowe. Mała liczba celów daje większą szansę na wdrożenie.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "LISTA",
+     "items": [
+      "więcej siłowni",
+      "wcześniej spać",
+      "mniej telefonu",
+      "zdrowsza głowa"
+     ]
+    },
+    "right": {
+     "title": "JEDNO",
+     "items": [
+      "rozciąganie"
+     ]
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zachowanie z terminem",
+   "body": "Opisz je jako konkretne zachowanie: co, kiedy, gdzie. Na przykład dziesięć minut rozciągania po każdym treningu."
+  },
+  {
+   "title": "Sprawdzaj co tydzień",
+   "body": "Zaznaczaj, ile razy się udało. Kiedy wypadnie dzień, wracasz następnego."
+  }
+ ],
+ "end": {
+  "text": "Jedno postanowienie, *codziennie po trochu*.",
+  "cta": "Zapisz i wybierz swoje postanowienie"
+ }
+}

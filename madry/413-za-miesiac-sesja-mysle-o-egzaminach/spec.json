@@ -1,0 +1,85 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Za miesiąc sesja *i na treningu myślę o egzaminach*",
+  "sub": "Ciało na sali, a głowa w notatkach",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Plan nauki na papierze",
+   "body": "Rozpisz, czego i kiedy się uczysz. Głowa łatwiej puszcza temat, który ma swoje miejsce w kalendarzu.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "NA TRENINGU",
+      "icon": "dumbbell",
+      "items": [
+       "rozgrzewka",
+       "technika",
+       "zadanie dnia"
+      ]
+     },
+     {
+      "title": "PO TRENINGU",
+      "icon": "book",
+      "items": [
+       "notatki",
+       "powtórka",
+       "plan na jutro"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Trening jako przerwa",
+   "body": "Półtorej godziny bez notatek to odpoczynek dla głowy. Po treningu uczysz się zwykle sprawniej."
+  },
+  {
+   "title": "Powrót do zadania",
+   "body": "Gdy myśl o egzaminie wraca, zauważ ją i wróć do jednego elementu, który masz teraz do zrobienia."
+  }
+ ],
+ "end": {
+  "text": "Na treningu trenuję, *przy biurku się uczę*.",
+  "cta": "Zapisz i rozpisz plan nauki"
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Trener chce, żebym grał *na innej pozycji*",
+  "sub": "Lubię swoje miejsce na boisku, a od stycznia zaczynam od nowa",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zapytaj dlaczego",
+   "body": "Poproś trenera o powody. Kiedy rozumiesz zamysł, łatwiej uczysz się nowej roli.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "zabiera mi moje miejsce",
+    "to": "co widzi we mnie trener?"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Twoje atuty zostają",
+   "body": "Szybkość, przegląd pola czy zawziętość przenosisz na nową pozycję. Zmieniają się zadania, ty zostajesz ze swoimi atutami."
+  },
+  {
+   "title": "Czas na naukę",
+   "body": "Pierwsze tygodnie będą niezgrabne. Umów się z trenerem na wspólną ocenę po kilku tygodniach."
+  }
+ ],
+ "end": {
+  "text": "Uczę się nowej roli *ze swoimi atutami*.",
+  "cta": "Zapisz i przygotuj pytania do trenera"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wracam na święta *i spotykam starą drużynę*",
+  "sub": "Oni grają dalej razem, a ja trenuję w innym mieście",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Dwie drogi",
+   "body": "Wybrałeś inną drogę z konkretnych powodów. Przypomnij sobie, jakich.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "house",
+     "label": "oni zostali w starym klubie"
+    },
+    "right": {
+     "icon": "flag",
+     "label": "ja wyjechałem trenować dalej"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Porównania na bok",
+   "body": "Ich sukcesy nie zabierają twoich. Każdy jest w innym miejscu swojej drogi."
+  },
+  {
+   "title": "Ciesz się spotkaniem",
+   "body": "To ludzie, z którymi zaczynałeś. Opowiedz, co u ciebie, i posłuchaj, co u nich."
+  }
+ ],
+ "end": {
+  "text": "Pamiętam, skąd jestem, *i idę swoją drogą*.",
+  "cta": "Zapisz przed powrotem do domu"
+ }
+}

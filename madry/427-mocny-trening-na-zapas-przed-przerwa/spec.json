@@ -1,0 +1,78 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Przed przerwą chcę zrobić *mocny trening na zapas*",
+  "sub": "Skoro przez kilka dni nie będę trenować, to dziś dołożę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Treningu nie odłożysz",
+   "body": "Ciało nie robi zapasów. Przeciążenie przed przerwą zjada ci odpoczynek.",
+   "art": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "na zapas",
+      "v": 0.95,
+      "note": "zmęczenie na święta"
+     },
+     {
+      "label": "z planem",
+      "v": 0.55,
+      "hl": true,
+      "note": "świeżość"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Przerwa to część planu",
+   "body": "Kilka dni odpoczynku jest wpisane w trening. Ciało wzmacnia się w odpoczynku."
+  },
+  {
+   "title": "Ostatni trening jak zwykle",
+   "body": "Zrób go według planu, spokojnie i z frajdą. Do przerwy wchodzisz świeży."
+  }
+ ],
+ "end": {
+  "text": "Trenuję według planu *i wchodzę w przerwę świeży*.",
+  "cta": "Zapisz przed ostatnim treningiem"
+ }
+}

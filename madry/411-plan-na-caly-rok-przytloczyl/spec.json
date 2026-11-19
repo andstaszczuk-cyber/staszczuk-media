@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Zobaczyłem plan na przyszły rok *i mnie przytłoczył*",
+  "sub": "Starty, obozy, objętości i tabelka na dwanaście miesięcy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Patrz na najbliższy tydzień",
+   "body": "Cały rok to mapa dla trenera. Ty robisz najbliższy odcinek, a potem kolejny.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "mountain",
+      "top": "cały rok",
+      "bottom": "mapa trenera"
+     },
+     {
+      "icon": "flag",
+      "top": "ten miesiąc",
+      "bottom": "kierunek"
+     },
+     {
+      "icon": "foot",
+      "top": "ten tydzień",
+      "bottom": "moja robota",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Plan się zmieni",
+   "body": "Po drodze przyjdą przeziębienia, przesunięte zawody i lepsze dni. Plan to szkielet, który trener będzie poprawiał."
+  },
+  {
+   "title": "Zapytaj o sens",
+   "body": "Poproś trenera, żeby opowiedział, po co są poszczególne etapy. Kiedy rozumiesz, łatwiej ci robić."
+  }
+ ],
+ "end": {
+  "text": "Robię *najbliższy kawałek drogi*.",
+  "cta": "Zapisz i rozpisz swój pierwszy tydzień"
+ }
+}

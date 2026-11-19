@@ -1,0 +1,79 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Od stycznia starsza kategoria *i boję się, że będę najsłabszy*",
+  "sub": "Byłem w czołówce, a teraz zaczynam od nowa",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Porównuj się ze sobą",
+   "body": "Starsi mają za sobą więcej lat treningu. Twój punkt odniesienia to ty sprzed kilku miesięcy.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "PORÓWNUJĘ SIĘ",
+     "items": [
+      "ze starszymi rywalami"
+     ]
+    },
+    "right": {
+     "title": "SPRAWDZAM",
+     "items": [
+      "swoje czasy",
+      "swoją technikę",
+      "postęp od jesieni"
+     ]
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Cel na pierwszy sezon",
+   "body": "Ustal z trenerem, co w tym roku jest sukcesem. Często to nauka i ogranie z mocniejszymi."
+  },
+  {
+   "title": "Okres przejściowy",
+   "body": "Pierwszy rok w nowej kategorii bywa trudny dla prawie wszystkich. To etap, który mija."
+  }
+ ],
+ "end": {
+  "text": "Uczę się *na wyższym poziomie*.",
+  "cta": "Zapisz i ustal cel na pierwszy sezon"
+ }
+}

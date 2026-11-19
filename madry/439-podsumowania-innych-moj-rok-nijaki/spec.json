@@ -1,0 +1,73 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Czytam podsumowania innych *i mój rok wydaje się nijaki*",
+  "sub": "Medale, rekordy i wielkie słowa w każdym poście",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Widzisz wybrane kadry",
+   "body": "Podsumowanie w sieci to najlepsze momenty. Trudne dni zwykle zostają poza kadrem.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "phone",
+     "label": "ich wybrane kadry"
+    },
+    "right": {
+     "icon": "note",
+     "label": "mój cały rok"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Twoja miara",
+   "body": "Porównaj siebie z grudnia z sobą ze stycznia. Tam widać twój postęp."
+  },
+  {
+   "title": "Mniej przewijania",
+   "body": "Jeśli po każdym przeglądaniu czujesz się gorzej, odłóż telefon na kilka dni."
+  }
+ ],
+ "end": {
+  "text": "Mój rok *mierzę swoją miarą*.",
+  "cta": "Zapisz i porównaj się ze sobą"
+ }
+}

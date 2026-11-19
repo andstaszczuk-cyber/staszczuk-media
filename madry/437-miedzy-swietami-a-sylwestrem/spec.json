@@ -1,0 +1,82 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Między świętami a Sylwestrem *nie wiem, czy odpoczywam, czy trenuję*",
+  "sub": "Dziwne dni bez rytmu, w których wszystko się rozmywa",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "watch",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Nazwij te dni",
+   "body": "Ustal z trenerem, czym jest ten tydzień: odpoczynkiem, lekkim powrotem czy treningiem.",
+   "art": {
+    "type": "table",
+    "left": "DZIEŃ",
+    "right": "CO ROBIĘ",
+    "good": true,
+    "rows": [
+     [
+      "27–28",
+      "odpoczynek"
+     ],
+     [
+      "29–30",
+      "lekki rozruch"
+     ],
+     [
+      "31",
+      "spacer"
+     ]
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Mały rytm dnia",
+   "body": "Stała pora wstawania i jeden punkt ruchu dziennie trzymają cię w rytmie."
+  },
+  {
+   "title": "Spokojny powrót",
+   "body": "Przerwa kończy się zgodnie z planem. Pierwsze treningi robisz spokojnie, bez nadrabiania."
+  }
+ ],
+ "end": {
+  "text": "Wiem, *co robię w te dni*.",
+  "cta": "Zapisz i rozpisz ten tydzień"
+ }
+}

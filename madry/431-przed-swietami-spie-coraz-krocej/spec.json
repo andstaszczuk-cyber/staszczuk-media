@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Przed świętami wszystko na ostatnią chwilę *i śpię coraz krócej*",
+  "sub": "Sprawdziany, prezenty, treningi i noc skrócona do minimum",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Sen na pierwszym miejscu",
+   "body": "Zmęczona głowa i ciało pracują gorzej. Sen to pierwsza rzecz, której pilnujesz w gorącym tygodniu.",
+   "art": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "bed",
+      "label": "sen"
+     },
+     {
+      "icon": "pot",
+      "label": "jedzenie"
+     },
+     {
+      "icon": "drop",
+      "label": "picie"
+     },
+     {
+      "icon": "pause",
+      "label": "przerwy"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Trzy zadania na dzień",
+   "body": "Wybierz trzy najważniejsze sprawy dnia. Reszta może poczekać do jutra."
+  },
+  {
+   "title": "Stała pora gaszenia światła",
+   "body": "Ustal godzinę, o której kończysz dzień, i trzymaj się jej jak godziny treningu."
+  }
+ ],
+ "end": {
+  "text": "Najpierw sen, *potem cała reszta*.",
+  "cta": "Zapisz i ustal porę gaszenia światła"
+ }
+}

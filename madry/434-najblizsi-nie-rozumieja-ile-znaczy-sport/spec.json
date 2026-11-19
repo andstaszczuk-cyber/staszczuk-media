@@ -1,0 +1,67 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Najbliżsi nie rozumieją, *ile znaczy dla mnie sport*",
+  "sub": "Pytają o wynik i zmieniają temat, a ja mam w środku cały rok",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Opowiedz o drodze",
+   "body": "Bliscy znają głównie wyniki. Opowiedz im o jednym treningu, jednym momencie, jednej osobie.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "i jak, wygrałeś?",
+    "to": "opowiem ci o jednym dniu"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Ta sama troska",
+   "body": "Brak wiedzy o sporcie rzadko oznacza brak troski o ciebie. Pytanie o wynik to ich sposób na zainteresowanie."
+  },
+  {
+   "title": "Każdy daje swoje",
+   "body": "Zrozumienie sportu masz w drużynie i u trenera. Od bliskich dostajesz bycie z tobą bez względu na wynik."
+  }
+ ],
+ "end": {
+  "text": "Dzielę się *tym, co dla mnie ważne*.",
+  "cta": "Zapisz i opowiedz bliskim jedną historię"
+ }
+}

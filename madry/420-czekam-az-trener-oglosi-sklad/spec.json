@@ -1,0 +1,85 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Czekam, aż trener *ogłosi skład na nowy sezon*",
+  "sub": "Decyzja ma zapaść po świętach, a ja myślę o niej codziennie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Twoja część",
+   "body": "Decyzja należy do trenera. Do ciebie należy każdy trening do dnia ogłoszenia.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "MAM WPŁYW",
+      "icon": "check",
+      "items": [
+       "trening",
+       "sen",
+       "nastawienie"
+      ]
+     },
+     {
+      "title": "BEZ WPŁYWU",
+      "icon": "whistle",
+      "items": [
+       "decyzja trenera",
+       "rywale",
+       "termin"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Czas na martwienie się",
+   "body": "Wyznacz sobie kwadrans dziennie na myślenie o składzie. Poza nim wracasz do swoich spraw."
+  },
+  {
+   "title": "Plan na obie wersje",
+   "body": "Zastanów się, co zrobisz, gdy będziesz w składzie i gdy cię w nim zabraknie. Masz przygotowaną reakcję."
+  }
+ ],
+ "end": {
+  "text": "Robię swoje, *decyzja przyjdzie*.",
+  "cta": "Zapisz i rozpisz plan na obie wersje"
+ }
+}

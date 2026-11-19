@@ -1,0 +1,74 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Na obozie zimowym *każdy trening to egzamin*",
+  "sub": "Trener patrzy, notuje, a ja spinam się przy każdym ćwiczeniu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Trening jest od błędów",
+   "body": "Na obozie uczysz się nowych rzeczy. Błąd to informacja dla ciebie i dla trenera.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "eye",
+     "label": "każde ćwiczenie to ocena",
+     "cross": true
+    },
+    "right": {
+     "icon": "puzzle",
+     "label": "każde ćwiczenie to nauka"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jedno zadanie na trening",
+   "body": "Rano wybierz jedną rzecz, nad którą pracujesz. Wieczorem sprawdź, jak poszło."
+  },
+  {
+   "title": "Rozluźnij ciało",
+   "body": "Napięte mięśnie przeszkadzają w ruchu. Między ćwiczeniami wypuść powietrze i opuść ramiona."
+  }
+ ],
+ "end": {
+  "text": "Na obozie *uczę się, trenując*.",
+  "cta": "Zapisz i weź na obóz"
+ }
+}

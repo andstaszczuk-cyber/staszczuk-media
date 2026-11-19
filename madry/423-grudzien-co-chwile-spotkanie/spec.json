@@ -1,0 +1,78 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "W grudniu co chwilę spotkanie *i nie mam kiedy odpocząć*",
+  "sub": "Wigilia klubowa, klasowa, rodzinna i jeszcze urodziny",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Policz swój grudzień",
+   "body": "Wpisz wszystkie spotkania obok treningów. Zobaczysz, ile wieczorów zostało na odpoczynek.",
+   "art": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "zajęte",
+      "v": 0.85,
+      "note": "spotkania"
+     },
+     {
+      "label": "wolne",
+      "v": 0.2,
+      "hl": true,
+      "note": "odpoczynek"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Wybierz ważne",
+   "body": "Na część spotkań pójdziesz z radością, z części możesz zrezygnować. Wybierasz to, co dla ciebie ważne."
+  },
+  {
+   "title": "Krócej też się liczy",
+   "body": "Możesz przyjść na godzinę i wyjść wcześniej. Mówisz o tym od razu, bez tłumaczenia się."
+  }
+ ],
+ "end": {
+  "text": "Wybieram spotkania *i zostawiam czas dla siebie*.",
+  "cta": "Zapisz i policz swój grudzień"
+ }
+}

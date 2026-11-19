@@ -1,0 +1,80 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Klub rozdał nagrody za rok, *a mnie na liście nie było*",
+  "sub": "Oklaskiwałem innych, a w środku było mi przykro",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Masz prawo do smutku",
+   "body": "Przykrość pokazuje, że ci zależy. Daj sobie chwilę, zanim zaczniesz wyciągać wnioski.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "heart",
+      "label": "przykro mi"
+     },
+     {
+      "icon": "pause",
+      "label": "chwila dla siebie"
+     },
+     {
+      "icon": "note",
+      "label": "spokojne wnioski",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Kryteria wyboru",
+   "body": "Nagrody przyznają ludzie według swoich kryteriów. Zapytaj, za co je dawano."
+  },
+  {
+   "title": "Twój bilans",
+   "body": "Zapisz kilka rzeczy, które w tym roku zrobiłeś dobrze. To twoje dowody."
+  }
+ ],
+ "end": {
+  "text": "Doceniam *swój rok po swojemu*.",
+  "cta": "Zapisz i spisz swój bilans"
+ }
+}
