@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-11-18T09:50:00Z",
+ "ostatnio_do": "2026-11-19T09:45:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -533,6 +533,38 @@
    "uuid": "1C8527F4-8610-4FED-8369-6E2B5506D37D",
    "data": "2026-11-18",
    "temat": "spotkanie cykliczne (lista wykluczeń)",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "pominięte"
+  },
+  {
+   "uuid": "C39029FD-4615-4CE0-9885-5CF39F22D973",
+   "data": "2026-11-18",
+   "temat": "sesja z zawodnikiem (bramkarz)",
+   "dodano_mysli": 1,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "409C8D02-706C-4E8D-882C-7026546B6163",
+   "data": "2026-11-19",
+   "temat": "pierwsze spotkanie (wstęp, bez nowych myśli)",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "34DCF62B-2A1C-4209-9BFC-2060C43EF244",
+   "data": "2026-11-18",
+   "temat": "krótsze niż 15 min",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "pominięte"
+  },
+  {
+   "uuid": "F6B6F059-9AA4-41FE-BF20-4EF04DF0F817",
+   "data": "2026-11-18",
+   "temat": "krótsze niż 15 min",
    "dodano_mysli": 0,
    "dodano_metafor": 0,
    "status": "pominięte"

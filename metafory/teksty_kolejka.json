@@ -207,7 +207,7 @@
   "ocena": null,
   "tekst": "Motywacja zewnętrzna też jest w porządku, jeśli realizuje twoje cele. Nagrody, medale i pochwały mogą pracować na ciebie.",
   "zrodlo": "zoom 2026-11-03",
-  "uzyta": null
+  "uzyta": "2026-11-19"
  },
  {
   "id": 1272,
@@ -13007,6 +13007,16 @@
   "ocena": null,
   "tekst": "Niećwiczone umiejętności zanikają. Kto zawsze dostaje gotową odpowiedź, przestaje myśleć sam, a na zawodach musi skorzystać z własnej głowy.",
   "zrodlo": "zoom 2026-11-16",
+  "uzyta": null
+ },
+ {
+  "id": 1305,
+  "nr_banku": null,
+  "temat": "dowody i pewność siebie",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Ustaw telefon na statywie i nagraj trening. Potem wytnij momenty, w których zrobiłeś coś bardzo dobrze, i je sobie oglądaj. To są twoje dowody, że potrafisz.",
+  "zrodlo": "zoom 2026-11-18",
   "uzyta": null
  }
 ]

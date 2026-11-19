@@ -332,5 +332,18 @@
   "godzina": "19:30",
   "metricool_id": 432603617,
   "metricool_uuid": "-2961128804085773722"
+ },
+ {
+  "data": "2026-11-19",
+  "id": 25,
+  "layout": "G6",
+  "photo": "svg:dom lokator",
+  "palette": "cream",
+  "font": "playfair",
+  "focus": null,
+  "tilt": -2,
+  "spec": "metafory/relacje/2026-11-19.json",
+  "png": "metafory/relacje/2026-11-19.png",
+  "godzina": "19:30"
  }
 ]
