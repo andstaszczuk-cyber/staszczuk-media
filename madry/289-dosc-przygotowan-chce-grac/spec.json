@@ -1,0 +1,67 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Mam dość przygotowań *i chcę już grać*",
+  "sub": "Kolejny tydzień tego samego, a mecz wciąż za chwilę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Głód gry to paliwo",
+   "body": "Zniecierpliwienie pokazuje, że ci zależy. Zostaw je na pierwszy mecz.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "mam dość",
+    "to": "zostawiam na mecz"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jedno zadanie na tydzień",
+   "body": "Wybierz rzecz, którą chcesz wnieść do pierwszego meczu, i sprawdzaj ją na każdym treningu."
+  },
+  {
+   "title": "Policz, co zostało",
+   "body": "Ile treningów do startu i co w każdym sprawdzisz. Rozpisz to na kartce."
+  }
+ ],
+ "end": {
+  "text": "Przygotowania to *też twój sezon*.",
+  "cta": "Zapisz i rozpisz zadania do startu"
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Jestem w składzie, *ale czuję, że jestem na próbie*",
+  "sub": "Każdy mecz traktuję jak ostatnią szansę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Grasz, bo zasłużyłeś",
+   "body": "Trener postawił na ciebie dziś. To jest fakt, który możesz wziąć do meczu.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "jeden błąd i wylatuję",
+    "to": "gram, bo tu jestem"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Graj, żeby wygrać akcję",
+   "body": "Ostrożność z lęku spowalnia. Odważna decyzja z błędem daje więcej niż nijaka."
+  },
+  {
+   "title": "Zapytaj o oczekiwania",
+   "body": "Co mam robić na tej pozycji? Jasne zadanie zdejmuje połowę napięcia."
+  }
+ ],
+ "end": {
+  "text": "Grasz *tu i teraz*.",
+  "cta": "Zapisz i zapytaj o swoje zadania"
+ }
+}

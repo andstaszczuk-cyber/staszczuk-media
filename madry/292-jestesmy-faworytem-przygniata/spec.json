@@ -1,0 +1,74 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Wszyscy mówią, że jesteśmy faworytem, *i to nas przygniata*",
+  "sub": "Jeszcze nie zagraliśmy, a już mamy wygrać ligę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Etykieta to cudza prognoza",
+   "body": "Faworyt to opinia innych. Punkty zdobywa się na boisku, mecz po meczu.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "trophy",
+     "label": "musimy wygrać ligę",
+     "cross": true
+    },
+    "right": {
+     "icon": "check",
+     "label": "nasze zadania w tym meczu"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Presja to przywilej",
+   "body": "Ktoś uważa, że jesteście dobrzy. To komplement, który możecie wziąć bez długu."
+  },
+  {
+   "title": "Wracaj do zadań",
+   "body": "Co robimy w obronie, co robimy po stracie, co w pierwszych minutach."
+  }
+ ],
+ "end": {
+  "text": "Faworytem jest się *na papierze*.",
+  "cta": "Zapisz i spisz zadania na pierwszy mecz"
+ }
+}

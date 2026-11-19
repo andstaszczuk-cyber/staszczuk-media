@@ -1,0 +1,67 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Po jednym słabym meczu *wypadłem ze składu*",
+  "sub": "Całe przygotowania dobrze, a liczy się jeden występ",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "bench",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Chwilowa przerwa w składzie",
+   "body": "Słowa mają znaczenie. Wypadłem brzmi jak koniec, przerwa brzmi jak etap.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "wypadłem ze składu",
+    "to": "mam chwilową przerwę"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Ławka gotowych",
+   "body": "Rezerwowy jest jak strażak: długo nic, a potem pełna kompetencja."
+  },
+  {
+   "title": "Rozmowa z trenerem",
+   "body": "Co mam poprawić, żeby wrócić? Jedno pytanie daje plan na tydzień."
+  }
+ ],
+ "end": {
+  "text": "Miejsce w składzie *wywalczasz na nowo*.",
+  "cta": "Zapisz i zapytaj, co poprawić"
+ }
+}

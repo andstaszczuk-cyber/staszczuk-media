@@ -1,0 +1,80 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "W drużynie są nowi z zagranicy *i ciężko nam się dogadać*",
+  "sub": "Na boisku chaos, w szatni dwie osobne grupy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "coach",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "mic",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Krótki wspólny język",
+   "body": "Kilka słów na boisku, które zna każdy. Ustalcie je razem na treningu.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "hand",
+      "label": "gest"
+     },
+     {
+      "icon": "mic",
+      "label": "jedno słowo"
+     },
+     {
+      "icon": "check",
+      "label": "wszyscy znają",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zrób pierwszy krok",
+   "body": "Zapytaj, jak się mówi u nich. Mały gest buduje relację szybciej niż czekanie."
+  },
+  {
+   "title": "Oni też są w nowym miejscu",
+   "body": "Nowy kraj, nowy język, nowi ludzie. Ich napięcie bywa większe niż twoje."
+  }
+ ],
+ "end": {
+  "text": "Drużynę buduje się *rozmową*.",
+  "cta": "Zapisz i ustal z drużyną wspólne hasła"
+ }
+}

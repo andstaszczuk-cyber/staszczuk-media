@@ -1,0 +1,72 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Idę do szkoły sportowej *i boję się, że poziom mnie przerośnie*",
+  "sub": "U siebie byłem najlepszy, tam wszyscy są dobrzy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Byłeś najlepszy, bo rosłeś",
+   "body": "Teraz trafiasz tam, gdzie rośnie się szybciej. To był powód tej decyzji.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "mój klub",
+     "szkoła sportowa",
+     "kolejny poziom"
+    ],
+    "done": 1,
+    "top": true
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Punkt odniesienia u siebie",
+   "body": "Ty miesiąc temu i ty dziś. Ranking w klasie pokaże tylko część obrazu."
+  },
+  {
+   "title": "Pierwszy semestr to adaptacja",
+   "body": "Nowy plan dnia, internat, treningi rano. Ciało i głowa potrzebują czasu."
+  }
+ ],
+ "end": {
+  "text": "Trafiasz tam, *gdzie się rośnie*.",
+  "cta": "Zapisz i spisz, po co tam idziesz"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Nowy trener *w ogóle mnie nie zauważa*",
+  "sub": "Innym coś podpowiada, a mnie mija bez słowa",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Brak uwag to też informacja",
+   "body": "Często trener mówi najwięcej do tych, których jeszcze nie zna albo musi poprawić.",
+   "art": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "nie widzi mnie?",
+     "skreślił mnie?",
+     "nie pasuję mu?"
+    ],
+    "ask": [
+     "Trenerze,",
+     "nad czym",
+     "mam pracować?"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Daj się zobaczyć",
+   "body": "Jakość, punktualność i jedno pytanie po treningu. To widać lepiej niż krzyk."
+  },
+  {
+   "title": "Zapytaj wprost",
+   "body": "Krótko, po treningu, bez pretensji. Dostaniesz zadanie zamiast domysłów."
+  }
+ ],
+ "end": {
+  "text": "Trener nie czyta *w twoich myślach*.",
+  "cta": "Zapisz i przygotuj jedno pytanie"
+ }
+}

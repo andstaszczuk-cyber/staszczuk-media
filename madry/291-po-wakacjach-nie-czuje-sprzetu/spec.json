@@ -1,0 +1,83 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po wakacjach *nie czuję sprzętu* tak jak przed przerwą",
+  "sub": "Piłka, rakieta, kij: wszystko jakby obce",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "hand",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Czucie wraca szybciej niż forma",
+   "body": "Kilka tygodni przerwy to dla układu nerwowego krótka pauza. Potrzebuje powtórzeń.",
+   "art": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "1. tydzień",
+      "v": 0.4,
+      "note": "obco"
+     },
+     {
+      "label": "2. tydzień",
+      "v": 0.65,
+      "note": "lepiej"
+     },
+     {
+      "label": "3. tydzień",
+      "v": 0.85,
+      "hl": true,
+      "note": "moje"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Dużo prostych kontaktów",
+   "body": "Codziennie kilka minut z samym sprzętem, bez oceny i bez wyniku."
+  },
+  {
+   "title": "Porównuj tydzień do tygodnia",
+   "body": "Zestaw dzisiejszy trening z tym sprzed siedmiu dni."
+  }
+ ],
+ "end": {
+  "text": "Ręce pamiętają *więcej, niż myślisz*.",
+  "cta": "Zapisz i zaplanuj codzienne kontakty"
+ }
+}

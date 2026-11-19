@@ -1,0 +1,74 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Trener dokręca mi śrubę *i myślę, że mnie nie lubi*",
+  "sub": "Od innych wymaga mniej, ode mnie ciągle więcej",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Wymagania to też inwestycja",
+   "body": "Trenerzy rzadko tracą czas na kogoś, w kim nie widzą potencjału.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "cloudRain",
+     "label": "uwziął się na mnie",
+     "cross": true
+    },
+    "right": {
+     "icon": "star",
+     "label": "widzi we mnie więcej"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Oddziel formę od treści",
+   "body": "Ton bywa ostry. Pod spodem jest zadanie. Wyłap je i zapisz."
+  },
+  {
+   "title": "Zapytaj o cel",
+   "body": "Po co mi ta dodatkowa praca? Gdy znasz cel, łatwiej ją zrobić."
+  }
+ ],
+ "end": {
+  "text": "Wymagający to *nie wrogi*.",
+  "cta": "Zapisz i zapytaj trenera o cel"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Ogłosiłem wszystkim cel na sezon *i teraz czuję presję*",
+  "sub": "Polubienia już są, a pracy jeszcze cała masa",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "point",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Deklaracja i wdrożenie",
+   "body": "Nagroda za ogłoszenie przyszła od razu. Za wykonanie przyjdzie później.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "phone",
+      "top": "ogłoszenie",
+      "bottom": "brawa"
+     },
+     {
+      "icon": "dumbbell",
+      "top": "praca",
+      "bottom": "miesiące",
+      "hl": true
+     },
+     {
+      "icon": "flag",
+      "top": "cel",
+      "bottom": "sezon"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Cel ma widełki",
+   "body": "Minimum, które cię zadowoli, i maksimum, o które walczysz. Wtedy jest przestrzeń."
+  },
+  {
+   "title": "Mów o procesie",
+   "body": "Gdy ktoś pyta o cel, opowiedz, nad czym teraz pracujesz."
+  }
+ ],
+ "end": {
+  "text": "Cel jest *twój*.",
+  "cta": "Zapisz i rozpisz cel z widełkami"
+ }
+}

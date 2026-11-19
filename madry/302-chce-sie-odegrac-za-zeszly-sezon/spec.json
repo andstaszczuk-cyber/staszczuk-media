@@ -1,0 +1,74 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Chcę się odegrać *za zeszły sezon*",
+  "sub": "W głowie mam rachunek do wyrównania",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Rewanż napędza i spina",
+   "body": "Złość daje energię, ale gra pod rachunek z przeszłością usztywnia ruchy.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "bolt",
+     "label": "muszę się odegrać",
+     "cross": true
+    },
+    "right": {
+     "icon": "note",
+     "label": "robię swoje zadanie"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Weź wnioski, zostaw rachunek",
+   "body": "Co z zeszłego sezonu robisz dziś inaczej? To jest twoja przewaga."
+  },
+  {
+   "title": "Mecz to premiera",
+   "body": "Grasz z tym rywalem dziś, w tym składzie i w tej formie."
+  }
+ ],
+ "end": {
+  "text": "Grasz *ten sezon*.",
+  "cta": "Zapisz i wypisz trzy wnioski z zeszłego roku"
+ }
+}

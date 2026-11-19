@@ -1,0 +1,67 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "W nowym klubie oczekują, *że od razu będę liderem*",
+  "sub": "Przyszedłem jako wzmocnienie i czuję każdy wzrok",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Już się pokazałeś",
+   "body": "Klub cię chciał za to, co zrobiłeś wcześniej. Tego nie musisz udowadniać od nowa.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "muszę się pokazać",
+    "to": "już tu jestem, robię swoje"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Lider to zachowania",
+   "body": "Komunikacja, punktualność, praca w obronie. To widać od pierwszego dnia."
+  },
+  {
+   "title": "Daj sobie czas",
+   "body": "Nowy system, nowi ludzie, nowe nawyki. Twoja jakość potrzebuje kilku tygodni."
+  }
+ ],
+ "end": {
+  "text": "Jakość buduje się *w codzienności*.",
+  "cta": "Zapisz i wypisz swoje mocne strony"
+ }
+}

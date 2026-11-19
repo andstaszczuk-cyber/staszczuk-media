@@ -1,0 +1,79 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Pierwszy start po lecie poszedł słabo *i czuję, że zmarnowałem wakacje*",
+  "sub": "Tyle pracy, a wynik gorszy niż w czerwcu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Pierwszy start to frycowe",
+   "body": "Po przerwie organizm i głowa uczą się na nowo rytmu zawodów.",
+   "art": {
+    "type": "scale10",
+    "caption": "JAK OCENIAM START",
+    "y": 240,
+    "points": [
+     {
+      "n": 2,
+      "label": "na gorąco"
+     },
+     {
+      "n": 5,
+      "label": "po tygodniu",
+      "hl": true
+     }
+    ],
+    "note": "emocje zaniżają ocenę"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Oddziel wynik od przebiegu",
+   "body": "Co poszło zgodnie z planem? Co jest do poprawki? Wypisz jedno i drugie."
+  },
+  {
+   "title": "Praca nie przepada",
+   "body": "Formę budowaną latem widać w kolejnych startach. Daj jej czas."
+  }
+ ],
+ "end": {
+  "text": "Lato pracuje *na cały sezon*.",
+  "cta": "Zapisz i rozpisz analizę startu"
+ }
+}

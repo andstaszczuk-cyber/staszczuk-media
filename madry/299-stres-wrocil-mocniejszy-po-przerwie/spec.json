@@ -1,0 +1,84 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po przerwie stres przed startem *wrócił mocniejszy*",
+  "sub": "Latem było spokojnie, a teraz serce wali jak nigdy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Układ nerwowy się odzwyczaił",
+   "body": "Po kilku tygodniach bez zawodów ten sam bodziec odczuwasz mocniej. To mija ze startami.",
+   "art": {
+    "type": "bars",
+    "caption": "STRES PRZED STARTEM",
+    "items": [
+     {
+      "label": "1. start",
+      "v": 0.92,
+      "note": "mocno"
+     },
+     {
+      "label": "3. start",
+      "v": 0.66,
+      "note": "mniej"
+     },
+     {
+      "label": "5. start",
+      "v": 0.48,
+      "hl": true,
+      "note": "znajomo"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Spodziewaj się go",
+   "body": "Powiedz sobie wcześniej: będzie mocniej, bo dawno nie startowałem. Przewidywalny stres mniej straszy."
+  },
+  {
+   "title": "Kilka oddechów przed startem",
+   "body": "Dłuższy wydech niż wdech. Przećwicz to na treningu, zanim będzie potrzebne."
+  }
+ ],
+ "end": {
+  "text": "Stres to *mobilizacja*, która wraca do formy.",
+  "cta": "Zapisz i przećwicz swój oddech"
+ }
+}

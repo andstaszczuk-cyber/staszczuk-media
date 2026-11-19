@@ -1,0 +1,72 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "W upale *skracam rozgrzewkę* i potem tego żałuję",
+  "sub": "Szkoda mi sił, a pierwsze minuty mam jak z waty",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Rozgrzewka to przygotowanie głowy",
+   "body": "W upale ciało rozgrzewa się szybciej, ale głowa dalej potrzebuje wejścia w zadanie.",
+   "art": {
+    "type": "same",
+    "left": "CHŁODNO",
+    "right": "UPAŁ",
+    "items": [
+     "pobudzenie",
+     "pierwsze akcje",
+     "skupienie"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Krócej, ale w całości",
+   "body": "Mniej intensywności, ta sama kolejność elementów. Rutyna zostaje."
+  },
+  {
+   "title": "Cień i woda w planie",
+   "body": "Ustal z trenerem, gdzie i jak się rozgrzewasz, gdy jest gorąco."
+  }
+ ],
+ "end": {
+  "text": "Upał to *jedna z kart* w rozdaniu.",
+  "cta": "Zapisz i ustal rozgrzewkę na upał"
+ }
+}

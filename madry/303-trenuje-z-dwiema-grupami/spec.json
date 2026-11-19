@@ -1,0 +1,81 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Trenuję z dwiema grupami *i nie wiem, gdzie należę*",
+  "sub": "Dla młodszych jestem starszy, dla starszych za młody",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Dwie role, jedna osoba",
+   "body": "W każdej grupie masz inne zadanie. Twoja wartość jako zawodnika zostaje ta sama.",
+   "art": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "MŁODSI",
+      "items": [
+       "prowadzę",
+       "pokazuję"
+      ]
+     },
+     {
+      "title": "STARSI",
+      "items": [
+       "uczę się",
+       "nadążam"
+      ]
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Przełączaj się świadomie",
+   "body": "Przed treningiem jedno zdanie: dziś jestem tu po to, żeby..."
+  },
+  {
+   "title": "To etap przejściowy",
+   "body": "Taki układ zwykle oznacza, że trener widzi w tobie kogoś na wyższy poziom."
+  }
+ ],
+ "end": {
+  "text": "Należysz tam, *gdzie się rozwijasz*.",
+  "cta": "Zapisz i ustal zadanie na każdą grupę"
+ }
+}
