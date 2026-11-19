@@ -1,0 +1,144 @@
+{
+ "cover": {
+  "left": "TRENING",
+  "right": "POKÓJ",
+  "title": "Pokój\n*na obozie*",
+  "size": 96,
+  "lh": 1.25,
+  "layout": "split",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 148,
+     "y": 60,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "dwa razy",
+      "dziennie"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 612,
+     "y": 60,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "sen",
+      "i zasady"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 340,
+     "y": 360,
+     "s": 0.45,
+     "pose": "stand"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Krótszy lont",
+   "body": "Zmęczony irytujesz się drobiazgami, które w domu by cię nie ruszyły.",
+   "viz": {
+    "type": "bars",
+    "caption": "IRYTACJA",
+    "items": [
+     {
+      "label": "wyspany",
+      "v": 0.25
+     },
+     {
+      "label": "zmęczony",
+      "v": 0.85,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zasady pierwszego wieczoru",
+   "size": 58,
+   "body": "Ustalone na spokojnie oszczędzają wielu spięć.",
+   "viz": {
+    "type": "notes",
+    "title": "NASZ POKÓJ",
+    "lines": [
+     "światło o 23",
+     "torby pod oknem",
+     "telefony cicho"
+    ]
+   }
+  },
+  {
+   "title": "Wspólnie i osobno",
+   "body": "Trochę czasu razem i trochę ciszy dla siebie.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "people",
+     "label": "razem",
+     "sub": "żarty i rozmowy"
+    },
+    "right": {
+     "icon": "moon",
+     "label": "dla siebie",
+     "sub": "cisza i sen"
+    }
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakie zasady *ustalicie* w pokoju?",
+  "cta": "Pierwszego wieczoru na obozie zaproponuj wspólne zasady.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

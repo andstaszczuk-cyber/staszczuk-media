@@ -1,0 +1,109 @@
+{
+ "cover": {
+  "kicker": "TURNIEJ HALOWY",
+  "title": "Dwa głosy\n*z trybun*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "top",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 570
+    },
+    {
+     "k": "person",
+     "x": 250,
+     "y": 70,
+     "s": 1.0,
+     "pose": "think"
+    },
+    {
+     "k": "chip",
+     "x": 0,
+     "y": 60,
+     "text": "DO PRZODU",
+     "size": 34,
+     "c": "soft",
+     "tc": "fg"
+    },
+    {
+     "k": "chip",
+     "x": 560,
+     "y": 60,
+     "text": "ZOSTAŃ Z TYŁU",
+     "size": 34
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 60,
+     "y": 180,
+     "s": 130,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 700,
+     "y": 180,
+     "s": 120,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Dwa komunikaty naraz",
+   "size": 62,
+   "body": "Uwaga mieści niewiele i gubisz się w akcji.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "people",
+     "label": "trybuny",
+     "sub": "do przodu"
+    },
+    "right": {
+     "icon": "whistle",
+     "label": "trener",
+     "sub": "zostań z tyłu"
+    }
+   }
+  },
+  {
+   "title": "Jeden głos na boisku",
+   "size": 64,
+   "body": "Taktykę daje trener, z trybun płynie doping.",
+   "viz": {
+    "type": "focus",
+    "center": "głos trenera",
+    "around": [
+     "tata",
+     "kibice",
+     "koledzy",
+     "ławka"
+    ]
+   }
+  },
+  {
+   "title": "Powiedz przed turniejem",
+   "size": 60,
+   "body": "Rodzice chętnie pomogą, kiedy wiedzą, czego potrzebujesz.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "krzyczą instrukcje",
+    "to": "kibicujcie, resztę powie trener"
+   }
+  }
+ ],
+ "end": {
+  "question": "O co *poprosisz* rodziców?",
+  "cta": "Porozmawiaj z rodzicami o dopingu przed najbliższym turniejem.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

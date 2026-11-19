@@ -1,0 +1,133 @@
+{
+ "cover": {
+  "kicker": "PRZERWA",
+  "title": "Inny sport\n*na zimę*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "top",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 570
+    },
+    {
+     "k": "person",
+     "x": 20,
+     "y": 70,
+     "s": 1.0,
+     "pose": "run"
+    },
+    {
+     "k": "icon",
+     "name": "drop",
+     "x": 430,
+     "y": 160,
+     "s": 130,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 590,
+     "y": 120,
+     "s": 160,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "snow",
+     "x": 770,
+     "y": 170,
+     "s": 120,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Jedna piosenka w kółko",
+   "size": 62,
+   "body": "Ten sam ruch dzień po dniu w końcu nudzi.",
+   "viz": {
+    "type": "bars",
+    "caption": "OCHOTA",
+    "items": [
+     {
+      "label": "tydzień 1",
+      "v": 0.9
+     },
+     {
+      "label": "tydzień 8",
+      "v": 0.5
+     },
+     {
+      "label": "tydzień 16",
+      "v": 0.2,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Znowu początkujący",
+   "size": 64,
+   "body": "Uczysz się z pokorą i widzisz, że za błędy nikt cię nie skreśla.",
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "drop",
+      "label": "basen"
+     },
+     {
+      "icon": "mountain",
+      "label": "ścianka"
+     },
+     {
+      "icon": "snow",
+      "label": "narty biegowe"
+     },
+     {
+      "icon": "foot",
+      "label": "łyżwy"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Z głową i z trenerem",
+   "size": 62,
+   "body": "Ustal, co pasuje do twojego planu.",
+   "viz": {
+    "type": "table",
+    "left": "AKTYWNOŚĆ",
+    "right": "DLA MNIE",
+    "good": true,
+    "rows": [
+     [
+      "basen",
+      "oddech i luz"
+     ],
+     [
+      "ścianka",
+      "koncentracja"
+     ],
+     [
+      "łyżwy",
+      "równowaga"
+     ]
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaki sport *sprawdzisz* tej zimy?",
+  "cta": "Zaplanuj jedno popołudnie w innym sporcie i ustal je z trenerem.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

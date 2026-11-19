@@ -1,0 +1,105 @@
+{
+ "cover": {
+  "kicker": "DRUŻYNA",
+  "title": "Przyłap kolegę\n*na dobrym*",
+  "size": 88,
+  "lh": 1.25,
+  "layout": "hero",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 20,
+     "y": 90,
+     "s": 1.0,
+     "pose": "point"
+    },
+    {
+     "k": "person",
+     "x": 500,
+     "y": 90,
+     "s": 1.0,
+     "pose": "win"
+    },
+    {
+     "k": "chip",
+     "x": 330,
+     "y": 0,
+     "text": "DOBRA ROBOTA",
+     "size": 34
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 790,
+     "y": 40,
+     "s": 100,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Błędy widać od razu",
+   "body": "O dobrych rzeczach mówimy w szatni znacznie rzadziej.",
+   "viz": {
+    "type": "bars",
+    "caption": "W SZATNI MÓWIMY O",
+    "items": [
+     {
+      "label": "błędach",
+      "v": 0.85
+     },
+     {
+      "label": "dobrym",
+      "v": 0.2,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Jedno konkretne zdanie",
+   "size": 62,
+   "body": "Widziałem, co zrobiłeś, i to dla nas ważne.",
+   "viz": {
+    "type": "notes",
+    "title": "DOCENIAM",
+    "lines": [
+     "pierwszy na treningu",
+     "mobilizował obronę",
+     "dawał z siebie wszystko"
+    ]
+   }
+  },
+  {
+   "title": "Atmosfera z codzienności",
+   "size": 60,
+   "body": "Zauważeni ludzie chętniej wkładają wysiłek.",
+   "viz": {
+    "type": "hub",
+    "center": "drużyna",
+    "icon": "people",
+    "items": [
+     "zauważam",
+     "mówię",
+     "doceniam"
+    ],
+    "hl": 1
+   }
+  }
+ ],
+ "end": {
+  "question": "Kogo *docenisz* przed przerwą?",
+  "cta": "Powiedz jednej osobie z drużyny, co robiła dobrze w tym roku.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

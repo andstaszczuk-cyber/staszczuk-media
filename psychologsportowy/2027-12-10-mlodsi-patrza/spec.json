@@ -1,0 +1,106 @@
+{
+ "cover": {
+  "kicker": "HALA",
+  "title": "Młodsi\n*patrzą*",
+  "size": 104,
+  "lh": 1.25,
+  "layout": "hero",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 90,
+     "s": 1.0,
+     "pose": "stand"
+    },
+    {
+     "k": "person",
+     "x": 520,
+     "y": 335,
+     "s": 0.5,
+     "pose": "stand"
+    },
+    {
+     "k": "person",
+     "x": 680,
+     "y": 335,
+     "s": 0.5,
+     "pose": "wave"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 600,
+     "y": 90,
+     "s": 150,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Uczą się przez naśladowanie",
+   "size": 56,
+   "body": "Patrzą, jak reagujesz na błąd i na trudne ćwiczenie.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "eye",
+      "label": "patrzą"
+     },
+     {
+      "icon": "brain",
+      "label": "zapamiętują"
+     },
+     {
+      "icon": "play",
+      "label": "powtarzają",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Wzór w prostych rzeczach",
+   "size": 60,
+   "body": "Pełne tempo, powrót po błędzie, szacunek do kolegów.",
+   "viz": {
+    "type": "checklist",
+    "title": "NA TRENINGU",
+    "chip": "WIDZĄ",
+    "chipX": 400,
+    "backChip": "GADANIE",
+    "items": [
+     "pełne tempo",
+     "powrót po błędzie",
+     "szacunek"
+    ]
+   }
+  },
+  {
+   "title": "Tłumaczysz i rozumiesz",
+   "size": 62,
+   "body": "Nazywasz to, co robiłeś automatycznie.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "robię, ale nie wiem jak",
+    "to": "umiem to wytłumaczyć"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *widzą* w tobie młodsi?",
+  "cta": "Na najbliższym treningu pomóż komuś młodszemu w jednym ćwiczeniu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

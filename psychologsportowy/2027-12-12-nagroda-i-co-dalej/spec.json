@@ -1,0 +1,104 @@
+{
+ "cover": {
+  "big": "NR 1",
+  "bigSize": 230,
+  "bigSub": "i co dalej?",
+  "title": "Nagroda\n*i co dalej*",
+  "size": 96,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 560,
+     "y": 110,
+     "s": 180,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 760,
+     "y": 60,
+     "s": 110,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Nagroda czy zobowiązanie?",
+   "size": 58,
+   "body": "Mózg szybko robi z wyróżnienia ciężar.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "teraz muszę więcej",
+    "to": "to wypadkowa mojej pracy"
+   }
+  },
+  {
+   "title": "Rozłóż ją na umiejętności",
+   "size": 58,
+   "body": "Statuetka stoi na półce, umiejętności idą z tobą.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "PÓŁKA",
+      "icon": "trophy",
+      "items": [
+       "statuetka",
+       "zdjęcie"
+      ],
+      "dim": true
+     },
+     {
+      "title": "BOISKO",
+      "icon": "ball",
+      "items": [
+       "wytrwałość",
+       "technika",
+       "decyzje"
+      ],
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Ciesz się dłużej",
+   "body": "Sukces przeżywaj tak długo jak porażkę.",
+   "viz": {
+    "type": "bars",
+    "caption": "ILE PRZEŻYWAM",
+    "items": [
+     {
+      "label": "porażkę",
+      "v": 0.85
+     },
+     {
+      "label": "sukces",
+      "v": 0.15
+     },
+     {
+      "label": "od dziś",
+      "v": 0.8,
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Z czego *składa się* twoja nagroda?",
+  "cta": "Wypisz trzy umiejętności, które dały ci to wyróżnienie.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
