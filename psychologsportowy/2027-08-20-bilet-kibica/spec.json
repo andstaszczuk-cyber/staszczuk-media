@@ -1,0 +1,127 @@
+{
+ "cover": {
+  "kicker": "TRYBUNY",
+  "title": "Kibice wrócili\n*na trybuny*",
+  "size": 94,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "eyes",
+     "pts": [
+      [
+       500,
+       70
+      ],
+      [
+       610,
+       50
+      ],
+      [
+       720,
+       80
+      ],
+      [
+       830,
+       60
+      ],
+      [
+       550,
+       160
+      ],
+      [
+       670,
+       150
+      ],
+      [
+       790,
+       165
+      ]
+     ]
+    },
+    {
+     "k": "person",
+     "x": 100,
+     "y": 90,
+     "s": 1.0,
+     "pose": "stand"
+    },
+    {
+     "k": "chip",
+     "x": 470,
+     "y": 300,
+     "text": "ich rozrywka",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Wzrok trybun to bodziec",
+   "body": "Ciało reaguje na tłum jak na ocenę. Szybsze tętno, więcej napięcia.",
+   "viz": {
+    "type": "bodyMap",
+    "points": [
+     {
+      "part": "chest",
+      "label": "szybsze tętno"
+     },
+     {
+      "part": "shoulders",
+      "label": "spięte barki"
+     },
+     {
+      "part": "lhand",
+      "label": "drżą dłonie",
+      "side": 0
+     }
+    ]
+   }
+  },
+  {
+   "title": "Bilet to ich rozrywka",
+   "body": "Kibic przyszedł przeżywać mecz. Twoim zadaniem jest grać.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "people",
+     "label": "kibic",
+     "sub": "przeżywa i krzyczy"
+    },
+    "right": {
+     "icon": "ball",
+     "label": "ty",
+     "sub": "grasz swoje zadania"
+    }
+   }
+  },
+  {
+   "title": "Zamień hałas w skupienie",
+   "body": "Wybierz punkt uwagi: piłka, partner, rywal. Hałas zostaje tłem.",
+   "viz": {
+    "type": "focus",
+    "center": "piłka i zadanie",
+    "around": [
+     "okrzyki",
+     "gwizdy",
+     "oklaski",
+     "telefony"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Na czym skupisz uwagę przy *pełnych trybunach*?",
+  "cta": "Wybierz jeden punkt uwagi na mecz przy publiczności.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

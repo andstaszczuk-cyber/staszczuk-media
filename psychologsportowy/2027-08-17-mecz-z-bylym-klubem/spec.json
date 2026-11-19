@@ -1,0 +1,155 @@
+{
+ "cover": {
+  "left": "EGO",
+  "right": "CEL",
+  "title": "Mecz z byłym\n*klubem*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "pokażę",
+      "im"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "moje",
+      "zadania"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "hips"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Emocje będą większe",
+   "body": "Znasz ludzi po drugiej stronie. Masz prawo czuć więcej niż zwykle.",
+   "viz": {
+    "type": "scale10",
+    "caption": "POBUDZENIE",
+    "points": [
+     {
+      "n": 4,
+      "label": "zwykły mecz"
+     },
+     {
+      "n": 7,
+      "label": "ten mecz",
+      "hl": true
+     },
+     {
+      "n": 10,
+      "label": "zemsta"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Ego czy cel?",
+   "body": "Udowadnianie każe forsować akcje. Cel każe grać swoje.",
+   "viz": {
+    "type": "table",
+    "left": "EGO",
+    "right": "CEL",
+    "good": true,
+    "rows": [
+     [
+      "pokażę im",
+      "gram swoje zadania"
+     ],
+     [
+      "strzelę za wszelką cenę",
+      "podaję lepiej ustawionemu"
+     ],
+     [
+      "muszę go ograć",
+      "trzymam się planu"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Zadania jak zawsze",
+   "body": "Przygotuj się jak na każdego rywala. Ten akurat zna twoje nawyki.",
+   "viz": {
+    "type": "same",
+    "left": "ZWYKŁY MECZ",
+    "right": "BYŁY KLUB",
+    "items": [
+     "rozgrzewka",
+     "plan na rywala",
+     "reset po błędzie"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co chcesz *pokazać sobie* w tym meczu?",
+  "cta": "Zapisz dwa zadania na mecz z byłą drużyną i trzymaj się ich.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

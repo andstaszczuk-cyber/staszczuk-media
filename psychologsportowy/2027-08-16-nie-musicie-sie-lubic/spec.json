@@ -1,0 +1,114 @@
+{
+ "cover": {
+  "kicker": "DRUŻYNA",
+  "title": "Nie musicie\n*się lubić*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 0,
+     "y": 90,
+     "s": 0.95,
+     "pose": "hips"
+    },
+    {
+     "k": "person",
+     "x": 580,
+     "y": 90,
+     "s": 0.95,
+     "pose": "hips",
+     "flip": true
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 360,
+     "y": 330,
+     "s": 180,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 316,
+     "y": 240,
+     "text": "wspólny cel",
+     "size": 30
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Sympatia to bonus",
+   "body": "W każdej drużynie są ludzie, z którymi nadajesz na innych falach.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "heart",
+     "label": "sympatia",
+     "sub": "miło, gdy jest"
+    },
+    "right": {
+     "icon": "people",
+     "label": "współpraca",
+     "sub": "konieczna"
+    }
+   }
+  },
+  {
+   "title": "Szacunek w zachowaniach",
+   "body": "Podajesz, asekurujesz, mówisz o akcji. Bez uwag o osobie.",
+   "viz": {
+    "type": "table",
+    "left": "O OSOBIE",
+    "right": "O AKCJI",
+    "good": true,
+    "rows": [
+     [
+      "znowu ty zawalasz",
+      "wracaj szybciej"
+     ],
+     [
+      "nie da się z tobą grać",
+      "graj mi na nogę"
+     ],
+     [
+      "co ty robisz?",
+      "zostań przy nim"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Łączy was cel",
+   "body": "Na boisku wspólne zadanie. Poza boiskiem każdy ma prawo do swoich ludzi.",
+   "viz": {
+    "type": "hub",
+    "center": "wspólny cel",
+    "icon": "trophy",
+    "items": [
+     "ja",
+     "on",
+     "trener",
+     "drużyna"
+    ],
+    "hl": 3
+   }
+  }
+ ],
+ "end": {
+  "question": "Z kim musisz się *dogadać* na boisku?",
+  "cta": "Wybierz jedno zachowanie, którym okażesz szacunek osobie, z którą ci nie po drodze.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

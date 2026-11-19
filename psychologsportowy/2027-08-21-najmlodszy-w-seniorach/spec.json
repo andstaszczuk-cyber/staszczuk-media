@@ -1,0 +1,146 @@
+{
+ "cover": {
+  "left": "STRACH",
+  "right": "RESPEKT",
+  "title": "Najmłodszy\n*w szatni seniorów*",
+  "size": 84,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "oni są",
+      "lepsi"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "moja",
+      "energia"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "stand"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Respekt jest w porządku",
+   "body": "Szacunek do starszych pomaga. Strach przed nimi zabiera ci grę.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "eye",
+     "label": "strach",
+     "sub": "gram asekuracyjnie"
+    },
+    "right": {
+     "icon": "shield",
+     "label": "respekt",
+     "sub": "uczę się i gram"
+    }
+   }
+  },
+  {
+   "title": "Masz swoje atuty",
+   "body": "Szybkość, świeżość, głód gry. Trener wziął cię za coś konkretnego.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "bolt",
+      "label": "szybkość"
+     },
+     {
+      "icon": "battery",
+      "label": "świeżość"
+     },
+     {
+      "icon": "star",
+      "label": "głód gry",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Ucz się z bliska",
+   "body": "Patrz, jak starsi się przygotowują. Pytaj, zanim zaczniesz zgadywać.",
+   "viz": {
+    "type": "notes",
+    "title": "PODPATRZONE",
+    "lines": [
+     "spokojna rozgrzewka",
+     "reset po błędzie",
+     "rozmowa z trenerem"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Za co trener *wziął cię* do seniorów?",
+  "cta": "Zapisz trzy swoje atuty i przypominaj je sobie przed treningiem.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

@@ -1,0 +1,99 @@
+{
+ "cover": {
+  "big": "NOWE",
+  "bigSize": 220,
+  "bigSub": "buty na pierwszy mecz?",
+  "title": "Nowy sprzęt\n*na start sezonu*",
+  "size": 90,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 470,
+     "y": 110,
+     "w": 330,
+     "h": 260,
+     "r": 26,
+     "c": "card",
+     "stroke": "soft",
+     "sw": 4
+    },
+    {
+     "k": "icon",
+     "name": "foot",
+     "x": 550,
+     "y": 150,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 680,
+     "y": 60,
+     "text": "nowe",
+     "size": 30
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Znane daje spokój",
+   "body": "Sprawdzony sprzęt to jedna rzecz mniej do pilnowania w meczu.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "star",
+     "label": "nowe w dniu meczu",
+     "sub": "część uwagi w tle"
+    },
+    "right": {
+     "icon": "check",
+     "label": "sprawdzone",
+     "sub": "głowa wolna"
+    }
+   }
+  },
+  {
+   "title": "Testuj na treningu",
+   "body": "Nowe buty, rakieta, kij: najpierw kilka treningów, potem mecz.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "lekko",
+     "pełny",
+     "sparing",
+     "mecz"
+    ],
+    "done": 4
+   }
+  },
+  {
+   "title": "Torba po sznurku",
+   "body": "Lista rzeczy do spakowania. Wieczór przed meczem bez nerwów.",
+   "viz": {
+    "type": "checklist",
+    "title": "TORBA",
+    "chip": "GOTOWE",
+    "chipX": 380,
+    "backChip": "SZUKAM",
+    "items": [
+     "sprawdzone buty",
+     "zapasowy sprzęt",
+     "woda, jedzenie"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co w twojej torbie jest *sprawdzone*?",
+  "cta": "Każdą nową rzecz przetestuj na kilku treningach przed meczem.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

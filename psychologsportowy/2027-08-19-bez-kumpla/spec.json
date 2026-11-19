@@ -1,0 +1,106 @@
+{
+ "cover": {
+  "kicker": "ZMIANY W DRUŻYNIE",
+  "title": "Najlepszy kumpel\n*zmienił klub*",
+  "size": 88,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 100,
+     "s": 0.95,
+     "pose": "stand"
+    },
+    {
+     "k": "rect",
+     "x": 520,
+     "y": 110,
+     "w": 240,
+     "h": 480,
+     "r": 40,
+     "c": "faint",
+     "stroke": "soft",
+     "sw": 6
+    },
+    {
+     "k": "chip",
+     "x": 470,
+     "y": 30,
+     "text": "puste miejsce",
+     "c": "soft",
+     "tc": "fg",
+     "size": 30
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Masz prawo tęsknić",
+   "body": "Brakuje rozmów, żartów, wspólnych dojazdów. To normalne.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "mic",
+      "label": "rozmowy"
+     },
+     {
+      "icon": "star",
+      "label": "żarty"
+     },
+     {
+      "icon": "heart",
+      "label": "wsparcie",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zrób pierwszy krok",
+   "body": "W drużynie łatwiej o kontakt, niż się wydaje. Codziennie robicie coś razem.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "zagaduję",
+     "wspólny dojazd",
+     "rozmowa po treningu"
+    ],
+    "done": 1
+   }
+  },
+  {
+   "title": "Życzliwość wystarczy",
+   "body": "Na przyjaźń potrzeba czasu i dwóch osób. Na dobrą atmosferę wystarczy życzliwość.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "heart",
+     "label": "przyjaźń",
+     "sub": "przychodzi z czasem"
+    },
+    "right": {
+     "icon": "people",
+     "label": "życzliwi ludzie",
+     "sub": "są od zaraz"
+    }
+   }
+  }
+ ],
+ "end": {
+  "question": "Z kim możesz *dziś* zamienić kilka słów?",
+  "cta": "Zaproponuj komuś z drużyny wspólny dojazd albo rozmowę po treningu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

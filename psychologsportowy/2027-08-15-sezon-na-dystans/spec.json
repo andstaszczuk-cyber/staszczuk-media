@@ -1,0 +1,164 @@
+{
+ "cover": {
+  "kicker": "SEZON",
+  "title": "Sezon\n*na dystans*",
+  "size": 104,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 0,
+     "y": 270,
+     "s": 0.62,
+     "pose": "run"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 330,
+     "y": 470,
+     "s": 110,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 520,
+     "y": 470,
+     "s": 110,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 740,
+     "y": 400,
+     "s": 180,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 700,
+     "y": 320,
+     "text": "maj",
+     "size": 32
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Sezon to długi bieg",
+   "body": "Kilkadziesiąt meczów do wiosny. Tempo z sierpnia ma wystarczyć do maja.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "sierpień",
+      "icon": "bolt",
+      "hl": true,
+      "bottom": "start"
+     },
+     {
+      "top": "listopad",
+      "icon": "cloudRain",
+      "bottom": "jesień"
+     },
+     {
+      "top": "marzec",
+      "icon": "sun",
+      "bottom": "wiosna"
+     },
+     {
+      "top": "maj",
+      "icon": "flag",
+      "bottom": "meta"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Regeneracja w planie",
+   "body": "Dzień po meczu, sen i wolne planujesz tak samo poważnie jak treningi.",
+   "viz": {
+    "type": "week",
+    "caption": "TYDZIEŃ W SEZONIE",
+    "days": [
+     {
+      "d": "PN",
+      "icon": "bed",
+      "label": "odnowa",
+      "mark": "hl"
+     },
+     {
+      "d": "WT",
+      "icon": "dumbbell",
+      "label": "trening"
+     },
+     {
+      "d": "ŚR",
+      "icon": "dumbbell",
+      "label": "trening"
+     },
+     {
+      "d": "CZW",
+      "icon": "dumbbell",
+      "label": "trening"
+     },
+     {
+      "d": "PT",
+      "icon": "moon",
+      "label": "lżej"
+     },
+     {
+      "d": "SB",
+      "icon": "ball",
+      "label": "mecz"
+     },
+     {
+      "d": "ND",
+      "icon": "heart",
+      "label": "wolne",
+      "mark": "ring"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Znaj żółte flagi",
+   "body": "Drażliwość, gorszy sen, ciężkie nogi. Sygnał, żeby zwolnić.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "flag",
+      "label": "drażliwość"
+     },
+     {
+      "icon": "moon",
+      "label": "gorszy sen"
+     },
+     {
+      "icon": "battery",
+      "label": "ciężkie nogi",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak rozłożysz *siły* na cały sezon?",
+  "cta": "Wpisz do kalendarza dni regeneracji na najbliższy miesiąc.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
