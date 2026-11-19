@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Kto w Waszym domu\n*jest od sportu*?",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Podział *obowiązków*",
+   "body": "Dowozy i mecze rozłożone na dwoje.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Drugi rodzic *na trybunach*",
+   "body": "Dziecko potrzebuje obojga.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa *dorosłych*",
+   "body": "Ustalcie to między sobą, z dala od dziecka.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Sport dziecka *to sprawa całej rodziny*.",
+   "cta": "Zapisz i porozmawiajcie wieczorem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

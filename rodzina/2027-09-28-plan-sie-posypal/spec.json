@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Plan tygodnia\n*się posypał*.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Te same *kroki*",
+   "body": "Zmieniacie terminy, kierunek zostaje.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Co *najważniejsze*",
+   "body": "Wybierzcie, co zostaje, a co wypada.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *szukania winnych*",
+   "body": "Zmiany po prostu się zdarzają.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Dobry plan *ugina się, zamiast pękać*.",
+   "cta": "Zapisz na tygodnie, w których wszystko się zmienia.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

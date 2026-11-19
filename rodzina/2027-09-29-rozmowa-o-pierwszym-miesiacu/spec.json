@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Jak było we wrześniu? Dobrze.",
+   "new": "Co było *najfajniejsze we wrześniu*?",
+   "text": "Rozmowa na koniec miesiąca."
+  },
+  {
+   "kind": "point",
+   "title": "Co *się udało*",
+   "body": "Zacznijcie od dobrych rzeczy.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "point",
+   "title": "Co *było trudne*",
+   "body": "Bez oceniania, po prostu nazwijcie.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Co *zmieniamy*",
+   "body": "Jedna mała zmiana na październik.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "end",
+   "text": "Domknięty miesiąc *to spokojniejszy start kolejnego*.",
+   "cta": "Zapisz na ostatnie dni września.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

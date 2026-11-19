@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Po treningu\n*już ciemno*."
+  },
+  {
+   "kind": "point",
+   "title": "Mniej *światła*",
+   "body": "Jesienią energia często spada.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Ruch *za dnia*",
+   "body": "W weekend więcej czasu na dworze.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojny *wieczór*",
+   "body": "Ciepła kolacja i wcześniejszy sen.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Jesień *też ma swój rytm*.",
+   "cta": "Zapisz na pierwsze jesienne wieczory.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

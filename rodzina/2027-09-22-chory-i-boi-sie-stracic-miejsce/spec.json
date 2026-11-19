@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Chory, a boi się\n*stracić miejsce*\nw składzie."
+  },
+  {
+   "kind": "point",
+   "title": "Zdrowie *pierwsze*",
+   "body": "O powrocie decydujesz z lekarzem.",
+   "icon": "plaster"
+  },
+  {
+   "kind": "point",
+   "title": "Nazwij *strach*",
+   "body": "Lęk przed utratą miejsca jest zrozumiały.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Powiedz *trenerowi*",
+   "body": "Krótka wiadomość zdejmuje ciężar z dziecka.",
+   "icon": "phone"
+  },
+  {
+   "kind": "end",
+   "text": "Odpoczynek w chorobie *to też część sezonu*.",
+   "cta": "Zapisz na jesienny sezon infekcji.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

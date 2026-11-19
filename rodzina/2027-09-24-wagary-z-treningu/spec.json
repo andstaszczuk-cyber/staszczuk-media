@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Okłamał mnie, dostanie karę.",
+   "new": "Okłamał mnie, *chcę zrozumieć dlaczego*.",
+   "text": "Trening opuszczony w tajemnicy."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *spokój*",
+   "body": "Rozmowa, gdy emocje opadną.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Szukaj *powodu*",
+   "body": "Za kłamstwem często stoi trudność.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Umowa *na przyszłość*",
+   "body": "Ustalcie, jak mówić o tym, że się nie chce.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Za ucieczką *często jest problem do rozwiązania*.",
+   "cta": "Zapisz, zanim zrobisz awanturę.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Czemu tamten trener tak krzyczał?",
+    "*Pogadajmy o tym, co widziałeś*."
+   ],
+   "text": "Krzyk *po drugiej stronie boiska*."
+  },
+  {
+   "kind": "point",
+   "title": "Nazwij *to, co widać*",
+   "body": "Krzyk na dzieci za błędy jest nie w porządku.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Mów *o zachowaniu*",
+   "body": "Bez wyzwisk i oceniania ludzi.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Doceń *swojego trenera*",
+   "body": "Dziecko widzi, że u niego jest inaczej.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Dzieci uczą się *z tego, co widzą*.",
+   "cta": "Zapisz przed weekendowym meczem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

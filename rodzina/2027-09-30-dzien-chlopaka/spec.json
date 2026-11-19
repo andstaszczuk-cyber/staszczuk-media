@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Chłopaki nie płaczą.",
+    "*Chłopaki też czują i mogą o tym mówić*."
+   ],
+   "text": "Dzień *Chłopaka*."
+  },
+  {
+   "kind": "point",
+   "title": "Emocje *są dla wszystkich*",
+   "body": "Złość, smutek, strach i radość.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Płacz *po meczu*",
+   "body": "Ta reakcja mówi, że mu zależało.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa *bez wstydu*",
+   "body": "Pokaż, że z Tobą można mówić o wszystkim.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Silny chłopak *rozumie siebie*.",
+   "cta": "Zapisz i wyślij rodzicom chłopców z drużyny.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

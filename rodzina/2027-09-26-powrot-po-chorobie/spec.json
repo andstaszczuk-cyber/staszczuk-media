@@ -1,0 +1,41 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Powrót po chorobie,\n*pamiętaj o*",
+   "items": [
+    "zgodzie lekarza",
+    "spokojnym tempie",
+    "niższych oczekiwaniach",
+    "rozmowie z trenerem"
+   ],
+   "checked": 0
+  },
+  {
+   "kind": "point",
+   "title": "Spokojne *tempo*",
+   "body": "Pierwsze treningi lżejsze, bez nadrabiania.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Forma *wróci*",
+   "body": "Gorsza gra po przerwie jest normalna.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Cierpliwość *rodzica*",
+   "body": "Swoje oczekiwania też odłóż na kilka dni.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Po przerwie *wraca się krok po kroku*.",
+   "cta": "Zapisz na powrót po jesiennej infekcji.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

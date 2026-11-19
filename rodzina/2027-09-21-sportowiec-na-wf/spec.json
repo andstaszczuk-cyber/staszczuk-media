@@ -1,0 +1,40 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Sportowiec na WF,\n*porozmawiajcie o*",
+   "items": [
+    "słabszych kolegach",
+    "pomaganiu innym",
+    "nowych sportach"
+   ],
+   "checked": 0
+  },
+  {
+   "kind": "point",
+   "title": "Umiejętności *z życzliwością*",
+   "body": "Lepsza gra to powód, żeby pomagać.",
+   "icon": "podium"
+  },
+  {
+   "kind": "point",
+   "title": "Pomocnik *nauczyciela*",
+   "body": "Może pokazać ćwiczenie albo wesprzeć kolegę.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Ruch *dla zabawy*",
+   "body": "WF to okazja, żeby spróbować czegoś innego.",
+   "icon": "ball"
+  },
+  {
+   "kind": "end",
+   "text": "Klasę sportowca *widać także na WF*.",
+   "cta": "Zapisz i porozmawiajcie przed lekcją WF.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}
