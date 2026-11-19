@@ -1,0 +1,112 @@
+{
+ "cover": {
+  "kicker": "HALA",
+  "title": "Decyzja\n*w pół sekundy*",
+  "size": 96,
+  "lh": 1.25,
+  "layout": "hero",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 90,
+     "s": 1.0,
+     "pose": "run"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 420,
+     "y": 470,
+     "s": 110,
+     "c": "fig"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 600,
+     "y": 50,
+     "s": 230,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 625,
+     "y": 330,
+     "text": "0,5 s",
+     "size": 44
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Idealne podanie się spóźnia",
+   "size": 60,
+   "body": "Dobra decyzja na czas daje więcej niż świetna za późno.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "clock",
+     "label": "idealnie",
+     "sub": "za późno"
+    },
+    "right": {
+     "icon": "bolt",
+     "label": "dobrze",
+     "sub": "na czas"
+    }
+   }
+  },
+  {
+   "title": "Dwie opcje przed piłką",
+   "size": 62,
+   "body": "Rozglądasz się, zanim piłka do ciebie dotrze.",
+   "viz": {
+    "type": "table",
+    "left": "JEŚLI",
+    "right": "TO",
+    "good": true,
+    "rows": [
+     [
+      "rywal doskakuje",
+      "gram na jeden kontakt"
+     ],
+     [
+      "mam miejsce",
+      "prowadzę piłkę"
+     ],
+     [
+      "nikt nie wychodzi",
+      "gram prosto"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Błąd i następna piłka",
+   "size": 64,
+   "body": "Wahanie po złym wyborze rodzi kolejne błędy.",
+   "viz": {
+    "type": "wander",
+    "zone": "następna piłka",
+    "out1": "zły wybór",
+    "out2": "strata",
+    "back": "reset"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakie *dwie opcje* masz przed piłką?",
+  "cta": "Na najbliższym treningu rozglądaj się przed każdym przyjęciem.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

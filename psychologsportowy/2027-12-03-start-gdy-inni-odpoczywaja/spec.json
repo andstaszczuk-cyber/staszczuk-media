@@ -1,0 +1,157 @@
+{
+ "cover": {
+  "left": "INNI",
+  "right": "TY",
+  "title": "Start, gdy inni\n*odpoczywają*",
+  "size": 82,
+  "lh": 1.25,
+  "layout": "split",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 148,
+     "y": 60,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "przerwa",
+      "i święta"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "szczyt",
+      "sezonu"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 330,
+     "y": 360,
+     "s": 0.45,
+     "pose": "run"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Coś mnie omija?",
+   "body": "Taką myśl warto zauważyć, zanim zacznie tobą rządzić.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "coś mnie omija",
+    "to": "teraz mam swój szczyt"
+   }
+  },
+  {
+   "title": "Luz ma swój termin",
+   "body": "Mózg łatwiej znosi wysiłek, gdy wie, kiedy się kończy.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "trophy",
+      "top": "grudzień",
+      "bottom": [
+       "mój szczyt"
+      ],
+      "hl": true
+     },
+     {
+      "icon": "bed",
+      "top": "styczeń",
+      "bottom": [
+       "mój luz"
+      ]
+     },
+     {
+      "icon": "dumbbell",
+      "top": "luty",
+      "bottom": [
+       "nowy cykl"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Drobne przyjemności",
+   "size": 64,
+   "body": "Spacer, film i czas z bliskimi w środku grudnia.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "tree",
+      "label": "spacer"
+     },
+     {
+      "icon": "heart",
+      "label": "bliscy",
+      "hl": true
+     },
+     {
+      "icon": "moon",
+      "label": "film wieczorem"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Gdzie jest *twój* luz?",
+  "cta": "Wpisz w kalendarz swój odpoczynek po zawodach.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

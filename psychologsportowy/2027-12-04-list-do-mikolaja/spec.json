@@ -1,0 +1,86 @@
+{
+ "cover": {
+  "big": "2028",
+  "bigSize": 230,
+  "bigSub": "list do siebie",
+  "title": "List\n*do Mikołaja*",
+  "size": 96,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 560,
+     "y": 90,
+     "s": 200,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 770,
+     "y": 40,
+     "s": 100,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Najpierw marzenie",
+   "body": "Spisz je bez cenzury i bez wstydu.",
+   "viz": {
+    "type": "notes",
+    "title": "DROGI MIKOŁAJU",
+    "lines": [
+     "pierwszy skład",
+     "lepsza szybkość",
+     "spokój w meczu"
+    ]
+   }
+  },
+  {
+   "title": "Pod marzeniem cel",
+   "body": "Cel da się zmierzyć, a zadanie wpisać w kalendarz.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "marzenie",
+     "cel",
+     "zadanie",
+     "kalendarz"
+    ],
+    "top": true
+   }
+  },
+  {
+   "title": "Czyje to marzenie?",
+   "body": "Po wypisaniu zadań widać, co jest naprawdę twoje.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "people",
+     "label": "cudze",
+     "sub": "ktoś tego chce"
+    },
+    "right": {
+     "icon": "heart",
+     "label": "moje",
+     "sub": "chcę to robić"
+    }
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *dopiszesz* pod marzeniem?",
+  "cta": "Napisz list do siebie i schowaj go do czerwca.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

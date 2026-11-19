@@ -1,0 +1,152 @@
+{
+ "cover": {
+  "left": "WYNIK",
+  "right": "WYSIŁEK",
+  "title": "Nagroda\n*za wysiłek*",
+  "size": 92,
+  "lh": 1.25,
+  "layout": "split",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 148,
+     "y": 60,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "raz na",
+      "jakiś czas"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 612,
+     "y": 60,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "każdego",
+      "dnia"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 340,
+     "y": 360,
+     "s": 0.45,
+     "pose": "win"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Mózg uczy się przez nagrody",
+   "size": 58,
+   "body": "Nagradzasz wynik i wzmacniasz to, na co masz mały wpływ.",
+   "viz": {
+    "type": "bars",
+    "caption": "MÓJ WPŁYW",
+    "items": [
+     {
+      "label": "wynik",
+      "v": 0.35
+     },
+     {
+      "label": "wysiłek",
+      "v": 0.9,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Doceń zachowania",
+   "body": "Plan, rozciąganie i analiza na chłodno.",
+   "viz": {
+    "type": "checklist",
+    "title": "DOCENIAM",
+    "chip": "WYSIŁEK",
+    "chipX": 370,
+    "backChip": "TYLKO WYNIK",
+    "items": [
+     "tydzień z planem",
+     "rozciąganie",
+     "spokojna analiza"
+    ]
+   }
+  },
+  {
+   "title": "Mała nagroda",
+   "body": "Ważne, żeby była powiązana z konkretnym zachowaniem.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "moon",
+      "label": "serial"
+     },
+     {
+      "icon": "people",
+      "label": "wyjście",
+      "hl": true
+     },
+     {
+      "icon": "book",
+      "label": "książka"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Za jaki *wysiłek* się nagrodzisz?",
+  "cta": "Wypisz trzy zachowania z tego roku, z których jesteś dumny.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

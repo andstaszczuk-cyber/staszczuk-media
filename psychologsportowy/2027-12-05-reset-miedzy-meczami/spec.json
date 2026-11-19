@@ -1,0 +1,127 @@
+{
+ "cover": {
+  "kicker": "TURNIEJ HALOWY",
+  "title": "Reset\n*między meczami*",
+  "size": 96,
+  "lh": 1.25,
+  "layout": "top",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "x": 40,
+     "y": 50,
+     "s": 1.0,
+     "pose": "sit"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 470,
+     "y": 380,
+     "s": 120,
+     "c": "fig2"
+    },
+    {
+     "k": "arrow",
+     "x1": 610,
+     "y1": 440,
+     "x2": 700,
+     "y2": 440,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 720,
+     "y": 380,
+     "s": 120,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 640,
+     "y": 220,
+     "text": "0:0",
+     "size": 54
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Mecz siedzi w głowie",
+   "body": "Emocje potrzebują chwili, a w turnieju tej chwili jest mało.",
+   "viz": {
+    "type": "moment",
+    "bad": [
+     "PO",
+     "MECZU"
+    ],
+    "good": [
+     "PRZED",
+     "KOLEJNYM"
+    ]
+   }
+  },
+  {
+   "title": "Rutyna między meczami",
+   "size": 62,
+   "body": "Emocje, woda, zdanie zamykające i jedno zadanie.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "whistle",
+      "top": "gwizdek",
+      "bottom": [
+       "emocje"
+      ]
+     },
+     {
+      "icon": "drop",
+      "top": "woda"
+     },
+     {
+      "icon": "note",
+      "top": "zdanie",
+      "bottom": [
+       "zamknięte"
+      ]
+     },
+     {
+      "icon": "flag",
+      "top": "zadanie",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Jedna wskazówka",
+   "body": "Pełna analiza poczeka do końca turnieju.",
+   "viz": {
+    "type": "focus",
+    "center": "jedna wskazówka",
+    "around": [
+     "pięć uwag",
+     "tabela",
+     "wynik",
+     "rywal"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakim zdaniem *zamkniesz* mecz?",
+  "cta": "Ustal swoją rutynę między meczami jeszcze przed turniejem.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

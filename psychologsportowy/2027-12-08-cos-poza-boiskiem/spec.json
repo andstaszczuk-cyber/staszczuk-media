@@ -1,0 +1,92 @@
+{
+ "cover": {
+  "big": "+1",
+  "bigSize": 260,
+  "bigSub": "pasja obok sportu",
+  "title": "Coś poza\n*boiskiem*",
+  "size": 96,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 540,
+     "y": 120,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "mic",
+     "x": 760,
+     "y": 50,
+     "s": 110,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Stół na kilku nogach",
+   "body": "Gorsza runda nie wywraca wtedy całego stołu.",
+   "viz": {
+    "type": "hub",
+    "center": "ja",
+    "icon": "heart",
+    "items": [
+     "sport",
+     "przyjaciele",
+     "pasja",
+     "nauka"
+    ],
+    "hl": 0
+   }
+  },
+  {
+   "title": "Głowa wraca świeższa",
+   "body": "Odpoczynek w czymś innym daje energię na trening.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "hobby zabierze mi czas",
+    "to": "wracam na trening świeższy"
+   }
+  },
+  {
+   "title": "Sprawdź trzy razy",
+   "body": "Jeśli nie wciąga, szukasz dalej i nic się nie stało.",
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "puzzle",
+      "label": "puzzle"
+     },
+     {
+      "icon": "mic",
+      "label": "muzyka"
+     },
+     {
+      "icon": "pot",
+      "label": "gotowanie"
+     },
+     {
+      "icon": "book",
+      "label": "czytanie"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *poza sportem* daje ci frajdę?",
+  "cta": "Wybierz jedną rzecz i spróbuj jej trzy razy w przerwie.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

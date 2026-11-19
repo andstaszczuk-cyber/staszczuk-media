@@ -1,0 +1,114 @@
+{
+ "cover": {
+  "kicker": "GRUDZIEŃ",
+  "title": "Dociągnij\n*do przerwy*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "top",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 560
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 60,
+     "s": 1.0,
+     "pose": "run"
+    },
+    {
+     "k": "path",
+     "d": "M440 470 C560 420 640 380 720 260",
+     "c": "fig2",
+     "w": 8,
+     "dash": "4 18"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 690,
+     "y": 90,
+     "s": 180,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 560,
+     "y": 300,
+     "text": "PRZERWA",
+     "size": 30
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Głowa już na wolnym",
+   "body": "Po długiej rundzie organizm sam szuka odpoczynku.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "bed",
+     "label": "głowa",
+     "sub": "już w przerwie"
+    },
+    "right": {
+     "icon": "ball",
+     "label": "ciało",
+     "sub": "jeszcze trenuje"
+    }
+   }
+  },
+  {
+   "title": "Końcówka jak ostatnie minuty",
+   "size": 60,
+   "body": "Zmęczony pilnujesz swoich zadań do gwizdka.",
+   "viz": {
+    "type": "listCompare",
+    "left": {
+     "title": "ODBĘBNIĆ",
+     "items": [
+      "jestem ciałem",
+      "głowa w styczniu",
+      "liczę minuty"
+     ]
+    },
+    "right": {
+     "title": "DOCIĄGNĄĆ",
+     "items": [
+      "jedno zadanie",
+      "pełne tempo",
+      "do gwizdka"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Jedno zadanie na trening",
+   "size": 62,
+   "body": "Jedna rzecz do odhaczenia po każdych zajęciach.",
+   "viz": {
+    "type": "checklist",
+    "title": "KOŃCÓWKA",
+    "chip": "ZADANIE",
+    "chipX": 370,
+    "backChip": "ODLICZANIE",
+    "items": [
+     "komunikacja",
+     "pierwsze podanie",
+     "tempo do końca"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak *dociągniesz* do przerwy?",
+  "cta": "Wybierz jedno zadanie na najbliższy trening.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

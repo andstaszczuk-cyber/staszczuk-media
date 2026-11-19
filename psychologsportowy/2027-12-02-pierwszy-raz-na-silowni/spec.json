@@ -1,0 +1,119 @@
+{
+ "cover": {
+  "kicker": "ZIMA",
+  "title": "Pierwszy raz\n*na siłowni*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "hero",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 70,
+     "y": 90,
+     "s": 1.0,
+     "pose": "think"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 520,
+     "y": 330,
+     "s": 240,
+     "c": "A"
+    },
+    {
+     "k": "eyes",
+     "pts": [
+      [
+       560,
+       90
+      ],
+      [
+       740,
+       150
+      ],
+      [
+       640,
+       230
+      ],
+      [
+       820,
+       60
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wszyscy patrzą?",
+   "body": "Głowa dopisuje, co inni myślą o twoim przysiadzie.",
+   "viz": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "źle to robię?",
+     "śmieją się?",
+     "co on tu robi?"
+    ],
+    "ask": [
+     "Pokażesz",
+     "mi to",
+     "ćwiczenie?"
+    ]
+   }
+  },
+  {
+   "title": "Każdy liczy swoje",
+   "body": "Ludzie na siłowni zajmują się głównie sobą.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "dumbbell",
+      "label": "swoje serie",
+      "hl": true
+     },
+     {
+      "icon": "eye",
+      "label": "swój ruch"
+     },
+     {
+      "icon": "clock",
+      "label": "swój czas"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Plan na kartce",
+   "body": "Wiesz, co po kolei, i mniej się rozglądasz.",
+   "viz": {
+    "type": "notes",
+    "title": "MÓJ TRENING",
+    "lines": [
+     "przysiad, lekko",
+     "wiosłowanie",
+     "deska"
+    ],
+    "crossed": [
+     "rekordy"
+    ],
+    "side": "najpierw technika"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *zapiszesz* w planie?",
+  "cta": "Poproś trenera, żeby pokazał ci ćwiczenia na pierwszym treningu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
