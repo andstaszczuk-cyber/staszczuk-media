@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "sofa",
+   "text": "Pierwszy weekend bez meczu.\\n*Cisza też jest po coś*."
+  },
+  {
+   "kind": "point",
+   "title": "Pustka",
+   "body": "Bez obsady weekend nagle robi się dziwnie cichy.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Odruch",
+   "body": "Wielu z nas od razu zagłusza ciszę telefonem i klipami.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "point",
+   "title": "Przestrzeń",
+   "body": "W ciszy układasz sobie rundę i łapiesz nowe pomysły.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Cisza po rundzie\\n*to przestrzeń dla ciebie*.",
+   "cta": "Zapisz na wolny weekend"
+  }
+ ]
+}

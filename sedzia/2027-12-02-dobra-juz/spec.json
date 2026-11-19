@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "ZIMA",
+   "text": "Dobra, już.\\n*Zimą wolno zwolnić*."
+  },
+  {
+   "kind": "point",
+   "title": "Mędrzec",
+   "body": "Pierwszy ciągle analizuje, czyta i poprawia.",
+   "icon": "ksiazka"
+  },
+  {
+   "kind": "point",
+   "title": "Oświecony mędrzec",
+   "body": "Drugi też się rozwija, a do tego potrafi powiedzieć: dobra, już.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "point",
+   "title": "Zima",
+   "body": "Kilka tygodni przerwy od pracy nad sobą to część rozwoju.",
+   "icon": "platek"
+  },
+  {
+   "kind": "end",
+   "text": "Rozwój ma też\\n*swoje przerwy*.",
+   "cta": "Zapisz na grudzień"
+  }
+ ]
+}

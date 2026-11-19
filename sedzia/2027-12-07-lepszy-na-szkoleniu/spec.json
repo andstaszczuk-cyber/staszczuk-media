@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "desk",
+   "text": "Ktoś na szkoleniu wie więcej?\\n*Ucz się od niego*."
+  },
+  {
+   "kind": "point",
+   "title": "Porównanie",
+   "body": "Przy kimś lepszym łatwo poczuć się gorszym.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Inspiracja",
+   "body": "Jego wiedza podpowiada, w którą stronę możesz iść.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Pytanie",
+   "body": "Zapytaj, jak do tego doszedł. Ludzie lubią się tym dzielić.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Lepszy obok ciebie\\n*to twoja szansa*.",
+   "cta": "Zapisz przed zimowym szkoleniem"
+  }
+ ]
+}

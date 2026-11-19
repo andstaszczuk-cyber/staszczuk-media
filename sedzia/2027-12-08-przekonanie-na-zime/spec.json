@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Jedno przekonanie\\n*do wymiany przez zimę*."
+  },
+  {
+   "kind": "point",
+   "title": "Wybór",
+   "body": "Wybierasz zdanie, które przez rundę najbardziej ci przeszkadzało.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Bilans",
+   "body": "Sprawdzasz, kiedy ci pomaga, a kiedy szkodzi.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Dowody",
+   "body": "Do nowej wersji zbierasz co najmniej trzy dowody.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Nowe przekonanie\\n*na początku pachnie obco*.",
+   "cta": "Zapisz i wybierz swoje"
+  }
+ ]
+}

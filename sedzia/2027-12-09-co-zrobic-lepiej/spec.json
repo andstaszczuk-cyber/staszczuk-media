@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Na koniec roku zapytaj:\\n*co mogę zrobić lepiej?*"
+  },
+  {
+   "kind": "point",
+   "title": "Pytanie o wartość",
+   "body": "Czy ja się nadaję? To pytanie zostawia cię z oceną siebie.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Pytanie o pracę",
+   "body": "Co mogę zrobić lepiej? Na to da się odpowiedzieć konkretem.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa",
+   "body": "Zadaj je obserwatorowi albo koledze z zespołu.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Konkretne pytanie,\\n*konkretna odpowiedź*.",
+   "cta": "Zapisz przed rozmową o rundzie"
+  }
+ ]
+}

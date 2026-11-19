@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "warmup",
+   "text": "Pierwsze minuty sztywne?\\n*Masz prawo się rozkręcić*."
+  },
+  {
+   "kind": "point",
+   "title": "Presja startu",
+   "body": "Krótki mecz halowy kusi, żeby od pierwszej sekundy być idealnym.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Paradoks",
+   "body": "Im mocniej to wymuszasz, tym dłużej trwa usztywnienie.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Zgoda",
+   "body": "Dajesz sobie prawo do rozkręcenia i zwykle rozkręcasz się szybciej.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "end",
+   "text": "Mam prawo\\n*rozkręcać się w meczu*.",
+   "cta": "Zapisz przed turniejem halowym"
+  }
+ ]
+}

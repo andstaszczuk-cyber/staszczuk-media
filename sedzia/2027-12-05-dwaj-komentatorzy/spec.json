@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "2",
+   "text": "komentatorów w głowie.\\n*Prawda leży pośrodku*."
+  },
+  {
+   "kind": "point",
+   "title": "Krytyk",
+   "body": "Jeden mówi, że cały rok był słaby, bo pamięta trzy błędy.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Kibic",
+   "body": "Drugi mówi, że wszystko było świetnie i nic nie trzeba zmieniać.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "point",
+   "title": "Środek",
+   "body": "Uczciwy obraz roku leży pomiędzy. Tam szukasz wniosków.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Ani tak dobry, jak myślisz,\\n*ani tak zły*.",
+   "cta": "Zapisz na podsumowanie roku"
+  }
+ ]
+}

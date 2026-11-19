@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "MIKOŁAJKI",
+   "text": "Prezent na Mikołajki?\\n*Daj sobie mniej*.",
+   "sub": "Jedna rzecz, z której rezygnujesz,\\n*potrafi ulżyć na całą zimę*."
+  },
+  {
+   "kind": "point",
+   "title": "Worek",
+   "body": "Przez rundę do worka trafiło sporo zobowiązań i nawyków.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Rezygnacja",
+   "body": "Wybierasz jedną rzecz, która zabiera energię i niewiele daje.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Ulga",
+   "body": "Zwolnione miejsce zostawiasz puste albo dajesz je sobie.",
+   "icon": "serce"
+  },
+  {
+   "kind": "end",
+   "text": "Dodawanie\\n*przez odejmowanie*.",
+   "cta": "Wyślij komuś na Mikołajki"
+  }
+ ]
+}

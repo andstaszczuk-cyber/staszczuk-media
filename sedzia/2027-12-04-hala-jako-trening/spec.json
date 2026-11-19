@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "hall",
+   "text": "Turniej halowy?\\n*Skoro już tu jesteś, poćwicz coś*."
+  },
+  {
+   "kind": "point",
+   "title": "Odbębnić",
+   "body": "Można przyjechać, przesędziować i jak najszybciej wrócić do domu.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Wybrać",
+   "body": "Można też wybrać jeden element, który chcesz poćwiczyć.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdzić",
+   "body": "Po turnieju zapisujesz, co z tym elementem wyszło.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Jeden turniej,\\n*jeden element do poćwiczenia*.",
+   "cta": "Zapisz przed turniejem"
+  }
+ ]
+}

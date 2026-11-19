@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "oddech",
+   "text": "Kilka minut z oddechem\\n*to trening meczu*."
+  },
+  {
+   "kind": "point",
+   "title": "Myśli",
+   "body": "Myśli przyjeżdżają i odjeżdżają jak samochody na ulicy.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Powrót",
+   "body": "Zauważasz myśl, odkładasz ją i wracasz do oddechu. Za każdym razem od nowa.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "point",
+   "title": "Mecz",
+   "body": "Na boisku robisz ten sam ruch: po rozproszeniu wracasz do gry.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Każdy powrót\\n*to jedno powtórzenie*.",
+   "cta": "Zapisz i spróbuj dziś wieczorem"
+  }
+ ]
+}
