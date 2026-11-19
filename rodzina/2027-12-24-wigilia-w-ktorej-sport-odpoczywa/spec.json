@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Jak tam treningi? Ile goli w tym roku?",
+    "*Dziś opowiem Wam o czymś innym.*"
+   ],
+   "text": "Wigilia, *w której sport odpoczywa*."
+  },
+  {
+   "kind": "point",
+   "title": "Inne *tematy*",
+   "body": "Co dziecko lubi poza sportem?",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *poza rolą*",
+   "body": "Dziś jest po prostu sobą.",
+   "icon": "heart"
+  },
+  {
+   "kind": "point",
+   "title": "Wspólny *czas*",
+   "body": "Gry, opowieści, śmiech.",
+   "icon": "dice"
+  },
+  {
+   "kind": "end",
+   "text": "Wesołych Świąt *dla całej rodziny*.",
+   "cta": "Zapisz na wigilijny wieczór.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

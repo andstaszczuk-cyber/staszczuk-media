@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Święta w domu,\n*głowa już w styczniu*.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Myśli *przychodzą same*",
+   "body": "Mózg lubi wybiegać w przyszłość.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Pudełko *na później*",
+   "body": "Zapiszcie obawę i schowajcie.",
+   "icon": "gift"
+  },
+  {
+   "kind": "point",
+   "title": "Co *dziś*",
+   "body": "Wróćcie do tego, co jest teraz.",
+   "icon": "snowflake"
+  },
+  {
+   "kind": "end",
+   "text": "Styczeń *poczeka*.",
+   "cta": "Zapisz na świąteczny tydzień.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

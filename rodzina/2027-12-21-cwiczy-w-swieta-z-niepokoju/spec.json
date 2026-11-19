@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Ćwiczy w święta,\n*bo boi się stracić formę*."
+  },
+  {
+   "kind": "point",
+   "title": "Skąd *ten lęk*",
+   "body": "Obawa przed utratą miejsca.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Odpoczynek *buduje*",
+   "body": "Ciało rośnie w przerwie.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Słowo *trenera*",
+   "body": "Zapytajcie, co jest potrzebne.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "end",
+   "text": "Odpoczynek *jest częścią planu*.",
+   "cta": "Zapisz na przerwę świąteczną.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

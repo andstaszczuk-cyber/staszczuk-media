@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "A kuzyn już gra w lepszym klubie.",
+   "new": "*Każdy ma swoją drogę.*",
+   "text": "Porównania przy świątecznym stole."
+  },
+  {
+   "kind": "point",
+   "title": "Porównania *bolą*",
+   "body": "Nawet te rzucone mimochodem.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja *reakcja*",
+   "body": "Krótko i spokojnie.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa *po kolacji*",
+   "body": "Zapytaj, jak się z tym czuło.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Przy stole *stań po jego stronie*.",
+   "cta": "Zapisz przed rodzinnym spotkaniem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

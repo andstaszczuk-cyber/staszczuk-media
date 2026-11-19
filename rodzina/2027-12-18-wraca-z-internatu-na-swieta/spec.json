@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Opowiadaj, jak tam było?",
+   "new": "*Odpocznij, pogadamy, kiedy zechcesz.*",
+   "text": "Nastolatek wraca na święta."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *odpoczynek*",
+   "body": "Pierwsze dni na sen i dom.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Pytania *w swoim czasie*",
+   "body": "Rozmowa przyjdzie sama.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Dom *bez oceniania*",
+   "body": "Tu jest po prostu dzieckiem.",
+   "icon": "door"
+  },
+  {
+   "kind": "end",
+   "text": "Dom to *miejsce na reset*.",
+   "cta": "Zapisz przed powrotem dziecka.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

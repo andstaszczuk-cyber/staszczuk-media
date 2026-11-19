@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Pierwszy dzień przerwy\n*i nie wie, co ze sobą zrobić*:",
+   "items": [
+    "nuda",
+    "marudzenie",
+    "telefon w ręku"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Nuda *jest w porządku*",
+   "body": "Z nudy rodzą się pomysły.",
+   "icon": "dice"
+  },
+  {
+   "kind": "point",
+   "title": "Luźny *plan*",
+   "body": "Nowy rytm na kilka dni.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Kim jest *poza sportem*",
+   "body": "Odkrywajcie inne zainteresowania.",
+   "icon": "book"
+  },
+  {
+   "kind": "end",
+   "text": "Wolne dni *też budują*.",
+   "cta": "Zapisz na pierwszy dzień przerwy.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

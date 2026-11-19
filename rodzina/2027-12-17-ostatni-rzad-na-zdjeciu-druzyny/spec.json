@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Na zdjęciu drużyny\n*stoi w ostatnim rzędzie*.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Co *widzi dziecko*",
+   "body": "Zdjęcie potrafi zaboleć.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Jego *rola*",
+   "body": "Drużyna składa się z wielu zadań.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa *z trenerem*",
+   "body": "Gdy to poczucie trwa dłużej.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "end",
+   "text": "Każdy w drużynie *jest potrzebny*.",
+   "cta": "Zapisz na dzień zdjęć w klubie.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

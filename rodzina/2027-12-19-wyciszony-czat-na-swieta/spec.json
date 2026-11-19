@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Wiecie już, kto zagra w styczniu?",
+    "*Wyciszam czat do Nowego Roku.*"
+   ],
+   "text": "Przerwa *także dla rodziców*."
+  },
+  {
+   "kind": "point",
+   "title": "Czat *nakręca*",
+   "body": "Wiadomości podnoszą napięcie.",
+   "icon": "phone"
+  },
+  {
+   "kind": "point",
+   "title": "Ważne *dotrze*",
+   "body": "Trener napisze, gdy trzeba.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja *przerwa*",
+   "body": "Rodzic też potrzebuje ciszy.",
+   "icon": "moon"
+  },
+  {
+   "kind": "end",
+   "text": "Spokojny rodzic, *spokojniejsze dziecko*.",
+   "cta": "Zapisz przed świętami.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}
