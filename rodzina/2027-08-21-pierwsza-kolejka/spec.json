@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Przegraliśmy pierwszy mecz. Sezon stracony.",
+    "*Przed Wami jeszcze cały sezon*."
+   ],
+   "text": "Pierwsza kolejka *sezonu*."
+  },
+  {
+   "kind": "point",
+   "title": "Jeden mecz *z wielu*",
+   "body": "Sezon to kilkanaście kolejek i mnóstwo okazji.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Drużyna *się zgrywa*",
+   "body": "Po wakacjach każdy zespół potrzebuje czasu.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Co *wyszło*",
+   "body": "Po meczu szukajcie dobrych momentów.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "end",
+   "text": "Pierwsza kolejka *niczego nie przesądza*.",
+   "cta": "Zapisz przed pierwszą kolejką.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

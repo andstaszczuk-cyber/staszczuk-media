@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Trener indywidualny?\n*Najpierw: po co?*"
+  },
+  {
+   "kind": "point",
+   "title": "Czyja *to potrzeba*",
+   "body": "Dziecko prosi czy rodzic się martwi?",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Czas *na odpoczynek*",
+   "body": "Każdy dodatkowy trening zabiera wolne popołudnie.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden *kierunek*",
+   "body": "Dwóch trenerów z różnymi radami potrafi namieszać.",
+   "icon": "compass"
+  },
+  {
+   "kind": "end",
+   "text": "Więcej treningu *nie zawsze daje więcej postępu*.",
+   "cta": "Zapisz przed zapisem na zajęcia indywidualne.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

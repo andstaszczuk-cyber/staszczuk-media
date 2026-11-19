@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Nikogo tu nie znam, postoję z boku.",
+   "new": "Przedstawię się *jednemu rodzicowi*.",
+   "text": "Pierwszy sezon w nowej drużynie."
+  },
+  {
+   "kind": "point",
+   "title": "Pierwszy *krok*",
+   "body": "Przedstaw się przy linii albo na parkingu.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Wspólne *dojazdy*",
+   "body": "Umowa na wożenie dzieci to dobry początek znajomości.",
+   "icon": "car"
+  },
+  {
+   "kind": "point",
+   "title": "Ostrożnie *z ocenami*",
+   "body": "Na początku słuchaj więcej, oceniaj mniej.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Dobre relacje rodziców *to spokojniejszy sezon dziecka*.",
+   "cta": "Zapisz przed pierwszym meczem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

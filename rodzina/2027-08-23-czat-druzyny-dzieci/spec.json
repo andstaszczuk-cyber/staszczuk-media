@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Drużyna ma swój czat.\n*Wiesz, co się tam dzieje?*"
+  },
+  {
+   "kind": "point",
+   "title": "Zasady *z góry*",
+   "body": "Ustalcie, kiedy telefon odkładacie na noc.",
+   "icon": "phone"
+  },
+  {
+   "kind": "point",
+   "title": "Ciekawość *zamiast kontroli*",
+   "body": "Pytaj o czat bez czytania cudzych wiadomości.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Wykluczenie *boli*",
+   "body": "Gdy dziecko zostaje pominięte, potrzebuje wsparcia.",
+   "icon": "tear"
+  },
+  {
+   "kind": "end",
+   "text": "Drużyna to także *to, co dzieje się po treningu*.",
+   "cta": "Zapisz i porozmawiaj z dzieckiem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

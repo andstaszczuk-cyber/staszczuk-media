@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "speech",
+   "text": "Jakie masz cele na sezon?\n*Nie wiem*."
+  },
+  {
+   "kind": "point",
+   "title": "Nie wiem *to też odpowiedź*",
+   "body": "Często znaczy: jeszcze o tym nie myślałem.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Pytania *łatwiejsze*",
+   "body": "Co lubisz najbardziej? Co chcesz umieć?",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa *przy okazji*",
+   "body": "W aucie, na spacerze, bez oficjalnego tonu.",
+   "icon": "car"
+  },
+  {
+   "kind": "end",
+   "text": "Nastolatek mówi więcej, *kiedy nie czuje przesłuchania*.",
+   "cta": "Zapisz przed rozmową z nastolatkiem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

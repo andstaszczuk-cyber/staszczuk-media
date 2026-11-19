@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "clock",
+   "text": "Za dwa tygodnie szkoła.\n*Przestawcie zegar powoli*."
+  },
+  {
+   "kind": "point",
+   "title": "Kwadrans *wcześniej*",
+   "body": "Co kilka dni przesuwajcie zasypianie i pobudkę.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Stałe *pory*",
+   "body": "Posiłki i aktywność w podobnych godzinach co dzień.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Telefon *wcześniej na półkę*",
+   "body": "Wieczorem więcej spokoju, mniej ekranu.",
+   "icon": "phone"
+  },
+  {
+   "kind": "end",
+   "text": "Wypoczęte dziecko *łatwiej wchodzi we wrzesień*.",
+   "cta": "Zapisz na drugą połowę sierpnia.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

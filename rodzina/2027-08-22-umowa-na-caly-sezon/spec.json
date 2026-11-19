@@ -1,0 +1,41 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Umowa na sezon,\n*zanim się zacznie*:",
+   "items": [
+    "chodzę na treningi",
+    "kończę rundę",
+    "mówię, gdy coś nie gra",
+    "decyzje po rundzie"
+   ],
+   "checked": 0
+  },
+  {
+   "kind": "point",
+   "title": "Ustalcie *razem*",
+   "body": "Dziecko współtworzy zasady, więc łatwiej ich pilnuje.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Do końca *rundy*",
+   "body": "Po trudnym tygodniu nie rezygnujemy od razu.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa *zawsze możliwa*",
+   "body": "Poważne problemy omawiamy od razu.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Dokończyć to, co się zaczęło, *to ważna umiejętność*.",
+   "cta": "Zapisz i ustalcie zasady przed wrześniem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

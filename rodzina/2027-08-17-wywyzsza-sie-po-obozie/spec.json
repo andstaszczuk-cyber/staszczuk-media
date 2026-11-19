@@ -1,0 +1,41 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Wrócił z obozu\n*i patrzy z góry*:",
+   "items": [
+    "poprawia kolegów",
+    "wie lepiej od trenera",
+    "śmieje się z błędów",
+    "chwali tylko siebie"
+   ],
+   "checked": 0
+  },
+  {
+   "kind": "point",
+   "title": "Pewność *jest dobra*",
+   "body": "Doceń postęp, który dziecko zrobiło latem.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Szacunek *dla innych*",
+   "body": "Porozmawiajcie, jak czują się koledzy.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Najlepsi *pomagają*",
+   "body": "Mocniejsi w drużynie często uczą słabszych.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "end",
+   "text": "Pewność siebie *i szacunek mogą iść razem*.",
+   "cta": "Zapisz przed rozmową z dzieckiem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}
