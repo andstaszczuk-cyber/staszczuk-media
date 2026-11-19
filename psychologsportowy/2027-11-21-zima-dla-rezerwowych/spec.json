@@ -1,0 +1,139 @@
+{
+ "cover": {
+  "left": "JESIEŃ",
+  "right": "ZIMA",
+  "title": "Zima dla\n*rezerwowych*",
+  "size": 92,
+  "lh": 1.25,
+  "layout": "split",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "bench",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "ławka",
+      "i kurtka"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "karty",
+      "od nowa"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "stand"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Karty od nowa",
+   "body": "Sparingi, testy i nowe ustawienia dają więcej okazji.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "whistle",
+      "label": "sparingi"
+     },
+     {
+      "icon": "dumbbell",
+      "label": "testy"
+     },
+     {
+      "icon": "flag",
+      "label": "nowe ustawienia",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zapytaj, czego brakuje",
+   "body": "Ogólne poczucie krzywdy zamienia się w listę zadań.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "znowu ławka",
+    "to": "czego mi brakuje?",
+    "toSub": "zadania"
+   }
+  },
+  {
+   "title": "Ławka gotowych",
+   "body": "Trenuj tak, jakbyś w marcu grał od pierwszej minuty.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "ławka",
+     "plan na zimę",
+     "gotowy w marcu"
+    ],
+    "done": 3
+   }
+  }
+ ],
+ "end": {
+  "question": "Co pokażesz trenerowi *tej zimy*?",
+  "cta": "Zapytaj trenera, czego ci brakuje do pierwszego składu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

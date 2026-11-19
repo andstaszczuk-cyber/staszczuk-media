@@ -1,0 +1,93 @@
+{
+ "cover": {
+  "kicker": "TURNIEJ HALOWY",
+  "title": "Hala\n*na luzie*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "hero",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "run"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 560,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "12 minut",
+     "size": 36
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Inna wartość niż liga",
+   "body": "Wynik szybko znika, umiejętność zostaje.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "trophy",
+     "label": "wynik",
+     "sub": "znika"
+    },
+    "right": {
+     "icon": "star",
+     "label": "umiejętność",
+     "sub": "zostaje"
+    }
+   }
+  },
+  {
+   "title": "Jedno zadanie na turniej",
+   "body": "Policz, ile razy udało ci się je wykonać.",
+   "size": 64,
+   "viz": {
+    "type": "checklist",
+    "title": "NA HALĘ",
+    "chip": "TEST",
+    "chipX": 360,
+    "backChip": "WYNIK",
+    "items": [
+     "gra na jeden kontakt",
+     "odważny drybling",
+     "szybki powrót"
+    ]
+   }
+  },
+  {
+   "title": "Szybki reset",
+   "body": "Po straconej bramce kilka sekund i grasz dalej.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "stracony gol",
+    "via": "oddech",
+    "to": "następna akcja"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *przetestujesz* na hali?",
+  "cta": "Wybierz jedno zadanie przed najbliższym turniejem.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

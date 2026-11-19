@@ -1,0 +1,103 @@
+{
+ "cover": {
+  "big": "90'",
+  "bigSize": 260,
+  "bigSub": "ostatni gwizdek rundy",
+  "title": "Zima\n*z porażką*",
+  "size": 96,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Jeden mecz, cała jesień?",
+   "body": "Ostatnie wrażenie łatwo robi się podsumowaniem.",
+   "size": 64,
+   "viz": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "ostatni mecz",
+      "v": 0.1
+     },
+     {
+      "label": "cała jesień",
+      "v": 0.9,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Najpierw emocje, potem analiza",
+   "body": "Wnioski wyciągasz z dystansu, gdy emocje opadną.",
+   "size": 60,
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "gwizdek",
+      "icon": "whistle",
+      "bottom": [
+       "emocje"
+      ]
+     },
+     {
+      "top": "tydzień",
+      "icon": "clock"
+     },
+     {
+      "top": "analiza",
+      "icon": "note",
+      "hl": true,
+      "bottom": [
+       "wnioski"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Domknij temat",
+   "body": "Zapisz wnioski i schowaj kartkę z planem na zimę.",
+   "viz": {
+    "type": "notes",
+    "title": "WNIOSKI",
+    "lines": [
+     "końcówka: skupienie",
+     "stałe fragmenty",
+     "reakcja po stracie"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *zabierasz* z ostatniego meczu?",
+  "cta": "Zapisz trzy wnioski i schowaj kartkę do planu na zimę.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

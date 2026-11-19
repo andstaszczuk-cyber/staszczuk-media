@@ -1,0 +1,110 @@
+{
+ "cover": {
+  "kicker": "WIOSNA",
+  "title": "Rola\n*na wiosnę*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "top",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "point"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "lider?",
+     "size": 34
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Rola to zachowania",
+   "body": "Dopóki ich nie nazwiesz, zostaje deklaracja.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "chcę być liderem",
+    "to": "co robię na boisku?",
+    "toSub": "zachowania"
+   }
+  },
+  {
+   "title": "Co nagrywa kamera?",
+   "body": "Opisz siebie w pierwszej osobie i w czasie teraźniejszym.",
+   "viz": {
+    "type": "notes",
+    "title": "KAMERA WIDZI",
+    "lines": [
+     "mówię do obrońców",
+     "po stracie wracam",
+     "biorę piłkę"
+    ]
+   }
+  },
+  {
+   "title": "Ćwicz jedno zachowanie",
+   "body": "Na każdym treningu, aż stanie się twoje.",
+   "viz": {
+    "type": "week",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "mic"
+     },
+     {
+      "d": "wt",
+      "icon": "mic"
+     },
+     {
+      "d": "śr",
+      "icon": "mic"
+     },
+     {
+      "d": "cz",
+      "icon": "mic"
+     },
+     {
+      "d": "pt",
+      "icon": "mic"
+     },
+     {
+      "d": "sb",
+      "icon": "pause"
+     },
+     {
+      "d": "nd",
+      "icon": "pause"
+     }
+    ],
+    "note": "mówię na każdym treningu"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co zarejestruje *kamera* wiosną?",
+  "cta": "Opisz swoją rolę w trzech zachowaniach.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

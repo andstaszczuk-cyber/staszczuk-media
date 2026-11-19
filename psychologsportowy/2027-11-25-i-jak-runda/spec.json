@@ -1,0 +1,140 @@
+{
+ "cover": {
+  "left": "ZWYKLE",
+  "right": "INACZEJ",
+  "title": "I jak\n*runda?*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "split",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "mało",
+      "grałem"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "trzy",
+      "części"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "hips"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Historia staje się prawdą",
+   "body": "Co powtarzasz, to głowa utrwala.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "słaba runda",
+    "to": "czego się nauczyłem?",
+    "toSub": "nowa wersja"
+   }
+  },
+  {
+   "title": "Runda w trzech częściach",
+   "body": "Co wyszło, czego się nauczyłem, nad czym pracuję.",
+   "size": 64,
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "check",
+      "label": "co wyszło"
+     },
+     {
+      "icon": "book",
+      "label": "czego się nauczyłem"
+     },
+     {
+      "icon": "dumbbell",
+      "label": "nad czym pracuję",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Najpierw na kartce",
+   "body": "Zapisz swoją wersję i przeczytaj ją na głos.",
+   "viz": {
+    "type": "notes",
+    "title": "MOJA RUNDA",
+    "lines": [
+     "dobre mecze w obronie",
+     "szybszy powrót",
+     "zimą lewa noga"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak *opowiesz* swoją rundę?",
+  "cta": "Zapisz rundę w trzech zdaniach przed rodzinnymi spotkaniami.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
