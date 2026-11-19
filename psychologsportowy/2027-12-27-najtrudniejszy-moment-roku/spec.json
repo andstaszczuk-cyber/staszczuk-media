@@ -1,0 +1,145 @@
+{
+ "cover": {
+  "left": "WTEDY",
+  "right": "DZIŚ",
+  "title": "Najtrudniejszy\n*moment roku*",
+  "size": 80,
+  "lh": 1.25,
+  "layout": "split",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 148,
+     "y": 60,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "chciałem",
+      "rzucić wszystko"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 612,
+     "y": 60,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "przeszedłem",
+      "przez to"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 340,
+     "y": 360,
+     "s": 0.45,
+     "pose": "walk"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wróć z dystansu",
+   "body": "Po kilku miesiącach emocje już opadły.",
+   "viz": {
+    "type": "moment",
+    "bad": [
+     "TUŻ",
+     "PO"
+    ],
+    "good": [
+     "PO",
+     "MIESIĄCACH"
+    ]
+   }
+  },
+  {
+   "title": "Trzy pytania",
+   "body": "Co pomogło, kto był obok, czego się dowiedziałem?",
+   "viz": {
+    "type": "notes",
+    "title": "TAMTEN CZAS",
+    "lines": [
+     "co mi pomogło",
+     "kto był obok",
+     "czego się dowiedziałem"
+    ]
+   }
+  },
+  {
+   "title": "Dowód wytrwałości",
+   "size": 64,
+   "body": "Zapisany czarno na białym na kolejny kryzys.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "shield",
+      "label": "przetrwałem",
+      "hl": true
+     },
+     {
+      "icon": "note",
+      "label": "zapisuję"
+     },
+     {
+      "icon": "flag",
+      "label": "na kolejny raz"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *pomogło* ci przejść przez ten moment?",
+  "cta": "Odpowiedz na piśmie na trzy pytania o najtrudniejszy moment roku.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

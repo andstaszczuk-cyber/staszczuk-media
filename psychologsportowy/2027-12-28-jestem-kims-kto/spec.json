@@ -1,0 +1,100 @@
+{
+ "cover": {
+  "big": "JA",
+  "bigSize": 260,
+  "bigSub": "postanowienie na nowy rok",
+  "title": "Jestem\n*kimś, kto*",
+  "size": 96,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 560,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 770,
+     "y": 60,
+     "s": 100,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Silna wola się męczy",
+   "size": 62,
+   "body": "Negocjowanie ze sobą zawsze się przegrywa.",
+   "viz": {
+    "type": "bars",
+    "caption": "SILNA WOLA",
+    "items": [
+     {
+      "label": "styczeń",
+      "v": 0.9
+     },
+     {
+      "label": "luty",
+      "v": 0.45
+     },
+     {
+      "label": "marzec",
+      "v": 0.15,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zdanie o tym, kim jesteś",
+   "size": 58,
+   "body": "Z tożsamością rzadko się negocjuje.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "będę się więcej rozciągać",
+    "to": "jestem kimś, kto się rozciąga"
+   }
+  },
+  {
+   "title": "Za zdaniem zachowanie",
+   "size": 62,
+   "body": "Takie, które da się zrobić i sprawdzić.",
+   "viz": {
+    "type": "listCompare",
+    "left": {
+     "title": "ZA OGÓLNIE",
+     "items": [
+      "nie poddaję się",
+      "jestem twardy",
+      "daję z siebie"
+     ]
+    },
+    "right": {
+     "title": "KONKRETNIE",
+     "items": [
+      "rozciąganie",
+      "jedna dobra rzecz",
+      "telefon za drzwiami"
+     ]
+    }
+   }
+  }
+ ],
+ "end": {
+  "question": "Kim *jesteś* w nowym roku?",
+  "cta": "Zapisz swoje zdanie na nowy rok i odhaczaj każdy dzień.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

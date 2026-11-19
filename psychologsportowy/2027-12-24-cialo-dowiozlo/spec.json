@@ -1,0 +1,92 @@
+{
+ "cover": {
+  "big": "DZIĘKI",
+  "bigSize": 190,
+  "bigSub": "za cały sezon",
+  "title": "Ciało\n*dowiozło*",
+  "size": 100,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 560,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "person",
+     "x": 740,
+     "y": 60,
+     "s": 0.35,
+     "pose": "win",
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Patrzysz na braki",
+   "body": "Za wolny, za słaby, znowu coś boli.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "znowu coś nie tak",
+    "to": "dowiozło mnie przez sezon"
+   }
+  },
+  {
+   "title": "Od stóp do głowy",
+   "body": "Przy każdej części jedna rzecz z tego roku.",
+   "viz": {
+    "type": "bodyMap",
+    "points": [
+     {
+      "part": "chest",
+      "label": "ostatni interwał",
+      "side": 1
+     },
+     {
+      "part": "hands",
+      "label": "łapanie",
+      "side": 1
+     },
+     {
+      "part": "legs",
+      "label": "koniec meczu",
+      "side": 0
+     }
+    ]
+   }
+  },
+  {
+   "title": "Wdzięczność i dbanie",
+   "size": 62,
+   "body": "Łatwiej wtedy o sen, rozciąganie i regenerację.",
+   "viz": {
+    "type": "checklist",
+    "title": "DLA CIAŁA",
+    "chip": "ŚWIĘTA",
+    "chipX": 390,
+    "backChip": "WYRZUTY",
+    "items": [
+     "sen",
+     "rozciąganie",
+     "odpoczynek"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Za co *podziękujesz* swojemu ciału?",
+  "cta": "Przejdź dziś myślami po ciele i podziękuj mu za ten sezon.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

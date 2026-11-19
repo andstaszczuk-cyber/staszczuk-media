@@ -1,0 +1,109 @@
+{
+ "cover": {
+  "kicker": "NOWY ROK",
+  "title": "Co zabierasz\n*dalej*",
+  "size": 96,
+  "lh": 1.25,
+  "layout": "top",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 570
+    },
+    {
+     "k": "person",
+     "x": 40,
+     "y": 70,
+     "s": 1.0,
+     "pose": "walk"
+    },
+    {
+     "k": "backpack",
+     "x": 470,
+     "y": 120,
+     "w": 300,
+     "h": 300,
+     "labels": [
+      "umiejętności",
+      "nawyki",
+      "ludzie"
+     ]
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Startujesz z miejsca",
+   "size": 62,
+   "body": "Do którego doszedłeś pracą przez cały rok.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "styczeń",
+     "wiosna",
+     "jesień",
+     "grudzień"
+    ],
+    "top": true
+   }
+  },
+  {
+   "title": "Trzy kategorie",
+   "body": "Zabieram, zostawiam, sprawdzam.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "ZABIERAM",
+      "items": [
+       "umiejętności",
+       "nawyki"
+      ],
+      "hl": true
+     },
+     {
+      "title": "ZOSTAWIAM",
+      "items": [
+       "nocna analiza"
+      ],
+      "dim": true,
+      "dash": true
+     },
+     {
+      "title": "SPRAWDZAM",
+      "items": [
+       "eksperyment"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Spójrz z boku",
+   "body": "Co powiedziałbyś o zawodniku, który zrobił to co ty?",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "brain",
+     "label": "ja o sobie",
+     "sub": "same braki"
+    },
+    "right": {
+     "icon": "eye",
+     "label": "z boku",
+     "sub": "pełny plecak"
+    }
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *zabierasz* do nowego roku?",
+  "cta": "Spisz trzy listy: zabieram, zostawiam, sprawdzam.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

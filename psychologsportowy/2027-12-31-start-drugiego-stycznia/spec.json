@@ -1,0 +1,201 @@
+{
+ "cover": {
+  "left": "REWOLUCJA",
+  "right": "EWOLUCJA",
+  "title": "Start\n*drugiego stycznia*",
+  "size": 84,
+  "lh": 1.25,
+  "layout": "split",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 148,
+     "y": 60,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "wszystko",
+      "od północy"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 612,
+     "y": 60,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "krok",
+      "po kroku"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 340,
+     "y": 360,
+     "s": 0.45,
+     "pose": "walk"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Rewolucja o północy",
+   "size": 62,
+   "body": "Rzadko przeżywa pierwszy tydzień stycznia.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.9
+       ],
+       [
+        0.15,
+        0.6
+       ],
+       [
+        0.3,
+        0.2
+       ],
+       [
+        1,
+        0.1
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.2
+       ],
+       [
+        0.3,
+        0.35
+       ],
+       [
+        0.6,
+        0.55
+       ],
+       [
+        1,
+        0.8
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 0,
+      "y": 0.9,
+      "label": "rewolucja",
+      "dx": 80
+     },
+     {
+      "x": 1,
+      "y": 0.8,
+      "label": "ewolucja",
+      "hl": true,
+      "dx": -60
+     }
+    ],
+    "x": "tygodnie"
+   }
+  },
+  {
+   "title": "Spokojny Nowy Rok",
+   "body": "Sen, spacer i jedno zdanie o nowym sezonie.",
+   "viz": {
+    "type": "week",
+    "caption": "POCZĄTEK ROKU",
+    "days": [
+     {
+      "d": "31",
+      "icon": "star",
+      "label": "zabawa"
+     },
+     {
+      "d": "1",
+      "icon": "bed",
+      "label": "odpoczynek"
+     },
+     {
+      "d": "2",
+      "icon": "play",
+      "mark": "hl",
+      "label": "start"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Jedno pokrętło",
+   "body": "Sprawdzasz, jak działa, i dopiero dokładasz kolejne.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "pierwsza zmiana",
+     "sprawdzam",
+     "druga zmiana",
+     "nawyk"
+    ],
+    "top": true
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakie *jedno* pokrętło przekręcisz?",
+  "cta": "Zaplanuj swój start na pierwszy trening po przerwie.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

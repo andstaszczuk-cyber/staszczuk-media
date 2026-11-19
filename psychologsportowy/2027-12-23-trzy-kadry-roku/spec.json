@@ -1,0 +1,166 @@
+{
+ "cover": {
+  "left": "TABELA",
+  "right": "KADRY",
+  "title": "Trzy kadry\n*z roku*",
+  "size": 92,
+  "lh": 1.25,
+  "layout": "split",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 148,
+     "y": 60,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "miejsce",
+      "i punkty"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 612,
+     "y": 60,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "chwile",
+      "do wracania"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 340,
+     "y": 360,
+     "s": 0.45,
+     "pose": "win"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Ile minut radości?",
+   "body": "Wyniki są ważne, a chwile zostają na dłużej.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "trophy",
+     "label": "tabela",
+     "sub": "szybko znika"
+    },
+    "right": {
+     "icon": "heart",
+     "label": "chwile",
+     "sub": "zostają"
+    }
+   }
+  },
+  {
+   "title": "Podgrzewaj wspomnienia",
+   "size": 62,
+   "body": "Dobre chwile same nie wracają.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "pot",
+      "label": "podgrzej"
+     },
+     {
+      "icon": "eye",
+      "label": "szczegóły"
+     },
+     {
+      "icon": "heart",
+      "label": "poczuj",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Trzy kadry, trzy zdania",
+   "size": 62,
+   "body": "Gdzie byłeś, co czułeś, co to mówi o tobie.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "star",
+      "top": "kadr 1",
+      "bottom": [
+       "zdanie"
+      ]
+     },
+     {
+      "icon": "star",
+      "top": "kadr 2",
+      "bottom": [
+       "zdanie"
+      ]
+     },
+     {
+      "icon": "star",
+      "top": "kadr 3",
+      "bottom": [
+       "zdanie"
+      ],
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakie są *twoje* trzy kadry?",
+  "cta": "Opisz trzy chwile z tego roku i zrób z nich folder w telefonie.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

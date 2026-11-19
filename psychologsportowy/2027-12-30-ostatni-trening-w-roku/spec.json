@@ -1,0 +1,147 @@
+{
+ "cover": {
+  "kicker": "KONIEC ROKU",
+  "title": "Ostatni trening\n*w roku*",
+  "size": 88,
+  "lh": 1.25,
+  "layout": "hero",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 90,
+     "s": 1.0,
+     "pose": "win"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 450,
+     "y": 470,
+     "s": 110,
+     "c": "fig"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 640,
+     "y": 70,
+     "s": 200,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 640,
+     "y": 330,
+     "text": "KONIEC",
+     "size": 40
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Końcówka koloruje całość",
+   "size": 58,
+   "body": "Ostatnie wrażenie potrafi zostać w głowie najdłużej.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.5
+       ],
+       [
+        0.3,
+        0.3
+       ],
+       [
+        0.6,
+        0.6
+       ],
+       [
+        0.8,
+        0.4
+       ],
+       [
+        1,
+        0.9
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 1,
+      "y": 0.9,
+      "label": "ostatni trening",
+      "hl": true,
+      "dx": -110
+     }
+    ],
+    "x": "rok"
+   }
+  },
+  {
+   "title": "Coś, co ci wychodzi",
+   "size": 62,
+   "body": "Ulubione ćwiczenie albo sprint na koniec.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "star",
+      "label": "ulubione"
+     },
+     {
+      "icon": "ball",
+      "label": "pewny strzał",
+      "hl": true
+     },
+     {
+      "icon": "bolt",
+      "label": "sprint"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Rytuał domknięcia",
+   "body": "Jedno zdanie podziękowania i sezon na półkę.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "whistle",
+      "top": "gwizdek"
+     },
+     {
+      "icon": "people",
+      "top": "dziękuję"
+     },
+     {
+      "icon": "house",
+      "top": "odpoczynek",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak *zakończysz* ten rok?",
+  "cta": "Wybierz jedno ćwiczenie, którym zamkniesz ostatni trening.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

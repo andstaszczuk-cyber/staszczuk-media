@@ -1,0 +1,109 @@
+{
+ "cover": {
+  "kicker": "PODSUMOWANIE",
+  "title": "Policz\n*swój rok*",
+  "size": 104,
+  "lh": 1.25,
+  "layout": "hero",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 40,
+     "y": 90,
+     "s": 1.0,
+     "pose": "think"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 470,
+     "y": 60,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 420,
+     "text": "BILANS",
+     "size": 40
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Pamięć jest wybiórcza",
+   "size": 62,
+   "body": "Porażki zostają w głowie, praca ucieka z pamięci.",
+   "viz": {
+    "type": "bars",
+    "caption": "PAMIĘTAM",
+    "items": [
+     {
+      "label": "porażki",
+      "v": 0.85
+     },
+     {
+      "label": "treningi",
+      "v": 0.2,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Liczby są beznamiętne",
+   "size": 62,
+   "body": "Trudno się kłócić z tym, co zapisane.",
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "dumbbell",
+      "label": "treningi"
+     },
+     {
+      "icon": "ball",
+      "label": "mecze"
+     },
+     {
+      "icon": "foot",
+      "label": "kilometry"
+     },
+     {
+      "icon": "check",
+      "label": "mimo niechęci"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Bilans otwarcia",
+   "body": "Wyjmij kartkę w trudniejszym tygodniu.",
+   "viz": {
+    "type": "notes",
+    "title": "MÓJ ROK",
+    "lines": [
+     "ile treningów",
+     "ile meczów",
+     "czego się nauczyłem"
+    ],
+    "side": "na luty"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *mówią o tobie* twoje liczby?",
+  "cta": "Spisz pięć liczb ze swojego roku i schowaj kartkę na luty.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

@@ -1,0 +1,106 @@
+{
+ "cover": {
+  "kicker": "ŚWIĘTA",
+  "title": "Forma\n*poczeka*",
+  "size": 104,
+  "lh": 1.25,
+  "layout": "hero",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 40,
+     "y": 90,
+     "s": 1.0,
+     "pose": "sit"
+    },
+    {
+     "k": "gauge",
+     "x": 660,
+     "y": 330,
+     "r": 190,
+     "v": 0.75
+    },
+    {
+     "k": "chip",
+     "x": 580,
+     "y": 390,
+     "text": "FORMA",
+     "size": 40
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Niepokój ambitnych",
+   "body": "Świadczy o zaangażowaniu i warto go sprawdzić.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "forma mi ucieka",
+    "to": "kilka dni nie wymaże miesięcy"
+   }
+  },
+  {
+   "title": "Ciało czy ambicja?",
+   "body": "Trening z niepokoju bywa za ciężki i chaotyczny.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "bolt",
+     "label": "z niepokoju",
+     "sub": "za ciężko"
+    },
+    "right": {
+     "icon": "note",
+     "label": "z planu",
+     "sub": "spokojnie"
+    }
+   }
+  },
+  {
+   "title": "Trening odpoczynku",
+   "size": 64,
+   "body": "Wolny dzień to też część przygotowań.",
+   "viz": {
+    "type": "week",
+    "caption": "PRZERWA",
+    "days": [
+     {
+      "d": "24",
+      "icon": "tree",
+      "label": "wolne"
+     },
+     {
+      "d": "25",
+      "icon": "bed",
+      "label": "wolne"
+     },
+     {
+      "d": "26",
+      "icon": "bed",
+      "mark": "hl",
+      "label": "wolne"
+     },
+     {
+      "d": "27",
+      "icon": "dumbbell",
+      "label": "plan"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Słuchasz *ciała* czy ambicji?",
+  "cta": "Gdy pojawi się niepokój o formę, sprawdź, co mówi twój plan.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

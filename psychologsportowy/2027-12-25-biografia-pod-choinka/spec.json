@@ -1,0 +1,113 @@
+{
+ "cover": {
+  "kicker": "ŚWIĘTA",
+  "title": "Biografia\n*pod choinką*",
+  "size": 96,
+  "lh": 1.25,
+  "layout": "top",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 570
+    },
+    {
+     "k": "icon",
+     "name": "tree",
+     "x": 20,
+     "y": 180,
+     "s": 300,
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "x": 330,
+     "y": 70,
+     "s": 1.0,
+     "pose": "sit"
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 650,
+     "y": 200,
+     "s": 210,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Biografie się podkręca",
+   "size": 62,
+   "body": "Zostają przełomy, wypadają zwykłe dni.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "W KSIĄŻCE",
+      "icon": "book",
+      "items": [
+       "przełomy",
+       "powroty"
+      ],
+      "hl": true
+     },
+     {
+      "title": "POZA NIĄ",
+      "icon": "clock",
+      "items": [
+       "zwykłe dni",
+       "pomocnicy",
+       "szczęście"
+      ],
+      "dim": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Bierz postawy",
+   "body": "Przy każdej historii zapytaj: jakim kosztem?",
+   "viz": {
+    "type": "table",
+    "left": "U MISTRZA",
+    "right": "U MNIE",
+    "good": true,
+    "rows": [
+     [
+      "upór po porażce",
+      "wracam po błędzie"
+     ],
+     [
+      "wczesne treningi",
+      "moja najlepsza pora"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Jeden pomysł",
+   "body": "Zaznacz fragment i przełóż go na swój trening.",
+   "viz": {
+    "type": "notes",
+    "title": "Z KSIĄŻKI",
+    "lines": [
+     "ważny fragment",
+     "co to dla mnie",
+     "jeden krok"
+    ],
+    "side": "mój trening"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *weźmiesz* z tej książki?",
+  "cta": "Zaznacz w książce jeden fragment i zapisz, jak go wykorzystasz.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
