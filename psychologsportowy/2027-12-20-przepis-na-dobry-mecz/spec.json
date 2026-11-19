@@ -1,0 +1,92 @@
+{
+ "cover": {
+  "big": "TOP 3",
+  "bigSize": 210,
+  "bigSub": "najlepsze mecze roku",
+  "title": "Przepis\n*na dobry mecz*",
+  "size": 90,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 560,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "pot",
+     "x": 760,
+     "y": 60,
+     "s": 110,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Dobry mecz ma przyczyny",
+   "size": 60,
+   "body": "Porażki analizujesz godzinami, dobre mecze jednym zdaniem.",
+   "viz": {
+    "type": "bars",
+    "caption": "CZAS ANALIZY",
+    "items": [
+     {
+      "label": "porażka",
+      "v": 0.85
+     },
+     {
+      "label": "dobry mecz",
+      "v": 0.12,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Spisz, co się powtarza",
+   "size": 62,
+   "body": "Sen, rozgrzewka, myśli w drodze, pierwsze zadanie.",
+   "viz": {
+    "type": "notes",
+    "title": "MÓJ PRZEPIS",
+    "lines": [
+     "dwie dobre noce",
+     "spokojna droga",
+     "jedno zadanie"
+    ],
+    "side": "powtarzam"
+   }
+  },
+  {
+   "title": "Procedura na wiosnę",
+   "size": 62,
+   "body": "Co działa, powtarzasz, a co przestaje działać, zmieniasz.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "spisz",
+     "powtórz",
+     "sprawdź",
+     "popraw"
+    ],
+    "top": true
+   }
+  }
+ ],
+ "end": {
+  "question": "Co było w *twoim* najlepszym meczu?",
+  "cta": "Spisz przygotowania do trzech najlepszych meczów tego roku.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

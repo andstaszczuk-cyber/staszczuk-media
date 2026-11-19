@@ -1,0 +1,114 @@
+{
+ "cover": {
+  "kicker": "ŚWIĘTA",
+  "title": "Ludzie\n*spoza sportu*",
+  "size": 96,
+  "lh": 1.25,
+  "layout": "hero",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 20,
+     "y": 160,
+     "s": 0.85,
+     "pose": "wave"
+    },
+    {
+     "k": "person",
+     "x": 300,
+     "y": 160,
+     "s": 0.85,
+     "pose": "stand",
+     "c": "A"
+    },
+    {
+     "k": "person",
+     "x": 580,
+     "y": 160,
+     "s": 0.85,
+     "pose": "hips"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 400,
+     "y": 20,
+     "s": 110,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Tu nie liczy się skład",
+   "size": 62,
+   "body": "Przy nich nie musisz niczego udowadniać.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "trophy",
+     "label": "szatnia",
+     "sub": "wynik i pozycja"
+    },
+    "right": {
+     "icon": "heart",
+     "label": "przyjaciele",
+     "sub": "po prostu ty"
+    }
+   }
+  },
+  {
+   "title": "Okno na resztę życia",
+   "size": 62,
+   "body": "Łatwiej złapać dystans, gdy w szatni jest nerwowo.",
+   "viz": {
+    "type": "hub",
+    "center": "ja",
+    "icon": "heart",
+    "items": [
+     "drużyna",
+     "przyjaciele",
+     "rodzina",
+     "szkoła"
+    ],
+    "hl": 1
+   }
+  },
+  {
+   "title": "Odezwij się",
+   "body": "Rozmowa o czymś innym niż mecze też ładuje baterię.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "phone",
+      "label": "wiadomość",
+      "hl": true
+     },
+     {
+      "icon": "people",
+      "label": "wyjście"
+     },
+     {
+      "icon": "puzzle",
+      "label": "gra w domu"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Do kogo *odezwiesz się* w święta?",
+  "cta": "Napisz dziś do kogoś spoza sportu, z kim dawno nie rozmawiałeś.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

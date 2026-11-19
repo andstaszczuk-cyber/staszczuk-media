@@ -1,0 +1,118 @@
+{
+ "cover": {
+  "big": "20 min",
+  "bigSize": 200,
+  "bigSub": "wersja minimum na święta",
+  "title": "Minimum\n*na święta*",
+  "size": 96,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "tree",
+     "x": 560,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 770,
+     "y": 50,
+     "s": 100,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wszystko albo nic",
+   "body": "Plan wykonany w połowie daje więcej niż porzucony.",
+   "viz": {
+    "type": "bars",
+    "caption": "CO DAJE CIAŁU",
+    "items": [
+     {
+      "label": "nic",
+      "v": 0.05
+     },
+     {
+      "label": "minimum",
+      "v": 0.55,
+      "hl": true
+     },
+     {
+      "label": "pełny plan",
+      "v": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "title": "Dwie wersje planu",
+   "body": "Pełna na wolne dni, minimum na świętowanie.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "dumbbell",
+     "label": "pełna",
+     "sub": "gdy masz czas"
+    },
+    "right": {
+     "icon": "clock",
+     "label": "minimum",
+     "sub": "20 minut"
+    }
+   }
+  },
+  {
+   "title": "Wolne też w planie",
+   "body": "Zaplanowany odpoczynek nie wymaga tłumaczenia.",
+   "viz": {
+    "type": "week",
+    "caption": "ŚWIĘTA",
+    "days": [
+     {
+      "d": "23",
+      "icon": "dumbbell",
+      "label": "pełny"
+     },
+     {
+      "d": "24",
+      "icon": "tree",
+      "mark": "hl",
+      "label": "wolne"
+     },
+     {
+      "d": "25",
+      "icon": "clock",
+      "label": "minimum"
+     },
+     {
+      "d": "26",
+      "icon": "clock",
+      "label": "minimum"
+     },
+     {
+      "d": "27",
+      "icon": "dumbbell",
+      "label": "pełny"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak wygląda *twoje* minimum?",
+  "cta": "Ustal z trenerem wersję minimum, zanim zaczną się święta.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

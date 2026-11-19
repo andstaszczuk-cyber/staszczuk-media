@@ -1,0 +1,148 @@
+{
+ "cover": {
+  "kicker": "GRUDZIEŃ",
+  "title": "Dnia\n*przybywa*",
+  "size": 104,
+  "lh": 1.25,
+  "layout": "top",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 570
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 60,
+     "y": 120,
+     "s": 140,
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "x": 260,
+     "y": 70,
+     "s": 1.0,
+     "pose": "walk"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 620,
+     "y": 60,
+     "s": 230,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 630,
+     "y": 330,
+     "text": "+1 MIN",
+     "size": 40
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Minuty, których nie widać",
+   "size": 58,
+   "body": "Dzień po dniu zmiany są za małe dla oka.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.15
+       ],
+       [
+        0.25,
+        0.2
+       ],
+       [
+        0.5,
+        0.3
+       ],
+       [
+        0.75,
+        0.5
+       ],
+       [
+        1,
+        0.8
+       ]
+      ],
+      "hl": true
+     }
+    ],
+    "marks": [
+     {
+      "x": 0,
+      "y": 0.15,
+      "label": "grudzień",
+      "dx": 40
+     },
+     {
+      "x": 1,
+      "y": 0.8,
+      "label": "marzec",
+      "hl": true,
+      "dx": -40
+     }
+    ],
+    "x": "tygodnie",
+    "y": "forma"
+   }
+  },
+  {
+   "title": "Porównuj z dystansu",
+   "body": "Zestaw dzisiejszy wynik z początkiem sezonu.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "clock",
+     "label": "wczoraj",
+     "sub": "brak różnicy"
+    },
+    "right": {
+     "icon": "sun",
+     "label": "pół roku",
+     "sub": "widać postęp"
+    }
+   }
+  },
+  {
+   "title": "Łap światło",
+   "body": "Krótki spacer za dnia robi różnicę dla głowy.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "sun",
+      "label": "za dnia",
+      "hl": true
+     },
+     {
+      "icon": "tree",
+      "label": "na zewnątrz"
+     },
+     {
+      "icon": "clock",
+      "label": "kwadrans"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Gdzie *zobaczysz* swój postęp?",
+  "cta": "Zapisz dziś jeden wynik, do którego wrócisz w marcu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

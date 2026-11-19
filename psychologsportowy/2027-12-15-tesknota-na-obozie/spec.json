@@ -1,0 +1,154 @@
+{
+ "cover": {
+  "left": "DZIEŃ",
+  "right": "WIECZÓR",
+  "title": "Tęsknota\n*na obozie*",
+  "size": 92,
+  "lh": 1.25,
+  "layout": "split",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 148,
+     "y": 60,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "treningi",
+      "i śmiech"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 612,
+     "y": 60,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "myśli",
+      "o domu"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 340,
+     "y": 360,
+     "s": 0.45,
+     "pose": "slump"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "To normalne",
+   "body": "Tęsknota mówi, że masz do czego wracać.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "house",
+      "label": "dom"
+     },
+     {
+      "icon": "heart",
+      "label": "bliscy",
+      "hl": true
+     },
+     {
+      "icon": "bed",
+      "label": "swoje łóżko"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Nazwij ją",
+   "body": "Tęsknię, to w porządku, za kilka dni będę w domu.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "nie mogę o tym myśleć",
+    "to": "tęsknię i to jest w porządku"
+   }
+  },
+  {
+   "title": "Krótki kontakt",
+   "body": "Kilka minut rozmowy po kolacji wystarczy.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "pot",
+      "top": "kolacja"
+     },
+     {
+      "icon": "phone",
+      "top": "rozmowa",
+      "bottom": [
+       "kilka minut"
+      ],
+      "hl": true
+     },
+     {
+      "icon": "book",
+      "top": "książka"
+     },
+     {
+      "icon": "bed",
+      "top": "sen"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *pomoże* ci w trudny wieczór?",
+  "cta": "Przed obozem umów się z bliskimi na krótką rozmowę po kolacji.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

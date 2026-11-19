@@ -1,0 +1,129 @@
+{
+ "cover": {
+  "kicker": "PODSUMOWANIE",
+  "title": "Cel, który\n*nie wyszedł*",
+  "size": 92,
+  "lh": 1.25,
+  "layout": "top",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 570
+    },
+    {
+     "k": "person",
+     "x": 40,
+     "y": 70,
+     "s": 1.0,
+     "pose": "slump"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 440,
+     "y": 200,
+     "s": 170,
+     "c": "fig2"
+    },
+    {
+     "k": "cross",
+     "x": 600,
+     "y": 210,
+     "r": 40
+    },
+    {
+     "k": "arrow",
+     "x1": 640,
+     "y1": 380,
+     "x2": 760,
+     "y2": 300
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 740,
+     "y": 140,
+     "s": 140,
+     "c": "A"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Wynik zależy częściowo",
+   "size": 60,
+   "body": "Rywale, forma dnia i decyzje trenera też grają.",
+   "viz": {
+    "type": "hub",
+    "center": "wynik",
+    "icon": "trophy",
+    "items": [
+     "ja",
+     "rywale",
+     "forma dnia",
+     "trener"
+    ],
+    "hl": 0
+   }
+  },
+  {
+   "title": "Rozłóż rok na części",
+   "size": 62,
+   "body": "Wynik był niekorzystny, a jak wyglądał przebieg?",
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "dumbbell",
+      "label": "fizycznie"
+     },
+     {
+      "icon": "ball",
+      "label": "technika"
+     },
+     {
+      "icon": "brain",
+      "label": "decyzje"
+     },
+     {
+      "icon": "heart",
+      "label": "presja"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Mądrzejszy cel",
+   "body": "Fakty, widełki i lekko ponad obecne możliwości.",
+   "viz": {
+    "type": "scale10",
+    "caption": "CEL NA NOWY SEZON",
+    "points": [
+     {
+      "n": 5,
+      "label": "minimum"
+     },
+     {
+      "n": 7,
+      "label": "realnie",
+      "hl": true
+     },
+     {
+      "n": 9,
+      "label": "maksimum"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Czego *nauczył* cię ten cel?",
+  "cta": "Dopisz pod starym celem trzy rzeczy, które się poprawiły.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

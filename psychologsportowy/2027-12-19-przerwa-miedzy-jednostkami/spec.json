@@ -1,0 +1,159 @@
+{
+ "cover": {
+  "left": "EKRAN",
+  "right": "REGENERACJA",
+  "title": "Przerwa między\n*treningami*",
+  "size": 84,
+  "lh": 1.25,
+  "layout": "split",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 148,
+     "y": 60,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "ciało leży,",
+      "głowa pracuje"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 612,
+     "y": 60,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "ciało i głowa",
+      "odpoczywają"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 340,
+     "y": 360,
+     "s": 0.45,
+     "pose": "sit"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Przerwa to część treningu",
+   "size": 58,
+   "body": "W tym czasie organizm zaczyna się regenerować.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "dumbbell",
+      "top": "rano"
+     },
+     {
+      "icon": "bed",
+      "top": "przerwa",
+      "bottom": [
+       "regeneracja"
+      ],
+      "hl": true
+     },
+     {
+      "icon": "dumbbell",
+      "top": "popołudnie"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Scrollowanie męczy",
+   "body": "Mózg cały czas przetwarza nowe bodźce.",
+   "viz": {
+    "type": "bars",
+    "caption": "ODPOCZYNEK GŁOWY",
+    "items": [
+     {
+      "label": "telefon",
+      "v": 0.2
+     },
+     {
+      "label": "rozmowa",
+      "v": 0.6
+     },
+     {
+      "label": "drzemka",
+      "v": 0.85,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zaplanuj przerwę",
+   "body": "Drzemka, rozciąganie, telefon odłożony na pół godziny.",
+   "viz": {
+    "type": "checklist",
+    "title": "MOJA PRZERWA",
+    "chip": "PLAN",
+    "chipX": 420,
+    "backChip": "EKRAN",
+    "items": [
+     "drzemka",
+     "rozciąganie",
+     "telefon odłożony"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak wykorzystasz *przerwę*?",
+  "cta": "Na obozie zaplanuj przerwę między treningami tak jak trening.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
