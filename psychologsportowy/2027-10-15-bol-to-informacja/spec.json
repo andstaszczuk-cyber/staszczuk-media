@@ -1,0 +1,110 @@
+{
+ "cover": {
+  "kicker": "CIAŁO",
+  "title": "Ból to\n*informacja*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "hips"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 560,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "od tygodnia",
+     "size": 36
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Ciało czy ambicja?",
+   "body": "Adrenalina w meczu potrafi wyciszyć sporo sygnałów.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "trophy",
+     "label": "ambicja",
+     "sub": "gram dalej"
+    },
+    "right": {
+     "icon": "heart",
+     "label": "ciało",
+     "sub": "daje sygnał"
+    }
+   }
+  },
+  {
+   "title": "Codzienna skala",
+   "body": "Po treningu oceń ciało od 1 do 10 i zapisz, gdzie ciągnie.",
+   "viz": {
+    "type": "scale10",
+    "caption": "CIAŁO PO TRENINGU",
+    "points": [
+     {
+      "n": 8,
+      "label": "zwykle"
+     },
+     {
+      "n": 5,
+      "label": "łydka",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Informacja na czas",
+   "body": "Diagnoza należy do specjalisty. Ty mówisz wcześnie.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "dzień 1",
+      "icon": "note",
+      "bottom": "zapisuję"
+     },
+     {
+      "top": "dzień 3",
+      "icon": "note",
+      "bottom": "wraca"
+     },
+     {
+      "top": "dzień 4",
+      "icon": "people",
+      "bottom": "mówię",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co ci dziś *mówi* twoje ciało?",
+  "cta": "Przez tydzień zapisuj po treningu ocenę ciała.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

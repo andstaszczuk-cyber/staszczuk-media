@@ -1,0 +1,123 @@
+{
+ "cover": {
+  "kicker": "PO MECZU",
+  "title": "Rozmowa\n*w samochodzie*",
+  "size": 92,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "sit"
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 512,
+     "y": 110,
+     "text": "40 minut drogi",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Najgorszy moment",
+   "body": "Tuż po meczu emocje są najwyższe. Analiza łatwo zmienia się w kłótnię.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.9
+       ],
+       [
+        0.2,
+        0.7
+       ],
+       [
+        0.4,
+        0.5
+       ],
+       [
+        0.6,
+        0.38
+       ],
+       [
+        0.8,
+        0.3
+       ],
+       [
+        1,
+        0.25
+       ]
+      ],
+      "hl": true,
+      "label": "emocje"
+     }
+    ],
+    "x": "godziny po meczu"
+   }
+  },
+  {
+   "title": "Instrukcja obsługi",
+   "body": "Powiedz wcześniej, czego potrzebujesz po meczu.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "dlaczego nie strzelałeś?",
+    "to": "najpierw: jak się czujesz?"
+   }
+  },
+  {
+   "title": "Ustalcie zasady",
+   "body": "W spokojny dzień, przed kolejnym meczem.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "środa",
+      "icon": "people",
+      "bottom": "rozmowa",
+      "hl": true
+     },
+     {
+      "top": "sobota",
+      "icon": "ball",
+      "bottom": "mecz"
+     },
+     {
+      "top": "wieczór",
+      "icon": "house",
+      "bottom": "pogadamy"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Czego *potrzebujesz* po meczu?",
+  "cta": "Porozmawiaj z rodzicami w tym tygodniu, zanim wsiądziecie do auta.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

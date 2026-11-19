@@ -1,0 +1,130 @@
+{
+ "cover": {
+  "left": "PRZED",
+  "right": "PO ZDERZENIU",
+  "title": "Strach\n*po zderzeniu*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "skaczę",
+      "pierwszy"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "odwracam",
+      "głowę"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "crouch"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Mózg chce cię chronić",
+   "body": "Zapamiętał sytuację jako zagrożenie. Ma dobrą intencję.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "uważaj, znowu zaboli",
+    "to": "dzięki, skaczę"
+   }
+  },
+  {
+   "title": "Krok po kroku",
+   "body": "Bez rywala, potem lekki kontakt, potem pełny pojedynek.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "bez rywala",
+     "lekki kontakt",
+     "pełny pojedynek"
+    ],
+    "done": 1
+   }
+  },
+  {
+   "title": "Jedno słowo",
+   "body": "Słowo połączone z ruchem zabiera miejsce rozkminie.",
+   "viz": {
+    "type": "focus",
+    "center": "atak",
+    "around": [
+     "a jeśli zaboli?",
+     "tamten mecz",
+     "trybuny",
+     "trener"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaki będzie twój *pierwszy krok*?",
+  "cta": "Porozmawiaj z trenerem o stopniowym powrocie do pojedynków.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

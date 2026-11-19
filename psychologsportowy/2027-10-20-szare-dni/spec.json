@@ -1,0 +1,141 @@
+{
+ "cover": {
+  "left": "WRZESIEŃ",
+  "right": "PAŹDZIERNIK",
+  "title": "Szare dni\n*i trening*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "jasno",
+      "do wieczora"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "ciemno",
+      "o 17"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "sit"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Masz prawo",
+   "body": "Gorszy tydzień nie robi z ciebie gorszego człowieka.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "jestem beznadziejny",
+    "to": "mam gorszy tydzień"
+   }
+  },
+  {
+   "title": "Ładuj baterię",
+   "body": "Ruch w świetle dnia, ludzie, coś przyjemnego poza sportem.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "sun",
+      "label": "światło"
+     },
+     {
+      "icon": "people",
+      "label": "ludzie"
+     },
+     {
+      "icon": "heart",
+      "label": "przyjemność",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Kiedy to trwa tygodniami",
+   "body": "Porozmawiaj z bliskimi i specjalistą. To kompetencja.",
+   "viz": {
+    "type": "checklist",
+    "title": "SYGNAŁY",
+    "chip": "MÓWIĘ",
+    "chipX": 420,
+    "backChip": "SAM",
+    "items": [
+     "nic nie cieszy",
+     "trudno spać",
+     "tygodnie bez zmian"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *ładuje* twoją baterię jesienią?",
+  "cta": "Zaplanuj na ten tydzień jedną rzecz wyłącznie dla siebie.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

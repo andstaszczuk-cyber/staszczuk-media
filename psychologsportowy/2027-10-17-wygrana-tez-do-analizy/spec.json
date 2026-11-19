@@ -1,0 +1,101 @@
+{
+ "cover": {
+  "big": "3:1",
+  "bigSize": 260,
+  "bigSub": "i co zadziałało?",
+  "title": "Wygrana też\n*do analizy*",
+  "size": 92,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Mózg pamięta porażki",
+   "body": "Sukces nie wymaga reakcji, więc łatwo przechodzi obok.",
+   "viz": {
+    "type": "bars",
+    "caption": "CO ANALIZUJEMY",
+    "items": [
+     {
+      "label": "porażki",
+      "v": 0.9,
+      "note": "zawsze"
+     },
+     {
+      "label": "wygrane",
+      "v": 0.2,
+      "hl": true,
+      "note": "rzadko"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Co takiego robisz?",
+   "body": "Przygotowanie, sen, mowa do siebie, uwaga w trudnych chwilach.",
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "moon",
+      "label": "sen"
+     },
+     {
+      "icon": "brain",
+      "label": "głowa"
+     },
+     {
+      "icon": "flag",
+      "label": "plan"
+     },
+     {
+      "icon": "ball",
+      "label": "start"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Trzy rzeczy na kartce",
+   "body": "Dzień po meczu kwadrans i lista tego, co zadziałało.",
+   "viz": {
+    "type": "notes",
+    "title": "ZADZIAŁAŁO",
+    "lines": [
+     "rozgrzewka z piłką",
+     "jedno hasło",
+     "gadanie w obronie"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *zadziałało* w ostatniej wygranej?",
+  "cta": "Zapisz trzy rzeczy i schowaj kartkę na gorszy okres.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

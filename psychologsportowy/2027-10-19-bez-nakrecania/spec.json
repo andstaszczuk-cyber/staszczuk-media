@@ -1,0 +1,96 @@
+{
+ "cover": {
+  "kicker": "PRZED MECZEM",
+  "title": "Nie musisz\n*się nakręcać*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "stand"
+    },
+    {
+     "k": "icon",
+     "name": "wind",
+     "x": 560,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "spokojnie",
+     "size": 36
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Każdy ma swój stan",
+   "body": "Jeden potrzebuje ognia, drugi spokoju i czujności.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "bolt",
+     "label": "ogień",
+     "sub": "głośno"
+    },
+    "right": {
+     "icon": "wind",
+     "label": "spokój",
+     "sub": "czujnie"
+    }
+   }
+  },
+  {
+   "title": "Twoja liczba",
+   "body": "Oceń pobudzenie przed najlepszymi i najsłabszymi meczami.",
+   "viz": {
+    "type": "scale10",
+    "caption": "PRZED MECZEM",
+    "points": [
+     {
+      "n": 9,
+      "label": "słabe mecze"
+     },
+     {
+      "n": 6,
+      "label": "najlepsze",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Regulacja w obie strony",
+   "body": "Za nisko: muzyka i ruch. Za wysoko: dłuższy wydech.",
+   "viz": {
+    "type": "breath",
+    "inN": 4,
+    "outN": 6,
+    "inT": "wdech",
+    "outT": "dłuższy wydech"
+   }
+  }
+ ],
+ "end": {
+  "question": "Ile wynosi *twoja liczba*?",
+  "cta": "Sprawdź na trzech najlepszych meczach, w jakim stanie grasz najlepiej.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

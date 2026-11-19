@@ -1,0 +1,136 @@
+{
+ "cover": {
+  "left": "PRZED KARTKĄ",
+  "right": "PO KARTCE",
+  "title": "Grasz\n*z żółtą kartką*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "wślizg",
+      "na pełno"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "pozycja",
+      "i ciało"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "stand"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Rozwaga czy strach?",
+   "body": "Grasz bezpiecznie, bo wymaga tego sytuacja, czy ze strachu?",
+   "viz": {
+    "type": "listCompare",
+    "left": {
+     "title": "STRACH",
+     "items": [
+      "odstawiam nogę",
+      "uciekam",
+      "zostawiam stronę"
+     ]
+    },
+    "right": {
+     "title": "ROZWAGA",
+     "items": [
+      "bliżej rywala",
+      "gram ciałem",
+      "wślizg na pewno"
+     ]
+    }
+   }
+  },
+  {
+   "title": "Co teraz do zrobienia?",
+   "body": "Kartki nikt nie cofnie. Liczy się następna akcja.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "kartka",
+    "via": "reset",
+    "to": "następna akcja"
+   }
+  },
+  {
+   "title": "Gotowa reakcja",
+   "body": "Reakcja zaplanowana wcześniej działa lepiej niż kombinowanie.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "jeśli dostanę kartkę",
+    "to": "gram pozycją"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaki masz *plan* na kartkę?",
+  "cta": "Przed meczem ustal swoją reakcję i powiedz ją partnerowi z obrony.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

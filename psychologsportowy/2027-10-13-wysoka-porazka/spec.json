@@ -1,0 +1,100 @@
+{
+ "cover": {
+  "big": "0:6",
+  "bigSize": 260,
+  "bigSub": "i co teraz?",
+  "title": "Wysoka\n*porażka*",
+  "size": 92,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Masz prawo to przeżyć",
+   "body": "Wstyd mówi, że zależy ci na drużynie.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "nie umiemy grać",
+    "to": "boli, bo mi zależy"
+   }
+  },
+  {
+   "title": "Analiza w dwóch etapach",
+   "body": "Na gorąco kilka myślników. Pełna po kilku dniach.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "sobota",
+      "icon": "note",
+      "bottom": "myślniki"
+     },
+     {
+      "top": "wtorek",
+      "icon": "brain",
+      "bottom": "analiza",
+      "hl": true
+     },
+     {
+      "top": "środa",
+      "icon": "dumbbell",
+      "bottom": "zadania"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Sześć goli, kilka zadań",
+   "body": "Co było naszym błędem, a co lepszą grą rywala?",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "NASZE BŁĘDY",
+      "items": [
+       "stałe fragmenty",
+       "straty w środku"
+      ],
+      "hl": true
+     },
+     {
+      "title": "LEPSZY RYWAL",
+      "items": [
+       "szybkie skrzydła",
+       "skuteczność"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co z tego meczu *zabierasz* do pracy?",
+  "cta": "Za kilka dni wypisz trzy zadania na najbliższe treningi.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

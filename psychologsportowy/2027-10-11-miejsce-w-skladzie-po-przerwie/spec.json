@@ -1,0 +1,88 @@
+{
+ "cover": {
+  "kicker": "SKŁAD",
+  "title": "Wracasz,\n*a miejsce zajęte*",
+  "size": 92,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "sit"
+    },
+    {
+     "k": "icon",
+     "name": "bench",
+     "x": 560,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "po przerwie",
+     "size": 36
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Wywalczasz na nowo",
+   "body": "Nowe warunki i rywal, który zebrał swoje dowody.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "trening",
+     "wejście z ławki",
+     "podstawa"
+    ],
+    "done": 1
+   }
+  },
+  {
+   "title": "Ławka gotowych",
+   "body": "Trener widzi treningi, zaangażowanie i reakcję na ławkę.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "należy mi się",
+    "to": "mam robotę do zrobienia"
+   }
+  },
+  {
+   "title": "Zapytaj o konkret",
+   "body": "Co trener chce zobaczyć, żebyś wrócił do składu?",
+   "viz": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "ma mnie dość?",
+     "już nie wrócę?",
+     "woli tamtego?"
+    ],
+    "ask": [
+     "Co mam",
+     "poprawić,",
+     "żeby grać?"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaki *dowód* dasz trenerowi w tym tygodniu?",
+  "cta": "Ustal zadanie na każdy trening i zapisuj, co zrobiłeś.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

@@ -1,0 +1,90 @@
+{
+ "cover": {
+  "kicker": "DRUŻYNA",
+  "title": "Kolega\n*zawalił mecz*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "sit"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "90. minuta",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Nic się nie stało?",
+   "body": "Brzmi miło, ale rzadko trafia. On wie, że coś się stało.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "nic się nie stało",
+    "to": "jestem obok"
+   }
+  },
+  {
+   "title": "Dwa rodzaje wsparcia",
+   "body": "Najpierw emocjonalne. Zadaniowe, gdy emocje opadną.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "heart",
+     "label": "emocjonalne",
+     "sub": "po meczu"
+    },
+    "right": {
+     "icon": "dumbbell",
+     "label": "zadaniowe",
+     "sub": "w środę"
+    }
+   }
+  },
+  {
+   "title": "Dziś on, jutro ty",
+   "body": "Bezbłędnych meczów nie ma. Każdy kiedyś siedzi z ręcznikiem.",
+   "viz": {
+    "type": "moment",
+    "bad": [
+     "BŁĄD",
+     "SAM"
+    ],
+    "good": [
+     "BŁĄD",
+     "RAZEM"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak *wspierasz* kolegów po błędzie?",
+  "cta": "Następnym razem po prostu usiądź obok.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
