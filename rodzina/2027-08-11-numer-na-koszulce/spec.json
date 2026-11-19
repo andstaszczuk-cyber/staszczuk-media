@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Dostałem siedemnastkę. Chciałem dziesiątkę.",
+    "*Ten numer też może być szczęśliwy*."
+   ],
+   "text": "Rozczarowanie *na start sezonu*."
+  },
+  {
+   "kind": "point",
+   "title": "Rozczarowanie *jest prawdziwe*",
+   "body": "Potraktuj je poważnie, nawet jeśli Ciebie to bawi.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Historia *nowego numeru*",
+   "body": "Niech dziecko samo nada mu znaczenie.",
+   "icon": "book"
+  },
+  {
+   "kind": "point",
+   "title": "Lekcja *na dłużej*",
+   "body": "W sporcie wiele rzeczy dzieje się poza naszym wpływem.",
+   "icon": "dice"
+  },
+  {
+   "kind": "end",
+   "text": "Numer na plecach *nabiera znaczenia w grze*.",
+   "cta": "Zapisz przed rozdaniem strojów.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

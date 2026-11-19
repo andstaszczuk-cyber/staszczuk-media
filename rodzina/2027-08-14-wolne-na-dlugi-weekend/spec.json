@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "tent",
+   "text": "Trener dał wolne\n*na długi weekend*."
+  },
+  {
+   "kind": "point",
+   "title": "Wolne *to część planu*",
+   "body": "Trener wie, po co daje przerwę przed sezonem.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Ruch *dla przyjemności*",
+   "body": "Rower, pływanie, gra z rodziną bez liczenia.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *nadrabiania*",
+   "body": "Wolne dni zostawiamy na odpoczynek.",
+   "icon": "moon"
+  },
+  {
+   "kind": "end",
+   "text": "Wypoczęty zawodnik *wraca z apetytem*.",
+   "cta": "Zapisz przed długim weekendem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

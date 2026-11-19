@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Na treningu prawie się nie odzywa.",
+    "*Potrzebuje czasu, żeby się oswoić*."
+   ],
+   "text": "Cichy *w nowej grupie*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *obserwuje*",
+   "body": "Część dzieci najpierw patrzy, potem działa.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *popychania*",
+   "body": "Zmuszanie do kontaktu często wzmacnia nieśmiałość.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden *kolega*",
+   "body": "Wspólny dojazd albo spotkanie po treningu pomaga.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "end",
+   "text": "Ciche dziecko *też znajdzie swoje miejsce*.",
+   "cta": "Zapisz, jeśli Twoje dziecko jest ciche.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

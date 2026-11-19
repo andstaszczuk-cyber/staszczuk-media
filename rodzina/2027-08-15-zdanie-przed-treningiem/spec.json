@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Postaraj się, dziś musisz się pokazać.",
+   "new": "Baw się dobrze. *Czekam po treningu*.",
+   "text": "Ostatnie słowa przed wyjściem z auta."
+  },
+  {
+   "kind": "point",
+   "title": "Krótko *i ciepło*",
+   "body": "Jedno zdanie wystarczy. Bez instrukcji.",
+   "icon": "car"
+  },
+  {
+   "kind": "point",
+   "title": "Wskazówki *daje trener*",
+   "body": "Ty dajesz wsparcie i spokój.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Zawsze *to samo*",
+   "body": "Stały rytuał daje dziecku poczucie bezpieczeństwa.",
+   "icon": "loop"
+  },
+  {
+   "kind": "end",
+   "text": "Twoje słowa dziecko *zabiera ze sobą*.",
+   "cta": "Zapisz i powiedz to jutro przy aucie.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Jest słabszy od kolegów.",
+   "new": "Jest *prawie rok młodszy*.",
+   "text": "Data urodzenia ma znaczenie."
+  },
+  {
+   "kind": "point",
+   "title": "Rok *to dużo*",
+   "body": "U dzieci kilka miesięcy różnicy widać w sile i szybkości.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Porównuj *do niego samego*",
+   "body": "Postęp dziecka mierz jego własną miarą.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Cierpliwość *się opłaca*",
+   "body": "Młodsi w roczniku często doganiają innych później.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Daj mu czas. *Różnice się wyrównują*.",
+   "cta": "Zapisz, jeśli Twoje dziecko jest z końca roku.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

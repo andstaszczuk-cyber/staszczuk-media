@@ -1,0 +1,41 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Młodsze idzie\n*do klubu starszego*:",
+   "items": [
+    "inne tempo",
+    "inne mocne strony",
+    "osobne rozmowy",
+    "osobne sukcesy"
+   ],
+   "checked": 0
+  },
+  {
+   "kind": "point",
+   "title": "Bez *porównań*",
+   "body": "Każde dziecko ma swoją drogę i swój czas.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Starsze *ma swoje sprawy*",
+   "body": "Pilnowanie młodszego to zadanie dorosłych.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Czas *dla każdego*",
+   "body": "Rozmowa po treningu z każdym osobno.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Ten sam klub, *dwie różne historie*.",
+   "cta": "Zapisz, jeśli masz dwoje dzieci w sporcie.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

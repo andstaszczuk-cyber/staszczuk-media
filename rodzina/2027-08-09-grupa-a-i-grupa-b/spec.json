@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "icon": "growth",
+   "text": "Słabsza grupa?\n*Grupy się zmieniają*."
+  },
+  {
+   "kind": "point",
+   "title": "Nazwij *emocje*",
+   "body": "Smutek i złość po takiej decyzji są normalne.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Więcej *gry*",
+   "body": "W słabszej grupie dziecko częściej gra i próbuje.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Podział *na teraz*",
+   "body": "Dzieci rosną nierówno, grupy też się zmieniają.",
+   "icon": "loop"
+  },
+  {
+   "kind": "end",
+   "text": "Liczy się, *czy dziecko dalej się rozwija*.",
+   "cta": "Zapisz i wyślij rodzicowi z klubu.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

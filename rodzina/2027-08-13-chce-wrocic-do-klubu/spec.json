@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Chce wrócić do klubu,\n*z którego odszedł*."
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj, *co się zmieniło*",
+   "body": "Co sprawiło, że znowu chce trenować?",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *wypominania*",
+   "body": "Wypominanie uczy, że zmiana zdania jest wstydliwa.",
+   "icon": "door"
+  },
+  {
+   "kind": "point",
+   "title": "Powrót *na nowych zasadach*",
+   "body": "Ustalcie, czego potrzebuje, żeby tym razem było dobrze.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "end",
+   "text": "Powrót to *odważna decyzja*.",
+   "cta": "Zapisz i wyślij rodzicowi, który to zna.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}
