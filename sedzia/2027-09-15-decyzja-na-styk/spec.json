@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "50/50",
+   "text": "Decyzja na styk.\\n*Ktoś zawsze będzie niezadowolony*."
+  },
+  {
+   "kind": "point",
+   "title": "Na styk",
+   "body": "Kontakt, który można ocenić w obie strony. Każda decyzja ma swoich krytyków.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Osioł",
+   "body": "Jak w starej przypowieści: każdy wariant ktoś skrytykuje.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Kryterium",
+   "body": "Co widziałeś w tej chwili i co mówią przepisy. Na tym się opierasz.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Wybierasz według przepisów.\\n*Krytyka przyjdzie i tak*.",
+   "cta": "Zapisz na sytuacje na styk"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "phone",
+   "text": "Po trudnym meczu\\n*zadzwoń do kogoś*."
+  },
+  {
+   "kind": "point",
+   "title": "Sam z tym",
+   "body": "Wieczór po trudnym meczu, myśli krążą, a ty nikomu nic nie mówisz.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Telefon",
+   "body": "Kolega z zespołu, mentor, ktoś, kto zna sędziowanie od środka.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "point",
+   "title": "Kompetencja",
+   "body": "Prośba o pomoc to umiejętność. Korzystają z niej także najlepsi.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Prośba o pomoc\\n*to też profesjonalizm*.",
+   "cta": "Zapisz i wyślij koledze z zespołu"
+  }
+ ]
+}

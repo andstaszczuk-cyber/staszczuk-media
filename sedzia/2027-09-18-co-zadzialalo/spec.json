@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Dobry mecz\\n*też rozbierz na części*."
+  },
+  {
+   "kind": "point",
+   "title": "Jakoś poszło",
+   "body": "Dobry mecz łatwo zbyć jednym zdaniem i szybko o nim zapomnieć.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Rozbiórka",
+   "body": "Co zrobiłeś przed meczem? Gdzie stałeś? Jak rozmawiałeś z kapitanami?",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Powtórka",
+   "body": "Wiesz, jak do tego doszedłeś, więc możesz to powtórzyć.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Wiesz, jak to zrobiłeś.\\n*Więc zrobisz to znowu*.",
+   "cta": "Zapisz po dobrym meczu"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "waga",
+   "text": "Po korekcie łatwo\\n*przechylić się w drugą stronę*."
+  },
+  {
+   "kind": "point",
+   "title": "Uwaga",
+   "body": "Obserwator pisze: za mało konsekwencji przy faulach taktycznych.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Wahadło",
+   "body": "W kolejnym meczu kartki lecą przy co drugim kontakcie. Druga skrajność.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Środek",
+   "body": "Zmiana drga w obie strony, zanim się ułoży. To normalny etap nauki.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Wahadło się uspokaja.\\n*Daj mu kilka meczów*.",
+   "cta": "Zapisz po pierwszej korekcie"
+  }
+ ]
+}

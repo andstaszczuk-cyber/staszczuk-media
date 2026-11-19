@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "sub": "Sprawdź, co jest faktem,\\n*a co interpretacją*.",
+   "text": "Cały stadion\\n*przeciwko tobie?*"
+  },
+  {
+   "kind": "point",
+   "title": "Fakt",
+   "body": "Gwizdy z jednej trybuny po rzucie karnym. To da się policzyć.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "point",
+   "title": "Interpretacja",
+   "body": "Wszyscy mnie nienawidzą, nikt mnie tu nie chce. To dopisuje głowa.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Pytanie",
+   "body": "Co zarejestrowałaby kamera? Tego się trzymaj.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "end",
+   "text": "Fakty są mniejsze\\n*niż historia w głowie*.",
+   "cta": "Zapisz przed meczem przy pełnych trybunach"
+  }
+ ]
+}

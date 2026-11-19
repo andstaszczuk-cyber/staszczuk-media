@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "young",
+   "text": "Szkoła i gwizdek\\n*w jednym tygodniu*."
+  },
+  {
+   "kind": "point",
+   "title": "Dwa kalendarze",
+   "body": "Sprawdziany, zadania i mecze w weekend. Wszystko w tym samym tygodniu.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Plan",
+   "body": "Nauka rozpisana na dni, zanim przyjdzie obsada.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa",
+   "body": "O ważnym sprawdzianie powiedz koordynatorowi z wyprzedzeniem.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Szkoła i sędziowanie\\n*mogą się dogadać*.",
+   "cta": "Wyślij młodemu sędziemu"
+  }
+ ]
+}
