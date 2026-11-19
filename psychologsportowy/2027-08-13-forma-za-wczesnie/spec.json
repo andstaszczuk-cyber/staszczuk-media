@@ -1,0 +1,192 @@
+{
+ "cover": {
+  "left": "LIPIEC",
+  "right": "SIERPIEŃ",
+  "title": "Forma przyszła\n*za wcześnie?*",
+  "size": 88,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "świetne",
+      "treningi"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "ciężkie",
+      "nogi"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "think"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Tydzień to za mało",
+   "body": "Słabszy tydzień przed startem zdarza się każdemu. Szukaj tendencji.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.25
+       ],
+       [
+        0.2,
+        0.4
+       ],
+       [
+        0.4,
+        0.52
+       ],
+       [
+        0.6,
+        0.68
+       ],
+       [
+        0.8,
+        0.58
+       ],
+       [
+        1,
+        0.63
+       ]
+      ],
+      "hl": true,
+      "label": "forma"
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.8,
+      "y": 0.58,
+      "label": "gorszy tydzień",
+      "dy": 60
+     }
+    ],
+    "x": "tygodnie"
+   }
+  },
+  {
+   "title": "Sprawdź proste rzeczy",
+   "body": "Sen, jedzenie, obciążenie, upał. Zanim uznasz, że to głowa.",
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "moon",
+      "label": "sen"
+     },
+     {
+      "icon": "pot",
+      "label": "jedzenie"
+     },
+     {
+      "icon": "dumbbell",
+      "label": "obciążenie"
+     },
+     {
+      "icon": "sun",
+      "label": "upał"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zaufaj planowi",
+   "body": "Trener rozpisał szczyt na start. Ciężkie nogi bywają częścią planu.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "lipiec",
+      "icon": "bolt",
+      "bottom": "lekko"
+     },
+     {
+      "top": "sierpień",
+      "icon": "battery",
+      "bottom": "ciężko"
+     },
+     {
+      "top": "start",
+      "icon": "flag",
+      "hl": true,
+      "bottom": "szczyt"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co pokazuje ci *cały* okres przygotowań?",
+  "cta": "Porównaj ostatnie sześć tygodni treningów z ostatnim tygodniem.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

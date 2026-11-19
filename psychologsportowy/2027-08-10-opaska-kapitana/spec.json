@@ -1,0 +1,93 @@
+{
+ "cover": {
+  "big": "C",
+  "bigSize": 300,
+  "bigSub": "opaska na nowy sezon",
+  "title": "Zostałeś\n*kapitanem*",
+  "size": 100,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 520,
+     "y": 40,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 670,
+     "y": 250,
+     "t": "C",
+     "size": 130,
+     "w": 800,
+     "c": "onA",
+     "anchor": "middle"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Opaska to rola",
+   "body": "Zakładasz ją na boisku i w szatni. Po treningu odkładasz razem ze strojem.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "shield",
+     "label": "rola",
+     "sub": "boisko i szatnia"
+    },
+    "right": {
+     "icon": "heart",
+     "label": "ty",
+     "sub": "cały człowiek"
+    }
+   }
+  },
+  {
+   "title": "Przywództwo to zachowania",
+   "body": "Pierwszy na treningu, spokojny po błędzie, mówi krótko i konkretnie.",
+   "viz": {
+    "type": "checklist",
+    "title": "KAPITAN",
+    "chip": "ROBIĘ",
+    "chipX": 420,
+    "backChip": "KRZYK",
+    "items": [
+     "jestem pierwszy",
+     "spokój po błędzie",
+     "konkretne słowa"
+    ]
+   }
+  },
+  {
+   "title": "Grasz swoją grę",
+   "body": "Odpowiadasz za swoje zadania i wsparcie innych. Za wynik odpowiada drużyna.",
+   "viz": {
+    "type": "hub",
+    "center": "drużyna",
+    "icon": "people",
+    "items": [
+     "moje zadania",
+     "trener",
+     "partnerzy",
+     "plan"
+    ],
+    "hl": 0
+   }
+  }
+ ],
+ "end": {
+  "question": "Jakim *kapitanem* chcesz być?",
+  "cta": "Zapisz trzy zachowania, po których drużyna pozna twoje przywództwo.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

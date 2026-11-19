@@ -1,0 +1,111 @@
+{
+ "cover": {
+  "kicker": "BURZA NAD BOISKIEM",
+  "title": "Mecz przełożony\n*w ostatniej chwili*",
+  "size": 86,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 560,
+     "y": 0,
+     "s": 260,
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "hips"
+    },
+    {
+     "k": "chip",
+     "x": 480,
+     "y": 330,
+     "text": "nowy termin",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Energia zostaje w ciele",
+   "body": "Byłeś nastawiony na start. Pobudzenie nie ma gdzie ujść.",
+   "viz": {
+    "type": "moment",
+    "bad": [
+     "NAKRĘCONY",
+     "NA MECZ"
+    ],
+    "good": [
+     "PO",
+     "ROZŁADOWANIU"
+    ]
+   }
+  },
+  {
+   "title": "Wyjdź z trybu meczowego",
+   "body": "Spokojny ruch, prysznic, rozmowa. Daj ciału znać, że na dziś koniec.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "foot",
+      "label": "spokojny trucht"
+     },
+     {
+      "icon": "drop",
+      "label": "prysznic"
+     },
+     {
+      "icon": "people",
+      "label": "rozmowa",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Te same kroki, nowa data",
+   "body": "Plan zostaje. Rutyna i zadania przechodzą na nowy termin.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "sobota",
+      "icon": "cloudRain",
+      "bottom": "odwołany"
+     },
+     {
+      "top": "tydzień",
+      "icon": "dumbbell",
+      "bottom": "trening"
+     },
+     {
+      "top": "nowy termin",
+      "icon": "flag",
+      "hl": true,
+      "bottom": "ta sama rutyna"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak *rozładujesz* energię, gdy mecz przepadnie?",
+  "cta": "Zapisz dwa sposoby na wyjście z trybu meczowego.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

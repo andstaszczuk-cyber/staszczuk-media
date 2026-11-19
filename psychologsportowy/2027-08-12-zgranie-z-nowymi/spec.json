@@ -1,0 +1,105 @@
+{
+ "cover": {
+  "kicker": "NOWI W DRUŻYNIE",
+  "title": "Zgranie\n*wymaga czasu*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 20,
+     "y": 90,
+     "s": 0.95,
+     "pose": "point"
+    },
+    {
+     "k": "person",
+     "x": 560,
+     "y": 90,
+     "s": 0.95,
+     "pose": "stand",
+     "flip": true
+    },
+    {
+     "k": "line",
+     "x1": 360,
+     "y1": 230,
+     "x2": 600,
+     "y2": 230,
+     "c": "A",
+     "w": 8,
+     "dash": "4 26"
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 400,
+     "y": 400,
+     "s": 120,
+     "c": "A"
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Nieporozumienia to norma",
+   "body": "Nowi partnerzy jeszcze się nie znają. Zgrzyty są częścią procesu.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "ball",
+      "label": "spóźnione podanie"
+     },
+     {
+      "icon": "people",
+      "label": "ten sam wybieg"
+     },
+     {
+      "icon": "mic",
+      "label": "cisza",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Mówcie na boisku",
+   "body": "Krótkie hasła ustalone na treningu: imię, kierunek, sygnał.",
+   "viz": {
+    "type": "same",
+    "left": "TRENING",
+    "right": "MECZ",
+    "items": [
+     "imię",
+     "kierunek",
+     "hasło"
+    ]
+   }
+  },
+  {
+   "title": "Rozmawiajcie po akcji",
+   "body": "Co widziałeś, co chciałeś zrobić, jak zagramy następnym razem.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "czemu nie podałeś?",
+    "to": "co widziałeś w tej akcji?"
+   }
+  }
+ ],
+ "end": {
+  "question": "Z kim *dziś* pogadasz po treningu?",
+  "cta": "Ustal z jednym nowym partnerem jedno wspólne hasło.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

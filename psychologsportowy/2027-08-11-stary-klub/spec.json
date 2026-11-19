@@ -1,0 +1,117 @@
+{
+ "cover": {
+  "kicker": "NOWY KLUB",
+  "title": "W starym klubie\n*było lepiej?*",
+  "size": 90,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 20,
+     "y": 330,
+     "s": 200,
+     "c": "fig2"
+    },
+    {
+     "k": "chip",
+     "x": 20,
+     "y": 250,
+     "text": "stary klub",
+     "c": "soft",
+     "tc": "fg",
+     "size": 30
+    },
+    {
+     "k": "person",
+     "x": 270,
+     "y": 100,
+     "s": 0.95,
+     "pose": "walk"
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 620,
+     "y": 300,
+     "s": 240,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 640,
+     "y": 220,
+     "text": "nowy klub",
+     "size": 30
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Pamięć wygładza przeszłość",
+   "body": "Ze starego klubu pamiętasz najlepsze chwile. Trudne dni bledną.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "star",
+     "label": "stary klub",
+     "sub": "same dobre wspomnienia"
+    },
+    "right": {
+     "icon": "house",
+     "label": "nowy klub",
+     "sub": "zwykła codzienność"
+    }
+   }
+  },
+  {
+   "title": "Porównujesz nieporównywalne",
+   "body": "Lata wspólnej historii kontra kilka tygodni nowej drogi.",
+   "viz": {
+    "type": "bars",
+    "caption": "CZAS RAZEM",
+    "items": [
+     {
+      "label": "stary klub",
+      "v": 0.9,
+      "note": "lata"
+     },
+     {
+      "label": "nowy klub",
+      "v": 0.2,
+      "hl": true,
+      "note": "tygodnie"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Szukaj tego, co działa",
+   "body": "Codziennie zapisz jedną dobrą rzecz z nowego klubu.",
+   "viz": {
+    "type": "notes",
+    "title": "NOWY KLUB: PLUSY",
+    "lines": [
+     "mocne treningi",
+     "trener od detali",
+     "nowe zagrania"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co w nowym klubie *już działa*?",
+  "cta": "Przez tydzień zapisuj codziennie jedną dobrą rzecz z nowego klubu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

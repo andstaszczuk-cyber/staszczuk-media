@@ -1,0 +1,146 @@
+{
+ "cover": {
+  "left": "SŁYSZĘ",
+  "right": "MAM WPŁYW",
+  "title": "Szukają kogoś\n*na twoją pozycję*",
+  "size": 82,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "phone",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "plotki",
+      "z szatni"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "mój",
+      "trening"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "think"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Plotka to jeszcze nie fakt",
+   "body": "Zdanie usłyszane w szatni łatwo zamienić w pewność. Sprawdź, co wiesz naprawdę.",
+   "viz": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "już mnie skreślili",
+     "szukają następcy",
+     "to koniec"
+    ],
+    "ask": [
+     "Co wiem",
+     "na pewno",
+     "dziś?"
+    ]
+   }
+  },
+  {
+   "title": "Rozdziel wpływ",
+   "body": "Decyzje klubu są poza tobą. Twoja forma jest w twoich rękach.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "MAM WPŁYW",
+      "items": [
+       "trening",
+       "regeneracja",
+       "postawa"
+      ],
+      "hl": true
+     },
+     {
+      "title": "BEZ WPŁYWU",
+      "items": [
+       "decyzje klubu",
+       "plotki",
+       "transfery"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zapytaj u źródła",
+   "body": "Spokojna rozmowa z trenerem daje więcej niż tydzień domysłów.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "pewnie mnie zastąpią",
+    "to": "jaka jest moja rola?"
+   }
+  }
+ ],
+ "end": {
+  "question": "Na co *dziś* masz wpływ?",
+  "cta": "Wypisz trzy rzeczy z tego tygodnia, które zależą od ciebie.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

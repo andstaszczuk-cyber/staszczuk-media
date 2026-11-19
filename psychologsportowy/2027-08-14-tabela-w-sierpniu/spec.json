@@ -1,0 +1,112 @@
+{
+ "cover": {
+  "big": "2/30",
+  "bigSize": 220,
+  "bigSub": "kolejki za tobą",
+  "title": "Tabela\n*w sierpniu*",
+  "size": 100,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 500,
+     "y": 60,
+     "s": 240,
+     "c": "fig2"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 760,
+     "y": 150,
+     "s": 120,
+     "c": "A"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Dwa mecze to mała próbka",
+   "body": "Po dwóch kolejkach tabela mówi o sezonie bardzo niewiele.",
+   "viz": {
+    "type": "bars",
+    "caption": "SEZON",
+    "items": [
+     {
+      "label": "rozegrane",
+      "v": 0.2,
+      "hl": true,
+      "note": "2"
+     },
+     {
+      "label": "przed tobą",
+      "v": 1,
+      "note": "28"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Patrz na grę",
+   "body": "Co działało? Co powtarzasz, co poprawiasz na treningu?",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "POWTARZAM",
+      "items": [
+       "agresja w obronie",
+       "szybkie wyjście"
+      ],
+      "hl": true
+     },
+     {
+      "title": "POPRAWIAM",
+      "items": [
+       "ostatnie minuty",
+       "rozmowa na boisku"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Licz tendencję",
+   "body": "Notatki po każdym meczu. Bilans po kilku tygodniach.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "kolejka 2",
+      "icon": "note",
+      "hl": true,
+      "bottom": "notatka"
+     },
+     {
+      "top": "kolejka 5",
+      "icon": "note",
+      "bottom": "notatka"
+     },
+     {
+      "top": "kolejka 10",
+      "icon": "flag",
+      "bottom": "bilans"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co mówi ci *gra*, kiedy odłożysz tabelę?",
+  "cta": "Zapisz dwie rzeczy do powtórzenia i dwie do poprawy po ostatnim meczu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
