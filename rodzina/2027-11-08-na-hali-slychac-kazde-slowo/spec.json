@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Na trybunach nikt mnie nie słyszy.",
+   "new": "*Na hali dziecko słyszy wszystko*.",
+   "text": "Sezon halowy."
+  },
+  {
+   "kind": "point",
+   "title": "Mała *odległość*",
+   "body": "Trybuny są tuż przy boisku.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Mniej *słów*",
+   "body": "Brawa wystarczą, instrukcje zostaw trenerowi.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Słowa *o innych*",
+   "body": "Rywal i sędzia też słyszą.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "end",
+   "text": "Na hali *mniej znaczy więcej*.",
+   "cta": "Zapisz przed pierwszym turniejem halowym.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

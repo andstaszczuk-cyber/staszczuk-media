@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Hymn\n*przed meczem*.",
+   "items": [
+    "wzruszenie",
+    "duma",
+    "tremę też"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Wielkie *emocje*",
+   "body": "Uroczystość potrafi podnieść tętno.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojny *oddech*",
+   "body": "Kilka wolnych wydechów po hymnie.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Potem *zwykła gra*",
+   "body": "Pierwsze podanie, pierwsze zadanie.",
+   "icon": "ball"
+  },
+  {
+   "kind": "end",
+   "text": "Duma i trema *mogą stać obok siebie*.",
+   "cta": "Zapisz przed turniejem niepodległościowym.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

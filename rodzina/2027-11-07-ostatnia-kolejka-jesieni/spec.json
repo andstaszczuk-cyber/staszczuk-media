@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Ostatni mecz\n*rundy jesiennej*.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "point",
+   "title": "Większe *emocje*",
+   "body": "Tabela kusi, żeby podkręcić stawkę.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Zwykły *mecz*",
+   "body": "Te same zadania co w każdej kolejce.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Do *końcowego gwizdka*",
+   "body": "Pilnuj do końca, bez liczenia punktów.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "end",
+   "text": "Rundę zamyka się *uśmiechem*.",
+   "cta": "Zapisz przed ostatnią kolejką.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Czekałem na ten turniej cały miesiąc.",
+    "*Wiem. Mnie też jest przykro*."
+   ],
+   "text": "Choroba *przed wyjazdem*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *smutek*",
+   "body": "Pozwól mu się rozczarować.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja *z lekarzem*",
+   "body": "O starcie decyduje zdrowie.",
+   "icon": "plaster"
+  },
+  {
+   "kind": "point",
+   "title": "Kolejny *termin*",
+   "body": "Poszukajcie razem następnego turnieju.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "end",
+   "text": "Turnieje *będą jeszcze*.",
+   "cta": "Zapisz na sezon przeziębień.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

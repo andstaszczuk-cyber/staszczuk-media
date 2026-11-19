@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Mamo, zapytasz trenera, czemu nie gram?",
+    "*Spróbujesz sam? Pomogę Ci się przygotować*."
+   ],
+   "text": "Pierwsza rozmowa *z trenerem*."
+  },
+  {
+   "kind": "point",
+   "title": "Jedno *pytanie*",
+   "body": "Co mam poprawić, żeby grać więcej?",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Próba *w domu*",
+   "body": "Powiedzcie to na głos przy kolacji.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Odpowiedź *bez oceny*",
+   "body": "Każda informacja od trenera się przyda.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "end",
+   "text": "Sam zapytał, *sam usłyszał*.",
+   "cta": "Zapisz i wyślij rodzicowi z drużyny.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

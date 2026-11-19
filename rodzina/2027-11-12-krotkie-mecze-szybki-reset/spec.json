@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Mecz trwa\n*osiem minut*.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Mało *czasu*",
+   "body": "Nie ma kiedy rozpamiętywać błędu.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Gest *resetu*",
+   "body": "Klaśnięcie i następna akcja.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa *po turnieju*",
+   "body": "Między meczami tylko picie i odpoczynek.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Następna akcja *to nowa szansa*.",
+   "cta": "Zapisz przed turniejem halowym.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

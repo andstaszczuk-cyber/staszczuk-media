@@ -1,0 +1,40 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Runda za nami.\n*Trzy pytania*.",
+   "items": [
+    "co mi wyszło?",
+    "czego się nauczyłem?",
+    "co dalej?"
+   ],
+   "checked": 3
+  },
+  {
+   "kind": "point",
+   "title": "Co *wyszło*",
+   "body": "Zacznijcie od tego, co działało.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "point",
+   "title": "Czego *się nauczył*",
+   "body": "Jedna nowa umiejętność wystarczy.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Co *dalej*",
+   "body": "Jeden mały cel na zimę.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "end",
+   "text": "Dobre pytania *zostają na dłużej*.",
+   "cta": "Zapisz na koniec rundy.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

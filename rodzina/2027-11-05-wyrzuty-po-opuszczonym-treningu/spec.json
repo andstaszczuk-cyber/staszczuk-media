@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Opuścił trening\n*przez katar*.",
+   "items": [
+    "bez wyrzutów",
+    "bez nadrabiania",
+    "spokojny powrót"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Dzień *odpoczynku*",
+   "body": "Organizm też pracuje, kiedy leżysz.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *długu*",
+   "body": "Jutro nie dokładamy podwójnej porcji.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Mów *o powrocie*",
+   "body": "Co zrobisz na pierwszym treningu?",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Odpoczynek *też jest częścią sportu*.",
+   "cta": "Zapisz na sezon przeziębień.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

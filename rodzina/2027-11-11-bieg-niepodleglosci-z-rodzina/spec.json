@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "11 listopada\n*biegniemy razem*."
+  },
+  {
+   "kind": "point",
+   "title": "Wspólny *start*",
+   "body": "Rodzic i dziecko na tej samej trasie.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Własne *tempo*",
+   "body": "Bez ścigania się z dzieckiem.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Meta *razem*",
+   "body": "Wspólne zdjęcie zamiast wyniku.",
+   "icon": "heart"
+  },
+  {
+   "kind": "end",
+   "text": "Najlepszy bieg *to ten wspólny*.",
+   "cta": "Zapisz na 11 listopada.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

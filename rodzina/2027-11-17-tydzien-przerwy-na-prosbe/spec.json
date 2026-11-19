@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Prosi o tydzień\n*bez treningów*.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Posłuchaj *powodu*",
+   "body": "Zmęczenie, szkoła czy coś w grupie?",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Umówcie *termin*",
+   "body": "Tydzień przerwy z datą powrotu.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Powiedzcie *trenerowi*",
+   "body": "Krótko i wcześniej.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Przerwa *z planem to też trening*.",
+   "cta": "Zapisz na listopadowe zmęczenie.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

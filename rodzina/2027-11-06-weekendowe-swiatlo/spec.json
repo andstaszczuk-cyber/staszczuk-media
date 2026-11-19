@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Światło dnia\n*łapiemy w weekend*."
+  },
+  {
+   "kind": "point",
+   "title": "Wyjdźcie *w dzień*",
+   "body": "Spacer w południe zamiast wieczorem.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Ruch *dla frajdy*",
+   "body": "Bez planu treningowego i bez wyników.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Cała *rodzina*",
+   "body": "Rodzice też potrzebują światła.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "end",
+   "text": "Godzina w słońcu *ładuje na tydzień*.",
+   "cta": "Zapisz na listopadowy weekend.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

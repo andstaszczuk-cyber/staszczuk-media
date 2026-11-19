@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Skoro nie gra, zostaje w domu.",
+   "new": "*Może przyjść i kibicować*.",
+   "text": "Chory, ale w drużynie."
+  },
+  {
+   "kind": "point",
+   "title": "Kontakt *z drużyną*",
+   "body": "Dziecko nadal czuje się częścią zespołu.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Trudne *chwile*",
+   "body": "Patrzenie z boku potrafi zaboleć.",
+   "icon": "bench"
+  },
+  {
+   "kind": "point",
+   "title": "Gdy *się nie da*",
+   "body": "Krótka wiadomość od kolegów też działa.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Drużyna *to więcej niż skład*.",
+   "cta": "Zapisz na czas choroby.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

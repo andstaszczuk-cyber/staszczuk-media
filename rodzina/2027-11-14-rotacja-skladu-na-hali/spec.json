@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Na turniej jedzie tylko ośmioro.",
+    "*Tym razem nie Ty. Następnym razem zobaczymy*."
+   ],
+   "text": "Rotacja *w sezonie halowym*."
+  },
+  {
+   "kind": "point",
+   "title": "Mało *miejsc*",
+   "body": "Na hali skład jest mniejszy.",
+   "icon": "bench"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj *trenera*",
+   "body": "Jak wygląda kolejność wyjazdów?",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Weekend *inaczej*",
+   "body": "Wolna sobota też może być fajna.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Jeden turniej *nie zamyka sezonu*.",
+   "cta": "Zapisz i wyślij rodzicowi z drużyny.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

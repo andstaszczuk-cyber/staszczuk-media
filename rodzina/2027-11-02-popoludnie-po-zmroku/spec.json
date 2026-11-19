@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Po szkole\n*już ciemno*.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Spadek *energii*",
+   "body": "Ciemno o szesnastej to dla ciała sygnał.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Chwila *przerwy*",
+   "body": "Kwadrans spokoju między szkołą a treningiem.",
+   "icon": "door"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *komentarzy*",
+   "body": "Marudzenie po zmroku szybko mija.",
+   "icon": "face"
+  },
+  {
+   "kind": "end",
+   "text": "Ciemność *jest na chwilę*.",
+   "cta": "Zapisz na listopadowe popołudnia.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

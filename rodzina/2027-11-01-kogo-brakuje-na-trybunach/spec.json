@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Kogoś brakuje\n*na trybunach*."
+  },
+  {
+   "kind": "point",
+   "title": "Zauważ *pustkę*",
+   "body": "Dziecko też czuje, że kogoś nie ma.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Pozwól *mówić*",
+   "body": "Wspomnienia o tej osobie są w porządku.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *pośpiechu*",
+   "body": "Smutek ma swój czas, także na boisku.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Pamięć *też kibicuje*.",
+   "cta": "Zapisz na listopadowy weekend.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

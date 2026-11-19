@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Trener napisał\n*ocenę po rundzie*."
+  },
+  {
+   "kind": "point",
+   "title": "Czytajcie *razem*",
+   "body": "Najpierw mocne strony.",
+   "icon": "book"
+  },
+  {
+   "kind": "point",
+   "title": "Uwagi *jako zadania*",
+   "body": "Z każdej uwagi jedno ćwiczenie.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *porównań*",
+   "body": "Ocena kolegi to nie Wasza sprawa.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "end",
+   "text": "Ocena *to mapa na zimę*.",
+   "cta": "Zapisz na rozmowę po rundzie.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

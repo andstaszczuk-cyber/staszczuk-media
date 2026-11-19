@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Turniej jest, więc jedziemy.",
+   "new": "*Najpierw zapytajmy siebie*.",
+   "text": "Długi weekend 11 listopada."
+  },
+  {
+   "kind": "point",
+   "title": "Kto *chce jechać*",
+   "body": "Dziecko, trener, a może tylko rodzic?",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Co *w zamian*",
+   "body": "Wyjazd zabiera czas na odpoczynek.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja *razem*",
+   "body": "Ustalcie ją wcześniej, bez presji.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "end",
+   "text": "Każda decyzja *może być dobra*.",
+   "cta": "Zapisz przed listopadowym weekendem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

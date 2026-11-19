@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Na hali gra się ciasno i nerwowo.",
+   "new": "*Częściej masz piłkę*.",
+   "text": "Mniejsze boisko."
+  },
+  {
+   "kind": "point",
+   "title": "Więcej *kontaktów*",
+   "body": "Każdy dotyka piłki częściej.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Więcej *błędów*",
+   "body": "Więcej prób daje więcej pomyłek.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Szybkie *decyzje*",
+   "body": "Hala uczy myśleć szybciej.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Ciasno *znaczy wiele okazji*.",
+   "cta": "Zapisz na sezon halowy.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}
