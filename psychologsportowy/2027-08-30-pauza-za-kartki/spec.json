@@ -1,0 +1,116 @@
+{
+ "cover": {
+  "big": "PAUZA",
+  "bigSize": 220,
+  "bigSub": "za kartki w tym tygodniu",
+  "title": "Nie grasz\n*przez kartki*",
+  "size": 96,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 500,
+     "y": 70,
+     "w": 150,
+     "h": 210,
+     "r": 16,
+     "c": "A",
+     "rot": -10
+    },
+    {
+     "k": "rect",
+     "x": 660,
+     "y": 100,
+     "w": 150,
+     "h": 210,
+     "r": 16,
+     "c": "fig2",
+     "rot": 12
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Złość jest w porządku",
+   "body": "Na siebie, na sędziego, na sytuację. Daj jej chwilę, potem wnioski.",
+   "viz": {
+    "type": "scale10",
+    "caption": "ZŁOŚĆ",
+    "points": [
+     {
+      "n": 9,
+      "label": "po meczu"
+     },
+     {
+      "n": 5,
+      "label": "po nocy"
+     },
+     {
+      "n": 3,
+      "label": "po rozmowie",
+      "hl": true
+     }
+    ],
+    "arrow": [
+     9,
+     3
+    ],
+    "arrowLabel": "opada"
+   }
+  },
+  {
+   "title": "Wniosek zamiast wyroku",
+   "body": "Co do mnie należało? Co zrobię inaczej następnym razem?",
+   "viz": {
+    "type": "table",
+    "left": "WYROK",
+    "right": "WNIOSEK",
+    "good": true,
+    "rows": [
+     [
+      "jestem bez głowy",
+      "odpuszczam spór z sędzią"
+     ],
+     [
+      "zawaliłem drużynę",
+      "w końcówce gram ostrożniej"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Tydzień pauzy też pracuje",
+   "body": "Pełny trening, wsparcie drużyny, analiza rywala na powrót.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "dumbbell",
+      "label": "pełny trening"
+     },
+     {
+      "icon": "people",
+      "label": "wspieram drużynę"
+     },
+     {
+      "icon": "eye",
+      "label": "czytam rywala",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co zrobisz z *tygodniem pauzy*?",
+  "cta": "Zaplanuj trzy rzeczy, którymi pomożesz w tym tygodniu sobie i drużynie.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

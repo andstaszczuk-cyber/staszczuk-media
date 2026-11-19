@@ -1,0 +1,121 @@
+{
+ "cover": {
+  "kicker": "WYJAZD",
+  "title": "Mecz\n*na wyjeździe*",
+  "size": 104,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "backpack",
+     "x": 40,
+     "y": 300,
+     "w": 170,
+     "h": 260,
+     "labels": [
+      "rutyna"
+     ]
+    },
+    {
+     "k": "person",
+     "x": 200,
+     "y": 100,
+     "s": 0.95,
+     "pose": "walk"
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 600,
+     "y": 340,
+     "s": 240,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 590,
+     "y": 260,
+     "text": "obce boisko",
+     "size": 32
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Obce miejsce, wyższa czujność",
+   "body": "Inna szatnia, inne boisko, cudzy kibice. Mózg skanuje otoczenie.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "house",
+      "label": "obca szatnia"
+     },
+     {
+      "icon": "people",
+      "label": "cudzy kibice"
+     },
+     {
+      "icon": "clock",
+      "label": "długa podróż",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zabierz stałe punkty",
+   "body": "Ta sama rozgrzewka, muzyka, pierwsze zadanie. Znane w nieznanym.",
+   "viz": {
+    "type": "same",
+    "left": "U SIEBIE",
+    "right": "NA WYJEŹDZIE",
+    "items": [
+     "rozgrzewka",
+     "muzyka",
+     "pierwsze zadanie"
+    ]
+   }
+  },
+  {
+   "title": "Warunki są dla obu",
+   "body": "Boisko jest takie samo dla wszystkich. Wygrywa ten, kto szybciej się dostosuje.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "BEZ WPŁYWU",
+      "items": [
+       "murawa",
+       "trybuny",
+       "podróż"
+      ]
+     },
+     {
+      "title": "MAM WPŁYW",
+      "items": [
+       "rozgrzewka",
+       "ustawienie",
+       "komunikacja"
+      ],
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co zabierzesz *z domu* na wyjazd?",
+  "cta": "Spisz trzy stałe punkty sprzed każdego meczu i zabierz je na wyjazd.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

@@ -1,0 +1,132 @@
+{
+ "cover": {
+  "kicker": "TYDZIEŃ MECZOWY",
+  "title": "Tydzień ma\n*swój rytm*",
+  "size": 104,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "viz",
+     "type": "week",
+     "x": 0,
+     "y": 60,
+     "s": 1,
+     "days": [
+      {
+       "d": "ND",
+       "icon": "ball",
+       "label": "mecz",
+       "mark": "ring"
+      },
+      {
+       "d": "PN",
+       "icon": "note",
+       "label": "wnioski"
+      },
+      {
+       "d": "WT",
+       "icon": "dumbbell",
+       "label": "praca"
+      },
+      {
+       "d": "ŚR",
+       "icon": "dumbbell",
+       "label": "praca"
+      },
+      {
+       "d": "CZW",
+       "icon": "dumbbell",
+       "label": "praca"
+      },
+      {
+       "d": "PT",
+       "icon": "moon",
+       "label": "spokój"
+      },
+      {
+       "d": "SB",
+       "icon": "ball",
+       "label": "mecz",
+       "mark": "hl"
+      }
+     ]
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Dzień po: emocje opadają",
+   "body": "Na gorąco kilka myślników. Pełna analiza za dzień albo dwa.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "mecz",
+      "icon": "ball",
+      "bottom": "emocje"
+     },
+     {
+      "top": "wieczór",
+      "icon": "note",
+      "bottom": "myślniki"
+     },
+     {
+      "top": "za dwa dni",
+      "icon": "note",
+      "hl": true,
+      "bottom": "analiza"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Środek tygodnia: praca",
+   "body": "Najwyżej trzy rzeczy do poprawy. Na nich opierasz uwagę na treningach.",
+   "viz": {
+    "type": "checklist",
+    "title": "TEN TYDZIEŃ",
+    "chip": "ZADANIA",
+    "chipX": 400,
+    "backChip": "RESZTA",
+    "items": [
+     "pierwszy kontakt",
+     "powrót do obrony",
+     "komunikacja"
+    ]
+   }
+  },
+  {
+   "title": "Przed meczem: zaufanie",
+   "body": "Dzień przed meczem powtarzasz to, co znasz i co daje pewność.",
+   "viz": {
+    "type": "stack",
+    "cols": [
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "labels": [
+     "PN",
+     "WT",
+     "ŚR",
+     "CZW",
+     "PT"
+    ],
+    "caption": "coraz mniej nowości"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jak wygląda *twój* tydzień meczowy?",
+  "cta": "Rozpisz swój tydzień od meczu do meczu i powieś go w widocznym miejscu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

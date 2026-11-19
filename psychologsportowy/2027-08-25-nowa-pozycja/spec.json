@@ -1,0 +1,181 @@
+{
+ "cover": {
+  "left": "STARA",
+  "right": "NOWA",
+  "title": "Grasz na\n*innej pozycji*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "tu czuję",
+      "się pewnie"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "tu się",
+      "uczę"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "point"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Obco, bo jeszcze nowe",
+   "body": "Zwykle nie lubimy tego, czego jeszcze nie umiemy. To mija z powtórzeniami.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.62
+       ],
+       [
+        0.2,
+        0.35
+       ],
+       [
+        0.4,
+        0.42
+       ],
+       [
+        0.6,
+        0.55
+       ],
+       [
+        0.8,
+        0.66
+       ],
+       [
+        1,
+        0.76
+       ]
+      ],
+      "hl": true,
+      "label": "pewność"
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.2,
+      "y": 0.35,
+      "label": "zmiana",
+      "dy": 60
+     }
+    ],
+    "x": "tygodnie"
+   }
+  },
+  {
+   "title": "Zapytaj o powody",
+   "body": "Gdy rozumiesz, po co jest zmiana, łatwiej grasz samodzielnie.",
+   "viz": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "chce mnie odstawić?",
+     "nie wierzy we mnie?",
+     "to kara?"
+    ],
+    "ask": [
+     "Co mam",
+     "tam",
+     "robić?"
+    ]
+   }
+  },
+  {
+   "title": "Atuty jadą z tobą",
+   "body": "Szybkość, przegląd gry, upór. Na nowej pozycji też się przydadzą.",
+   "viz": {
+    "type": "scene",
+    "items": [
+     {
+      "k": "backpack",
+      "x": 330,
+      "y": 40,
+      "w": 240,
+      "h": 400,
+      "labels": [
+       "szybkość",
+       "przegląd gry",
+       "upór",
+       "podanie"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Czego możesz się *nauczyć* na nowej pozycji?",
+  "cta": "Poproś trenera o trzy zadania na nowej pozycji i pracuj nad jednym naraz.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

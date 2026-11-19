@@ -1,0 +1,154 @@
+{
+ "cover": {
+  "kicker": "KONIEC WAKACJI",
+  "title": "Lato\n*się kończy*",
+  "size": 104,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 540,
+     "y": 220,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 440,
+     "w": 900,
+     "h": 180,
+     "r": 0,
+     "c": "card"
+    },
+    {
+     "k": "floor",
+     "y": 440
+    },
+    {
+     "k": "person",
+     "x": 110,
+     "y": 40,
+     "s": 0.9,
+     "pose": "sit"
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Smutek ma sens",
+   "body": "Kończy się czas, który był dobry. Smutek pokazuje, co było ważne.",
+   "viz": {
+    "type": "notes",
+    "title": "Z LATA ZABIERAM",
+    "lines": [
+     "obóz z drużyną",
+     "dłuższy sen",
+     "ruch dla frajdy"
+    ]
+   }
+  },
+  {
+   "title": "Zabierz lato ze sobą",
+   "body": "Jeden trening dla frajdy, jeden spokojny wieczór w tygodniu.",
+   "viz": {
+    "type": "week",
+    "caption": "TYDZIEŃ WE WRZEŚNIU",
+    "days": [
+     {
+      "d": "PN",
+      "icon": "note",
+      "label": "szkoła"
+     },
+     {
+      "d": "WT",
+      "icon": "dumbbell",
+      "label": "trening"
+     },
+     {
+      "d": "ŚR",
+      "icon": "sun",
+      "label": "frajda",
+      "mark": "hl"
+     },
+     {
+      "d": "CZW",
+      "icon": "dumbbell",
+      "label": "trening"
+     },
+     {
+      "d": "PT",
+      "icon": "heart",
+      "label": "luz",
+      "mark": "ring"
+     },
+     {
+      "d": "SB",
+      "icon": "ball",
+      "label": "mecz"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Wejdź w nowy rytm",
+   "body": "Pierwsze dni szkoły i treningów bywają ciężkie. Daj sobie tydzień.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.7
+       ],
+       [
+        0.2,
+        0.4
+       ],
+       [
+        0.4,
+        0.46
+       ],
+       [
+        0.6,
+        0.58
+       ],
+       [
+        0.8,
+        0.66
+       ],
+       [
+        1,
+        0.72
+       ]
+      ],
+      "hl": true,
+      "label": "rytm"
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.2,
+      "y": 0.4,
+      "label": "1 września",
+      "dy": 60
+     }
+    ],
+    "x": "dni"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co z tego lata chcesz *zabrać* do jesieni?",
+  "cta": "Zapisz trzy rzeczy z wakacji, które chcesz zachować w sezonie.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

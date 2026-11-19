@@ -1,0 +1,107 @@
+{
+ "cover": {
+  "big": "SPIĘCIE",
+  "bigSize": 170,
+  "bigSub": "pierwsze w nowym sezonie",
+  "title": "Pierwsza kłótnia\n*w drużynie*",
+  "size": 92,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "bubble",
+     "x": 440,
+     "y": 40,
+     "w": 220,
+     "h": 120,
+     "lines": [
+      "!"
+     ],
+     "size": 80,
+     "tail": "left"
+    },
+    {
+     "k": "bubble",
+     "x": 660,
+     "y": 170,
+     "w": 220,
+     "h": 120,
+     "lines": [
+      "?!"
+     ],
+     "size": 70,
+     "c": "soft",
+     "tc": "fg",
+     "tail": "right"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Spięcie to część procesu",
+   "body": "Nowi ludzie, nowe role, presja wyniku. Konflikt prędzej czy później przyjdzie.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "people",
+      "label": "nowi ludzie"
+     },
+     {
+      "icon": "shield",
+      "label": "nowe role"
+     },
+     {
+      "icon": "bolt",
+      "label": "presja",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Problem, nie osoba",
+   "body": "Mów o sytuacji i o tym, czego potrzebujesz od drugiej strony.",
+   "viz": {
+    "type": "table",
+    "left": "ATAK",
+    "right": "PROŚBA",
+    "good": true,
+    "rows": [
+     [
+      "zawsze się spóźniasz",
+      "potrzebuję cię na rozgrzewce"
+     ],
+     [
+      "olewasz obronę",
+      "wracaj ze mną do obrony"
+     ],
+     [
+      "znowu to samo",
+      "pogadajmy o wczoraj"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Wyczyść swoją stronę",
+   "body": "Powiedz swoje spokojnie. Reakcja drugiej strony należy do niej.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "milczę",
+    "to": "możemy pogadać o wczoraj?"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *ty* możesz wyczyścić po swojej stronie?",
+  "cta": "Jeśli coś cię uwiera, porozmawiaj o tym w ciągu dwóch dni.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

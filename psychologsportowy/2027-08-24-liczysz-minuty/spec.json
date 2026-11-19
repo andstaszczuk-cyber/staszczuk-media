@@ -1,0 +1,111 @@
+{
+ "cover": {
+  "kicker": "CZAS GRY",
+  "title": "Liczysz\n*minuty gry?*",
+  "size": 104,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "icon",
+     "name": "watch",
+     "x": 580,
+     "y": 20,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "person",
+     "x": 100,
+     "y": 90,
+     "s": 1.0,
+     "pose": "think"
+    },
+    {
+     "k": "chip",
+     "x": 500,
+     "y": 350,
+     "text": "23 minuty",
+     "size": 36
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Minuty to dowód z zewnątrz",
+   "body": "Zależą od trenera, rywala i taktyki. Jakość twojej gry zależy od ciebie.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "OD TRENERA",
+      "items": [
+       "minuty",
+       "pozycja",
+       "zmiany"
+      ]
+     },
+     {
+      "title": "ODE MNIE",
+      "items": [
+       "jakość akcji",
+       "zaangażowanie",
+       "gotowość"
+      ],
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Licz to, co robisz",
+   "body": "Dobre decyzje, udane akcje, powroty do obrony. To policzysz sam.",
+   "viz": {
+    "type": "bars",
+    "caption": "MOJE MINUTY",
+    "items": [
+     {
+      "label": "dobre decyzje",
+      "v": 0.7,
+      "hl": true,
+      "note": "9"
+     },
+     {
+      "label": "powroty",
+      "v": 0.55,
+      "note": "6"
+     },
+     {
+      "label": "straty",
+      "v": 0.25,
+      "note": "2"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Jakość w krótkim czasie",
+   "body": "Dziesięć dobrych minut przekonuje trenera bardziej niż pretensje.",
+   "viz": {
+    "type": "arrowFlow",
+    "from": "mało minut",
+    "via": "jakość",
+    "to": "więcej szans"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co zrobisz z *każdą* minutą, którą dostaniesz?",
+  "cta": "Po meczu zapisz trzy rzeczy zrobione dobrze w swoich minutach.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

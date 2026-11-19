@@ -1,0 +1,100 @@
+{
+ "cover": {
+  "big": "REC",
+  "bigSize": 260,
+  "bigSub": "mecz z transmisją",
+  "title": "Kamera\n*patrzy na ciebie*",
+  "size": 96,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 470,
+     "y": 110,
+     "w": 300,
+     "h": 200,
+     "r": 30,
+     "c": "fig2"
+    },
+    {
+     "k": "rect",
+     "x": 770,
+     "y": 150,
+     "w": 90,
+     "h": 120,
+     "r": 14,
+     "c": "fig2"
+    },
+    {
+     "k": "circle",
+     "x": 620,
+     "y": 210,
+     "r": 66,
+     "c": "A"
+    },
+    {
+     "k": "circle",
+     "x": 620,
+     "y": 210,
+     "r": 30,
+     "c": "onA"
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Uwaga ucieka do kamery",
+   "body": "Myślisz o tym, jak wyglądasz. Ruch robi się sztywny.",
+   "viz": {
+    "type": "wander",
+    "zone": "gra",
+    "out1": "jak wyglądam?",
+    "out2": "kamera",
+    "back": "wracam"
+   }
+  },
+  {
+   "title": "Jeden element w głowie",
+   "body": "Skupiony na jednym zadaniu ruszasz się płynniej.",
+   "viz": {
+    "type": "focus",
+    "center": "jeden element",
+    "around": [
+     "kamera",
+     "komentarz",
+     "powtórka",
+     "telefony"
+    ]
+   }
+  },
+  {
+   "title": "Nagranie to narzędzie",
+   "body": "W meczu grasz. Po meczu nagranie pokaże ci, co działa.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "eye",
+     "label": "w trakcie",
+     "sub": "uwaga na grze"
+    },
+    "right": {
+     "icon": "play",
+     "label": "po meczu",
+     "sub": "nagranie do nauki"
+    }
+   }
+  }
+ ],
+ "end": {
+  "question": "Na czym oprzesz uwagę, gdy *kamera* jest włączona?",
+  "cta": "Wybierz jeden element gry na mecz z kamerą i wracaj do niego.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

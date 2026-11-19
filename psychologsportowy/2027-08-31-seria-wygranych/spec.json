@@ -1,0 +1,161 @@
+{
+ "cover": {
+  "kicker": "PASSA",
+  "title": "Seria wygranych\n*usypia czujność*",
+  "size": 88,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 40,
+     "y": 90,
+     "s": 0.95,
+     "pose": "win"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 440,
+     "y": 430,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 590,
+     "y": 430,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 740,
+     "y": 430,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 560,
+     "y": 330,
+     "text": "seria",
+     "size": 32
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Wygrana też usypia",
+   "body": "Po serii łatwo uznać, że samo się zrobi. Rośnie luz, spada dokładność.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.6
+       ],
+       [
+        0.25,
+        0.65
+       ],
+       [
+        0.5,
+        0.7
+       ],
+       [
+        0.75,
+        0.72
+       ],
+       [
+        1,
+        0.74
+       ]
+      ],
+      "hl": true,
+      "label": "wygrane"
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.7
+       ],
+       [
+        0.25,
+        0.64
+       ],
+       [
+        0.5,
+        0.56
+       ],
+       [
+        0.75,
+        0.48
+       ],
+       [
+        1,
+        0.4
+       ]
+      ],
+      "label": "dokładność",
+      "dash": true
+     }
+    ],
+    "x": "mecze"
+   }
+  },
+  {
+   "title": "Rozłóż wygraną na części",
+   "body": "Co zrobiliście, że wyszło? Wtedy możecie to powtórzyć.",
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "dumbbell",
+      "label": "przygotowanie"
+     },
+     {
+      "icon": "flag",
+      "label": "taktyka"
+     },
+     {
+      "icon": "people",
+      "label": "komunikacja"
+     },
+     {
+      "icon": "brain",
+      "label": "głowa"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zero do zera",
+   "body": "Każdy mecz zaczyna się od nowa. Seria sama za ciebie nie zagra.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "jesteśmy niepokonani",
+    "to": "zero do zera, gramy swoje"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *dokładnie* robicie, że wygrywacie?",
+  "cta": "Po najbliższej wygranej zapisz trzy rzeczy, dzięki którym wygraliście.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
