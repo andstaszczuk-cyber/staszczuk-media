@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "bench_talk",
+   "text": "Krzyk z ławki.\\n*Wyłów z niego treść*."
+  },
+  {
+   "kind": "point",
+   "title": "Forma",
+   "body": "Głośno, nerwowo, często z przesadą.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "point",
+   "title": "Treść",
+   "body": "Pod spodem bywa konkretna informacja albo potrzeba.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja reakcja",
+   "body": "Odpowiadasz na treść spokojnie, formę zostawiasz.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Forma bywa głośna.\\n*Treść możesz wysłuchać*.",
+   "cta": "Zapisz przed meczem z gorącą ławką"
+  }
+ ]
+}

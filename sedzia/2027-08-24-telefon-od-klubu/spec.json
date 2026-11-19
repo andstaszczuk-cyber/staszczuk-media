@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "phone",
+   "text": "Wiadomość z klubu\\n*dzień przed meczem*."
+  },
+  {
+   "kind": "point",
+   "title": "Uprzejmość",
+   "body": "Pytanie o dojazd, parking, godzinę przyjazdu.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "point",
+   "title": "Granica",
+   "body": "Komentarze o sędziowaniu, prośby, sugestie i naciski.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja odpowiedź",
+   "body": "Krótko, uprzejmie, tylko w sprawach organizacyjnych.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Uprzejmie i rzeczowo.\\n*Mecz rozstrzyga się na boisku*.",
+   "cta": "Zapisz przed kolejną obsadą"
+  }
+ ]
+}

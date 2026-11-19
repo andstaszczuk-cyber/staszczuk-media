@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "MŁODZIEŻ",
+   "text": "Rusza liga dzieci.\\n*Rodzice też wracają*."
+  },
+  {
+   "kind": "point",
+   "title": "Emocje rodziców",
+   "body": "Przeżywają każdy faul i każdą decyzję wobec swojego dziecka.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Twoja rola",
+   "body": "Prowadzisz mecz dla dzieci, bez dyskusji z trybunami.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "point",
+   "title": "Sojusznicy",
+   "body": "Trener i kierownik pomagają uspokoić linię boczną.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Mecz jest dla dzieci.\\n*Ty go dla nich prowadzisz*.",
+   "cta": "Zapisz przed meczem młodzieży"
+  }
+ ]
+}

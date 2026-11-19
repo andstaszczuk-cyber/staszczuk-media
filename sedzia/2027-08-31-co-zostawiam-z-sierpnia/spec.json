@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Koniec sierpnia.\\n*Co zabierasz dalej?*"
+  },
+  {
+   "kind": "point",
+   "title": "Co powtarzam",
+   "body": "Co działało w pierwszych meczach i chcę to utrzymać.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Co koryguję",
+   "body": "Jedna rzecz do lekkiej zmiany we wrześniu.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Co sprawdzam",
+   "body": "Jedna nowa rzecz do przetestowania w kolejnych meczach.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Sierpień zamknięty.\\n*Wrzesień zaczynasz z planem*.",
+   "cta": "Zapisz i zrób przegląd miesiąca"
+  }
+ ]
+}

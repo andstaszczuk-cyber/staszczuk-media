@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Co cię zaskoczyło\\n*w sobie w sierpniu?*",
+   "sub": "Ciekawość daje\\n*więcej niż ocena*."
+  },
+  {
+   "kind": "point",
+   "title": "Zaskoczenie",
+   "body": "Reakcja, której się po sobie nie spodziewałeś.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Ciekawość",
+   "body": "O, ciekawe, że tak zareagowałem. Co mnie uruchomiło?",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Wniosek",
+   "body": "Jedna obserwacja zapisana i sprawdzona w kolejnym meczu.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Mniej oceniania,\\n*więcej ciekawości*.",
+   "cta": "Zapisz i odpowiedz sobie po meczu"
+  }
+ ]
+}

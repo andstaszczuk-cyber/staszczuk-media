@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Beniaminek gra na emocjach.\\n*Ty grasz na spokoju*."
+  },
+  {
+   "kind": "point",
+   "title": "Euforia",
+   "body": "Awans, nowa liga, pełne trybuny i wielkie oczekiwania.",
+   "icon": "flaga"
+  },
+  {
+   "kind": "point",
+   "title": "Zderzenie",
+   "body": "Pierwsze porażki potrafią szybko zamienić euforię w złość.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Twój spokój",
+   "body": "Rozumiesz ich emocje i trzymasz tę samą miarę.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Ich emocje są zrozumiałe.\\n*Twój spokój jest potrzebny*.",
+   "cta": "Zapisz przed meczem z beniaminkiem"
+  }
+ ]
+}

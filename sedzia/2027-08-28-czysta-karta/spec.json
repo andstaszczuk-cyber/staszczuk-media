@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "0",
+   "text": "wspólnych meczów.\\n*Czysta karta*."
+  },
+  {
+   "kind": "point",
+   "title": "Nowe twarze",
+   "body": "Po transferach w drużynach pełno zawodników, których nie znasz.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Bez zaszłości",
+   "body": "Żadnych historii z twojej strony i z ich strony.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsze wrażenie",
+   "body": "Spokojne przywitanie i jasna linia od pierwszej minuty.",
+   "icon": "gwizdek"
+  },
+  {
+   "kind": "end",
+   "text": "Czysta karta\\n*to szansa dla obu stron*.",
+   "cta": "Zapisz przed meczem z nowymi zawodnikami"
+  }
+ ]
+}

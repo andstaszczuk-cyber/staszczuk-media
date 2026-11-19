@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "kalendarz",
+   "text": "Wrzesień za pasem.\\n*Ułóż tydzień, zanim on ułoży ciebie*."
+  },
+  {
+   "kind": "point",
+   "title": "Powrót obowiązków",
+   "body": "Szkoła, praca po urlopach, mecze w tygodniu i w weekend.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Stałe punkty",
+   "body": "Trening, sen i czas z bliskimi wpisane jak obsady.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Margines",
+   "body": "Zostaw w tygodniu wolne miejsce na niespodzianki.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "end",
+   "text": "Najpierw plan tygodnia.\\n*Potem obsady*.",
+   "cta": "Zapisz na ostatni tydzień sierpnia"
+  }
+ ]
+}

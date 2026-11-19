@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Wyższa liga jest szybsza.\\n*Twoje oko ją dogoni*."
+  },
+  {
+   "kind": "point",
+   "title": "Szybsze tempo",
+   "body": "Piłka krąży szybciej, akcje zmieniają się w sekundę.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Opóźnienie",
+   "body": "Przez kilka meczów decyzje przychodzą o ułamek później.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Krok wcześniej",
+   "body": "Ustawienie z wyprzedzeniem i czytanie, gdzie pójdzie piłka.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Układ nerwowy uczy się\\n*mecz po meczu*.",
+   "cta": "Zapisz po pierwszych meczach wyżej"
+  }
+ ]
+}

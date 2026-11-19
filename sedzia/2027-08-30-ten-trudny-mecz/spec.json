@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "derby",
+   "text": "W każdej rundzie\\n*przyjdzie ten trudny mecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Przewidywalne",
+   "body": "W rundzie zwykle trafia się kilka bardzo trudnych meczów.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Rozpoznanie",
+   "body": "To jest ten trudny mecz. Spodziewałem się go.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Plan",
+   "body": "Spokój, proste zadania i jedna akcja naraz.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Spodziewałeś się go.\\n*Więc jesteś gotowy*.",
+   "cta": "Zapisz na trudny mecz"
+  }
+ ]
+}
