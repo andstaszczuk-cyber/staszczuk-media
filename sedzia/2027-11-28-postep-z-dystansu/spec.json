@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "growth",
+   "text": "Porównaj siebie\\n*z sierpnia i z listopada*."
+  },
+  {
+   "kind": "point",
+   "title": "Z bliska",
+   "body": "Z tygodnia na tydzień postęp jest prawie niewidoczny.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Z dystansu",
+   "body": "Po całej rundzie różnica bywa ogromna.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Dowód",
+   "body": "Nagranie albo notatki z sierpnia pokażą, ile się zmieniło.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "end",
+   "text": "Postęp widać\\n*z dystansu*.",
+   "cta": "Zapisz na koniec rundy"
+  }
+ ]
+}

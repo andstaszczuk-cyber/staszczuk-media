@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "handshake",
+   "text": "Ktoś zawsze\\n*będzie rozczarowany*."
+  },
+  {
+   "kind": "point",
+   "title": "Rola",
+   "body": "Każda decyzja jest dla jednej drużyny dobra, dla drugiej zła.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Pułapka",
+   "body": "Próba zadowolenia wszystkich kończy się decyzjami pod publiczkę.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Spokój",
+   "body": "Przyjmujesz z góry, że ktoś wyjdzie z boiska niezadowolony.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "end",
+   "text": "Rozczarowanie innych\\n*jest wpisane w tę rolę*.",
+   "cta": "Zapisz po trudnym meczu"
+  }
+ ]
+}

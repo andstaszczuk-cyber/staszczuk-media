@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "text": "Co mówi ciało\\n*po rundzie?*",
+   "sub": "Ciało serwisujesz\\n*jak samochód przed zimą*."
+  },
+  {
+   "kind": "point",
+   "title": "Sygnały",
+   "body": "Bolące kolano, sztywne plecy, gorszy sen. Ciało coś zgłasza.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Odkładanie",
+   "body": "W rundzie łatwo zaciskać zęby i odkładać sprawy na później.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Przegląd",
+   "body": "Przerwa to dobry moment, żeby sprawdzić to u specjalisty.",
+   "icon": "lista"
+  },
+  {
+   "kind": "end",
+   "text": "Przegląd po rundzie\\n*to inwestycja w wiosnę*.",
+   "cta": "Zapisz na początek przerwy"
+  }
+ ]
+}

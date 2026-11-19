@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Przez trudną jesień\\n*przeszedłem z godnością*."
+  },
+  {
+   "kind": "point",
+   "title": "Hasło",
+   "body": "Wyjdę z tego silniejszy brzmi dobrze, a często dokłada presji.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Postawa",
+   "body": "Robiłeś swoje w zimnie, błocie i zmęczeniu, także w gorsze dni.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Docenienie",
+   "body": "Przejść przez trudny czas uczciwie to już bardzo dużo.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Z godnością\\n*to już bardzo dużo*.",
+   "cta": "Wyślij komuś po trudnej rundzie"
+  }
+ ]
+}

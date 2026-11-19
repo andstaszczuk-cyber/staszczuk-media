@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "triangle",
+   "text": "Muszę biegać, muszę się uczyć?\\n*Spróbuj: wybieram*."
+  },
+  {
+   "kind": "point",
+   "title": "Muszę",
+   "body": "Zimowe przygotowania brzmią jak lista obowiązków.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Ciało",
+   "body": "Słowo muszę podnosi napięcie i odbiera ochotę.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Wybieram",
+   "body": "Przypominasz sobie, po co to robisz i co dzięki temu zyskujesz.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Te same zadania.\\n*Inne słowo, inna energia*.",
+   "cta": "Zapisz na zimowe przygotowania"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Zamknij rundę.\\n*Wnioski do pudełka*."
+  },
+  {
+   "kind": "point",
+   "title": "Domknięcie",
+   "body": "Niedomknięta runda wraca w myślach przez całą zimę.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Rytuał",
+   "body": "Spisz trzy wnioski i fizycznie odłóż kartkę do pudełka albo folderu.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Powrót",
+   "body": "Otwierasz pudełko przed pierwszym meczem wiosny.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Runda zamknięta.\\n*Głowa wolna na zimę*.",
+   "cta": "Zapisz i zamknij rundę"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "PRZERWA",
+   "text": "Mikrowakacje\\n*od gwizdka*."
+  },
+  {
+   "kind": "point",
+   "title": "Zmęczenie",
+   "body": "Trzy miesiące weekendów na boisku zostawiają ślad w głowie i w ciele.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Plan",
+   "body": "Dzień, dwa całkiem wolne, zaplanowane konkretnie i z wyprzedzeniem.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Zasada",
+   "body": "Bez przepisów, nagrań i grup sędziowskich. Naprawdę wolne.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "end",
+   "text": "Odpoczynek zaplanowany\\n*to też część przygotowania*.",
+   "cta": "Zapisz i zaplanuj wolne"
+  }
+ ]
+}

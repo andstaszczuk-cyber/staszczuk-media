@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "-5",
+   "text": "stopni na boisku.\\n*Głowę też trzeba rozgrzać*."
+  },
+  {
+   "kind": "point",
+   "title": "Zimny start",
+   "body": "W mrozie ciało i głowa potrzebują więcej czasu, żeby wejść w mecz.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Ryzyko",
+   "body": "Pierwsze minuty na zimnym silniku to spóźnione reakcje i decyzje.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Rozgrzewka",
+   "body": "Ruch, kilka sytuacji przewiniętych w głowie i jedno zdanie na start.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "end",
+   "text": "Najpierw rozgrzej silnik.\\n*Potem ruszaj*.",
+   "cta": "Zapisz przed mroźnym meczem"
+  }
+ ]
+}

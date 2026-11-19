@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "ksiazka",
+   "text": "Przepisy na zimę?\\n*Kawałek po kawałku*."
+  },
+  {
+   "kind": "point",
+   "title": "Pokusa",
+   "body": "Nadrobić wszystko w tydzień przed testem.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Metoda",
+   "body": "Jeden przepis dziennie, kilkanaście minut, stała pora.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdzenie",
+   "body": "Opowiedz fragment własnymi słowami i połącz go z meczem.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Słonia jesz po kawałku.\\n*Przepisy też*.",
+   "cta": "Zapisz na zimowe przygotowania"
+  }
+ ]
+}

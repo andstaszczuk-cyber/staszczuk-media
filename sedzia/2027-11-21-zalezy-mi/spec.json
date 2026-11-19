@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Zależy mi\\n*i to jest w porządku*."
+  },
+  {
+   "kind": "point",
+   "title": "Udawanie",
+   "body": "Mówisz, że ocena cię nie obchodzi, a myślisz o niej cały tydzień.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Prawda",
+   "body": "Przyznanie, że ci zależy, zmniejsza napięcie.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Kierunek",
+   "body": "Kiedy wiesz, na czym ci zależy, wiesz też, nad czym pracować.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Zależy ci.\\n*To dobra wiadomość*.",
+   "cta": "Zapisz przed oceną rundy"
+  }
+ ]
+}
