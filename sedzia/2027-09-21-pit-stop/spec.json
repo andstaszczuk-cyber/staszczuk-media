@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "JESIEŃ",
+   "text": "Słabszy okres w rundzie?\\n*Zjedź do pit stopu*."
+  },
+  {
+   "kind": "point",
+   "title": "Spadek",
+   "body": "Kilka słabszych meczów z rzędu w środku rundy. Głowa mówi: regres.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Pit stop",
+   "body": "Zjazd, wymiana opon, poprawki. Potem wracasz na tor.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Po postoju",
+   "body": "Jedna poprawka w przygotowaniu i jedna w meczu. To wystarczy.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Pit stop to część wyścigu.\\n*Wracasz z lepszymi oponami*.",
+   "cta": "Zapisz na słabszy tydzień"
+  }
+ ]
+}

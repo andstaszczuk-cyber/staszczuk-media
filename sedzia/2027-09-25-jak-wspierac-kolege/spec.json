@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "sub": "Zapytaj, jakiego\\n*wsparcia potrzebuje*.",
+   "text": "Kolega miał\\n*trudny mecz?*"
+  },
+  {
+   "kind": "point",
+   "title": "Dwa rodzaje",
+   "body": "Zadaniowe: co poprawić. Emocjonalne: widzę, że to był ciężki mecz.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Pytanie",
+   "body": "Chcesz pogadać o meczu czy wolisz na razie zostawić temat?",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Wyczucie",
+   "body": "Analiza może poczekać do jutra. Obecność przydaje się od razu.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "end",
+   "text": "Najpierw zapytaj,\\n*potem pomagaj*.",
+   "cta": "Wyślij komuś z zespołu"
+  }
+ ]
+}

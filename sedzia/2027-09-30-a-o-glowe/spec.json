@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "WRZESIEŃ",
+   "text": "Dbasz o kondycję.\\n*A o głowę?*"
+  },
+  {
+   "kind": "point",
+   "title": "Ciało",
+   "body": "Treningi, rozciąganie, testy. O ciało dbasz regularnie.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Głowa",
+   "body": "Sen, dzień bez piłki, rozmowa, chwila ciszy po meczu.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Plan",
+   "body": "Jedna rzecz dla głowy w każdym tygodniu października.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Głowa też potrzebuje\\n*regularnego treningu*.",
+   "cta": "Zapisz na październik"
+  }
+ ]
+}

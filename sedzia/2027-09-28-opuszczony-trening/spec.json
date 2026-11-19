@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Opuszczony trening\\n*to trening odpoczynku*."
+  },
+  {
+   "kind": "point",
+   "title": "Natłok",
+   "body": "Trzy mecze w tygodniu i plan biegowy, który się nie mieści.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Wyrzuty",
+   "body": "Opuszczony trening szybko zamienia się w dług do odrobienia jutro.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Mądrze",
+   "body": "Zrobiłeś odpoczynek. Kolejny trening robisz według planu.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "end",
+   "text": "Lepiej niedotrenowany\\n*niż przetrenowany*.",
+   "cta": "Zapisz na tydzień z wieloma meczami"
+  }
+ ]
+}

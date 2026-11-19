@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "tunnel",
+   "text": "W głowie było gorzej\\n*niż na boisku*."
+  },
+  {
+   "kind": "point",
+   "title": "Prognoza",
+   "body": "Przed trudnym meczem głowa pisze czarny scenariusz z każdym detalem.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Rzeczywistość",
+   "body": "Po meczu okazuje się, że było trudno, ale do przejścia.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Porównanie",
+   "body": "Zapisz prognozę przed meczem i sprawdź ją po ostatnim gwizdku.",
+   "icon": "lista"
+  },
+  {
+   "kind": "end",
+   "text": "Twoje prognozy\\n*też potrzebują sprawdzania*.",
+   "cta": "Zapisz przed trudną obsadą"
+  }
+ ]
+}

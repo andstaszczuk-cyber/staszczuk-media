@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "90'",
+   "text": "minut meczu.\\n*Pamiętasz jedną akcję?*"
+  },
+  {
+   "kind": "point",
+   "title": "Plama",
+   "body": "Czyste spodnie i jedna plama. Wzrok od razu ląduje na plamie.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Proporcje",
+   "body": "Setki decyzji w meczu, kilka spornych. Jaką część meczu zajmują?",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Cały obraz",
+   "body": "Po meczu wypisz też to, co poszło dobrze.",
+   "icon": "lista"
+  },
+  {
+   "kind": "end",
+   "text": "Jedna plama\\n*to jeszcze nie cały mecz*.",
+   "cta": "Zapisz po meczu z jedną wpadką"
+  }
+ ]
+}

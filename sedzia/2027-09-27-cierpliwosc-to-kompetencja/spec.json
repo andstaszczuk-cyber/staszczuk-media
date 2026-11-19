@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Cierpliwość\\n*to też umiejętność sędziego*."
+  },
+  {
+   "kind": "point",
+   "title": "Pośpiech",
+   "body": "Po kursie chcesz od razu wyższych lig i lepszych obsad.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Etapy",
+   "body": "Każdy szczebel uczy czegoś, czego trudno nauczyć się gdzie indziej.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Tempo",
+   "body": "Swój rytm rozwoju i porównanie z sobą sprzed roku.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Częściej odpada się z pośpiechu\\n*niż z braku talentu*.",
+   "cta": "Wyślij komuś, kto dopiero zaczyna"
+  }
+ ]
+}

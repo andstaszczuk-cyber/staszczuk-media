@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "night",
+   "text": "Rozczarowanie po meczu\\n*też coś ci mówi*."
+  },
+  {
+   "kind": "point",
+   "title": "Emocja",
+   "body": "Wieczór po meczu, smutek, złość na siebie, rozczarowanie.",
+   "icon": "ksiezyc"
+  },
+  {
+   "kind": "point",
+   "title": "Informacja",
+   "body": "Rzeczywistość rozjechała się z oczekiwaniami. Warto sprawdzić gdzie.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Pytanie",
+   "body": "Czy oczekiwania były realne? Co jest do dopracowania?",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Emocja podpowiada.\\n*Decyzję podejmujesz ty*.",
+   "cta": "Zapisz na wieczór po meczu"
+  }
+ ]
+}

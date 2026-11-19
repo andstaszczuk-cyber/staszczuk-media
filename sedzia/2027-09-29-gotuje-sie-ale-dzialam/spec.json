@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "touchline",
+   "text": "Gotuje się w tobie?\\n*Działasz dalej według planu*."
+  },
+  {
+   "kind": "point",
+   "title": "Wzburzenie",
+   "body": "Trener przy linii, ostre słowa i złość, która podchodzi do gardła.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Tolerancja",
+   "body": "Złość jest. Pozwalasz jej być i robisz swoje.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "point",
+   "title": "Plan",
+   "body": "Wcześniej ustalona reakcja: kroki w tył, wydech, krótki komunikat.",
+   "icon": "lista"
+  },
+  {
+   "kind": "end",
+   "text": "Masz prawo do złości.\\n*Reakcję wybierasz sam*.",
+   "cta": "Zapisz przed gorącym meczem"
+  }
+ ]
+}

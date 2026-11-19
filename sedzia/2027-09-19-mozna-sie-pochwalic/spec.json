@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Dobry mecz?\\n*Wolno się nim pochwalić*."
+  },
+  {
+   "kind": "point",
+   "title": "Trenuj w ciszy",
+   "body": "Popularne hasło, które wielu sędziów bierze zbyt dosłownie.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Docenienie",
+   "body": "Powiedzieć bliskim, że mecz był dobry, to zwykła radość z roboty.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "point",
+   "title": "Granica",
+   "body": "Chwalisz swoją pracę. Drużyny i kolegów zostawiasz w spokoju.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Docenianie siebie\\n*też jest częścią rozwoju*.",
+   "cta": "Zapisz po dobrym meczu"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "decision",
+   "text": "Przepisy znasz.\\n*Boisko sprawdza, czy je umiesz*."
+  },
+  {
+   "kind": "point",
+   "title": "Wiedza",
+   "body": "Zdany test z przepisów. Wiesz, czym jest korzyść i kiedy ręka jest karalna.",
+   "icon": "ksiazka"
+  },
+  {
+   "kind": "point",
+   "title": "Wdrożenie",
+   "body": "Na boisku masz sekundę, ruch, hałas i zmęczenie. To osobna umiejętność.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Trening",
+   "body": "Nagrania, decyzje na sucho, sparingi i pytania do starszych sędziów.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "end",
+   "text": "Wiedza to początek.\\n*Umiejętność buduje się na boisku*.",
+   "cta": "Wyślij komuś z kursu"
+  }
+ ]
+}

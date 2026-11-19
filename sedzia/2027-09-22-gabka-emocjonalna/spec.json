@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "ludzie",
+   "text": "Rozumiesz emocje ławki\\n*i zostajesz przy swoich*."
+  },
+  {
+   "kind": "point",
+   "title": "Udzielanie się",
+   "body": "Nerwowa ławka, krzyczący kapitan i po chwili ty też gwiżdżesz nerwowo.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Gąbka",
+   "body": "Rozumiesz, co czują inni, i zostawiasz te emocje po ich stronie.",
+   "icon": "serce"
+  },
+  {
+   "kind": "point",
+   "title": "Kotwica",
+   "body": "Oddech, tempo kroku, ton głosu. Twoje tempo zamiast tempa ławki.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "end",
+   "text": "Ich emocje są ich.\\n*Twój spokój jest twój*.",
+   "cta": "Zapisz przed gorącym meczem"
+  }
+ ]
+}
