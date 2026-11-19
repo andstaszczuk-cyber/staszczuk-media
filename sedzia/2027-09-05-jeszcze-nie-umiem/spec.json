@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "growth",
+   "text": "Nie umiem\\n*czy jeszcze nie umiem?*"
+  },
+  {
+   "kind": "point",
+   "title": "Kurs",
+   "body": "Przepisy, testy, pierwsze mecze. Wszystko naraz i wszystko nowe.",
+   "icon": "ksiazka"
+  },
+  {
+   "kind": "point",
+   "title": "Jedno słowo",
+   "body": "Jeszcze nie umiem ustawiać się przy rożnym. To słowo zostawia drogę otwartą.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Krok",
+   "body": "Wybierz jedną umiejętność na najbliższe mecze i ją ćwicz.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Każdy sędzia\\n*kiedyś jeszcze nie umiał*.",
+   "cta": "Wyślij komuś, kto zaczyna kurs"
+  }
+ ]
+}

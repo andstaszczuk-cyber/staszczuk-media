@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "MŁODZIEŻ",
+   "text": "Juniorzy po wakacjach.\\n*Zacznij od cierpliwości*."
+  },
+  {
+   "kind": "point",
+   "title": "Chaos",
+   "body": "Po przerwie młodzi gubią ustawienie, spóźniają się do piłki i faulują z nieporadności.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Słowo",
+   "body": "Krótkie wyjaśnienie przy gwizdku zostaje w głowie na kolejny mecz.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Ta sama miara",
+   "body": "Cierpliwość w tonie, konsekwencja w przepisach.",
+   "icon": "waga"
+  },
+  {
+   "kind": "end",
+   "text": "Prowadzisz mecz\\n*i trochę uczysz grać*.",
+   "cta": "Zapisz przed meczem młodzieży"
+  }
+ ]
+}

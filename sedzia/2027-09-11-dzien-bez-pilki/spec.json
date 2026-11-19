@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "sofa",
+   "text": "Jeden dzień w tygodniu\\n*bez piłki*."
+  },
+  {
+   "kind": "point",
+   "title": "Natłok",
+   "body": "Mecze, nagrania, tabele, grupy z obsadami. Piłka jest wszędzie.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "point",
+   "title": "Mikrowakacje",
+   "body": "Jeden dzień zaplanowany konkretnie: bez meczów, przepisów i powtórek.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Powrót",
+   "body": "Wypoczęta głowa szybciej czyta grę w kolejnym meczu.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "end",
+   "text": "Odpoczynek\\n*też jest częścią rundy*.",
+   "cta": "Zapisz i zaplanuj swój dzień"
+  }
+ ]
+}

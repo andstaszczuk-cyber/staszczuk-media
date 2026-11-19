@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "bateria",
+   "text": "Zmęczony reagujesz\\n*jak głodny na zakupach*."
+  },
+  {
+   "kind": "point",
+   "title": "Pusty bak",
+   "body": "Praca, nauka i kilka meczów w tygodniu. Bateria spada szybciej, niż myślisz.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Reakcje",
+   "body": "Szybsza kartka, ostrzejszy ton. Do koszyka wpada to, czego nie chciałeś.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Ładowanie",
+   "body": "Sen, spokojny posiłek i chwila ciszy, zanim zażądasz od siebie opanowania.",
+   "icon": "ksiezyc"
+  },
+  {
+   "kind": "end",
+   "text": "Najpierw ładujesz baterię.\\n*Potem wymagasz spokoju*.",
+   "cta": "Zapisz na tydzień z kilkoma meczami"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Mniej założeń,\\n*więcej rozmowy z delegatem*."
+  },
+  {
+   "kind": "point",
+   "title": "Założenia",
+   "body": "Delegat jest chłodny, więc pewnie mnie nie lubi. Głowa sama dopisuje intencje.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa",
+   "body": "Kilka minut przed meczem: przedstawiasz się, pytasz o organizację, ustalacie kontakt.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna bramka",
+   "body": "Jemu zależy na spokojnym meczu, tobie na sprawiedliwym. Możecie sobie pomóc.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Zapytaj,\\n*zanim dopiszesz komuś intencje*.",
+   "cta": "Zapisz przed kolejną obsadą"
+  }
+ ]
+}

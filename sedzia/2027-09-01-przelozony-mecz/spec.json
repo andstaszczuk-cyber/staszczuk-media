@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Terminarz się zmienia.\\n*Twoje przygotowanie zostaje*."
+  },
+  {
+   "kind": "point",
+   "title": "Zmiana",
+   "body": "Przełożony mecz, nowa godzina, inne boisko, obsada w ostatniej chwili.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Wpływ",
+   "body": "Terminarz ustala ktoś inny. Twoja rutyna przed meczem należy do ciebie.",
+   "icon": "cel"
+  },
+  {
+   "kind": "point",
+   "title": "Rutyna",
+   "body": "Stałe elementy, które zabierasz na każdy mecz, o każdej godzinie.",
+   "icon": "lista"
+  },
+  {
+   "kind": "end",
+   "text": "Godzina się zmieniła.\\n*Ty jesteś gotowy tak samo*.",
+   "cta": "Zapisz na tydzień zmian w terminarzu"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "rain",
+   "text": "Wrzesień zmienia pogodę.\\n*Przepakuj torbę*."
+  },
+  {
+   "kind": "point",
+   "title": "Zmiana",
+   "body": "Rano słońce, wieczorem ulewa i chłód. Wrzesień potrafi wszystko w jeden dzień.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Torba",
+   "body": "Zapasowa koszulka, suche skarpety, kurtka, ręcznik i worek na mokre rzeczy.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Uwaga",
+   "body": "Kiedy ciało jest zaopiekowane, głowa zostaje przy grze.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Pogoda się zmienia.\\n*Spakowana torba zostaje*.",
+   "cta": "Zapisz przed pierwszym deszczowym meczem"
+  }
+ ]
+}

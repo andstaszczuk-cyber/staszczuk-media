@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "OCENY",
+   "text": "Tak dobry jak ostatni mecz?\\n*Guzik prawda*."
+  },
+  {
+   "kind": "point",
+   "title": "Ostatni mecz",
+   "body": "Jedna słabsza ocena i nagle cała runda wydaje się do niczego.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Cała runda",
+   "body": "Ile meczów już poprowadziłeś? Jaką część z nich stanowi ten jeden?",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Tendencja",
+   "body": "Patrzysz na kierunek z kilku tygodni, zanim wyciągniesz wnioski.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Jesteś sumą wielu meczów.\\n*Ostatni to jeden z nich*.",
+   "cta": "Zapisz po słabszej ocenie"
+  }
+ ]
+}

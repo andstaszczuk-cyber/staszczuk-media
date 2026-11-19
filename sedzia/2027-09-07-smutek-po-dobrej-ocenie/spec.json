@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "sub": "Smutek pokazuje\\n*twoje prawdziwe oczekiwania*.",
+   "text": "Dobra ocena,\\n*a ty smutny?*"
+  },
+  {
+   "kind": "point",
+   "title": "Ocena",
+   "body": "Obserwator ocenił mecz dobrze. Ty czujesz rozczarowanie.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Oczekiwanie",
+   "body": "Smutek zdradza, że w głowie celem była ocena dużo wyższa.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Urealnienie",
+   "body": "Nazwij oczekiwanie wprost i sprawdź, czy ci służy.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Smutek po dobrym meczu\\n*to cenna informacja*.",
+   "cta": "Zapisz na dzień oceny"
+  }
+ ]
+}

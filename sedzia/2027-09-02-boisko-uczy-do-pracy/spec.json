@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "desk",
+   "text": "Sędziowanie uczy rzeczy,\\n*które przydają się w pracy*."
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja pod presją",
+   "body": "Na boisku masz sekundę. W pracy zwykle więcej czasu, a mechanizm jest podobny.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Trudna rozmowa",
+   "body": "Wzburzony kapitan uczy cię spokojnego tonu, który przyda się z klientem czy szefem.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Powrót po błędzie",
+   "body": "Błąd w pierwszej połowie i grasz dalej. Ta sama umiejętność działa przy biurku.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Boisko i biurko\\n*uczą się nawzajem*.",
+   "cta": "Zapisz, jeśli łączysz sędziowanie z pracą"
+  }
+ ]
+}

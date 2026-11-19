@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Derby.\\n*Te same zadania co zawsze*."
+  },
+  {
+   "kind": "point",
+   "title": "Otoczka",
+   "body": "Pełne trybuny, historia rywalizacji, rozmowy w mieście przez cały tydzień.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Przełącznik",
+   "body": "Jak pilotem z jedynki na dwójkę: zadania jak w każdym meczu.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Smaczek",
+   "body": "Atmosfera to dodatek na pizzy. Spód robisz taki sam jak zawsze.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Otoczka jest większa.\\n*Twoja robota ta sama*.",
+   "cta": "Zapisz przed derbami"
+  }
+ ]
+}

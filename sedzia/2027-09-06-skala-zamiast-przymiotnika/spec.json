@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "1–10",
+   "text": "Fatalny mecz?\\n*Daj mu liczbę*."
+  },
+  {
+   "kind": "point",
+   "title": "Przymiotnik",
+   "body": "Fatalny, tragiczny, beznadziejny. Takie słowa podkręcają emocje.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Liczba",
+   "body": "Na skali od 1 do 10 mecz dostaje ocenę, z którą da się pracować.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Punkt więcej",
+   "body": "Za co ten mecz dostaje swoje punkty? Co dodać, żeby był o punkt wyżej?",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Mniej przymiotników.\\n*Więcej konkretu*.",
+   "cta": "Zapisz na wieczór po meczu"
+  }
+ ]
+}
