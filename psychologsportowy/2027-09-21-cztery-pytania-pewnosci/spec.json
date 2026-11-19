@@ -1,0 +1,151 @@
+{
+ "cover": {
+  "kicker": "PEWNOŚĆ SIEBIE",
+  "title": "Cztery pytania\n*przed meczem*",
+  "size": 88,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 90,
+     "s": 1.0,
+     "pose": "think"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 470,
+     "y": 40,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 670,
+     "y": 40,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 470,
+     "y": 240,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 670,
+     "y": 240,
+     "s": 150,
+     "c": "fig2"
+    },
+    {
+     "k": "chip",
+     "x": 560,
+     "y": 440,
+     "text": "trzy z czterech",
+     "size": 32
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Cztery pytania",
+   "body": "Technika, ciało, plan i wiara, że wykorzystasz to, co umiesz.",
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "ball",
+      "label": "technika"
+     },
+     {
+      "icon": "dumbbell",
+      "label": "ciało"
+     },
+     {
+      "icon": "flag",
+      "label": "plan"
+     },
+     {
+      "icon": "brain",
+      "label": "wiara"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Znajdź brakujący element",
+   "body": "Kuleje plan? Pogadaj z trenerem. Brakuje wiary? Sięgnij po dowody.",
+   "viz": {
+    "type": "table",
+    "left": "BRAKUJE",
+    "right": "ROBIĘ",
+    "good": true,
+    "rows": [
+     [
+      "planu",
+      "rozmowa z trenerem"
+     ],
+     [
+      "wiary",
+      "nagrania dobrych akcji"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Proporcje na kartce",
+   "body": "Jedna wątpliwość potrafi przykryć trzy mocne punkty.",
+   "viz": {
+    "type": "bars",
+    "caption": "PRZED MECZEM",
+    "items": [
+     {
+      "label": "technika",
+      "v": 0.8,
+      "hl": true,
+      "note": "tak"
+     },
+     {
+      "label": "ciało",
+      "v": 0.75,
+      "hl": true,
+      "note": "tak"
+     },
+     {
+      "label": "plan",
+      "v": 0.7,
+      "hl": true,
+      "note": "tak"
+     },
+     {
+      "label": "wiara",
+      "v": 0.35,
+      "note": "?"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Na które pytania odpowiadasz *tak*?",
+  "cta": "Przy każdym tak dopisz dowód, przy każdym nie jeden krok.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

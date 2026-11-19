@@ -1,0 +1,151 @@
+{
+ "cover": {
+  "kicker": "HASŁA",
+  "title": "Jeden procent\n*dziennie?*",
+  "size": 92,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 80,
+     "y": 90,
+     "s": 1.0,
+     "pose": "think"
+    },
+    {
+     "k": "icon",
+     "name": "ruler",
+     "x": 540,
+     "y": 60,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 360,
+     "text": "300% lepiej?",
+     "size": 40
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Policz dosłownie",
+   "body": "Trzysta treningów, trzysta procent lepiej? Progres tak nie rośnie.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.2
+       ],
+       [
+        0.25,
+        0.4
+       ],
+       [
+        0.5,
+        0.6
+       ],
+       [
+        0.75,
+        0.8
+       ],
+       [
+        1,
+        1
+       ]
+      ],
+      "label": "hasło",
+      "dash": true
+     },
+     {
+      "pts": [
+       [
+        0,
+        0.2
+       ],
+       [
+        0.2,
+        0.35
+       ],
+       [
+        0.35,
+        0.33
+       ],
+       [
+        0.55,
+        0.5
+       ],
+       [
+        0.7,
+        0.48
+       ],
+       [
+        1,
+        0.62
+       ]
+      ],
+      "hl": true,
+      "label": "realnie"
+     }
+    ],
+    "x": "tygodnie"
+   }
+  },
+  {
+   "title": "Lepiej, czyli jak?",
+   "body": "Ruch, miara i termin. Taki cel da się sprawdzić.",
+   "viz": {
+    "type": "targets",
+    "left": "ogólnie",
+    "leftSub": "1% lepiej",
+    "right": "konkret",
+    "rightSub": "słabsza noga"
+   }
+  },
+  {
+   "title": "Patrz z dystansu",
+   "body": "Z dnia na dzień zmian nie widać. Po miesiącach widać dużo.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "wrzesień",
+      "icon": "note",
+      "bottom": "start"
+     },
+     {
+      "top": "październik",
+      "icon": "note",
+      "bottom": "sprawdzam"
+     },
+     {
+      "top": "listopad",
+      "icon": "star",
+      "hl": true,
+      "bottom": "widzę zmianę"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Nad czym *konkretnie* pracujesz we wrześniu?",
+  "cta": "Zapisz jeden element, miarę i termin.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

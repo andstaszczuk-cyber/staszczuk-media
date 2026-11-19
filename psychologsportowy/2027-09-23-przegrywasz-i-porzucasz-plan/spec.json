@@ -1,0 +1,77 @@
+{
+ "cover": {
+  "big": "0:1",
+  "bigSize": 300,
+  "bigSub": "i plan ląduje w koszu",
+  "title": "Przegrywasz\n*i porzucasz plan*",
+  "size": 84,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 520,
+     "y": 120,
+     "s": 180,
+     "c": "fig2"
+    },
+    {
+     "k": "cross",
+     "x": 700,
+     "y": 200,
+     "r": 50
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Pod presją wracają odruchy",
+   "body": "Stracony gol uruchamia pośpiech. Wtedy łatwo walczyć emocjami.",
+   "viz": {
+    "type": "moment",
+    "bad": [
+     "0:1",
+     "CHAOS"
+    ],
+    "good": [
+     "0:1",
+     "PLAN"
+    ]
+   }
+  },
+  {
+   "title": "Walczę planem",
+   "body": "Muszę odrobić podkręca stres. Trzymam się planu daje kierunek.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "muszę odrobić",
+    "to": "trzymam się planu"
+   }
+  },
+  {
+   "title": "Ustalcie reakcję",
+   "body": "Co robicie po straconym golu? Kilka minut spokoju, reset, jedno hasło.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "spokojna gra",
+     "reset",
+     "jedno hasło"
+    ],
+    "done": 1
+   }
+  }
+ ],
+ "end": {
+  "question": "Co robicie, gdy *przegrywacie*?",
+  "cta": "Porozmawiajcie o tym na najbliższym treningu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

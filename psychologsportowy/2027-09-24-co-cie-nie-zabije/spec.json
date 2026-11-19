@@ -1,0 +1,118 @@
+{
+ "cover": {
+  "kicker": "TRUDNY CZAS",
+  "title": "Co cię nie zabije,\n*to cię wzmocni?*",
+  "size": 78,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 110,
+     "s": 0.9,
+     "pose": "walk"
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 500,
+     "y": 220,
+     "s": 320,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "krok po kroku",
+     "size": 34
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Trudność bywa po prostu trudna",
+   "body": "Może nauczyć, może też zabrać energię. Decyduje to, co z nią zrobisz.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "cloudRain",
+     "label": "poniewiera",
+     "sub": "zabiera energię"
+    },
+    "right": {
+     "icon": "tree",
+     "label": "uczy",
+     "sub": "gdy z nią pracujesz"
+    }
+   }
+  },
+  {
+   "title": "Przejść z godnością",
+   "body": "Robisz swoje, dbasz o sen, rozmawiasz z kimś zaufanym.",
+   "viz": {
+    "type": "checklist",
+    "title": "TRUDNY CZAS",
+    "chip": "ROBIĘ",
+    "chipX": 420,
+    "backChip": "HASŁA",
+    "items": [
+     "trening według planu",
+     "sen i regeneracja",
+     "rozmowa z bliskim"
+    ]
+   }
+  },
+  {
+   "title": "Siła przychodzi później",
+   "body": "Po miesiącach widzisz, że szybciej wracasz po błędzie. Zapisuj to.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.3
+       ],
+       [
+        0.25,
+        0.32
+       ],
+       [
+        0.5,
+        0.4
+       ],
+       [
+        0.75,
+        0.55
+       ],
+       [
+        1,
+        0.7
+       ]
+      ],
+      "hl": true,
+      "label": " "
+     }
+    ],
+    "x": "miesiące"
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *pomaga* ci przejść przez trudny czas?",
+  "cta": "Zapisz dziś jedną rzecz, która ci w nim pomaga.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}
