@@ -1,0 +1,107 @@
+{
+ "cover": {
+  "big": "10 MIN",
+  "bigSize": 200,
+  "bigSub": "tyle czasem dostajesz w meczu",
+  "title": "Wchodzisz\n*z ławki*",
+  "size": 96,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "bench",
+     "x": 440,
+     "y": 200,
+     "s": 200,
+     "c": "fig2"
+    },
+    {
+     "k": "person",
+     "x": 620,
+     "y": -10,
+     "s": 0.62,
+     "pose": "run"
+    },
+    {
+     "k": "chip",
+     "x": 430,
+     "y": 140,
+     "text": "gotowy",
+     "size": 30
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Ławka to też praca",
+   "body": "Czytasz rywala, szukasz luk, trzymasz ciało w gotowości.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "eye",
+      "label": "czytam rywala"
+     },
+     {
+      "icon": "note",
+      "label": "szukam luk"
+     },
+     {
+      "icon": "bolt",
+      "label": "ciało ciepłe",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Gotowość przy linii",
+   "body": "Krótka rozgrzewka co kilka minut. Masz wejść gotowy, bez rozkręcania.",
+   "viz": {
+    "type": "scale10",
+    "caption": "GOTOWOŚĆ",
+    "points": [
+     {
+      "n": 2,
+      "label": "siedzę zimny"
+     },
+     {
+      "n": 7,
+      "label": "rozgrzany",
+      "hl": true
+     },
+     {
+      "n": 10,
+      "label": "nakręcony"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Pierwsza akcja prosta",
+   "body": "Na wejście jedno zadanie. Pewny kontakt, szybki powrót na pozycję.",
+   "viz": {
+    "type": "focus",
+    "center": "prosta pierwsza akcja",
+    "around": [
+     "wynik",
+     "zegar",
+     "trybuny",
+     "trener"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co robisz, *zanim* wejdziesz?",
+  "cta": "Ustal trzy kroki na czas przy linii i ćwicz je na treningu.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

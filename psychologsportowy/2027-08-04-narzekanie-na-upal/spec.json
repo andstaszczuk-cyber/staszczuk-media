@@ -1,0 +1,106 @@
+{
+ "cover": {
+  "kicker": "UPAŁ",
+  "title": "Narzekanie na upał\n*kosztuje energię*",
+  "size": 84,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 640,
+     "y": 10,
+     "s": 220,
+     "c": "A"
+    },
+    {
+     "k": "person",
+     "x": 100,
+     "y": 90,
+     "s": 1.0,
+     "pose": "slump"
+    },
+    {
+     "k": "bubble",
+     "x": 400,
+     "y": 320,
+     "w": 420,
+     "h": 110,
+     "lines": [
+      "ale gorąco!"
+     ],
+     "size": 38,
+     "c": "soft",
+     "tail": "left"
+    }
+   ]
+  },
+  "layout": "hero"
+ },
+ "points": [
+  {
+   "title": "Narzekanie nic nie chłodzi",
+   "body": "Upał zostaje. Ty tracisz energię na złość i przeżywanie.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "cloudRain",
+     "label": "narzekam",
+     "sub": "upał dalej jest"
+    },
+    "right": {
+     "icon": "drop",
+     "label": "nazywam potrzebę",
+     "sub": "woda, cień, tempo"
+    }
+   }
+  },
+  {
+   "title": "Nazwij stan i potrzebę",
+   "body": "Jest mi gorąco, potrzebuję wody i chwili w cieniu.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "znowu ten upał",
+    "to": "gorąco mi, piję i gram"
+   }
+  },
+  {
+   "title": "Gorąco jest obu drużynom",
+   "body": "Kto lepiej się zaopiekuje, ten więcej zostawi na końcówkę.",
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "MAM WPŁYW",
+      "items": [
+       "woda",
+       "cień w przerwie",
+       "tempo"
+      ],
+      "hl": true
+     },
+     {
+      "title": "BEZ WPŁYWU",
+      "items": [
+       "temperatura",
+       "godzina meczu"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Czego *potrzebujesz*, kiedy jest gorąco?",
+  "cta": "Przed treningiem w upale zaplanuj wodę, cień i tempo.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

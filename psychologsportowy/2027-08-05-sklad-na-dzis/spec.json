@@ -1,0 +1,142 @@
+{
+ "cover": {
+  "left": "OPOWIEŚĆ",
+  "right": "FAKT",
+  "title": "Nie ma cię\n*w składzie*",
+  "size": 96,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "jestem",
+      "skreślony"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "skład na",
+      "ten mecz"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "think"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Oddziel fakt od opowieści",
+   "body": "Fakt: w tym meczu nie grasz od początku. Reszta to interpretacja.",
+   "viz": {
+    "type": "table",
+    "left": "OPOWIEŚĆ",
+    "right": "FAKT",
+    "good": true,
+    "rows": [
+     [
+      "jestem do niczego",
+      "w sobotę nie gram"
+     ],
+     [
+      "trener mnie skreślił",
+      "skład jest na ten mecz"
+     ],
+     [
+      "lato na marne",
+      "sezon dopiero rusza"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Zapytaj o konkret",
+   "body": "Co mam poprawić, żeby wejść do składu? Wtedy dostajesz zadanie.",
+   "viz": {
+    "type": "targets",
+    "left": "ogólnie",
+    "leftSub": "czemu nie gram?",
+    "right": "konkret",
+    "rightSub": "co mam poprawić?"
+   }
+  },
+  {
+   "title": "Trenuj jak gotowy",
+   "body": "Skład zmienia się w sezonie wiele razy. Bądź gotowy na swoją kolej.",
+   "viz": {
+    "type": "stairs",
+    "steps": [
+     "pytam trenera",
+     "trenuję zadanie",
+     "gotowy"
+    ],
+    "done": 2
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *dziś* zrobisz, żeby być gotowy?",
+  "cta": "Zapytaj trenera o jedną konkretną rzecz do poprawy.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

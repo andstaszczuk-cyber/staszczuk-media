@@ -1,0 +1,114 @@
+{
+ "cover": {
+  "kicker": "DEBIUT",
+  "title": "Debiut\n*zdarza się raz*",
+  "size": 100,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "spot",
+     "x": 420,
+     "y": 0,
+     "w": 560,
+     "y2": 600
+    },
+    {
+     "k": "person",
+     "x": 220,
+     "y": 100,
+     "s": 0.98,
+     "pose": "walk"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 90,
+     "y": 60,
+     "s": 90,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 590,
+     "y": 220,
+     "text": "pierwszy raz",
+     "size": 32
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Ciało szykuje się na ważne",
+   "body": "Szybsze serce lepiej odżywia mięśnie. Pobudzenie daje energię.",
+   "viz": {
+    "type": "bodyMap",
+    "points": [
+     {
+      "part": "chest",
+      "label": "serce szybciej"
+     },
+     {
+      "part": "hands",
+      "label": "drżą dłonie"
+     },
+     {
+      "part": "legs",
+      "label": "energia w nogach",
+      "side": 0
+     }
+    ]
+   }
+  },
+  {
+   "title": "Zadania jak zawsze",
+   "body": "Debiut dostaje te same zadania co każdy mecz. Ranga dnia to dodatek.",
+   "viz": {
+    "type": "same",
+    "left": "ZWYKŁY MECZ",
+    "right": "DEBIUT",
+    "items": [
+     "rozgrzewka",
+     "prosta akcja",
+     "reset po błędzie"
+    ]
+   }
+  },
+  {
+   "title": "Rozejrzyj się",
+   "body": "Kilka sekund uważności przed wejściem. Ten dzień chcesz pamiętać.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "eye",
+      "label": "patrzę"
+     },
+     {
+      "icon": "mic",
+      "label": "słucham"
+     },
+     {
+      "icon": "heart",
+      "label": "czuję",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co chcesz *zapamiętać* z debiutu?",
+  "cta": "Po debiucie zapisz trzy rzeczy, które chcesz zapamiętać.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

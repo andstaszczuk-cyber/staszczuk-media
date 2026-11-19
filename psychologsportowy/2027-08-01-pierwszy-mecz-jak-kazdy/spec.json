@@ -1,0 +1,161 @@
+{
+ "cover": {
+  "left": "W GŁOWIE",
+  "right": "W TABELI",
+  "title": "Pierwszy mecz\n*to też mecz*",
+  "size": 90,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "mecz",
+      "o wszystko"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "jeden",
+      "z wielu"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "think"
+    }
+   ]
+  },
+  "layout": "split"
+ },
+ "points": [
+  {
+   "title": "Ranga rośnie w głowie",
+   "body": "Po długiej przerwie pierwszy mecz urasta do finału. Ciało reaguje jak na finał.",
+   "viz": {
+    "type": "scale10",
+    "caption": "POBUDZENIE",
+    "points": [
+     {
+      "n": 4,
+      "label": "sparing"
+     },
+     {
+      "n": 7,
+      "label": "w sam raz",
+      "hl": true
+     },
+     {
+      "n": 10,
+      "label": "jak finał"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Policz mecze w sezonie",
+   "body": "Pierwszy jest jednym z wielu i w tabeli waży tyle samo co dziesiąty.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "mecz 1",
+      "icon": "ball",
+      "hl": true,
+      "bottom": "sierpień"
+     },
+     {
+      "top": "mecz 5",
+      "icon": "ball",
+      "bottom": "wrzesień"
+     },
+     {
+      "top": "mecz 10",
+      "icon": "ball",
+      "bottom": "październik"
+     },
+     {
+      "top": "mecz 15",
+      "icon": "flag",
+      "bottom": "jesień"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Wejdź z jednym zadaniem",
+   "body": "Na pierwsze minuty wybierz jeden element gry. Resztę niesie przygotowanie.",
+   "viz": {
+    "type": "focus",
+    "center": "jedno zadanie",
+    "around": [
+     "tabela",
+     "kibice",
+     "wynik",
+     "trener"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Ile naprawdę *waży* twój pierwszy mecz?",
+  "cta": "Zapisz jedno zadanie na pierwsze minuty sezonu.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

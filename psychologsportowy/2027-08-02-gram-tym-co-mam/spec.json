@@ -1,0 +1,119 @@
+{
+ "cover": {
+  "big": "TERAZ",
+  "bigSize": 220,
+  "bigSub": "przygotowania zamknięte",
+  "title": "Grasz tym,\n*co masz*",
+  "size": 96,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "backpack",
+     "x": 500,
+     "y": 20,
+     "w": 240,
+     "h": 320,
+     "labels": [
+      "technika",
+      "siła",
+      "plan"
+     ]
+    },
+    {
+     "k": "check",
+     "x": 800,
+     "y": 300,
+     "r": 44
+    }
+   ]
+  },
+  "layout": "big"
+ },
+ "points": [
+  {
+   "title": "Budowanie się skończyło",
+   "body": "Latem poprawiałeś każdy element. W sezonie używasz tego, co zbudowałeś.",
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "dumbbell",
+     "label": "przygotowania",
+     "sub": "budujesz i poprawiasz"
+    },
+    "right": {
+     "icon": "play",
+     "label": "sezon",
+     "sub": "używasz tego, co masz"
+    }
+   }
+  },
+  {
+   "title": "Poprawki zostaw na tydzień",
+   "body": "W meczu grasz. Analiza i zmiany przychodzą na spokojnie, między meczami.",
+   "viz": {
+    "type": "week",
+    "caption": "TYDZIEŃ W SEZONIE",
+    "days": [
+     {
+      "d": "PN",
+      "icon": "note",
+      "label": "wnioski"
+     },
+     {
+      "d": "WT",
+      "icon": "dumbbell",
+      "label": "poprawki"
+     },
+     {
+      "d": "ŚR",
+      "icon": "dumbbell",
+      "label": "poprawki"
+     },
+     {
+      "d": "CZW",
+      "icon": "dumbbell",
+      "label": "zadania"
+     },
+     {
+      "d": "PT",
+      "icon": "moon",
+      "label": "luz",
+      "dim": true
+     },
+     {
+      "d": "SB",
+      "icon": "play",
+      "label": "gram",
+      "mark": "hl"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Spisz, co masz",
+   "body": "Trzy rzeczy wypracowane latem. Na nich opierasz się w meczu.",
+   "viz": {
+    "type": "checklist",
+    "title": "MAM TO",
+    "chip": "GOTOWE",
+    "chipX": 400,
+    "backChip": "POTEM",
+    "items": [
+     "wytrzymałość",
+     "nowe zagranie",
+     "rutyna"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Na czym *opierasz się* w pierwszym meczu?",
+  "cta": "Wypisz trzy rzeczy wypracowane latem i zabierz je na mecz.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

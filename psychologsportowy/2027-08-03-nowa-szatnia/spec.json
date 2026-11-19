@@ -1,0 +1,130 @@
+{
+ "cover": {
+  "kicker": "NOWY W DRUŻYNIE",
+  "title": "Pierwsze dni\n*w nowej szatni*",
+  "size": 92,
+  "lh": 1.25,
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 40,
+     "y": 100,
+     "s": 0.95,
+     "pose": "stand"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 500,
+     "y": 250,
+     "s": 300,
+     "c": "fig2"
+    },
+    {
+     "k": "bubble",
+     "x": 330,
+     "y": 30,
+     "w": 470,
+     "h": 120,
+     "lines": [
+      "co o mnie myślą?"
+     ],
+     "size": 36,
+     "c": "soft",
+     "tail": "left"
+    }
+   ]
+  },
+  "layout": "top"
+ },
+ "points": [
+  {
+   "title": "Każdy myśli o sobie",
+   "body": "Inni w szatni mają w głowie swoją formę i swoje miejsce w składzie.",
+   "viz": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "patrzą na mnie?",
+     "nie lubią mnie?",
+     "ocenią mnie?"
+    ],
+    "ask": [
+     "Jak tu",
+     "wygląda",
+     "rozgrzewka?"
+    ]
+   }
+  },
+  {
+   "title": "Zbieraj małe kontakty",
+   "body": "Przychodzisz wcześniej, pytasz, pomagasz. Tak rosną relacje.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "clock",
+      "label": "przychodzę wcześniej"
+     },
+     {
+      "icon": "mic",
+      "label": "zagaduję"
+     },
+     {
+      "icon": "hand",
+      "label": "pomagam",
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Daj sobie czas",
+   "body": "Zaufanie w drużynie rośnie tygodniami. Masz prawo do swojego rytmu.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.15
+       ],
+       [
+        0.25,
+        0.28
+       ],
+       [
+        0.5,
+        0.45
+       ],
+       [
+        0.75,
+        0.62
+       ],
+       [
+        1,
+        0.78
+       ]
+      ],
+      "hl": true,
+      "label": "swój w drużynie"
+     }
+    ],
+    "x": "tygodnie"
+   }
+  }
+ ],
+ "end": {
+  "question": "Jaki *mały krok* zrobisz jutro w szatni?",
+  "cta": "Zadaj jutro jedno proste pytanie komuś z nowej drużyny.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
