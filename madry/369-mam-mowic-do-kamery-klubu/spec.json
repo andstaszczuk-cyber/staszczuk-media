@@ -1,0 +1,83 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Po meczu mam mówić do kamery *i zjada mnie stres*",
+  "sub": "Na boisku czuję się pewnie, przed mikrofonem plącze mi się język",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "mic",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Trzy zdania",
+   "body": "Przygotuj trzy proste zdania: o meczu, o drużynie i o tym, co dalej.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "ball",
+      "label": "mecz"
+     },
+     {
+      "icon": "people",
+      "label": "drużyna"
+     },
+     {
+      "icon": "flag",
+      "label": "co dalej",
+      "hl": true
+     }
+    ],
+    "y": 40,
+    "h": 420,
+    "note": "trzy krótkie zdania"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Przećwicz na głos",
+   "body": "Nagraj się telefonem w domu. Każde kolejne nagranie idzie łatwiej."
+  },
+  {
+   "title": "Dwa wydechy",
+   "body": "Zanim włączy się kamera, dwa długie wydechy i stopy pewnie na ziemi."
+  }
+ ],
+ "end": {
+  "text": "Mówię krótko *i po swojemu*.",
+  "cta": "Zapisz i przygotuj swoje trzy zdania"
+ }
+}

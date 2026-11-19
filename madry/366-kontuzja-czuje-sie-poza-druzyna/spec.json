@@ -1,0 +1,74 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Kontuzja w środku sezonu *i czuję się poza drużyną*",
+  "sub": "Oni grają, ja patrzę z trybun",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bench",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Bądź obecny",
+   "body": "Przychodź na treningi i mecze, jeśli lekarz i trener się zgadzają.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "house",
+     "label": "siedzę sam w domu",
+     "cross": true
+    },
+    "right": {
+     "icon": "people",
+     "label": "jestem z drużyną"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Znajdź rolę",
+   "body": "Obserwuj grę, wspieraj kolegów, pomagaj młodszym, rozmawiaj z trenerem."
+  },
+  {
+   "title": "Małe cele",
+   "body": "Rehabilitację rozpisz z fizjoterapeutą na cele na każdy tydzień."
+  }
+ ],
+ "end": {
+  "text": "Jestem częścią drużyny *także teraz*.",
+  "cta": "Zapisz i ustal swoją rolę"
+ }
+}

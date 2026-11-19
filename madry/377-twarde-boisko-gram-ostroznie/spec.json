@@ -1,0 +1,83 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Boisko twarde od zimna *i gram ostrożnie*",
+  "sub": "Boję się, że coś sobie zrobię przy upadku",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "snow",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Przygotuj ciało",
+   "body": "Dłuższa rozgrzewka, obuwie do nawierzchni, ciepła warstwa do ostatniej chwili.",
+   "art": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "foot",
+      "label": "obuwie"
+     },
+     {
+      "icon": "sun",
+      "label": "rozgrzewka"
+     },
+     {
+      "icon": "shield",
+      "label": "ochraniacze"
+     },
+     {
+      "icon": "eye",
+      "label": "sprawdzam boisko"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Czujność w konkretach",
+   "body": "Uważasz na lądowanie i hamowanie, a w reszcie akcji grasz swoje."
+  },
+  {
+   "title": "Rozmowa z trenerem",
+   "body": "Powiedz o obawach. Trener może dopasować ćwiczenia do warunków."
+  }
+ ],
+ "end": {
+  "text": "Przygotowany, *więc gram swoje*.",
+  "cta": "Zapisz i przygotuj się na zimne boisko"
+ }
+}

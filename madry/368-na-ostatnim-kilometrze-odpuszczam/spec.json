@@ -1,0 +1,67 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na ostatnim kilometrze odpuszczam, *choć mam jeszcze siłę*",
+  "sub": "Głowa mówi, że i tak nie będzie życiówki",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Złap ten moment",
+   "body": "Zapisz, w którym miejscu pojawia się myśl o odpuszczeniu i jak brzmi.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "i tak nie będzie życiówki",
+    "to": "następne sto metrów"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Krótkie odcinki",
+   "body": "Końcówkę dziel na odcinki: do zakrętu, do słupka, do drzewa."
+  },
+  {
+   "title": "Trening końcówek",
+   "body": "Ćwicz mocne finisze z trenerem, żeby ciało znało to uczucie."
+  }
+ ],
+ "end": {
+  "text": "Biegnę *do samej mety*.",
+  "cta": "Zapisz i przygotuj zdanie na końcówkę"
+ }
+}

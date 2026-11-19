@@ -1,0 +1,67 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Po przegranej płaczę *i wstydzę się przed drużyną*",
+  "sub": "Inni wyglądają spokojnie, a ja nie umiem się powstrzymać",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "drop",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Płacz ma funkcję",
+   "body": "Mówi, że coś było dla ciebie ważne. To taka sama reakcja jak śmiech.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "jestem za słaby",
+    "to": "zależało mi"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Daj sobie chwilę",
+   "body": "Możesz odejść na bok, ochłonąć i wrócić do drużyny, kiedy będziesz gotowy."
+  },
+  {
+   "title": "Analiza później",
+   "body": "Wnioski z meczu wyciągasz, kiedy emocje opadną, zwykle następnego dnia."
+  }
+ ],
+ "end": {
+  "text": "Płaczę, *bo mi zależy*.",
+  "cta": "Zapisz i daj sobie chwilę"
+ }
+}

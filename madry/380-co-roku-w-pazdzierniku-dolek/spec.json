@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Co roku w październiku *mam dołek*",
+  "sub": "Wiem, że przyjdzie, a i tak mnie zaskakuje",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Spisz swój wzór",
+   "body": "Kiedy dołek zwykle przychodzi, po czym go poznajesz, co mu towarzyszy.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "sun",
+      "top": "wrzesień",
+      "bottom": "zapał"
+     },
+     {
+      "icon": "cloudRain",
+      "top": "październik",
+      "bottom": "dołek",
+      "hl": true
+     },
+     {
+      "icon": "flag",
+      "top": "listopad",
+      "bottom": "wracam"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Plan zawczasu",
+   "body": "Więcej snu, lżejszy tydzień po rozmowie z trenerem, rzeczy, które cię ładują."
+  },
+  {
+   "title": "Nazwij go",
+   "body": "Przewidziany dołek mniej przeraża. To epizod, który minie."
+  }
+ ],
+ "end": {
+  "text": "Spodziewam się dołka *i mam na niego plan*.",
+  "cta": "Zapisz i spisz swój jesienny plan"
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Po błędzie złość *ciągnie się przez kolejne akcje*",
+  "sub": "Jeden zły ruch, a potem psuję trzy następne",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "play",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Gest resetu",
+   "body": "Wybierz jeden ruch, na przykład klaśnięcie, który zamyka każdy błąd.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "złość",
+     "gest resetu",
+     "następna akcja"
+    ],
+    "done": 1,
+    "top": true
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jedno słowo",
+   "body": "Po geście powiedz sobie jedno słowo-zadanie na następną akcję."
+  },
+  {
+   "title": "Trening resetu",
+   "body": "Ćwicz to na treningu po każdym błędzie, żeby zadziałało w meczu."
+  }
+ ],
+ "end": {
+  "text": "Błąd zamykam, *gram dalej*.",
+  "cta": "Zapisz i wybierz swój gest"
+ }
+}

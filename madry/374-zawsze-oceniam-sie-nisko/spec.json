@@ -1,0 +1,79 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Trener pyta o ocenę treningu, *a ja zawsze daję sobie mało*",
+  "sub": "Szóstka to u mnie dobry dzień, wyżej nigdy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Spisz kryteria",
+   "body": "Zapisz, co musiałoby się wydarzyć, żeby trening był na siódemkę albo ósemkę.",
+   "art": {
+    "type": "scale10",
+    "caption": "MOJA OCENA",
+    "y": 240,
+    "points": [
+     {
+      "n": 5,
+      "label": "daję sobie"
+     },
+     {
+      "n": 8,
+      "label": "fakty",
+      "hl": true
+     }
+    ],
+    "note": "sprawdzam swoje kryteria"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Najpierw to, co działa",
+   "body": "Nazwij, co dało ci tę piątkę. Dopiero potem wybierz jeden brak."
+  },
+  {
+   "title": "Porównaj z trenerem",
+   "body": "Zestaw swoją ocenę z oceną trenera. Różnica dużo mówi."
+  }
+ ],
+ "end": {
+  "text": "Oceniam siebie *uczciwie*.",
+  "cta": "Zapisz i spisz swoje kryteria"
+ }
+}

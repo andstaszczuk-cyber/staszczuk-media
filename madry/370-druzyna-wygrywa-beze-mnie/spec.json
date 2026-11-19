@@ -1,0 +1,73 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Drużyna wygrywa beze mnie *i nie wiem, czy jestem potrzebny*",
+  "sub": "Cieszę się z wygranych i jednocześnie czuję ukłucie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bench",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Dwa uczucia naraz",
+   "body": "Możesz cieszyć się z drużyny i martwić o siebie. Oba są w porządku.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "trophy",
+     "label": "cieszę się z wygranej"
+    },
+    "right": {
+     "icon": "cloudRain",
+     "label": "martwię się o miejsce"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapytaj o rolę",
+   "body": "Porozmawiaj z trenerem, czego od ciebie oczekuje w najbliższych tygodniach."
+  },
+  {
+   "title": "Bądź gotowy",
+   "body": "Trenuj tak, żeby wejść w każdej chwili. Sezon jest długi."
+  }
+ ],
+ "end": {
+  "text": "Jestem gotowy, *kiedy przyjdzie moja kolej*.",
+  "cta": "Zapisz i porozmawiaj z trenerem o roli"
+ }
+}

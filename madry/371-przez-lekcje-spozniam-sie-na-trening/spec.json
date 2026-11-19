@@ -1,0 +1,75 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Przez lekcje spóźniam się na trening *i wchodzę zestresowany*",
+  "sub": "Wpadam w biegu, bez rozgrzewki, z głową w szkole",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Ustal z trenerem",
+   "body": "Pokaż plan lekcji i ustalcie, co robisz zaraz po przyjściu.",
+   "art": {
+    "type": "guessVsAsk",
+    "guesses": [
+     "trener jest zły?",
+     "myśli, że olewam?",
+     "stracę miejsce?"
+    ],
+    "ask": [
+     "Kończę lekcje",
+     "później.",
+     "Co na start?"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Rozgrzewka zawsze",
+   "body": "Nawet spóźniony robisz krótką rozgrzewkę, zanim wejdziesz w intensywność."
+  },
+  {
+   "title": "Reset w drodze",
+   "body": "Kilka spokojnych oddechów i jedno zdanie: teraz jestem na treningu."
+  }
+ ],
+ "end": {
+  "text": "Wchodzę spóźniony, *za to gotowy*.",
+  "cta": "Zapisz i porozmawiaj z trenerem"
+ }
+}

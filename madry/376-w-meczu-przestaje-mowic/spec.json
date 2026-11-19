@@ -1,0 +1,67 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "W meczu przestaję mówić *i zamykam się w sobie*",
+  "sub": "Na treningu krzyczę, w meczu cisza",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "point",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "hand",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Skąd cisza",
+   "body": "W stresie uwaga ucieka do środka, do myśli o sobie. Głos milknie razem z nią.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "co o mnie pomyślą",
+    "to": "mój, zostaw, wolny"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Trzy słowa",
+   "body": "Ustal trzy słowa, które mówisz w każdym meczu, od pierwszej akcji."
+  },
+  {
+   "title": "Głos na zewnątrz",
+   "body": "Mówiąc do kolegów, przenosisz uwagę na boisko i grę."
+  }
+ ],
+ "end": {
+  "text": "Mówię, *więc jestem w grze*.",
+  "cta": "Zapisz i wybierz swoje trzy słowa"
+ }
+}

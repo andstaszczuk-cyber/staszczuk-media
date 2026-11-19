@@ -1,0 +1,73 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Lepiej trenuje mi się *samemu niż z grupą*",
+  "sub": "W grupie się rozpraszam, porównuję i spinam",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "foot",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Nazwij, co cię męczy",
+   "body": "Hałas, porównywanie, tempo innych, rozmowy. Każde wymaga innego podejścia.",
+   "art": {
+    "type": "hub",
+    "center": "trening w grupie",
+    "icon": "people",
+    "items": [
+     "hałas",
+     "porównania",
+     "tempo innych",
+     "rozmowy"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Wyspa w grupie",
+   "body": "Na ćwiczeniach indywidualnych trzymasz swój rytm i jedno zadanie."
+  },
+  {
+   "title": "Zyski z grupy",
+   "body": "Tempo, rywalizacja, wsparcie. Bierz z tego to, co ci służy."
+  }
+ ],
+ "end": {
+  "text": "Mam swój rytm, *także w grupie*.",
+  "cta": "Zapisz i nazwij, co cię rozprasza"
+ }
+}

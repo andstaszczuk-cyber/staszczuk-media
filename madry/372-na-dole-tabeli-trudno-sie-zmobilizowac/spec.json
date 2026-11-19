@@ -1,0 +1,79 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Jesteśmy na dole tabeli *i coraz trudniej mi się zmobilizować*",
+  "sub": "Po co się starać, skoro i tak przegrywamy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Cel z wpływem",
+   "body": "Ustal cel, który zależy od ciebie: twoje zadania i twoje zaangażowanie.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "WYNIK",
+     "items": [
+      "miejsce w tabeli"
+     ]
+    },
+    "right": {
+     "title": "MÓJ CEL",
+     "items": [
+      "wygrane pojedynki",
+      "pressing do końca",
+      "komunikacja"
+     ]
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Małe wygrane",
+   "body": "Po meczu zapisuj, co się udało, także po porażce."
+  },
+  {
+   "title": "Runda jest długa",
+   "body": "Zostało sporo meczów i w tabeli wiele może się jeszcze zmienić."
+  }
+ ],
+ "end": {
+  "text": "Gram dla siebie *i dla drużyny*.",
+  "cta": "Zapisz i ustal cel na mecz"
+ }
+}

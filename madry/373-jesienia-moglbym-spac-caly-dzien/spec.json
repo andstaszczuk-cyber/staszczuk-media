@@ -1,0 +1,83 @@
+{
+ "theme": "grafit",
+ "filar": "ciało",
+ "cover": {
+  "title": "Jesienią mógłbym *spać cały dzień*",
+  "sub": "Rano nie mogę wstać, po szkole zasypiam na kanapie",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Stałe pory",
+   "body": "Kładź się i wstawaj o podobnej porze każdego dnia, także w weekend.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "moon",
+      "label": "stała pora snu"
+     },
+     {
+      "icon": "sun",
+      "label": "światło rano",
+      "hl": true
+     },
+     {
+      "icon": "foot",
+      "label": "ruch na dworze"
+     }
+    ],
+    "y": 40,
+    "h": 420,
+    "note": "trzy proste kroki"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Łap światło",
+   "body": "Wyjdź na dwór, kiedy jest jasno, choćby na krótki spacer po szkole."
+  },
+  {
+   "title": "Krótka drzemka",
+   "body": "Jeśli drzemka, to krótka i wcześniej w ciągu dnia."
+  }
+ ],
+ "end": {
+  "text": "Pilnuję rytmu, *także jesienią*.",
+  "cta": "Zapisz i ustal swoje pory snu"
+ }
+}

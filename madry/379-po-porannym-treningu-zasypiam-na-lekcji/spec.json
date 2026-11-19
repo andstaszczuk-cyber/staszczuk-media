@@ -1,0 +1,83 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Po porannym treningu *zasypiam na lekcji*",
+  "sub": "Głowa leci na ławkę, a nauczycielka patrzy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "alarm",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Wieczór decyduje",
+   "body": "Przy porannych treningach kładziesz się wcześniej, żeby noc nie była krótsza.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "moon",
+      "top": "sen",
+      "bottom": "wcześniej"
+     },
+     {
+      "icon": "dumbbell",
+      "top": "trening",
+      "bottom": "rano"
+     },
+     {
+      "icon": "book",
+      "top": "lekcje",
+      "bottom": "obudzony",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Przejście do szkoły",
+   "body": "Posiłek, zimna woda na twarz, kilka minut marszu na świeżym powietrzu."
+  },
+  {
+   "title": "Ruch na przerwie",
+   "body": "Wyjdź z klasy, przejdź się, otwórz okno. Telefon pogłębia senność."
+  }
+ ],
+ "end": {
+  "text": "Dbam o noc, *żeby dzień był mój*.",
+  "cta": "Zapisz i przesuń porę snu"
+ }
+}
