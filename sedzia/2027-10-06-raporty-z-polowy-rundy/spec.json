@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Co powtarza się\\n*w twoich raportach?*"
+  },
+  {
+   "kind": "point",
+   "title": "Zbiór",
+   "body": "Połóż obok siebie raporty z całej dotychczasowej rundy.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Wzór",
+   "body": "Szukasz uwag, które wracają w kilku meczach.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Wybór",
+   "body": "Jedna powtarzająca się uwaga staje się celem na listopad.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Pojedyncza uwaga to opinia.\\n*Powtórzona to wskazówka*.",
+   "cta": "Zapisz przed przeglądem rundy"
+  }
+ ]
+}

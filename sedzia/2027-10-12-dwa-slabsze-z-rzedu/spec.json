@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "2",
+   "text": "słabsze mecze z rzędu.\\n*Seria bywa przypadkiem*."
+  },
+  {
+   "kind": "point",
+   "title": "Myśl",
+   "body": "Głowa szybko dopisuje: tracę formę.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdzenie",
+   "body": "Co było wspólne w obu meczach, a co przypadkowe?",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Krok",
+   "body": "Jedna rzecz do poprawy i następny mecz.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Dwa mecze to wycinek.\\n*Runda jest dłuższa*.",
+   "cta": "Zapisz na gorszy tydzień"
+  }
+ ]
+}

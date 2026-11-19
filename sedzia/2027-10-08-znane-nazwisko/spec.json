@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "derby",
+   "text": "Znane nazwisko na boisku?\\n*Ta sama miara*."
+  },
+  {
+   "kind": "point",
+   "title": "Wrażenie",
+   "body": "Zawodnik z telewizji, kibice z telefonami, większy szum.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "point",
+   "title": "Pułapka",
+   "body": "Łatwo dać mu więcej albo pokazać, że się nie boisz.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Zadanie",
+   "body": "Oceniasz akcję. Nazwisko zostaje na plecach koszulki.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Nazwisko jest na koszulce.\\n*Ty oceniasz akcję*.",
+   "cta": "Wyślij komuś przed meczem pucharowym"
+  }
+ ]
+}

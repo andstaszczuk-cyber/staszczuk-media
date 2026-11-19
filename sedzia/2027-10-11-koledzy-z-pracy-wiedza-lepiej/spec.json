@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "desk",
+   "text": "W pracy wszyscy\\n*znają się na sędziowaniu*."
+  },
+  {
+   "kind": "point",
+   "title": "Poniedziałek",
+   "body": "Koledzy komentują weekendową kontrowersję z telewizji.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Odruch",
+   "body": "Kusi, żeby bronić całego środowiska albo przytakiwać.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Wybór",
+   "body": "Krótko tłumaczysz przepis albo zmieniasz temat.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "end",
+   "text": "Nie musisz wygrywać\\n*każdej rozmowy przy kawie*.",
+   "cta": "Wyślij sędziemu, który pracuje w biurze"
+  }
+ ]
+}

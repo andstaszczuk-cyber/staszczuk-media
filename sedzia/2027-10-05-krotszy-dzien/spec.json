@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "sofa",
+   "text": "Krótszy dzień.\\n*Ten sam plan*."
+  },
+  {
+   "kind": "point",
+   "title": "Jesień",
+   "body": "Wcześniej ciemno, mniej słońca, mniej chęci do ruchu.",
+   "icon": "ksiezyc"
+  },
+  {
+   "kind": "point",
+   "title": "Nastrój",
+   "body": "Gorszy humor jest informacją. Planu nie odwołuje.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Światło",
+   "body": "Krótki spacer w dzień i trening o stałej porze.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Działasz według planu,\\n*nastrój dołączy po drodze*.",
+   "cta": "Zapisz na jesienne wieczory"
+  }
+ ]
+}

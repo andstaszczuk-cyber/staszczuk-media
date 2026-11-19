@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "sub": "Mecz zostaje na boisku.\\n*Do pracy idziesz ty*.",
+   "text": "Poniedziałek po\\n*trudnym meczu?*"
+  },
+  {
+   "kind": "point",
+   "title": "Ogon",
+   "body": "Mecz z niedzieli wraca przy kawie i na zebraniu.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Domknięcie",
+   "body": "W niedzielę wieczorem zapisz wnioski i zamknij notes.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Pora",
+   "body": "Wróć do meczu o ustalonej porze, na przykład w środę.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Wnioski są zapisane.\\n*Teraz jest poniedziałek*.",
+   "cta": "Zapisz na poniedziałek rano"
+  }
+ ]
+}

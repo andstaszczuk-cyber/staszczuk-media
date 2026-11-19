@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "phone",
+   "text": "Weekendy z gwizdkiem.\\n*Powiedz o tym szefowi*."
+  },
+  {
+   "kind": "point",
+   "title": "Domysły",
+   "body": "Szef widzi zmęczenie w poniedziałek i nie zna powodu.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa",
+   "body": "Mówisz wprost, co robisz i czego potrzebujesz.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Umowa",
+   "body": "Ustalacie zasady na rundę, zanim pojawi się kłopot.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "end",
+   "text": "Powiedziane wcześniej\\n*oszczędza nerwów później*.",
+   "cta": "Wyślij komuś, kto łączy pracę z sędziowaniem"
+  }
+ ]
+}

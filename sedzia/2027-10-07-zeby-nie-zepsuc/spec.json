@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Gwiżdżesz tak,\\n*żeby nie zepsuć meczu?*"
+  },
+  {
+   "kind": "point",
+   "title": "Ostrożność",
+   "body": "Przy wysokiej stawce ręka do gwizdka robi się cięższa.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Koszt",
+   "body": "Odpuszczone faule z początku wracają w drugiej połowie.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Zadanie",
+   "body": "Na start jedno zadanie: czytelna granica od pierwszych minut.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Ważny mecz sędziujesz\\n*od pierwszej minuty jak zawsze*.",
+   "cta": "Zapisz przed meczem na szczycie"
+  }
+ ]
+}

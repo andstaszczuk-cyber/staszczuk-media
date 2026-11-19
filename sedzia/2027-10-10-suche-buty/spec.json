@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "szafa",
+   "text": "Suszysz buty\\n*i zamykasz mecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Rytuał",
+   "body": "Te same czynności po każdym meczu, krok po kroku.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Notatki",
+   "body": "Trzy zdania w notatniku i notes ląduje w torbie.",
+   "icon": "notes"
+  },
+  {
+   "kind": "point",
+   "title": "Sygnał",
+   "body": "Głowa dostaje wyraźny znak, że mecz się skończył.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Mecz domknięty.\\n*Wieczór jest twój*.",
+   "cta": "Zapisz po deszczowym meczu"
+  }
+ ]
+}

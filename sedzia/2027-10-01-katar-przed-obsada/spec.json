@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "termometr",
+   "text": "Katar w czwartek,\\n*mecz w sobotę*."
+  },
+  {
+   "kind": "point",
+   "title": "Sygnał",
+   "body": "Gorączka, osłabienie, ból mięśni. Ciało mówi wyraźnie.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Kryteria",
+   "body": "Ustal wcześniej, przy jakich objawach oddajesz obsadę.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Termin",
+   "body": "Oddajesz szybko i wprost, żeby obsadowy miał czas.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "end",
+   "text": "Zdrowie też jest\\n*częścią przygotowania*.",
+   "cta": "Zapisz na sezon przeziębień"
+  }
+ ]
+}

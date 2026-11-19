@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "10'",
+   "text": "i pierwsza kartka.\\n*Mecz dopiero się zaczyna*."
+  },
+  {
+   "kind": "point",
+   "title": "Sygnał",
+   "body": "Wczesna kartka pokazuje granicę wszystkim na boisku.",
+   "icon": "kartka"
+  },
+  {
+   "kind": "point",
+   "title": "Pułapka",
+   "body": "Potem łatwo zacząć oszczędzać kolejne kartki.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Miara",
+   "body": "Ta sama miara w 10. i w 80. minucie.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Wczesna kartka\\n*pokazuje granicę wszystkim*.",
+   "cta": "Zapisz przed weekendem"
+  }
+ ]
+}

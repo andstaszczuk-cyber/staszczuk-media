@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "PUCHAR",
+   "text": "Faworyt przegrywa\\n*i patrzy na ciebie*."
+  },
+  {
+   "kind": "point",
+   "title": "Napięcie",
+   "body": "Z każdą minutą faworyt coraz bardziej się spina i dyskutuje.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Mechanizm",
+   "body": "Złość na wynik łatwo przenosi się na sędziego.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Spokój",
+   "body": "Twoja miara zostaje ta sama do ostatniej minuty.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Wynik należy do drużyn.\\n*Miara należy do ciebie*.",
+   "cta": "Zapisz przed meczem pucharowym"
+  }
+ ]
+}

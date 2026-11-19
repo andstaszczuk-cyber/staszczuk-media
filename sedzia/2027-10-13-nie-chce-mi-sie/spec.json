@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "sub": "Sprawdź, czy to zmęczenie,\\n*czy jesienna niechęć*.",
+   "text": "Nie chce ci się\\n*jechać na mecz?*"
+  },
+  {
+   "kind": "point",
+   "title": "Zmęczenie",
+   "body": "Ciało ciężkie od kilku dni, gorszy sen, krótszy lont.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Niechęć",
+   "body": "Deszcz za oknem i kanapa. Mija po kwadransie od wyjazdu.",
+   "icon": "ksiezyc"
+  },
+  {
+   "kind": "point",
+   "title": "Start",
+   "body": "Torba spakowana wieczorem. Mniej decyzji, mniej negocjacji.",
+   "icon": "lista"
+  },
+  {
+   "kind": "end",
+   "text": "Zmęczenie leczy odpoczynek.\\n*Niechęć mija w drodze*.",
+   "cta": "Zapisz na deszczowy weekend"
+  }
+ ]
+}
