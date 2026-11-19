@@ -1,0 +1,40 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Na trybunach\n*dzieci słyszą*,",
+   "items": [
+    "co mówisz o bramkarzu",
+    "co mówisz o trenerze",
+    "co mówisz o rywalach"
+   ],
+   "checked": 0
+  },
+  {
+   "kind": "point",
+   "title": "Cudze dziecko *też słyszy*",
+   "body": "Komentarz o słabszym zawodniku do niego dociera.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Twoje dziecko *się uczy*",
+   "body": "Tak samo będzie mówić o kolegach.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Chwal *wszystkich*",
+   "body": "Doceniaj dobre zagranie, kto by go nie zrobił.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "end",
+   "text": "Trybuny *też wychowują*.",
+   "cta": "Zapisz przed weekendowym meczem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

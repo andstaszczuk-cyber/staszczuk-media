@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Znowu muszę czekać na hali?",
+    "*Wymyślmy, co możesz tu robić*."
+   ],
+   "text": "Rodzeństwo *też jest ważne*."
+  },
+  {
+   "kind": "point",
+   "title": "Swoja *torba*",
+   "body": "Książka, kredki, gra na długie czekanie.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Czas *tylko dla niego*",
+   "body": "Coś, co należy do młodszego dziecka.",
+   "icon": "hug"
+  },
+  {
+   "kind": "point",
+   "title": "Czasem *zostaje w domu*",
+   "body": "Na część treningów może jechać jeden rodzic.",
+   "icon": "door"
+  },
+  {
+   "kind": "end",
+   "text": "Każde dziecko *chce być zauważone*.",
+   "cta": "Zapisz, jeśli wozisz rodzeństwo na treningi.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

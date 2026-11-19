@@ -1,0 +1,41 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Trening przed lekcjami,\n*zadbaj o*",
+   "items": [
+    "wcześniejszy sen",
+    "torbę z wieczora",
+    "lżejsze popołudnie",
+    "dzień odpoczynku"
+   ],
+   "checked": 0
+  },
+  {
+   "kind": "point",
+   "title": "Wieczór *ustawia poranek*",
+   "body": "Wcześniejsze zasypianie to podstawa.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Gotowe *z wieczora*",
+   "body": "Torba i ubrania czekają przy drzwiach.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Obserwuj *zmęczenie*",
+   "body": "Senność na lekcjach to ważny sygnał.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Wczesny trening *zaczyna się wieczorem*.",
+   "cta": "Zapisz, jeśli dziecko trenuje rano.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

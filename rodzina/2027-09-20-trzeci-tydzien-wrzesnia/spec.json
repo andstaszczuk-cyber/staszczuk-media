@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Już mi się nie chce chodzić na treningi.",
+    "*Rozumiem. Po kilku tygodniach tak bywa*."
+   ],
+   "text": "Trzeci tydzień *września*."
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *radość*",
+   "body": "Pierwsze tygodnie niesie nowość.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Potem *spadek*",
+   "body": "Nowość mija, zostaje zwykła praca.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzje *za miesiąc*",
+   "body": "Rozmowę o rezygnacji odłóżcie na później.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "end",
+   "text": "Po spadku *przychodzi nawyk*.",
+   "cta": "Zapisz na trudniejsze tygodnie.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

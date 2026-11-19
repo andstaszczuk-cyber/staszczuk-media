@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Za dużo sportu, stąd te oceny.",
+   "new": "Sprawdźmy, *co się dzieje*.",
+   "text": "Pierwsza wywiadówka."
+  },
+  {
+   "kind": "point",
+   "title": "Wysłuchaj *nauczyciela*",
+   "body": "Zbierz informacje, zanim zdecydujesz.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj *dziecko*",
+   "body": "Co ono widzi i czego potrzebuje.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Plan *zamiast kary*",
+   "body": "Konkretne kroki na najbliższe tygodnie.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "end",
+   "text": "Szkoła i sport *mogą iść w parze*.",
+   "cta": "Zapisz przed pierwszą wywiadówką.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

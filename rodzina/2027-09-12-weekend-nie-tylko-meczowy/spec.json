@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Weekend to też\n*czas dla rodziny*."
+  },
+  {
+   "kind": "point",
+   "title": "Mecz *to jedna część*",
+   "body": "Weekend ma też inne godziny.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Rodzeństwo *ma swoje plany*",
+   "body": "Jego sprawy są tak samo ważne.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Coś *razem*",
+   "body": "Spacer, obiad, gra, bez rozmów o meczu.",
+   "icon": "dice"
+  },
+  {
+   "kind": "end",
+   "text": "Dobry weekend *ładuje całą rodzinę*.",
+   "cta": "Zapisz i zaplanujcie najbliższy weekend.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

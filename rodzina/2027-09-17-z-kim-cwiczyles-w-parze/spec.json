@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Z kim dziś\n*ćwiczyłeś w parze*?"
+  },
+  {
+   "kind": "point",
+   "title": "Imiona *kolegów*",
+   "body": "Pytaj o ludzi z grupy.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Wspólne *chwile*",
+   "body": "Lody po treningu z kolegą z grupy.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Przynależność *rośnie powoli*",
+   "body": "Nowa grupa staje się swoja z czasem.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Dobra grupa *trzyma przy sporcie*.",
+   "cta": "Zapisz i zapytaj dziś po treningu.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

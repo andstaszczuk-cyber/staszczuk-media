@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Dwie godziny\n*w drodze na mecz*.",
+   "icon": "car"
+  },
+  {
+   "kind": "point",
+   "title": "Spakowane *dzień wcześniej*",
+   "body": "Rano bez nerwów i szukania rzeczy.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Droga *na odpoczynek*",
+   "body": "Muzyka, rozmowa, drzemka.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Zapas *czasu*",
+   "body": "Na miejscu chwila na rozruszanie się.",
+   "icon": "clock"
+  },
+  {
+   "kind": "end",
+   "text": "Spokojna podróż *to lepszy mecz*.",
+   "cta": "Zapisz przed pierwszym wyjazdem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "W czerwcu grałem\n*lepiej*.",
+   "icon": "growth"
+  },
+  {
+   "kind": "point",
+   "title": "Forma *wraca stopniowo*",
+   "body": "Po przerwie ciało potrzebuje kilku tygodni.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Porównuj *z sierpniem*",
+   "body": "Patrz na postęp od powrotu z wakacji.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Chwal *cierpliwość*",
+   "body": "Doceniaj pracę, którą widzisz na treningach.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Forma *buduje się krok po kroku*.",
+   "cta": "Zapisz, jeśli dziecko narzeka na formę.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

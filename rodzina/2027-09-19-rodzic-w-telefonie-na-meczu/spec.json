@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Jestem na meczu, tylko odpisuję na maile.",
+   "new": "Jestem na meczu *i patrzę*.",
+   "text": "Dziecko widzi, gdzie jest Twoja uwaga."
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *zerka*",
+   "body": "Szuka Twojego wzroku po dobrej akcji.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Telefon *w kieszeni*",
+   "body": "Na czas meczu odłóż sprawy na bok.",
+   "icon": "phone"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna *konkretna akcja*",
+   "body": "Po meczu wspomnij to, co widziałeś.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Obecność *widać po oczach*.",
+   "cta": "Zapisz przed kolejnym meczem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}
