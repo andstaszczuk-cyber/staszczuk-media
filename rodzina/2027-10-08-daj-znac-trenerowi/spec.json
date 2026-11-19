@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Dziecko chore?\n*Daj znać trenerowi*.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Krótka *wiadomość*",
+   "body": "Dwa zdania i przewidywany powrót.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Trener *planuje*",
+   "body": "Pary, ćwiczenia i skład układa z wyprzedzeniem.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *się uczy*",
+   "body": "Starsze może napisać samo.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Informacja *buduje zaufanie*.",
+   "cta": "Zapisz i wyślij rodzicom z drużyny.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

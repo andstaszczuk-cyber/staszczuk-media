@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Dziecko mówi *muszę*.\nZapytaj, czy",
+   "items": [
+    "chce",
+    "lubi",
+    "wybiera"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Słowa *ważą*",
+   "body": "Muszę brzmi jak obowiązek, chcę jak wybór.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Co stoi *za słowem*",
+   "body": "Czasem to nawyk, czasem zmęczenie.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Twój *język*",
+   "body": "Dziecko powtarza to, co słyszy w domu.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Wybór *daje więcej energii* niż obowiązek.",
+   "cta": "Zapisz i posłuchaj, jak mówicie w domu.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

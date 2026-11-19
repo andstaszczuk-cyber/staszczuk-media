@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Spacer w parku\n*też się liczy*."
+  },
+  {
+   "kind": "point",
+   "title": "Ruch *bez tabeli*",
+   "body": "Rower, las, kopanie liści, bez liczenia czegokolwiek.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Rodzina *w ruchu*",
+   "body": "Wspólne wyjście daje dziecku coś, czego nie da trening.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Światło *dzienne*",
+   "body": "W tygodniu jest go mało, weekend to nadrabia.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Ruch może być *po prostu przyjemnością*.",
+   "cta": "Zapisz na jesienną sobotę.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

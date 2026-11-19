@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Rano sprawdzian,\nwieczorem *mecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Dwa *stresy* w jeden dzień",
+   "body": "Organizm sumuje napięcie.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Plan *dnia*",
+   "body": "Ustalcie, kiedy nauka, kiedy odpoczynek, kiedy wyjazd.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Szkoła *poczeka do jutra*",
+   "body": "Przed meczem nie rozbieracie sprawdzianu na części.",
+   "icon": "bag"
+  },
+  {
+   "kind": "end",
+   "text": "Jeden dzień, *dwa zadania, po kolei*.",
+   "cta": "Zapisz na tygodnie pełne sprawdzianów.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

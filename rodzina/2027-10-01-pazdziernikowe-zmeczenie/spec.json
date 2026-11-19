@@ -1,0 +1,40 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Październikowe zmęczenie,\n*sprawdź*",
+   "items": [
+    "sen",
+    "liczbę zajęć",
+    "czas na luz",
+    "nastrój"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Zmęczenie *czy niechęć*",
+   "body": "Zmęczone dziecko chce odpocząć, znudzone szuka zajęcia.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Sen *na pierwszym miejscu*",
+   "body": "Wcześniejsze wieczory dają więcej niż dodatkowy trening.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Jeden *luźniejszy dzień*",
+   "body": "Zaplanuj w tygodniu dzień bez zajęć.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "end",
+   "text": "Odpoczynek *też buduje formę*.",
+   "cta": "Zapisz na październikowe wieczory.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

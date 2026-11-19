@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Na hali gra się tak samo.",
+   "new": "Na hali *wszystko jest trochę inne*.",
+   "text": "Pierwsze treningi pod dachem."
+  },
+  {
+   "kind": "point",
+   "title": "Inne *podłoże*",
+   "body": "Nogi i piłka zachowują się inaczej.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Więcej *hałasu*",
+   "body": "Echo, gwizdki, kilka grup naraz.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Czas *na oswojenie*",
+   "body": "Pierwsze tygodnie są od przyzwyczajania się.",
+   "icon": "clock"
+  },
+  {
+   "kind": "end",
+   "text": "Nowe miejsce *potrzebuje kilku treningów*.",
+   "cta": "Zapisz na pierwszy miesiąc na hali.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Na boisku się nie boję.",
+    "*A przed kartkówką trzęsą mi się ręce*."
+   ],
+   "text": "Sportowe sposoby *w szkole*."
+  },
+  {
+   "kind": "point",
+   "title": "Ten sam *stres*",
+   "body": "Ciało reaguje podobnie przed meczem i przed sprawdzianem.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Oddech *jak przed startem*",
+   "body": "Kilka spokojnych oddechów z dłuższym wydechem.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsze *zadanie*",
+   "body": "Zacznij od tego, co umiesz najlepiej.",
+   "icon": "book"
+  },
+  {
+   "kind": "end",
+   "text": "To, czego uczy sport, *przydaje się w ławce*.",
+   "cta": "Zapisz przed najbliższym sprawdzianem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

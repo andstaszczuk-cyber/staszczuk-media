@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Wrześniowy zapał\n*minął*.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "point",
+   "title": "Entuzjazm *opada*",
+   "body": "Tak wygląda każda nauka, u dzieci i u dorosłych.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Rozczarowanie *to etap*",
+   "body": "Za nim przychodzi samodzielność.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Plan *na gorsze dni*",
+   "body": "Ustalcie, co robicie, kiedy się nie chce.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "end",
+   "text": "Po zapale *przychodzi nawyk*.",
+   "cta": "Zapisz i wróć do tego za miesiąc.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Skup się, to nie będziesz słyszeć hałasu.",
+   "new": "*Znajdź swój kąt* i swój rytm.",
+   "text": "Turniej na głośnej hali."
+  },
+  {
+   "kind": "point",
+   "title": "Hałas *męczy*",
+   "body": "Echo i krzyki zabierają energię.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Cichy *kąt*",
+   "body": "Miejsce, gdzie można odpocząć między meczami.",
+   "icon": "bench"
+  },
+  {
+   "kind": "point",
+   "title": "Jedna *rzecz do skupienia*",
+   "body": "Piłka, partner, zadanie od trenera.",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Spokój *można sobie zorganizować*.",
+   "cta": "Zapisz przed turniejem na hali.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}
