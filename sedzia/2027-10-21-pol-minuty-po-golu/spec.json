@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "30",
+   "text": "sekund po golu.\\n*Patrz na tych, którzy stracili*."
+  },
+  {
+   "kind": "point",
+   "title": "Radość",
+   "body": "Jedni cieszą się przy chorągiewce, drudzy stoją z boku.",
+   "icon": "usmiech"
+  },
+  {
+   "kind": "point",
+   "title": "Iskra",
+   "body": "Złość po straconej bramce szuka ujścia: rywal, bramkarz, sędzia.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Uwaga",
+   "body": "Ustaw się tak, żeby widzieć obie drużyny.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Gol kończy akcję.\\n*Emocje dopiero się zaczynają*.",
+   "cta": "Zapisz przed meczem o wysoką stawkę"
+  }
+ ]
+}

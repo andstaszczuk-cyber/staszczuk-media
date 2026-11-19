@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Ten sam błąd drugi raz?\\n*Niektóre lekcje odrabia się kilka razy*."
+  },
+  {
+   "kind": "point",
+   "title": "Złość",
+   "body": "Przecież już to analizowałem. Jak mogłem znowu?",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Nawyk",
+   "body": "Pod presją wraca stary sposób działania. To normalne.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Trening",
+   "body": "Nowa reakcja potrzebuje wielu powtórzeń, także w głowie.",
+   "icon": "notes"
+  },
+  {
+   "kind": "end",
+   "text": "Powtórzony błąd\\n*to jeszcze jedna lekcja*.",
+   "cta": "Zapisz po trudnym meczu"
+  }
+ ]
+}

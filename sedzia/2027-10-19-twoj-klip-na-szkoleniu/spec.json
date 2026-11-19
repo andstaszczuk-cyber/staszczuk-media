@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "kamera",
+   "text": "Twoja akcja\\n*jako przykład na szkoleniu*."
+  },
+  {
+   "kind": "point",
+   "title": "Wstyd",
+   "body": "Twój błąd na ekranie przed całą salą sędziów.",
+   "icon": "kamera"
+  },
+  {
+   "kind": "point",
+   "title": "Zmiana",
+   "body": "Szkolenie szuka przyczyn. Winnego nie potrzebuje.",
+   "icon": "ksiazka"
+  },
+  {
+   "kind": "point",
+   "title": "Zysk",
+   "body": "Twoja sytuacja pomaga też innym sędziom.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "end",
+   "text": "Klip to kilkanaście sekund.\\n*Twoja runda to setki decyzji*.",
+   "cta": "Wyślij komuś przed szkoleniem"
+  }
+ ]
+}

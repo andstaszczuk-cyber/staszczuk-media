@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "sub": "Przeprosiny są w porządku.\\n*Kartkę dajesz za wejście*.",
+   "text": "Zawodnik przeprasza\\n*po faulu?*"
+  },
+  {
+   "kind": "point",
+   "title": "Gest",
+   "body": "Ręka uniesiona, przepraszam, pomoc przy wstawaniu.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Pokusa",
+   "body": "Miły gest potrafi zmiękczyć decyzję o kartce.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Miara",
+   "body": "Oceniasz wejście. Zachowanie po nim to osobna sprawa.",
+   "icon": "kartka"
+  },
+  {
+   "kind": "end",
+   "text": "Doceniasz gest.\\n*Oceniasz wejście*.",
+   "cta": "Zapisz przed weekendem"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "walk",
+   "text": "Mecz się skończył.\\n*Przed tobą droga do domu*."
+  },
+  {
+   "kind": "point",
+   "title": "Ciemność",
+   "body": "Długa droga po ciemku, zmęczenie i mecz w głowie.",
+   "icon": "ksiezyc"
+  },
+  {
+   "kind": "point",
+   "title": "Uwaga",
+   "body": "Najpierw droga. Analiza poczeka do jutra.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Rozładowanie",
+   "body": "Krótka rozmowa, muzyka albo cisza zamiast nakręcania się.",
+   "icon": "oddech"
+  },
+  {
+   "kind": "end",
+   "text": "Najpierw dojedź.\\n*Analizę zrobisz jutro*.",
+   "cta": "Wyślij komuś, kto daleko jeździ na mecze"
+  }
+ ]
+}

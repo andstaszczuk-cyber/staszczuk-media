@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "car",
+   "text": "Telefon w sobotę rano.\\n*Wskakujesz na zastępstwo*."
+  },
+  {
+   "kind": "point",
+   "title": "Telefon",
+   "body": "Kolega się rozchorował, mecz za trzy godziny.",
+   "icon": "telefon"
+  },
+  {
+   "kind": "point",
+   "title": "Szybki plan",
+   "body": "Torba, droga, kilka informacji o drużynach i tyle.",
+   "icon": "lista"
+  },
+  {
+   "kind": "point",
+   "title": "Gotowość",
+   "body": "Masz przygotowanie z całej rundy. To wystarcza.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "end",
+   "text": "Zastępstwo to szansa\\n*i zwykły mecz naraz*.",
+   "cta": "Zapisz na jesienny sezon zastępstw"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "RUNDA",
+   "text": "Odliczasz kolejki\\n*do przerwy zimowej?*"
+  },
+  {
+   "kind": "point",
+   "title": "Licznik",
+   "body": "Jeszcze pięć meczów, jeszcze cztery. Głowa już jest w grudniu.",
+   "icon": "kalendarz"
+  },
+  {
+   "kind": "point",
+   "title": "Koszt",
+   "body": "Mecze do przetrwania dostają mniej uwagi i mniej radości.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Teraz",
+   "body": "Jeden mecz naraz. Ten najbliższy jest tym ważnym.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Ten mecz\\n*jest tym najważniejszym*.",
+   "cta": "Zapisz na końcówkę rundy"
+  }
+ ]
+}

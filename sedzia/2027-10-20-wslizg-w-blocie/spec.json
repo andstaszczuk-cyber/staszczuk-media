@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "injury",
+   "text": "Błoto, wślizg, zawodnik leży.\\n*Oceniasz kontakt*."
+  },
+  {
+   "kind": "point",
+   "title": "Wrażenie",
+   "body": "Na mokrym boisku każdy wślizg wygląda groźnie.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Pułapka",
+   "body": "Efektowne ślizganie się łatwo pomylić z siłą wejścia.",
+   "icon": "waga"
+  },
+  {
+   "kind": "point",
+   "title": "Kryteria",
+   "body": "Kontakt, intensywność, kontrola. Te same co zawsze.",
+   "icon": "lista"
+  },
+  {
+   "kind": "end",
+   "text": "Błoto robi widowisko.\\n*Ty oceniasz kontakt*.",
+   "cta": "Zapisz przed meczem w deszczu"
+  }
+ ]
+}

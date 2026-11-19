@@ -1,0 +1,38 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "split",
+   "label": "PYTANIE",
+   "sub": "Błoto, ciemno i zimno.\\n*Tak wygląda każda jesień*.",
+   "text": "Pierwsza jesień\\n*z gwizdkiem?*"
+  },
+  {
+   "kind": "point",
+   "title": "Szok",
+   "body": "Latem było przyjemnie. Jesień pokazuje drugą stronę sędziowania.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Normalność",
+   "body": "Starsi koledzy przeżywali to samo w swoim pierwszym roku.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Wytrwałość",
+   "body": "Każdy mokry mecz to doświadczenie, które zostaje.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Pierwsza jesień jest najtrudniejsza.\\n*Kolejne już znasz*.",
+   "cta": "Wyślij komuś, kto sędziuje pierwszy sezon"
+  }
+ ]
+}

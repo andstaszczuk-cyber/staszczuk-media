@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "icon",
+   "icon": "zegar",
+   "text": "Zegarek pokazał\\n*mało kilometrów?*"
+  },
+  {
+   "kind": "point",
+   "title": "Liczby",
+   "body": "Dystans, sprinty, tętno. Po meczu od razu patrzysz w dane.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Kontekst",
+   "body": "Błoto, wolna gra, dużo przerw. Liczby zależą od meczu.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Pytanie",
+   "body": "Czy byłeś tam, gdzie trzeba? Tego zegarek nie pokaże.",
+   "icon": "oko"
+  },
+  {
+   "kind": "end",
+   "text": "Zegarek ma ci służyć.\\n*Ocenę meczu robisz ty*.",
+   "cta": "Zapisz przed kolejnym meczem"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "yellow",
+ "pointStyle": "big",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "yellow",
+   "style": "quote",
+   "text": "Mokry mecz\\n*zagraj najpierw w głowie*."
+  },
+  {
+   "kind": "point",
+   "title": "Prognoza",
+   "body": "Zapowiadają ulewę. Głowa zaczyna rysować czarne scenariusze.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "point",
+   "title": "Wyobrażenie",
+   "body": "Przejdź mecz w deszczu krok po kroku, ze wszystkimi szczegółami.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Reakcje",
+   "body": "Śliska piłka, pretensje, zimno. Masz na nie gotową reakcję.",
+   "icon": "lista"
+  },
+  {
+   "kind": "end",
+   "text": "Pierwszy mokry mecz w głowie,\\n*drugi na boisku*.",
+   "cta": "Zapisz przed deszczowym weekendem"
+  }
+ ]
+}

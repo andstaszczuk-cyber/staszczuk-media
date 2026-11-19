@@ -1,0 +1,36 @@
+{
+ "brand": "sedzia",
+ "theme": "dark",
+ "pointStyle": "small",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "photo",
+   "scene": "tired",
+   "text": "Skulony z zimna\\n*wyglądasz na niepewnego*."
+  },
+  {
+   "kind": "point",
+   "title": "Zimno",
+   "body": "Ramiona w górę, ręce przy ciele, głowa wciśnięta w kołnierz.",
+   "icon": "termometr"
+  },
+  {
+   "kind": "point",
+   "title": "Odbiór",
+   "body": "Zawodnicy widzą sylwetkę, która wygląda na wycofaną.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Ruch",
+   "body": "Ciepło i ruch między akcjami pomagają trzymać postawę.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "end",
+   "text": "Ciepło w ciele,\\n*pewność w sylwetce*.",
+   "cta": "Zapisz przed zimnym meczem"
+  }
+ ]
+}

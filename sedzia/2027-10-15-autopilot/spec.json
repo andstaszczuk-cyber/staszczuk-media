@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "Dwunasty mecz rundy.\\n*Głowa na autopilocie?*"
+  },
+  {
+   "kind": "point",
+   "title": "Rutyna",
+   "body": "Ta sama torba, ta sama droga, ten sam rozkład dnia meczowego.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Uśpienie",
+   "body": "Przy powtarzalności uwaga sama zaczyna odpływać.",
+   "icon": "oko"
+  },
+  {
+   "kind": "point",
+   "title": "Świeżość",
+   "body": "Jedno nowe zadanie na każdy mecz budzi głowę.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Rutyna daje spokój.\\n*Uwagę dokładasz sam*.",
+   "cta": "Zapisz przed kolejnym weekendem"
+  }
+ ]
+}

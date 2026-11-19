@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "left",
+   "label": "CISZA",
+   "text": "Puste trybuny.\\n*Słychać każde słowo*."
+  },
+  {
+   "kind": "point",
+   "title": "Cisza",
+   "body": "Kilkanaście osób na trybunie, każde zdanie niesie się po boisku.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "point",
+   "title": "Komentarze",
+   "body": "Słyszysz uwagi, których na pełnym stadionie by nie było słychać.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "point",
+   "title": "Filtr",
+   "body": "Słyszysz wszystko. Odpowiadasz tylko na to, co wymaga reakcji.",
+   "icon": "glowa"
+  },
+  {
+   "kind": "end",
+   "text": "Słyszysz wszystko.\\n*Reagujesz na to, co ważne*.",
+   "cta": "Zapisz przed meczem w niższej lidze"
+  }
+ ]
+}

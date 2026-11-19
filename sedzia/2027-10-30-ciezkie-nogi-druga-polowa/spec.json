@@ -1,0 +1,37 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "style": "number",
+   "big": "45'",
+   "text": "drugiej połowy w błocie.\\n*Nogi ciężkie, głowa przytomna*."
+  },
+  {
+   "kind": "point",
+   "title": "Zmęczenie",
+   "body": "Ciężka murawa wysysa siły szybciej niż sucha.",
+   "icon": "bateria"
+  },
+  {
+   "kind": "point",
+   "title": "Skutek",
+   "body": "Spóźnione ustawienie, decyzje z daleka, krótszy lont.",
+   "icon": "zegar"
+  },
+  {
+   "kind": "point",
+   "title": "Plan",
+   "body": "Mądrze rozłożony wysiłek i ustawienie przed akcją.",
+   "icon": "cel"
+  },
+  {
+   "kind": "end",
+   "text": "Nogi zmęczone.\\n*Decyzje wypoczęte*.",
+   "cta": "Zapisz przed meczem na ciężkim boisku"
+  }
+ ]
+}

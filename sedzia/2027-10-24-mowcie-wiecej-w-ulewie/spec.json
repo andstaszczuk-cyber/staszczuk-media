@@ -1,0 +1,35 @@
+{
+ "brand": "sedzia",
+ "theme": "red",
+ "pointStyle": "bar",
+ "slides": [
+  {
+   "kind": "cover",
+   "theme": "red",
+   "text": "W ulewie\\n*mówcie do siebie więcej*."
+  },
+  {
+   "kind": "point",
+   "title": "Hałas",
+   "body": "Deszcz, wiatr i kaptury. Słychać gorzej, widać gorzej.",
+   "icon": "ucho"
+  },
+  {
+   "kind": "point",
+   "title": "Ryzyko",
+   "body": "Każdy w zespole zaczyna pracować sam dla siebie.",
+   "icon": "ludzie"
+  },
+  {
+   "kind": "point",
+   "title": "Ustalenia",
+   "body": "Proste komunikaty i gesty umówione przed meczem.",
+   "icon": "dymek"
+  },
+  {
+   "kind": "end",
+   "text": "Gorsza pogoda,\\n*lepsza komunikacja*.",
+   "cta": "Wyślij swojemu zespołowi sędziowskiemu"
+  }
+ ]
+}
