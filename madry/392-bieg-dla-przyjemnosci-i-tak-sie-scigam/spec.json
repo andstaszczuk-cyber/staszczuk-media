@@ -1,0 +1,67 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Miał być bieg dla przyjemności, *a i tak się ścigałem*",
+  "sub": "Na starcie luz, po kilometrze zegarek i walka",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "watch",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Cel przed startem",
+   "body": "Zapisz, po co biegniesz: ludzie, spokojne tempo, frajda. To twój kompas na trasie.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "muszę zrobić czas",
+    "to": "biegnę dla frajdy"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Mniej bodźców",
+   "body": "Ustaw ekran bez tempa albo biegnij z kimś, kto ma luźny plan."
+  },
+  {
+   "title": "Zauważ i wróć",
+   "body": "Gdy wraca chęć ścigania, przyjmij ją z uśmiechem i wróć do swojego celu."
+  }
+ ],
+ "end": {
+  "text": "Potrafię biec *dla siebie*.",
+  "cta": "Zapisz i ustal cel na luźny start"
+ }
+}

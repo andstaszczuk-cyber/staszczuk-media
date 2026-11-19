@@ -1,0 +1,99 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Przerwa od treningów, *a w domu każą nadrabiać naukę*",
+  "sub": "Odpoczynek znowu przegrywa z obowiązkami",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Rozpisz tydzień",
+   "body": "Nauka ma swój czas, odpoczynek też. Oba wpisz do kalendarza.",
+   "art": {
+    "type": "week",
+    "caption": "TYDZIEŃ PRZERWY",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "book"
+     },
+     {
+      "d": "wt",
+      "icon": "bed"
+     },
+     {
+      "d": "śr",
+      "icon": "book"
+     },
+     {
+      "d": "cz",
+      "icon": "people",
+      "mark": "hl"
+     },
+     {
+      "d": "pt",
+      "icon": "book"
+     },
+     {
+      "d": "sb",
+      "icon": "sun"
+     },
+     {
+      "d": "nd",
+      "icon": "bed",
+      "dim": true
+     }
+    ],
+    "note": "nauka i odpoczynek obok siebie"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Pokaż plan w domu",
+   "body": "Rodzicom łatwiej odpuścić, gdy widzą, że nauka ma konkretne godziny."
+  },
+  {
+   "title": "Odpoczynek to obowiązek",
+   "body": "Po sezonie ciało i głowa potrzebują regeneracji, żeby zimą znowu pracować."
+  }
+ ],
+ "end": {
+  "text": "Uczę się *i odpoczywam*.",
+  "cta": "Zapisz i rozpisz tydzień przerwy"
+ }
+}

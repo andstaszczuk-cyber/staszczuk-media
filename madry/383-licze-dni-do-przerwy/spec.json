@@ -1,0 +1,99 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Liczę dni do przerwy *i trenuję na pół gwizdka*",
+  "sub": "Głowa jest już na wolnym, ciało jeszcze na treningu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Każdy trening ma zadanie",
+   "body": "Policz treningi do przerwy i przy każdym zapisz jedną rzecz do zrobienia.",
+   "art": {
+    "type": "week",
+    "caption": "OSTATNI TYDZIEŃ PRZED PRZERWĄ",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "wt",
+      "icon": "ball"
+     },
+     {
+      "d": "śr",
+      "icon": "dumbbell",
+      "mark": "hl"
+     },
+     {
+      "d": "cz",
+      "icon": "ball"
+     },
+     {
+      "d": "pt",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "sb",
+      "icon": "flag"
+     },
+     {
+      "d": "nd",
+      "icon": "bed",
+      "dim": true
+     }
+    ],
+    "note": "każdy dzień ma swoje zadanie"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jeden trening naraz",
+   "body": "Myślisz o tym, co dziś. Przerwa przyjdzie bez względu na to, jak jej wypatrujesz."
+  },
+  {
+   "title": "Zmęczenie czy ucieczka",
+   "body": "Gdy ciało daje sygnały, rozmawiasz z trenerem. Gdy to głowa, robisz swoje."
+  }
+ ],
+ "end": {
+  "text": "Do przerwy *trenuję naprawdę*.",
+  "cta": "Zapisz i rozpisz ostatnie treningi"
+ }
+}

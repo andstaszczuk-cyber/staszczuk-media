@@ -1,0 +1,67 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Zimą dużo biegania *i nie wiem, po co*",
+  "sub": "Kółka i kilometry, a ja chcę grać",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zapytaj o cel",
+   "body": "Co ma dać ta praca wiosną? Gdy znasz odpowiedź, kilometry mają sens.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "kilometry zimą",
+    "to": "siła w końcówce"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Połącz z meczem",
+   "body": "Wyobraź sobie ostatnie minuty meczu, w których masz jeszcze siłę."
+  },
+  {
+   "title": "Oswój nudę",
+   "body": "Partner do biegania, nowa trasa, małe cele. Nudę da się trochę oswoić."
+  }
+ ],
+ "end": {
+  "text": "Biegam *z myślą o wiośnie*.",
+  "cta": "Zapisz i zapytaj trenera o cel"
+ }
+}

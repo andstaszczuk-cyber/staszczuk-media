@@ -1,0 +1,74 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Przerwa minęła, *a ja dalej jestem zmęczony*",
+  "sub": "Odpoczywałem, a nogi wciąż jak z ołowiu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Sprawdź, jak odpoczywałeś",
+   "body": "Sen, ekran, ludzie, ruch. Przerwa wypełniona po brzegi męczy na nowo.",
+   "art": {
+    "type": "checklist",
+    "title": "MOJA PRZERWA",
+    "chip": "SPRAWDZAM",
+    "chipX": 360,
+    "back": false,
+    "items": [
+     "sen o stałej porze",
+     "mniej ekranu",
+     "coś dla przyjemności"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Żółte flagi",
+   "body": "Gorszy sen, częste infekcje, brak chęci do wszystkiego. Mów o nich trenerowi."
+  },
+  {
+   "title": "Skala od 1 do 10",
+   "body": "Codziennie zapisz samopoczucie, sen i trening. Po dwóch tygodniach widać kierunek."
+  }
+ ],
+ "end": {
+  "text": "Słucham ciała *i daję mu czas*.",
+  "cta": "Zapisz i sprawdź swoje żółte flagi"
+ }
+}

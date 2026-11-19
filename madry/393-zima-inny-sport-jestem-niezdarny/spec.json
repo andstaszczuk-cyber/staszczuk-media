@@ -1,0 +1,72 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Zimą doszły zajęcia z innego sportu *i jestem w nich niezdarny*",
+  "sub": "Basen, akrobatyka, gimnastyka, a ja jak amator",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "crouch",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "eye",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Jeszcze nie umiem",
+   "body": "Nowy ruch zawsze zaczyna się niezgrabnie. Każdy przez to przechodzi.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "niezgrabnie",
+     "coraz pewniej",
+     "swobodnie"
+    ],
+    "done": 1,
+    "top": true
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapytaj o cel",
+   "body": "Dowiedz się, co te zajęcia dają w twoim sporcie. Sens pomaga znieść wstyd i nudę."
+  },
+  {
+   "title": "Porównuj się ze sobą",
+   "body": "Zapisz, jak było na pierwszych zajęciach. Za miesiąc zobaczysz różnicę."
+  }
+ ],
+ "end": {
+  "text": "Jestem początkujący *i to jest w porządku*.",
+  "cta": "Zapisz i zanotuj swój punkt startu"
+ }
+}

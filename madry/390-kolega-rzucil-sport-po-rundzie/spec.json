@@ -1,0 +1,80 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Kolega rzucił sport po rundzie *i zaczynam się zastanawiać*",
+  "sub": "Skoro on odpuścił, może ja też powinienem",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Jego powody, twoje powody",
+   "body": "Spisz, czego by ci brakowało bez sportu. Tam są twoje argumenty.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "JEGO DECYZJA",
+     "items": [
+      "jego zmęczenie",
+      "jego plany"
+     ]
+    },
+    "right": {
+     "title": "MOJE POWODY",
+     "items": [
+      "lubię trenować",
+      "mam cel",
+      "mam ludzi"
+     ]
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Bez decyzji w emocjach",
+   "body": "Daj sobie kilka tygodni. Wrócisz do pytania, gdy emocje opadną."
+  },
+  {
+   "title": "Porozmawiaj z nim",
+   "body": "Zapytaj, co zdecydowało. Często usłyszysz historię zupełnie inną od twojej."
+  }
+ ],
+ "end": {
+  "text": "Decyduję *na podstawie swoich powodów*.",
+  "cta": "Zapisz i spisz swoje powody"
+ }
+}

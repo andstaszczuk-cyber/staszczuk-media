@@ -1,0 +1,67 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Runda się skończyła, *a czuję tylko ulgę*",
+  "sub": "Bez radości, bez dumy, po prostu koniec",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "pause",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "heart",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Ulga to informacja",
+   "body": "Pokazuje, ile napięcia nosiłeś przez sezon. Warto sprawdzić, skąd się brało.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "w końcu po wszystkim",
+    "to": "skąd było tyle napięcia"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Co cię ściskało",
+   "body": "Oczekiwania, porównania, strach przed oceną. Nazwij to, co ciągnęło najmocniej."
+  },
+  {
+   "title": "Radość w trakcie",
+   "body": "Zapisz momenty z rundy, w których po prostu lubiłeś grać."
+  }
+ ],
+ "end": {
+  "text": "Chcę grać *z radością także w trakcie*.",
+  "cta": "Zapisz i nazwij, co cię ściskało"
+ }
+}

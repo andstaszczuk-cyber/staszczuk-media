@@ -1,0 +1,82 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Układam starty na przyszły rok *i chcę jechać na wszystko*",
+  "sub": "Każde zawody wyglądają na ważne",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Najpierw start główny",
+   "body": "Wybierz jedną lub dwie imprezy, pod które budujesz formę.",
+   "art": {
+    "type": "table",
+    "left": "START",
+    "right": "PO CO",
+    "good": true,
+    "rows": [
+     [
+      "główny",
+      "forma szczytowa"
+     ],
+     [
+      "kontrolny",
+      "sprawdzam plan"
+     ],
+     [
+      "dla frajdy",
+      "bez presji"
+     ]
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Każdy start ma rolę",
+   "body": "Główny, kontrolny, treningowy. Przy każdym wiesz, czego od niego chcesz."
+  },
+  {
+   "title": "Miejsce na regenerację",
+   "body": "Między startami zostaw czas. Forma rośnie w odpoczynku."
+  }
+ ],
+ "end": {
+  "text": "Wybieram starty, *bo wiem, po co jadę*.",
+  "cta": "Zapisz i rozpisz rolę każdego startu"
+ }
+}

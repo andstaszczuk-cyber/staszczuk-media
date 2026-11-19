@@ -1,0 +1,75 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Trener chce porozmawiać po rundzie, *a ja od rana mam ścisk*",
+  "sub": "Już układam w głowie, co złego usłyszę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Przygotuj swoje punkty",
+   "body": "Co zadziałało, co chcesz poprawić, o co chcesz zapytać trenera.",
+   "art": {
+    "type": "notes",
+    "title": "NA ROZMOWĘ",
+    "lines": [
+     "co mi wyszło",
+     "co chcę poprawić",
+     "moje pytania"
+    ],
+    "crossed": [
+     "zgadywanie, co powie"
+    ],
+    "side": "10 minut"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Słuchaj i notuj",
+   "body": "Zapisz najważniejsze uwagi. Do emocji wrócisz później, na spokojnie."
+  },
+  {
+   "title": "Pytaj o zachowania",
+   "body": "Gdy słyszysz ogólnik, poproś o przykład: po czym to widać na boisku?"
+  }
+ ],
+ "end": {
+  "text": "Idę na rozmowę *z kartką i pytaniami*.",
+  "cta": "Zapisz i przygotuj swoje punkty"
+ }
+}

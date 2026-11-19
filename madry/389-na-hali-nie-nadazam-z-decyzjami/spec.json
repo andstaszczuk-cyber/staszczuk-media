@@ -1,0 +1,67 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na hali wszystko szybciej *i nie nadążam z decyzjami*",
+  "sub": "Mało miejsca, mało czasu, ciągle się spóźniam",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bolt",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Patrz przed przyjęciem",
+   "body": "Zanim dostaniesz piłkę, rozejrzyj się. Decyzja zaczyna się wcześniej.",
+   "art": {
+    "type": "arrowFlow",
+    "from": "patrzę",
+    "to": "decyduję"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Dwie opcje w głowie",
+   "body": "Na typowe sytuacje miej gotowe dwa rozwiązania. Wybór idzie wtedy szybciej."
+  },
+  {
+   "title": "Kilka tygodni adaptacji",
+   "body": "Przestawienie się na halę trwa. Pierwsze treningi są od błędów."
+  }
+ ],
+ "end": {
+  "text": "Gram szybciej, *bo patrzę wcześniej*.",
+  "cta": "Zapisz i rozglądaj się przed przyjęciem"
+ }
+}

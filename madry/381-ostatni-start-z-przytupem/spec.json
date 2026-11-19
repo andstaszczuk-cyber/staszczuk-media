@@ -1,0 +1,80 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Ostatni start w tym roku, *chcę skończyć z przytupem*",
+  "sub": "Czuję, że ten jeden występ oceni cały sezon",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "flag",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Sezon to cała droga",
+   "body": "Ostatni start jest jednym z wielu. Wnioski z roku zbierasz ze wszystkich.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "flag",
+      "label": "wiosna"
+     },
+     {
+      "icon": "sun",
+      "label": "lato"
+     },
+     {
+      "icon": "star",
+      "label": "jesień",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jedno zadanie na start",
+   "body": "Wybierz element, który robiłeś dobrze przez cały rok, i na nim oprzyj uwagę."
+  },
+  {
+   "title": "Domknięcie po mecie",
+   "body": "Niezależnie od wyniku zapisz trzy rzeczy, które zabierasz z tego roku."
+  }
+ ],
+ "end": {
+  "text": "Kończę sezon *swoją robotą*.",
+  "cta": "Zapisz i wybierz zadanie na ostatni start"
+ }
+}

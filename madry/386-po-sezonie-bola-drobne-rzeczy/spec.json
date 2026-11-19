@@ -1,0 +1,74 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Po sezonie *bolą mnie drobne rzeczy*",
+  "sub": "W trakcie nie było czasu, teraz wszystko wychodzi",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "foot",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "hand",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Spisz, co cię boli",
+   "body": "Gdzie, od kiedy, przy jakim ruchu. Taka lista ułatwia rozmowę ze specjalistą.",
+   "art": {
+    "type": "checklist",
+    "title": "MOJE SYGNAŁY",
+    "chip": "PRZERWA",
+    "chipX": 360,
+    "back": false,
+    "items": [
+     "gdzie boli",
+     "od kiedy",
+     "przy jakim ruchu"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Przerwa na diagnozę",
+   "body": "Okres bez startów to dobry czas na wizytę u lekarza czy fizjoterapeuty."
+  },
+  {
+   "title": "Powiedz trenerowi",
+   "body": "Plan na zimę da się ułożyć tak, żeby wzmacniać słabsze miejsca."
+  }
+ ],
+ "end": {
+  "text": "Słucham ciała, *póki jest czas*.",
+  "cta": "Zapisz i zrób listę sygnałów"
+ }
+}

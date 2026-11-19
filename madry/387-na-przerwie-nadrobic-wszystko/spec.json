@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Na przerwie chcę nadrobić *wszystko, co odkładałem*",
+  "sub": "Lista spraw dłuższa niż cały sezon",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Cztery rodzaje odpoczynku",
+   "body": "Ciało, ludzie, emocje i to, co daje ci sens. Każdy czegoś potrzebuje.",
+   "art": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "bed",
+      "label": "ciało"
+     },
+     {
+      "icon": "people",
+      "label": "ludzie"
+     },
+     {
+      "icon": "heart",
+      "label": "emocje"
+     },
+     {
+      "icon": "sun",
+      "label": "sens"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Wybierz trzy sprawy",
+   "body": "Resztę odkładasz świadomie, z datą. Przerwa ma cię naładować przed zimą."
+  },
+  {
+   "title": "Puste miejsca w kalendarzu",
+   "body": "Zostaw dni bez planu. Spokój też regeneruje głowę."
+  }
+ ],
+ "end": {
+  "text": "Przerwa ma mnie *naładować*.",
+  "cta": "Zapisz i wybierz trzy sprawy na przerwę"
+ }
+}

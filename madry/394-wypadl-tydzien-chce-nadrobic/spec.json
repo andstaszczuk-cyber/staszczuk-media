@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Wypadł mi tydzień treningów *i chcę nadrobić wszystko naraz*",
+  "sub": "Dwa treningi dziennie i będzie jak dawniej",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "dumbbell",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Te same kroki, nowe terminy",
+   "body": "Plan przesuwasz w czasie i zostawiasz w nim tyle samo pracy na dzień.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "pause",
+      "top": "przerwa",
+      "bottom": "tydzień"
+     },
+     {
+      "icon": "foot",
+      "top": "powrót",
+      "bottom": "lżej",
+      "hl": true
+     },
+     {
+      "icon": "dumbbell",
+      "top": "plan",
+      "bottom": "jak przed"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Opuszczony trening to odpoczynek",
+   "body": "Ciało nie prowadzi księgowości. Zaległe jednostki przepadły i to w porządku."
+  },
+  {
+   "title": "Ustal powrót z trenerem",
+   "body": "Trener powie, jak zacząć i od kiedy wrócić do pełnych obciążeń."
+  }
+ ],
+ "end": {
+  "text": "Wracam do planu *bez nadrabiania*.",
+  "cta": "Zapisz i przesuń plan z trenerem"
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Zimą zmieniam technikę *i boję się, że nie zdążę*",
+  "sub": "Stary ruch już nie działa, nowy jeszcze nie siedzi",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "point",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "sun",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Najpierw bywa gorzej",
+   "body": "Nowy ruch przez jakiś czas działa słabiej niż stary. To normalny etap nauki.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "stary ruch",
+     "nowy ruch niepewnie",
+     "nowy ruch pod presją"
+    ],
+    "done": 1,
+    "top": true
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Jedno pokrętło naraz",
+   "body": "Zmieniasz jeden element. Gdy siedzi, dokładasz kolejny."
+  },
+  {
+   "title": "Stopniuj trudność",
+   "body": "Najpierw powoli, potem szybciej, potem w grze i na zmęczeniu."
+  }
+ ],
+ "end": {
+  "text": "Zmiana trwa, *a ja jestem w drodze*.",
+  "cta": "Zapisz i rozpisz kroki zmiany"
+ }
+}

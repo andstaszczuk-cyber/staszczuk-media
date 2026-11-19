@@ -1,0 +1,101 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Na studiach plan co tydzień inny *i nie mam stałych treningów*",
+  "sub": "Raz zajęcia rano, raz do wieczora, a trening pod spodem",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "walk",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "book",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "alarm",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Stałe kotwice",
+   "body": "Wybierz dwa, trzy treningi w tygodniu, które są nienaruszalne.",
+   "art": {
+    "type": "week",
+    "caption": "MÓJ TYDZIEŃ NA STUDIACH",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "book"
+     },
+     {
+      "d": "wt",
+      "icon": "dumbbell",
+      "mark": "hl"
+     },
+     {
+      "d": "śr",
+      "icon": "book"
+     },
+     {
+      "d": "cz",
+      "icon": "dumbbell",
+      "mark": "hl"
+     },
+     {
+      "d": "pt",
+      "icon": "book"
+     },
+     {
+      "d": "sb",
+      "icon": "dumbbell",
+      "mark": "hl"
+     },
+     {
+      "d": "nd",
+      "icon": "bed",
+      "dim": true
+     }
+    ],
+    "note": "trzy kotwice, reszta elastycznie"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Planuj w niedzielę",
+   "body": "Kiedy znasz zajęcia, wpisz resztę treningów w wolne okna."
+  },
+  {
+   "title": "Wersja awaryjna",
+   "body": "Gdy trening wypada, masz krótszą jednostkę na pół godziny."
+  }
+ ],
+ "end": {
+  "text": "Mam kotwice, *reszta się dopasuje*.",
+  "cta": "Zapisz i wybierz swoje kotwice"
+ }
+}

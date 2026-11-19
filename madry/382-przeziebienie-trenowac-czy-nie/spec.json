@@ -1,0 +1,74 @@
+{
+ "theme": "cieply",
+ "filar": "ciało",
+ "cover": {
+  "title": "Złapało mnie przeziębienie *i nie wiem, czy trenować*",
+  "sub": "Boję się, że kilka dni przerwy zabierze mi formę",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "drop",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "bed",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Decyzja z lekarzem i trenerem",
+   "body": "Przy gorączce, bólu w klatce czy osłabieniu najpierw konsultacja i informacja dla trenera.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "bolt",
+     "label": "przetrenuję to",
+     "cross": true
+    },
+    "right": {
+     "icon": "bed",
+     "label": "zdrowieję i wracam"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Przerwa to część planu",
+   "body": "Kilka dni spokoju przy chorobie to inwestycja w kolejne tygodnie treningu."
+  },
+  {
+   "title": "Powrót krok po kroku",
+   "body": "Po chorobie zaczynasz lżej i ustalasz z trenerem, jak dokładać obciążenie."
+  }
+ ],
+ "end": {
+  "text": "Zdrowie najpierw, *forma przyjdzie za nim*.",
+  "cta": "Zapisz i ustal z trenerem zasady na chorobę"
+ }
+}

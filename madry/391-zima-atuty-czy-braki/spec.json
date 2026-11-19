@@ -1,0 +1,72 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Zimą chcę szlifować atuty, *a trener każe łatać braki*",
+  "sub": "Ćwiczenia z tego, czego nie umiem, męczą mnie najbardziej",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "puzzle",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Braki do średniego poziomu",
+   "body": "Słabość, która ci szkodzi, warto podciągnąć. Potem energia idzie w atuty.",
+   "art": {
+    "type": "stairs",
+    "steps": [
+     "słabość szkodzi",
+     "poziom średni",
+     "szlifuję atuty"
+    ],
+    "done": 1,
+    "top": true
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapytaj trenera dlaczego",
+   "body": "Gdy rozumiesz cel ćwiczenia, łatwiej włożyć w nie zaangażowanie."
+  },
+  {
+   "title": "Jedno i drugie w tygodniu",
+   "body": "Ustal z trenerem proporcje, żeby atuty też miały swój czas."
+  }
+ ],
+ "end": {
+  "text": "Łatam braki *i szlifuję atuty*.",
+  "cta": "Zapisz i zapytaj trenera o cel ćwiczeń"
+ }
+}

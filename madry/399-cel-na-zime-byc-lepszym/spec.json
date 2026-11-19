@@ -1,0 +1,79 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Mój cel na zimę to być lepszym *i nie wiem, jak to sprawdzić*",
+  "sub": "Mija miesiąc i nie mam pojęcia, czy idę do przodu",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ruler",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Lepiej, czyli w czym?",
+   "body": "Wybierz jeden obszar i nazwij ruch albo zachowanie, które ma się zmienić.",
+   "art": {
+    "type": "listCompare",
+    "left": {
+     "title": "OGÓLNIE",
+     "items": [
+      "być lepszym"
+     ]
+    },
+    "right": {
+     "title": "KONKRETNIE",
+     "items": [
+      "szybszy pierwszy krok",
+      "celne podanie",
+      "więcej podciągnięć"
+     ]
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Wybierz miarę",
+   "body": "Czas, liczba powtórzeń, nagranie albo ocena trenera w skali od 1 do 10."
+  },
+  {
+   "title": "Sprawdzaj co miesiąc",
+   "body": "Test w podobnych warunkach pokaże kierunek."
+  }
+ ],
+ "end": {
+  "text": "Wiem, *po czym poznam postęp*.",
+  "cta": "Zapisz i wybierz swoją miarę"
+ }
+}
