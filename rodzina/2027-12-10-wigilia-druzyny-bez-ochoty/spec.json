@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Nie chce iść\n*na wigilię drużyny*:",
+   "items": [
+    "mało zna kolegów",
+    "boi się nudy",
+    "woli zostać w domu"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj *o powód*",
+   "body": "Za niechęcią często stoi coś konkretnego.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Mały *krok*",
+   "body": "Umówcie się na godzinę.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Znajoma *twarz*",
+   "body": "Razem raźniej.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Drużyna to też *ludzie poza boiskiem*.",
+   "cta": "Zapisz przed klubową wigilią.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

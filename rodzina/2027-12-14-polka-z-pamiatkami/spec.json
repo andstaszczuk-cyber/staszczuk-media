@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Gdzie powiesimy nowy medal?",
+    "*A gdzie zdjęcie z obozu?*"
+   ],
+   "text": "Co pokazujecie *na swojej półce*?"
+  },
+  {
+   "kind": "point",
+   "title": "Więcej *niż medale*",
+   "body": "Zdjęcia, bilety, dyplomy za udział.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "point",
+   "title": "Wybór *dziecka*",
+   "body": "Niech samo zdecyduje, co jest ważne.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Historie *za rzeczami*",
+   "body": "Każda pamiątka to opowieść.",
+   "icon": "book"
+  },
+  {
+   "kind": "end",
+   "text": "Półka pokazuje, *co w domu jest ważne*.",
+   "cta": "Zapisz na świąteczne porządki.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

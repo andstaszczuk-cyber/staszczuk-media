@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Na meczu luz, na scenie trzęsą mi się nogi.",
+    "*To ta sama trema, znasz ją dobrze.*"
+   ],
+   "text": "Jasełka *jak mecz*."
+  },
+  {
+   "kind": "point",
+   "title": "Znane *uczucie*",
+   "body": "Motyle w brzuchu jak przed meczem.",
+   "icon": "face"
+  },
+  {
+   "kind": "point",
+   "title": "Co *pomaga na boisku*",
+   "body": "Oddech, rozgrzewka, pierwsze zadanie.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Pierwsza *kwestia*",
+   "body": "Przećwiczcie początek w domu.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Trema *to znak, że mu zależy*.",
+   "cta": "Zapisz przed szkolnym występem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

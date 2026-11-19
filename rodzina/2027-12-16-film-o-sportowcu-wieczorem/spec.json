@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Wieczór z filmem\n*o sportowcu*."
+  },
+  {
+   "kind": "point",
+   "title": "Wybierzcie *razem*",
+   "body": "Historia o drodze i powrotach.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa *po napisach*",
+   "body": "Co go poruszyło?",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Trudne *momenty*",
+   "body": "Jak bohater sobie radził.",
+   "icon": "loop"
+  },
+  {
+   "kind": "end",
+   "text": "Historie innych *dają odwagę*.",
+   "cta": "Zapisz na zimowy wieczór.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Rodzic na łyżwach\n*też jest początkujący*.",
+   "icon": "snowflake"
+  },
+  {
+   "kind": "point",
+   "title": "Pokaż *upadek*",
+   "body": "Wstajesz i jedziesz dalej.",
+   "icon": "plaster"
+  },
+  {
+   "kind": "point",
+   "title": "Śmiech *z siebie*",
+   "body": "Dziecko widzi luz.",
+   "icon": "heart"
+  },
+  {
+   "kind": "point",
+   "title": "Ucz się *od dziecka*",
+   "body": "Niech ono pokaże, jak jechać.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Najlepsza lekcja *to Twój przykład*.",
+   "cta": "Zapisz przed wyjściem na lodowisko.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

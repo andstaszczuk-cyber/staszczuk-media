@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Narysuj mnie\n*na trybunach*."
+  },
+  {
+   "kind": "point",
+   "title": "Prosta *prośba*",
+   "body": "Kartka i kredki w zimowe popołudnie.",
+   "icon": "book"
+  },
+  {
+   "kind": "point",
+   "title": "Co *zobaczysz*",
+   "body": "Twoją minę oczami dziecka.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa *o rysunku*",
+   "body": "Zapytaj, co narysowało.",
+   "icon": "speech"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko widzi *więcej, niż myślisz*.",
+   "cta": "Zapisz na wolny weekend.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

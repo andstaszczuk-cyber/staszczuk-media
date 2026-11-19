@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Wszyscy będą lepsi ode mnie.",
+   "new": "*Jadę nauczyć się czegoś nowego.*",
+   "text": "Obawy przed obozem zimowym."
+  },
+  {
+   "kind": "point",
+   "title": "Obawa *jest normalna*",
+   "body": "Nowa grupa budzi niepewność.",
+   "icon": "tent"
+  },
+  {
+   "kind": "point",
+   "title": "Po co *jedzie*",
+   "body": "Jeden własny cel na obóz.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "point",
+   "title": "Każdy *z innego miejsca*",
+   "body": "W grupie każdy jest w czymś lepszy.",
+   "icon": "growth"
+  },
+  {
+   "kind": "end",
+   "text": "Obóz to *czas nauki*.",
+   "cta": "Zapisz przed wyjazdem na ferie.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

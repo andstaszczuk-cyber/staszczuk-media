@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Ostatni trening\n*przed świętami*:",
+   "items": [
+    "wspomnienie roku",
+    "dziękuję dla trenera",
+    "jedno na styczeń"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Wspomnienie *roku*",
+   "body": "Najlepsza chwila w drużynie.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Dziękuję *dla trenera*",
+   "body": "Kilka słów od dziecka.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Jedno *na styczeń*",
+   "body": "Co chce ćwiczyć po przerwie.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Dobre zakończenie *daje dobry start*.",
+   "cta": "Zapisz przed ostatnim treningiem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}
