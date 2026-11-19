@@ -1,0 +1,80 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Rano ciemno *i ciało nie chce wstać*",
+  "sub": "Budzik dzwoni, a za oknem jeszcze noc",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "alarm",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Światło od rana",
+   "body": "Zapal jasne światło po przebudzeniu, a w dzień wyjdź choć na chwilę na dwór.",
+   "art": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "sun",
+      "label": "jasne światło"
+     },
+     {
+      "icon": "foot",
+      "label": "rozruch"
+     },
+     {
+      "icon": "bed",
+      "label": "stała pora snu",
+      "hl": true
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Stałe pory snu",
+   "body": "Kładziesz się i wstajesz podobnie także w weekend. Ciału łatwiej złapać rytm."
+  },
+  {
+   "title": "Pięć minut rozruchu",
+   "body": "Kilka prostych ruchów po wstaniu budzi ciało szybciej niż kolejna drzemka."
+  }
+ ],
+ "end": {
+  "text": "Pomagam ciału *obudzić się zimą*.",
+  "cta": "Zapisz i ustaw poranny rytuał"
+ }
+}

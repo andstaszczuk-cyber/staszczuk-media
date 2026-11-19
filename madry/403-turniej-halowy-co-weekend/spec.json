@@ -1,0 +1,98 @@
+{
+ "theme": "cieply",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Zimą turniej halowy co weekend *i nie ma kiedy odpocząć*",
+  "sub": "Sezon się skończył, a ja dalej gram bez przerwy",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "hips",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "ball",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Policz swój tydzień",
+   "body": "Treningi, turnieje, szkoła, sen. Zobacz, gdzie jest miejsce na regenerację.",
+   "art": {
+    "type": "week",
+    "caption": "TYDZIEŃ Z TURNIEJEM",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "bed",
+      "mark": "hl"
+     },
+     {
+      "d": "wt",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "śr",
+      "icon": "ball"
+     },
+     {
+      "d": "cz",
+      "icon": "dumbbell"
+     },
+     {
+      "d": "pt",
+      "icon": "book"
+     },
+     {
+      "d": "sb",
+      "icon": "ball"
+     },
+     {
+      "d": "nd",
+      "icon": "flag"
+     }
+    ],
+    "note": "poniedziałek na regenerację"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Każdy turniej ma rolę",
+   "body": "Część to granie dla frajdy, na części ćwiczysz jedno zadanie."
+  },
+  {
+   "title": "Ustal kalendarz z trenerem",
+   "body": "Zdecydujcie, które turnieje są ważne, a z których można zrezygnować."
+  }
+ ],
+ "end": {
+  "text": "Gram zimą *i dbam o baterie*.",
+  "cta": "Zapisz i policz swój tydzień"
+ }
+}

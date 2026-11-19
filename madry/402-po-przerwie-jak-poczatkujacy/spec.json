@@ -1,0 +1,83 @@
+{
+ "theme": "czerwony",
+ "filar": "ciało",
+ "cover": {
+  "title": "Po przerwie *czuję się jak początkujący*",
+  "sub": "Zadyszka po rozgrzewce, ciężkie nogi, nic nie wychodzi",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "slump",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "foot",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Frycowe po przerwie",
+   "body": "Pierwsze treningi po odpoczynku są ciężkie. Ciało przypomina sobie wysiłek.",
+   "art": {
+    "type": "timeline",
+    "points": [
+     {
+      "icon": "bed",
+      "top": "przerwa",
+      "bottom": "odpoczynek"
+     },
+     {
+      "icon": "foot",
+      "top": "pierwszy tydzień",
+      "bottom": "ciężko",
+      "hl": true
+     },
+     {
+      "icon": "bolt",
+      "top": "kolejne tygodnie",
+      "bottom": "rytm wraca"
+     }
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Porównuj z dniem powrotu",
+   "body": "Punkt odniesienia to pierwszy trening po przerwie. Od niego liczysz postęp."
+  },
+  {
+   "title": "Spokojnie z obciążeniem",
+   "body": "Trener dawkuje powrót. Dokładanie na siłę kończy się bólem i urazem."
+  }
+ ],
+ "end": {
+  "text": "Daję sobie czas, *forma wraca stopniowo*.",
+  "cta": "Zapisz i porównuj się z dniem powrotu"
+ }
+}

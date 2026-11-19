@@ -1,0 +1,74 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Chcę zrezygnować z jednego treningu *i boję się, co powie trener*",
+  "sub": "Szkoła, dojazdy, zmęczenie i ani jednego wolnego wieczoru",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "whistle",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zrób bilans",
+   "body": "Co zyskujesz na wolnym wieczorze, co możesz stracić. Spisz to przed rozmową.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "clock",
+     "label": "cztery treningi na pół gwizdka",
+     "cross": true
+    },
+    "right": {
+     "icon": "battery",
+     "label": "trzy treningi na pełnym gazie"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Opisz swoją sytuację",
+   "body": "Powiedz, jak wygląda twój tydzień i czego potrzebujesz."
+  },
+  {
+   "title": "Propozycja na próbę",
+   "body": "Zaproponuj miesiąc testu i wspólną ocenę po nim."
+  }
+ ],
+ "end": {
+  "text": "Mówię, czego potrzebuję, *i szukamy rozwiązania razem*.",
+  "cta": "Zapisz i przygotuj rozmowę z trenerem"
+ }
+}

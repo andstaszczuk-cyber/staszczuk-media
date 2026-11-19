@@ -1,0 +1,73 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Podsumowuję rok *i liczę tylko miejsca*",
+  "sub": "Medale, tabela, ranking i nic więcej",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "think",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "note",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Czego by ci brakowało",
+   "body": "Zapisz, czego brakowałoby ci bez sportu w tym roku. Wynik rzadko jest na górze listy.",
+   "art": {
+    "type": "hub",
+    "center": "mój rok",
+    "icon": "star",
+    "items": [
+     "ludzie",
+     "nowe umiejętności",
+     "trudne chwile",
+     "frajda"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Co umiesz teraz",
+   "body": "Porównaj siebie ze stycznia i z listopada. Zapisz umiejętności, które doszły."
+  },
+  {
+   "title": "Trudne momenty",
+   "body": "Przez co przeszedłeś i jak sobie poradziłeś. To też twoje dowody."
+  }
+ ],
+ "end": {
+  "text": "Mój rok to *coś więcej niż wyniki*.",
+  "cta": "Zapisz i zrób pełne podsumowanie roku"
+ }
+}

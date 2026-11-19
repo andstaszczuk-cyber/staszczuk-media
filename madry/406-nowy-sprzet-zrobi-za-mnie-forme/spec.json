@@ -1,0 +1,74 @@
+{
+ "theme": "cieply",
+ "filar": "głowa",
+ "cover": {
+  "title": "Kupuję nowy sprzęt, *bo liczę, że zrobi za mnie formę*",
+  "sub": "Wyprzedaże kuszą, a stary sprzęt dalej jest dobry",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "watch",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Czego naprawdę brakuje",
+   "body": "Sprawdź, czy sprzęt ogranicza cię dziś na treningu. Wtedy zakup ma sens.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "star",
+     "label": "nowe buty zrobią formę",
+     "cross": true
+    },
+    "right": {
+     "icon": "dumbbell",
+     "label": "formę robią treningi"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Odczekaj tydzień",
+   "body": "Wpisz rzecz na listę i wróć do niej po kilku dniach. Emocja z promocji opada."
+  },
+  {
+   "title": "Nowe wymaga czasu",
+   "body": "Nowy sprzęt testujesz na treningach. Na ważny start bierzesz sprawdzony."
+  }
+ ],
+ "end": {
+  "text": "Formę robię *na treningu*.",
+  "cta": "Zapisz i sprawdź, czego ci brakuje"
+ }
+}

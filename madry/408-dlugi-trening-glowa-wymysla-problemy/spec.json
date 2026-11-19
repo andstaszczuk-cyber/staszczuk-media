@@ -1,0 +1,73 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Na długich treningach *głowa wymyśla mi problemy*",
+  "sub": "Godzina spokojnego biegu i w głowie cały serial",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "run",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "brain",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zauważ i nazwij",
+   "body": "O, znowu się nakręcam. Samo nazwanie daje trochę dystansu.",
+   "art": {
+    "type": "focus",
+    "center": "oddech i krok",
+    "icon": "foot",
+    "around": [
+     "szkoła",
+     "trener",
+     "wczorajszy mecz",
+     "jutro"
+    ]
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Kotwica w ciele",
+   "body": "Wracaj do oddechu, rytmu kroków, dźwięku butów. Za każdym razem."
+  },
+  {
+   "title": "Osobny czas na sprawy",
+   "body": "Ważne tematy zapisz po treningu i zdecyduj, kiedy się nimi zajmiesz."
+  }
+ ],
+ "end": {
+  "text": "Myśli przychodzą, *a ja wracam do kroku*.",
+  "cta": "Zapisz i wybierz swoją kotwicę"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "theme": "grafit",
+ "filar": "głowa",
+ "cover": {
+  "title": "Kończy się przerwa, *a mnie nie ciągnie z powrotem*",
+  "sub": "Odpoczywam i coraz mniej chce mi się wracać",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "sit",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "pause",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "play",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Opór po przerwie",
+   "body": "Powrót do wysiłku po odpoczynku zawsze kosztuje. To jeszcze żadna decyzja o sporcie.",
+   "art": {
+    "type": "scale10",
+    "caption": "ILE MI SIĘ CHCE WRACAĆ",
+    "y": 240,
+    "points": [
+     {
+      "n": 3,
+      "label": "przed pierwszym treningiem",
+      "hl": true
+     },
+     {
+      "n": 7,
+      "label": "po tygodniu"
+     }
+    ],
+    "note": "chęć zwykle przychodzi w trakcie"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Umów się na jeden trening",
+   "body": "Tylko na pierwszy. O kolejnych pomyślisz, kiedy już będziesz po nim."
+  },
+  {
+   "title": "Przypomnij sobie po co",
+   "body": "Zapisz trzy rzeczy, za którymi tęskniłeś: ludzie, ruch, cel."
+  }
+ ],
+ "end": {
+  "text": "Wracam krok po kroku, *chęć dojdzie w trakcie*.",
+  "cta": "Zapisz i umów się na pierwszy trening"
+ }
+}

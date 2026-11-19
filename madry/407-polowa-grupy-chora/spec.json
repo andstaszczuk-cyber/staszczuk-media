@@ -1,0 +1,67 @@
+{
+ "theme": "czerwony",
+ "filar": "głowa",
+ "cover": {
+  "title": "Połowa grupy chora *i treningi nie wyglądają jak zwykle*",
+  "sub": "Puste miejsca na sali i senna atmosfera",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "people",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "cloudRain",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Plusy małej grupy",
+   "body": "Więcej powtórzeń, więcej kontaktu z trenerem, czas na szczegóły.",
+   "art": {
+    "type": "bubbleSwap",
+    "from": "trening do niczego",
+    "to": "więcej powtórzeń dla mnie"
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Twoja energia",
+   "body": "Możesz ją wnieść na salę. Kilka osób z dobrym nastawieniem ciągnie resztę."
+  },
+  {
+   "title": "Zadbaj o siebie",
+   "body": "Sen, ciepłe ubranie, czyste ręce, a przy objawach informacja dla trenera."
+  }
+ ],
+ "end": {
+  "text": "Robię swój trening *w każdym składzie*.",
+  "cta": "Zapisz i znajdź plusy małej grupy"
+ }
+}

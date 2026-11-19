@@ -1,0 +1,74 @@
+{
+ "theme": "grafit",
+ "filar": "głowa i ciało",
+ "cover": {
+  "title": "Chcę iść na łyżwy, *a boję się, że coś sobie zrobię*",
+  "sub": "Znajomi namawiają, a z tyłu głowy kontuzja",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 500
+    },
+    {
+     "k": "person",
+     "pose": "stand",
+     "x": 80,
+     "y": 0,
+     "s": 1
+    },
+    {
+     "k": "icon",
+     "name": "snow",
+     "x": 515,
+     "y": 80,
+     "s": 150,
+     "c": "A"
+    },
+    {
+     "k": "icon",
+     "name": "shield",
+     "x": 725,
+     "y": 300,
+     "s": 125,
+     "c": "fig2"
+    }
+   ]
+  },
+  "artTop": 740,
+  "artH": 460
+ },
+ "points": [
+  {
+   "title": "Zrób bilans",
+   "body": "Co ci to da, co możesz stracić i jak zmniejszyć ryzyko.",
+   "art": {
+    "type": "twoCards",
+    "left": {
+     "icon": "shield",
+     "label": "siedzę w domu ze strachu",
+     "cross": true
+    },
+    "right": {
+     "icon": "people",
+     "label": "idę z głową i bez brawury"
+    }
+   },
+   "artTop": 820,
+   "artH": 440
+  },
+  {
+   "title": "Zapytaj trenera",
+   "body": "Trener powie, w jakim okresie to bezpieczne i na co uważać."
+  },
+  {
+   "title": "Rozsądek z frajdą",
+   "body": "Bez brawury, w dobrym sprzęcie, po dniu wolnym. Frajda zostaje."
+  }
+ ],
+ "end": {
+  "text": "Dbam o ciało *i zostawiam miejsce na radość*.",
+  "cta": "Zapisz i zapytaj trenera o zimowe aktywności"
+ }
+}
