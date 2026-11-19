@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Czekolada w każdym okienku.",
+   "new": "*Małe zadanie na każdy dzień*.",
+   "text": "Kalendarz adwentowy po sportowemu."
+  },
+  {
+   "kind": "point",
+   "title": "Proste *zadania*",
+   "body": "Dziesięć skoków, spacer, wspólna gra.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Dla *całej rodziny*",
+   "body": "Rodzic robi razem z dzieckiem.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *punktacji*",
+   "body": "Liczy się wspólna zabawa.",
+   "icon": "dice"
+  },
+  {
+   "kind": "end",
+   "text": "Grudzień *w ruchu i razem*.",
+   "cta": "Zapisz przed pierwszym okienkiem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

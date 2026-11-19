@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Nic się nie stało, graj dalej.",
+   "new": "*Widziałeś coś trudnego. Pogadajmy*.",
+   "text": "Kontuzja kolegi na boisku."
+  },
+  {
+   "kind": "point",
+   "title": "Strach *jest normalny*",
+   "body": "Pozwól mu opowiedzieć, co widział.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Fakty *zamiast domysłów*",
+   "body": "Zapytajcie, co z kolegą.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Wsparcie *dla kolegi*",
+   "body": "Wiadomość, rysunek, odwiedziny.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Rozmowa *zmniejsza strach*.",
+   "cta": "Zapisz i wyślij rodzicowi z drużyny.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

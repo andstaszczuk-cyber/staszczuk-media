@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Przegrali, więc w domu cisza do poniedziałku.",
+    "*Wynik został na boisku*."
+   ],
+   "text": "Weekend *po meczu*."
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *widzi*",
+   "body": "Twój nastrój po meczu mówi mu wiele.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Weekend *trwa dalej*",
+   "body": "Plany rodzinne bez względu na wynik.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Krótkie *domknięcie*",
+   "body": "Kilka słów o meczu i dalej.",
+   "icon": "door"
+  },
+  {
+   "kind": "end",
+   "text": "Dom *zostaje domem*.",
+   "cta": "Zapisz na najbliższy weekend.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

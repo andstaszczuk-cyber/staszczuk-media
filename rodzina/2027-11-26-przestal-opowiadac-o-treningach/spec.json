@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Przestał opowiadać\n*o treningach*."
+  },
+  {
+   "kind": "point",
+   "title": "Zmień *pytanie*",
+   "body": "Z kim dziś ćwiczyłeś w parze?",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Daj *czas*",
+   "body": "Rozmowy przychodzą w samochodzie albo przy kolacji.",
+   "icon": "car"
+  },
+  {
+   "kind": "point",
+   "title": "Obserwuj *zachowanie*",
+   "body": "Chętnie jedzie na trening czy nie?",
+   "icon": "eye"
+  },
+  {
+   "kind": "end",
+   "text": "Cisza *też coś mówi*.",
+   "cta": "Zapisz i wyślij innemu rodzicowi.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

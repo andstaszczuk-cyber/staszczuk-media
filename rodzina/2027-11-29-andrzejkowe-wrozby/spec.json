@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Wosk mówi, że będę w kadrze!",
+    "*A co trzeba robić, żeby tak było?*"
+   ],
+   "text": "Andrzejki *w sportowej rodzinie*."
+  },
+  {
+   "kind": "point",
+   "title": "Wróżba *dla zabawy*",
+   "body": "Śmiejcie się razem z kształtów wosku.",
+   "icon": "dice"
+  },
+  {
+   "kind": "point",
+   "title": "Marzenie *na kartce*",
+   "body": "Zapiszcie, o czym dziecko marzy.",
+   "icon": "book"
+  },
+  {
+   "kind": "point",
+   "title": "Mały *krok*",
+   "body": "Jedna rzecz, którą zrobi w grudniu.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Przyszłość *robi się po trochu*.",
+   "cta": "Zapisz na wieczór andrzejkowy.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

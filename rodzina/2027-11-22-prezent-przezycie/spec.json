@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Prezent,\n*który się przeżywa*.",
+   "icon": "gift"
+  },
+  {
+   "kind": "point",
+   "title": "Wspólny *wyjazd*",
+   "body": "Mecz ligowy na żywo z rodzicem.",
+   "icon": "car"
+  },
+  {
+   "kind": "point",
+   "title": "Czas *razem*",
+   "body": "Trening z tatą albo mamą w niedzielę.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Pamięć *na lata*",
+   "body": "Rzeczy się zużywają, wspomnienia zostają.",
+   "icon": "heart"
+  },
+  {
+   "kind": "end",
+   "text": "Najlepszy prezent *to wspólny czas*.",
+   "cta": "Zapisz na listę prezentów.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

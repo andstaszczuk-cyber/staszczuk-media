@@ -1,0 +1,40 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Miś jedzie\n*na turniej*.",
+   "items": [
+    "w torbie",
+    "na ławce",
+    "na zdjęciu"
+   ],
+   "checked": 1
+  },
+  {
+   "kind": "point",
+   "title": "Mały *przyjaciel*",
+   "body": "Maluchom maskotka daje spokój.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *wyśmiewania*",
+   "body": "Każdy ma swój sposób na stres.",
+   "icon": "heart"
+  },
+  {
+   "kind": "point",
+   "title": "Z czasem *zostaje w domu*",
+   "body": "Dziecko samo zdecyduje kiedy.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Spokój *ma różne formy*.",
+   "cta": "Zapisz na Dzień Pluszowego Misia.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

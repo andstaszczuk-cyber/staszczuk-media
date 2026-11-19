@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Na turniej przyjdzie\n*cała klasa*.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Więcej *oczu*",
+   "body": "Znajome twarze podnoszą stawkę.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Te same *zadania*",
+   "body": "Gra wygląda tak samo jak na treningu.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Po meczu *z kolegami*",
+   "body": "Niech razem się cieszą albo pocieszają.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "end",
+   "text": "Kibice z klasy *to też wsparcie*.",
+   "cta": "Zapisz przed turniejem w szkole.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

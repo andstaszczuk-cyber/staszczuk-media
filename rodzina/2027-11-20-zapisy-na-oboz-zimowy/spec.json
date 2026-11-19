@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Zapisy na obóz\n*zimowy*.",
+   "items": [
+    "czy dziecko chce?",
+    "co z feriami?",
+    "kto decyduje?"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Głos *dziecka*",
+   "body": "Zapytaj, zanim zapłacisz zaliczkę.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Całe *ferie*",
+   "body": "Zostawcie też czas na odpoczynek.",
+   "icon": "snowflake"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja *bez presji*",
+   "body": "Obóz to propozycja dla dziecka.",
+   "icon": "tent"
+  },
+  {
+   "kind": "end",
+   "text": "Dobry obóz *to wybrany obóz*.",
+   "cta": "Zapisz przed zapisami na ferie.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

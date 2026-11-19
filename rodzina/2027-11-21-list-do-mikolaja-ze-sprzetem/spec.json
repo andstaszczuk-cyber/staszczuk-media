@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Na liście do Mikołaja\n*buty jak u idola*."
+  },
+  {
+   "kind": "point",
+   "title": "Skąd *to marzenie*",
+   "body": "Zapytaj, co mu dadzą te buty.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Sprzęt *pomaga*",
+   "body": "Gra dalej zależy od treningu.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Radość *z prezentu*",
+   "body": "Niech się po prostu cieszy.",
+   "icon": "gift"
+  },
+  {
+   "kind": "end",
+   "text": "Buty *nie strzelają goli*.",
+   "cta": "Zapisz przed pisaniem listów.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

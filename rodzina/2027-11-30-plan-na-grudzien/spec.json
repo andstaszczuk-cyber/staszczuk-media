@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Grudzień\n*na jednej kartce*.",
+   "items": [
+    "turnieje",
+    "szkoła",
+    "czas rodzinny"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Wszystko *w jednym miejscu*",
+   "body": "Mecze, wigilie, sprawdziany.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Wybierzcie *ważne*",
+   "body": "Nie każdy turniej musi się odbyć z Wami.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "point",
+   "title": "Wolne *dni*",
+   "body": "Wpiszcie też dni bez niczego.",
+   "icon": "moon"
+  },
+  {
+   "kind": "end",
+   "text": "Spokojny grudzień *planuje się w listopadzie*.",
+   "cta": "Zapisz na ostatni dzień listopada.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

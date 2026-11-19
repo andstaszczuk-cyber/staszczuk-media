@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Urodziny Kuby są w czwartek o siedemnastej.",
+    "*Tak samo jak trening. Pogadajmy*."
+   ],
+   "text": "Urodziny *czy trening*?"
+  },
+  {
+   "kind": "point",
+   "title": "Obie *rzeczy ważne*",
+   "body": "Koledzy z klasy też się liczą.",
+   "icon": "gift"
+  },
+  {
+   "kind": "point",
+   "title": "Zapytaj *dziecko*",
+   "body": "Czego by mu bardziej brakowało?",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Daj znać *trenerowi*",
+   "body": "Jeden opuszczony trening to nie dramat.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "end",
+   "text": "Dzieciństwo *to nie tylko treningi*.",
+   "cta": "Zapisz na następne zaproszenie.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}
