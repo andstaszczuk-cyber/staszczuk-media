@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Od pierwszego dnia pełny plan zajęć.",
+   "new": "Pierwszy tydzień *trochę lżej*.",
+   "text": "Wrzesień zaczyna się powoli."
+  },
+  {
+   "kind": "point",
+   "title": "Nowości *męczą*",
+   "body": "Nowa klasa i nowy plan zabierają dużo energii.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Mniej *naraz*",
+   "body": "Zajęcia dodatkowe mogą ruszyć tydzień później.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Więcej *snu*",
+   "body": "Wcześniejsze wieczory w pierwszych tygodniach.",
+   "icon": "moon"
+  },
+  {
+   "kind": "end",
+   "text": "Spokojny start *to lepszy cały wrzesień*.",
+   "cta": "Zapisz przed pierwszym września.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

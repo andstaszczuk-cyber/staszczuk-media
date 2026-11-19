@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Jestem najstarszy, więc muszę być najlepszy.",
+   "new": "Jestem najstarszy, *więc mogę pomagać*.",
+   "text": "Ostatni rok w kategorii."
+  },
+  {
+   "kind": "point",
+   "title": "Presja *ostatniego roku*",
+   "body": "Starsi często czują, że muszą wygrywać wszystko.",
+   "icon": "podium"
+  },
+  {
+   "kind": "point",
+   "title": "Rola *wzoru*",
+   "body": "Młodsi patrzą, jak starszy reaguje na błędy.",
+   "icon": "eye"
+  },
+  {
+   "kind": "point",
+   "title": "Swoje *tempo*",
+   "body": "Wiek w kategorii nie mówi, kim będzie za kilka lat.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Najstarszy w grupie *też ma prawo się uczyć*.",
+   "cta": "Zapisz, jeśli Twoje dziecko jest najstarsze.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

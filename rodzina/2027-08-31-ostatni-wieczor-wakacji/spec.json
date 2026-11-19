@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Jutro szkoła. Nie chcę.",
+    "*Rozumiem. Ten wieczór jest nasz*."
+   ],
+   "text": "Ostatni wieczór *wakacji*."
+  },
+  {
+   "kind": "point",
+   "title": "Bez *wykładów*",
+   "body": "Plany i wymagania zostaw na inny dzień.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Coś *razem*",
+   "body": "Pizza, spacer, gra. Prosty, wspólny wieczór.",
+   "icon": "dice"
+  },
+  {
+   "kind": "point",
+   "title": "Na co *się cieszysz*",
+   "body": "Pytanie o to, co dobre w nowym roku.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Spokojny wieczór *to dobry start roku*.",
+   "cta": "Zapisz na ostatni dzień sierpnia.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Czy wychowawca wie, że trenujesz?",
+    "*Warto, żeby wiedział*."
+   ],
+   "text": "Szkoła i sport *od pierwszego dnia*."
+  },
+  {
+   "kind": "point",
+   "title": "Krótka *rozmowa*",
+   "body": "Na zebraniu albo w wiadomości na początku roku.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Plan *wyjazdów*",
+   "body": "Turnieje i zawody łatwiej uzgodnić z wyprzedzeniem.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Dziecko *też mówi*",
+   "body": "Starsze dzieci mogą same ustalać zaległości.",
+   "icon": "book"
+  },
+  {
+   "kind": "end",
+   "text": "Szkoła i klub *grają w jednej drużynie*.",
+   "cta": "Zapisz przed pierwszym zebraniem w szkole.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

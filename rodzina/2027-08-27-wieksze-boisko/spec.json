@@ -1,0 +1,41 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Starsza kategoria,\n*nowe wyzwania*:",
+   "items": [
+    "większe boisko",
+    "więcej biegania",
+    "nowe przepisy",
+    "dłuższy mecz"
+   ],
+   "checked": 0
+  },
+  {
+   "kind": "point",
+   "title": "Gubi się *na początku*",
+   "body": "Nowa przestrzeń wymaga czasu na oswojenie.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Zmęczenie *jest normalne*",
+   "body": "Dłuższe mecze i większe boisko męczą bardziej.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Doceniaj *naukę*",
+   "body": "Chwal za to, co nowego zrozumiało.",
+   "icon": "growth"
+  },
+  {
+   "kind": "end",
+   "text": "Każda nowa kategoria *zaczyna się od chaosu*.",
+   "cta": "Zapisz, jeśli Twoje dziecko zmienia kategorię.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

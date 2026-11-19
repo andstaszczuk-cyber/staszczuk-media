@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Kolega z klasy\n*gra w tej samej drużynie*."
+  },
+  {
+   "kind": "point",
+   "title": "Szkoła *i boisko*",
+   "body": "To, co dzieje się na treningu, wraca do klasy.",
+   "icon": "bag"
+  },
+  {
+   "kind": "point",
+   "title": "Docinki *po meczu*",
+   "body": "Jeden błąd łatwo staje się tematem na przerwie.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Jasne *granice*",
+   "body": "Sprawy z boiska zamykamy na boisku.",
+   "icon": "door"
+  },
+  {
+   "kind": "end",
+   "text": "Dobra relacja *pomaga w obu miejscach*.",
+   "cta": "Zapisz przed pierwszym tygodniem szkoły.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}
