@@ -1,0 +1,148 @@
+{
+ "cover": {
+  "left": "LISTA KLUBU",
+  "right": "MOJE DOWODY",
+  "title": "Bez\n*wyróżnienia*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "split",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "rect",
+     "x": 0,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "card"
+    },
+    {
+     "k": "rect",
+     "x": 464,
+     "y": 0,
+     "w": 436,
+     "h": 620,
+     "r": 32,
+     "c": "cardS"
+    },
+    {
+     "k": "icon",
+     "name": "trophy",
+     "x": 148,
+     "y": 50,
+     "s": 140,
+     "c": "soft"
+    },
+    {
+     "k": "text",
+     "x": 218,
+     "y": 270,
+     "t": [
+      "bez mojego",
+      "nazwiska"
+     ],
+     "size": 34,
+     "w": 700,
+     "c": "mute",
+     "anchor": "middle",
+     "it": 1,
+     "lh": 46
+    },
+    {
+     "k": "icon",
+     "name": "check",
+     "x": 612,
+     "y": 50,
+     "s": 140,
+     "c": "A"
+    },
+    {
+     "k": "text",
+     "x": 682,
+     "y": 270,
+     "t": [
+      "trzy dobre",
+      "mecze"
+     ],
+     "size": 34,
+     "w": 800,
+     "c": "A",
+     "anchor": "middle",
+     "lh": 46
+    },
+    {
+     "k": "person",
+     "x": 350,
+     "y": 360,
+     "s": 0.45,
+     "pose": "stand"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Ukłucie jest zrozumiałe",
+   "body": "Każdy chce być zauważony w swojej grupie.",
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "nie zauważyli mnie",
+    "to": "co wiem o swojej grze?",
+    "toSub": "dowody"
+   }
+  },
+  {
+   "title": "Część roboty mniej widać",
+   "body": "Ustawienie i decyzje bez piłki rzadko trafiają na listy.",
+   "size": 62,
+   "viz": {
+    "type": "sortBins",
+    "bins": [
+     {
+      "title": "WIDAĆ",
+      "items": [
+       "gole",
+       "dryblingi"
+      ],
+      "dim": true
+     },
+     {
+      "title": "MNIEJ WIDAĆ",
+      "items": [
+       "ustawienie",
+       "odbiory",
+       "decyzje"
+      ],
+      "hl": true,
+      "note": "też się liczy"
+     }
+    ]
+   }
+  },
+  {
+   "title": "Własne podsumowanie",
+   "body": "Trzy mecze i to, co w nich zrobiłeś dobrze.",
+   "viz": {
+    "type": "checklist",
+    "title": "MOJE DOWODY",
+    "chip": "3 MECZE",
+    "chipX": 400,
+    "backChip": "LAJKI",
+    "items": [
+     "mecz z liderem",
+     "derby",
+     "ostatnia kolejka"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *ty* wiesz o swojej rundzie?",
+  "cta": "Wypisz trzy dobre mecze i to, co w nich zrobiłeś.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

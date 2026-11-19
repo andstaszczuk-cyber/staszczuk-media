@@ -1,0 +1,120 @@
+{
+ "cover": {
+  "kicker": "PRZERWA",
+  "title": "Pusto\n*bez treningów*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "top",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "sit"
+    },
+    {
+     "k": "icon",
+     "name": "clock",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "wolne popołudnie",
+     "size": 34
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Sport daje rytm",
+   "body": "Kiedy go brakuje, pojawia się pustka.",
+   "viz": {
+    "type": "week",
+    "days": [
+     {
+      "d": "pn",
+      "icon": "pause"
+     },
+     {
+      "d": "wt",
+      "icon": "pause"
+     },
+     {
+      "d": "śr",
+      "icon": "pause"
+     },
+     {
+      "d": "cz",
+      "icon": "pause"
+     },
+     {
+      "d": "pt",
+      "icon": "pause"
+     },
+     {
+      "d": "sb",
+      "icon": "pause"
+     },
+     {
+      "d": "nd",
+      "icon": "pause"
+     }
+    ],
+    "note": "nagle pusto"
+   }
+  },
+  {
+   "title": "Stół na wielu nogach",
+   "body": "Gdy jedna noga się chwieje, reszta trzyma cię w pionie.",
+   "size": 64,
+   "viz": {
+    "type": "hub",
+    "center": "ja",
+    "icon": "heart",
+    "items": [
+     "sport",
+     "znajomi",
+     "szkoła",
+     "pasje"
+    ],
+    "hl": -1
+   }
+  },
+  {
+   "title": "Zaplanuj przerwę",
+   "body": "Kilka konkretnych rzeczy na każdy tydzień.",
+   "viz": {
+    "type": "checklist",
+    "title": "PRZERWA",
+    "chip": "PLAN",
+    "chipX": 360,
+    "backChip": "NUDA",
+    "items": [
+     "kino ze znajomymi",
+     "książka",
+     "ruch dla frajdy"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Kim jesteś *poza boiskiem*?",
+  "cta": "Wpisz do kalendarza trzy rzeczy na ten tydzień.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

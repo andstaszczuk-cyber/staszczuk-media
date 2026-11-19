@@ -1,0 +1,121 @@
+{
+ "cover": {
+  "kicker": "OKIENKO ZIMOWE",
+  "title": "Odejść\n*po rundzie?*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "hero",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 590
+    },
+    {
+     "k": "person",
+     "x": 90,
+     "y": 90,
+     "s": 1.0,
+     "pose": "walk"
+    },
+    {
+     "k": "icon",
+     "name": "house",
+     "x": 560,
+     "y": 40,
+     "s": 260,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 520,
+     "y": 350,
+     "text": "nowy klub",
+     "size": 36
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Emocje porównują z ideałem",
+   "body": "Realna sytuacja kontra wyobrażenie, którego nie sprawdzisz.",
+   "size": 62,
+   "viz": {
+    "type": "twoCards",
+    "left": {
+     "icon": "house",
+     "label": "mój klub",
+     "sub": "znam wady"
+    },
+    "right": {
+     "icon": "star",
+     "label": "nowy klub",
+     "sub": "wyobrażenie"
+    }
+   }
+  },
+  {
+   "title": "Odczekaj kilka tygodni",
+   "body": "W szczycie emocji nie podejmujesz decyzji.",
+   "viz": {
+    "type": "timeline",
+    "points": [
+     {
+      "top": "słaba runda",
+      "icon": "cloudRain"
+     },
+     {
+      "top": "rozmowa",
+      "icon": "mic"
+     },
+     {
+      "top": "czas",
+      "icon": "clock"
+     },
+     {
+      "top": "decyzja",
+      "icon": "flag",
+      "hl": true,
+      "bottom": [
+       "z terminem"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "title": "Więcej niż dwie opcje",
+   "body": "Przy każdej korzyści, koszty i termin decyzji.",
+   "viz": {
+    "type": "grid4",
+    "items": [
+     {
+      "icon": "house",
+      "label": "zostaję z planem"
+     },
+     {
+      "icon": "play",
+      "label": "zmiana klubu"
+     },
+     {
+      "icon": "clock",
+      "label": "wypożyczenie"
+     },
+     {
+      "icon": "flag",
+      "label": "termin decyzji"
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Mówi *emocja* czy plan?",
+  "cta": "Ustal termin decyzji i najpierw porozmawiaj z trenerem.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}

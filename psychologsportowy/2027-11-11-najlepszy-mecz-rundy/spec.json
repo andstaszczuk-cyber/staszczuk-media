@@ -1,0 +1,97 @@
+{
+ "cover": {
+  "kicker": "PODSUMOWANIE RUNDY",
+  "title": "Najlepszy\n*mecz rundy*",
+  "size": 100,
+  "lh": 1.25,
+  "layout": "top",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "floor",
+     "y": 600
+    },
+    {
+     "k": "person",
+     "x": 60,
+     "y": 160,
+     "s": 0.85,
+     "pose": "win"
+    },
+    {
+     "k": "icon",
+     "name": "star",
+     "x": 520,
+     "y": 200,
+     "s": 300,
+     "c": "A"
+    },
+    {
+     "k": "chip",
+     "x": 540,
+     "y": 110,
+     "text": "mój mecz",
+     "size": 34
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Mózg pamięta porażki",
+   "body": "Dobre wspomnienia bledną, jeśli ich nie przeżyjesz.",
+   "viz": {
+    "type": "bars",
+    "items": [
+     {
+      "label": "co nie wyszło",
+      "v": 0.85
+     },
+     {
+      "label": "co wyszło",
+      "v": 0.3,
+      "hl": true
+     }
+    ]
+   }
+  },
+  {
+   "title": "Rozłóż go na umiejętności",
+   "body": "Rozgrzewka, słowa w głowie, reakcja po błędzie.",
+   "size": 62,
+   "viz": {
+    "type": "hub",
+    "center": "dobry mecz",
+    "icon": "star",
+    "items": [
+     "rozgrzewka",
+     "słowa w głowie",
+     "pierwsze minuty",
+     "po błędzie"
+    ],
+    "hl": -1
+   }
+  },
+  {
+   "title": "Kartka na luty",
+   "body": "Przeczytaj ją przed pierwszym sparingiem.",
+   "viz": {
+    "type": "notes",
+    "title": "NAJLEPSZY MECZ",
+    "lines": [
+     "spokojna rozgrzewka",
+     "jedno zadanie na start",
+     "szybki reset po błędzie"
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co zrobiłeś w *najlepszym* meczu?",
+  "cta": "Zapisz trzy rzeczy z tego meczu i schowaj kartkę do lutego.",
+  "art": "bubble",
+  "lh": 1.25
+ },
+ "theme": "zolty"
+}

@@ -1,0 +1,119 @@
+{
+ "cover": {
+  "big": "0",
+  "bigSize": 260,
+  "bigSub": "meczów w kalendarzu",
+  "title": "Dołek\n*po rundzie*",
+  "size": 96,
+  "lh": 1.25,
+  "vb": "0 0 900 420",
+  "layout": "big",
+  "art": {
+   "type": "scene",
+   "items": [
+    {
+     "k": "icon",
+     "name": "battery",
+     "x": 520,
+     "y": 110,
+     "s": 170,
+     "c": "A"
+    },
+    {
+     "k": "arrow",
+     "x1": 700,
+     "y1": 320,
+     "x2": 820,
+     "y2": 170,
+     "c": "fig2"
+    }
+   ]
+  }
+ },
+ "points": [
+  {
+   "title": "Napięcie puszcza",
+   "body": "Zmęczenie przykryte adrenaliną wychodzi na wierzch.",
+   "viz": {
+    "type": "chart",
+    "series": [
+     {
+      "pts": [
+       [
+        0,
+        0.72
+       ],
+       [
+        0.3,
+        0.78
+       ],
+       [
+        0.65,
+        0.8
+       ],
+       [
+        0.78,
+        0.35
+       ],
+       [
+        1,
+        0.48
+       ]
+      ],
+      "hl": true,
+      "label": "energia"
+     }
+    ],
+    "marks": [
+     {
+      "x": 0.78,
+      "y": 0.35,
+      "label": "koniec rundy",
+      "dy": 60
+     }
+    ],
+    "x": "tygodnie"
+   }
+  },
+  {
+   "title": "Masz prawo do słabszych dni",
+   "body": "Wyrzuty tylko pogłębiają dół.",
+   "size": 62,
+   "viz": {
+    "type": "bubbleSwap",
+    "from": "powinienem się cieszyć",
+    "to": "mam prawo odpocząć",
+    "toSub": "zgoda"
+   }
+  },
+  {
+   "title": "Proste rzeczy na start",
+   "body": "Sen, ruch dla przyjemności, ludzie spoza sportu.",
+   "viz": {
+    "type": "iconRow",
+    "items": [
+     {
+      "icon": "bed",
+      "label": "sen"
+     },
+     {
+      "icon": "sun",
+      "label": "ruch dla frajdy"
+     },
+     {
+      "icon": "people",
+      "label": "znajomi",
+      "hl": true
+     }
+    ]
+   }
+  }
+ ],
+ "end": {
+  "question": "Co *dziś* zrobisz tylko dla siebie?",
+  "cta": "Zaplanuj jedną miłą rzecz na każdy dzień tego tygodnia.",
+  "art": "think",
+  "lh": 1.25
+ },
+ "theme": "grafit"
+}
