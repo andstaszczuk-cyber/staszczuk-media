@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Mieliśmy być w pierwszej trójce.",
+    "*Poprawmy cel, żeby znowu nas ciągnął*."
+   ],
+   "text": "Cel *po połowie rundy*."
+  },
+  {
+   "kind": "point",
+   "title": "Cel *to drogowskaz*",
+   "body": "Można go poprawić, kiedy zmienia się teren.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "point",
+   "title": "Fakty *na start*",
+   "body": "Gdzie dziecko jest naprawdę?",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Cel *z widełkami*",
+   "body": "Minimum na słabszy dzień i maksimum na dobry.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "end",
+   "text": "Urealniony cel *dalej motywuje*.",
+   "cta": "Zapisz i porozmawiajcie przy kolacji.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

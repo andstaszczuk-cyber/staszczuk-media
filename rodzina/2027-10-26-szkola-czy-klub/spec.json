@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Szkoła chce go na zawody,\n*klub też*.",
+   "items": [
+    "porozmawiaj z trenerem",
+    "porozmawiaj z nauczycielem",
+    "zapytaj dziecko"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Dwie *drużyny*",
+   "body": "Dziecko czuje lojalność wobec obu.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Rozmowa *dorosłych*",
+   "body": "Trener i nauczyciel WF mogą się dogadać.",
+   "icon": "whistle"
+  },
+  {
+   "kind": "point",
+   "title": "Uwaga *na obciążenie*",
+   "body": "Za dużo meczów w tygodniu też ma swoją cenę.",
+   "icon": "moon"
+  },
+  {
+   "kind": "end",
+   "text": "Dziecko *nie musi wybierać samo*.",
+   "cta": "Zapisz przed sezonem zawodów szkolnych.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

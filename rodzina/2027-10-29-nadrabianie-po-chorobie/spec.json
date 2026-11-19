@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Po chorobie nadrabiamy wszystko naraz.",
+   "new": "*Najpierw jedno, potem drugie*.",
+   "text": "Szkoła i sport po przerwie."
+  },
+  {
+   "kind": "point",
+   "title": "Lista *zaległości*",
+   "body": "Spiszcie wszystko na kartce.",
+   "icon": "book"
+  },
+  {
+   "kind": "point",
+   "title": "Ustalcie *kolejność*",
+   "body": "Najpierw to, co najpilniejsze.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Spokojne *tempo*",
+   "body": "Organizm po chorobie potrzebuje czasu.",
+   "icon": "clock"
+  },
+  {
+   "kind": "end",
+   "text": "Krok po kroku *wychodzi szybciej*.",
+   "cta": "Zapisz na pierwszy tydzień po chorobie.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}

@@ -1,0 +1,36 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "versus",
+   "old": "Zimno, więc zmieniam sport.",
+   "new": "*Wycieczka czy ucieczka*?",
+   "text": "Gdy dziecko chce na halę."
+  },
+  {
+   "kind": "point",
+   "title": "Sprawdź *powód*",
+   "body": "Zimno, zmęczenie, a może kłopot w drużynie?",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja *po emocjach*",
+   "body": "Wróćcie do tematu za kilka tygodni.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Najpierw *próba*",
+   "body": "Zajęcia próbne bez rezygnacji z obecnych.",
+   "icon": "door"
+  },
+  {
+   "kind": "end",
+   "text": "Dobra zmiana *ma powód, który wytrzyma wiosnę*.",
+   "cta": "Zapisz przed rozmową o zmianie sportu.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

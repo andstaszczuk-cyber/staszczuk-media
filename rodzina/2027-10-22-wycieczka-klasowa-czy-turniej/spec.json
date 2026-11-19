@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Wycieczka klasowa\nczy *turniej*?"
+  },
+  {
+   "kind": "point",
+   "title": "Obie rzeczy *są ważne*",
+   "body": "Klasa i drużyna to dwie grupy dziecka.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Decyzja *z dzieckiem*",
+   "body": "Wypiszcie, co daje jedno i drugie.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Bez *wyrzutów*",
+   "body": "Wybór oznacza, że coś przepada.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "end",
+   "text": "Dobra decyzja *bierze pod uwagę całe dziecko*.",
+   "cta": "Zapisz przed kolejnym takim wyborem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

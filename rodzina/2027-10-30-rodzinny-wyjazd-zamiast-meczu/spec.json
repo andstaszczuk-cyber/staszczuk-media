@@ -1,0 +1,38 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "bubble",
+   "bubbles": [
+    "Wszyscy grają, a ja jadę do cioci.",
+    "*Rodzina też jest Twoją drużyną*."
+   ],
+   "text": "Długi weekend *Wszystkich Świętych*."
+  },
+  {
+   "kind": "point",
+   "title": "Żal *jest w porządku*",
+   "body": "Pozwól dziecku powiedzieć, że mu szkoda.",
+   "icon": "tear"
+  },
+  {
+   "kind": "point",
+   "title": "Uprzedź *trenera*",
+   "body": "Wcześniej, krótko i jasno.",
+   "icon": "speech"
+  },
+  {
+   "kind": "point",
+   "title": "Czas *z rodziną*",
+   "body": "Dziadkowie, kuzyni, rodzinne historie.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "end",
+   "text": "Rodzina *to też miejsce, gdzie się rośnie*.",
+   "cta": "Zapisz przed listopadowym wyjazdem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Zmiana czasu,\n*na ten tydzień*",
+   "items": [
+    "stała pora snu",
+    "światło rano",
+    "spokojne wieczory"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Rytm *się przestawia*",
+   "body": "Kilka dni rozdrażnienia to normalne.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Stała *pora snu*",
+   "body": "Także w weekend, mniej więcej o tej samej godzinie.",
+   "icon": "moon"
+  },
+  {
+   "kind": "point",
+   "title": "Więcej *cierpliwości*",
+   "body": "Krótszy lont mija po kilku dniach.",
+   "icon": "hug"
+  },
+  {
+   "kind": "end",
+   "text": "Kilka dni *i rytm wraca*.",
+   "cta": "Zapisz na tydzień po zmianie czasu.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

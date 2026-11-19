@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "list",
+   "text": "Połowa grupy nie przyszła?\n*Twoje dziecko ma*",
+   "items": [
+    "więcej piłki",
+    "więcej uwagi trenera",
+    "trening dla siebie"
+   ]
+  },
+  {
+   "kind": "point",
+   "title": "Wszyscy *tak robią*?",
+   "body": "Cudze decyzje nie muszą być Waszymi.",
+   "icon": "siblings"
+  },
+  {
+   "kind": "point",
+   "title": "Plusy *małej grupy*",
+   "body": "Więcej powtórzeń i więcej uwagi.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Dla kogo *trenuje*",
+   "body": "Dla siebie, bez względu na frekwencję.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "end",
+   "text": "Regularność *buduje przewagę*.",
+   "cta": "Zapisz na treningi z pustą salą.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

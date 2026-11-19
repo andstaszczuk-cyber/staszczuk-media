@@ -1,0 +1,34 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "marker",
+   "text": "Niektóre tygodnie\ntrzeba *po prostu przejść*."
+  },
+  {
+   "kind": "point",
+   "title": "Wszystko *naraz*",
+   "body": "Sprawdziany, mecze, katar, krótkie dni.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "point",
+   "title": "Trzy *najważniejsze rzeczy*",
+   "body": "Reszta może poczekać do kolejnego tygodnia.",
+   "icon": "kompas"
+  },
+  {
+   "kind": "point",
+   "title": "Domknięcie *w niedzielę*",
+   "body": "Pogratulujcie sobie, że daliście radę.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "end",
+   "text": "Przejść przez trudny tydzień *też jest osiągnięciem*.",
+   "cta": "Zapisz na najbardziej zakręcony tydzień.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "white"
+}

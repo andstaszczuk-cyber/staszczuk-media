@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Chce rzucić sport\n*dla nauki*.",
+   "icon": "clock"
+  },
+  {
+   "kind": "point",
+   "title": "Skąd *ta decyzja*",
+   "body": "Własna potrzeba czy presja ocen?",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Plusy *i koszty*",
+   "body": "Wypiszcie, co da i co zabierze.",
+   "icon": "loop"
+  },
+  {
+   "kind": "point",
+   "title": "Rozwiązanie *pośrednie*",
+   "body": "Mniej treningów zamiast żadnego.",
+   "icon": "calendar"
+  },
+  {
+   "kind": "end",
+   "text": "Decyzja *przemyślana razem* zostaje na dłużej.",
+   "cta": "Zapisz przed ważną rozmową z nastolatkiem.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "cream"
+}

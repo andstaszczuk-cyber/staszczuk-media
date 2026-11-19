@@ -1,0 +1,35 @@
+{
+ "slides": [
+  {
+   "kind": "cover",
+   "layout": "doodle",
+   "text": "Liczy tylko\n*swoje punkty*.",
+   "icon": "trophy"
+  },
+  {
+   "kind": "point",
+   "title": "Liczby *kuszą*",
+   "body": "Są proste i widać je od razu.",
+   "icon": "magnifier"
+  },
+  {
+   "kind": "point",
+   "title": "Co jeszcze *zauważać*",
+   "body": "Odbiory, ustawienie, pomoc koledze, powrót po błędzie.",
+   "icon": "ball"
+  },
+  {
+   "kind": "point",
+   "title": "Postęp *wobec siebie*",
+   "body": "Porównanie z sobą sprzed miesiąca.",
+   "icon": "sprout"
+  },
+  {
+   "kind": "end",
+   "text": "Najważniejsze rzeczy *rzadko trafiają do statystyk*.",
+   "cta": "Zapisz dla dziecka, które liczy każdy punkt.",
+   "icon": "heart"
+  }
+ ],
+ "bg": "khaki"
+}
