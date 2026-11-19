@@ -210,5 +210,13 @@ const S = {
     <g transform="translate(120,200)">${fig({ head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [148, 228], [150, 300]], rA: [[240, 155], [300, 210], [360, 230]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] })}</g>
     <g transform="translate(500,200)">${fig({ head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [100, 210], [-10, 232]], rA: [[240, 155], [252, 228], [250, 300]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] }, { color: Y, ref: false })}</g>
     <circle cx="487" cy="431" r="22" fill="${CR}"/>`),
+  // awaria oświetlenia: zgaszone maszty, jedna lampa ledwo się tli, sędzia czeka z zawodnikami
+  blackout: () => wrap(`<rect width="1080" height="1350" fill="#0F0D10"/>
+    ${[150, 930].map(x => `<rect x="${x - 10}" y="60" width="20" height="420" fill="#2A2124"/><rect x="${x - 70}" y="40" width="140" height="44" rx="6" fill="#2E2629"/>${[0, 1, 2].map(k => `<rect x="${x - 58 + k * 42}" y="50" width="32" height="24" rx="4" fill="#3A3034"/>`).join('')}`).join('')}
+    <circle cx="930" cy="62" r="120" fill="url(#glow)" opacity=".22"/><rect x="914" y="50" width="32" height="24" rx="4" fill="${Y}" opacity=".55"/>
+    ${stands(450)}<rect y="470" width="1080" height="880" fill="#14201A" opacity=".6"/>
+    <line x1="0" y1="610" x2="1080" y2="585" stroke="${CR}" stroke-opacity=".12" stroke-width="6"/>
+    ${adult(60, 250, 0.8, STAND, { color: Y, op: .35 })}${adult(760, 260, 0.78, STAND, { color: Y, op: .3 })}
+    <g transform="translate(340,180) scale(1.02)">${fig({ head: [200, 80], sh: [200, 150], hip: [200, 300], lA: [[160, 155], [148, 228], [150, 300]], rA: [[240, 155], [262, 228], [252, 300]], lL: [[185, 305], [180, 400], [176, 495]], rL: [[215, 305], [220, 400], [224, 495]] })}</g>`),
 };
 module.exports = { scene: (n) => S[n](), names: Object.keys(S) };
