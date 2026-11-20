@@ -206,5 +206,5 @@ Object.assign(L, {
     <div class="narrow" style="position:absolute;left:530px;right:56px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center">${kick()}<div style="height:22px"></div>${H1('font-size:' + Math.round(hs * (FT.fam === 'Play' ? 1 : .8)) + 'px')}<div style="height:40px"></div>${B1()}</div>`,
 });
 if (!L[spec.layout]) throw new Error('Nieznany layout ' + spec.layout);
-const html = `<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head><body>${L[spec.layout]()}${ctaHtml()}${spec.palette === 'cream' ? '<div style="position:absolute;left:0;right:0;top:0;height:230px;background:linear-gradient(180deg,rgba(0,0,0,.28),rgba(0,0,0,0));z-index:30"></div>' : ''}</body></html>`;
+const html = `<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head><body>${L[spec.layout]()}${ctaHtml()}${spec.showHandle ? `<div style="position:absolute;left:0;right:0;bottom:80px;text-align:center;font-family:Pop;font-weight:600;font-size:30px;letter-spacing:.12em;color:${P.ink};opacity:.7;z-index:40">${HANDLE}</div>` : ''}${spec.palette === 'cream' ? '<div style="position:absolute;left:0;right:0;top:0;height:230px;background:linear-gradient(180deg,rgba(0,0,0,.28),rgba(0,0,0,0));z-index:30"></div>' : ''}</body></html>`;
 render(html, out, W, H).then(() => console.log('ok', out));
