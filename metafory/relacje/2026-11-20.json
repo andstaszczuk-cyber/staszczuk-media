@@ -1,0 +1,10 @@
+{
+ "layout": "G7",
+ "svg": "<g fill='none' stroke='{soft}' stroke-width='22' stroke-linecap='round'><path d='M90 300H520C640 300 650 170 560 170'/><path d='M60 480H430C560 480 590 640 480 640'/><path d='M140 700H620C730 700 740 820 650 820'/><path d='M120 160H300'/></g><circle cx='760' cy='470' r='190' fill='{bg2}' stroke='{soft}' stroke-width='14'/><circle cx='760' cy='470' r='120' fill='none' stroke='{ink}' stroke-width='14'/><circle cx='760' cy='470' r='58' fill='{acc}'/>",
+ "palette": "red",
+ "font": "anton",
+ "tilt": 2,
+ "kicker": "opinie innych",
+ "headline": "Opinie jak *wiatr*",
+ "body": "Są dookoła i nie możesz ich wyłączyć. Zaakceptuj, że wieją, i *skup się na swoim zadaniu.*"
+}

@@ -687,7 +687,7 @@
   "ocena": 3,
   "tekst": "Nie jesteś odpowiedzialny za emocje drugiej osoby. Jej humor może w ogóle nie być związany z tobą.",
   "zrodlo": "bank",
-  "uzyta": null
+  "uzyta": "2026-11-20"
  },
  {
   "id": 9,
@@ -13017,6 +13017,36 @@
   "ocena": null,
   "tekst": "Ustaw telefon na statywie i nagraj trening. Potem wytnij momenty, w których zrobiłeś coś bardzo dobrze, i je sobie oglądaj. To są twoje dowody, że potrafisz.",
   "zrodlo": "zoom 2026-11-18",
+  "uzyta": null
+ },
+ {
+  "id": 1306,
+  "nr_banku": null,
+  "temat": "dowody i działanie",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Prowadzisz i nagle zaczynasz się tylko bronić. A to właśnie atak i twoja inicjatywa doprowadziły cię do prowadzenia. Zostań przy tym, co ci dotąd działało.",
+  "zrodlo": "zoom 2026-11-19",
+  "uzyta": null
+ },
+ {
+  "id": 1307,
+  "nr_banku": null,
+  "temat": "pewność w trakcie walki",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "W trakcie pojedynku ciosy, które dostajesz, wydają ci się dużo większe, a te, które zadajesz, dużo mniejsze. Dlatego nie oceniaj walki w jej trakcie. Skup się na tym, co masz do zrobienia.",
+  "zrodlo": "zoom 2026-11-19",
+  "uzyta": null
+ },
+ {
+  "id": 1308,
+  "nr_banku": null,
+  "temat": "układ nerwowy",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Każdy ma trochę inny układ nerwowy, więc to, co działa na jedną osobę, drugiej może nie pasować. Co ty wiesz o swoim?",
+  "zrodlo": "zoom 2026-11-19",
   "uzyta": null
  }
 ]

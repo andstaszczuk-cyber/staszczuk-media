@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-11-19T09:45:00Z",
+ "ostatnio_do": "2026-11-20T10:00:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -568,6 +568,46 @@
    "dodano_mysli": 0,
    "dodano_metafor": 0,
    "status": "pominięte"
+  },
+  {
+   "uuid": "53FFED7E-7303-4D0E-ADDC-C0391ECEC9D0",
+   "data": "2026-11-19",
+   "temat": "pierwsze spotkanie (wstęp, bez nowych myśli)",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "A473C175-EF76-4067-9742-50BC4BE60755",
+   "data": "2026-11-19",
+   "temat": "sesja z zawodnikiem (koszykarz, wątki zbyt identyfikujące)",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "16B138A7-B5AF-45AE-816F-00BA01B735A2",
+   "data": "2026-11-19",
+   "temat": "sesja z klientem (bez nowych myśli)",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "45424546-7C00-48B6-AF50-2FEAE69A0FD2",
+   "data": "2026-11-19",
+   "temat": "sesja z zawodnikiem (walka)",
+   "dodano_mysli": 3,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "96EE5FD5-92A8-415C-8810-4CE6CECF3013",
+   "data": "2026-11-20",
+   "temat": "sesja z zawodniczką (bez nowych myśli)",
+   "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
   }
  ]
 }

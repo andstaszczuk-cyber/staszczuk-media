@@ -358,5 +358,19 @@
   "godzina": "12:30",
   "metricool_id": 433984670,
   "metricool_uuid": "-5174641758617188158"
+ },
+ {
+  "data": "2026-11-20",
+  "id": 8,
+  "zrodlo": "bank",
+  "layout": "L10",
+  "photo": "metafory/zdjecia/9511_kolor.jpg",
+  "palette": "mono",
+  "font": "bebas",
+  "focus": 35,
+  "tilt": -2,
+  "godzina": "12:30",
+  "spec": "metafory/teksty/2026-11-20.json",
+  "png": "metafory/teksty/2026-11-20.png"
  }
 ]
