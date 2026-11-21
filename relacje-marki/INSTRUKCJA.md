@@ -23,6 +23,7 @@ Andrzej zatwierdził próbkę 20.11.2026. Każda marka ma codziennie DWIE relacj
 - Zakazane: konstrukcje X, a nie Y; nie X, tylko Y; Nie X. Y; X, nie Y. Cudzysłowy, hashtagi, emoji, linki, dane zawodników. Po dwukropku mała litera.
 - Temat każdej relacji inny niż wszystkie wcześniejsze relacje tej marki (log niżej) i inny niż karuzela tej marki z tego samego dnia (foldery sedzia/RRRR-MM-DD-*, rodzina/..., psychologsportowy/..., madry/plan.json). Może nawiązywać do pory roku i kalendarza (święta, ferie, sezon). Dzień tygodnia w tekście zgodny z datą.
 - Historie o Andrzeju tylko te ze skilla.
+- Otwarcia (zasada z 21.11.2026): Nie zaczynaj od Wyobraź sobie. To samo otwarcie (2-3 pierwsze słowa) najwyżej raz na 10 kolejnych postów marki; sprawdź otwarcia ostatnich 10 postów przed pisaniem.
 
 ## Pliki i log
 - Folder: relacje-marki/<marka>/RRRR-MM-DD-0900.json|png i -1930.json|png.
