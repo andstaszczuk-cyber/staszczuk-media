@@ -717,7 +717,7 @@
   "ocena": 3,
   "tekst": "Pojawia się stres przed startem? Mów sobie: świetnie, moje ciało przygotowuje się, aby dać z siebie wszystko.",
   "zrodlo": "bank",
-  "uzyta": null
+  "uzyta": "2026-11-22"
  },
  {
   "id": 12,
@@ -13047,6 +13047,36 @@
   "ocena": null,
   "tekst": "Każdy ma trochę inny układ nerwowy, więc to, co działa na jedną osobę, drugiej może nie pasować. Co ty wiesz o swoim?",
   "zrodlo": "zoom 2026-11-19",
+  "uzyta": null
+ },
+ {
+  "id": 1309,
+  "nr_banku": null,
+  "temat": "regeneracja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Siły nie da się wyczarować. Żeby się uczyć albo grać, potrzebujesz zasobów, a one powstają z odpoczynku. Dopóki go sobie nie dasz, organizm nie ma z czego ich wziąć.",
+  "zrodlo": "zoom 2026-11-21",
+  "uzyta": null
+ },
+ {
+  "id": 1310,
+  "nr_banku": null,
+  "temat": "myśli i koncentracja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Myśl jest niepotrzebna, ale się pojawia, bo tak działa mózg. Ty możesz kierować uwagą. Wpadła myśl? Spoko. Patrzę przed siebie i robię swoje zadanie.",
+  "zrodlo": "zoom 2026-11-21",
+  "uzyta": null
+ },
+ {
+  "id": 1311,
+  "nr_banku": null,
+  "temat": "emocje i myśli",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Wolę słowa zrozumieć i oswoić niż przezwyciężyć. Przezwyciężać to toczyć spór ze sobą, a w takim sporze ktoś musi przegrać.",
+  "zrodlo": "zoom 2026-11-21",
   "uzyta": null
  }
 ]

@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-11-21T09:45:00Z",
+ "ostatnio_do": "2026-11-22T09:45:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -606,6 +606,22 @@
    "data": "2026-11-20",
    "temat": "sesja z zawodniczką (bez nowych myśli)",
    "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "270AD28F-0711-414E-AF6B-5C8F9A275BAD",
+   "data": "2026-11-21",
+   "temat": "sesja z zawodniczką",
+   "dodano_mysli": 2,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "3E39BFE8-BD82-4012-941F-3BEB4846B773",
+   "data": "2026-11-21",
+   "temat": "sesja z zawodnikiem",
+   "dodano_mysli": 1,
    "dodano_metafor": 0,
    "status": "przetworzone"
   }
