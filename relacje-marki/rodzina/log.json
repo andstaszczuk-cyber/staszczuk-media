@@ -706,5 +706,29 @@
   "art": "target",
   "metricool_id": 437056198,
   "uuid": "828329625645434924"
+ },
+ {
+  "data": "2026-12-20",
+  "godzina": "09:00",
+  "kicker": "gry planszowe",
+  "headline": "Planszówka uczy *przegrywać*",
+  "layout": "G1",
+  "palette": "r_khaki",
+  "font": "bebas",
+  "art": "compass",
+  "metricool_id": 438010131,
+  "uuid": "9152038888257768241"
+ },
+ {
+  "data": "2026-12-20",
+  "godzina": "19:30",
+  "kicker": "prezenty",
+  "headline": "Prezent *spoza sportu*",
+  "layout": "G8",
+  "palette": "r_cream",
+  "font": "raj",
+  "art": "bubbles",
+  "metricool_id": 438010146,
+  "uuid": "2456678902323169558"
  }
 ]

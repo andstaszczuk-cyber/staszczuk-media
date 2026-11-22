@@ -706,5 +706,29 @@
   "art": "pulse",
   "metricool_id": 437056274,
   "uuid": "-7892401479766160967"
+ },
+ {
+  "data": "2026-12-20",
+  "godzina": "09:00",
+  "kicker": "sprzęt",
+  "headline": "Wypierz *sprzęt* przed przerwą",
+  "layout": "G8",
+  "palette": "m_jasny",
+  "font": "anton",
+  "art": "battery",
+  "metricool_id": 438010215,
+  "uuid": "-8475631219227015456"
+ },
+ {
+  "data": "2026-12-20",
+  "godzina": "19:30",
+  "kicker": "taniec",
+  "headline": "Zatańcz *w kuchni*",
+  "layout": "G3",
+  "palette": "m_roz",
+  "font": "raj",
+  "art": "waves",
+  "metricool_id": 438010229,
+  "uuid": "4629772397727596768"
  }
 ]

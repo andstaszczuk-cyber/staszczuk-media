@@ -706,5 +706,29 @@
   "art": "waves",
   "metricool_id": 437056231,
   "uuid": "4293439538270389308"
+ },
+ {
+  "data": "2026-12-20",
+  "godzina": "09:00",
+  "kicker": "podziękowania",
+  "headline": "Komu *zawdzięczasz* ten rok?",
+  "layout": "G1",
+  "palette": "p_grafit",
+  "font": "anton",
+  "art": "mirror",
+  "metricool_id": 438010172,
+  "uuid": "-2967311050447959386"
+ },
+ {
+  "data": "2026-12-20",
+  "godzina": "19:30",
+  "kicker": "po przerwie",
+  "headline": "Pierwszy trening *po świętach*",
+  "layout": "G6",
+  "palette": "p_zolty",
+  "font": "playfair",
+  "art": "stairs",
+  "metricool_id": 438010194,
+  "uuid": "7295541285145824987"
  }
 ]
