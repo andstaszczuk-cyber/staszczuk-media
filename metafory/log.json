@@ -392,5 +392,18 @@
   "png": "metafory/relacje/2026-11-22.png",
   "metricool_id": 437408613,
   "metricool_uuid": "-8852634818297051680"
+ },
+ {
+  "data": "2026-11-23",
+  "id": 20,
+  "layout": "G2",
+  "photo": "svg:km droga",
+  "palette": "red",
+  "font": "raj",
+  "focus": null,
+  "tilt": -2,
+  "godzina": "19:30",
+  "spec": "metafory/relacje/2026-11-23.json",
+  "png": "metafory/relacje/2026-11-23.png"
  }
 ]

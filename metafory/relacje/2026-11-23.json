@@ -1,0 +1,10 @@
+{
+ "layout": "G2",
+ "svg": "<path d='M300 1000 C300 820 700 820 650 650 C600 480 330 500 400 330 C450 210 600 190 600 120' fill='none' stroke='{soft}' stroke-width='90' stroke-linecap='round'/><path d='M300 1000 C300 820 700 820 650 650 C600 480 330 500 400 330 C450 210 600 190 600 120' fill='none' stroke='{bg2}' stroke-width='10' stroke-dasharray='40 36' stroke-linecap='round'/><g fill='{ink}'><circle cx='418' cy='330' r='16'/><circle cx='560' cy='190' r='12'/><circle cx='598' cy='130' r='9'/></g><circle cx='650' cy='650' r='52' fill='{acc}'/><circle cx='650' cy='650' r='92' fill='none' stroke='{acc}' stroke-width='14' opacity='.6'/><circle cx='430' cy='880' r='24' fill='{ink}'/>",
+ "palette": "red",
+ "font": "raj",
+ "tilt": -2,
+ "kicker": "słoń po kawałku",
+ "headline": "Najbliższy *kilometr*",
+ "body": "Gdy przed maratonem myślisz o całych 42 kilometrach, odechciewa się biec. Pomyśl o najbliższym kilometrze, bo *słonia je się po kawałku.*"
+}

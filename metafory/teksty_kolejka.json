@@ -247,7 +247,7 @@
   "ocena": null,
   "tekst": "Mózg ma ograniczoną wydolność. Przewagę zrobią ci zawodnicy, którzy potrafią zmniejszyć liczbę bodźców wokół siebie.",
   "zrodlo": "zoom 2026-10-30",
-  "uzyta": null
+  "uzyta": "2026-11-23"
  },
  {
   "id": 1267,
@@ -13077,6 +13077,16 @@
   "ocena": null,
   "tekst": "Wolę słowa zrozumieć i oswoić niż przezwyciężyć. Przezwyciężać to toczyć spór ze sobą, a w takim sporze ktoś musi przegrać.",
   "zrodlo": "zoom 2026-11-21",
+  "uzyta": null
+ },
+ {
+  "id": 1312,
+  "nr_banku": null,
+  "temat": "stres i presja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Jeśli przed meczem uznajesz, że rywale są dużo słabsi, to ciało się nie mobilizuje, a gdy coś pójdzie nie po twojej myśli, stres wchodzi gwałtownie. Uznaj mecz za okazję, żeby sprawdzić swoje umiejętności.",
+  "zrodlo": "zoom 2026-11-23",
   "uzyta": null
  }
 ]

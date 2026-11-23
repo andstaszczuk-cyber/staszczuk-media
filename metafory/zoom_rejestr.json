@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-11-22T09:45:00Z",
+ "ostatnio_do": "2026-11-23T09:00:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -620,6 +620,14 @@
   {
    "uuid": "3E39BFE8-BD82-4012-941F-3BEB4846B773",
    "data": "2026-11-21",
+   "temat": "sesja z zawodnikiem",
+   "dodano_mysli": 1,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "8572CE1B-B003-4874-8E3D-2E5703AD1134",
+   "data": "2026-11-23",
    "temat": "sesja z zawodnikiem",
    "dodano_mysli": 1,
    "dodano_metafor": 0,
