@@ -356,5 +356,20 @@
   "godzina": "17:00",
   "metricool_id": 433984687,
   "metricool_uuid": "6708181970436833509"
+ },
+ {
+  "data": "2026-11-24",
+  "url": "https://andrzejstaszczuk.pl/2026/10/12/perfekcjonizm-w-sporcie-sila-napedowa-czy-hamulec/",
+  "tytul_wpisu": "Perfekcjonizm w sporcie: siła napędowa czy hamulec?",
+  "headline": "Ciągle *za mało* dobrze? Zobacz, co z tym zrobić.",
+  "layout": "G3",
+  "photo": "art:mirror",
+  "palette": "red",
+  "font": "bebas",
+  "focus": null,
+  "tilt": 2,
+  "godzina": "17:00",
+  "spec": "metafory/blog/2026-11-24.json",
+  "png": "metafory/blog/2026-11-24.png"
  }
 ]

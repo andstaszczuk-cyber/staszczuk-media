@@ -697,7 +697,7 @@
   "ocena": 3,
   "tekst": "Nigdy nie pozwól, żeby stół twojego życia opierał się na mniej niż trzech nogach.",
   "zrodlo": "bank",
-  "uzyta": null
+  "uzyta": "2026-11-24"
  },
  {
   "id": 10,
@@ -13086,6 +13086,46 @@
   "typ": "zdanie",
   "ocena": null,
   "tekst": "Jeśli przed meczem uznajesz, że rywale są dużo słabsi, to ciało się nie mobilizuje, a gdy coś pójdzie nie po twojej myśli, stres wchodzi gwałtownie. Uznaj mecz za okazję, żeby sprawdzić swoje umiejętności.",
+  "zrodlo": "zoom 2026-11-23",
+  "uzyta": null
+ },
+ {
+  "id": 1313,
+  "nr_banku": null,
+  "temat": "koncentracja i uwaga",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Wysoką koncentrację uruchamiasz dopiero na 5–10 minut przed startem. Wcześniej nie ma takiej potrzeby, więc nie zmuszaj się do skupienia na cały dzień.",
+  "zrodlo": "zoom 2026-11-23",
+  "uzyta": null
+ },
+ {
+  "id": 1314,
+  "nr_banku": null,
+  "temat": "regeneracja i sen",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Przewagę w sporcie będą mieć ci, którzy potrafią zarządzać swoim otoczeniem: pójść na spacer i zresetować głowę zamiast scrollować telefon.",
+  "zrodlo": "zoom 2026-11-23",
+  "uzyta": null
+ },
+ {
+  "id": 1315,
+  "nr_banku": null,
+  "temat": "stres i presja",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Gdy myślisz, że powinno pójść łatwo, a nie idzie, pojawia się frustracja. Problemem nie jest zadanie, tylko oczekiwanie, które nie zgadza się z rzeczywistością.",
+  "zrodlo": "zoom 2026-11-23",
+  "uzyta": null
+ },
+ {
+  "id": 1316,
+  "nr_banku": null,
+  "temat": "pewność siebie",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Kiedy w nocy się obudzisz, powiedz sobie: ufam sobie, jest w porządku. To taka przytulaska od samego siebie.",
   "zrodlo": "zoom 2026-11-23",
   "uzyta": null
  }

@@ -1,0 +1,10 @@
+{
+ "layout": "G6",
+ "svg": "<rect x='40' y='700' width='560' height='18' rx='9' fill='{soft}'/><rect x='90' y='500' width='40' height='200' fill='{ink}'/><rect x='290' y='500' width='40' height='200' fill='{ink}'/><rect x='490' y='500' width='40' height='200' fill='{ink}'/><rect x='60' y='450' width='500' height='56' rx='12' fill='{acc}'/><circle cx='190' cy='400' r='50' fill='{ink}'/><circle cx='430' cy='415' r='35' fill='{dark}'/>",
+ "palette": "cream",
+ "font": "raj",
+ "tilt": -2,
+ "kicker": "stabilność",
+ "headline": "Stół na *nogach*",
+ "body": "Nigdy nie pozwól, żeby stół twojego życia stał na mniej niż trzech nogach. *Sport to jedna z nich, a gdy się chwieje, reszta ma cię utrzymać.*"
+}
