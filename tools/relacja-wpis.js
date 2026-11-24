@@ -22,8 +22,8 @@ body{width:1080px;height:1920px;overflow:hidden;font-family:Pop;color:#fff;backg
   <div style="margin-top:36px;font:600 40px/1.35 Pop;color:rgba(255,255,255,.9)">${esc(o.sub)}</div>
 </div>
 <div style="position:absolute;left:100px;right:100px;top:${o.itemsTop || 930}px;background:rgba(20,22,28,.55);border-radius:32px;padding:50px 50px">${items}</div>
-<div style="position:absolute;left:100px;right:100px;bottom:250px;text-align:center;font:800 42px Pop">${esc(o.cta)}</div>
-<svg style="position:absolute;left:510px;bottom:180px" width="60" height="60" viewBox="0 0 24 24"><path d="M12 4v15M5 13l7 7 7-7" stroke="${Y}" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<div style="position:absolute;left:100px;right:100px;bottom:${o.ctaBottom||250}px;text-align:center;font:800 42px Pop">${esc(o.cta)}</div>
+<svg style="position:absolute;left:510px;bottom:${(o.ctaBottom||250)-70}px" width="60" height="60" viewBox="0 0 24 24"><path d="M12 4v15M5 13l7 7 7-7" stroke="${Y}" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
 <div style="position:absolute;left:0;right:0;bottom:90px;text-align:center;font:700 30px Pop;letter-spacing:6px;opacity:.9">@PSYCHOLOGSPORTU</div>
 </body></html>`;
 render(html, process.argv[3], 1080, 1920).then(() => console.log('ok'));
