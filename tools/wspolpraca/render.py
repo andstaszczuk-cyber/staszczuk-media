@@ -54,6 +54,18 @@ def ic_compass(c):
     c.set_source_rgb(*YEL); c.move_to(0,-52); c.line_to(16,0); c.line_to(-16,0); c.close_path(); c.fill()
     st(c,WH,6); c.move_to(0,52); c.line_to(16,0); c.line_to(-16,0); c.close_path(); c.stroke()
 ICONS=[ic_hand,ic_target,ic_cal,ic_phone]
+# warianty okładki, ostatniego slajdu i relacji na kolejne miesiące (fakty w krokach bez zmian)
+EDITIONS={
+ '2026-11':dict(tagr='KROK PO KROKU',cover=[[('Jak wygląda',WH)],[('współpraca',YEL)],[('ze mną?',WH)]],sub='Bez czarów. Krok po kroku.',
+   lasttag='UCZCIWIE',lastH=[[('Nie obiecuję wyniku.',WH)],[('Obiecuję ',WH),('pracę.',YEL)]],
+   lastB='Gwarancji wyniku nie da ci nikt uczciwy. Mogę dać ci narzędzia i towarzyszyć ci w drodze, a robotę zrobisz ty.',btn='Umów sesję zero: link w bio',
+   st_head=[[('Jak wygląda',WH)],[('współpraca',YEL)],[('ze mną?',WH)]],st_end='Nie obiecuję wyniku. Obiecuję pracę.'),
+ '2026-12':dict(tagr='PIERWSZE SPOTKANIE',cover=[[('Co się dzieje',WH)],[('na pierwszym',WH)],[('spotkaniu?',YEL)]],sub='Bez niespodzianek.',
+   lasttag='NA KONIEC',lastH=[[('Wyniku nie obiecam.',WH)],[('Pracę ',YEL),('zrobimy.',WH)]],
+   lastB='Kto obiecuje gwarancję, mija się z prawdą. Dostajesz ode mnie narzędzia i kogoś, kto idzie obok, a robotę wykonujesz ty.',btn='Umów bezpłatną sesję zero: link w bio',
+   st_head=[[('Co się dzieje',WH)],[('na pierwszym',YEL)],[('spotkaniu?',WH)]],st_end='Wyniku nie obiecam. Pracę zrobimy.'),
+}
+ED=EDITIONS[sys.argv[2]] if len(sys.argv)>2 else EDITIONS['2026-11']
 STEPS=[('Sesja zero','Bezpłatna. Poznajemy się i sprawdzamy, czy jest między nami zaufanie. Bez niego tylko ślizgamy się po powierzchni.'),
  ('Twój problem, nie teoria','Od razu bierzemy to, z czym przychodzisz: stres przed startem, błąd, który wraca, forma, która znika na zawodach.'),
  ('Spotkania co dwa tygodnie','Po imieniu i bez tabu. W sporcie dużo się dzieje, dlatego nie widzimy się rzadziej niż co dwa tygodnie.'),
@@ -61,10 +73,10 @@ STEPS=[('Sesja zero','Bezpłatna. Poznajemy się i sprawdzamy, czy jest między 
 def carousel(out):
     W,H=1080,1350; n=6
     def new(): s=cairo.ImageSurface(cairo.FORMAT_RGB24,W,H); c=cairo.Context(s); bg(c,W,H); return s,c
-    s,c=new(); tag(c,'WSPÓŁPRACA','KROK PO KROKU',W)
+    s,c=new(); tag(c,'WSPÓŁPRACA',ED['tagr'],W)
     c.save(); c.translate(W/2,470); c.scale(1.6,1.6); ic_compass(c); c.restore()
-    segs(c,[[('Jak wygląda',WH)],[('współpraca',YEL)],[('ze mną?',WH)]],90,830,110)
-    F(c,40,False); c.set_source_rgba(1,1,1,.85); c.move_to(90,1150); c.show_text('Bez czarów. Krok po kroku.')
+    segs(c,ED['cover'],90,830,110)
+    F(c,40,False); c.set_source_rgba(1,1,1,.85); c.move_to(90,1150); c.show_text(ED['sub'])
     F(c,28); c.set_source_rgb(*YEL); t='przesuń →'; c.move_to(W-90-c.text_extents(t)[4],1150); c.show_text(t)
     logo(c,90,H-118,1.6); F(c,24,False); c.set_source_rgba(1,1,1,.8); c.move_to(140,H-84); c.show_text('@psychologsportu'); s.write_to_png(f'{out}/1.png')
     for i,((h,d),ic) in enumerate(zip(STEPS,ICONS)):
@@ -77,24 +89,24 @@ def carousel(out):
         c.set_source_rgb(*YEL); c.rectangle(90,880 if tw>W-180 else 820,80,6); c.fill()
         wrap(c,d,90,(960 if tw>W-180 else 900),W-180,40,WH,a=.92)
         footer(c,W,H,i+2,n); s.write_to_png(f'{out}/{i+2}.png')
-    s,c=new(); tag(c,'UCZCIWIE','WSPÓŁPRACA',W)
-    segs(c,[[('Nie obiecuję wyniku.',WH)],[('Obiecuję ',WH),('pracę.',YEL)]],90,340,84)
-    wrap(c,'Gwarancji wyniku nie da ci nikt uczciwy. Mogę dać ci narzędzia i towarzyszyć ci w drodze, a robotę zrobisz ty.',90,560,W-180,40,WH,a=.92)
+    s,c=new(); tag(c,ED['lasttag'],'WSPÓŁPRACA',W)
+    segs(c,ED['lastH'],90,340,84)
+    wrap(c,ED['lastB'],90,560,W-180,40,WH,a=.92)
     wrap(c,'To nie psychoterapia. To trening głowy w sporcie.',90,820,W-180,40,YEL,black=True)
     c.set_source_rgb(1,1,1); r=40; x,y,w,h=90,980,W-180,120
     c.new_path(); c.arc(x+w-r,y+r,r,-math.pi/2,0); c.arc(x+w-r,y+h-r,r,0,math.pi/2); c.arc(x+r,y+h-r,r,math.pi/2,math.pi); c.arc(x+r,y+r,r,math.pi,1.5*math.pi); c.close_path(); c.fill()
-    F(c,40); c.set_source_rgb(0xA8/255,0x22/255,0x2E/255); t='Umów sesję zero: link w bio'; c.move_to(W/2-c.text_extents(t)[4]/2,1053); c.show_text(t)
+    F(c,40); c.set_source_rgb(0xA8/255,0x22/255,0x2E/255); t=ED['btn']; c.move_to(W/2-c.text_extents(t)[4]/2,1053); c.show_text(t)
     footer(c,W,H,6,n); s.write_to_png(f'{out}/6.png')
 def story(out):
     W,H=1080,1920; s=cairo.ImageSurface(cairo.FORMAT_RGB24,W,H); c=cairo.Context(s); bg(c,W,H)
     tag(c,'WSPÓŁPRACA','JAK TO WYGLĄDA',W,230)
-    segs(c,[[('Jak wygląda',WH)],[('współpraca',YEL)],[('ze mną?',WH)]],90,400,96)
+    segs(c,ED['st_head'],90,400,96)
     short=['Bezpłatna sesja zero: poznajemy się.','Bierzemy twój problem, nie teorię.','Spotkania co dwa tygodnie, bez tabu.','Zadania i aplikacja między spotkaniami.']
     for i,(t,ic) in enumerate(zip(short,ICONS)):
         y=760+i*190; c.set_source_rgb(*INK); c.arc(170,y,70,0,2*math.pi); c.fill()
         c.save(); c.translate(170,y); c.scale(.55,.55); ic(c); c.restore()
         F(c,22); spaced(c,f'KROK {i+1}',280,y-22,4,YEL); wrap(c,t,280,y+26,W-370,38,WH,black=True)
-    F(c,40); c.set_source_rgb(*WH); c.move_to(90,1580); c.show_text('Nie obiecuję wyniku. Obiecuję pracę.')
+    F(c,40); c.set_source_rgb(*WH); c.move_to(90,1580); c.show_text(ED['st_end'])
     F(c,30,False); c.set_source_rgba(1,1,1,.85); c.move_to(90,1640); c.show_text('Sesję zero umówisz przez link w bio.')
     logo(c,W/2-22,1720,1.8); s.write_to_png(f'{out}/relacja.png')
-import os; os.makedirs('out',exist_ok=True); carousel('out'); story('out')
+import os; OUT=sys.argv[1] if len(sys.argv)>1 else 'out'; os.makedirs(OUT,exist_ok=True); carousel(OUT); story(OUT)
