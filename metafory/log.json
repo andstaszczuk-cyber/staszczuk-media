@@ -422,5 +422,18 @@
   "png": "metafory/relacje/2026-11-24.png",
   "metricool_id": 440020128,
   "metricool_uuid": "521650146919927283"
+ },
+ {
+  "data": "2026-11-25",
+  "id": 22,
+  "layout": "G4",
+  "photo": "svg:mecz i zagranie",
+  "palette": "red",
+  "font": "playfair",
+  "focus": null,
+  "tilt": -2,
+  "godzina": "19:30",
+  "spec": "metafory/relacje/2026-11-25.json",
+  "png": "metafory/relacje/2026-11-25.png"
  }
 ]

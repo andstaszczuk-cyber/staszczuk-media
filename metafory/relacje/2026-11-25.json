@@ -1,0 +1,10 @@
+{
+ "layout": "G4",
+ "svg": "<rect x='60' y='380' width='880' height='240' rx='120' fill='{soft}'/><g fill='{dark}'><circle cx='160' cy='500' r='34'/><circle cx='240' cy='500' r='34'/><circle cx='320' cy='500' r='34'/><circle cx='400' cy='500' r='34'/><circle cx='660' cy='500' r='34'/><circle cx='740' cy='500' r='34'/><circle cx='820' cy='500' r='34'/></g><circle cx='530' cy='500' r='46' fill='{acc}'/><circle cx='530' cy='500' r='68' fill='none' stroke='{acc}' stroke-width='10' opacity='.55'/><path d='M120 740 L880 740' stroke='{bg2}' stroke-width='10' stroke-dasharray='36 30' stroke-linecap='round'/><path d='M840 700 L890 740 L840 780' fill='none' stroke='{bg2}' stroke-width='10' stroke-linecap='round' stroke-linejoin='round'/>",
+ "palette": "red",
+ "font": "playfair",
+ "tilt": -2,
+ "kicker": "po pierwszym błędzie",
+ "headline": "Jedno *zagranie*",
+ "body": "Pierwsze kiepskie zagranie i od razu myślisz, że już po meczu? Jedno słabe zagranie to jeszcze nie przegrany mecz. *Chyba że sam sobie tak powiesz.*"
+}

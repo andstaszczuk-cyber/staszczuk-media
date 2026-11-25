@@ -257,7 +257,7 @@
   "ocena": null,
   "tekst": "Nie musisz myśleć o zawodach bez przerwy. Wchodzisz, robisz swoją robotę, a poza tym zajmujesz się czymś zupełnie innym. Genialne rozmyślania i tak nie przyjdą.",
   "zrodlo": "zoom 2026-10-30",
-  "uzyta": null
+  "uzyta": "2026-11-25"
  },
  {
   "id": 1268,
@@ -13127,6 +13127,36 @@
   "ocena": null,
   "tekst": "Kiedy w nocy się obudzisz, powiedz sobie: ufam sobie, jest w porządku. To taka przytulaska od samego siebie.",
   "zrodlo": "zoom 2026-11-23",
+  "uzyta": null
+ },
+ {
+  "id": 1317,
+  "nr_banku": null,
+  "temat": "kontrola i wpływ",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Kiedy chcesz kogoś zmienić, zwykle tylko mocniej utwierdza się w swoim zdaniu. Dlatego częściej działa podejście pośrednie niż wprost.",
+  "zrodlo": "zoom 2026-11-24",
+  "uzyta": null
+ },
+ {
+  "id": 1318,
+  "nr_banku": null,
+  "temat": "kariera i decyzje",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Ludzie często nie wiedzą, skąd coś się bierze, i wtedy mówią: na pewno głowa. Uczciwiej jest przyznać, że czasem po prostu nie wiemy.",
+  "zrodlo": "zoom 2026-11-24",
+  "uzyta": null
+ },
+ {
+  "id": 1319,
+  "nr_banku": null,
+  "temat": "kariera i decyzje",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "W każdym zawodzie są rzeczy nieprzyjemne. Pytanie, czy masz w sobie tyle energii i sensu, żeby przez nie przejść.",
+  "zrodlo": "zoom 2026-11-24",
   "uzyta": null
  }
 ]

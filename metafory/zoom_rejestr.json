@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-11-24T09:00:00Z",
+ "ostatnio_do": "2026-11-25T09:45:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -653,6 +653,22 @@
    "uuid": "913146F0-63FB-4F9E-9758-F67F6B18C3D8",
    "data": "2026-11-23",
    "temat": "konsultacja wstępna z zawodnikiem",
+   "dodano_mysli": 2,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "C7C7C994-7336-4F5E-93DB-9631327D8E08",
+   "data": "2026-11-24",
+   "temat": "pierwsze spotkanie z zawodnikiem",
+   "dodano_mysli": 1,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "333A008E-613D-481F-84EB-4016F4B3D209",
+   "data": "2026-11-24",
+   "temat": "rozmowa o drodze zawodowej (bez zawodnika w sensie sportowym)",
    "dodano_mysli": 2,
    "dodano_metafor": 0,
    "status": "przetworzone"
