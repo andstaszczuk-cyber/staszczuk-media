@@ -7,3 +7,4 @@
 - 26.11.2026 (telefon): na dole napis z adresem: sprawdź na andrzejstaszczuk.pl/blog (nad miejscem na naklejkę); tytuł może kończyć się wielokropkiem.
 - 26.11.2026: te zasady obowiązują w każdej nowej relacji z bloga. Gdy tytuł ma 4 linijki, przesuń listę niżej (itemsTop 880, ctaBottom 420), żeby nic na siebie nie nachodziło.
 - 26.11.2026: pod adresem bloga zawsze drugi wiersz (cta2, żółty): Nie masz siły wpisać w przeglądarkę? To jak masz mieć siłę na zmianę? Napis na dole niżej (ctaBottom ok. 380, przy 4-linijkowym tytule 330), żeby nie nachodził na listę.
+- 26.11.2026: dół relacji estetyczniej: najpierw pytanie (pierwsze zdanie białe, drugie żółte), pod nim żółta pigułka z adresem: sprawdź na andrzejstaszczuk.pl/blog (adres pogrubiony). ctaBottom ok. 340 (przy dłuższej liście 290–300); między pigułką a podpisem @PSYCHOLOGSPORTU miejsce na naklejkę.
