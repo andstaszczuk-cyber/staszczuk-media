@@ -454,5 +454,19 @@
   "png": "metafory/teksty/2026-11-25.png",
   "metricool_id": 441473836,
   "metricool_uuid": "3226529279315561060"
+ },
+ {
+  "data": "2026-11-26",
+  "id": 10,
+  "zrodlo": "bank",
+  "layout": "G1",
+  "photo": "art:gauge",
+  "palette": "cream",
+  "font": "playfair",
+  "focus": null,
+  "tilt": 2,
+  "godzina": "12:30",
+  "spec": "metafory/teksty/2026-11-26.json",
+  "png": "metafory/teksty/2026-11-26.png"
  }
 ]
