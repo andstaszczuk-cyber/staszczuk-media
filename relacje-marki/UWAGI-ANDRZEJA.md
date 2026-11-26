@@ -9,3 +9,4 @@
 - 26.11.2026: pod adresem bloga zawsze drugi wiersz (cta2, żółty): Nie masz siły wpisać w przeglądarkę? To jak masz mieć siłę na zmianę? Napis na dole niżej (ctaBottom ok. 380, przy 4-linijkowym tytule 330), żeby nie nachodził na listę.
 - 26.11.2026: dół relacji estetyczniej: najpierw pytanie (pierwsze zdanie białe, drugie żółte), pod nim żółta pigułka z adresem: sprawdź na andrzejstaszczuk.pl/blog (adres pogrubiony). ctaBottom ok. 340 (przy dłuższej liście 290–300); między pigułką a podpisem @PSYCHOLOGSPORTU miejsce na naklejkę.
 - 26.11.2026: NIE dawaj rozwiązań na relacji z bloga (items puste, bez ramki z punktami). Zostaje: etykieta, tytuł-haczyk, podtytuł-pytanie, pytanie o siłę na zmianę i pigułka z adresem bloga (ctaBottom ok. 620, przy 4-linijkowym tytule 560). Rozwiązania są na blogu.
+- 26.11.2026: tytuł główny niżej (titleShift 240), napis z adresem niżej (ctaBottom ok. 430, przy krótkim tytule 470, przy 4 linijkach 380).

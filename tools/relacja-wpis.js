@@ -19,7 +19,7 @@ body{width:1080px;height:1920px;overflow:hidden;font-family:Pop;color:#fff;backg
 <svg style="position:absolute;right:-120px;top:-80px;opacity:.12" width="620" height="620" viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="none" stroke="#fff" stroke-width="3"/><circle cx="50" cy="50" r="30" fill="none" stroke="#fff" stroke-width="3"/><circle cx="50" cy="50" r="14" fill="#fff"/></svg>
 <div style="position:absolute;left:100px;right:100px;top:150px">
   <span style="display:inline-block;background:${Y};color:#14161C;font:800 32px Pop;letter-spacing:4px;padding:16px 36px;border-radius:999px">${esc(o.kicker)}</span>
-  <div style="margin-top:56px;font:800 104px/1.08 Pop;letter-spacing:-1px">${esc(o.t1)}<span style="color:${Y}">${esc(o.hl)}</span>${esc(o.t2)}</div>
+  <div style="margin-top:${56+(+o.titleShift||0)}px;font:800 104px/1.08 Pop;letter-spacing:-1px">${esc(o.t1)}<span style="color:${Y}">${esc(o.hl)}</span>${esc(o.t2)}</div>
   <div style="margin-top:36px;font:600 40px/1.35 Pop;color:rgba(255,255,255,.9)">${esc(o.sub)}</div>
 </div>
 ${items?`<div style="position:absolute;left:100px;right:100px;top:${o.itemsTop || 930}px;background:rgba(20,22,28,.55);border-radius:32px;padding:50px 50px">${items}</div>`:''}
