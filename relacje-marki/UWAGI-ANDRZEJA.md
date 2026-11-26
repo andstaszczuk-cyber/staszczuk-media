@@ -6,3 +6,4 @@
 - 26.11.2026 (telefon): punkty jako polecenie do działania (Zarządzaj otoczeniem), konkretniej (Każda godzina mniej w nocy).
 - 26.11.2026 (telefon): na dole napis z adresem: sprawdź na andrzejstaszczuk.pl/blog (nad miejscem na naklejkę); tytuł może kończyć się wielokropkiem.
 - 26.11.2026: te zasady obowiązują w każdej nowej relacji z bloga. Gdy tytuł ma 4 linijki, przesuń listę niżej (itemsTop 880, ctaBottom 420), żeby nic na siebie nie nachodziło.
+- 26.11.2026: pod adresem bloga zawsze drugi wiersz (cta2, żółty): Nie masz siły wpisać w przeglądarkę? To jak masz mieć siłę na zmianę? Napis na dole niżej (ctaBottom ok. 380, przy 4-linijkowym tytule 330), żeby nie nachodził na listę.

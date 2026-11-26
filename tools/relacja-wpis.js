@@ -1,4 +1,4 @@
-// Relacje z bloga (zasady Andrzeja 26.11.2026): bez strzałki; podtytuł jako pytanie do czytelnika; punkty jako polecenia, obrazowo; na dole cta: sprawdź na andrzejstaszczuk.pl/blog, pod nim wolne miejsce na naklejkę z linkiem (nazwa naklejki = tytuł wpisu). Pełna lista: relacje-marki/UWAGI-ANDRZEJA.md
+// Relacje z bloga (zasady Andrzeja 26.11.2026): bez strzałki; podtytuł jako pytanie do czytelnika; punkty jako polecenia, obrazowo; na dole cta: sprawdź na andrzejstaszczuk.pl/blog, pod nim wolne miejsce na naklejkę z linkiem (nazwa naklejki = tytuł wpisu). Pod adresem cta2 (Andrzej 26.11): Nie masz siły wpisać w przeglądarkę? To jak masz mieć siłę na zmianę? Pełna lista: relacje-marki/UWAGI-ANDRZEJA.md
 // Relacja IG 1080x1920 zapowiadająca wpis na blogu (@psychologsportu).
 // node relacja-wpis.js '{"kicker","t1","hl","t2","sub","items":[{"t","d"}],"cta"}' out.png
 const path = require('path');
@@ -23,7 +23,7 @@ body{width:1080px;height:1920px;overflow:hidden;font-family:Pop;color:#fff;backg
   <div style="margin-top:36px;font:600 40px/1.35 Pop;color:rgba(255,255,255,.9)">${esc(o.sub)}</div>
 </div>
 <div style="position:absolute;left:100px;right:100px;top:${o.itemsTop || 930}px;background:rgba(20,22,28,.55);border-radius:32px;padding:50px 50px">${items}</div>
-${o.cta?`<div style="position:absolute;left:100px;right:100px;bottom:${o.ctaBottom||250}px;text-align:center;font:800 42px Pop">${esc(o.cta)}</div>`:''}
+${o.cta?`<div style="position:absolute;left:100px;right:100px;bottom:${o.ctaBottom||250}px;text-align:center;font:800 42px Pop">${esc(o.cta)}${o.cta2?`<div style="margin-top:18px;font:700 34px/1.3 Pop;color:${Y}">${esc(o.cta2)}</div>`:''}</div>`:''}
 <div style="position:absolute;left:0;right:0;bottom:90px;text-align:center;font:700 30px Pop;letter-spacing:6px;opacity:.9">@PSYCHOLOGSPORTU</div>
 </body></html>`;
 render(html, process.argv[3], 1080, 1920).then(() => console.log('ok'));
