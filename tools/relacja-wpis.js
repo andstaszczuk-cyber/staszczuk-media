@@ -22,7 +22,7 @@ body{width:1080px;height:1920px;overflow:hidden;font-family:Pop;color:#fff;backg
   <div style="margin-top:56px;font:800 104px/1.08 Pop;letter-spacing:-1px">${esc(o.t1)}<span style="color:${Y}">${esc(o.hl)}</span>${esc(o.t2)}</div>
   <div style="margin-top:36px;font:600 40px/1.35 Pop;color:rgba(255,255,255,.9)">${esc(o.sub)}</div>
 </div>
-<div style="position:absolute;left:100px;right:100px;top:${o.itemsTop || 930}px;background:rgba(20,22,28,.55);border-radius:32px;padding:50px 50px">${items}</div>
+${items?`<div style="position:absolute;left:100px;right:100px;top:${o.itemsTop || 930}px;background:rgba(20,22,28,.55);border-radius:32px;padding:50px 50px">${items}</div>`:''}
 ${(o.cta||o.cta2)?`<div style="position:absolute;left:90px;right:90px;bottom:${+o.ctaBottom||250}px;text-align:center">${o.cta2?(()=>{const p=String(o.cta2).split(/(?<=\?)\s+/);return `<div style="font:700 38px/1.3 Pop;color:#fff">${esc(p[0])}</div>${p.length>1?`<div style="font:700 38px/1.3 Pop;color:${Y};margin-top:6px">${esc(p.slice(1).join(' '))}</div>`:''}`})():''}${o.cta?(()=>{const m=String(o.cta).match(/^(.*?\s)?(\S+\.\S+)$/);return `<div style="display:inline-block;margin-top:${o.cta2?30:0}px;background:${Y};color:#14161C;border-radius:999px;padding:18px 42px;font:600 34px Pop;box-shadow:0 10px 30px rgba(0,0,0,.25)">${m?`${esc(m[1]||'')}<b style="font-weight:800">${esc(m[2])}</b>`:esc(o.cta)}</div>`})():''}</div>`:''}
 <div style="position:absolute;left:0;right:0;bottom:90px;text-align:center;font:700 30px Pop;letter-spacing:6px;opacity:.9">@PSYCHOLOGSPORTU</div>
 </body></html>`;
