@@ -5,3 +5,4 @@
 - 26.11.2026 (telefon): punkty pełniejszym, obrazowym zdaniem z jego metafory (Łyżką, chochlą, a potem wiaderkiem), nie samymi rzeczownikami.
 - 26.11.2026 (telefon): punkty jako polecenie do działania (Zarządzaj otoczeniem), konkretniej (Każda godzina mniej w nocy).
 - 26.11.2026 (telefon): na dole napis z adresem: sprawdź na andrzejstaszczuk.pl/blog (nad miejscem na naklejkę); tytuł może kończyć się wielokropkiem.
+- 26.11.2026: te zasady obowiązują w każdej nowej relacji z bloga. Gdy tytuł ma 4 linijki, przesuń listę niżej (itemsTop 880, ctaBottom 420), żeby nic na siebie nie nachodziło.

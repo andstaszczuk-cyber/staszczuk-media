@@ -1,4 +1,4 @@
-// Bez strzałki (decyzja Andrzeja 26.11.2026): dół zostaje pusty na naklejkę Link z nazwą wpisu; cta opcjonalne, domyślnie brak.
+// Relacje z bloga (zasady Andrzeja 26.11.2026): bez strzałki; podtytuł jako pytanie do czytelnika; punkty jako polecenia, obrazowo; na dole cta: sprawdź na andrzejstaszczuk.pl/blog, pod nim wolne miejsce na naklejkę z linkiem (nazwa naklejki = tytuł wpisu). Pełna lista: relacje-marki/UWAGI-ANDRZEJA.md
 // Relacja IG 1080x1920 zapowiadająca wpis na blogu (@psychologsportu).
 // node relacja-wpis.js '{"kicker","t1","hl","t2","sub","items":[{"t","d"}],"cta"}' out.png
 const path = require('path');
