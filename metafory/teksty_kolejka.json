@@ -267,7 +267,7 @@
   "ocena": null,
   "tekst": "Lęk rzadko maleje przed działaniem. Zwykle zaczyna maleć dopiero w trakcie, kiedy robisz to, czego się boisz.",
   "zrodlo": "zoom 2026-10-30",
-  "uzyta": null
+  "uzyta": "2026-11-27"
  },
  {
   "id": 1269,
@@ -13157,6 +13157,46 @@
   "ocena": null,
   "tekst": "W każdym zawodzie są rzeczy nieprzyjemne. Pytanie, czy masz w sobie tyle energii i sensu, żeby przez nie przejść.",
   "zrodlo": "zoom 2026-11-24",
+  "uzyta": null
+ },
+ {
+  "id": 1320,
+  "nr_banku": null,
+  "temat": "krytyk wewnętrzny",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Za każdą krytyką, także tą w twojej głowie, stoi jakaś obawa, bo organizm chce cię chronić, tylko robi to nieumiejętnie. Zamiast się z nią kłócić, zapytaj: o co woła i przed czym chce mnie uchronić?",
+  "zrodlo": "zoom 2026-11-26",
+  "uzyta": null
+ },
+ {
+  "id": 1321,
+  "nr_banku": null,
+  "temat": "rozwój",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Są dwie drogi: możesz pracować nad obszarami do rozwoju albo powiększać przewagę w tym, co już idzie ci świetnie. Warto świadomie wybrać, na którą idziesz.",
+  "zrodlo": "zoom 2026-11-26",
+  "uzyta": null
+ },
+ {
+  "id": 1322,
+  "nr_banku": null,
+  "temat": "błąd i reset",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Po straconym punkcie wielu zawodników próbuje od razu nadrabiać. Lepiej zrobić reset i skupić się na tym, żeby następną akcję zrobić tak, jak trzeba.",
+  "zrodlo": "zoom 2026-11-26",
+  "uzyta": null
+ },
+ {
+  "id": 1323,
+  "nr_banku": null,
+  "temat": "rozumienie ludzi",
+  "typ": "zdanie",
+  "ocena": null,
+  "tekst": "Są dwie drogi: oceniającego i uczącego się. Oceniający pyta, kto ma rację. Uczący się pyta, czego ta osoba potrzebuje i co może z tego wziąć dla siebie.",
+  "zrodlo": "zoom 2026-11-27",
   "uzyta": null
  }
 ]

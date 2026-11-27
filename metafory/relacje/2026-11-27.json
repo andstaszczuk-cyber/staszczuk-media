@@ -1,0 +1,10 @@
+{
+ "layout": "G1",
+ "svg": "<path d='M300 330 C250 260 350 220 300 150' fill='none' stroke='{acc}' stroke-width='22' stroke-linecap='round' opacity='.7'/><path d='M500 330 C450 250 550 210 500 120' fill='none' stroke='{acc}' stroke-width='22' stroke-linecap='round' opacity='.7'/><path d='M700 330 C650 260 750 220 700 150' fill='none' stroke='{acc}' stroke-width='22' stroke-linecap='round' opacity='.7'/><rect x='170' y='400' width='660' height='60' rx='30' fill='{dark}'/><path d='M200 470 H800 V620 C800 700 740 760 660 760 H340 C260 760 200 700 200 620 Z' fill='{dark}'/><rect x='90' y='520' width='120' height='40' rx='20' fill='{dark}'/><rect x='790' y='520' width='120' height='40' rx='20' fill='{dark}'/><path d='M270 520 H730' stroke='{soft}' stroke-width='14' stroke-linecap='round' opacity='.5'/><path d='M500 790 C440 850 440 900 500 940 C560 900 560 850 500 790 Z' fill='{acc}'/><path d='M360 830 C320 880 330 910 360 935 C390 910 395 875 360 830 Z' fill='{acc}' opacity='.8'/><path d='M640 830 C605 880 610 910 640 935 C670 910 680 875 640 830 Z' fill='{acc}' opacity='.8'/>",
+ "palette": "cream",
+ "font": "playfair",
+ "tilt": -2,
+ "kicker": "co z tym, co już wiesz",
+ "headline": "Wiedza jak *zupa*",
+ "body": "Przeczytasz, zrozumiesz i myślisz: przecież to wiem. A głowa szybko zapomina, więc to, czego się uczysz, trzeba odświeżać jak zupę, którą podgrzewasz. *Powtarzaj, żeby nie wystygło.*"
+}

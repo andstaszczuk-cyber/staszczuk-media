@@ -470,5 +470,19 @@
   "png": "metafory/teksty/2026-11-26.png",
   "metricool_id": 442866217,
   "metricool_uuid": "-6887901294666166652"
+ },
+ {
+  "data": "2026-11-27",
+  "id": 1268,
+  "zrodlo": "zoom",
+  "layout": "L4",
+  "photo": "metafory/zdjecia/9393_kolor.jpg",
+  "palette": "red",
+  "font": "bebas",
+  "focus": 30,
+  "tilt": 2,
+  "godzina": "12:30",
+  "spec": "metafory/teksty/2026-11-27.json",
+  "png": "metafory/teksty/2026-11-27.png"
  }
 ]

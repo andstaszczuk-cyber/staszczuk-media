@@ -1,5 +1,5 @@
 {
- "ostatnio_do": "2026-11-26T09:42:00Z",
+ "ostatnio_do": "2026-11-27T09:50:00Z",
  "spotkania": [
   {
    "uuid": "04C47BC7-7427-4DC9-81FB-9F764243DDE5",
@@ -694,6 +694,38 @@
    "data": "2026-11-26",
    "temat": "sesja z zawodnikiem",
    "dodano_mysli": 0,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "7F113643-50A8-4D86-B6BD-44F92460D4D6",
+   "data": "2026-11-26",
+   "temat": "sesja z zawodniczką",
+   "dodano_mysli": 1,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "06F3C0F0-6CE9-4CE9-8340-E2E15F723A47",
+   "data": "2026-11-26",
+   "temat": "sesja z zawodniczką",
+   "dodano_mysli": 1,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "481EB77B-E075-44E9-A5B5-1D92D49B305A",
+   "data": "2026-11-27",
+   "temat": "sesja z zawodniczką",
+   "dodano_mysli": 1,
+   "dodano_metafor": 0,
+   "status": "przetworzone"
+  },
+  {
+   "uuid": "F474893D-DD83-4EB6-B7FB-3687DB3A24BE",
+   "data": "2026-11-27",
+   "temat": "sesja z zawodnikiem",
+   "dodano_mysli": 1,
    "dodano_metafor": 0,
    "status": "przetworzone"
   }
