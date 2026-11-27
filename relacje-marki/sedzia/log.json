@@ -826,5 +826,29 @@
   "art": "mirror",
   "metricool_id": 443686391,
   "uuid": "-7058344602463877892"
+ },
+ {
+  "data": "2026-12-25",
+  "godzina": "09:00",
+  "kicker": "pierwszy dzień świąt",
+  "headline": "Cisza *też regeneruje*",
+  "layout": "G4",
+  "palette": "s_dark",
+  "font": "bebas",
+  "art": "waves",
+  "metricool_id": 444907046,
+  "uuid": "7548220857089346763"
+ },
+ {
+  "data": "2026-12-25",
+  "godzina": "19:30",
+  "kicker": "nowi sędziowie",
+  "headline": "Zachęć kogoś *do gwizdka*",
+  "layout": "G7",
+  "palette": "s_red",
+  "font": "raj",
+  "art": "path",
+  "metricool_id": 444907062,
+  "uuid": "-8158457680901289840"
  }
 ]

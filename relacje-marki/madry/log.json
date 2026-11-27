@@ -826,5 +826,29 @@
   "art": "waves",
   "metricool_id": 443686519,
   "uuid": "-846902401510454517"
+ },
+ {
+  "data": "2026-12-25",
+  "godzina": "09:00",
+  "kicker": "woda",
+  "headline": "Szklanka wody *na widoku*",
+  "layout": "G4",
+  "palette": "m_ciemny",
+  "font": "raj",
+  "art": "battery",
+  "metricool_id": 444907151,
+  "uuid": "-1164818077690540719"
+ },
+ {
+  "data": "2026-12-25",
+  "godzina": "19:30",
+  "kicker": "śnieg",
+  "headline": "Bałwan *też jest ruchem*",
+  "layout": "G1",
+  "palette": "m_jasny",
+  "font": "bebas",
+  "art": "mountain",
+  "metricool_id": 444907169,
+  "uuid": "1559441225409053533"
  }
 ]
