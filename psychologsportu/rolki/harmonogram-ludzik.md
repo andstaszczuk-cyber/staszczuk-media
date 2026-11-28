@@ -33,3 +33,4 @@ Status: czeka na nagranie głosu. Plan w Metricool dopiero po otrzymaniu wersji 
 | 2027-02-18 | 33 | 28 Cele poza zasięgiem | 2027-02-18-cele-poza-zasiegiem |
 | 2027-02-21 | 34 | 29 Czytanie w myślach | 2027-02-21-czytanie-w-myslach |
 | 2027-02-25 | 35 | 31 Dołek nie trwa wiecznie | 2027-02-25-dolek-nie-trwa-wiecznie |
+| 2027-02-28 | 36 | 36 Progres czy przetrenowanie | 2027-02-28-progres-czy-przetrenowanie |
