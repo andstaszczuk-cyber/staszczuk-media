@@ -2,17 +2,17 @@
  "sceny": [
   {
    "czas": 6,
-   "tekst": "Ciało mówi: mam dość. Głowa mówi: *no pain, no gain*.",
+   "tekst": "Ciało podpowiada Ci: mam dość, a głowa: *no pain, no gain*.",
    "rys": "npng"
   },
   {
    "czas": 5,
-   "tekst": "Wydaje Ci się, że robisz *progres*?",
+   "tekst": "Wydaje Ci się, że tak zrobisz *progres*?",
    "rys": "lift"
   },
   {
    "czas": 6,
-   "tekst": "Te powtórzenia to już *produkcja zmęczenia*.",
+   "tekst": "Tymczasem te powtórzenia to już *produkcja zmęczenia*.",
    "rys": "reps"
   },
   {
@@ -37,12 +37,12 @@
   },
   {
    "czas": 5,
-   "tekst": "Złapiesz to wcześnie? *Tydzień, dwa* luzu i wracasz.",
+   "tekst": "Jeżeli złapiesz to wcześniej, *tydzień, dwa* luzu, to szybciej się odbudowujesz.",
    "rys": "bed"
   },
   {
    "czas": 5,
-   "tekst": "Udajesz, że nic się nie dzieje? Przerwa na *tygodnie*, czasem miesiące.",
+   "tekst": "A jeżeli udajesz, że nic się nie dzieje? Przerwa na *tygodnie*, czasem miesiące.",
    "rys": "crutch"
   },
   {
@@ -62,12 +62,12 @@
   },
   {
    "czas": 5,
-   "tekst": "Słabiej *ściskasz* dłoń.",
+   "tekst": "Unosisz *mniejszy* ciężar.",
    "rys": "grip"
   },
   {
    "czas": 6,
-   "tekst": "Na treningu idzie gorzej, mimo że trenujesz więcej.",
+   "tekst": "Na treningu idzie gorzej, mimo że trenujesz więcej i mocniej.",
    "rys": "perf"
   },
   {
@@ -82,7 +82,7 @@
   },
   {
    "czas": 5,
-   "tekst": "Gorszy nastrój i *apatia*.",
+   "tekst": "Pojawia się gorszy nastrój i *apatia*.",
    "rys": "fl3"
   },
   {

@@ -16,7 +16,7 @@ Poprawki Andrzeja 28.11: na start scenka, że ciało nie ma siły, a głowa mów
 11. Rano tętno spoczynkowe jest wyższe z tygodnia na tydzień.
 12. Słabiej skaczesz w górę i w dal.
 13. Słabiej ściskasz dłoń.
-14. Na treningu idzie gorzej, mimo że trenujesz więcej.
+14. Na treningu idzie gorzej, mimo że trenujesz więcej i mocniej.
 15. Gorzej śpisz, waga leci w dół, łapiesz infekcje.
 16. Ciągle jesteś zmęczony, nie chce Ci się trenować, trudniej się skupić.
 17. Gorszy nastrój i apatia.
@@ -34,6 +34,6 @@ I tu ciekawostka. Jako pierwszy męczy się układ nerwowy. Ciało pokaże Ci to
 
 Jeśli złapiesz to wcześnie i na jakiś czas odpuścisz intensywność albo objętość, to zwykle po tygodniu, dwóch wszystko wraca do normy. Ale jeśli będziesz udawał, że nic się nie dzieje, przychodzą objawy fizyczne. Wtedy przerwa trwa tygodnie, czasem miesiące, a po drodze łatwo o kontuzję.
 
-Po czym poznasz, że jest za dużo? Rano po przebudzeniu zmierz tętno. Jeśli z tygodnia na tydzień rośnie, to pierwszy sygnał. Zrób prosty test: wyskok w górę i skok w dal z miejsca. Skaczesz słabiej? Kolejny sygnał. Siła ścisku dłoni spada? Następny. Na treningu idzie Ci gorzej, mimo że trenujesz więcej. Gorzej śpisz, waga leci w dół, co chwilę łapiesz infekcje. Ciągle jesteś zmęczony, nie chce Ci się trenować, trudniej Ci się skupić. Do tego gorszy nastrój i apatia.
+Po czym poznasz, że jest za dużo? Rano po przebudzeniu zmierz tętno. Jeśli z tygodnia na tydzień rośnie, to pierwszy sygnał. Zrób prosty test: wyskok w górę i skok w dal z miejsca. Skaczesz słabiej? Kolejny sygnał. Unosisz mniejszy ciężar niż zwykle? Następny. Na treningu idzie Ci gorzej, mimo że trenujesz więcej i mocniej. Gorzej śpisz, waga leci w dół, co chwilę łapiesz infekcje. Ciągle jesteś zmęczony, nie chce Ci się trenować, trudniej Ci się skupić. Do tego gorszy nastrój i apatia.
 
 Jeśli widzisz u siebie trzy takie sygnały, zwolnij. Regeneracja to też część planu. Skup się na procesie.

@@ -59,8 +59,8 @@ function scene(k,l,d){const cx=W/2;
   for(let q=1;q<=3;q++){x.fillStyle=q<=wk?Y:'rgba(255,255,255,.25)';rr(cx-150+(q-1)*110,1250,80,[0,40,70,100][q],8);x.fill()}}
  if(k=='jump'){const jh=Math.abs(Math.sin(l*2.6))*lerp(220,70,cl(l/d));man({x:300,y:GY-jh,s:0.7,feet:[[-50,0],[50,0]],hands:[[-110,-130],[110,-130]]});line([[220,GY-250],[380,GY-250]],Y,8);x.fillStyle=Y;x.font='600 28px Pop';x.textAlign='center';x.fillText('rekord',300,GY-266);
   const dx=lerp(0,1,cl(l/d));const far=lerp(340,190,cl(l/d));line([[620,GY+40],[620+340,GY+40]],'rgba(255,255,255,.4)',6);line([[620+340,GY+20],[620+340,GY+60]],Y,8);man({x:620+far*Math.min(1,(l*0.9)%1.2),y:GY,s:0.5,lean:20,feet:[[-60,0],[60,0]],hands:[[-90,60],[90,60]]});x.fillStyle=WH;x.font='600 28px Pop';x.fillText('skok w dal',790,GY+90)}
- if(k=='grip'){const sq=0.5+0.5*Math.sin(l*4);const val=Math.round(lerp(52,41,cl(l/d)));x.strokeStyle=WH;x.lineWidth=10;rr(cx-90,960,180,260,40);x.stroke();line([[cx-40,1000+sq*30],[cx-40,1180]],Y,14);line([[cx+40,1000+sq*30],[cx+40,1180]],Y,14);
-  x.fillStyle=WH;x.font='800 80px Pop';x.textAlign='center';x.fillText(val+' kg',cx,1320);arrow(cx+190,1200,cx+190,1310,'#ff4d5e',12)}
+ if(k=='grip'){const r=Math.abs(Math.sin(l*2.4));const kg=Math.round(lerp(100,75,cl(l/(d-1))));const m=man({x:cx-120,y:GY,hands:[[-150,lerp(10,-150,r)],[150,lerp(10,-150,r)]]});bar(cx-120,m.hands[0][1],420,lerp(190,120,cl(l/(d-1))));
+  x.fillStyle=WH;x.font='800 80px Pop';x.textAlign='center';x.fillText(kg+' kg',cx+270,1080);arrow(cx+270,1120,cx+270,1240,'#ff4d5e',12)}
  if(k=='perf'){const pts=[[200,1250],[340,1150],[480,1080],[620,1120],[760,1200],[900,1280]];const n=Math.min(pts.length,1+Math.floor(l/0.6));line(pts.slice(0,n),Y,12);pts.slice(0,n).forEach(p=>{x.fillStyle=WH;x.beginPath();x.arc(p[0],p[1],14,0,7);x.fill()});
   x.fillStyle=WH;x.font='600 32px Pop';x.textAlign='left';x.fillText('wyniki',200,1320);x.textAlign='right';x.fillText('treningi →',900,1320);meter(200,920,'ilość treningów',cl(0.3+l/d*0.7),'#ff4d5e')}
  if(k=='fl1')flags(['gorszy sen','waga leci w dół','częste infekcje'],l,980);
