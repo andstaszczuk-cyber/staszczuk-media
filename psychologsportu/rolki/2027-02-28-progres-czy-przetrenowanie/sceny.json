@@ -1,0 +1,99 @@
+{
+ "sceny": [
+  {
+   "czas": 6,
+   "tekst": "Ciało mówi: mam dość. Głowa mówi: *no pain, no gain*.",
+   "rys": "npng"
+  },
+  {
+   "czas": 5,
+   "tekst": "Wydaje Ci się, że robisz *progres*?",
+   "rys": "lift"
+  },
+  {
+   "czas": 6,
+   "tekst": "Te powtórzenia to już *produkcja zmęczenia*.",
+   "rys": "reps"
+  },
+  {
+   "czas": 5,
+   "tekst": "A tak naprawdę się *przetrenowujesz*.",
+   "rys": "crush"
+  },
+  {
+   "czas": 5,
+   "tekst": "Trening + regeneracja = *forma*",
+   "rys": "eq"
+  },
+  {
+   "czas": 5,
+   "tekst": "Bez regeneracji zostaje Ci samo *obciążenie*",
+   "rys": "eq0"
+  },
+  {
+   "czas": 6,
+   "tekst": "Najpierw męczy się *układ nerwowy*. Ciało pokaże to dużo później.",
+   "rys": "nerv"
+  },
+  {
+   "czas": 5,
+   "tekst": "Złapiesz to wcześnie? *Tydzień, dwa* luzu i wracasz.",
+   "rys": "bed"
+  },
+  {
+   "czas": 5,
+   "tekst": "Udajesz, że nic się nie dzieje? Przerwa na *tygodnie*, czasem miesiące.",
+   "rys": "crutch"
+  },
+  {
+   "czas": 4,
+   "tekst": "Po czym poznasz, że jest *za dużo*?",
+   "rys": "q"
+  },
+  {
+   "czas": 5,
+   "tekst": "Rano *tętno spoczynkowe* jest wyższe z tygodnia na tydzień.",
+   "rys": "hr"
+  },
+  {
+   "czas": 5,
+   "tekst": "Słabiej *skaczesz* w górę i w dal.",
+   "rys": "jump"
+  },
+  {
+   "czas": 5,
+   "tekst": "Słabiej *ściskasz* dłoń.",
+   "rys": "grip"
+  },
+  {
+   "czas": 6,
+   "tekst": "Na treningu idzie gorzej, mimo że trenujesz więcej.",
+   "rys": "perf"
+  },
+  {
+   "czas": 7,
+   "tekst": "Gorzej śpisz, waga leci w dół, łapiesz *infekcje*.",
+   "rys": "fl1"
+  },
+  {
+   "czas": 7,
+   "tekst": "Ciągle jesteś zmęczony, nie chce Ci się trenować, trudniej się *skupić*.",
+   "rys": "fl2"
+  },
+  {
+   "czas": 5,
+   "tekst": "Gorszy nastrój i *apatia*.",
+   "rys": "fl3"
+  },
+  {
+   "czas": 5,
+   "tekst": "Trzy takie sygnały? *Zwolnij.*",
+   "rys": "stop"
+  },
+  {
+   "czas": 5,
+   "tekst": "Skup się na *procesie*.",
+   "rys": "end"
+  }
+ ]
+}
